@@ -1,0 +1,1250 @@
+{
+  "catalog": "JonataOliveiraa/Bunny-Loader-Mods",
+  "commit": "1dff6dc 2026-11-06",
+  "mods": [
+    {
+      "id": "abusegoblin",
+      "uid": "31b7ee57-73c8-4a66-ab91-c44440430ee7",
+      "name": "Abuse Goblin",
+      "version": "1.0.0",
+      "sha256": "833c103fb442129a6cc4b7550578e9530a2e1558a95f22803ad6a989262a513b",
+      "language": "js",
+      "authors": [
+        "Animatak_",
+        "al"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "atmospheric-torches",
+      "uid": "0c2e1d93-1149-4942-adb2-860ad8a9b965",
+      "name": "Atmospheric Torches",
+      "version": "1.0.0",
+      "sha256": "81a591850eab95727ba967cc3c1de18b71c7ddb61b265923e7026c4ecf9dd081",
+      "language": "js",
+      "authors": [
+        "Orion"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "bestiarydisplays",
+      "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
+      "name": "Bestiary Displays",
+      "version": "1.1.0",
+      "sha256": "f0fdf6141a9360a34830c88e323d9d7bbd571cb291f061732c2cd99629d46a30",
+      "language": "js",
+      "authors": [
+        "JaquavionBennet",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "better-reforge",
+      "uid": "9c6ebfc9-4520-490d-942a-348c41648a4d",
+      "name": "Better Reforge",
+      "version": "1.0.1",
+      "sha256": "b1cee9b0b23e60c5a26abe12ed115733b4bbe16171bfb9c455052803cec927a4",
+      "language": "js",
+      "authors": [
+        "GST378"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "boss-colored-relics",
+      "uid": "e2f97cd2-138a-5e31-bbab-f276bd5a9cfb",
+      "name": "Boss-Colored Relics",
+      "version": "1.0",
+      "sha256": "26ab5ee74aac134955fbbeee711dd888e6f860a73f8e6b0a85ab3760f74fb642",
+      "language": "none",
+      "authors": [
+        "The Wise Willow"
+      ],
+      "status": "no-code",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "bosschecklist",
+      "uid": "5bd9553e-8439-4ddb-a12c-805b34b855e8",
+      "name": "Boss Checklist",
+      "version": "1.1.1",
+      "sha256": "dda08edb7ad62d483b4be41e4349e081f915fe7304c18d04f839af92cfea4aa5",
+      "language": "js",
+      "authors": [
+        "jopojelly",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "bosscursor",
+      "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
+      "name": "Boss Cursor",
+      "version": "1.1.0",
+      "sha256": "05f567352afcf759cd783dc061675d62e7cb161225144338b4b91a122f2e1f77",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "bunnysocial",
+      "uid": "bcb72e90-3716-4cd1-b8a4-866a963958e5",
+      "name": "BunnySocial",
+      "version": "1.0.0",
+      "sha256": "d81318260ccc552d2cc385d198d1751d1100a23fb88bd73c49840acf8aad014b",
+      "language": "js",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "chestpeek",
+      "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
+      "name": "ChestPeek",
+      "version": "0.1.0",
+      "sha256": "cc01b57109e0806582a907912f7472aad8b2cf2e79a15d7ed0341cc9f29c673b",
+      "language": "js",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "declared",
+      "license": "GPL-3.0",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "coloreddamagetypes",
+      "uid": "e613a447-d93c-49ca-8c74-f88accbfa996",
+      "name": "Colored Damage Types",
+      "version": "1.1.0",
+      "sha256": "8a07666790141d4cec4db5ac7fce0e92bd87067574d6406ab1baa9cbe7440c33",
+      "language": "js",
+      "authors": [
+        "PvtFudgepants",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "consolaria",
+      "uid": "dae471c1-1177-4640-9cb7-68e29de58f6b",
+      "name": "Consolaria Mobile",
+      "version": "1.0.2",
+      "sha256": "819223975836014733808a23ef3c8da48b227106fa62c644ffa3fea7428950d2",
+      "language": "js",
+      "authors": [
+        "Consolaria Team"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) [2022] [RoA Gang]",
+      "note": "The copyright notice has template brackets: \"[2022] [RoA Gang]\". Copy it as is."
+    },
+    {
+      "id": "cooleritemvisualeffect",
+      "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
+      "name": "Cooler Item Visual Effect — Bunny Port",
+      "version": "1.0.9-bunny.9",
+      "sha256": "f0f9a9f328f4b7a6b1762a8ba68ea897b1857dcd7ecf2ace5c12035d7c245048",
+      "language": "js",
+      "authors": [
+        "Log Spiral (Original Creator)",
+        "Castorzeira (port)"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "coyote-frames",
+      "uid": "a4f0d04b-f2f0-499b-b4b8-6d89e4bcbd6a",
+      "name": "Coyote Frames",
+      "version": "1.0.0",
+      "sha256": "1d2266231ef0dba0d0dbf1e432c8b3880048efaca1e3f91525eb9897189f6015",
+      "language": "js",
+      "authors": [
+        "Gorffy, Ink of the Eternity, Litos the Litium"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2024 Ink of the Eternity",
+      "note": ""
+    },
+    {
+      "id": "darkfantasyhealthmana",
+      "uid": "62f7b9da-e712-5f22-b943-dbf5474d5b4c",
+      "name": "Dark Fantasy Health/Mana",
+      "version": "1.1.0",
+      "sha256": "12becbea1fe3082f4cff51a5efe5233065db517dbcc3ce0d525249fae8927a16",
+      "language": "none",
+      "authors": [
+        "Santartica"
+      ],
+      "status": "no-code",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "defaultdash",
+      "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
+      "name": "Default Dash",
+      "version": "1.0.0",
+      "sha256": "9bf10fc73fc74578a4b64641fd7956709ecb34d962471a315fcc5a56bd140256",
+      "language": "cs",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": "Already in C#: it needs a package update, not a port. The manifest says \"no license\"."
+    },
+    {
+      "id": "devtools",
+      "uid": "22b95101-7032-49ab-92a8-468f3030aa41",
+      "name": "Dev Tools",
+      "version": "1.0.1",
+      "sha256": "a42b55558ad2ceae7a6dba13c62429464b2b179d316d192cffcded3bb76c01ad",
+      "language": "js",
+      "authors": [
+        "GST378"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "directionalswings",
+      "uid": "cece9409-844d-476a-8953-1a59de78db92",
+      "name": "Directional Swings",
+      "version": "1.1.1",
+      "sha256": "c38525616daab42fe75799ec0d9428da7a5fb25e87d5a8570fc01b4e3569e87a",
+      "language": "js",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "declared",
+      "license": "MIT",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "disablecorruptionspread",
+      "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
+      "name": "Begone, Evil! (Disable Evil Biome Spread)",
+      "version": "1.0",
+      "sha256": "5b323972951d9d7b19666f5558f5e88342d3aac043bfbbec0b53615ea90e86e1",
+      "language": "js",
+      "authors": [
+        "Mantovani",
+        "jopojelly"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "displaybase",
+      "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
+      "name": "Item Display Base",
+      "version": "1.0.2",
+      "sha256": "a5acb72327b2e4cdac8fff4541706bfe8002eff4201890da0764f28ac11e9299",
+      "language": "js",
+      "authors": [
+        "Cleyera",
+        "Animatak_",
+        "Cavalier"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "dobrodedano",
+      "uid": "95728a1c-1fb7-4ed7-af5b-d12bdec38e46",
+      "name": "Dobro de Dano",
+      "version": "1.0.0",
+      "sha256": "1ce2d058efe8ca4b021baa5f5abc6f895d47c18d425eb764822024b05ef7b47c",
+      "language": "js",
+      "authors": [
+        "Bunny Loader"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2026 Bunny Loader",
+      "note": ""
+    },
+    {
+      "id": "dont-starve-inspired-npc-portraits",
+      "uid": "e2f97cd2-138a-5e31-bbab-f206bd5a9cfb",
+      "name": "Don't Starve inspired NPC portraits",
+      "version": "1.0.0",
+      "sha256": "8fd0e46ba2c2013e6bf6d2c310fe208eb9a470e857c92e1f43b7a40d14189f39",
+      "language": "none",
+      "authors": [
+        "Fanec"
+      ],
+      "status": "no-code",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "extendedzoom",
+      "uid": "67770d24-4d80-41b4-bde9-9a1840caf2c8",
+      "name": "Zoom Tweaks",
+      "version": "0.6.2",
+      "sha256": "6777076cccdffb2c125446c1249f6751251d89a5b526c680e81d43f186dcf9b8",
+      "language": "js",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "declared",
+      "license": "MIT",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "flatseed",
+      "uid": "18be738c-3c45-4191-b666-e0801f602b2a",
+      "name": "Flat Seed",
+      "version": "1.0.0",
+      "sha256": "6d2520422f8a08da58359c89515c1e3050dadbc492bb93c3231a56dafdb8119a",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "fonte-aclonica",
+      "uid": "72922151-b656-35dd-a8f9-a7a272f12b25",
+      "name": "Fonte Aclonica",
+      "version": "1.0.0",
+      "sha256": "964f94136ee90d76c98bcc8954bf26fd6398b6d0ca6f653417529ff4a383052f",
+      "language": "none",
+      "authors": [
+        "Astigmatic",
+        "Potato"
+      ],
+      "status": "no-code",
+      "license": "Apache-2.0",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "fonte-ale-and-wenches",
+      "uid": "2c4b5895-88ad-30f5-9c0a-ba1a4e0310c1",
+      "name": "Fonte Ale and Wenches",
+      "version": "1.0.0",
+      "sha256": "904078cb6ffe792be995986fa1893c1420614616da8e3b06042131b76736525f",
+      "language": "none",
+      "authors": [
+        "Nate Piekos (Blambot)",
+        "Potato"
+      ],
+      "status": "no-code",
+      "license": "Freeware não comercial (Blambot)",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "fonte-pescadero",
+      "uid": "ca37f1dd-ed7c-3db5-b46c-4c3c958fc54a",
+      "name": "Fonte Pescadero",
+      "version": "1.0.0",
+      "sha256": "f33f5335fe6aea5127cdb17778f86e2ffd9513747200496304e045059c0bdf35",
+      "language": "none",
+      "authors": [
+        "Microsoft",
+        "Mirasein",
+        "Potato"
+      ],
+      "status": "no-code",
+      "license": "Fonte Pescadero da Microsoft",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "fonte-ringbearer",
+      "uid": "ad3d1b57-654e-33f3-a5b0-e09ea96484f0",
+      "name": "Fonte Ringbearer",
+      "version": "1.0.0",
+      "sha256": "d7c7655d4389d97104935d9e4e419aa9e72701b1f94d2da96dd86c42ca77f0c3",
+      "language": "none",
+      "authors": [
+        "Pete Klassen",
+        "Potato"
+      ],
+      "status": "no-code",
+      "license": "Gratuita para uso pessoal",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "fontecomicneue",
+      "uid": "19e3900c-83a2-4e9f-9724-1a38f82dcae9",
+      "name": "Fonte Comic Neue",
+      "version": "1.0.0",
+      "sha256": "57bc9123f5e2c2a4136d5c6a62e79e500e19362603364596c623a351d80746af",
+      "language": "none",
+      "authors": [
+        "Bunny Loader",
+        "Comic Neue Project Authors"
+      ],
+      "status": "no-code",
+      "license": "OFL-1.1",
+      "hasLicenseText": true,
+      "copyright": "Copyright 2014 The Comic Neue Project Authors (https://github.com/crozynski/comicneue)",
+      "note": ""
+    },
+    {
+      "id": "gnorpbuilder",
+      "uid": "064e2318-32a8-4c41-a625-bcc8388ced91",
+      "name": "Gnorp's Builder",
+      "version": "1.3.8.5",
+      "sha256": "28f97ae3fb580dcaafc1da1810be806785b07ac73b9ed603a6709eac33f86580",
+      "language": "js",
+      "authors": [
+        "Korlex",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "gorilla",
+      "uid": "4ef70487-0ffd-4b37-adbd-9e9a403d5307",
+      "name": "Gorilla",
+      "version": "1.0.0",
+      "sha256": "43ef50769cc11ee71d32d63ecd0859fddfb5669784b9a77eaa4e9687ee6fa3a1",
+      "language": "js",
+      "authors": [
+        "ported by Animatak"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": "The author field only names who made the port; the original creator is not identified."
+    },
+    {
+      "id": "gravity-dont-flip-screen",
+      "uid": "12754257-00fe-4c58-b21b-7af0c5faf7b3",
+      "name": "Gravitation Don't Flip the Screen",
+      "version": "1.0.0",
+      "sha256": "218c21cb06cef9e82d0d09a379e889c02d230d7a56185f52e42c2a1997dbf730",
+      "language": "js",
+      "authors": [
+        "Cyrillya",
+        "GST378"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "hellomod",
+      "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
+      "name": "Minishark Turbo",
+      "version": "1.1.1",
+      "sha256": "362908d5d9d9823ba957e5fed1cfa7a7a6114ba5392a6378cf5c1fd9a06f3885",
+      "language": "js",
+      "authors": [
+        "Bunny Loader"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2026 Bunny Loader",
+      "note": ""
+    },
+    {
+      "id": "improvedmovement",
+      "uid": "47f60fb6-0b46-453e-b19e-389867412da8",
+      "name": "Improved Movement",
+      "version": "1.2.0",
+      "sha256": "b62a317f89da3a30da35536c8dd690ad0b6150ac240b8905172947444d1f97a2",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "infinitypotionbuff",
+      "uid": "8a8e7a80-b608-4280-a137-57469459f0b4",
+      "name": "Infinity Potion Buff",
+      "version": "1.0.0",
+      "sha256": "d201ac6d737081b613b44ee0ca2f1624b93e83b3250e1305aa6276c82a884a43",
+      "language": "js",
+      "authors": [
+        "Zayah"
+      ],
+      "status": "declared",
+      "license": "MIT",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "instantplatformfallthrough",
+      "uid": "469b0c4b-acfa-463b-90df-5db222a81351",
+      "name": "Instant Platform Fallthrough",
+      "version": "1.0.0",
+      "sha256": "a4d576ea89b2d132ac19efc452736fd30d507505ebf8fc94429c7f4beeb87db6",
+      "language": "js",
+      "authors": [
+        "diniamo",
+        "GST378"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2023 diniamo",
+      "note": ""
+    },
+    {
+      "id": "isekaid",
+      "uid": "15c81011-b5fb-46bc-8a1d-728e904a039a",
+      "name": "Isekaid RPG System",
+      "version": "1.0.1",
+      "sha256": "f9ec2b1029d285455cf71561bedf4db679b4332d097c3401ba4069113f945e44",
+      "language": "js",
+      "authors": [
+        "Zayah"
+      ],
+      "status": "reserved",
+      "license": "Personal-use",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": "license.md forbids copying, changes and derivatives without written permission."
+    },
+    {
+      "id": "kineticgore",
+      "uid": "3cfaa0a0-6ddf-4484-900e-6c482ef4e1c7",
+      "name": "Physaria (Kinetic Gore)",
+      "version": "2.8.2",
+      "sha256": "ed5b8bd576825ae076f8cf668877a2fb9e91bf9e9b34dbdbbaa246b581c786ce",
+      "language": "js",
+      "authors": [
+        "LevitatingGT",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "lanternslot",
+      "uid": "56ae3a13-ac51-4bc7-8c8f-a03f8f5d26b4",
+      "name": "Lantern Slot",
+      "version": "1.0.2",
+      "sha256": "42db56c18fb16bf0c4133c41d1e6016cf7e3481087ddc404ad504a17c327321b",
+      "language": "js",
+      "authors": [
+        "Nyacro",
+        "Mantovani"
+      ],
+      "status": "reserved",
+      "license": "All rights reserved",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": "The manifest declares rights reserved, and license.md grants no license."
+    },
+    {
+      "id": "lightsandshadows",
+      "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
+      "name": "Lights And Shadows",
+      "version": "1.0.0",
+      "sha256": "f4633b5c3dbabbfdf4049c05c5f065d7c8f13ed6d5bf6693266eb49670b8d5eb",
+      "language": "js",
+      "authors": [
+        "yiyang233",
+        "Potato"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "lootbeams",
+      "uid": "a9538fc3-d926-43dd-a893-6d49a83da1c9",
+      "name": "Loot Beams",
+      "version": "1.1.2",
+      "sha256": "fbb8891babe3ad4840d1ebb5b446a14720d8be06fa4374086188a94f226a162d",
+      "language": "js",
+      "authors": [
+        "ChemAtDark",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "mc-paintings",
+      "uid": "024d3144-6342-4dbe-93b6-3eec25f7e23e",
+      "name": "Minecraft Paintings",
+      "version": "1.0.0",
+      "sha256": "6a27c46e2d217b7053e56ba443bd80da36a18e7d13df6b677b7f1ac62bccf2c2",
+      "language": "js",
+      "authors": [
+        "Barometz"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "menumedia",
+      "uid": "7c1e9b52-3f0a-4d8e-9a64-5b2d8c6e1f47",
+      "name": "Menu Media",
+      "version": "1.6.0",
+      "sha256": "181ec54931a3ca4aeeef29401c0507cac168e66e90acebd505a918e001d11913",
+      "language": "js",
+      "authors": [
+        "amogus"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2026 Menu Media",
+      "note": ""
+    },
+    {
+      "id": "mitanpc",
+      "uid": "e651d97d-eb24-51b5-bdc2-57722a898f79",
+      "name": "Mita NPC",
+      "version": "1.0.2",
+      "sha256": "0dd5831fab8820fa20a05e23029678ab8f09d8c8ef97b22311fd89c3e563a3cf",
+      "language": "js",
+      "authors": [
+        "rzc0d3r",
+        "Potato"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2025 Artem",
+      "note": ""
+    },
+    {
+      "id": "moddifficulty",
+      "uid": "adbf3a32-2952-41cc-8d97-7c3b1575785d",
+      "name": "Legendary Difficulty",
+      "version": "1.0.0",
+      "sha256": "417b4adf5610897c796c029cdfe96c13beaf7d3d697fb923bbd1f295a267d26d",
+      "language": "js",
+      "authors": [
+        "GST378"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "no-useless-pickups",
+      "uid": "005ff90e-02cd-4caa-ba96-953378fca597",
+      "name": "No Useless Pickups",
+      "version": "1.0.0",
+      "sha256": "10bb2f05ee53a90b52310da675d4b65980f55785796a2bb4202687f06903ff5a",
+      "language": "js",
+      "authors": [
+        "Lunaros"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "npcfalldamage",
+      "uid": "96640ec6-506d-457f-a695-8e212bd07184",
+      "name": "NPC Fall Damage",
+      "version": "1.0.0",
+      "sha256": "c14fe7e011617f4c9b67cee2fa0b4fc408e20fdc00faa8a6316108758ea2c4b6",
+      "language": "js",
+      "authors": [
+        "Ryan (RightoeusRyan)",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "npcunlockannouncer",
+      "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
+      "name": "NPC Unlock Announcer",
+      "version": "1.0.0",
+      "sha256": "e998181204d3318d26001e28924fc051fffe54584e7c084124aeb0beddd02292",
+      "language": "js",
+      "authors": [
+        "EurusK",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "orycto",
+      "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
+      "name": "Orycto (Alpha)",
+      "version": "1",
+      "sha256": "7bf984fa7434919fa5253883bb157bf2c62bf3316fec5d9cf2d38f8fc2e0b97a",
+      "language": "js",
+      "authors": [
+        "vowtz"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "overhealth",
+      "uid": "a26a4992-e895-4120-a903-0e23b376c8a1",
+      "name": "Overhealth",
+      "version": "1.0.2",
+      "sha256": "bd5271afcc1e0d9e959dc241a84b03e6e111c354e232d460b7a4d63fcb823614",
+      "language": "js",
+      "authors": [
+        "JADen",
+        "VowTz"
+      ],
+      "status": "declared",
+      "license": "AGPL-3.0",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": "Declares AGPL-3.0 on a port of another author's mod; confirm the original's license."
+    },
+    {
+      "id": "picassonpcportraits",
+      "uid": "24aa1551-e825-459a-b9fc-88a2393e558b",
+      "name": "Picasso NPC Portraits",
+      "version": "1.0.0",
+      "sha256": "b53a1a782bf596601e307ace985e5c718dcdf26bc8c9a672256a435325d197a9",
+      "language": "js",
+      "authors": [
+        "Tretrigontillion",
+        "Vastastic"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "pingmod",
+      "uid": "ae7c31e7-a0d5-4064-995d-acedf7fd5afc",
+      "name": "Player Ping UI",
+      "version": "1.0.5",
+      "sha256": "0257d4a96426ad8a909fdbf3086fec2c1f65921da52056268e038624d4008404",
+      "language": "js",
+      "authors": [
+        "MooMoo",
+        "crumb",
+        "otterly",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "qualityofbunny",
+      "uid": "89bcf9c1-64d4-4f1a-8c59-464bbf1e14c8",
+      "name": "Quality of Bunny",
+      "version": "68",
+      "sha256": "8a4dc316994530c3d0e084011c815fb09f0bc2390aa97bfb8cfedb693a2fab39",
+      "language": "js",
+      "authors": [
+        "VowTz"
+      ],
+      "status": "conflict",
+      "license": "MIT?",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": "The manifest declares MIT, but license.md says \"ain't no license\"."
+    },
+    {
+      "id": "resized-frames",
+      "uid": "0dc6638d-65f8-415b-8b1f-818e818b3f6d",
+      "name": "Resized Frames",
+      "version": "1.0.0",
+      "sha256": "5a88a35d992e35ac1d5fe863b5d0a2afaeef628471678a226ea7710a0a3fbd7f",
+      "language": "js",
+      "authors": [
+        "GST378"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "ropemod",
+      "uid": "c344c0ce-136d-4e57-b58f-0a1239fbc302",
+      "name": "Terraria Tethers",
+      "version": "0.3.1",
+      "sha256": "b04fec8693e7d376f16b00133de6d9f03db8c040fd0d25f9e85d7f4dfece145a",
+      "language": "js",
+      "authors": [
+        "CeleryMan",
+        "Bloa"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "semqueda",
+      "uid": "15b99fa4-580f-40c6-9a26-78e3928876d7",
+      "name": "Sem Dano de Queda",
+      "version": "1.0.0",
+      "sha256": "393e8bad02b17c7266a8f21f4c11086764150af554fbd1dcf15445239ab39fee",
+      "language": "js",
+      "authors": [
+        "Bunny Loader"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2026 Bunny Loader",
+      "note": ""
+    },
+    {
+      "id": "sharedinventory",
+      "uid": "8539e254-45e2-4519-8381-e38c7806f19a",
+      "name": "Shared Inventory",
+      "version": "0.2.0",
+      "sha256": "30c808f4d862c82207d4c0de5eac15fe6d3e567b398fada61e1e86bc1da6facd",
+      "language": "js",
+      "authors": [
+        "Potato"
+      ],
+      "status": "declared",
+      "license": "MIT",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "teleportkeeper",
+      "uid": "8de902a2-3816-4a6b-91f8-ab80a0ce0f57",
+      "name": "Teleport Keeper",
+      "version": "1.2.0",
+      "sha256": "27347befdf08d55a83be7b56b89ce0072a95a0c25889bcd6feb2d0ec7f7c3ad3",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "templopiramide",
+      "uid": "cd8c4f20-bc13-4b47-a508-305a6fc05ae2",
+      "name": "Templo Pirâmide",
+      "version": "1.1.1",
+      "sha256": "113110e2a3d92af639eecb3c7993959b76e487be3877f04f73296b7a55788b0c",
+      "language": "js",
+      "authors": [
+        "Cortex"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": "The loader's LICENSING says samples/ is MIT, but this sample has no license.md."
+    },
+    {
+      "id": "terrarchitect",
+      "uid": "30f21a81-4240-420b-a9ba-924e917fc571",
+      "name": "Terrarchitect",
+      "version": "1.0.3",
+      "sha256": "864a18c6c300c014712378caa8859167186011ac8f6d2fa6bd8bf14b625e407b",
+      "language": "js",
+      "authors": [
+        "Gurgle_Nurgle",
+        "silent_ptr",
+        "Zandberg"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "tetovanitysets",
+      "uid": "888cc431-b9d8-4016-a87f-6fcbaa32223b",
+      "name": "Teto Vanity Sets",
+      "version": "1.40",
+      "sha256": "c19837449334e769a90e32648a1b8a3e623c805957f091c01e063f9c200c6df6",
+      "language": "js",
+      "authors": [
+        "Makeight",
+        "Ink of the Eternity",
+        "Bloa"
+      ],
+      "status": "reserved",
+      "license": "All rights reserved",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": "license.md says to ask the original author before redistributing."
+    },
+    {
+      "id": "tooltipicon",
+      "uid": "5f0b0d15-6ee8-4e03-aafb-825d9ba5ca19",
+      "name": "Tooltip Icon",
+      "version": "1.0.1",
+      "sha256": "97b6e48773c5d1dadb0c8f4607f22bcc624385ddf2fa6424e98b5955d9315a35",
+      "language": "js",
+      "authors": [
+        "Nil256",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "topdownmode",
+      "uid": "7b1e9c52-3f4a-4d6e-9a18-5c2d8e0f41a7",
+      "name": "Top-Down Mode (teste)",
+      "version": "0.31.0",
+      "sha256": "877eb21f23319616f0bb08de1e7df2537712f212ec9834670ca1c4483f0d2314",
+      "language": "js",
+      "authors": [
+        "Castorzeira"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "touhoupets",
+      "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
+      "name": "Touhou Pets",
+      "version": "1.0.4",
+      "sha256": "bd59c93494638c74161ad48cf215932ff63cd184426a6ff1e4f4e0e715b285a4",
+      "language": "js",
+      "authors": [
+        "中学生",
+        "Potato"
+      ],
+      "status": "copyleft",
+      "license": "GPL-3.0",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "townnpchome",
+      "uid": "77b38952-98d6-4e18-a301-638d54c4bfd0",
+      "name": "TownNPC Home",
+      "version": "1.0.0",
+      "sha256": "7a85ddfac28b4c50b0ffd0e8cf37bd546c50e41751fb9fae6301dbb8ec74b9a6",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "umamusumevanities",
+      "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
+      "name": "Umamusume Vanities — Bunny Port",
+      "version": "1.0",
+      "sha256": "fbf28cb93f12069397e47eff06000f0c6ba520a7667085dcd015d1b93454d342",
+      "language": "js",
+      "authors": [
+        "Nyacro",
+        "Mantovani"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": "The description cites permission from Nyacro to whoever made the JS port; it does not extend to this project."
+    },
+    {
+      "id": "unifiedstorage",
+      "uid": "bc7737f5-d941-4d5c-b00b-eaec2c25eee8",
+      "name": "Magic Storage Adaptation",
+      "version": "1.0.0",
+      "sha256": "9b6957219cdf49193908d61d463ecaa335d2fc428093e9b6326d59bb5e143c16",
+      "language": "js",
+      "authors": [
+        "Bloa",
+        "Absoluteaquarian"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Textures and concept: Magic Storage, Copyright (c) 2017 Kaylee Minsuh Kim, MIT License.",
+      "note": "license.md summarizes MIT, names no holder for the port's code, and credits Magic Storage for textures and concept."
+    },
+    {
+      "id": "universalmap",
+      "uid": "35117929-e61f-42bc-97c5-773228761b99",
+      "name": "Universal Map",
+      "version": "1.1.2",
+      "sha256": "b83ec21c7a5b2e7609a99ee153c06d546491d47dc67e1c3412393535a70fea3a",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "veinminer",
+      "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
+      "name": "Vein Miner",
+      "version": "1.1.0",
+      "sha256": "a1f8564d9d70cefd98459ee1317c0c3db06f1b6c0ac80712b93cbea64ef6c46f",
+      "language": "js",
+      "authors": [
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "vidacheia",
+      "uid": "ddc6440e-bcaf-4bc9-9e21-9633b49bd1bf",
+      "name": "Vida Cheia",
+      "version": "1.0.2",
+      "sha256": "eb1c681bfce26d8b58b04c578fea1989bb99b1267f3c0d0ed5d9fe84c9ed3e6d",
+      "language": "js",
+      "authors": [
+        "Bunny Loader"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2026 Bunny Loader",
+      "note": ""
+    },
+    {
+      "id": "voluntaryhook",
+      "uid": "fbb7eb80-3232-4079-998c-cb863e14f3dd",
+      "name": "愿者上钩 (VoluntaryHook)",
+      "version": "1.1.0",
+      "sha256": "9e2678ec0a19ce094c00301aa4dfeaa88cb7cb9f7c6c1b55b7241d7b6928ecdc",
+      "language": "js",
+      "authors": [
+        "lzup333"
+      ],
+      "status": "copyleft",
+      "license": "AGPL-3.0",
+      "hasLicenseText": true,
+      "copyright": "Copyright (C) 2026 lzup333",
+      "note": ""
+    },
+    {
+      "id": "weaponoutlite",
+      "uid": "f16fc5fd-5b01-42dc-bdbc-669bfda6c090",
+      "name": "Weapon Out Lite",
+      "version": "1.1.1",
+      "sha256": "f054626823eaa3daba2aeeee6493c35c5b2facf8133bde05ba878e8cfa80df63",
+      "language": "js",
+      "authors": [
+        "Flashkirby",
+        "Animatak_"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2024 Flashkirby",
+      "note": ""
+    },
+    {
+      "id": "wikithis",
+      "uid": "821a0c6b-ff63-437b-b3e7-da92f9eae0f8",
+      "name": "Wikithis",
+      "version": "1.0.0",
+      "sha256": "551e726dca4e0a44ff9178ad2c247bc263e636d35557419740dac39832cac3ae",
+      "language": "js",
+      "authors": [
+        "BasicallyIAmFox",
+        "GST378"
+      ],
+      "status": "open",
+      "license": "Apache-2.0",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "wildandhorned",
+      "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
+      "name": "Wild and Horned",
+      "version": "1.5.2",
+      "sha256": "740b9fd54fef87ca5f583aeed6a0639d861442d5798dc919629a753681bbb065",
+      "language": "js",
+      "authors": [
+        "FuzzyGolf291773",
+        "MineGame223 and Group For One",
+        "Potato"
+      ],
+      "status": "copyleft",
+      "license": "GPL-3.0",
+      "hasLicenseText": true,
+      "copyright": null,
+      "note": ""
+    },
+    {
+      "id": "wmitf",
+      "uid": "be81ae6a-ac8a-4d23-bcd1-2bb8d056d37d",
+      "name": "Which Mod Is This From?",
+      "version": "1.0.0",
+      "sha256": "ddd402b970bdae51ebc25dc3632c6778e6ec089b09151e4dc42a9e452589cd69",
+      "language": "js",
+      "authors": [
+        "HilariousWalnut34",
+        "GST378"
+      ],
+      "status": "open",
+      "license": "MIT",
+      "hasLicenseText": true,
+      "copyright": "Copyright (c) 2017 Yuriy Grishchenko",
+      "note": "The copyright notice (Yuriy Grishchenko) names someone not in authors; confirm the holder."
+    },
+    {
+      "id": "worldgenpreviewer",
+      "uid": "55e1d4c5-3dc5-4c73-acaa-52a5bf0750f5",
+      "name": "WorldGen Previewer",
+      "version": "1.2.0",
+      "sha256": "fdf9f657990f697a7d2cf0e7a1a435bc6beda6fcdc29627cffedb7374e139a96",
+      "language": "js",
+      "authors": [
+        "jopojelly",
+        "Animatak_"
+      ],
+      "status": "credit-only",
+      "license": "NONE",
+      "hasLicenseText": false,
+      "copyright": null,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "catalog-id",
+    "uid": "00000000-0000-0000-0000-000000000000",
+    "version": "1.0.0",
+    "sha256": "sha256 of the original .bl package"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#."
+}

@@ -1,0 +1,14 @@
+{
+  "uid": "00000000-0000-0000-0000-000000000000",
+  "id": "ModPort",
+  "name": "Mod Port",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Original author", "role": "Original Creator" },
+    { "name": "You", "role": "C# Port" }
+  ],
+  "category": "Utility",
+  "summary": "What the mod does.",
+  "license": "No license declared",
+  "blVersion": 3
+}

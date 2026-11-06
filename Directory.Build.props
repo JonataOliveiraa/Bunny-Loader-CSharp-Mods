@@ -1,0 +1,24 @@
+<Project>
+
+  <!-- The same options Bunny Loader uses when it compiles a mod's sources. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- the .dll goes next to the manifest -->
+    <OutDir>./</OutDir>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BunnyLoader">
+      <HintPath>$(MSBuildThisFileDirectory)lib/BunnyLoader.dll</HintPath>
+      <!-- reference only: do not copy it into the package -->
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
