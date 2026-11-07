@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "一个平到可以放心狂奔的世界，再也不怕绊倒或掉进坑里！洞穴还在地下等着你。"
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "正在铲平世界..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "地表高度"
+      },
+      "FillChasms": {
+        "Label": "填平裂缝"
+      },
+      "SmoothBeaches": {
+        "Label": "海滩斜坡"
+      }
+    }
+  }
+}

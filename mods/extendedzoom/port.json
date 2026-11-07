@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "extendedzoom",
+    "uid": "67770d24-4d80-41b4-bde9-9a1840caf2c8",
+    "version": "0.6.2",
+    "sha256": "6777076cccdffb2c125446c1249f6751251d89a5b526c680e81d43f186dcf9b8"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The camera limits, ApplyPixelZoom, get_ZoomScale and PinchZoomMapEnabled have no C# API, so they use raw hooks and calls by name. Missing game objects (no GUI or camera yet) now skip that frame instead of turning the map control off for the session."
+}

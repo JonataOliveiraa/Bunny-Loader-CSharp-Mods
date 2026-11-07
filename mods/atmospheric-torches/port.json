@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "atmospheric-torches",
+    "uid": "0c2e1d93-1149-4942-adb2-860ad8a9b965",
+    "version": "1.0.0",
+    "sha256": "81a591850eab95727ba967cc3c1de18b71c7ddb61b265923e7026c4ecf9dd081"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. TorchID has no C# API, so TorchColor uses a raw hook by name. The flicker picks its value with .NET's thread-safe random instead of the game's, with the same three values and odds, because TorchColor may run away from the main thread."
+}

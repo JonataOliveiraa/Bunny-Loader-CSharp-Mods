@@ -1,0 +1,96 @@
+{
+  "Messages": {
+    "WrongTpNumber": "Le numéro du téléporteur est invalide !",
+    "WrongUsage": "Info : /deltp + (numéro de la téléportation dans la liste)",
+    "NewTpAdded": "Un nouveau téléporteur a été ajouté !",
+    "RemovedTp": "Téléporteur supprimé !",
+    "RemoveAllTps": "Tous les téléporteurs ont été supprimés !",
+    "DontHaveTps": "Aucun téléporteur n'est enregistré pour le moment...",
+    "NameTp": "Téléporteur",
+    "DeathTpAdded": "Point de Téléporteur de Mort créé !",
+    "DeathTpRemoved": "Point de Téléporteur de Mort supprimé !",
+    "DeathTp": "Téléporteur de Mort",
+    "TpUpdated": "Téléportation mise à jour !",
+    "DeathTpOf": "Téléportation de mort de {0}"
+  },
+  "UI": {
+    "CreateTitle": "Nouvelle Téléportation",
+    "EditTitle": "Modifier la Téléportation",
+    "ListTitle": "Téléportations",
+    "Name": "Nom (touchez pour écrire)",
+    "Icon": "Icône",
+    "Color": "Couleur",
+    "DeleteOnUse": "Supprimer la téléportation après usage",
+    "DeleteOnUseShort": "supprimée à l'usage",
+    "Save": "Enregistrer",
+    "Cancel": "Annuler",
+    "Delete": "Supprimer",
+    "Confirm": "Confirmer ?",
+    "Edit": "Modifier",
+    "Go": "Aller",
+    "New": "Nouveau",
+    "Search": "Rechercher...",
+    "All": "Tous",
+    "Empty": "Aucune téléportation enregistrée.",
+    "NoResults": "Rien trouvé.",
+    "DeathOf": "Mort de {0}",
+    "DeathHint": "Disparaît si le propriétaire l'utilise ou part"
+  },
+  "Icons": {
+    "Default": "Téléportation",
+    "Forest": "Forêt",
+    "Snow": "Neige",
+    "Desert": "Désert",
+    "Jungle": "Jungle",
+    "Corruption": "Corruption",
+    "Crimson": "Carmin",
+    "Hallow": "Sacré",
+    "Mushroom": "Champignons",
+    "Ocean": "Océan",
+    "Underground": "Souterrain",
+    "Cavern": "Caverne",
+    "Underworld": "Enfer",
+    "Dungeon": "Donjon",
+    "Temple": "Temple",
+    "Shimmer": "Miroitement",
+    "Sky": "Ciel",
+    "Space": "Espace",
+    "Graveyard": "Cimetière",
+    "Home": "Maison",
+    "Arena": "Arène"
+  },
+  "TouchButtons": {
+    "CreateTeleport": {
+      "DisplayName": "Créer une Téléportation"
+    },
+    "TeleportList": {
+      "DisplayName": "Liste des Téléportations"
+    }
+  },
+  "Commands": {
+    "TpCommand": {
+      "Usage": "/tp [nom]",
+      "Description": "Enregistre un point de téléportation là où vous êtes (avec le nom, s'il est donné)."
+    },
+    "DelTpCommand": {
+      "Usage": "/deltp <numéro>",
+      "Description": "Supprime un point de téléportation."
+    },
+    "ClearAllCommand": {
+      "Usage": "/clearall",
+      "Description": "Supprime tous les points de téléportation."
+    }
+  },
+  "Colors": {
+    "White": "Blanc",
+    "Yellow": "Jaune",
+    "Orange": "Orange",
+    "Red": "Rouge",
+    "Pink": "Rose",
+    "Purple": "Violet",
+    "Blue": "Bleu",
+    "Cyan": "Cyan",
+    "Green": "Vert",
+    "Gray": "Gris"
+  }
+}

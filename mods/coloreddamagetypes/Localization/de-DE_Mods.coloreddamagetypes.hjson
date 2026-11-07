@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Tooltipfarbe"
+      },
+      "ChangeDamageColor": {
+        "Label": "Schadensfarbe"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Meine Zahlen"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Andere Zahlen"
+      },
+      "CondenseDamageHits": {
+        "Label": "Treffer Bündeln"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Beim Tod Zeigen"
+      },
+      "DebugMode": {
+        "Label": "Debug-Modus"
+      },
+      "DebugModeTooltips": {
+        "Label": "Tooltips"
+      },
+      "DebugModeFields": {
+        "Label": "Felder"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Mehrspieler"
+      },
+      "MeleeDamage": {
+        "Label": "Nahkampf"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Nahkampf Krit"
+      },
+      "TooltipMelee": {
+        "Label": "Nahkampf"
+      },
+      "RangedDamage": {
+        "Label": "Fernkampf"
+      },
+      "RangedDamageCrit": {
+        "Label": "Fernkampf Krit"
+      },
+      "TooltipRanged": {
+        "Label": "Fernkampf"
+      },
+      "MagicDamage": {
+        "Label": "Magie"
+      },
+      "MagicDamageCrit": {
+        "Label": "Magie Krit"
+      },
+      "TooltipMagic": {
+        "Label": "Magie"
+      },
+      "ThrowingDamage": {
+        "Label": "Wurf"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Wurf Krit"
+      },
+      "TooltipThrowing": {
+        "Label": "Wurf"
+      },
+      "SummonDamage": {
+        "Label": "Beschwörung"
+      },
+      "SummonDamageCrit": {
+        "Label": "Beschwörung Krit"
+      },
+      "TooltipSummon": {
+        "Label": "Beschwörung"
+      },
+      "SentryDamage": {
+        "Label": "Wache"
+      },
+      "SentryDamageCrit": {
+        "Label": "Wache Krit"
+      },
+      "TooltipSentry": {
+        "Label": "Wache"
+      },
+      "TooltipDefense": {
+        "Label": "Verteidigung"
+      },
+      "ModdedTooltip": {
+        "Label": "Tooltip"
+      },
+      "HeldTooltip": {
+        "Label": "Tooltip"
+      },
+      "ModdedDamage": {
+        "Label": "Schaden"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Schaden Krit"
+      },
+      "HeldDamage": {
+        "Label": "Schaden"
+      },
+      "HeldDamageCrit": {
+        "Label": "Schaden Krit"
+      },
+      "Headers": {
+        "Toggles": "Schalter",
+        "Condense": "Zusammenfassen",
+        "DamageColors": "Schadensfarben",
+        "TooltipColors": "Tooltipfarben",
+        "ModCompat": "Mod-Standard",
+        "HeldClass": "Klasse des Items",
+        "Debug": "Debug"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "Wachenschaden"
+    }
+  }
+}

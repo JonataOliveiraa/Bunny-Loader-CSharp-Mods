@@ -1,0 +1,29 @@
+{
+  "uid": "77b38952-98d6-4e18-a301-638d54c4bfd0",
+  "id": "townnpchome",
+  "name": "TownNPC Home",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.com/invite/tl-pro-402880167737032705",
+      "role": "Autor"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Utilidade",
+  "summary": "Teleports town NPCs to their homes.",
+  "localizedSummaries": {
+    "pt-BR": "Teleporta NPCs de cidade para suas casas."
+  },
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

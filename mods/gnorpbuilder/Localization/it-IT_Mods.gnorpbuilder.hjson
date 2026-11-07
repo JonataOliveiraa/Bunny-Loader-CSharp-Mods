@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Globo: Test",
+      "Tooltip": "Costruisce: test!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\n[c/FF1919:QUESTO OGGETTO È PER I TEST E NON DOVREBBE ESSERE OTTENIBILE NORMALMENTE]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Globo: Casa piccola della foresta",
+      "Tooltip": "Costruisce: casa piccola della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Globo: Lampione della foresta",
+      "Tooltip": "Costruisce: lampione della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Globo: Casa media della foresta",
+      "Tooltip": "Costruisce: casa media della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Globo: Casa grande della foresta",
+      "Tooltip": "Costruisce: casa grande della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Globo: Ingresso del seminterrato",
+      "Tooltip": "Costruisce: ingresso del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPerfetto per iniziare il tuo seminterrato"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Globo: Corridoio del seminterrato",
+      "Tooltip": "Costruisce: corridoio del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Globo: Corridoio lungo del seminterrato",
+      "Tooltip": "Costruisce: corridoio lungo del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Globo: Corridoio corto del seminterrato",
+      "Tooltip": "Costruisce: corridoio corto del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Globo: Corridoio del seminterrato a T verso il basso",
+      "Tooltip": "Costruisce: corridoio del seminterrato a T verso il basso!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Globo: Corridoio del seminterrato a T verso l'alto",
+      "Tooltip": "Costruisce: corridoio del seminterrato a T verso l'alto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Globo: Incrocio del seminterrato",
+      "Tooltip": "Costruisce: incrocio del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Globo: Corridoio del seminterrato a T verso destra",
+      "Tooltip": "Costruisce: corridoio del seminterrato a T verso destra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Globo: Corridoio del seminterrato a T verso sinistra",
+      "Tooltip": "Costruisce: corridoio del seminterrato a T verso sinistra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Globo: Angolo del seminterrato in alto a sinistra",
+      "Tooltip": "Costruisce: angolo del seminterrato in alto a sinistra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Globo: Angolo del seminterrato in basso a sinistra",
+      "Tooltip": "Costruisce: angolo del seminterrato in basso a sinistra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Globo: Angolo del seminterrato in basso a destra",
+      "Tooltip": "Costruisce: angolo del seminterrato in basso a destra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Globo: Angolo del seminterrato in alto a destra",
+      "Tooltip": "Costruisce: angolo del seminterrato in alto a destra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Globo: Corridoio corto del seminterrato verso il basso",
+      "Tooltip": "Costruisce: corridoio corto del seminterrato verso il basso!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Globo: Sala della musica del seminterrato",
+      "Tooltip": "Costruisce: sala della musica del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nHa tanti carillon diversi"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Globo: Prigione per PNG del seminterrato",
+      "Tooltip": "Costruisce: prigione per PNG del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nEconomica, ma poco etica"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Globo: Stanza per PNG del seminterrato",
+      "Tooltip": "Costruisce: stanza per PNG del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nLa classica stanza per un PNG"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Globo: Armeria del seminterrato",
+      "Tooltip": "Costruisce: armeria del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Globo: Giardino del seminterrato",
+      "Tooltip": "Costruisce: giardino del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nCome cresce in un seminterrato? Con il potere delle stelle!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Globo: Stanza delle torture del seminterrato",
+      "Tooltip": "Costruisce: stanza delle torture del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPer i PNG che detesti"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Globo: Ingresso del seminterrato verso il basso",
+      "Tooltip": "Costruisce: ingresso del seminterrato verso il basso!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Globo: Grande ingresso del seminterrato verso il basso",
+      "Tooltip": "Costruisce: grande ingresso del seminterrato verso il basso!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Globo: Sala del trono del seminterrato",
+      "Tooltip": "Costruisce: sala del trono del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nCostosa, ma fatta di marmo e oro, molto elegante!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa grande del deserto",
+      "Tooltip": "Costruisce: casa grande del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa media del deserto",
+      "Tooltip": "Costruisce: casa media del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Globo: Lampione del deserto",
+      "Tooltip": "Costruisce: lampione del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola del deserto",
+      "Tooltip": "Costruisce: casa piccola del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola dell'oceano",
+      "Tooltip": "Costruisce: casa piccola dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Globo: Lampione dell'oceano",
+      "Tooltip": "Costruisce: lampione dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa media dell'oceano",
+      "Tooltip": "Costruisce: casa media dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa grande dell'oceano",
+      "Tooltip": "Costruisce: casa grande dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola della giungla",
+      "Tooltip": "Costruisce: casa piccola della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa media della giungla",
+      "Tooltip": "Costruisce: casa media della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa grande della giungla",
+      "Tooltip": "Costruisce: casa grande della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Globo: Lampione della giungla",
+      "Tooltip": "Costruisce: lampione della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola fungo",
+      "Tooltip": "Costruisce: casa piccola fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Globo: Lampione fungo",
+      "Tooltip": "Costruisce: lampione fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa media fungo",
+      "Tooltip": "Costruisce: casa media fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa grande fungo",
+      "Tooltip": "Costruisce: casa grande fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Globo: Lampione della tundra",
+      "Tooltip": "Costruisce: lampione della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola della tundra",
+      "Tooltip": "Costruisce: casa piccola della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa media della tundra",
+      "Tooltip": "Costruisce: casa media della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa grande della tundra",
+      "Tooltip": "Costruisce: casa grande della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola consacrata",
+      "Tooltip": "Costruisce: casa piccola consacrata!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa media consacrata",
+      "Tooltip": "Costruisce: casa media consacrata!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa grande consacrata",
+      "Tooltip": "Costruisce: casa grande consacrata!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Globo: Lampione consacrato",
+      "Tooltip": "Costruisce: lampione consacrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola del bioma",
+      "Tooltip": "Costruisce: casa piccola del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG\nDi norma usa la casa piccola della foresta. Biomi supportati: tundra, deserto, giungla, oceano, fungo di superficie e consacrato"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa media del bioma",
+      "Tooltip": "Costruisce: casa media del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG\nDi norma usa la casa media della foresta. Biomi supportati: tundra, deserto, giungla, oceano, fungo di superficie e consacrato"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa grande del bioma",
+      "Tooltip": "Costruisce: casa grande del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG\nDi norma usa la casa grande della foresta. Biomi supportati: tundra, deserto, giungla, oceano, fungo di superficie e consacrato"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Globo: Lampione del bioma",
+      "Tooltip": "Costruisce: lampione del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nDi norma usa il lampione della foresta. Biomi supportati: tundra, deserto, giungla, oceano, fungo di superficie e consacrato"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena semplice piccola",
+      "Tooltip": "Costruisce: arena semplice piccola!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 3 piattaforme, è lunga 105 blocchi e alta 34"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena semplice media",
+      "Tooltip": "Costruisce: arena semplice media!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 5 piattaforme, è lunga 180 blocchi e alta 54"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena semplice grande",
+      "Tooltip": "Costruisce: arena semplice grande!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 7 piattaforme, è lunga 255 blocchi e alta 74"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzata piccola",
+      "Tooltip": "Costruisce: arena avanzata piccola!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 3 piattaforme, è lunga 105 blocchi e alta 34\nCon un falò, una lanterna a cuore, una stella in bottiglia, una statua di Bastet, uno gnomo da giardino e miele in una bolla"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzata media",
+      "Tooltip": "Costruisce: arena avanzata media!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 5 piattaforme, è lunga 180 blocchi e alta 54\nCon falò, lanterne a cuore, stelle in bottiglia, statue di Bastet, gnomi da giardino e miele nelle bolle"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzata grande",
+      "Tooltip": "Costruisce: arena avanzata grande!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nL'arena ha 7 piattaforme, è lunga 255 blocchi e alta 74\nCon falò, lanterne a cuore, stelle in bottiglia, statue di Bastet, gnomi da giardino e miele nelle bolle"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore della foresta",
+      "Tooltip": "Costruisce: ascensore della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore della tundra",
+      "Tooltip": "Costruisce: ascensore della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore del deserto",
+      "Tooltip": "Costruisce: ascensore del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore consacrato",
+      "Tooltip": "Costruisce: ascensore consacrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore della giungla",
+      "Tooltip": "Costruisce: ascensore della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore fungo",
+      "Tooltip": "Costruisce: ascensore fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore dell'oceano",
+      "Tooltip": "Costruisce: ascensore dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Globo: Ascensore del bioma",
+      "Tooltip": "Costruisce: ascensore del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto ascensore scende fino agli Inferi e crea nuvole che annullano i danni da caduta\nDi norma usa l'ascensore della foresta. Biomi supportati: tundra, deserto, giungla, oceano, fungo di superficie e consacrato\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo: Binario corto per carrello dell'ascensore",
+      "Tooltip": "Costruisce: binario corto per carrello dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Globo: Incrocio di binari dell'ascensore",
+      "Tooltip": "Costruisce: incrocio di binari dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nOttimo per iniziare i binari del tuo ascensore!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo: Binario per carrello dell'ascensore",
+      "Tooltip": "Costruisce: binario per carrello dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\n5 volte più lungo della versione corta"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Globo: Rampa destra di binari dell'ascensore",
+      "Tooltip": "Costruisce: rampa destra di binari dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Globo: Fermata di binari dell'ascensore",
+      "Tooltip": "Costruisce: fermata di binari dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Globo: Rampa sinistra di binari dell'ascensore",
+      "Tooltip": "Costruisce: rampa sinistra di binari dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Globo: Binario completo per carrello dell'ascensore",
+      "Tooltip": "Costruisce: binario completo per carrello dell'ascensore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nCrea binari per carrello verso sinistra e destra, ottimo con il tuo ascensore!\n[c/E11919:ATTENZIONE, QUESTA COSTRUZIONE È MOLTO GRANDE! PUÒ DISTRUGGERE STRUTTURE IMPORTANTI, USALA CON CAUTELA!!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa grande di San Valentino",
+      "Tooltip": "Costruisce: casa grande di San Valentino!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG\n[c/FFC0CB:Fatto con amore!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa media di San Valentino",
+      "Tooltip": "Costruisce: casa media di San Valentino!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 2 PNG\n[c/FFC0CB:Fatto con amore!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola di San Valentino",
+      "Tooltip": "Costruisce: casa piccola di San Valentino!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 1 PNG\n[c/FFC0CB:Fatto con amore!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Globo: Lampione di San Valentino",
+      "Tooltip": "Costruisce: lampione di San Valentino!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\n[c/FFC0CB:Fatto con amore!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Globo: Casa a cuore",
+      "Tooltip": "Costruisce: casa a cuore!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesta casa può ospitare 3 PNG\n[c/FF7F7F:Fatto d'amore!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Globo: Pilone della caverna",
+      "Tooltip": "Costruisce: pilone della caverna!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Globo: Pilone del deserto",
+      "Tooltip": "Costruisce: pilone del deserto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Globo: Pilone della foresta",
+      "Tooltip": "Costruisce: pilone della foresta!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Globo: Pilone consacrato",
+      "Tooltip": "Costruisce: pilone consacrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Globo: Pilone della giungla",
+      "Tooltip": "Costruisce: pilone della giungla!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Globo: Pilone fungo",
+      "Tooltip": "Costruisce: pilone fungo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Globo: Pilone dell'oceano",
+      "Tooltip": "Costruisce: pilone dell'oceano!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Globo: Pilone della tundra",
+      "Tooltip": "Costruisce: pilone della tundra!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Globo: Pilone del bioma",
+      "Tooltip": "Costruisce: pilone del bioma!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nDi norma usa il pilone della foresta. Biomi supportati: caverna, tundra, deserto, giungla, oceano, fungo di superficie e consacrato"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Telecomando Gnorpy",
+      "Tooltip": "Il telecomando di Gnorp!\nEvoca Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Globo: Scala del seminterrato a T verso il basso",
+      "Tooltip": "Costruisce: scala del seminterrato a T verso il basso!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Globo: Scala del seminterrato a T verso l'alto",
+      "Tooltip": "Costruisce: scala del seminterrato a T verso l'alto!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Globo: Scala destra del seminterrato",
+      "Tooltip": "Costruisce: scala destra del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Globo: Incrocio di scale del seminterrato",
+      "Tooltip": "Costruisce: incrocio di scale del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Globo: Biblioteca del seminterrato",
+      "Tooltip": "Costruisce: biblioteca del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Globo: Scala sinistra del seminterrato",
+      "Tooltip": "Costruisce: scala sinistra del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Globo: Corridoio con stanza per PNG",
+      "Tooltip": "Costruisce: corridoio con stanza per PNG!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nIn pratica una stanza per PNG unita a un corridoio"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Globo: Bar del seminterrato",
+      "Tooltip": "Costruisce: bar del seminterrato!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPrendi qualcosa da bere"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Globo: Castello piccolo",
+      "Tooltip": "Costruisce: castello piccolo!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Globo: Castello medio",
+      "Tooltip": "Costruisce: castello medio!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Globo: Castello grande",
+      "Tooltip": "Costruisce: castello grande!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Globo: Castello enorme",
+      "Tooltip": "Costruisce: castello enorme!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPiuttosto enorme, dovrebbe avere spazio per tutto ciò che ti serve!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Globo: Base sull'albero piccola",
+      "Tooltip": "Costruisce: base sull'albero piccola!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Globo: Base sull'albero media",
+      "Tooltip": "Costruisce: base sull'albero media!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Globo: Base sull'albero grande",
+      "Tooltip": "Costruisce: base sull'albero grande!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Globo: Base sull'albero enorme",
+      "Tooltip": "Costruisce: base sull'albero enorme!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Globo: Lago d'acqua semplice",
+      "Tooltip": "Costruisce: lago d'acqua semplice!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPerfetto per pescare"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Globo: Lago di luccichio semplice",
+      "Tooltip": "Costruisce: lago di luccichio semplice!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPerfetto per pesc... aspetta, nel luccichio non si può pescare, vero?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Globo: Lago di lava semplice",
+      "Tooltip": "Costruisce: lago di lava semplice!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPerfetto per pescare"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Globo: Lago di miele semplice",
+      "Tooltip": "Costruisce: lago di miele semplice!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nPerfetto per pescare"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Globo: Cella di prigione",
+      "Tooltip": "Costruisce: cella di prigione!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nNon hai un cuore umano?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Globo: Castello per PNG invisibile",
+      "Tooltip": "Costruisce: castello per PNG invisibile!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto castello può ospitare 3 PNG\nCastello super epico e figo, peccato che non si veda"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Globo: Casa piccola di cacca",
+      "Tooltip": "Costruisce: casa piccola di cacca!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto castello può ospitare 1 PNG\nPuzza"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Globo: Casa grande di cacca",
+      "Tooltip": "Costruisce: casa grande di cacca!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto castello può ospitare 3 PNG\nPuzza"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Globo: Casa media di cacca",
+      "Tooltip": "Costruisce: casa media di cacca!\nUsa il pulsante touch Punto di ancoraggio (aggiungilo nei Comandi) o la configurazione delle mod per cambiare il punto di ancoraggio\nQuesto castello può ospitare 2 PNG\nPuzza"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp è un alieno molto amichevole. L'unico scopo di Gnorp è aiutare gli altri costruendo. Gnorp vede la bellezza in ogni bioma."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Principale",
+        "Bases": "Basi",
+        "Module": "Moduli",
+        "Utility": "Utilità",
+        "Holiday": "Feste"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Cambia ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Arriva Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Punto di ancoraggio (globi di Gnorp)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:ATTIVA]",
+    "ValueOff": "[c/E11919:DISATTIVA]",
+    "ImagePreviewInfo": "Anteprima con immagine: {0}",
+    "DustPreviewInfo": "Anteprima con polvere: {0}",
+    "ImageOpacityInfo": "Opacità dell'immagine: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Piazza con doppio tocco: {0}",
+    "SettingsHint": "[c/828282:Si può cambiare nella configurazione delle mod]",
+    "AnchorInfo": "Punto di ancoraggio: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "In basso al centro",
+      "TopLeft": "In alto a sinistra",
+      "TopRight": "In alto a destra",
+      "BottomLeft": "In basso a sinistra",
+      "BottomRight": "In basso a destra"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Anteprima con immagine"
+      },
+      "EnablePreviews": {
+        "Label": "Anteprima con polvere"
+      },
+      "PreviewOpacity": {
+        "Label": "Opacità dell'immagine"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Piazza con doppio tocco"
+      },
+      "Anchor": {
+        "Label": "Punto di ancoraggio"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "In basso al centro"
+      },
+      "TopLeft": {
+        "Label": "In alto a sinistra"
+      },
+      "TopRight": {
+        "Label": "In alto a destra"
+      },
+      "BottomLeft": {
+        "Label": "In basso a sinistra"
+      },
+      "BottomRight": {
+        "Label": "In basso a destra"
+      }
+    }
+  }
+}

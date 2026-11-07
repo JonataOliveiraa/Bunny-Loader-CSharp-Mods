@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "Świat tak płaski, że możesz biegać bez strachu, że potkniesz się albo wpadniesz do dziury! Jaskinie wciąż czekają na dole."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Spłaszczanie świata..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Wysokość powierzchni"
+      },
+      "FillChasms": {
+        "Label": "Wypełniaj szczeliny"
+      },
+      "SmoothBeaches": {
+        "Label": "Rampy na plaży"
+      }
+    }
+  }
+}

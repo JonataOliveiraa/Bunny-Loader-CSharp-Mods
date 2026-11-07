@@ -1,0 +1,36 @@
+{
+  "uid": "35117929-e61f-42bc-97c5-773228761b99",
+  "id": "universalmap",
+  "name": "Universal Map",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Animatak_",
+      "role": "Creator",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Utility",
+  "summary": "In multiplayer, every player's explored map is shared with everyone every minute.",
+  "localizedSummaries": {
+    "pt-BR": "No multijogador, o mapa explorado de cada jogador é compartilhado com todos a cada minuto.",
+    "es-ES": "En multijugador, el mapa explorado de cada jugador se comparte con todos cada minuto.",
+    "de-DE": "Im Mehrspieler wird die erkundete Karte jedes Spielers jede Minute mit allen geteilt.",
+    "fr-FR": "En multijoueur, la carte explorée de chaque joueur est partagée avec tout le monde chaque minute.",
+    "it-IT": "In multigiocatore, la mappa esplorata di ogni giocatore viene condivisa con tutti ogni minuto.",
+    "ru-RU": "В мультиплеере исследованная карта каждого игрока каждую минуту передаётся всем.",
+    "pl-PL": "W trybie wieloosobowym odkryta mapa każdego gracza jest co minutę udostępniana wszystkim.",
+    "zh-Hans": "在多人游戏中，每位玩家探索过的地图每分钟都会与所有人共享。"
+  },
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

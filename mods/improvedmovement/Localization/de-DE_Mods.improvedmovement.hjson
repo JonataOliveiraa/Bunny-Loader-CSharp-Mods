@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "Blick"
+      },
+      "FaceCursor": {
+        "Label": "Zum Cursor"
+      },
+      "LeaningType": {
+        "Label": "Neigung"
+      },
+      "LeanStrength": {
+        "Label": "Stärke"
+      },
+      "EnableMountLeaning": {
+        "Label": "Reittiere"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "Hals Ausblenden"
+      },
+      "DisableRopeTurning": {
+        "Label": "Nicht am Seil"
+      },
+      "EnableFlickeringFix": {
+        "Label": "Flacker-Fix"
+      },
+      "NPCLeaningType": {
+        "Label": "NPC-Neigung"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "Schleime"
+      },
+      "EnableZombieLeaning": {
+        "Label": "Zombies"
+      },
+      "EnableCritterLeaning": {
+        "Label": "Kleintiere"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "Stadt-NPCs"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "Alle"
+      },
+      "Headers": {
+        "Player": "Spieler",
+        "Creatures": "Kreaturen"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "Aus"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Clamped": {
+        "Label": "Begrenzt"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "Nie"
+      },
+      "Always": {
+        "Label": "Immer"
+      },
+      "UsingItem": {
+        "Label": "Mit Item"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "Aus"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Alternate": {
+        "Label": "Alternativ"
+      },
+      "Spin": {
+        "Label": "Drehen"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Spin": {
+        "Label": "Drehen"
+      }
+    }
+  }
+}

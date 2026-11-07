@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Tenez un objet pour utiliser cette commande.",
+    "Always": "{0} a maintenant toujours un rayon.",
+    "Never": "{0} n'a maintenant jamais de rayon.",
+    "MiniOn": "{0} a maintenant un petit rayon.",
+    "MiniOff": "{0} a retrouvé un rayon normal.",
+    "BadColor": "Couleur invalide. Utilisez /beams color #RRGGBB (ex. #FF8800).",
+    "Colored": "Couleur du rayon de {0} : {1}.",
+    "Reset": "{0} a été retiré de vos listes.",
+    "NotListed": "{0} n'est pas dans vos listes.",
+    "List": "Toujours : {0} | Jamais : {1} | Petit : {2} | Couleurs : {3}",
+    "Cleared": "Vos listes ont été vidées.",
+    "Enabled": "Rayons activés.",
+    "Disabled": "Rayons désactivés."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Activé"
+      },
+      "MinRarity": {
+        "Label": "Rareté Min."
+      },
+      "MinValue": {
+        "Label": "Valeur Min."
+      },
+      "HighlightQuest": {
+        "Label": "Objets de Quête"
+      },
+      "HighlightExpert": {
+        "Label": "Objets Expert"
+      },
+      "HighlightMaster": {
+        "Label": "Objets Maître"
+      },
+      "UseDefaultLists": {
+        "Label": "Listes par Défaut"
+      },
+      "BeamStyle": {
+        "Label": "Style du Rayon"
+      },
+      "GlowStyle": {
+        "Label": "Style de Lueur"
+      },
+      "BeamScale": {
+        "Label": "Taille du Rayon"
+      },
+      "BeamOpacity": {
+        "Label": "Opacité du Rayon"
+      },
+      "GlowScale": {
+        "Label": "Taille de Lueur"
+      },
+      "GlowOpacity": {
+        "Label": "Opacité de Lueur"
+      },
+      "FlashScale": {
+        "Label": "Éclat au Sol"
+      },
+      "DrawAdditive": {
+        "Label": "Plus Vif"
+      },
+      "Pulse": {
+        "Label": "Pulsation"
+      },
+      "EmitLight": {
+        "Label": "Lumière"
+      },
+      "FadeOnPickup": {
+        "Label": "Estomper au Ramassage"
+      },
+      "Headers": {
+        "Filters": "Quels Objets",
+        "Visuals": "Apparence",
+        "Extras": "Extras"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Aucun"
+      },
+      "Simple": {
+        "Label": "Simple"
+      },
+      "Arrow": {
+        "Label": "Flèche"
+      },
+      "AnimatedArrow": {
+        "Label": "Flèche Animée"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Aucune"
+      },
+      "Simple": {
+        "Label": "Douce"
+      },
+      "Pixel": {
+        "Label": "Pixel"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Change le rayon de l'objet que vous tenez."
+    }
+  }
+}

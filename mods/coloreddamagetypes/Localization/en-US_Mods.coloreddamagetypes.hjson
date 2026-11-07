@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Tooltip Colors"
+      },
+      "ChangeDamageColor": {
+        "Label": "Damage Colors"
+      },
+      "ShowDamageNumbers": {
+        "Label": "My Numbers"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Others' Numbers"
+      },
+      "CondenseDamageHits": {
+        "Label": "Condense Hits"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Show on Kill"
+      },
+      "DebugMode": {
+        "Label": "Debug Mode"
+      },
+      "DebugModeTooltips": {
+        "Label": "Tooltips"
+      },
+      "DebugModeFields": {
+        "Label": "Fields"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Multiplayer"
+      },
+      "MeleeDamage": {
+        "Label": "Melee"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Melee Crit"
+      },
+      "TooltipMelee": {
+        "Label": "Melee"
+      },
+      "RangedDamage": {
+        "Label": "Ranged"
+      },
+      "RangedDamageCrit": {
+        "Label": "Ranged Crit"
+      },
+      "TooltipRanged": {
+        "Label": "Ranged"
+      },
+      "MagicDamage": {
+        "Label": "Magic"
+      },
+      "MagicDamageCrit": {
+        "Label": "Magic Crit"
+      },
+      "TooltipMagic": {
+        "Label": "Magic"
+      },
+      "ThrowingDamage": {
+        "Label": "Throwing"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Throwing Crit"
+      },
+      "TooltipThrowing": {
+        "Label": "Throwing"
+      },
+      "SummonDamage": {
+        "Label": "Summon"
+      },
+      "SummonDamageCrit": {
+        "Label": "Summon Crit"
+      },
+      "TooltipSummon": {
+        "Label": "Summon"
+      },
+      "SentryDamage": {
+        "Label": "Sentry"
+      },
+      "SentryDamageCrit": {
+        "Label": "Sentry Crit"
+      },
+      "TooltipSentry": {
+        "Label": "Sentry"
+      },
+      "TooltipDefense": {
+        "Label": "Defense"
+      },
+      "ModdedTooltip": {
+        "Label": "Tooltip"
+      },
+      "HeldTooltip": {
+        "Label": "Tooltip"
+      },
+      "ModdedDamage": {
+        "Label": "Damage"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Damage Crit"
+      },
+      "HeldDamage": {
+        "Label": "Damage"
+      },
+      "HeldDamageCrit": {
+        "Label": "Damage Crit"
+      },
+      "Headers": {
+        "Toggles": "Toggles",
+        "Condense": "Condense",
+        "DamageColors": "Damage Colors",
+        "TooltipColors": "Tooltip Colors",
+        "ModCompat": "Modded Defaults",
+        "HeldClass": "Held Item Class",
+        "Debug": "Debug"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "sentry damage"
+    }
+  }
+}

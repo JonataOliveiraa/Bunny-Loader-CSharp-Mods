@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Inizia in pausa"
+      },
+      "LivePreview": {
+        "Label": "Anteprima mappa"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Mostra elenco dei passaggi",
+    "Previous": "Ripeti passaggio precedente",
+    "Resume": "Riprendi",
+    "Pause": "Pausa",
+    "Next": "Vai al passaggio successivo",
+    "Structures": "Mostra strutture protette",
+    "Cancel": "Annulla",
+    "ZoomIn": "Ingrandisci",
+    "ZoomOut": "Riduci",
+    "ExitZoom": "Esci dallo zoom",
+    "NoPause": "La pausa non è disponibile su questo dispositivo",
+    "StatusNormal": "Stato: Normale",
+    "StatusPausing": "Stato: Messa in pausa...",
+    "StatusPaused": "Stato: In pausa",
+    "StatusRepeating": "Stato: Ripetizione del passaggio precedente",
+    "StatusWaitingRepeat": "Stato: In attesa di ripetere questo passaggio...",
+    "StatusCanceling": "Stato: Annullamento...",
+    "StatusStructuresOn": "Stato: Strutture visibili",
+    "StatusStructuresOff": "Stato: Strutture nascoste",
+    "StatusPausingAfter": "Stato: Pausa dopo {0}",
+    "Skipped": "Saltato",
+    "Complete": "Completato",
+    "AdvanceTo": "Tocca per avanzare fino a {0}",
+    "Tile": "Blocco: {0}",
+    "PausedAfter": "Generazione in pausa dopo {0}",
+    "Waiting": "Creazione dell'anteprima...",
+    "PreviewOff": "Anteprima mappa disattivata",
+    "Steps": "Passaggi",
+    "SkipStep": "Tocca per saltare questo passaggio",
+    "KeepStep": "Tocca per mantenere questo passaggio",
+    "StatusFinishingMap": "Stato: Completamento della mappa..."
+  }
+}

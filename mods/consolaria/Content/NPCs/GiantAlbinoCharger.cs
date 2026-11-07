@@ -1,0 +1,88 @@
+using Microsoft.Xna.Framework;
+
+using Terraria;
+using Terraria.GameContent.Bestiary;
+using Terraria.GameContent.ItemDropRules;
+using Terraria.ID;
+using Terraria.Localization;
+using Terraria.ModLoader;
+
+namespace Consolaria.Content.NPCs {
+    public class GiantAlbinoCharger : ModNPC {
+        public static LocalizedText BestiaryText {
+            get; private set;
+        }
+
+        public override void SetStaticDefaults() {
+            Main.npcFrameCount[NPC.type] = 6;
+
+            NPCID.Sets.NPCBestiaryDrawModifiers value = new NPCID.Sets.NPCBestiaryDrawModifiers() {
+                Velocity = 1f
+            };
+            NPCID.Sets.NPCBestiaryDrawOffset.Add(Type, value);
+
+            BestiaryText = this.GetLocalization("Bestiary");
+        }
+
+        public override void SetDefaults() {
+            int width = 50; int height = 30;
+            NPC.Size = new Vector2(width, height);
+
+            NPC.damage = 40;
+            NPC.lifeMax = 120;
+
+            NPC.defense = 16;
+            NPC.knockBackResist = 0.6f;
+            NPC.rarity = 1;
+
+            NPC.HitSound = SoundID.NPCHit31;
+            NPC.DeathSound = SoundID.NPCDeath34;
+
+            NPC.value = Item.buyPrice(silver: 2);
+
+            NPC.aiStyle = 3;
+            AIType = NPCID.WalkingAntlion;
+            AnimationType = NPCID.WalkingAntlion;
+
+            Banner = ModContent.NPCType<AlbinoCharger>();
+            //BannerItem = ModContent.ItemType<Items.Placeable.Banners.AlbinoChargerBanner>();
+
+            float scale = 1.25f;
+            NPC.damage = (int)((float)NPC.damage * scale);
+            NPC.defense = (int)((float)NPC.defense * scale);
+            NPC.lifeMax = (int)((float)NPC.lifeMax * scale);
+            NPC.value = (int)(NPC.value * scale);
+        }
+
+        public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry) {
+            bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] {
+                BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.UndergroundDesert,
+                new FlavorTextBestiaryInfoElement(BestiaryText.ToString())
+            });
+        }
+
+        public override void HitEffect(NPC.HitInfo hit) {
+            if (Main.netMode == NetmodeID.Server)
+                return;
+
+            Dust.NewDust(NPC.position, NPC.width, NPC.height, DustID.Sand, 2.5f * hit.HitDirection, -2.5f, 0, Color.White, 0.7f);
+            if (NPC.life <= 0) {
+                for (int k = 0; k < 20; k++)
+                    Dust.NewDust(NPC.position, NPC.width, NPC.height, DustID.Sand, 2.5f * hit.HitDirection, -2.5f, 0, Color.White, 1f);
+
+                Gore.NewGore(NPC.GetSource_Death(), NPC.position, NPC.velocity, ModContent.Find<ModGore>("consolaria/GiantAlbinoGore1").Type, 1f);
+                Gore.NewGore(NPC.GetSource_Death(), NPC.position, NPC.velocity, ModContent.Find<ModGore>("consolaria/GiantAlbinoGore2").Type, 1f);
+                Gore.NewGore(NPC.GetSource_Death(), NPC.position, NPC.velocity, ModContent.Find<ModGore>("consolaria/GiantAlbinoGore3").Type, 1f);
+                Gore.NewGore(NPC.GetSource_Death(), NPC.position, NPC.velocity, ModContent.Find<ModGore>("consolaria/GiantAlbinoGore4").Type, 1f);
+            }
+        }
+
+        public override void ModifyNPCLoot(NPCLoot npcLoot) {
+            npcLoot.Add(ItemDropRule.Common(3772, 50));
+            npcLoot.Add(ItemDropRule.Common(323, 3, 1, 2));
+            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Items.Weapons.Melee.AlbinoMandible>(), 25));
+        }
+
+        public override float SpawnChance(NPCSpawnInfo spawnInfo) => 0f;
+    }
+}

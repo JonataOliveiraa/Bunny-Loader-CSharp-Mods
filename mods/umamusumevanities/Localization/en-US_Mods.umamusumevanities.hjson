@@ -1,0 +1,217 @@
+{
+  "Configs": {
+    "UmamusumeEffectsConfig": {
+      "Quality": {
+        "Label": "Quality"
+      },
+      "Amount": {
+        "Label": "Quantity"
+      },
+      "ExtraGlow": {
+        "Label": "Extra glow"
+      },
+      "Headers": {
+        "EffectsHeader": "Visual effects"
+      }
+    },
+    "EffectQuality": {
+      "Economy": {
+        "Label": "Low"
+      },
+      "Balanced": {
+        "Label": "Balanced"
+      },
+      "High": {
+        "Label": "High"
+      },
+      "Cinematic": {
+        "Label": "Cinematic"
+      }
+    }
+  },
+  "Items": {
+    "SchoolUniformUpper": {
+      "DisplayName": "Tracen School Uniform Top",
+      "Tooltip": "Pristine uniform. Homework is still your responsibility."
+    },
+    "SchoolUniformLower": {
+      "DisplayName": "Tracen School Uniform Bottom",
+      "Tooltip": "From classroom to racetrack in two seconds flat!"
+    },
+    "TrackSuitUpper": {
+      "DisplayName": "Tracen Training Uniform Top",
+      "Tooltip": "Warm-up required. Excuses optional."
+    },
+    "TrackSuitLower": {
+      "DisplayName": "Tracen Training Uniform Bottom",
+      "Tooltip": "Endurance training or a sprint to the cafeteria?"
+    },
+    "SymboliRudolfHair": {
+      "DisplayName": "Symboli Rudolf Hair",
+      "Tooltip": "An imperial hairstyle. Beware of presidential puns."
+    },
+    "GoldShipHair": {
+      "DisplayName": "Gold Ship Hair",
+      "Tooltip": "Gold Ship hair. Chaos sold separately."
+    },
+    "AgnesTachornHair": {
+      "DisplayName": "Agnes Tachyon Hair",
+      "Tooltip": "The scientist insists that strange glow is normal."
+    },
+    "ManhattanCafeHair": {
+      "DisplayName": "Manhattan Cafe Hair",
+      "Tooltip": "Perfect for coffee with your invisible friend."
+    },
+    "RiceShowerHair": {
+      "DisplayName": "Rice Shower Hair",
+      "Tooltip": "A delicate ribbon for a very brave racer."
+    },
+    "OguriCapHair": {
+      "DisplayName": "Oguri Cap Hair",
+      "Tooltip": "Fix your hair before snack time starts."
+    },
+    "TokaiTeioHair": {
+      "DisplayName": "Tokai Teio Hair",
+      "Tooltip": "Ready for the Teio Step? She is already dancing."
+    },
+    "MatikanetannhauserHair": {
+      "DisplayName": "Matikanetannhauser Hair",
+      "Tooltip": "Hat in place, spirits high. Mambo!"
+    },
+    "Mambo": {
+      "DisplayName": "Mambo",
+      "Tooltip": "Summons the Mambo pet. Small in size, huge on Mambo!"
+    },
+    "EmperorsPathUpper": {
+      "DisplayName": "Emperor's Path (Symboli Rudolf) Top",
+      "Tooltip": "Fit for the Emperor. Terrible puns included."
+    },
+    "EmperorsPathLower": {
+      "DisplayName": "Emperor's Path (Symboli Rudolf) Bottom",
+      "Tooltip": "Running Tracen is easy. Making Air Groove laugh is the hard part."
+    },
+    "StarlightBeatUpper": {
+      "DisplayName": "Starlight Beat (Oguri Cap) Top",
+      "Tooltip": "Oguri Cap is ready to race. And ready for lunch."
+    },
+    "StarlightBeatLower": {
+      "DisplayName": "Starlight Beat (Oguri Cap) Bottom",
+      "Tooltip": "Out of the way! Someone said the buffet is open!"
+    },
+    "CreepingShadowUpper": {
+      "DisplayName": "Creeping Shadow (Manhattan Cafe) Top",
+      "Tooltip": "A quiet outfit. The shadow behind you likes it too."
+    },
+    "CreepingShadowLower": {
+      "DisplayName": "Creeping Shadow (Manhattan Cafe) Bottom",
+      "Tooltip": "If you hear extra footsteps, do not worry. Probably."
+    },
+    "TachNologyUpper": {
+      "DisplayName": "Tach•nology (Agnes Tachyon) Top",
+      "Tooltip": "Warning: this outfit has not been tested on humans."
+    },
+    "TachNologyLower": {
+      "DisplayName": "Tach•nology (Agnes Tachyon) Bottom",
+      "Tooltip": "Experiment results: maximum speed, minimum sanity."
+    },
+    "PeakJoyUpper": {
+      "DisplayName": "Peak Joy (Tokai Teio) Top",
+      "Tooltip": "Teio has declared herself unbeatable. Again!"
+    },
+    "PeakJoyLower": {
+      "DisplayName": "Peak Joy (Tokai Teio) Bottom",
+      "Tooltip": "Teio Step not included. You will need to practice."
+    },
+    "ClippetyTippetyClopUpper": {
+      "DisplayName": "Clippety Tippety Clop (Matikanetannhauser) Top",
+      "Tooltip": "An outfit or an invitation to shout Mambo!?"
+    },
+    "ClippetyTippetyClopLower": {
+      "DisplayName": "Clippety Tippety Clop (Matikanetannhauser) Bottom",
+      "Tooltip": "Time to train!... Huh, was today a rest day?"
+    },
+    "RosyDreamsUpper": {
+      "DisplayName": "Rosy Dreams (Rice Shower) Top",
+      "Tooltip": "Rice Shower just wanted to bring everyone good luck."
+    },
+    "RosyDreamsLower": {
+      "DisplayName": "Rosy Dreams (Rice Shower) Bottom",
+      "Tooltip": "Shy little steps. The determination of a champion."
+    },
+    "RedStrifeUpper": {
+      "DisplayName": "Red Strife (Gold Ship) Top",
+      "Tooltip": "Gold Ship has a simple plan: there is no plan."
+    },
+    "RedStrifeLower": {
+      "DisplayName": "Red Strife (Gold Ship) Bottom",
+      "Tooltip": "Made for racing... or pulling a prank mid-race."
+    },
+    "StageUpper": {
+      "DisplayName": "Starting Future Top",
+      "Tooltip": "The race is over. Time for the victory concert!"
+    },
+    "StageLower": {
+      "DisplayName": "Starting Future Bottom",
+      "Tooltip": "Just try not to trip during the victory dance."
+    },
+    "BlackTail": {
+      "DisplayName": "Black Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "DeepBrownTail": {
+      "DisplayName": "Deep Brown Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "OrangeBrownTail": {
+      "DisplayName": "Orange Brown Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "PinkBrownTail": {
+      "DisplayName": "Pink Brown Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "RoseBrownTail": {
+      "DisplayName": "Rose Brown Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "WhiteTail": {
+      "DisplayName": "White Horse Tail",
+      "Tooltip": "Does it wag on its own? No. Is it stylish? Absolutely!"
+    },
+    "BlackEar": {
+      "DisplayName": "Black Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    },
+    "DeepBrownEar": {
+      "DisplayName": "Deep Brown Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    },
+    "OrangeBrownEar": {
+      "DisplayName": "Orange Brown Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    },
+    "PinkBrownEar": {
+      "DisplayName": "Pink Brown Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    },
+    "RoseBrownEar": {
+      "DisplayName": "Rose Brown Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    },
+    "WhiteEar": {
+      "DisplayName": "White Horse Ears",
+      "Tooltip": "Hear every cheer. And every carrot bag being opened."
+    }
+  },
+  "Buffs": {
+    "MamboBuff": {
+      "DisplayName": "Mambo",
+      "Description": "Mambo is trotting alongside you. Mambo, mambo!"
+    }
+  },
+  "Projectiles": {
+    "MamboProjectile": {
+      "DisplayName": "Mambo"
+    }
+  }
+}

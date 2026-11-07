@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "bunnysocial",
+    "uid": "bcb72e90-3716-4cd1-b8a4-866a963958e5",
+    "version": "1.0.0",
+    "sha256": "d81318260ccc552d2cc385d198d1751d1100a23fb88bd73c49840acf8aad014b"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

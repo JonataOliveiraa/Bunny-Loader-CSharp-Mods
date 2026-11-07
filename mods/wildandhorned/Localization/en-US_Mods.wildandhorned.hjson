@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "IbarakiBox": {
+      "DisplayName": "Ibaraki Box of a Hundred Medicines",
+      "Tooltip": "Summons Kasen Ibaraki\nA hermit's wooden box that turns sake into medicine"
+    },
+    "StarBearSakeDish": {
+      "DisplayName": "Star-Bear Sake Dish",
+      "Tooltip": "Summons Yuugi Hoshiguma\nNot a drop has ever been spilled from it, not even mid-brawl"
+    },
+    "SanzuFerryCoin": {
+      "DisplayName": "Sanzu Ferry Coin",
+      "Tooltip": "Summons Komachi Onozuka\nThe fare for crossing the river. The ferrywoman is in no hurry"
+    },
+    "WallPassingHairpin": {
+      "DisplayName": "Wall-Passing Hairpin",
+      "Tooltip": "Summons Seiga Kaku\nOpens a way through any wall. Please knock first"
+    },
+    "GuardianShrineBell": {
+      "DisplayName": "Guardian's Shrine Bell",
+      "Tooltip": "Summons Aunn Komano to light your way\nRing it, and the shrine's guardian comes running"
+    },
+    "SecretBackDoor": {
+      "DisplayName": "Secret God's Back Door",
+      "Tooltip": "Summons Okina Matara to light your way\nSeven stars mark a door that opens onto somewhere else entirely"
+    },
+    "SorcerersSutraScroll": {
+      "DisplayName": "Sorcerer's Sutra Scroll",
+      "Tooltip": "Summons Byakuren Hijiri\nA magic scroll whose text glows as it unrolls"
+    },
+    "SuzunaanDemonBook": {
+      "DisplayName": "Suzunaan Demon Book",
+      "Tooltip": "Summons Kosuzu Motoori to light your way\nBorrowed from Suzunaan. Please return it on time"
+    },
+    "TanukiLeaf": {
+      "DisplayName": "Tanuki Leaf",
+      "Tooltip": "Summons Mamizou Futatsuiwa\nPut it on your head and you could be anyone. Or anything"
+    },
+    "NazrinPendulum": {
+      "DisplayName": "Nazrin Pendulum",
+      "Tooltip": "Summons Nazrin to light your way\nIts crystal swings toward whatever you're looking for"
+    },
+    "MoriyaIronRing": {
+      "DisplayName": "Moriya Iron Ring",
+      "Tooltip": "Summons Suwako Moriya to light your way\nSharper than it looks. Mind your fingers"
+    },
+    "MiniatureOnbashira": {
+      "DisplayName": "Miniature Onbashira",
+      "Tooltip": "Summons Kanako Yasaka\nA small sacred pillar. Please don't throw it off a cliff"
+    },
+    "MaidsBellCollar": {
+      "DisplayName": "Maid's Bell Collar",
+      "Tooltip": "Summons Inu Sakuya to light your way\nIt jingles when she wags"
+    },
+    "OverdueNotice": {
+      "DisplayName": "Overdue Notice",
+      "Tooltip": "Summons Shion Yorigami\nFinal notice. Again"
+    },
+    "DesignerHandbag": {
+      "DisplayName": "Designer Handbag",
+      "Tooltip": "Summons Jo'on Yorigami to light your way\nOne of a kind. She owns twelve"
+    },
+    "DaiShogiPiece": {
+      "DisplayName": "Dai Shogi Piece",
+      "Tooltip": "Summons Momiji Inubashiri\nFrom a set with more pieces than you'd believe"
+    }
+  },
+  "Buffs": {
+    "KasenBuff": {
+      "DisplayName": "Kasen Ibaraki",
+      "Description": "A strict hermit keeps an eye on you... and on your snacks."
+    },
+    "YuugiBuff": {
+      "DisplayName": "Yuugi Hoshiguma",
+      "Description": "The strongest oni of the Former Hell wants a drinking buddy."
+    },
+    "KomachiBuff": {
+      "DisplayName": "Komachi Onozuka",
+      "Description": "A ferrywoman of the Sanzu River is \"working\" beside you."
+    },
+    "SeigaBuff": {
+      "DisplayName": "Seiga Kaku",
+      "Description": "A wicked hermit has taken an interest in you. That can't be good."
+    },
+    "AunnBuff": {
+      "DisplayName": "Aunn Komano",
+      "Description": "A shrine guardian lights your way, and barks at anything that means you harm."
+    },
+    "OkinaBuff": {
+      "DisplayName": "Okina Matara",
+      "Description": "The hidden god shares a little of her Big Dipper's starlight."
+    },
+    "ByakurenBuff": {
+      "DisplayName": "Byakuren Hijiri",
+      "Description": "The head of Myouren Temple walks beside you under her parasol."
+    },
+    "KosuzuBuff": {
+      "DisplayName": "Kosuzu Motoori",
+      "Description": "The bookworm of Suzunaan reads by lamplight beside you."
+    },
+    "MamizouBuff": {
+      "DisplayName": "Mamizou Futatsuiwa",
+      "Description": "A bake-danuki is following you. Keep an eye on your wallet."
+    },
+    "NazrinBuff": {
+      "DisplayName": "Nazrin",
+      "Description": "A dowsing mouse lights your way, and keeps an eye out for treasure."
+    },
+    "SuwakoBuff": {
+      "DisplayName": "Suwako Moriya",
+      "Description": "The native goddess of the Moriya Shrine hops along beside you."
+    },
+    "KanakoBuff": {
+      "DisplayName": "Kanako Yasaka",
+      "Description": "The goddess of the Moriya Shrine has taken an interest in your faith."
+    },
+    "InuSakuyaBuff": {
+      "DisplayName": "Inu Sakuya",
+      "Description": "A very good maid. A very good dog."
+    },
+    "ShionBuff": {
+      "DisplayName": "Shion Yorigami",
+      "Description": "The goddess of poverty is following you. Hide your snacks."
+    },
+    "JoonBuff": {
+      "DisplayName": "Jo'on Yorigami",
+      "Description": "A goddess of pestilence lights your way. Your wallet feels lighter already."
+    },
+    "MomijiBuff": {
+      "DisplayName": "Momiji Inubashiri",
+      "Description": "A white wolf tengu is keeping watch over you."
+    }
+  },
+  "Projectiles": {
+    "Kasen": {
+      "DisplayName": "Kasen Ibaraki"
+    },
+    "Yuugi": {
+      "DisplayName": "Yuugi Hoshiguma"
+    },
+    "Komachi": {
+      "DisplayName": "Komachi Onozuka"
+    },
+    "Seiga": {
+      "DisplayName": "Seiga Kaku"
+    },
+    "Aunn": {
+      "DisplayName": "Aunn Komano"
+    },
+    "Okina": {
+      "DisplayName": "Okina Matara"
+    },
+    "Byakuren": {
+      "DisplayName": "Byakuren Hijiri"
+    },
+    "Kosuzu": {
+      "DisplayName": "Kosuzu Motoori"
+    },
+    "Mamizou": {
+      "DisplayName": "Mamizou Futatsuiwa"
+    },
+    "Nazrin": {
+      "DisplayName": "Nazrin"
+    },
+    "Suwako": {
+      "DisplayName": "Suwako Moriya"
+    },
+    "Kanako": {
+      "DisplayName": "Kanako Yasaka"
+    },
+    "InuSakuya": {
+      "DisplayName": "Inu Sakuya"
+    },
+    "Shion": {
+      "DisplayName": "Shion Yorigami"
+    },
+    "Joon": {
+      "DisplayName": "Jo'on Yorigami"
+    },
+    "Momiji": {
+      "DisplayName": "Momiji Inubashiri"
+    }
+  },
+  "Configs": {
+    "KasenConfig": {
+      "DisplayName": "Kasen",
+      "BloodMoonOniForm": {
+        "Label": "Blood Moon oni form",
+        "Tooltip": "Kasen stays in her oni form for the whole Blood Moon."
+      },
+      "SpontaneousShifts": {
+        "Label": "Spontaneous shifts",
+        "Tooltip": "Now and then Kasen's seal slips and she briefly returns to her oni form."
+      },
+      "MinutesBetweenShifts": {
+        "Label": "Average shift interval (min)",
+        "Tooltip": "How often, on average, a spontaneous shift happens."
+      },
+      "ShiftDurationSeconds": {
+        "Label": "Shift duration (s)",
+        "Tooltip": "How long a spontaneous shift lasts before she seals herself again."
+      }
+    }
+  },
+  "Chat_Kasen": {
+    "Chat1": "A hermit trains body and mind alike. Have you been skipping your training?",
+    "Chat2": "Don't slack off. Discipline is the road to enlightenment.",
+    "Chat3": "These bandages? They're nothing. Don't worry about them.",
+    "Chat4": "Those steamed buns do look good... one couldn't hurt.",
+    "Chat5": "Animals understand far more than people think. Treat them kindly.",
+    "Chat6": "Moderation is medicine. Excess is poison.",
+    "Chat7": "Let me give you a word of advice. Well, several words.",
+    "Chat8": "The chain? A reminder to stay grounded, nothing more.",
+    "Chat9": "You're not the type to poke around in boxes that aren't yours, are you?",
+    "Chat10": "Mm, this sweet is quite good. For research purposes, of course.",
+    "Chat11": "Reimu, when did you last do any real training?",
+    "Chat12": "Suika... you haven't been telling stories about me, have you?",
+    "Chat13": "Marisa, return what you \"borrowed\" before I come to collect it.",
+    "Chat14": "Heh... it's been a long while since I felt this free.",
+    "Chat15": "What are you staring at? Oni don't take kindly to rude looks.",
+    "Chat16": "Sake! Somebody bring me sake!",
+    "Chat17": "A blood-red moon... how nostalgic.",
+    "Chat18": "Don't tell Reimu about this. I mean it.",
+    "Chat19": "Kh... the seal is slipping!",
+    "Chat20": "Ahem. You didn't see anything. Understood?",
+    "Chat21": "The moon is red tonight. I won't be holding back.",
+    "Chat22": "Yuugi, please keep your voice down. Some of us are trying to stay hidden.",
+    "Chat23": "Komachi, shouldn't you be working?",
+    "Chat24": "Seiga. Whatever you're planning, the answer is no.",
+    "Chat25": "Mamizou. If I find one more oni trap at the shrine...",
+    "Chat26": "Kanako. Your ropeway is clever. Just don't charge the fairies.",
+    "Chat27": "Shion, if Tenshi offers to cook again, please say no."
+  },
+  "Chat_Yuugi": {
+    "Chat1": "Hah! You look like you could use a drink. Here, have a cup!",
+    "Chat2": "An oni never lies. Remember that.",
+    "Chat3": "Strength is simple. It's the easiest thing in the world to understand.",
+    "Chat4": "Not a drop spilled from this dish in a thousand years. Want to see?",
+    "Chat5": "The surface is so bright... I could get used to it.",
+    "Chat6": "Want to arm-wrestle? No? Your loss!",
+    "Chat7": "The Former Hell's quiet these days. Too quiet.",
+    "Chat8": "A good fight and a good drink. What else does anyone need?",
+    "Chat9": "Suika! Bring that gourd over here!",
+    "Chat10": "Kasen! Still hiding those horns under a pair of buns?",
+    "Chat11": "Satori, stop reading my mind and just ask.",
+    "Chat12": "Now THAT'S the Kasen I remember!",
+    "Chat13": "Kanpai!",
+    "Chat14": "Hahaha!"
+  },
+  "Chat_Komachi": {
+    "Chat1": "Work? Eh, the dead aren't going anywhere.",
+    "Chat2": "The river's wide today. A lot of souls weren't very generous in life.",
+    "Chat3": "Just a little nap. The boss won't notice...",
+    "Chat4": "Distance is a funny thing. I can make it long or short, as I please.",
+    "Chat5": "Got any coins on you? The ferry fare isn't cheap, you know.",
+    "Chat6": "Shinigami don't chase anyone. We just... wait.",
+    "Chat7": "Hermits cheat death, and guess whose job it is to collect them?",
+    "Chat8": "Ahh, perfect weather for slacking off.",
+    "Chat9": "Well, well, a hermit. I'll be keeping my eye on you.",
+    "Chat10": "Lady Yuyuko! Anyone you'd like ferried over?",
+    "Chat11": "Relax, gardener. Not everything needs cutting.",
+    "Chat12": "Zzz...",
+    "Chat13": "*yawn*... Is it quitting time yet?"
+  },
+  "Chat_Seiga": {
+    "Chat1": "Walls are only suggestions, darling.",
+    "Chat2": "A hermit who follows the rules? How dreadfully boring.",
+    "Chat3": "My hairpin can open a way through anything. Shall I show you?",
+    "Chat4": "Immortality is a hobby. One must keep oneself entertained.",
+    "Chat5": "Yoshika? Oh, she's around somewhere. Probably stuck in a doorway.",
+    "Chat6": "What an interesting person you are. I might keep you.",
+    "Chat7": "Taoism is simply the art of getting what you want.",
+    "Chat8": "Kasen, dear! Still pretending to be a proper hermit?",
+    "Chat9": "The shrine maiden! Do say hello to your donation box for me.",
+    "Chat10": "Just a small hole. No one will notice.",
+    "Chat11": "Ohohoho!"
+  },
+  "Chat_Aunn": {
+    "Chat1": "Nobody gets past me! ...Oh, it's just you.",
+    "Chat2": "I guarded the shrine for ages before anyone even noticed me!",
+    "Chat3": "Is that a youkai? No? Okay, false alarm.",
+    "Chat4": "A guardian's job is never done. Well, except for naps.",
+    "Chat5": "You can pat my head if you want. I don't mind!",
+    "Chat6": "The shrine's been lively lately. That's a good thing, right?",
+    "Chat7": "Something smells good... is it offering day?",
+    "Chat8": "I'll keep watch. You keep going!",
+    "Chat9": "Reimu! I swept the path today... sort of.",
+    "Chat10": "Lady Okina! I'm guarding really hard, see?",
+    "Chat11": "Hehe~",
+    "Chat12": "Woof!",
+    "Chat13": "Stay back! This one's under my protection!",
+    "Chat14": "A maid dog! Do you guard a mansion?",
+    "Chat15": "A wolf tengu! Do you guard a gate too?"
+  },
+  "Chat_Okina": {
+    "Chat1": "I am Okina Matara, the hidden god. You may bow now.",
+    "Chat2": "Every back has a door. Yours is rather nice, actually.",
+    "Chat3": "The Big Dipper watches over those who know where to look.",
+    "Chat4": "Secrets are the best kind of power. Especially mine.",
+    "Chat5": "I could send you anywhere through a back door. Anywhere at all.",
+    "Chat6": "Being a sage of Gensokyo is tiring work. Mostly for other people.",
+    "Chat7": "Hmm... you'd make a fine backup dancer.",
+    "Chat8": "Stars, doors, seasons... all mine to play with.",
+    "Chat9": "Yukari. Still peeking through gaps? How unrefined.",
+    "Chat10": "My little guardian! You're doing splendidly.",
+    "Chat11": "Right this way. Mind the step.",
+    "Chat12": "Ahahaha!"
+  },
+  "Chat_Byakuren": {
+    "Chat1": "All beings are equal, humans and youkai alike.",
+    "Chat2": "Namusan... The world is full of things worth protecting.",
+    "Chat3": "Please come and visit the temple sometime.",
+    "Chat4": "Even a monk may enjoy a little sunshine under her parasol.",
+    "Chat5": "Strength of body and strength of mind go hand in hand.",
+    "Chat6": "I was sealed away for a long time. Every day since has been precious.",
+    "Chat7": "Have you been eating properly? Please take care of yourself.",
+    "Chat8": "Captain Murasa, thank you for always bringing us together.",
+    "Chat9": "Kogasa, would you like to share the shade?",
+    "Chat10": "A hermit who walks the path of discipline... I respect that, Kasen.",
+    "Chat11": "Namusan...",
+    "Chat12": "What lovely weather!",
+    "Chat13": "Nazrin, has Shou misplaced the pagoda again?",
+    "Chat14": "Mamizou, thank you for keeping an eye on the temple.",
+    "Chat15": "Jo'on, have you been robbing people again?"
+  },
+  "Chat_Kosuzu": {
+    "Chat1": "Welcome to Suzunaan! Borrowing, or just browsing?",
+    "Chat2": "I can read any book just by touching it. Even the ones nobody else can.",
+    "Chat3": "Demon books aren't dangerous. Probably. Mostly.",
+    "Chat4": "Careful with that page! It's older than the village.",
+    "Chat5": "Akyuu says I read too many demon books. She's just jealous.",
+    "Chat6": "If I faint, please don't file me under \"returns\".",
+    "Chat7": "Someday I'll play danmaku too, you'll see!",
+    "Chat8": "Don't worry, I brought a lamp. Reading in the dark is bad for your eyes.",
+    "Chat9": "Miss Reimu! I haven't been reading anything strange. Honest!",
+    "Chat10": "Miss Marisa, those books you borrowed are very overdue.",
+    "Chat11": "Miss Mamizou! Do you have any new stories for me?",
+    "Chat12": "You're that reporter... Please don't write about my shop!",
+    "Chat13": "Let's see... \"On the Summoning of Smoke Youkai\"...",
+    "Chat14": "Hello there!",
+    "Chat15": "Ehehe~"
+  },
+  "Chat_Mamizou": {
+    "Chat1": "Don't mind the tail. A proper tanuki wears hers with pride.",
+    "Chat2": "Need a loan? Sign here, and here. Don't trouble yourself with the small print.",
+    "Chat3": "Fooling humans is an art. I only ever do it kindly.",
+    "Chat4": "Old? Who are you calling old? I'm in my prime, I'll have you know.",
+    "Chat5": "Under a full moon, my disguises are flawless.",
+    "Chat6": "A drink, a tall tale and a good prank. That's a fine evening.",
+    "Chat7": "Sado's an island of tanuki. Not a single fox. Lovely place.",
+    "Chat8": "Something smells? That'll be the incense. Definitely the incense.",
+    "Chat9": "Kosuzu, child. Keep those books quiet, or the shrine maiden will take them.",
+    "Chat10": "Hmph. I smell fox.",
+    "Chat11": "Kasen! Fancy a rematch? I've been practising my drinking.",
+    "Chat12": "Kokoro, you look more like yourself every day.",
+    "Chat13": "Found anything worth lending against, little mouse?",
+    "Chat14": "Hm? Let me take a closer look...",
+    "Chat15": "Fuu... nothing like a quiet smoke.",
+    "Chat16": "Now you see me..."
+  },
+  "Chat_Nazrin": {
+    "Chat1": "Lost something? I'll find it. For a fee.",
+    "Chat2": "My master would lose her own head if it weren't attached.",
+    "Chat3": "Bishamonten himself backs me, you know. Show some respect.",
+    "Chat4": "These rods never lie. I, on the other hand...",
+    "Chat5": "Muenzuka is full of treasure from the outside world. And junk. Mostly junk.",
+    "Chat6": "I'm working. This is what working looks like.",
+    "Chat7": "Got any cheese? Asking for my mice. And me.",
+    "Chat8": "Squeak? ...That wasn't me. That was one of my mice.",
+    "Chat9": "Lady Hijiri. My master says she hasn't lost anything this week. My master is lying.",
+    "Chat10": "Captain, if your anchor goes missing again, my rates have gone up.",
+    "Chat11": "Lost again, umbrella? I could dowse you up someone to surprise.",
+    "Chat12": "Don't even think about pawning my rods, tanuki.",
+    "Chat13": "The thief with the broom! Hands off my treasure.",
+    "Chat14": "My rods are twitching... there's treasure nearby!",
+    "Chat15": "Hmm... this way.",
+    "Chat16": "Swing, little crystal. Show me.",
+    "Chat17": "Heh. Too easy."
+  },
+  "Chat_Suwako": {
+    "Chat1": "Kero kero~ Want to see a frog trick?",
+    "Chat2": "Don't let the face fool you. I've been a goddess for over two thousand years.",
+    "Chat3": "Mountains, rivers, solid earth... give me a minute and I'll move one for you.",
+    "Chat4": "I'm not a frog goddess. I just really, really like frogs.",
+    "Chat5": "The Moriya Shrine? Kanako runs it. I just own it.",
+    "Chat6": "I lost a war once. Best thing that ever happened to my faith.",
+    "Chat7": "A game? Sure! Loser buys the sake.",
+    "Chat8": "Eyes on my hat? What eyes on my hat?",
+    "Chat9": "Kanako, aren't you supposed to be gathering faith? I'm napping.",
+    "Chat10": "Sanae! Did you remember to feed the frogs?",
+    "Chat11": "You there, ice fairy. Unfreeze my frogs.",
+    "Chat12": "Reimu, your shrine could use a few more frogs. And a few more visitors.",
+    "Chat13": "Hop, hop, hop!",
+    "Chat14": "Watch the iron ring! It's sharper than it looks.",
+    "Chat15": "Ahaha! You should see your face."
+  },
+  "Chat_Kanako": {
+    "Chat1": "Faith is like any business. You need a good product and a better pitch.",
+    "Chat2": "Have you visited the Moriya Shrine? The ropeway runs every day now.",
+    "Chat3": "A god should keep up with the times. Even nuclear fusion, if it brings in worshippers.",
+    "Chat4": "A gift? For me? ...Well, I suppose I could bless you a little.",
+    "Chat5": "Don't mind the rope ring. It's a reminder of who won.",
+    "Chat6": "Wind and rain answer to me. Let me know if your crops need any.",
+    "Chat7": "Tradition is fine. Progress is better.",
+    "Chat8": "Hmph. Show a little reverence, will you?",
+    "Chat9": "Suwako, the shrine won't run itself.",
+    "Chat10": "Sanae, how many new believers this week?",
+    "Chat11": "Utsuho, how's the reactor? Not melting anything, I hope.",
+    "Chat12": "Kappa, about that ropeway maintenance...",
+    "Chat13": "Reimu, I could lend you a few worshippers. For a small fee.",
+    "Chat14": "Behold! The Moriya Shrine welcomes you.",
+    "Chat15": "Onbashira! Mind your toes.",
+    "Chat16": "Hahaha! Splendid."
+  },
+  "Chat_InuSakuya": {
+    "Chat1": "...Woof.",
+    "Chat2": "The tea is ready. May I have a treat now?",
+    "Chat3": "I am the head maid. I am also a dog. Both are true.",
+    "Chat4": "...Is that a stick? No. I am a professional.",
+    "Chat5": "I can stop time if you need me to. Just say \"sit\".",
+    "Chat6": "My tail does that on its own. Please ignore it.",
+    "Chat7": "Ojou-sama says I am a good girl. I agree.",
+    "Chat8": "...Fumo.",
+    "Chat9": "Ojou-sama. ...Walk?",
+    "Chat10": "...Who is that? She looks very familiar.",
+    "Chat11": "Gatekeeper. You were sleeping again. I'm telling.",
+    "Chat12": "Young mistress. Please do not pull my ears.",
+    "Chat13": "Another dog. ...Sniff sniff.",
+    "Chat14": "...Treat?",
+    "Chat15": "Your tea. I remembered how you like it.",
+    "Chat16": "*shake shake*"
+  },
+  "Chat_Shion": {
+    "Chat1": "...I'm hungry.",
+    "Chat2": "Don't stand so close. My bad luck rubs off.",
+    "Chat3": "Food tastes better when someone else pays for it.",
+    "Chat4": "These notices? They're not mine. ...Well. They are.",
+    "Chat5": "My cat doesn't have a name. Names cost money.",
+    "Chat6": "I'm the god of poverty. You could tell, right?",
+    "Chat7": "If I go down, everyone goes down with me. That's how it works.",
+    "Chat8": "Are you going to finish that?",
+    "Chat9": "Jo'on... could you lend me some money?",
+    "Chat10": "Tenshi! ...Did you bring snacks?",
+    "Chat11": "Shrine maiden. Your donation box is as empty as my bowl.",
+    "Chat12": "Hermit. That banquet food wasn't that bad.",
+    "Chat13": "...You're going to eat all of that? By yourself?",
+    "Chat14": "Spare anything to eat?",
+    "Chat15": "Sorry... it's leaking out again.",
+    "Chat16": "Haaah..."
+  },
+  "Chat_Joon": {
+    "Chat1": "Money is meant to be spent. Preferably someone else's.",
+    "Chat2": "This bag? Limited edition. The only one in Gensokyo. Well, one of three.",
+    "Chat3": "Don't worry about the bill, darling. You're paying it.",
+    "Chat4": "Gold suits me, doesn't it?",
+    "Chat5": "Saving money? How dreadfully boring.",
+    "Chat6": "One look at your wallet and I feel richer already.",
+    "Chat7": "I'm a goddess of pestilence. The pestilence is for your savings.",
+    "Chat8": "Sis says I spend too much. Sis has nothing to spend.",
+    "Chat9": "Sis, stop sulking. You're scaring off the customers.",
+    "Chat10": "Ugh, the nun. I'm not going back to that temple.",
+    "Chat11": "A moneylender, hm? Let's talk business, raccoon.",
+    "Chat12": "Your shrine looks... affordable.",
+    "Chat13": "So you're a thief too? Professional courtesy, then.",
+    "Chat14": "Ohohoho! Isn't this fun?",
+    "Chat15": "Don't stare. These cost more than your house.",
+    "Chat16": "Heads, I win. Tails, you pay."
+  },
+  "Chat_Momiji": {
+    "Chat1": "Patrol report: nothing unusual. ...Except you. You're allowed.",
+    "Chat2": "My eyes see a thousand ri. My nose isn't bad either.",
+    "Chat3": "Most of guard duty is waiting. I'm very good at waiting.",
+    "Chat4": "Off duty? A white wolf tengu is never off duty.",
+    "Chat5": "The Great Tengu would want a report on you. I'll keep it short.",
+    "Chat6": "Dai shogi has more pieces than the mountain has tengu. Nearly.",
+    "Chat7": "Shield up, sword ready. Now we wait.",
+    "Chat8": "Don't wander off. I'll find you, but there's paperwork.",
+    "Chat9": "Kappa. Your optical camouflage is flickering again.",
+    "Chat10": "Your newspaper got my name wrong again.",
+    "Chat11": "Goddess. My orders still say to keep an eye on you.",
+    "Chat12": "Wind priestess, please tell us before you fly over tengu land.",
+    "Chat13": "Another guard. ...Long shift?",
+    "Chat14": "I see everything from here.",
+    "Chat15": "Hmm... no. Yes. That one.",
+    "Chat16": "Who goes there?!"
+  },
+  "Replies": {
+    "Kasen11": "Training? I beat up youkai every week. That counts.",
+    "Kasen12": "Who, me? Never! ...Not sober, anyway.",
+    "Kasen13": "I'm just borrowing it until I die, ze!",
+    "Kasen22": "Hah! Hiding never suited you anyway.",
+    "Kasen23": "I am working. I'm keeping an eye on a certain hermit.",
+    "Kasen24": "But I haven't even asked yet, darling.",
+    "Yuugi9": "Only if you bring the sake dish!",
+    "Yuugi10": "Not so loud! ...And they're bun covers.",
+    "Yuugi11": "There's no need. You were thinking about sake again.",
+    "Yuugi12": "Don't get used to it.",
+    "Komachi9": "Keep your eyes on your ferry, shinigami.",
+    "Komachi10": "Not today. Unless you brought snacks for the trip?",
+    "Komachi11": "Then stop slacking where I'm trimming!",
+    "Seiga8": "At least I'm not a wicked one.",
+    "Seiga9": "Leave something in it and I'll think about it.",
+    "Aunn9": "Sort of? ...Well, it's more than I did.",
+    "Aunn10": "Splendid. Now guard a little more quietly.",
+    "Okina9": "Says the one who hides behind people's backs.",
+    "Okina10": "Hehe! I'll keep it up!",
+    "Byakuren8": "Anything for you, Hijiri! All aboard!",
+    "Byakuren9": "Hey, shade is my job! ...Surprise?",
+    "Byakuren10": "Coming from you, that means a great deal.",
+    "Byakuren13": "...Don't ask. And don't tell her I told you.",
+    "Byakuren14": "Bah. I only come for the tea.",
+    "Kasen25": "Fwahaha! Then out-drink me again, and I'll stop.",
+    "Kosuzu9": "Then why is that book glowing?",
+    "Kosuzu10": "Overdue? I'm still reading them! ...Slowly.",
+    "Kosuzu11": "Plenty, child. Pour this tanuki some tea and I'll tell you one.",
+    "Kosuzu12": "Too late! It's going on the front page.",
+    "Mamizou9": "I'll hide them under the counter. Thank you, Miss Mamizou!",
+    "Mamizou10": "And I smell wet tanuki. Charming.",
+    "Mamizou11": "Wasn't losing once enough for you?",
+    "Mamizou12": "...Thank you. This is my happy mask.",
+    "Mamizou13": "Even if I had, I wouldn't tell a moneylender.",
+    "Nazrin9": "Then please help her find it, before she has to ask.",
+    "Nazrin10": "It's an anchor, Nazrin. It's supposed to sink!",
+    "Nazrin11": "Really? Point me at someone easy to startle!",
+    "Nazrin12": "Fwahaha! I only ever lend, dear. I never pawn.",
+    "Nazrin13": "Treasure? Where? I'm just borrowing!",
+    "Kasen26": "Faith isn't free, hermit. Neither is maintenance.",
+    "Aunn14": "...I guard the tea.",
+    "Suwako9": "Some of us run a shrine, Suwako.",
+    "Suwako10": "Yes, Lady Suwako. All forty of them.",
+    "Suwako11": "Make me! ...Wait, are you a frog?",
+    "Suwako12": "I'll take the visitors. Keep the frogs.",
+    "Kanako9": "Sure it will. That's what you're for!",
+    "Kanako10": "Three! ...Well, two and a kappa.",
+    "Kanako11": "Only a little! It's fine!",
+    "Kanako12": "Payment first, goddess. Cucumbers accepted.",
+    "Kanako13": "...What's the fee?",
+    "InuSakuya9": "Later. Sit. ...Good girl.",
+    "InuSakuya10": "I could ask you the same thing.",
+    "InuSakuya11": "No, no, I was meditating! Don't tell!",
+    "InuSakuya12": "But they're so floppy!",
+    "InuSakuya13": "Hi! Are you a guardian dog too?",
+    "Shion9": "Absolutely not. You'd lose it by sundown.",
+    "Shion10": "Peaches from Heaven! ...Mostly for me, but fine.",
+    "Shion11": "Hey! Mine gets a coin now and then!",
+    "Shion12": "It was awful, Shion. You were just hungry enough to praise it.",
+    "Shion13": "Of course~ You can have whatever's left. There won't be anything.",
+    "Joon9": "I'm not sulking. ...I'm hungry.",
+    "Joon10": "The door is always open, Jo'on. Even after you ran out of it.",
+    "Joon11": "Tanuki, dearie. And my interest would ruin you.",
+    "Joon12": "Don't even think about it. The box is empty!",
+    "Joon13": "I'm just borrowing, ze! ...Hey, is that bag real gold?",
+    "Momiji9": "W-what? It's a prototype! Stop looking so hard!",
+    "Momiji10": "Did it? Ayaya, the readers didn't notice.",
+    "Momiji11": "Then tell your superiors I'm behaving. Mostly.",
+    "Momiji12": "Sorry! I'll file a flight plan next time!",
+    "Momiji13": "The longest! Want to guard together?",
+    "Kasen27": "...But it was free.",
+    "Aunn15": "The whole mountain. You only have the one shrine?",
+    "Byakuren15": "Only people who can afford it. You taught me that."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Segure um item na mão para usar este comando.",
+    "Always": "{0} agora sempre tem raio.",
+    "Never": "{0} agora nunca tem raio.",
+    "MiniOn": "{0} agora tem raio pequeno.",
+    "MiniOff": "{0} voltou ao raio normal.",
+    "BadColor": "Cor inválida. Use /beams color #RRGGBB (ex.: #FF8800).",
+    "Colored": "Cor do raio de {0}: {1}.",
+    "Reset": "{0} saiu das suas listas.",
+    "NotListed": "{0} não está nas suas listas.",
+    "List": "Sempre: {0} | Nunca: {1} | Pequeno: {2} | Cores: {3}",
+    "Cleared": "Suas listas foram apagadas.",
+    "Enabled": "Raios ligados.",
+    "Disabled": "Raios desligados."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Ligado"
+      },
+      "MinRarity": {
+        "Label": "Raridade Mín."
+      },
+      "MinValue": {
+        "Label": "Valor Mín."
+      },
+      "HighlightQuest": {
+        "Label": "Itens de Missão"
+      },
+      "HighlightExpert": {
+        "Label": "Itens de Expert"
+      },
+      "HighlightMaster": {
+        "Label": "Itens de Mestre"
+      },
+      "UseDefaultLists": {
+        "Label": "Listas Padrão"
+      },
+      "BeamStyle": {
+        "Label": "Estilo do Raio"
+      },
+      "GlowStyle": {
+        "Label": "Estilo do Brilho"
+      },
+      "BeamScale": {
+        "Label": "Tamanho do Raio"
+      },
+      "BeamOpacity": {
+        "Label": "Opacidade do Raio"
+      },
+      "GlowScale": {
+        "Label": "Tamanho do Brilho"
+      },
+      "GlowOpacity": {
+        "Label": "Opacidade do Brilho"
+      },
+      "FlashScale": {
+        "Label": "Clarão ao Cair"
+      },
+      "DrawAdditive": {
+        "Label": "Mais Forte"
+      },
+      "Pulse": {
+        "Label": "Pulsar"
+      },
+      "EmitLight": {
+        "Label": "Luz"
+      },
+      "FadeOnPickup": {
+        "Label": "Sumir ao Pegar"
+      },
+      "Headers": {
+        "Filters": "Quais Itens",
+        "Visuals": "Aparência",
+        "Extras": "Extras"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Nenhum"
+      },
+      "Simple": {
+        "Label": "Simples"
+      },
+      "Arrow": {
+        "Label": "Seta"
+      },
+      "AnimatedArrow": {
+        "Label": "Seta Animada"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Nenhum"
+      },
+      "Simple": {
+        "Label": "Suave"
+      },
+      "Pixel": {
+        "Label": "Pixelado"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Muda o raio do item que você está segurando."
+    }
+  }
+}

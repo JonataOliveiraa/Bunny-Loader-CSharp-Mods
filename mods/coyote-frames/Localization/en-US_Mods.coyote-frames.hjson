@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "CoyoteConfig": {
+      "CoyoteTimeFramesDefault": {
+        "Label": "Coyote frames to use"
+      },
+      "Headers": {
+        "Frames": "Frames"
+      }
+    }
+  }
+}

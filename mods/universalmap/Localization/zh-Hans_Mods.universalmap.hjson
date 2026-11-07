@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "通用地图",
+      "Interval": {
+        "Label": "间隔"
+      },
+      "Notifications": {
+        "Label": "通知"
+      },
+      "Headers": {
+        "Sync": "同步"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "地图已更新：来自其他玩家的 {0} 个新图格。",
+    "Sharing": "正在与其他玩家共享你的地图...",
+    "MultiplayerOnly": "通用地图仅在多人模式下可用。"
+  }
+}

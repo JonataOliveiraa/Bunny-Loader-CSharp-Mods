@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "coyote-frames",
+    "uid": "a4f0d04b-f2f0-499b-b4b8-6d89e4bcbd6a",
+    "version": "1.0.0",
+    "sha256": "1d2266231ef0dba0d0dbf1e432c8b3880048efaca1e3f91525eb9897189f6015"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. No behavior changes."
+}

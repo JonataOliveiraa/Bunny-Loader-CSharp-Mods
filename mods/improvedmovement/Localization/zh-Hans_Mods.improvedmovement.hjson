@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "视线"
+      },
+      "FaceCursor": {
+        "Label": "面向光标"
+      },
+      "LeaningType": {
+        "Label": "倾斜"
+      },
+      "LeanStrength": {
+        "Label": "强度"
+      },
+      "EnableMountLeaning": {
+        "Label": "坐骑"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "隐藏颈部"
+      },
+      "DisableRopeTurning": {
+        "Label": "绳上不转"
+      },
+      "EnableFlickeringFix": {
+        "Label": "防闪烁"
+      },
+      "NPCLeaningType": {
+        "Label": "NPC倾斜"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "史莱姆"
+      },
+      "EnableZombieLeaning": {
+        "Label": "僵尸"
+      },
+      "EnableCritterLeaning": {
+        "Label": "小动物"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "城镇NPC"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "全部"
+      },
+      "Headers": {
+        "Player": "玩家",
+        "Creatures": "生物"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "关闭"
+      },
+      "Standard": {
+        "Label": "标准"
+      },
+      "Clamped": {
+        "Label": "受限"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "从不"
+      },
+      "Always": {
+        "Label": "总是"
+      },
+      "UsingItem": {
+        "Label": "使用物品时"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "关闭"
+      },
+      "Standard": {
+        "Label": "标准"
+      },
+      "Alternate": {
+        "Label": "备选"
+      },
+      "Spin": {
+        "Label": "旋转"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "标准"
+      },
+      "Spin": {
+        "Label": "旋转"
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Messages": {
+    "WrongTpNumber": "Invalid teleport number!",
+    "WrongUsage": "Info: /deltp + (teleport number in the list)",
+    "NewTpAdded": "A new teleport has been added!",
+    "RemovedTp": "Teleport removed!",
+    "RemoveAllTps": "All teleports have been removed!",
+    "DontHaveTps": "No teleports saved at the moment...",
+    "NameTp": "Teleport",
+    "DeathTpAdded": "Death Teleport Point created!",
+    "DeathTpRemoved": "Death Teleport Point removed!",
+    "DeathTp": "Death Teleport",
+    "TpUpdated": "Teleport updated!",
+    "DeathTpOf": "{0}'s Death Teleport"
+  },
+  "Commands": {
+    "TpCommand": {
+      "Usage": "/tp [name]",
+      "Description": "Save a Teleport Point where you are (with a name, if given)."
+    },
+    "DelTpCommand": {
+      "Usage": "/deltp <TP number>",
+      "Description": "Delete a specific Teleport Point."
+    },
+    "ClearAllCommand": {
+      "Usage": "/clearall",
+      "Description": "Delete all saved Teleport Points."
+    }
+  },
+  "UI": {
+    "CreateTitle": "New Teleport",
+    "EditTitle": "Edit Teleport",
+    "ListTitle": "Teleports",
+    "Name": "Name (tap to type)",
+    "Icon": "Icon",
+    "Color": "Color",
+    "DeleteOnUse": "Delete the teleport when used",
+    "DeleteOnUseShort": "deleted on use",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "Delete": "Delete",
+    "Confirm": "Confirm?",
+    "Edit": "Edit",
+    "Go": "Go",
+    "New": "New",
+    "Search": "Search...",
+    "All": "All",
+    "Empty": "No teleports saved.",
+    "NoResults": "Nothing found.",
+    "DeathOf": "{0}'s death",
+    "DeathHint": "Gone when its owner uses it or leaves"
+  },
+  "Icons": {
+    "Default": "Teleport",
+    "Forest": "Forest",
+    "Snow": "Snow",
+    "Desert": "Desert",
+    "Jungle": "Jungle",
+    "Corruption": "Corruption",
+    "Crimson": "Crimson",
+    "Hallow": "Hallow",
+    "Mushroom": "Mushroom",
+    "Ocean": "Ocean",
+    "Underground": "Underground",
+    "Cavern": "Cavern",
+    "Underworld": "Underworld",
+    "Dungeon": "Dungeon",
+    "Temple": "Temple",
+    "Shimmer": "Shimmer",
+    "Sky": "Sky",
+    "Space": "Space",
+    "Graveyard": "Graveyard",
+    "Home": "Home",
+    "Arena": "Arena"
+  },
+  "TouchButtons": {
+    "CreateTeleport": {
+      "DisplayName": "Create Teleport"
+    },
+    "TeleportList": {
+      "DisplayName": "Teleport List"
+    }
+  },
+  "Colors": {
+    "White": "White",
+    "Yellow": "Yellow",
+    "Orange": "Orange",
+    "Red": "Red",
+    "Pink": "Pink",
+    "Purple": "Purple",
+    "Blue": "Blue",
+    "Cyan": "Cyan",
+    "Green": "Green",
+    "Gray": "Gray"
+  }
+}

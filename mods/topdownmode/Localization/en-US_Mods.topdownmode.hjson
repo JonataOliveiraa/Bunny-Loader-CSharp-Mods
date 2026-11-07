@@ -1,0 +1,240 @@
+{
+  "Configs": {
+    "TopDownConfig": {
+      "Enabled": {
+        "Label": "Enable top-down mode"
+      },
+      "Speed": {
+        "Label": "Speed"
+      },
+      "Smoothing": {
+        "Label": "Acceleration"
+      },
+      "JumpButton": {
+        "Label": "Jump button"
+      },
+      "SprintMultiplier": {
+        "Label": "Sprint mult."
+      },
+      "Noclip": {
+        "Label": "Noclip (pass through)"
+      },
+      "Debug": {
+        "Label": "Debug log"
+      },
+      "MouseAim": {
+        "Label": "Swing to mouse"
+      },
+      "AimMode": {
+        "Label": "Aim mode"
+      },
+      "SwingArc": {
+        "Label": "Swing arc"
+      },
+      "ArmPose": {
+        "Label": "Arm follows aim"
+      },
+      "AttackMoveMultiplier": {
+        "Label": "Attack speed"
+      },
+      "CustomHitbox": {
+        "Label": "Custom hitbox"
+      },
+      "HitboxDamageScale": {
+        "Label": "Hitbox damage"
+      },
+      "ShowHitbox": {
+        "Label": "Show hitbox"
+      },
+      "WalkAnimation": {
+        "Label": "Free animation"
+      },
+      "NpcTopDown": {
+        "Label": "NPCs no gravity"
+      },
+      "DropsTopDown": {
+        "Label": "Drops no gravity"
+      },
+      "FurnitureTopDown": {
+        "Label": "Free furniture"
+      },
+      "ProjectilesTopDown": {
+        "Label": "Projectiles with height"
+      },
+      "GenerateTopDownWorld": {
+        "Label": "Generate new world"
+      },
+      "OnlyInTopDownWorlds": {
+        "Label": "Top-down worlds only"
+      },
+      "WorldShape": {
+        "Label": "World shape"
+      },
+      "SoftEdges": {
+        "Label": "Soft edges"
+      },
+      "TreeDepth": {
+        "Label": "Tree depth"
+      },
+      "NpcDepth": {
+        "Label": "NPC depth"
+      },
+      "GrassDepth": {
+        "Label": "Grass depth"
+      },
+      "FurnitureDepth": {
+        "Label": "Furniture depth"
+      },
+      "CactusDepth": {
+        "Label": "Cactus depth"
+      },
+      "Swim": {
+        "Label": "Swimming & sinking"
+      },
+      "WaterShimmer": {
+        "Label": "Moving water"
+      },
+      "WaterShimmerStrength": {
+        "Label": "Water intensity"
+      },
+      "Shadows": {
+        "Label": "Dynamic shadows"
+      },
+      "ShadowStrength": {
+        "Label": "Shadow intensity"
+      },
+      "Atmosphere": {
+        "Label": "Visual (atmosphere)"
+      },
+      "AtmosphereStrength": {
+        "Label": "Visual intensity"
+      },
+      "HideHellHeat": {
+        "Label": "Hide Underworld heat"
+      },
+      "AmbientLight": {
+        "Label": "Min. day light"
+      },
+      "DayNight": {
+        "Label": "Day/night cycle"
+      },
+      "NightLight": {
+        "Label": "Min. night light"
+      },
+      "Brightness": {
+        "Label": "Brightness"
+      },
+      "Trees": {
+        "Label": "World trees"
+      },
+      "TreeDensity": {
+        "Label": "Tree amount"
+      },
+      "Decor": {
+        "Label": "Rocks and grass"
+      },
+      "DecorDensity": {
+        "Label": "Rock/grass amount"
+      },
+      "SkipVanillaWorldGen": {
+        "Label": "Skip default generation"
+      },
+      "EvilBiome": {
+        "Label": "Evil biome"
+      },
+      "EvilSize": {
+        "Label": "Evil size"
+      },
+      "Rivers": {
+        "Label": "Rivers"
+      },
+      "RiverDensity": {
+        "Label": "River amount"
+      },
+      "RiverWidth": {
+        "Label": "River width"
+      },
+      "Lakes": {
+        "Label": "Lakes & oases"
+      },
+      "Cactus": {
+        "Label": "Cacti"
+      },
+      "CactusDensity": {
+        "Label": "Cactus amount"
+      },
+      "Headers": {
+        "SectionGeneral": "General",
+        "SectionWorld": "World",
+        "SectionDebug": "Testing",
+        "SectionCombat": "Combat (aim)"
+      }
+    },
+    "JumpButtonMode": {
+      "Sprint": {
+        "Label": "Sprint"
+      },
+      "Up": {
+        "Label": "Move up"
+      },
+      "None": {
+        "Label": "None"
+      }
+    },
+    "EvilBiomeMode": {
+      "Auto": {
+        "Label": "Automatic"
+      },
+      "Corruption": {
+        "Label": "Corruption"
+      },
+      "Crimson": {
+        "Label": "Crimson"
+      },
+      "None": {
+        "Label": "None"
+      }
+    },
+    "WorldShapeMode": {
+      "Square": {
+        "Label": "Square"
+      },
+      "Wide": {
+        "Label": "Wide (default)"
+      }
+    },
+    "TreesMode": {
+      "Terraria": {
+        "Label": "Terraria"
+      },
+      "Blob": {
+        "Label": "Simple"
+      },
+      "None": {
+        "Label": "None"
+      }
+    },
+    "AimModeKind": {
+      "Lock": {
+        "Label": "Lock"
+      },
+      "Follow": {
+        "Label": "Follow"
+      }
+    }
+  },
+  "Items": {
+    "TopDownCaveStairsItem": {
+      "DisplayName": "Cave Stairs",
+      "Tooltip": "Place on ground to go down"
+    }
+  },
+  "Tiles": {
+    "TopDownCaveStairs": {
+      "MapEntry": "Cave Stairs"
+    },
+    "TopDownCaveExit": {
+      "MapEntry": "Stairs Up"
+    }
+  }
+}

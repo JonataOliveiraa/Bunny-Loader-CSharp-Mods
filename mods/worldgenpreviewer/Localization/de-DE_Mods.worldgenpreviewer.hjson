@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Pausiert starten"
+      },
+      "LivePreview": {
+        "Label": "Kartenvorschau"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Schrittliste anzeigen",
+    "Previous": "Vorherigen Schritt wiederholen",
+    "Resume": "Fortsetzen",
+    "Pause": "Pause",
+    "Next": "Zum nächsten Schritt",
+    "Structures": "Geschützte Strukturen anzeigen",
+    "Cancel": "Abbrechen",
+    "ZoomIn": "Vergrößern",
+    "ZoomOut": "Verkleinern",
+    "ExitZoom": "Zoom beenden",
+    "NoPause": "Pausieren ist auf diesem Gerät nicht verfügbar",
+    "StatusNormal": "Status: Normal",
+    "StatusPausing": "Status: Wird pausiert...",
+    "StatusPaused": "Status: Pausiert",
+    "StatusRepeating": "Status: Vorheriger Schritt wird wiederholt",
+    "StatusWaitingRepeat": "Status: Warte auf Wiederholung dieses Schritts...",
+    "StatusCanceling": "Status: Wird abgebrochen...",
+    "StatusStructuresOn": "Status: Strukturanzeige an",
+    "StatusStructuresOff": "Status: Strukturanzeige aus",
+    "StatusPausingAfter": "Status: Pause nach {0}",
+    "Skipped": "Übersprungen",
+    "Complete": "Abgeschlossen",
+    "AdvanceTo": "Tippen, um bis {0} fortzufahren",
+    "Tile": "Block: {0}",
+    "PausedAfter": "Weltgenerierung pausiert nach {0}",
+    "Waiting": "Vorschau wird erstellt...",
+    "PreviewOff": "Kartenvorschau ist aus",
+    "Steps": "Schritte",
+    "SkipStep": "Tippen, um diesen Schritt zu überspringen",
+    "KeepStep": "Tippen, um diesen Schritt zu behalten",
+    "StatusFinishingMap": "Status: Karte wird fertiggestellt..."
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "Включить"
+      },
+      "ShowHeldItem": {
+        "Label": "Показ предмета"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "Время боя"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "Всегда в бою"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "Бой при уроне"
+      },
+      "SmallItemPose": {
+        "Label": "Предметы"
+      },
+      "LargeItemPose": {
+        "Label": "Большие предметы"
+      },
+      "VanityItemPose": {
+        "Label": "Экипируемое"
+      },
+      "PotionPose": {
+        "Label": "Зелья"
+      },
+      "SmallToolPose": {
+        "Label": "Инструменты"
+      },
+      "LargeToolPose": {
+        "Label": "Большие инструменты"
+      },
+      "SmallMeleePose": {
+        "Label": "Ближний бой"
+      },
+      "LargeMeleePose": {
+        "Label": "Большое ближнее"
+      },
+      "RapierPose": {
+        "Label": "Рапиры"
+      },
+      "SpearPose": {
+        "Label": "Копья"
+      },
+      "YoyoPose": {
+        "Label": "Йо-йо"
+      },
+      "YoyoHalfScale": {
+        "Label": "Мелкие йо-йо"
+      },
+      "FlailPose": {
+        "Label": "Цепы"
+      },
+      "PowerToolPose": {
+        "Label": "Электроинструменты"
+      },
+      "WhipPose": {
+        "Label": "Кнуты"
+      },
+      "ThrownPose": {
+        "Label": "Метательное"
+      },
+      "ThrownThinPose": {
+        "Label": "Ножи"
+      },
+      "BowPose": {
+        "Label": "Луки"
+      },
+      "RepeaterPose": {
+        "Label": "Арбалеты"
+      },
+      "BowDrawAmmo": {
+        "Label": "Стрела на луке"
+      },
+      "PistolPose": {
+        "Label": "Пистолеты"
+      },
+      "GunPose": {
+        "Label": "Автоматы"
+      },
+      "GunManualPose": {
+        "Label": "Полуавтоматы"
+      },
+      "ShotgunPose": {
+        "Label": "Дробовики"
+      },
+      "LauncherPose": {
+        "Label": "Ракетницы"
+      },
+      "StaffPose": {
+        "Label": "Посохи"
+      },
+      "MagicBookPose": {
+        "Label": "Книги"
+      },
+      "MagicItemPose": {
+        "Label": "Артефакты"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "Физика"
+      },
+      "EnableSheathingAnim": {
+        "Label": "Убирание"
+      },
+      "EnableItemScaling": {
+        "Label": "Размер префикса"
+      },
+      "SmallSwordThreshold": {
+        "Label": "Одноручный меч"
+      },
+      "SmallGunThreshold": {
+        "Label": "Одноручное ружьё"
+      },
+      "GiantItemThreshold": {
+        "Label": "Размер гигантов"
+      },
+      "GiantItemScalePercent": {
+        "Label": "Масштаб гигантов"
+      },
+      "GiantItemPose": {
+        "Label": "Гигантские предметы"
+      },
+      "GiantWeaponPose": {
+        "Label": "Гигантское ближнее"
+      },
+      "GiantBowPose": {
+        "Label": "Гигантские луки"
+      },
+      "GiantGunPose": {
+        "Label": "Гигантское дальнее"
+      },
+      "GiantMagicPose": {
+        "Label": "Гигантская магия"
+      },
+      "GiantDamagingPose": {
+        "Label": "Прочее гигантское"
+      },
+      "EnableMenuDisplay": {
+        "Label": "В меню"
+      },
+      "EnableProjSpears": {
+        "Label": "Спрайт копья"
+      },
+      "EnableProjYoyos": {
+        "Label": "Спрайт йо-йо"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "Быстрая группа"
+      },
+      "Headers": {
+        "PlayerHeader": "Отображение и Позы",
+        "ItemPoseHeader": "Предметы и Инструменты",
+        "MeleePoseHeader": "Ближний Бой",
+        "RangedPoseHeader": "Дальний Бой",
+        "MagicPoseHeader": "Магия",
+        "LocalGraphics": "Графика",
+        "Experimental": "Экспериментальное",
+        "HoldOverride": "Исключения"
+      }
+    },
+    "LabelledItemPose": {
+      "None": {
+        "Label": "Нет"
+      },
+      "Back": {
+        "Label": "Спина"
+      },
+      "BackUpright": {
+        "Label": "Спина, вертикально"
+      },
+      "BackDownward": {
+        "Label": "Спина, вниз"
+      },
+      "BackBow": {
+        "Label": "Спина (лук)"
+      },
+      "Waist": {
+        "Label": "Пояс"
+      },
+      "WaistHolster": {
+        "Label": "Кобура"
+      },
+      "Hold": {
+        "Label": "В руке"
+      },
+      "HoldForward": {
+        "Label": "В руке, вперёд"
+      },
+      "HoldReverse": {
+        "Label": "В руке, обратный хват"
+      },
+      "HoldTome": {
+        "Label": "Книга в руке"
+      },
+      "OffHand": {
+        "Label": "Задняя рука"
+      },
+      "OffHandFlailShoulder": {
+        "Label": "Задняя рука, цеп на плече"
+      },
+      "OffHandPole": {
+        "Label": "Задняя рука, древко"
+      },
+      "OffHandShoulder": {
+        "Label": "Задняя рука, на плече"
+      },
+      "OffHandUpright": {
+        "Label": "Задняя рука, вертикально"
+      },
+      "TwoHandCarry": {
+        "Label": "Двумя руками"
+      },
+      "TwoHandJoustingLance": {
+        "Label": "Рыцарское копьё"
+      },
+      "FloatingBack": {
+        "Label": "Парит сзади"
+      },
+      "FloatingBackUpright": {
+        "Label": "Парит сзади, вертикально"
+      },
+      "FloatingBackAimed": {
+        "Label": "Парит сзади, прицел"
+      },
+      "FloatingFront": {
+        "Label": "Парит спереди"
+      },
+      "FloatingOffHand": {
+        "Label": "Парит у задней руки"
+      },
+      "FloatingAimed": {
+        "Label": "Парит, прицел"
+      },
+      "OrbitClockwiseFast": {
+        "Label": "Орбита по часовой, быстро"
+      },
+      "OrbitAntiClockFast": {
+        "Label": "Орбита против часовой, быстро"
+      },
+      "OrbitClockwiseSlow": {
+        "Label": "Орбита по часовой, медленно"
+      },
+      "OrbitAntiClockSlow": {
+        "Label": "Орбита против часовой, медленно"
+      },
+      "CombatHold": {
+        "Label": "Бой: в руке"
+      },
+      "CombatReady": {
+        "Label": "Бой: наготове"
+      },
+      "CombatUpright": {
+        "Label": "Бой: вертикально"
+      },
+      "CombatRaised": {
+        "Label": "Бой: поднято"
+      },
+      "CombatTrail": {
+        "Label": "Бой: волоком"
+      },
+      "CombatRapier": {
+        "Label": "Бой: рапира"
+      },
+      "CombatRapierHold": {
+        "Label": "Бой: рапира в руке"
+      },
+      "CombatPoleUpright": {
+        "Label": "Бой: древко вертикально"
+      },
+      "CombatPoleReady": {
+        "Label": "Бой: древко наготове"
+      },
+      "CombatFlailReady": {
+        "Label": "Бой: цеп наготове"
+      },
+      "CombatBowHold": {
+        "Label": "Бой: лук в руке"
+      },
+      "CombatPistol": {
+        "Label": "Бой: пистолет"
+      },
+      "CombatOffHandPoleShoulder": {
+        "Label": "Бой: древко на плече"
+      },
+      "CombatOffHandPistol": {
+        "Label": "Бой: пистолет в задней руке"
+      },
+      "CombatOffHandShoulder": {
+        "Label": "Бой: на плече"
+      },
+      "CombatTwoHand": {
+        "Label": "Бой: двумя руками"
+      },
+      "CombatTwoHandBrave": {
+        "Label": "Бой: двумя руками, смело"
+      },
+      "CombatTwoHandTail": {
+        "Label": "Бой: двумя руками, назад"
+      },
+      "CombatTwoHandHighlander": {
+        "Label": "Бой: двумя руками, горец"
+      },
+      "CombatTwoHandBerserk": {
+        "Label": "Бой: двумя руками, берсерк"
+      },
+      "CombatTwoHandGuard": {
+        "Label": "Бой: двумя руками, защита"
+      },
+      "CombatTwoHandPoleTwoHand": {
+        "Label": "Бой: древко двумя руками"
+      },
+      "CombatTwoHandPowerTool": {
+        "Label": "Бой: электроинструмент"
+      },
+      "CombatTwoHandBow": {
+        "Label": "Бой: лук двумя руками"
+      },
+      "CombatTwoHandRifleHip": {
+        "Label": "Бой: винтовка у бедра"
+      },
+      "CombatTwoHandRifleUp": {
+        "Label": "Бой: винтовка вверх"
+      },
+      "CombatTwoHandRifleDown": {
+        "Label": "Бой: винтовка вниз"
+      },
+      "CombatTwoHandRifleDown2": {
+        "Label": "Бой: винтовка вниз 2"
+      },
+      "CombatTwoHandBoltAction": {
+        "Label": "Бой: затворная винтовка"
+      },
+      "CombatTwoHandPumpAction": {
+        "Label": "Бой: помповый дробовик"
+      }
+    }
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <название> | turn | clear | reset | info | poses]",
+      "Description": "Показывает или скрывает предмет в руке; next/pose/clear меняют его отображение."
+    }
+  },
+  "Common": {
+    "NoItem": "У вас нет предмета в руке.",
+    "Shown": "предмет в руке показан",
+    "Hidden": "предмет в руке скрыт",
+    "QuickDisabled": "Быстрая смена группы выключена (Настройки модов > Weapon Out Lite).",
+    "Override": "(исключение)",
+    "ResetDone": "Исключения предметов сброшены по умолчанию.",
+    "UnknownPose": "Неизвестная поза. См. /wo poses.",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "Спрайт предмета в руке: {0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "Без группы",
+    "Ignore": "Игнорировать",
+    "Item": "Обычный предмет",
+    "LargeItem": "Большой предмет",
+    "VanityItem": "Экипируемый предмет",
+    "Potion": "Зелье",
+    "SmallMelee": "Оружие ближнего боя",
+    "SmallTool": "Инструмент",
+    "LargeMelee": "Большое оружие ближнего боя",
+    "LargeTool": "Большой инструмент",
+    "Rapier": "Короткий меч/рапира",
+    "Spear": "Копьё",
+    "Yoyo": "Йо-йо",
+    "Flail": "Цеп",
+    "Whips": "Кнут",
+    "Thrown": "Метательное оружие",
+    "ThrownThin": "Метательный нож",
+    "PowerTool": "Электроинструмент",
+    "Bow": "Лук",
+    "Repeater": "Арбалет",
+    "Pistol": "Пистолет",
+    "Gun": "Автоматическое оружие",
+    "GunManual": "Полуавтоматическое оружие",
+    "Shotgun": "Дробовик",
+    "Launcher": "Ракетница",
+    "Staff": "Магический посох",
+    "MagicBook": "Книга заклинаний",
+    "MagicItem": "Магический артефакт",
+    "GiantItem": "Гигантский предмет",
+    "GiantWeapon": "Гигантское оружие ближнего боя",
+    "GiantBow": "Гигантский лук",
+    "GiantGun": "Гигантское оружие дальнего боя",
+    "GiantMagic": "Гигантское магическое оружие",
+    "GiantDamaging": "Прочее гигантское оружие"
+  },
+  "Poses": {
+    "None": "Нет",
+    "Back": "Спина",
+    "BackUpright": "Спина, вертикально",
+    "BackDownward": "Спина, вниз",
+    "BackBow": "Спина (лук)",
+    "Waist": "Пояс",
+    "WaistHolster": "Кобура",
+    "Hold": "В руке",
+    "HoldForward": "В руке, вперёд",
+    "HoldReverse": "В руке, обратный хват",
+    "HoldTome": "Книга в руке",
+    "OffHand": "Задняя рука",
+    "OffHandFlailShoulder": "Задняя рука, цеп на плече",
+    "OffHandPole": "Задняя рука, древко",
+    "OffHandShoulder": "Задняя рука, на плече",
+    "OffHandUpright": "Задняя рука, вертикально",
+    "TwoHandCarry": "Двумя руками",
+    "TwoHandJoustingLance": "Рыцарское копьё",
+    "FloatingBack": "Парит сзади",
+    "FloatingBackUpright": "Парит сзади, вертикально",
+    "FloatingBackAimed": "Парит сзади, прицел",
+    "FloatingFront": "Парит спереди",
+    "FloatingOffHand": "Парит у задней руки",
+    "FloatingAimed": "Парит, прицел",
+    "OrbitClockwiseFast": "Орбита по часовой, быстро",
+    "OrbitAntiClockFast": "Орбита против часовой, быстро",
+    "OrbitClockwiseSlow": "Орбита по часовой, медленно",
+    "OrbitAntiClockSlow": "Орбита против часовой, медленно",
+    "CombatHold": "Бой: в руке",
+    "CombatReady": "Бой: наготове",
+    "CombatUpright": "Бой: вертикально",
+    "CombatRaised": "Бой: поднято",
+    "CombatTrail": "Бой: волоком",
+    "CombatRapier": "Бой: рапира",
+    "CombatRapierHold": "Бой: рапира в руке",
+    "CombatPoleUpright": "Бой: древко вертикально",
+    "CombatPoleReady": "Бой: древко наготове",
+    "CombatFlailReady": "Бой: цеп наготове",
+    "CombatBowHold": "Бой: лук в руке",
+    "CombatPistol": "Бой: пистолет",
+    "CombatOffHandPoleShoulder": "Бой: древко на плече",
+    "CombatOffHandPistol": "Бой: пистолет в задней руке",
+    "CombatOffHandShoulder": "Бой: на плече",
+    "CombatTwoHand": "Бой: двумя руками",
+    "CombatTwoHandBrave": "Бой: двумя руками, смело",
+    "CombatTwoHandTail": "Бой: двумя руками, назад",
+    "CombatTwoHandHighlander": "Бой: двумя руками, горец",
+    "CombatTwoHandBerserk": "Бой: двумя руками, берсерк",
+    "CombatTwoHandGuard": "Бой: двумя руками, защита",
+    "CombatTwoHandPoleTwoHand": "Бой: древко двумя руками",
+    "CombatTwoHandPowerTool": "Бой: электроинструмент",
+    "CombatTwoHandBow": "Бой: лук двумя руками",
+    "CombatTwoHandRifleHip": "Бой: винтовка у бедра",
+    "CombatTwoHandRifleUp": "Бой: винтовка вверх",
+    "CombatTwoHandRifleDown": "Бой: винтовка вниз",
+    "CombatTwoHandRifleDown2": "Бой: винтовка вниз 2",
+    "CombatTwoHandBoltAction": "Бой: затворная винтовка",
+    "CombatTwoHandPumpAction": "Бой: помповый дробовик"
+  }
+}

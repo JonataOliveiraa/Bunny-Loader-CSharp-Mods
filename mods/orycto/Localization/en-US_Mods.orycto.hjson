@@ -1,0 +1,30 @@
+{
+  "Configs": {
+    "BoostConfig": {
+      "UnlockFps": {
+        "Label": "FPS Unlocker"
+      },
+      "Fps": {
+        "Label": "Frame rate target"
+      },
+      "Smooth": {
+        "Label": "Smooth motion"
+      },
+      "Enemies": {
+        "Label": "Smooth enemies"
+      },
+      "Projectiles": {
+        "Label": "Smooth projectiles"
+      },
+      "SkipLighting": {
+        "Label": "Skip lighting in-between frames"
+      },
+      "DustCap": {
+        "Label": "Dust limit"
+      },
+      "Profiler": {
+        "Label": "Profiler overlay"
+      }
+    }
+  }
+}

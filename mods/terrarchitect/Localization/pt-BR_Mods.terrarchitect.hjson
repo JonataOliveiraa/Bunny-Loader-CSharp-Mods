@@ -1,0 +1,672 @@
+{
+  "Items": {
+    "AirBlowerItem": {
+      "DisplayName": "Soprador de Ar"
+    },
+    "AirDuctItem": {
+      "DisplayName": "Dutos de Ar"
+    },
+    "AnchorWallMountItem": {
+      "DisplayName": "Âncora Pendurada"
+    },
+    "AncientPotItem": {
+      "DisplayName": "Pote Antigo"
+    },
+    "AncientVaseItem": {
+      "DisplayName": "Vaso Antigo"
+    },
+    "AntelopeHuntingTrophyItem": {
+      "DisplayName": "Troféu de Caça de Antílope"
+    },
+    "AshtrayItem": {
+      "DisplayName": "Cinzeiro"
+    },
+    "AxeWallMountItem": {
+      "DisplayName": "Machado Pendurado"
+    },
+    "BackpackItem": {
+      "DisplayName": "Mochila"
+    },
+    "BallOfYarnItem": {
+      "DisplayName": "Bola de lã"
+    },
+    "BalloonBottleItem": {
+      "DisplayName": "Garrafa de Balão"
+    },
+    "BarbedWireFenceItem": {
+      "DisplayName": "Cerca de Arame Farpado"
+    },
+    "BasketItem": {
+      "DisplayName": "Cesta"
+    },
+    "BeeNestItem": {
+      "DisplayName": "Ninho de Abelhas",
+      "Tooltip": "'Não os irrite!'"
+    },
+    "BeerMugItem": {
+      "DisplayName": "Caneca de Cerveja"
+    },
+    "BigBarrelItem": {
+      "DisplayName": "Barril Grande"
+    },
+    "BigCauldronItem": {
+      "DisplayName": "Caldeirão Grande"
+    },
+    "BigChestItem": {
+      "DisplayName": "Baú Grande"
+    },
+    "BigTentItem": {
+      "DisplayName": "Tenda Grande"
+    },
+    "BigWagonItem": {
+      "DisplayName": "Carroça Grande"
+    },
+    "BirdHouseItem": {
+      "DisplayName": "Casa de Pássaros"
+    },
+    "BirdNestItem": {
+      "DisplayName": "Ninho de Pássaros"
+    },
+    "BlueRoofTileItem": {
+      "DisplayName": "Telha Azul"
+    },
+    "BonsaiTreeItem": {
+      "DisplayName": "Bonsai"
+    },
+    "BoomboxItem": {
+      "DisplayName": "Boombox"
+    },
+    "BroomItem": {
+      "DisplayName": "Vassoura"
+    },
+    "BucketItem": {
+      "DisplayName": "Balde",
+      "Tooltip": "'Meu Deus...'"
+    },
+    "BustItem": {
+      "DisplayName": "Busto"
+    },
+    "ButcherTableItem": {
+      "DisplayName": "Mesa do Açougueiro"
+    },
+    "CashRegisterItem": {
+      "DisplayName": "Caixa Registradora"
+    },
+    "ChampagneGlassItem": {
+      "DisplayName": "Taça de Champanhe"
+    },
+    "CheckerboardGlassItem": {
+      "DisplayName": "Vidro Xadrez"
+    },
+    "CheckerboardGlassWallItem": {
+      "DisplayName": "Parede de Vidro Xadrez"
+    },
+    "ChessboardItem": {
+      "DisplayName": "Tabuleiro de Xadrez"
+    },
+    "ClockItem": {
+      "DisplayName": "Relógio"
+    },
+    "CoatRackItem": {
+      "DisplayName": "Cabideiro"
+    },
+    "CoffeeCupItem": {
+      "DisplayName": "Xícara de Café"
+    },
+    "CoffinItem": {
+      "DisplayName": "Caixão"
+    },
+    "CookieJarItem": {
+      "DisplayName": "Pote de Biscoitos",
+      "Tooltip": "'Não toque!'"
+    },
+    "CribItem": {
+      "DisplayName": "Berço"
+    },
+    "DecoDynamiteItem": {
+      "DisplayName": "Dinamite Decorativa"
+    },
+    "DecoFlaskOfVenomItem": {
+      "DisplayName": "Frasco de Veneno Decorativo"
+    },
+    "DecoHealingPotionItem": {
+      "DisplayName": "Poção de Cura Decorativa"
+    },
+    "DecoHellstoneBrickItem": {
+      "DisplayName": "Tijolos de Pedra Infernal Decorativos"
+    },
+    "DecoHellstoneItem": {
+      "DisplayName": "Pedra Infernal Decorativa"
+    },
+    "DecoHunterPotionItem": {
+      "DisplayName": "Poção do Caçador Decorativa"
+    },
+    "DecoIronskinPotionItem": {
+      "DisplayName": "Poção de Pele de Ferro Decorativa"
+    },
+    "DecoMagicPowerPotionItem": {
+      "DisplayName": "Pó Mágico Decorativo"
+    },
+    "DecoManaPotionItem": {
+      "DisplayName": "Poção de Mana Decorativa"
+    },
+    "DecoMiningPotionItem": {
+      "DisplayName": "Poção de Mineração Decorativa"
+    },
+    "DecoSmallBombItem": {
+      "DisplayName": "Bomba Decorativa"
+    },
+    "DecoSonarPotionItem": {
+      "DisplayName": "Poção de Sonar Decorativa"
+    },
+    "DeerHuntingTrophyItem": {
+      "DisplayName": "Troféu de Caça de Cervo"
+    },
+    "DeerSkullTrophyItem": {
+      "DisplayName": "Troféu de Crânio de Cervo"
+    },
+    "DesertPotItem": {
+      "DisplayName": "Pote do Deserto"
+    },
+    "DesktopComputerItem": {
+      "DisplayName": "Computador"
+    },
+    "DirectionalSignItem": {
+      "DisplayName": "Placa Direcional"
+    },
+    "DivingBoardItem": {
+      "DisplayName": "Prancha de Mergulho",
+      "Tooltip": "Pode sobressair sobre buracos"
+    },
+    "DogHouseItem": {
+      "DisplayName": "Casinha de Cachorro"
+    },
+    "DoorbellItem": {
+      "DisplayName": "Campainha"
+    },
+    "DressingScreenItem": {
+      "DisplayName": "Provador de Roupas"
+    },
+    "DrinkingGlassItem": {
+      "DisplayName": "Copo"
+    },
+    "DumpsterItem": {
+      "DisplayName": "Caçamba"
+    },
+    "DustpanAndBrushItem": {
+      "DisplayName": "Pá e Vassoura"
+    },
+    "EaselItem": {
+      "DisplayName": "Cavalete"
+    },
+    "ElectronicComponent": {
+      "DisplayName": "Componente Eletrônico"
+    },
+    "EyeInAJarItem": {
+      "DisplayName": "Olho no Pote"
+    },
+    "FireExtinguisherItem": {
+      "DisplayName": "Extintor de Incêndio"
+    },
+    "FireHydrantItem": {
+      "DisplayName": "Hidrante"
+    },
+    "FlatPotItem": {
+      "DisplayName": "Vaso Plano"
+    },
+    "FoodBowlItem": {
+      "DisplayName": "Tijela de Comida"
+    },
+    "ForestPotItem": {
+      "DisplayName": "Pote da Floresta"
+    },
+    "ForestVaseItem": {
+      "DisplayName": "Vaso da Floresta"
+    },
+    "FruitBowlItem": {
+      "DisplayName": "Tijela de Frutas"
+    },
+    "GallowsItem": {
+      "DisplayName": "Forca"
+    },
+    "GardenHoseItem": {
+      "DisplayName": "Mangueira de Jardim"
+    },
+    "GlobeItem": {
+      "DisplayName": "Globo"
+    },
+    "GoldenBellItem": {
+      "DisplayName": "Sino Dourado"
+    },
+    "GongItem": {
+      "DisplayName": "Gongo",
+      "Tooltip": "'Dê uma pancada!'"
+    },
+    "GreenLawnmowerItem": {
+      "DisplayName": "Cortador de Grama Verde"
+    },
+    "GrillItem": {
+      "DisplayName": "Grade"
+    },
+    "GuillotineItem": {
+      "DisplayName": "Guilhotina"
+    },
+    "HallstandItem": {
+      "DisplayName": "Armário"
+    },
+    "HandwagonItem": {
+      "DisplayName": "Carroça de Mão"
+    },
+    "HangingHerbsItem": {
+      "DisplayName": "Ervas Penduradas"
+    },
+    "HayBaleItem": {
+      "DisplayName": "Fardo de Feno"
+    },
+    "HazardWarningBlockItem": {
+      "DisplayName": "Bloco de Aviso de Perigo"
+    },
+    "HazardWarningWallItem": {
+      "DisplayName": "Parede de Aviso de Perigo"
+    },
+    "HeaterItem": {
+      "DisplayName": "Aquecedor"
+    },
+    "HoeItem": {
+      "DisplayName": "Enxada"
+    },
+    "HorizontalStripesWallpaperItem": {
+      "DisplayName": "Papel de Parede de Faixas Horizontais"
+    },
+    "HourglassItem": {
+      "DisplayName": "Ampulheta"
+    },
+    "InkwellItem": {
+      "DisplayName": "Tinteiro"
+    },
+    "InterlockingRoofTileItem": {
+      "DisplayName": "Telhas de Encaixe"
+    },
+    "IroningBoardItem": {
+      "DisplayName": "Tábua de Passar Roupa"
+    },
+    "JugItem": {
+      "DisplayName": "Jarro"
+    },
+    "JunglePotItem": {
+      "DisplayName": "Pote da Selva"
+    },
+    "KitchenToolRackItem": {
+      "DisplayName": "Suporte para Utensílios de Cozinha"
+    },
+    "KnifeRackItem": {
+      "DisplayName": "Suporte para Facas"
+    },
+    "LaptopItem": {
+      "DisplayName": "Laptop"
+    },
+    "LargeBasketItem": {
+      "DisplayName": "Cesta Grande"
+    },
+    "LargeGardenToolRackItem": {
+      "DisplayName": "Suporte Grande para Ferramentas de Jardim"
+    },
+    "LargeGlobeItem": {
+      "DisplayName": "Globo Grande"
+    },
+    "LargeHammerItem": {
+      "DisplayName": "Martelo Grande"
+    },
+    "LargeMetalCageItem": {
+      "DisplayName": "Caixa de Metal Grande"
+    },
+    "LeadlightItem": {
+      "DisplayName": "Vitral"
+    },
+    "LeadlightWallItem": {
+      "DisplayName": "Parede de Vitral"
+    },
+    "LecternItem": {
+      "DisplayName": "Atril"
+    },
+    "LibraryWallItem": {
+      "DisplayName": "Parede de Biblioteca"
+    },
+    "LihzahrdPotItem": {
+      "DisplayName": "Pote Lihzahrd"
+    },
+    "LogPileItem": {
+      "DisplayName": "Pilha de Toras"
+    },
+    "LongTikiMaskItem": {
+      "DisplayName": "Máscara Tiki Longa"
+    },
+    "LoudspeakerItem": {
+      "DisplayName": "Alto-falante"
+    },
+    "MailboxItem": {
+      "DisplayName": "Caixa de Correio"
+    },
+    "MedicineCabinetItem": {
+      "DisplayName": "Armário de Remédios"
+    },
+    "MetalCookingPotItem": {
+      "DisplayName": "Panela de Metal para Cozinhar"
+    },
+    "MetalPanItem": {
+      "DisplayName": "Frigideira de Metal"
+    },
+    "MonsterballItem": {
+      "DisplayName": "Bola de Monstrinhos"
+    },
+    "MortarAndPestleItem": {
+      "DisplayName": "Pilão e Almofariz"
+    },
+    "OldMinecartItem": {
+      "DisplayName": "Carrinho de Minas Antigo"
+    },
+    "OpenBookItem": {
+      "DisplayName": "Livro Aberto"
+    },
+    "OuthouseItem": {
+      "DisplayName": "Banheiro Externo",
+      "Tooltip": "'Alguém me disse uma vez...'"
+    },
+    "PackageItem": {
+      "DisplayName": "Pacote"
+    },
+    "Paper": {
+      "DisplayName": "Papel"
+    },
+    "ParasolItem": {
+      "DisplayName": "Guarda-sol"
+    },
+    "ParchmentItem": {
+      "DisplayName": "Pergaminho"
+    },
+    "PatchworkFabricItem": {
+      "DisplayName": "Tecido de Retalhos"
+    },
+    "PhotoCameraItem": {
+      "DisplayName": "Câmera Fotográfica"
+    },
+    "PickaxeRackItem": {
+      "DisplayName": "Suporte de Picaretas"
+    },
+    "PileOfBooksItem": {
+      "DisplayName": "Pilha de Livros"
+    },
+    "PileOfDishesItem": {
+      "DisplayName": "Pilha de Louças"
+    },
+    "PileOfSacksItem": {
+      "DisplayName": "Pilha de Sacos"
+    },
+    "PileOfScrollsItem": {
+      "DisplayName": "Pilha de Pergaminhos"
+    },
+    "PinballMachineItem": {
+      "DisplayName": "Máquina de Pinball"
+    },
+    "PinnedNoteItem": {
+      "DisplayName": "Nota Fixada"
+    },
+    "PipeItem": {
+      "DisplayName": "Cano"
+    },
+    "PitchforkItem": {
+      "DisplayName": "Garfo"
+    },
+    "PlasticBar": {
+      "DisplayName": "Barra de Plástico"
+    },
+    "PolkaDotsWallpaperItem": {
+      "DisplayName": "Papel de Parede de Bolinhas"
+    },
+    "PottedAloeVeraItem": {
+      "DisplayName": "Vaso de Aloe Vera"
+    },
+    "PottedCactusItem": {
+      "DisplayName": "Vaso de Cactos"
+    },
+    "PottedSeedlingItem": {
+      "DisplayName": "Muda em Vaso"
+    },
+    "PracticeTargetItem": {
+      "DisplayName": "Alvo de Praticar"
+    },
+    "PyramidPotItem": {
+      "DisplayName": "Pote de Pirâmide"
+    },
+    "RCMonsterTruckItem": {
+      "DisplayName": "Caminhão Monstro de Controle Remoto",
+      "Tooltip": "\"Não conseguimos encontrar o controle remoto\""
+    },
+    "RakeItem": {
+      "DisplayName": "Rastelo"
+    },
+    "RhinoHuntingTrophyItem": {
+      "DisplayName": "Troféu de Caça de Rinoceronte"
+    },
+    "RockingChairItem": {
+      "DisplayName": "Cadeira de Balanço"
+    },
+    "RoundPaneGlassItem": {
+      "DisplayName": "Vidro Redondo"
+    },
+    "RoundPaneGlassWallItem": {
+      "DisplayName": "Parede de Vidro Redondo"
+    },
+    "RoyalWallpaperItem": {
+      "DisplayName": "Papel de Parede Real"
+    },
+    "SackItem": {
+      "DisplayName": "Saco"
+    },
+    "ScalesItem": {
+      "DisplayName": "Balança"
+    },
+    "ScratchTreeItem": {
+      "DisplayName": "Árvore de Arranhar"
+    },
+    "ScrubbingBrushItem": {
+      "DisplayName": "Escova"
+    },
+    "ScytheItem": {
+      "DisplayName": "Foice"
+    },
+    "SecurityCameraItem": {
+      "DisplayName": "Câmera de Segurança"
+    },
+    "ServiceBellItem": {
+      "DisplayName": "Sino de Serviço"
+    },
+    "SewingMachineItem": {
+      "DisplayName": "Máquina de Costura"
+    },
+    "ShipCannonItem": {
+      "DisplayName": "Canhão de Navio"
+    },
+    "ShovelItem": {
+      "DisplayName": "Pá"
+    },
+    "SidewalkSignItem": {
+      "DisplayName": "Aviso de Calçada"
+    },
+    "SledItem": {
+      "DisplayName": "Trenó"
+    },
+    "SmallBagItem": {
+      "DisplayName": "Bolsa Pequena"
+    },
+    "SmallChestItem": {
+      "DisplayName": "Baú Pequeno"
+    },
+    "SmallCrystalBallItem": {
+      "DisplayName": "Bola de Cristal Pequena"
+    },
+    "SmallFramedPictureItem": {
+      "DisplayName": "Retrato Pequeno"
+    },
+    "SmallGardenToolRackItem": {
+      "DisplayName": "Suporte Pequeno para Ferramentas de Jardim"
+    },
+    "SmallGlassItem": {
+      "DisplayName": "Vidro Pequeno"
+    },
+    "SmallNoteItem": {
+      "DisplayName": "Nota Pequena"
+    },
+    "SmallSnowGlobeItem": {
+      "DisplayName": "Globo de Neve Pequeno"
+    },
+    "SmallTeapotItem": {
+      "DisplayName": "Bule Pequeno"
+    },
+    "SnowmanItem": {
+      "DisplayName": "Boneco de Neve"
+    },
+    "SoapDispenserItem": {
+      "DisplayName": "Dispensador De Sabão",
+      "Tooltip": "'Lembre-se de lavar as mãos!'"
+    },
+    "SocketItem": {
+      "DisplayName": "Soquete"
+    },
+    "SoupBowlItem": {
+      "DisplayName": "Tigela de Sopa"
+    },
+    "SpiceRackItem": {
+      "DisplayName": "Porta-temperos"
+    },
+    "SpoolOfThreadItem": {
+      "DisplayName": "Carretel de Linha"
+    },
+    "StackOfFabricItem": {
+      "DisplayName": "Pilha de Tecido"
+    },
+    "StampItem": {
+      "DisplayName": "Carimbo"
+    },
+    "SteelGirderItem": {
+      "DisplayName": "Viga de Aço"
+    },
+    "StripedVaseItem": {
+      "DisplayName": "Vaso Listrado"
+    },
+    "SuitOfArmorItem": {
+      "DisplayName": "Armadura"
+    },
+    "SwordWallMountItem": {
+      "DisplayName": "Espada Pendurada"
+    },
+    "TankardItem": {
+      "DisplayName": "Caneca"
+    },
+    "TanningRackItem": {
+      "DisplayName": "Suporte para Bronzeamento"
+    },
+    "TelephoneItem": {
+      "DisplayName": "Telefone"
+    },
+    "TelescopeItem": {
+      "DisplayName": "Telescópio"
+    },
+    "TentItem": {
+      "DisplayName": "Barraca"
+    },
+    "TerrarchitectCatalogueItem": {
+      "DisplayName": "Catálogo do Terraquiteto"
+    },
+    "ThatchRoofItem": {
+      "DisplayName": "Telhado de Palha"
+    },
+    "ThinCorkedJarItem": {
+      "DisplayName": "Pote Fino"
+    },
+    "ThinPipeItem": {
+      "DisplayName": "Cano Fino"
+    },
+    "ThinVaseItem": {
+      "DisplayName": "Vaso Fino"
+    },
+    "TikiMaskItem": {
+      "DisplayName": "Máscara Tiki"
+    },
+    "ToasterItem": {
+      "DisplayName": "Torradeira"
+    },
+    "ToiletPaperItem": {
+      "DisplayName": "Papel Higiênico"
+    },
+    "ToolboxItem": {
+      "DisplayName": "Caixa de Ferramentas"
+    },
+    "ToothbrushItem": {
+      "DisplayName": "Escova de Dentes"
+    },
+    "TowerClockItem": {
+      "DisplayName": "Torre do Relógio"
+    },
+    "TrussItem": {
+      "DisplayName": "Treliça"
+    },
+    "TubeTVItem": {
+      "DisplayName": "Televisão de Tubo"
+    },
+    "UrnItem": {
+      "DisplayName": "Urna"
+    },
+    "VacuumCleanerItem": {
+      "DisplayName": "Aspirador de Pó"
+    },
+    "VerticalStripesWallpaperItem": {
+      "DisplayName": "Papel de Parede de Linhas Verticais"
+    },
+    "VintageFlowerWallpaperItem": {
+      "DisplayName": "Papel de Parede de Flores Vintage"
+    },
+    "VintageVineWallpaperItem": {
+      "DisplayName": "Papel de Parede com Estampa de Vinhas Vintage"
+    },
+    "WagonWheelsItem": {
+      "DisplayName": "Rodas de Carroça"
+    },
+    "WallMountedPhoneItem": {
+      "DisplayName": "Telefone de Parede"
+    },
+    "WaterBowlItem": {
+      "DisplayName": "Tigela de Água"
+    },
+    "WaterPumpItem": {
+      "DisplayName": "Bomba de Água"
+    },
+    "WaterTapItem": {
+      "DisplayName": "Torneira"
+    },
+    "WateringCanItem": {
+      "DisplayName": "Regador"
+    },
+    "WavyLinesWallpaperItem": {
+      "DisplayName": "Papel de Parede de Linhas Onduladas"
+    },
+    "WellItem": {
+      "DisplayName": "Poço"
+    },
+    "WheelbarrowItem": {
+      "DisplayName": "Carrinho de Mão"
+    },
+    "WideCorkedJarItem": {
+      "DisplayName": "Pote Largo"
+    },
+    "WirelessPhoneItem": {
+      "DisplayName": "Telefone sem Fio"
+    },
+    "WoodcuttingStumpItem": {
+      "DisplayName": "Toco de Corte de Madeira"
+    },
+    "WoodenTroughItem": {
+      "DisplayName": "Cocho de Madeira"
+    }
+  }
+}

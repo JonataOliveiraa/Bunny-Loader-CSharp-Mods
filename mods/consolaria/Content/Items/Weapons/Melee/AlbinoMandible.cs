@@ -1,0 +1,37 @@
+﻿using Microsoft.Xna.Framework;
+
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace Consolaria.Content.Items.Weapons.Melee {
+    public class AlbinoMandible : ModItem {
+        public override void SetDefaults() {
+            int width = 32; int height = 16;
+            Item.width = width; Item.height = height;
+
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useTime = Item.useAnimation = 14;
+
+            Item.autoReuse = true;
+            Item.noUseGraphic = true;
+
+            Item.DamageType = DamageClass.Melee;
+            Item.damage = 14;
+
+            Item.knockBack = 4;
+            Item.noMelee = true;
+
+            Item.value = Item.buyPrice(gold: 1);
+            Item.rare = ItemRarityID.Green;
+
+            Item.UseSound = SoundID.Item1;
+
+            Item.shoot = ModContent.ProjectileType<Projectiles.Friendly.AlbinoMandible>();
+            Item.shootSpeed = 14f;
+        }
+
+        public override bool CanUseItem(Player player)
+            => player.ownedProjectileCounts[Item.shoot] < 1;
+    }
+}

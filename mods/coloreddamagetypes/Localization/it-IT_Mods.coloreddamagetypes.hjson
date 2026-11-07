@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Colore Descrizione"
+      },
+      "ChangeDamageColor": {
+        "Label": "Colore Danno"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Miei Numeri"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Numeri Altrui"
+      },
+      "CondenseDamageHits": {
+        "Label": "Raggruppa Colpi"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Mostra all'Uccisione"
+      },
+      "DebugMode": {
+        "Label": "Modalità Debug"
+      },
+      "DebugModeTooltips": {
+        "Label": "Descrizioni"
+      },
+      "DebugModeFields": {
+        "Label": "Campi"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Multigiocatore"
+      },
+      "MeleeDamage": {
+        "Label": "Mischia"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Mischia Crit."
+      },
+      "TooltipMelee": {
+        "Label": "Mischia"
+      },
+      "RangedDamage": {
+        "Label": "Distanza"
+      },
+      "RangedDamageCrit": {
+        "Label": "Distanza Crit."
+      },
+      "TooltipRanged": {
+        "Label": "Distanza"
+      },
+      "MagicDamage": {
+        "Label": "Magia"
+      },
+      "MagicDamageCrit": {
+        "Label": "Magia Crit."
+      },
+      "TooltipMagic": {
+        "Label": "Magia"
+      },
+      "ThrowingDamage": {
+        "Label": "Lancio"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Lancio Crit."
+      },
+      "TooltipThrowing": {
+        "Label": "Lancio"
+      },
+      "SummonDamage": {
+        "Label": "Evocazione"
+      },
+      "SummonDamageCrit": {
+        "Label": "Evocazione Crit."
+      },
+      "TooltipSummon": {
+        "Label": "Evocazione"
+      },
+      "SentryDamage": {
+        "Label": "Sentinella"
+      },
+      "SentryDamageCrit": {
+        "Label": "Sentinella Crit."
+      },
+      "TooltipSentry": {
+        "Label": "Sentinella"
+      },
+      "TooltipDefense": {
+        "Label": "Difesa"
+      },
+      "ModdedTooltip": {
+        "Label": "Descrizione"
+      },
+      "HeldTooltip": {
+        "Label": "Descrizione"
+      },
+      "ModdedDamage": {
+        "Label": "Danno"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Danno Crit."
+      },
+      "HeldDamage": {
+        "Label": "Danno"
+      },
+      "HeldDamageCrit": {
+        "Label": "Danno Crit."
+      },
+      "Headers": {
+        "Toggles": "Opzioni",
+        "Condense": "Raggruppa",
+        "DamageColors": "Colori Danno",
+        "TooltipColors": "Colori Descrizione",
+        "ModCompat": "Predefiniti Mod",
+        "HeldClass": "Classe Oggetto in Mano",
+        "Debug": "Debug"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "danno da sentinella"
+    }
+  }
+}

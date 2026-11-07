@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "Créature",
+    "None": "(aucune)",
+    "Animate": "Animer",
+    "Hologram": "Effet Hologramme",
+    "AltRender": "Rendu Alternatif",
+    "Scale": "Échelle",
+    "OffsetX": "Décalage X",
+    "OffsetY": "Décalage Y",
+    "Rotation": "Rotation",
+    "AnimSpeed": "Délai d'Animation",
+    "InvisibleTile": "Bloc Invisible",
+    "InvisibleWarning": "Attention : un projecteur invisible peut être difficile à retrouver.",
+    "PickerTitle": "Choisis une créature",
+    "SearchHint": "Rechercher par nom...",
+    "Close": "Fermer",
+    "Back": "Retour",
+    "Empty": "Aucune créature débloquée."
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "Projecteur holographique",
+      "Tooltip": "Projette une créature débloquée du Bestiaire en hologramme. Touche-le une fois posé pour le configurer."
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "Projecteur holographique en adamantite",
+      "Tooltip": "Un projecteur avancé. Ignore la progression du Bestiaire et permet des hologrammes plus grands."
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "Projecteur holographique en titane",
+      "Tooltip": "Un projecteur avancé. Ignore la progression du Bestiaire et permet des hologrammes plus grands."
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "Projecteur holographique"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "Projecteur holographique en adamantite"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "Projecteur holographique en titane"
+    }
+  }
+}

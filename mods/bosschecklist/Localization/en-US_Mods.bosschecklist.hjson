@@ -1,0 +1,455 @@
+{
+  "Log": {
+    "Common": {
+      "BossLog": "Boss Log",
+      "Entry": "Entry",
+      "Boss": "Boss",
+      "BossPlural": "Bosses",
+      "MiniBoss": "Mini-boss",
+      "MiniBossPlural": "Mini-bosses",
+      "Event": "Event",
+      "EventPlural": "Events",
+      "Enabled": "enabled",
+      "Disabled": "disabled"
+    },
+    "Tabs": {
+      "ToggleFilters": "Toggle Filters",
+      "TableOfContents": "Table of Contents",
+      "Credits": "Credits",
+      "NextEntry": "Next {0}:\n{1}",
+      "Records": "Records",
+      "SpawnInfo": "Spawn Info",
+      "LootAndCollectibles": "Loot & Collectibles"
+    },
+    "Indicator": {
+      "ProgressionMode": "Progression mode is {0}",
+      "ManualChecklist": "Entries must be manually checked off by the user",
+      "AutomaticChecklist": "The checklist will automatically check off entries",
+      "OnlyBossContentEnabled": "Only boss content is available to be displayed",
+      "OnlyBossContentDisabled": "All content is available to be displayed"
+    },
+    "TableOfContents": {
+      "PreHardmode": "Pre-Hardmode",
+      "Hardmode": "Hardmode",
+      "AllLoot": "All boss loot obtained!",
+      "AllCollectibles": "All boss collectibles obtained!",
+      "Filter": {
+        "ToggleHiddenOpen": "Open hidden list",
+        "ToggleHiddenClose": "Confirm & close hidden list",
+        "Disabled": "Filter disabled due to 'Only Show Boss Content' config"
+      }
+    },
+    "Credits": {
+      "Devs": "Contributors",
+      "Mods": "Registered Mods",
+      "Notice": "[List only contains loaded mods]",
+      "NoIcon": "Mod icon not found!",
+      "ModsEmpty": "None of your loaded mods are registered!",
+      "Register": "Register your own mod!",
+      "Learn": "View the mod description to learn how.",
+      "Titles": {
+        "Owner": "Creator & Owner",
+        "CoOwner": "Co-Owner & Maintainer",
+        "Contributor": "Code Contributor",
+        "Sprites": "Boss Log Sprites",
+        "EarlyTesting": "Early Testing"
+      }
+    },
+    "EntryPage": {
+      "Defeated": "Defeated in {0}{1}",
+      "Undefeated": "Undefeated in {0}",
+      "CopyKey": "Tap to show the internal 'entry key' in chat\n{0}",
+      "ViewPage": "Tap to view page",
+      "LogFeaturesNotAvailable": "Records, spawn items, and the loot table are disabled for this page. The mod has either not submitted enough info for a page or has it improperly set up."
+    },
+    "Records": {
+      "NewRecord": "New Personal Best!",
+      "NewWorldRecord": "New World Record!",
+      "NoRecord": "No record",
+      "Unchallenged": "Unchallenged",
+      "KDR": "{0} kills / {1} deaths",
+      "TotalKills": "Total kills",
+      "NoHit": "No hit!",
+      "Hit": "{0} {^0:hit;hits}",
+      "PreviousBest": "Your Previous Best",
+      "ClaimRecord": "Be the first to claim the world record!",
+      "RecordHolder": "Record Holder(s)",
+      "Category": {
+        "PreviousAttempt": "Previous Attempt",
+        "FirstVictory": "First Victory",
+        "PersonalBest": "Personal Best",
+        "WorldRecord": "World Records"
+      },
+      "Title": {
+        "PreviousAttempt": "Attempt",
+        "FirstVictory": "Play Time",
+        "PersonalBest": "Kill Death Ratio",
+        "WorldRecord": "Global KDR",
+        "Duration": "Fight Duration",
+        "DurationWorld": "Quickest Fight",
+        "HitsTaken": "Hits Received",
+        "HitsTakenWorld": "Lowest Hits Taken"
+      },
+      "Tooltip": {
+        "Duration": "The quickest time this boss was defeated!",
+        "HitsTaken": "Avoid as many attacks as you can! Try to defeat this boss untouched!",
+        "PreviousAttempt": "Total times you have encountered this boss!",
+        "PersonalBest": "Total times you killed this boss and total times this boss has killed you!",
+        "FirstVictory": "Total play time your character has been active, up until the first boss kill!",
+        "WorldRecord": "Global kills and deaths from all players for this boss!"
+      },
+      "Time": {
+        "Days": "{0}d",
+        "Hours": "{0}h",
+        "Minutes": "{0}m",
+        "Seconds": "{0}s"
+      }
+    },
+    "SpawnInfo": {
+      "RecipeFrom": "Recipe from: {0}",
+      "CycleRecipe": "Cycle alternative recipes",
+      "Noncraftable": "This item is not craftable",
+      "NoSpawnItem": "This {0} has no spawn item",
+      "ByHand": "By Hand"
+    },
+    "LootAndCollection": {
+      "ItemIsExpertOnly": "This item is only obtainable in Expert Mode",
+      "ItemIsMasterOnly": "This item is only obtainable in Master Mode",
+      "ItemIsLocked": "This item has special requirements to unlock",
+      "Obtained": "This item has been obtained!",
+      "Researched": "This item has been researched!"
+    },
+    "ProgressionMode": {
+      "BeforeYouBegin": "Before you begin...",
+      "AskEnable": "Do you want to enable the Progression Checklist?",
+      "SelectAnOption": "Please select an option below...",
+      "SelectDisable": "Continue with the progressive checklist disabled...\n* All page info content is unlocked from the start\n* Nothing hidden. No limits.",
+      "SelectEnable": "Continue with the progressive checklist fully enabled...\n* Page info content is locked for undefeated entries\n* Portraits and names are masked\n* Boss loot locked until entry defeation\n* Next check enabled, reducing info limitations (recommended)",
+      "DisablePrompt": "Don't show this prompt again",
+      "Description": "The Progressive Checklist will limit and hide entry content until the entry is defeated or marked as completed. If you are looking to do a blind play-through then you might want to consider enabling this feature. The Boss Log is disabled until you make a selection or reopen it with the prompt configuration disabled"
+    },
+    "HintTexts": {
+      "MarkEntry": "Long-press an entry to mark it as defeated",
+      "HideEntry": "Tap an entry to hide it from the checklist",
+      "ClearMarked": "Long-press this button to clear all marked entries",
+      "ClearHidden": "Long-press this button to clear all hidden entries",
+      "ClearItems": "Long-press this button to mark the listed items as unobtained",
+      "RemoveItem": "Long-press an item to mark it as unobtained",
+      "ClearAllRecords": "Long-press this button to reset the listed record values",
+      "ClearRecord": "Long-press the icon of a record to reset its value",
+      "Compare": "Long-press a record category to compare it"
+    }
+  },
+  "Checklist": {
+    "CelestialPillars": "Celestial Pillars",
+    "ToggleCompletedTooltip": "Toggle Completed",
+    "ToggleMiniBossesTooltip": "Toggle Mini Bosses",
+    "ToggleEventsTooltip": "Toggle Events",
+    "ToggleShowHiddenBossesTooltip": "Toggle Show Hidden Bosses\n(Long-press to clear hidden bosses)\n(Long-press a boss to hide it)",
+    "MoreInfo": "More Info"
+  },
+  "ChatMessages": {
+    "Despawn": {
+      "Generic": "{0} is no longer after you...",
+      "Day": "{0} flees as the sun rises..."
+    },
+    "Defeated": {
+      "Generic": "{0} is down!",
+      "GenericSkeletronHand": "Skeletron's Hand is down!",
+      "GenericMoonLordHead": "Moon Lord's Head is down!",
+      "SkeletronHand": "A {0} hand has fractured!",
+      "PrimeCannon": "The {0} has exploded!",
+      "PrimeSaw": "The {0} has malfunctioned!",
+      "PrimeVice": "The {0} has collapsed!",
+      "PrimeLaser": "The {0} has overheated!",
+      "GolemFistLeft": "{0} is destroyed!",
+      "GolemFistRight": "{0} is destroyed!",
+      "GolemHead": "The {0} has detached from the body!",
+      "MoonLordHead": "A True Eye of Cthulhu exits the head of the {0}!",
+      "MoonLordHand": "A True Eye of Cthulhu exits the {0}!",
+      "Retinazer": "{0} has been defeated!",
+      "Spazmatism": "{0} has been defeated!",
+      "LunarTowerVortex": "The {0} has fallen!",
+      "LunarTowerStardust": "The {0} has fallen!",
+      "LunarTowerNebula": "The {0} has fallen!",
+      "LunarTowerSolar": "The {0} has fallen!"
+    },
+    "Loss": {
+      "Generic": "{0} has killed every player!",
+      "KingSlime": "{0} leaves in triumph...",
+      "EyeofCthulhu": "{0} has disappeared into the night sky...",
+      "EaterofWorlds": "{0} burrows back underground...",
+      "BrainofCthulhu": "{0} vanishes into the pits of the crimson...",
+      "QueenBee": "{0} returns to her colony's nest...",
+      "Skeletron": "{0} continues to torture the Old Man...",
+      "WallofFlesh": "{0} has managed to cross the underworld...",
+      "QueenSlimeBoss": "{0} pompously bounces away...",
+      "TheTwins": "{0} continues its observations...",
+      "TheDestroyer": "{0} seeks for another world to devour...",
+      "SkeletronPrime": "{0} begins searching for a new victim...",
+      "Plantera": "{0} continues its rest within the jungle...",
+      "Golem": "{0} deactivates in the bowels of the temple...",
+      "HallowBoss": "{0} dissipates to hallow light...",
+      "DukeFishron": "{0} returns to the ocean depths...",
+      "CultistBoss": "{0} goes back to its devoted worship...",
+      "MoonLord": "{0} has left this realm..."
+    },
+    "EventEnd": {
+      "Generic": "The {0} has ended...",
+      "BloodMoon": "The Blood Moon falls past the horizon...",
+      "FrostMoon": "The Frost Moon melts as the sun rises...",
+      "PumpkinMoon": "The Pumpkin Moon ends its harvest...",
+      "Eclipse": "The solar eclipse has ended... until next time..."
+    }
+  },
+  "BossSpawnInfo": {
+    "Unknown": "Spawn conditions unknown",
+    "KingSlime": "Use [i:560], randomly in outer 3rds of map, or kill 150 slimes during slime rain.",
+    "EyeofCthulhu": "Use [i:43] at night, or 1/3 chance nightly if over 200 HP.",
+    "EaterofWorlds": "Use [i:70] or break 3 Shadow Orbs in a corruption chasm.",
+    "BrainofCthulhu": "Use [i:1331] or break 3 Crimson Hearts in a crimson chasm.",
+    "QueenBee": "Use [i:1133] or break a Bee Hive's Larva found in the jungle.",
+    "Skeletron": "Visit the dungeon and talk to the old man at night or kill the Clothier with [i:1307] at night.",
+    "Deerclops": "Use [i:5120] in a Snow biome. Spawns naturally at midnight during a Blizzard.",
+    "WallofFlesh": "Spawn by throwing [i:267] or the Guide into lava in the Underworld. [c/FF0000:Starts Hardmode!]",
+    "QueenSlimeBoss": "Use [i:4988] in the Hallow biome, which can be found in the Underground Hallow among Crystal Shards growing on Pearlstone and Pink Ice blocks.",
+    "TheTwins": "10% chance to randomly spawn each night after the first altar is destroyed, until one mech boss is defeated. Alternatively, Use [i:544] at night to spawn.",
+    "TheDestroyer": "10% chance to randomly spawn each night after the first altar is destroyed, until one mech boss is defeated. Use [i:556] at night to spawn.",
+    "SkeletronPrime": "10% chance to randomly spawn each night after the first altar is destroyed, until one mech boss is defeated. Use [i:557] at night to spawn.",
+    "Plantera": "Break a Plantera's Bulb in jungle after 3 Mechanical bosses have been defeated.",
+    "Golem": "Use [i:1293] on Lihzahrd Altar, found deep in the Jungle Temple.",
+    "HallowBoss": "Kill [i:4961] in the Hallow biome, which can be found on the Hallow surface between 7:30pm and 12:00am after Plantera has been defeated.",
+    "DD2Betsy": "Spawns on Wave 7, the final wave, of Old One's Army (Tier 3).",
+    "DukeFishron": "Fish in ocean using the [i:2673] as bait, which can be caught in an underground Glowing Mushroom biome during hardmode.",
+    "CultistBoss": "Kill the 4 cultists outside the dungeon after defeating Golem.",
+    "MoonLord": "Use [i:3601] or defeat all 4 pillars.",
+    "BloodMoon": "Occurs randomly at the start of night or can be summoned with a [i:4271] which can be dropped by any blood moon enemy. Can start when any player in the world has more than 100 health and the current moon phase is NOT a new moon. Lasts until sunrise.",
+    "GoblinArmy": "Has a 1 in 3 chance of occurring every dawn if at least one Shadow Orb/Crimson Heart has been destroyed, at least one player has 200 health or more, and there is not a Goblin Army already in progress. It can also be summoned manually using a [i:361]. Lasts until enough enemies are defeated.",
+    "OldOnesArmy": "After finding the Tavernkeep, purchase and activate [i:3816] with [i:3828]. Lasts until all waves are cleared.",
+    "FrostLegion": "Use a [i:602], which can be found by opening [i:1869], during the Christmas season. Lasts until enough enemies are defeated.",
+    "Eclipse": "Has a 1/20 chance to occur each day upon dawn, as soon as any Mechanical Boss has been defeated. Alternatively, summon with a [i:2767]. Lasts until nightfall.",
+    "PirateInvasion": "Occurs randomly once at least one altar has been destroyed. Can be summoned with a [i:1315], which can be obtained from killing any enemy in the Ocean biome during Hardmode. Lasts until enough enemies are defeated.",
+    "PumpkinMoon": "Summoned with a [i:1844] at night. Lasts until sunrise.",
+    "FrostMoon": "Summoned with a [i:1958] at night. Lasts until sunrise.",
+    "MartianMadness": "After defeating Golem, find a Martian Probe above ground and allow it to find you and escape. Lasts until enough enemies are defeated.",
+    "LunarEvent": "Defeat the Lunatic Cultist found outside the dungeon. Each pillar spawns in its own area within the world. Lasts until all 4 pillars are destroyed.",
+    "Pumpking": "Spawns during Wave 7 of Pumpkin Moon. Start Pumpkin Moon with [i:1844]",
+    "MourningWood": "Spawns during Wave 4 of Pumpkin Moon. Start Pumpkin Moon with [i:1844]",
+    "IceQueen": "Spawns during Wave 11 of Frost Moon. Start Frost Moon with [i:1958]",
+    "SantaNK1": "Spawns during Wave 7 of Frost Moon. Start Frost Moon with [i:1958]",
+    "Everscream": "Spawns during Wave 4 of Frost Moon. Start Frost Moon with [i:1958]",
+    "PirateShip": "Occasionally appears during a Pirate Invasion! Start Pirate Invasion with [i:1315]",
+    "DD2OgreT3": "Appears in wave 7 (Tier 2) and waves 4 & 6 (Tier 3) during the Old One's Army event! Start Old One's Army with [i:3816] and [i:3828]",
+    "DD2DarkMageT3": "Appears in wave 5 (Tier 1) and waves 5 & 6 (Tier 3) during the Old One's Army event! Start Old One's Army with [i:3816] and [i:3828]",
+    "MartianSaucer": "Occasionally appears during Martian Madness! Start Martian Madness by being detected by an alien probe.",
+    "TorchGod": "Place 101 torches while underground. The event starts once the last torch is placed."
+  },
+  "LogMessage": {
+    "LateCall": "Call Warning: The attempted message, '{0}', was sent too early. Expect the Call message to return incomplete data. For best results, call in PostAddRecipes.",
+    "ModCallDocumentation": "Updated Mod.Call documentation for BossChecklist can be found here: https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Boss-Log-Entry-Mod-Call",
+    "OldCall_Orphan": "{0} mod call from {1} is structured improperly. Mod developers can refer to link below:\n https://github.com/JavidPack/BossChecklist/wiki/[1.4.4]-Other-Mod-Calls",
+    "MustContainMod": "Invalid mod instance passed ({0}). Your call must contain a Mod instance to generate an entry key.",
+    "MustContainName": "Invalid internal name passed ({internalName}). Your call must contain a string comprised of letters and/or digits without whitespace characters in order to generate an entry key.",
+    "MustContainMod_Orphan": "Invalid mod instance passed ({0}). Your call must contain a Mod instance for logging purposes.",
+    "DuplicateEntry": "Check your code for duplicate entries or typos, as this entry has already been registered: [{0} {1}]",
+    "RegisteredBosses": "{0} has successfully registered {1} bosses: {2}",
+    "RegisteredMiniBosses": "{0} has successfully registered {1} mini-bosses: {2}",
+    "RegisteredEvents": "{0} has successfully registered {1} events: {2}",
+    "SuccessfulOrphanData": "{0} has successfully registered {1} '{2}' orphan data value(s)",
+    "InvalidOrphanKey": "A '{0}' call from {1} contains an invalid key ({2}) and will be ignored.",
+    "InvalidEventEntry": "{0} is not an event entry and cannot take calls from {1}",
+    "DownedIsNull": "Submitted parameter determined to be null when creating a Boss Log Entry for [{0}]. Entry will not be added until ModCall is resolved.",
+    "RegisteredEntry": "Entry successfully registered to the Boss Log: [{0}]"
+  },
+  "Configs": {
+    "Common": {
+      "InvalidChange": "You cannot change the '{0}' config while {1} is active!"
+    },
+    "BossLogConfiguration": {
+      "DisplayName": "Boss Log",
+      "BossLogColor": {
+        "Label": "Log Color"
+      },
+      "ShowInteractionTooltips": {
+        "Label": "Interaction Tips"
+      },
+      "BookScale": {
+        "Label": "Book Scale"
+      },
+      "ChecklistScale": {
+        "Label": "List Scale"
+      },
+      "AutomaticChecklist": {
+        "Label": "Auto Checklist"
+      },
+      "ProgressiveChecklist": {
+        "Label": "Progressive"
+      },
+      "PromptDisabled": {
+        "Label": "Hide Prompt"
+      },
+      "HideUnavailable": {
+        "Label": "Hide Unavailable"
+      },
+      "HideUnsupported": {
+        "Label": "Hide Unsupported"
+      },
+      "OnlyShowBossContent": {
+        "Label": "Bosses Only"
+      },
+      "FilterBosses": {
+        "Label": "Bosses"
+      },
+      "FilterMiniBosses": {
+        "Label": "Mini-Bosses"
+      },
+      "FilterEvents": {
+        "Label": "Events"
+      },
+      "ColoredBossText": {
+        "Label": "Colored Names"
+      },
+      "SelectedCheckmarkType": {
+        "Label": "Check Style"
+      },
+      "DrawNextMark": {
+        "Label": "Next Mark"
+      },
+      "ShowProgressBars": {
+        "Label": "Progress Bars"
+      },
+      "SpawnItemCraftingChecklist": {
+        "Label": "Recipe Checks"
+      },
+      "LootCheckVisibility": {
+        "Label": "Loot Checks"
+      },
+      "OnlyCheckDroppedLoot": {
+        "Label": "Dropped Loot Only"
+      },
+      "ModCallLogVerbose": {
+        "Label": "Verbose Log"
+      },
+      "AccessInternalNames": {
+        "Label": "Entry Keys"
+      },
+      "ShowProgressionValue": {
+        "Label": "Progression Values"
+      },
+      "ShowCollectionType": {
+        "Label": "Collectible Types"
+      },
+      "EnabledResetOptions": {
+        "Label": "Reset Options"
+      },
+      "Headers": {
+        "BossLogUI": "Boss Log UI",
+        "BossLogChecklist": "Checklist",
+        "Debug": "Debug"
+      }
+    },
+    "FeatureConfiguration": {
+      "DisplayName": "Boss Checklist Features",
+      "RecordTrackingEnabled": {
+        "Label": "Record Tracking"
+      },
+      "AllowNewRecords": {
+        "Label": "New Records"
+      },
+      "NewRecordLogGlow": {
+        "Label": "Record Glow"
+      },
+      "DisplayRecordTracking": {
+        "Label": "Tracker Overlay"
+      },
+      "DespawnMessageType": {
+        "Label": "Despawn Messages"
+      },
+      "LimbMessages": {
+        "Label": "Limb Messages"
+      },
+      "MoonMessages": {
+        "Label": "Moon Messages"
+      },
+      "TimerSounds": {
+        "Label": "Respawn Sounds"
+      },
+      "TreasureBagsOnMap": {
+        "Label": "Treasure Bags"
+      },
+      "FragmentsOnMap": {
+        "Label": "Fragments"
+      },
+      "ScalesOnMap": {
+        "Label": "Scales & Samples"
+      },
+      "EnableBossRadar": {
+        "Label": "Radar"
+      },
+      "RadarMiniBosses": {
+        "Label": "Mini-Bosses"
+      },
+      "RadarOpacity": {
+        "Label": "Opacity"
+      },
+      "Headers": {
+        "BossRecords": "Boss Records",
+        "ChatMessages": "Chat Messages",
+        "ItemMapDetection": "Map Items",
+        "BossRadar": "Boss Radar"
+      }
+    },
+    "BossFilterMode": {
+      "Show": {
+        "Label": "Show"
+      },
+      "HideWhenCompleted": {
+        "Label": "Hide When Done"
+      }
+    },
+    "EntryFilterMode": {
+      "Show": {
+        "Label": "Show"
+      },
+      "HideWhenCompleted": {
+        "Label": "Hide When Done"
+      },
+      "Hide": {
+        "Label": "Hide"
+      }
+    },
+    "CheckmarkType": {
+      "Check_Empty": {
+        "Label": "Check / Box"
+      },
+      "Check_X": {
+        "Label": "Check / X"
+      },
+      "X_Empty": {
+        "Label": "X / Box"
+      },
+      "StrikeThrough": {
+        "Label": "Strike-Through"
+      }
+    },
+    "MessageMode": {
+      "Disabled": {
+        "Label": "Off"
+      },
+      "Generic": {
+        "Label": "Generic"
+      },
+      "Unique": {
+        "Label": "Unique"
+      }
+    }
+  },
+  "TouchButtons": {
+    "BossLog": {
+      "DisplayName": "Boss Log"
+    },
+    "BossChecklist": {
+      "DisplayName": "Boss Checklist"
+    }
+  }
+}

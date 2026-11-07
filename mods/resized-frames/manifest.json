@@ -1,0 +1,26 @@
+{
+  "uid": "0dc6638d-65f8-415b-8b1f-818e818b3f6d",
+  "id": "resized-frames",
+  "name": "Resized Frames",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "GST378",
+      "role": "Original Creator",
+      "avatar": "lemon.webp",
+      "color": "#FEFE00",
+      "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "Items placed in frames will be drawn at their actual size",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

@@ -1,0 +1,26 @@
+{
+  "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
+  "id": "veinminer",
+  "name": "Vein Miner",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532",
+      "role": "Author"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Utility",
+  "summary": "Break one ore with your pickaxe and the whole vein comes with it. Add any block with /vein add.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

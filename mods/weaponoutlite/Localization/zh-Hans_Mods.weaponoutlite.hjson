@@ -1,0 +1,455 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "启用"
+      },
+      "ShowHeldItem": {
+        "Label": "显示物品"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "战斗时长"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "始终战斗"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "受伤时战斗"
+      },
+      "SmallItemPose": {
+        "Label": "物品"
+      },
+      "LargeItemPose": {
+        "Label": "大型物品"
+      },
+      "VanityItemPose": {
+        "Label": "可装备"
+      },
+      "PotionPose": {
+        "Label": "药水"
+      },
+      "SmallToolPose": {
+        "Label": "工具"
+      },
+      "LargeToolPose": {
+        "Label": "大型工具"
+      },
+      "SmallMeleePose": {
+        "Label": "近战"
+      },
+      "LargeMeleePose": {
+        "Label": "大型近战"
+      },
+      "RapierPose": {
+        "Label": "细剑"
+      },
+      "SpearPose": {
+        "Label": "长矛"
+      },
+      "YoyoPose": {
+        "Label": "悠悠球"
+      },
+      "YoyoHalfScale": {
+        "Label": "缩小悠悠球"
+      },
+      "FlailPose": {
+        "Label": "链枷"
+      },
+      "PowerToolPose": {
+        "Label": "电动工具"
+      },
+      "WhipPose": {
+        "Label": "鞭子"
+      },
+      "ThrownPose": {
+        "Label": "投掷"
+      },
+      "ThrownThinPose": {
+        "Label": "投刀"
+      },
+      "BowPose": {
+        "Label": "弓"
+      },
+      "RepeaterPose": {
+        "Label": "弩"
+      },
+      "BowDrawAmmo": {
+        "Label": "弓上箭矢"
+      },
+      "PistolPose": {
+        "Label": "手枪"
+      },
+      "GunPose": {
+        "Label": "全自动"
+      },
+      "GunManualPose": {
+        "Label": "半自动"
+      },
+      "ShotgunPose": {
+        "Label": "霰弹枪"
+      },
+      "LauncherPose": {
+        "Label": "发射器"
+      },
+      "StaffPose": {
+        "Label": "法杖"
+      },
+      "MagicBookPose": {
+        "Label": "魔法书"
+      },
+      "MagicItemPose": {
+        "Label": "法器"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "物理"
+      },
+      "EnableSheathingAnim": {
+        "Label": "收起动画"
+      },
+      "EnableItemScaling": {
+        "Label": "前缀尺寸"
+      },
+      "SmallSwordThreshold": {
+        "Label": "单手剑"
+      },
+      "SmallGunThreshold": {
+        "Label": "单手枪"
+      },
+      "GiantItemThreshold": {
+        "Label": "巨型尺寸"
+      },
+      "GiantItemScalePercent": {
+        "Label": "巨型缩放"
+      },
+      "GiantItemPose": {
+        "Label": "巨型物品"
+      },
+      "GiantWeaponPose": {
+        "Label": "巨型近战"
+      },
+      "GiantBowPose": {
+        "Label": "巨型弓"
+      },
+      "GiantGunPose": {
+        "Label": "巨型远程"
+      },
+      "GiantMagicPose": {
+        "Label": "巨型魔法"
+      },
+      "GiantDamagingPose": {
+        "Label": "其他巨型"
+      },
+      "EnableMenuDisplay": {
+        "Label": "菜单中"
+      },
+      "EnableProjSpears": {
+        "Label": "长矛贴图"
+      },
+      "EnableProjYoyos": {
+        "Label": "悠悠球贴图"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "快速分组"
+      },
+      "Headers": {
+        "PlayerHeader": "显示与姿势",
+        "ItemPoseHeader": "物品与工具",
+        "MeleePoseHeader": "近战",
+        "RangedPoseHeader": "远程",
+        "MagicPoseHeader": "魔法",
+        "LocalGraphics": "图形",
+        "Experimental": "实验性",
+        "HoldOverride": "自定义"
+      }
+    },
+    "LabelledItemPose": {
+      "None": {
+        "Label": "无"
+      },
+      "Back": {
+        "Label": "背后"
+      },
+      "BackUpright": {
+        "Label": "背后竖直"
+      },
+      "BackDownward": {
+        "Label": "背后朝下"
+      },
+      "BackBow": {
+        "Label": "背后（弓）"
+      },
+      "Waist": {
+        "Label": "腰间"
+      },
+      "WaistHolster": {
+        "Label": "腰间枪套"
+      },
+      "Hold": {
+        "Label": "手持"
+      },
+      "HoldForward": {
+        "Label": "手持朝前"
+      },
+      "HoldReverse": {
+        "Label": "反手持"
+      },
+      "HoldTome": {
+        "Label": "手持书本"
+      },
+      "OffHand": {
+        "Label": "副手"
+      },
+      "OffHandFlailShoulder": {
+        "Label": "副手，链枷扛肩"
+      },
+      "OffHandPole": {
+        "Label": "副手，长柄"
+      },
+      "OffHandShoulder": {
+        "Label": "副手，扛肩"
+      },
+      "OffHandUpright": {
+        "Label": "副手，竖直"
+      },
+      "TwoHandCarry": {
+        "Label": "双手搬运"
+      },
+      "TwoHandJoustingLance": {
+        "Label": "双手骑枪"
+      },
+      "FloatingBack": {
+        "Label": "背后悬浮"
+      },
+      "FloatingBackUpright": {
+        "Label": "背后悬浮，竖直"
+      },
+      "FloatingBackAimed": {
+        "Label": "背后悬浮，瞄准"
+      },
+      "FloatingFront": {
+        "Label": "前方悬浮"
+      },
+      "FloatingOffHand": {
+        "Label": "副手悬浮"
+      },
+      "FloatingAimed": {
+        "Label": "悬浮瞄准"
+      },
+      "OrbitClockwiseFast": {
+        "Label": "顺时针快速环绕"
+      },
+      "OrbitAntiClockFast": {
+        "Label": "逆时针快速环绕"
+      },
+      "OrbitClockwiseSlow": {
+        "Label": "顺时针慢速环绕"
+      },
+      "OrbitAntiClockSlow": {
+        "Label": "逆时针慢速环绕"
+      },
+      "CombatHold": {
+        "Label": "战斗：手持"
+      },
+      "CombatReady": {
+        "Label": "战斗：预备"
+      },
+      "CombatUpright": {
+        "Label": "战斗：竖直"
+      },
+      "CombatRaised": {
+        "Label": "战斗：举起"
+      },
+      "CombatTrail": {
+        "Label": "战斗：拖地"
+      },
+      "CombatRapier": {
+        "Label": "战斗：细剑"
+      },
+      "CombatRapierHold": {
+        "Label": "战斗：手持细剑"
+      },
+      "CombatPoleUpright": {
+        "Label": "战斗：长柄竖直"
+      },
+      "CombatPoleReady": {
+        "Label": "战斗：长柄预备"
+      },
+      "CombatFlailReady": {
+        "Label": "战斗：链枷预备"
+      },
+      "CombatBowHold": {
+        "Label": "战斗：手持弓"
+      },
+      "CombatPistol": {
+        "Label": "战斗：手枪"
+      },
+      "CombatOffHandPoleShoulder": {
+        "Label": "战斗：副手长柄扛肩"
+      },
+      "CombatOffHandPistol": {
+        "Label": "战斗：副手手枪"
+      },
+      "CombatOffHandShoulder": {
+        "Label": "战斗：副手扛肩"
+      },
+      "CombatTwoHand": {
+        "Label": "战斗：双手"
+      },
+      "CombatTwoHandBrave": {
+        "Label": "战斗：双手，勇猛"
+      },
+      "CombatTwoHandTail": {
+        "Label": "战斗：双手，后摆"
+      },
+      "CombatTwoHandHighlander": {
+        "Label": "战斗：双手，高地人"
+      },
+      "CombatTwoHandBerserk": {
+        "Label": "战斗：双手，狂战士"
+      },
+      "CombatTwoHandGuard": {
+        "Label": "战斗：双手，守势"
+      },
+      "CombatTwoHandPoleTwoHand": {
+        "Label": "战斗：双手长柄"
+      },
+      "CombatTwoHandPowerTool": {
+        "Label": "战斗：电动工具"
+      },
+      "CombatTwoHandBow": {
+        "Label": "战斗：双手持弓"
+      },
+      "CombatTwoHandRifleHip": {
+        "Label": "战斗：步枪腰射"
+      },
+      "CombatTwoHandRifleUp": {
+        "Label": "战斗：步枪朝上"
+      },
+      "CombatTwoHandRifleDown": {
+        "Label": "战斗：步枪朝下"
+      },
+      "CombatTwoHandRifleDown2": {
+        "Label": "战斗：步枪朝下 2"
+      },
+      "CombatTwoHandBoltAction": {
+        "Label": "战斗：栓动步枪"
+      },
+      "CombatTwoHandPumpAction": {
+        "Label": "战斗：泵动霰弹枪"
+      }
+    }
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <姿势名> | turn | clear | reset | info | poses]",
+      "Description": "显示或隐藏手持物品；next/pose/clear 可更改手持物品的显示方式。"
+    }
+  },
+  "Common": {
+    "NoItem": "你没有手持物品。",
+    "Shown": "已显示手持物品",
+    "Hidden": "已隐藏手持物品",
+    "QuickDisabled": "快速武器分类已关闭（模组配置 > Weapon Out Lite）。",
+    "Override": "(自定义)",
+    "ResetDone": "物品自定义已重置为默认。",
+    "UnknownPose": "未知姿势。请查看 /wo poses。",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "手持物品图像：{0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "未分组",
+    "Ignore": "忽略",
+    "Item": "普通物品",
+    "LargeItem": "大型物品",
+    "VanityItem": "可装备物品",
+    "Potion": "药水",
+    "SmallMelee": "近战武器",
+    "SmallTool": "工具",
+    "LargeMelee": "大型近战武器",
+    "LargeTool": "大型工具",
+    "Rapier": "短剑/细剑",
+    "Spear": "长矛",
+    "Yoyo": "悠悠球",
+    "Flail": "链枷",
+    "Whips": "鞭子",
+    "Thrown": "投掷武器",
+    "ThrownThin": "投刀",
+    "PowerTool": "电动工具",
+    "Bow": "弓",
+    "Repeater": "弩/连弩",
+    "Pistol": "手枪",
+    "Gun": "自动枪械",
+    "GunManual": "半自动枪械",
+    "Shotgun": "霰弹枪",
+    "Launcher": "发射器",
+    "Staff": "法杖",
+    "MagicBook": "魔法书",
+    "MagicItem": "法器",
+    "GiantItem": "巨型物品",
+    "GiantWeapon": "巨型近战武器",
+    "GiantBow": "巨型弓",
+    "GiantGun": "巨型远程武器",
+    "GiantMagic": "巨型魔法武器",
+    "GiantDamaging": "其他巨型武器"
+  },
+  "Poses": {
+    "None": "无",
+    "Back": "背后",
+    "BackUpright": "背后竖直",
+    "BackDownward": "背后朝下",
+    "BackBow": "背后（弓）",
+    "Waist": "腰间",
+    "WaistHolster": "腰间枪套",
+    "Hold": "手持",
+    "HoldForward": "手持朝前",
+    "HoldReverse": "反手持",
+    "HoldTome": "手持书本",
+    "OffHand": "副手",
+    "OffHandFlailShoulder": "副手，链枷扛肩",
+    "OffHandPole": "副手，长柄",
+    "OffHandShoulder": "副手，扛肩",
+    "OffHandUpright": "副手，竖直",
+    "TwoHandCarry": "双手搬运",
+    "TwoHandJoustingLance": "双手骑枪",
+    "FloatingBack": "背后悬浮",
+    "FloatingBackUpright": "背后悬浮，竖直",
+    "FloatingBackAimed": "背后悬浮，瞄准",
+    "FloatingFront": "前方悬浮",
+    "FloatingOffHand": "副手悬浮",
+    "FloatingAimed": "悬浮瞄准",
+    "OrbitClockwiseFast": "顺时针快速环绕",
+    "OrbitAntiClockFast": "逆时针快速环绕",
+    "OrbitClockwiseSlow": "顺时针慢速环绕",
+    "OrbitAntiClockSlow": "逆时针慢速环绕",
+    "CombatHold": "战斗：手持",
+    "CombatReady": "战斗：预备",
+    "CombatUpright": "战斗：竖直",
+    "CombatRaised": "战斗：举起",
+    "CombatTrail": "战斗：拖地",
+    "CombatRapier": "战斗：细剑",
+    "CombatRapierHold": "战斗：手持细剑",
+    "CombatPoleUpright": "战斗：长柄竖直",
+    "CombatPoleReady": "战斗：长柄预备",
+    "CombatFlailReady": "战斗：链枷预备",
+    "CombatBowHold": "战斗：手持弓",
+    "CombatPistol": "战斗：手枪",
+    "CombatOffHandPoleShoulder": "战斗：副手长柄扛肩",
+    "CombatOffHandPistol": "战斗：副手手枪",
+    "CombatOffHandShoulder": "战斗：副手扛肩",
+    "CombatTwoHand": "战斗：双手",
+    "CombatTwoHandBrave": "战斗：双手，勇猛",
+    "CombatTwoHandTail": "战斗：双手，后摆",
+    "CombatTwoHandHighlander": "战斗：双手，高地人",
+    "CombatTwoHandBerserk": "战斗：双手，狂战士",
+    "CombatTwoHandGuard": "战斗：双手，守势",
+    "CombatTwoHandPoleTwoHand": "战斗：双手长柄",
+    "CombatTwoHandPowerTool": "战斗：电动工具",
+    "CombatTwoHandBow": "战斗：双手持弓",
+    "CombatTwoHandRifleHip": "战斗：步枪腰射",
+    "CombatTwoHandRifleUp": "战斗：步枪朝上",
+    "CombatTwoHandRifleDown": "战斗：步枪朝下",
+    "CombatTwoHandRifleDown2": "战斗：步枪朝下 2",
+    "CombatTwoHandBoltAction": "战斗：栓动步枪",
+    "CombatTwoHandPumpAction": "战斗：泵动霰弹枪"
+  }
+}

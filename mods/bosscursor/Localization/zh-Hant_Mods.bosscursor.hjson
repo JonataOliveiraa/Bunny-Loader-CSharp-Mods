@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "游標模式"
+      },
+      "Headers": {
+        "DisplayHeader": "Boss 游標顯示"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "畫面外"
+      },
+      "Always": {
+        "Label": "一律"
+      },
+      "Never": {
+        "Label": "永不"
+      }
+    }
+  }
+}

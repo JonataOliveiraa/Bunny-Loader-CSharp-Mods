@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "Взгляд"
+      },
+      "FaceCursor": {
+        "Label": "К курсору"
+      },
+      "LeaningType": {
+        "Label": "Наклон"
+      },
+      "LeanStrength": {
+        "Label": "Сила"
+      },
+      "EnableMountLeaning": {
+        "Label": "Маунты"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "Скрыть шею"
+      },
+      "DisableRopeTurning": {
+        "Label": "Не на верёвке"
+      },
+      "EnableFlickeringFix": {
+        "Label": "Без мерцания"
+      },
+      "NPCLeaningType": {
+        "Label": "Наклон NPC"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "Слизни"
+      },
+      "EnableZombieLeaning": {
+        "Label": "Зомби"
+      },
+      "EnableCritterLeaning": {
+        "Label": "Зверьки"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "Жители"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "Все"
+      },
+      "Headers": {
+        "Player": "Игрок",
+        "Creatures": "Существа"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "Выкл."
+      },
+      "Standard": {
+        "Label": "Обычный"
+      },
+      "Clamped": {
+        "Label": "Огранич."
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "Никогда"
+      },
+      "Always": {
+        "Label": "Всегда"
+      },
+      "UsingItem": {
+        "Label": "С предметом"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "Выкл."
+      },
+      "Standard": {
+        "Label": "Обычный"
+      },
+      "Alternate": {
+        "Label": "Альтерн."
+      },
+      "Spin": {
+        "Label": "Вращение"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "Обычный"
+      },
+      "Spin": {
+        "Label": "Вращение"
+      }
+    }
+  }
+}

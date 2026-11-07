@@ -1,0 +1,455 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "사용"
+      },
+      "ShowHeldItem": {
+        "Label": "아이템 표시"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "전투 시간"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "항상 전투"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "피격 시 전투"
+      },
+      "SmallItemPose": {
+        "Label": "아이템"
+      },
+      "LargeItemPose": {
+        "Label": "큰 아이템"
+      },
+      "VanityItemPose": {
+        "Label": "장착품"
+      },
+      "PotionPose": {
+        "Label": "물약"
+      },
+      "SmallToolPose": {
+        "Label": "도구"
+      },
+      "LargeToolPose": {
+        "Label": "큰 도구"
+      },
+      "SmallMeleePose": {
+        "Label": "근접"
+      },
+      "LargeMeleePose": {
+        "Label": "큰 근접"
+      },
+      "RapierPose": {
+        "Label": "레이피어"
+      },
+      "SpearPose": {
+        "Label": "창"
+      },
+      "YoyoPose": {
+        "Label": "요요"
+      },
+      "YoyoHalfScale": {
+        "Label": "작은 요요"
+      },
+      "FlailPose": {
+        "Label": "플레일"
+      },
+      "PowerToolPose": {
+        "Label": "전동 공구"
+      },
+      "WhipPose": {
+        "Label": "채찍"
+      },
+      "ThrownPose": {
+        "Label": "투척"
+      },
+      "ThrownThinPose": {
+        "Label": "나이프"
+      },
+      "BowPose": {
+        "Label": "활"
+      },
+      "RepeaterPose": {
+        "Label": "석궁"
+      },
+      "BowDrawAmmo": {
+        "Label": "활에 화살"
+      },
+      "PistolPose": {
+        "Label": "권총"
+      },
+      "GunPose": {
+        "Label": "자동 총"
+      },
+      "GunManualPose": {
+        "Label": "반자동 총"
+      },
+      "ShotgunPose": {
+        "Label": "샷건"
+      },
+      "LauncherPose": {
+        "Label": "런처"
+      },
+      "StaffPose": {
+        "Label": "지팡이"
+      },
+      "MagicBookPose": {
+        "Label": "마법서"
+      },
+      "MagicItemPose": {
+        "Label": "촉매"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "물리"
+      },
+      "EnableSheathingAnim": {
+        "Label": "집어넣기"
+      },
+      "EnableItemScaling": {
+        "Label": "접두사 크기"
+      },
+      "SmallSwordThreshold": {
+        "Label": "한손검"
+      },
+      "SmallGunThreshold": {
+        "Label": "한손 총"
+      },
+      "GiantItemThreshold": {
+        "Label": "거대 크기"
+      },
+      "GiantItemScalePercent": {
+        "Label": "거대 배율"
+      },
+      "GiantItemPose": {
+        "Label": "거대 아이템"
+      },
+      "GiantWeaponPose": {
+        "Label": "거대 근접"
+      },
+      "GiantBowPose": {
+        "Label": "거대 활"
+      },
+      "GiantGunPose": {
+        "Label": "거대 원거리"
+      },
+      "GiantMagicPose": {
+        "Label": "거대 마법"
+      },
+      "GiantDamagingPose": {
+        "Label": "기타 거대"
+      },
+      "EnableMenuDisplay": {
+        "Label": "메뉴에서"
+      },
+      "EnableProjSpears": {
+        "Label": "창 스프라이트"
+      },
+      "EnableProjYoyos": {
+        "Label": "요요 스프라이트"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "빠른 분류"
+      },
+      "Headers": {
+        "PlayerHeader": "표시 및 자세",
+        "ItemPoseHeader": "아이템 및 도구",
+        "MeleePoseHeader": "근접",
+        "RangedPoseHeader": "원거리",
+        "MagicPoseHeader": "마법",
+        "LocalGraphics": "그래픽",
+        "Experimental": "실험적",
+        "HoldOverride": "예외"
+      }
+    },
+    "LabelledItemPose": {
+      "None": {
+        "Label": "없음"
+      },
+      "Back": {
+        "Label": "등"
+      },
+      "BackUpright": {
+        "Label": "등, 세움"
+      },
+      "BackDownward": {
+        "Label": "등, 아래로"
+      },
+      "BackBow": {
+        "Label": "등 (활)"
+      },
+      "Waist": {
+        "Label": "허리"
+      },
+      "WaistHolster": {
+        "Label": "권총집"
+      },
+      "Hold": {
+        "Label": "손에 들기"
+      },
+      "HoldForward": {
+        "Label": "손, 앞으로"
+      },
+      "HoldReverse": {
+        "Label": "손, 거꾸로"
+      },
+      "HoldTome": {
+        "Label": "책 들기"
+      },
+      "OffHand": {
+        "Label": "반대 손"
+      },
+      "OffHandFlailShoulder": {
+        "Label": "반대 손, 플레일 어깨"
+      },
+      "OffHandPole": {
+        "Label": "반대 손, 장병기"
+      },
+      "OffHandShoulder": {
+        "Label": "반대 손, 어깨"
+      },
+      "OffHandUpright": {
+        "Label": "반대 손, 세움"
+      },
+      "TwoHandCarry": {
+        "Label": "양손 운반"
+      },
+      "TwoHandJoustingLance": {
+        "Label": "마상창"
+      },
+      "FloatingBack": {
+        "Label": "뒤에 부유"
+      },
+      "FloatingBackUpright": {
+        "Label": "뒤에 부유, 세움"
+      },
+      "FloatingBackAimed": {
+        "Label": "뒤에 부유, 조준"
+      },
+      "FloatingFront": {
+        "Label": "앞에 부유"
+      },
+      "FloatingOffHand": {
+        "Label": "반대 손에 부유"
+      },
+      "FloatingAimed": {
+        "Label": "부유, 조준"
+      },
+      "OrbitClockwiseFast": {
+        "Label": "시계 방향, 빠름"
+      },
+      "OrbitAntiClockFast": {
+        "Label": "반시계 방향, 빠름"
+      },
+      "OrbitClockwiseSlow": {
+        "Label": "시계 방향, 느림"
+      },
+      "OrbitAntiClockSlow": {
+        "Label": "반시계 방향, 느림"
+      },
+      "CombatHold": {
+        "Label": "전투: 손에 들기"
+      },
+      "CombatReady": {
+        "Label": "전투: 준비"
+      },
+      "CombatUpright": {
+        "Label": "전투: 세움"
+      },
+      "CombatRaised": {
+        "Label": "전투: 치켜듦"
+      },
+      "CombatTrail": {
+        "Label": "전투: 끌기"
+      },
+      "CombatRapier": {
+        "Label": "전투: 레이피어"
+      },
+      "CombatRapierHold": {
+        "Label": "전투: 레이피어 들기"
+      },
+      "CombatPoleUpright": {
+        "Label": "전투: 장병기 세움"
+      },
+      "CombatPoleReady": {
+        "Label": "전투: 장병기 준비"
+      },
+      "CombatFlailReady": {
+        "Label": "전투: 플레일 준비"
+      },
+      "CombatBowHold": {
+        "Label": "전투: 활 들기"
+      },
+      "CombatPistol": {
+        "Label": "전투: 권총"
+      },
+      "CombatOffHandPoleShoulder": {
+        "Label": "전투: 장병기 어깨"
+      },
+      "CombatOffHandPistol": {
+        "Label": "전투: 반대 손 권총"
+      },
+      "CombatOffHandShoulder": {
+        "Label": "전투: 어깨"
+      },
+      "CombatTwoHand": {
+        "Label": "전투: 양손"
+      },
+      "CombatTwoHandBrave": {
+        "Label": "전투: 양손, 용맹"
+      },
+      "CombatTwoHandTail": {
+        "Label": "전투: 양손, 뒤로"
+      },
+      "CombatTwoHandHighlander": {
+        "Label": "전투: 양손, 하이랜더"
+      },
+      "CombatTwoHandBerserk": {
+        "Label": "전투: 양손, 광전사"
+      },
+      "CombatTwoHandGuard": {
+        "Label": "전투: 양손, 방어"
+      },
+      "CombatTwoHandPoleTwoHand": {
+        "Label": "전투: 장병기 양손"
+      },
+      "CombatTwoHandPowerTool": {
+        "Label": "전투: 전동 공구"
+      },
+      "CombatTwoHandBow": {
+        "Label": "전투: 양손 활"
+      },
+      "CombatTwoHandRifleHip": {
+        "Label": "전투: 소총 허리"
+      },
+      "CombatTwoHandRifleUp": {
+        "Label": "전투: 소총 위로"
+      },
+      "CombatTwoHandRifleDown": {
+        "Label": "전투: 소총 아래로"
+      },
+      "CombatTwoHandRifleDown2": {
+        "Label": "전투: 소총 아래로 2"
+      },
+      "CombatTwoHandBoltAction": {
+        "Label": "전투: 볼트 액션"
+      },
+      "CombatTwoHandPumpAction": {
+        "Label": "전투: 펌프 액션"
+      }
+    }
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <이름> | turn | clear | reset | info | poses]",
+      "Description": "든 아이템을 표시하거나 숨깁니다. next/pose/clear로 든 아이템의 표시 방식을 바꿉니다."
+    }
+  },
+  "Common": {
+    "NoItem": "아이템을 들고 있지 않습니다.",
+    "Shown": "든 아이템 표시",
+    "Hidden": "든 아이템 숨김",
+    "QuickDisabled": "빠른 무기 분류가 꺼져 있습니다 (모드 설정 > Weapon Out Lite).",
+    "Override": "(예외)",
+    "ResetDone": "아이템 예외를 기본값으로 초기화했습니다.",
+    "UnknownPose": "알 수 없는 자세입니다. /wo poses를 참고하세요.",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "손에 든 아이템 스프라이트: {0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "미분류",
+    "Ignore": "무시",
+    "Item": "일반 아이템",
+    "LargeItem": "큰 아이템",
+    "VanityItem": "장착 아이템",
+    "Potion": "물약",
+    "SmallMelee": "근접 무기",
+    "SmallTool": "도구",
+    "LargeMelee": "큰 근접 무기",
+    "LargeTool": "큰 도구",
+    "Rapier": "단검/레이피어",
+    "Spear": "창",
+    "Yoyo": "요요",
+    "Flail": "플레일",
+    "Whips": "채찍",
+    "Thrown": "투척 무기",
+    "ThrownThin": "투척용 나이프",
+    "PowerTool": "전동 공구",
+    "Bow": "활",
+    "Repeater": "석궁/리피터",
+    "Pistol": "권총",
+    "Gun": "자동 총기",
+    "GunManual": "반자동 총기",
+    "Shotgun": "샷건",
+    "Launcher": "런처",
+    "Staff": "마법 지팡이",
+    "MagicBook": "마법서",
+    "MagicItem": "마법 촉매",
+    "GiantItem": "거대 아이템",
+    "GiantWeapon": "거대 근접 무기",
+    "GiantBow": "거대 활",
+    "GiantGun": "거대 원거리 무기",
+    "GiantMagic": "거대 마법 무기",
+    "GiantDamaging": "기타 거대 무기"
+  },
+  "Poses": {
+    "None": "없음",
+    "Back": "등",
+    "BackUpright": "등, 세움",
+    "BackDownward": "등, 아래로",
+    "BackBow": "등 (활)",
+    "Waist": "허리",
+    "WaistHolster": "권총집",
+    "Hold": "손에 들기",
+    "HoldForward": "손, 앞으로",
+    "HoldReverse": "손, 거꾸로",
+    "HoldTome": "책 들기",
+    "OffHand": "반대 손",
+    "OffHandFlailShoulder": "반대 손, 플레일 어깨",
+    "OffHandPole": "반대 손, 장병기",
+    "OffHandShoulder": "반대 손, 어깨",
+    "OffHandUpright": "반대 손, 세움",
+    "TwoHandCarry": "양손 운반",
+    "TwoHandJoustingLance": "마상창",
+    "FloatingBack": "뒤에 부유",
+    "FloatingBackUpright": "뒤에 부유, 세움",
+    "FloatingBackAimed": "뒤에 부유, 조준",
+    "FloatingFront": "앞에 부유",
+    "FloatingOffHand": "반대 손에 부유",
+    "FloatingAimed": "부유, 조준",
+    "OrbitClockwiseFast": "시계 방향, 빠름",
+    "OrbitAntiClockFast": "반시계 방향, 빠름",
+    "OrbitClockwiseSlow": "시계 방향, 느림",
+    "OrbitAntiClockSlow": "반시계 방향, 느림",
+    "CombatHold": "전투: 손에 들기",
+    "CombatReady": "전투: 준비",
+    "CombatUpright": "전투: 세움",
+    "CombatRaised": "전투: 치켜듦",
+    "CombatTrail": "전투: 끌기",
+    "CombatRapier": "전투: 레이피어",
+    "CombatRapierHold": "전투: 레이피어 들기",
+    "CombatPoleUpright": "전투: 장병기 세움",
+    "CombatPoleReady": "전투: 장병기 준비",
+    "CombatFlailReady": "전투: 플레일 준비",
+    "CombatBowHold": "전투: 활 들기",
+    "CombatPistol": "전투: 권총",
+    "CombatOffHandPoleShoulder": "전투: 장병기 어깨",
+    "CombatOffHandPistol": "전투: 반대 손 권총",
+    "CombatOffHandShoulder": "전투: 어깨",
+    "CombatTwoHand": "전투: 양손",
+    "CombatTwoHandBrave": "전투: 양손, 용맹",
+    "CombatTwoHandTail": "전투: 양손, 뒤로",
+    "CombatTwoHandHighlander": "전투: 양손, 하이랜더",
+    "CombatTwoHandBerserk": "전투: 양손, 광전사",
+    "CombatTwoHandGuard": "전투: 양손, 방어",
+    "CombatTwoHandPoleTwoHand": "전투: 장병기 양손",
+    "CombatTwoHandPowerTool": "전투: 전동 공구",
+    "CombatTwoHandBow": "전투: 양손 활",
+    "CombatTwoHandRifleHip": "전투: 소총 허리",
+    "CombatTwoHandRifleUp": "전투: 소총 위로",
+    "CombatTwoHandRifleDown": "전투: 소총 아래로",
+    "CombatTwoHandRifleDown2": "전투: 소총 아래로 2",
+    "CombatTwoHandBoltAction": "전투: 볼트 액션",
+    "CombatTwoHandPumpAction": "전투: 펌프 액션"
+  }
+}

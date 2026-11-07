@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Globo de Teste",
+      "Tooltip": "Permite construir um teste!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\n[c/FF1919:ESTE ITEM É PARA TESTES E NÃO É OBTIDO NORMALMENTE]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Globo da Casa Pequena da Floresta",
+      "Tooltip": "Permite construir uma casa pequena da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Globo do Poste da Floresta",
+      "Tooltip": "Permite construir um poste da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Globo da Casa Média da Floresta",
+      "Tooltip": "Permite construir uma casa média da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Globo da Casa Grande da Floresta",
+      "Tooltip": "Permite construir uma casa grande da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Globo da Entrada do Porão",
+      "Tooltip": "Permite construir uma entrada de porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPerfeito para começar o seu porão"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Globo do Corredor do Porão",
+      "Tooltip": "Permite construir um corredor de porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Globo do Corredor Longo do Porão",
+      "Tooltip": "Permite construir um corredor longo de porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Globo do Corredor Curto do Porão",
+      "Tooltip": "Permite construir um corredor curto de porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Globo do Porão em T para Baixo",
+      "Tooltip": "Permite construir um corredor de porão em forma de T para baixo!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Globo do Porão em T para Cima",
+      "Tooltip": "Permite construir um corredor de porão em forma de T para cima!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Globo do Porão em Cruz",
+      "Tooltip": "Permite construir um corredor de porão em forma de cruz!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Globo do Porão em T para a Direita",
+      "Tooltip": "Permite construir um corredor de porão em forma de T para a direita!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Globo do Porão em T para a Esquerda",
+      "Tooltip": "Permite construir um corredor de porão em forma de T para a esquerda!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Globo do Canto Superior Esquerdo do Porão",
+      "Tooltip": "Permite construir um canto superior esquerdo de corredor!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Globo do Canto Inferior Esquerdo do Porão",
+      "Tooltip": "Permite construir um canto inferior esquerdo de corredor!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Globo do Canto Inferior Direito do Porão",
+      "Tooltip": "Permite construir um canto inferior direito de corredor!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Globo do Canto Superior Direito do Porão",
+      "Tooltip": "Permite construir um canto superior direito de corredor!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Globo do Corredor Curto para Baixo do Porão",
+      "Tooltip": "Permite construir um corredor curto de porão para baixo!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Globo da Sala de Música do Porão",
+      "Tooltip": "Permite construir uma sala de música no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nTem muitas caixas de música diferentes"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Globo da Prisão de NPCs do Porão",
+      "Tooltip": "Permite construir uma prisão de NPCs no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nBarato, mas nada ético"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Globo do Quarto de NPC do Porão",
+      "Tooltip": "Permite construir um quarto de NPC no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nUm quarto comum para um NPC"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Globo do Arsenal do Porão",
+      "Tooltip": "Permite construir um arsenal no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Globo do Jardim do Porão",
+      "Tooltip": "Permite construir um jardim no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nComo crescem num porão? Com o poder das estrelas!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Globo da Sala de Tortura do Porão",
+      "Tooltip": "Permite construir uma sala de tortura no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPara os NPCs que você detesta"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Globo da Entrada do Porão para Baixo",
+      "Tooltip": "Permite construir uma entrada de porão para baixo!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Globo da Entrada Grande do Porão para Baixo",
+      "Tooltip": "Permite construir uma entrada grande de porão para baixo!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Globo da Sala do Trono do Porão",
+      "Tooltip": "Permite construir uma sala do trono no porão!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nCaro, mas feito de mármore e ouro, muito chique!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande do Deserto",
+      "Tooltip": "Permite construir uma casa grande do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Globo da Casa Média do Deserto",
+      "Tooltip": "Permite construir uma casa média do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Globo do Poste do Deserto",
+      "Tooltip": "Permite construir um poste do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena do Deserto",
+      "Tooltip": "Permite construir uma casa pequena do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena do Oceano",
+      "Tooltip": "Permite construir uma casa pequena do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Globo do Poste do Oceano",
+      "Tooltip": "Permite construir um poste do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Globo da Casa Média do Oceano",
+      "Tooltip": "Permite construir uma casa média do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande do Oceano",
+      "Tooltip": "Permite construir uma casa grande do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena da Selva",
+      "Tooltip": "Permite construir uma casa pequena da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Globo da Casa Média da Selva",
+      "Tooltip": "Permite construir uma casa média da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande da Selva",
+      "Tooltip": "Permite construir uma casa grande da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Globo do Poste da Selva",
+      "Tooltip": "Permite construir um poste da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena de Cogumelo",
+      "Tooltip": "Permite construir uma casa pequena de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Globo do Poste de Cogumelo",
+      "Tooltip": "Permite construir um poste de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Globo da Casa Média de Cogumelo",
+      "Tooltip": "Permite construir uma casa média de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande de Cogumelo",
+      "Tooltip": "Permite construir uma casa grande de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Globo do Poste da Tundra",
+      "Tooltip": "Permite construir um poste da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena da Tundra",
+      "Tooltip": "Permite construir uma casa pequena da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Globo da Casa Média da Tundra",
+      "Tooltip": "Permite construir uma casa média da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande da Tundra",
+      "Tooltip": "Permite construir uma casa grande da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena Sagrada",
+      "Tooltip": "Permite construir uma casa pequena sagrada!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Globo da Casa Média Sagrada",
+      "Tooltip": "Permite construir uma casa média sagrada!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande Sagrada",
+      "Tooltip": "Permite construir uma casa grande sagrada!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Globo do Poste Sagrado",
+      "Tooltip": "Permite construir um poste sagrado!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena do Bioma",
+      "Tooltip": "Permite construir uma casa pequena do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC\nNormalmente usa a casa pequena da floresta; biomas: tundra, deserto, selva, oceano, cogumelo da superfície e sagrado"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Globo da Casa Média do Bioma",
+      "Tooltip": "Permite construir uma casa média do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs\nNormalmente usa a casa média da floresta; biomas: tundra, deserto, selva, oceano, cogumelo da superfície e sagrado"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande do Bioma",
+      "Tooltip": "Permite construir uma casa grande do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs\nNormalmente usa a casa grande da floresta; biomas: tundra, deserto, selva, oceano, cogumelo da superfície e sagrado"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Globo do Poste do Bioma",
+      "Tooltip": "Permite construir um poste do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nNormalmente usa o poste da floresta; biomas: tundra, deserto, selva, oceano, cogumelo da superfície e sagrado"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Globo da Arena Simples Pequena",
+      "Tooltip": "Permite construir uma arena simples pequena!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 3 plataformas, com 105 blocos de largura e 34 de altura"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Globo da Arena Simples Média",
+      "Tooltip": "Permite construir uma arena simples média!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 5 plataformas, com 180 blocos de largura e 54 de altura"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Globo da Arena Simples Grande",
+      "Tooltip": "Permite construir uma arena simples grande!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 7 plataformas, com 255 blocos de largura e 74 de altura"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Globo da Arena Avançada Pequena",
+      "Tooltip": "Permite construir uma arena avançada pequena!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 3 plataformas, com 105 blocos de largura e 34 de altura\nTem fogueira, lanterna de coração, estrela na garrafa, estátua de Bast, gnomo de jardim e mel em bolha"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Globo da Arena Avançada Média",
+      "Tooltip": "Permite construir uma arena avançada média!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 5 plataformas, com 180 blocos de largura e 54 de altura\nTem fogueiras, lanternas de coração, estrelas na garrafa, estátuas de Bast, gnomos de jardim e mel em bolhas"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Globo da Arena Avançada Grande",
+      "Tooltip": "Permite construir uma arena avançada grande!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nA arena tem 7 plataformas, com 255 blocos de largura e 74 de altura\nTem fogueiras, lanternas de coração, estrelas na garrafa, estátuas de Bast, gnomos de jardim e mel em bolhas"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Globo do Elevador da Floresta",
+      "Tooltip": "Permite construir um elevador da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Globo do Elevador da Tundra",
+      "Tooltip": "Permite construir um elevador da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Globo do Elevador do Deserto",
+      "Tooltip": "Permite construir um elevador do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Globo do Elevador Sagrado",
+      "Tooltip": "Permite construir um elevador sagrado!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Globo do Elevador da Selva",
+      "Tooltip": "Permite construir um elevador da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Globo do Elevador de Cogumelo",
+      "Tooltip": "Permite construir um elevador de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Globo do Elevador do Oceano",
+      "Tooltip": "Permite construir um elevador do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Globo do Elevador do Bioma",
+      "Tooltip": "Permite construir um elevador do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste elevador vai até o submundo e cria nuvens que anulam o dano de queda\nNormalmente usa o elevador da floresta; biomas: tundra, deserto, selva, oceano, cogumelo da superfície e sagrado\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo do Trilho Curto do Elevador",
+      "Tooltip": "Permite construir um trilho de carrinho curto para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Globo do Trilho em Cruz do Elevador",
+      "Tooltip": "Permite construir um trilho de carrinho em cruz para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nBom para começar os trilhos do seu elevador!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo do Trilho do Elevador",
+      "Tooltip": "Permite construir um trilho de carrinho para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\n5 vezes mais longo que a versão curta"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Globo da Rampa Direita do Trilho do Elevador",
+      "Tooltip": "Permite construir uma rampa direita de trilho para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Globo da Parada do Trilho do Elevador",
+      "Tooltip": "Permite construir uma parada de trilho para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Globo da Rampa Esquerda do Trilho do Elevador",
+      "Tooltip": "Permite construir uma rampa esquerda de trilho para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Globo do Trilho Completo do Elevador",
+      "Tooltip": "Permite construir um trilho de carrinho completo para o elevador!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nCria trilhos de carrinho para a esquerda e para a direita, ótimo com o seu elevador!\n[c/E11919:ATENÇÃO: ESTA CONSTRUÇÃO É ENORME! PODE DESTRUIR ESTRUTURAS IMPORTANTES, USE COM CUIDADO!!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Globo da Casa Grande dos Namorados",
+      "Tooltip": "Permite construir uma casa grande dos namorados!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs\n[c/FFC0CB:Feito com amor!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Globo da Casa Média dos Namorados",
+      "Tooltip": "Permite construir uma casa média dos namorados!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 2 NPCs\n[c/FFC0CB:Feito com amor!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Globo da Casa Pequena dos Namorados",
+      "Tooltip": "Permite construir uma casa pequena dos namorados!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 1 NPC\n[c/FFC0CB:Feito com amor!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Globo do Poste dos Namorados",
+      "Tooltip": "Permite construir um poste dos namorados!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\n[c/FFC0CB:Feito com amor!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Globo da Casa Coração",
+      "Tooltip": "Permite construir uma casa coração?\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEsta casa abriga 3 NPCs\n[c/FF7F7F:Feito de amor!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Globo do Pilar da Caverna",
+      "Tooltip": "Permite construir um pilar da caverna!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Globo do Pilar do Deserto",
+      "Tooltip": "Permite construir um pilar do deserto!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Globo do Pilar da Floresta",
+      "Tooltip": "Permite construir um pilar da floresta!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Globo do Pilar Sagrado",
+      "Tooltip": "Permite construir um pilar sagrado!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Globo do Pilar da Selva",
+      "Tooltip": "Permite construir um pilar da selva!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Globo do Pilar de Cogumelo",
+      "Tooltip": "Permite construir um pilar de cogumelo da superfície!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Globo do Pilar do Oceano",
+      "Tooltip": "Permite construir um pilar do oceano!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Globo do Pilar da Tundra",
+      "Tooltip": "Permite construir um pilar da tundra!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Globo do Pilar do Bioma",
+      "Tooltip": "Permite construir um pilar do bioma onde você está!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nNormalmente usa o pilar da floresta; biomas: caverna, tundra, deserto, selva, oceano, cogumelo da superfície e sagrado"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Controle Gnorpy",
+      "Tooltip": "O controle do Gnorp!\nInvoca o Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Globo da Escada em T para Baixo do Porão",
+      "Tooltip": "Permite construir uma escada em forma de T para baixo!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Globo da Escada em T para Cima do Porão",
+      "Tooltip": "Permite construir uma escada em forma de T para cima!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Globo da Escada Direita do Porão",
+      "Tooltip": "Permite construir uma escada para a direita!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Globo da Escada em Cruz do Porão",
+      "Tooltip": "Permite construir uma escada em forma de cruz!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Globo da Biblioteca do Porão",
+      "Tooltip": "Permite construir uma biblioteca!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Globo da Escada Esquerda do Porão",
+      "Tooltip": "Permite construir uma escada para a esquerda!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Globo do Corredor com Quarto de NPC do Porão",
+      "Tooltip": "Permite construir um corredor com quarto de NPC!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nBasicamente um quarto de NPC junto com um corredor"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Globo do Bar do Porão",
+      "Tooltip": "Permite construir um bar!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPegue algo para beber"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Globo do Castelo Pequeno",
+      "Tooltip": "Permite construir um castelo pequeno!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Globo do Castelo Médio",
+      "Tooltip": "Permite construir um castelo médio!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Globo do Castelo Grande",
+      "Tooltip": "Permite construir um castelo grande!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Globo do Castelo Enorme",
+      "Tooltip": "Permite construir um castelo enorme!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nBem enorme, deve ter espaço para tudo o que você precisa!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Globo da Base na Árvore Pequena",
+      "Tooltip": "Permite construir uma base na árvore pequena!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Globo da Base na Árvore Média",
+      "Tooltip": "Permite construir uma base na árvore média!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Globo da Base na Árvore Grande",
+      "Tooltip": "Permite construir uma base na árvore grande!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Globo da Base na Árvore Enorme",
+      "Tooltip": "Permite construir uma base na árvore enorme!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Globo do Lago de Água",
+      "Tooltip": "Permite construir um lago simples de água!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPerfeito para pescar"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Globo do Lago de Shimmer",
+      "Tooltip": "Permite construir um lago simples de shimmer!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPerfeito para pes... espera, dá para pescar no shimmer?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Globo do Lago de Lava",
+      "Tooltip": "Permite construir um lago simples de lava!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPerfeito para pescar"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Globo do Lago de Mel",
+      "Tooltip": "Permite construir um lago simples de mel!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nPerfeito para pescar"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Globo da Cela",
+      "Tooltip": "Permite construir uma cela\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nVocê não tem coração?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Globo do Castelo Invisível",
+      "Tooltip": "Permite construir um castelo de NPCs invisível!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste castelo abriga 3 NPCs\nUm castelo superépico, pena que não dá para ver"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Globo da Casa de Cocô Pequena",
+      "Tooltip": "Permite construir uma casa de cocô pequena!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste castelo abriga 1 NPC\nFedido"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Globo da Casa de Cocô Grande",
+      "Tooltip": "Permite construir uma casa de cocô grande!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste castelo abriga 3 NPCs\nFedido"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Globo da Casa de Cocô Média",
+      "Tooltip": "Permite construir uma casa de cocô média!\nUse o botão de toque Encaixe (adicione em Controles) ou a Configuração de Mods para trocar o ponto de encaixe\nEste castelo abriga 2 NPCs\nFedido"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "O Gnorp é um alienígena muito simpático. O único objetivo do Gnorp é ajudar os outros construindo; o Gnorp vê beleza em todo bioma."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Principal",
+        "Bases": "Bases",
+        "Module": "Módulos",
+        "Utility": "Utilidades",
+        "Holiday": "Feriados"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Trocar ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Trazendo o Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Encaixe (globos do Gnorp)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:LIGADA]",
+    "ValueOff": "[c/E11919:DESLIGADA]",
+    "ImagePreviewInfo": "Prévia em imagem: {0}",
+    "DustPreviewInfo": "Prévia em poeira: {0}",
+    "ImageOpacityInfo": "Opacidade da imagem: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Colocar com toque duplo: {0}",
+    "SettingsHint": "[c/828282:Dá para mudar na Configuração de Mods]",
+    "AnchorInfo": "Ponto de encaixe: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "Embaixo no centro",
+      "TopLeft": "Em cima à esquerda",
+      "TopRight": "Em cima à direita",
+      "BottomLeft": "Embaixo à esquerda",
+      "BottomRight": "Embaixo à direita"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Prévia em imagem"
+      },
+      "EnablePreviews": {
+        "Label": "Prévia em poeira"
+      },
+      "PreviewOpacity": {
+        "Label": "Opacidade da imagem"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Colocar com toque duplo"
+      },
+      "Anchor": {
+        "Label": "Ponto de encaixe"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "Embaixo no centro"
+      },
+      "TopLeft": {
+        "Label": "Em cima à esquerda"
+      },
+      "TopRight": {
+        "Label": "Em cima à direita"
+      },
+      "BottomLeft": {
+        "Label": "Embaixo à esquerda"
+      },
+      "BottomRight": {
+        "Label": "Embaixo à direita"
+      }
+    }
+  }
+}

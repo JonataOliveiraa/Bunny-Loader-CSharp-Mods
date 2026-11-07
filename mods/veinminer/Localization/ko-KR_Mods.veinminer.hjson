@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "이 명령어를 쓰려면 블록(블록을 설치하는 아이템)을 들고 있어야 합니다.",
+    "Added": "{0}을(를) 연쇄 채굴 목록에 추가했습니다.",
+    "AlreadyAdded": "{0}은(는) 이미 목록에 있습니다.",
+    "AlreadyDefault": "{0}은(는) 이미 연쇄 채굴됩니다 (광석 또는 기본 목록).",
+    "Removed": "{0}을(를) 목록에서 제거했습니다.",
+    "NotInList": "{0}은(는) 목록에 없습니다.",
+    "List": "내 목록: {0}",
+    "ListEmpty": "목록이 비어 있습니다. 블록을 들고 /vein add를 사용하세요.",
+    "Cleared": "추가한 블록을 지웠습니다 ({0}개).",
+    "Enabled": "Vein Miner 켜짐.",
+    "Disabled": "Vein Miner 꺼짐."
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "광석"
+      },
+      "UseDefaultList": {
+        "Label": "기본 목록"
+      },
+      "UsePlayerList": {
+        "Label": "추가한 블록"
+      },
+      "MaxTiles": {
+        "Label": "최대 블록 수"
+      },
+      "Headers": {
+        "General": "일반"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "들고 있는 블록을 연쇄 채굴 목록에 추가하는 등의 기능."
+    }
+  }
+}

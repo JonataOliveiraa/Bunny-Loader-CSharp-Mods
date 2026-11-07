@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "townnpchome",
+    "uid": "77b38952-98d6-4e18-a301-638d54c4bfd0",
+    "version": "1.0.0",
+    "sha256": "7a85ddfac28b4c50b0ffd0e8cf37bd546c50e41751fb9fae6301dbb8ec74b9a6"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. No behavior changes. The description and summary are now in English; the Portuguese originals are kept as translations."
+}

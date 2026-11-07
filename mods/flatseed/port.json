@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "flatseed",
+    "uid": "18be738c-3c45-4191-b666-e0801f602b2a",
+    "version": "1.0.0",
+    "sha256": "6d2520422f8a08da58359c89515c1e3050dadbc492bb93c3231a56dafdb8119a"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The Surface height slider shows a plain number, because C# configs have no % suffix. The options also show while in a world, because C# configs have no VisibleInWorld; they only affect worlds generated afterwards."
+}

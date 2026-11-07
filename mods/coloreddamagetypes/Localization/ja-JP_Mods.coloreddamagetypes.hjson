@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "説明の色"
+      },
+      "ChangeDamageColor": {
+        "Label": "ダメージの色"
+      },
+      "ShowDamageNumbers": {
+        "Label": "自分の数字"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "他人の数字"
+      },
+      "CondenseDamageHits": {
+        "Label": "ヒットをまとめる"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "撃破時に表示"
+      },
+      "DebugMode": {
+        "Label": "デバッグ"
+      },
+      "DebugModeTooltips": {
+        "Label": "説明"
+      },
+      "DebugModeFields": {
+        "Label": "フィールド"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "マルチ"
+      },
+      "MeleeDamage": {
+        "Label": "近接"
+      },
+      "MeleeDamageCrit": {
+        "Label": "近接(クリ)"
+      },
+      "TooltipMelee": {
+        "Label": "近接"
+      },
+      "RangedDamage": {
+        "Label": "遠隔"
+      },
+      "RangedDamageCrit": {
+        "Label": "遠隔(クリ)"
+      },
+      "TooltipRanged": {
+        "Label": "遠隔"
+      },
+      "MagicDamage": {
+        "Label": "魔法"
+      },
+      "MagicDamageCrit": {
+        "Label": "魔法(クリ)"
+      },
+      "TooltipMagic": {
+        "Label": "魔法"
+      },
+      "ThrowingDamage": {
+        "Label": "投てき"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "投てき(クリ)"
+      },
+      "TooltipThrowing": {
+        "Label": "投てき"
+      },
+      "SummonDamage": {
+        "Label": "召喚"
+      },
+      "SummonDamageCrit": {
+        "Label": "召喚(クリ)"
+      },
+      "TooltipSummon": {
+        "Label": "召喚"
+      },
+      "SentryDamage": {
+        "Label": "セントリー"
+      },
+      "SentryDamageCrit": {
+        "Label": "セントリー(クリ)"
+      },
+      "TooltipSentry": {
+        "Label": "セントリー"
+      },
+      "TooltipDefense": {
+        "Label": "防御"
+      },
+      "ModdedTooltip": {
+        "Label": "説明"
+      },
+      "HeldTooltip": {
+        "Label": "説明"
+      },
+      "ModdedDamage": {
+        "Label": "ダメージ"
+      },
+      "ModdedDamageCrit": {
+        "Label": "ダメージ(クリ)"
+      },
+      "HeldDamage": {
+        "Label": "ダメージ"
+      },
+      "HeldDamageCrit": {
+        "Label": "ダメージ(クリ)"
+      },
+      "Headers": {
+        "Toggles": "切り替え",
+        "Condense": "まとめ表示",
+        "DamageColors": "ダメージの色",
+        "TooltipColors": "説明の色",
+        "ModCompat": "Modの既定",
+        "HeldClass": "手持ちアイテムのクラス",
+        "Debug": "デバッグ"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "セントリーダメージ"
+    }
+  }
+}

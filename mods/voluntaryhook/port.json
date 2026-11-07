@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "voluntaryhook",
+    "uid": "fbb7eb80-3232-4079-998c-cb863e14f3dd",
+    "version": "1.1.0",
+    "sha256": "9e2678ec0a19ce094c00301aa4dfeaa88cb7cb9f7c6c1b55b7241d7b6928ecdc"
+  },
+  "license": "AGPL-3.0",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same behavior. Comments were translated to English, and the full AGPL-3.0 text was added."
+}

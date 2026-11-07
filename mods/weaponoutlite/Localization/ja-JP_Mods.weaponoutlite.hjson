@@ -1,0 +1,455 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "有効化"
+      },
+      "ShowHeldItem": {
+        "Label": "アイテム表示"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "戦闘時間"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "常に戦闘"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "被弾時に戦闘"
+      },
+      "SmallItemPose": {
+        "Label": "アイテム"
+      },
+      "LargeItemPose": {
+        "Label": "大型アイテム"
+      },
+      "VanityItemPose": {
+        "Label": "装備品"
+      },
+      "PotionPose": {
+        "Label": "ポーション"
+      },
+      "SmallToolPose": {
+        "Label": "ツール"
+      },
+      "LargeToolPose": {
+        "Label": "大型ツール"
+      },
+      "SmallMeleePose": {
+        "Label": "近接"
+      },
+      "LargeMeleePose": {
+        "Label": "大型近接"
+      },
+      "RapierPose": {
+        "Label": "レイピア"
+      },
+      "SpearPose": {
+        "Label": "槍"
+      },
+      "YoyoPose": {
+        "Label": "ヨーヨー"
+      },
+      "YoyoHalfScale": {
+        "Label": "小型ヨーヨー"
+      },
+      "FlailPose": {
+        "Label": "フレイル"
+      },
+      "PowerToolPose": {
+        "Label": "電動工具"
+      },
+      "WhipPose": {
+        "Label": "ムチ"
+      },
+      "ThrownPose": {
+        "Label": "投擲"
+      },
+      "ThrownThinPose": {
+        "Label": "ナイフ"
+      },
+      "BowPose": {
+        "Label": "弓"
+      },
+      "RepeaterPose": {
+        "Label": "クロスボウ"
+      },
+      "BowDrawAmmo": {
+        "Label": "弓に矢"
+      },
+      "PistolPose": {
+        "Label": "拳銃"
+      },
+      "GunPose": {
+        "Label": "フルオート"
+      },
+      "GunManualPose": {
+        "Label": "セミオート"
+      },
+      "ShotgunPose": {
+        "Label": "ショットガン"
+      },
+      "LauncherPose": {
+        "Label": "ランチャー"
+      },
+      "StaffPose": {
+        "Label": "杖"
+      },
+      "MagicBookPose": {
+        "Label": "魔導書"
+      },
+      "MagicItemPose": {
+        "Label": "触媒"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "物理"
+      },
+      "EnableSheathingAnim": {
+        "Label": "納刀"
+      },
+      "EnableItemScaling": {
+        "Label": "接頭辞サイズ"
+      },
+      "SmallSwordThreshold": {
+        "Label": "片手剣"
+      },
+      "SmallGunThreshold": {
+        "Label": "片手銃"
+      },
+      "GiantItemThreshold": {
+        "Label": "巨大サイズ"
+      },
+      "GiantItemScalePercent": {
+        "Label": "巨大縮尺"
+      },
+      "GiantItemPose": {
+        "Label": "巨大アイテム"
+      },
+      "GiantWeaponPose": {
+        "Label": "巨大近接"
+      },
+      "GiantBowPose": {
+        "Label": "巨大弓"
+      },
+      "GiantGunPose": {
+        "Label": "巨大遠距離"
+      },
+      "GiantMagicPose": {
+        "Label": "巨大魔法"
+      },
+      "GiantDamagingPose": {
+        "Label": "その他巨大"
+      },
+      "EnableMenuDisplay": {
+        "Label": "メニュー内"
+      },
+      "EnableProjSpears": {
+        "Label": "槍スプライト"
+      },
+      "EnableProjYoyos": {
+        "Label": "ヨーヨースプライト"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "クイック分類"
+      },
+      "Headers": {
+        "PlayerHeader": "表示とポーズ",
+        "ItemPoseHeader": "アイテムとツール",
+        "MeleePoseHeader": "近接",
+        "RangedPoseHeader": "遠距離",
+        "MagicPoseHeader": "魔法",
+        "LocalGraphics": "グラフィック",
+        "Experimental": "実験的",
+        "HoldOverride": "例外"
+      }
+    },
+    "LabelledItemPose": {
+      "None": {
+        "Label": "なし"
+      },
+      "Back": {
+        "Label": "背中"
+      },
+      "BackUpright": {
+        "Label": "背中・直立"
+      },
+      "BackDownward": {
+        "Label": "背中・下向き"
+      },
+      "BackBow": {
+        "Label": "背中（弓）"
+      },
+      "Waist": {
+        "Label": "腰"
+      },
+      "WaistHolster": {
+        "Label": "ホルスター"
+      },
+      "Hold": {
+        "Label": "手持ち"
+      },
+      "HoldForward": {
+        "Label": "手持ち・前向き"
+      },
+      "HoldReverse": {
+        "Label": "手持ち・逆向き"
+      },
+      "HoldTome": {
+        "Label": "本を手に"
+      },
+      "OffHand": {
+        "Label": "後ろの手"
+      },
+      "OffHandFlailShoulder": {
+        "Label": "後ろの手・フレイル肩担ぎ"
+      },
+      "OffHandPole": {
+        "Label": "後ろの手・長柄"
+      },
+      "OffHandShoulder": {
+        "Label": "後ろの手・肩担ぎ"
+      },
+      "OffHandUpright": {
+        "Label": "後ろの手・直立"
+      },
+      "TwoHandCarry": {
+        "Label": "両手で運ぶ"
+      },
+      "TwoHandJoustingLance": {
+        "Label": "ランス"
+      },
+      "FloatingBack": {
+        "Label": "背後に浮遊"
+      },
+      "FloatingBackUpright": {
+        "Label": "背後に浮遊・直立"
+      },
+      "FloatingBackAimed": {
+        "Label": "背後に浮遊・照準"
+      },
+      "FloatingFront": {
+        "Label": "前方に浮遊"
+      },
+      "FloatingOffHand": {
+        "Label": "後ろの手に浮遊"
+      },
+      "FloatingAimed": {
+        "Label": "浮遊・照準"
+      },
+      "OrbitClockwiseFast": {
+        "Label": "時計回り・速い"
+      },
+      "OrbitAntiClockFast": {
+        "Label": "反時計回り・速い"
+      },
+      "OrbitClockwiseSlow": {
+        "Label": "時計回り・遅い"
+      },
+      "OrbitAntiClockSlow": {
+        "Label": "反時計回り・遅い"
+      },
+      "CombatHold": {
+        "Label": "戦闘：手持ち"
+      },
+      "CombatReady": {
+        "Label": "戦闘：構え"
+      },
+      "CombatUpright": {
+        "Label": "戦闘：直立"
+      },
+      "CombatRaised": {
+        "Label": "戦闘：掲げ"
+      },
+      "CombatTrail": {
+        "Label": "戦闘：引きずり"
+      },
+      "CombatRapier": {
+        "Label": "戦闘：レイピア"
+      },
+      "CombatRapierHold": {
+        "Label": "戦闘：レイピア手持ち"
+      },
+      "CombatPoleUpright": {
+        "Label": "戦闘：長柄・直立"
+      },
+      "CombatPoleReady": {
+        "Label": "戦闘：長柄・構え"
+      },
+      "CombatFlailReady": {
+        "Label": "戦闘：フレイル構え"
+      },
+      "CombatBowHold": {
+        "Label": "戦闘：弓手持ち"
+      },
+      "CombatPistol": {
+        "Label": "戦闘：ピストル"
+      },
+      "CombatOffHandPoleShoulder": {
+        "Label": "戦闘：長柄肩担ぎ"
+      },
+      "CombatOffHandPistol": {
+        "Label": "戦闘：後ろの手でピストル"
+      },
+      "CombatOffHandShoulder": {
+        "Label": "戦闘：肩担ぎ"
+      },
+      "CombatTwoHand": {
+        "Label": "戦闘：両手"
+      },
+      "CombatTwoHandBrave": {
+        "Label": "戦闘：両手・勇猛"
+      },
+      "CombatTwoHandTail": {
+        "Label": "戦闘：両手・後ろ構え"
+      },
+      "CombatTwoHandHighlander": {
+        "Label": "戦闘：両手・ハイランダー"
+      },
+      "CombatTwoHandBerserk": {
+        "Label": "戦闘：両手・バーサーク"
+      },
+      "CombatTwoHandGuard": {
+        "Label": "戦闘：両手・防御"
+      },
+      "CombatTwoHandPoleTwoHand": {
+        "Label": "戦闘：長柄を両手で"
+      },
+      "CombatTwoHandPowerTool": {
+        "Label": "戦闘：電動工具"
+      },
+      "CombatTwoHandBow": {
+        "Label": "戦闘：弓を両手で"
+      },
+      "CombatTwoHandRifleHip": {
+        "Label": "戦闘：ライフル腰だめ"
+      },
+      "CombatTwoHandRifleUp": {
+        "Label": "戦闘：ライフル上向き"
+      },
+      "CombatTwoHandRifleDown": {
+        "Label": "戦闘：ライフル下向き"
+      },
+      "CombatTwoHandRifleDown2": {
+        "Label": "戦闘：ライフル下向き2"
+      },
+      "CombatTwoHandBoltAction": {
+        "Label": "戦闘：ボルトアクション"
+      },
+      "CombatTwoHandPumpAction": {
+        "Label": "戦闘：ポンプアクション"
+      }
+    }
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <名前> | turn | clear | reset | info | poses]",
+      "Description": "手持ちアイテムを表示/非表示にします。next/pose/clear で手持ちアイテムの表示方法を変更します。"
+    }
+  },
+  "Common": {
+    "NoItem": "アイテムを持っていません。",
+    "Shown": "手持ちアイテムを表示",
+    "Hidden": "手持ちアイテムを非表示",
+    "QuickDisabled": "武器のクイック分類はオフです（Mod設定 > Weapon Out Lite）。",
+    "Override": "（例外）",
+    "ResetDone": "アイテムの例外を初期設定に戻しました。",
+    "UnknownPose": "不明なポーズです。/wo poses を参照してください。",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "手持ちアイテムのスプライト：{0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "未分類",
+    "Ignore": "無視",
+    "Item": "通常アイテム",
+    "LargeItem": "大型アイテム",
+    "VanityItem": "装備アイテム",
+    "Potion": "ポーション",
+    "SmallMelee": "近接武器",
+    "SmallTool": "ツール",
+    "LargeMelee": "大型近接武器",
+    "LargeTool": "大型ツール",
+    "Rapier": "ショートソード/レイピア",
+    "Spear": "槍",
+    "Yoyo": "ヨーヨー",
+    "Flail": "フレイル",
+    "Whips": "ムチ",
+    "Thrown": "投擲武器",
+    "ThrownThin": "投げナイフ",
+    "PowerTool": "電動工具",
+    "Bow": "弓",
+    "Repeater": "クロスボウ/リピーター",
+    "Pistol": "拳銃",
+    "Gun": "フルオート銃",
+    "GunManual": "セミオート銃",
+    "Shotgun": "ショットガン",
+    "Launcher": "ランチャー",
+    "Staff": "魔法の杖",
+    "MagicBook": "魔導書",
+    "MagicItem": "魔法の触媒",
+    "GiantItem": "巨大アイテム",
+    "GiantWeapon": "巨大近接武器",
+    "GiantBow": "巨大な弓",
+    "GiantGun": "巨大遠距離武器",
+    "GiantMagic": "巨大魔法武器",
+    "GiantDamaging": "その他の巨大武器"
+  },
+  "Poses": {
+    "None": "なし",
+    "Back": "背中",
+    "BackUpright": "背中・直立",
+    "BackDownward": "背中・下向き",
+    "BackBow": "背中（弓）",
+    "Waist": "腰",
+    "WaistHolster": "ホルスター",
+    "Hold": "手持ち",
+    "HoldForward": "手持ち・前向き",
+    "HoldReverse": "手持ち・逆向き",
+    "HoldTome": "本を手に",
+    "OffHand": "後ろの手",
+    "OffHandFlailShoulder": "後ろの手・フレイル肩担ぎ",
+    "OffHandPole": "後ろの手・長柄",
+    "OffHandShoulder": "後ろの手・肩担ぎ",
+    "OffHandUpright": "後ろの手・直立",
+    "TwoHandCarry": "両手で運ぶ",
+    "TwoHandJoustingLance": "ランス",
+    "FloatingBack": "背後に浮遊",
+    "FloatingBackUpright": "背後に浮遊・直立",
+    "FloatingBackAimed": "背後に浮遊・照準",
+    "FloatingFront": "前方に浮遊",
+    "FloatingOffHand": "後ろの手に浮遊",
+    "FloatingAimed": "浮遊・照準",
+    "OrbitClockwiseFast": "時計回り・速い",
+    "OrbitAntiClockFast": "反時計回り・速い",
+    "OrbitClockwiseSlow": "時計回り・遅い",
+    "OrbitAntiClockSlow": "反時計回り・遅い",
+    "CombatHold": "戦闘：手持ち",
+    "CombatReady": "戦闘：構え",
+    "CombatUpright": "戦闘：直立",
+    "CombatRaised": "戦闘：掲げ",
+    "CombatTrail": "戦闘：引きずり",
+    "CombatRapier": "戦闘：レイピア",
+    "CombatRapierHold": "戦闘：レイピア手持ち",
+    "CombatPoleUpright": "戦闘：長柄・直立",
+    "CombatPoleReady": "戦闘：長柄・構え",
+    "CombatFlailReady": "戦闘：フレイル構え",
+    "CombatBowHold": "戦闘：弓手持ち",
+    "CombatPistol": "戦闘：ピストル",
+    "CombatOffHandPoleShoulder": "戦闘：長柄肩担ぎ",
+    "CombatOffHandPistol": "戦闘：後ろの手でピストル",
+    "CombatOffHandShoulder": "戦闘：肩担ぎ",
+    "CombatTwoHand": "戦闘：両手",
+    "CombatTwoHandBrave": "戦闘：両手・勇猛",
+    "CombatTwoHandTail": "戦闘：両手・後ろ構え",
+    "CombatTwoHandHighlander": "戦闘：両手・ハイランダー",
+    "CombatTwoHandBerserk": "戦闘：両手・バーサーク",
+    "CombatTwoHandGuard": "戦闘：両手・防御",
+    "CombatTwoHandPoleTwoHand": "戦闘：長柄を両手で",
+    "CombatTwoHandPowerTool": "戦闘：電動工具",
+    "CombatTwoHandBow": "戦闘：弓を両手で",
+    "CombatTwoHandRifleHip": "戦闘：ライフル腰だめ",
+    "CombatTwoHandRifleUp": "戦闘：ライフル上向き",
+    "CombatTwoHandRifleDown": "戦闘：ライフル下向き",
+    "CombatTwoHandRifleDown2": "戦闘：ライフル下向き2",
+    "CombatTwoHandBoltAction": "戦闘：ボルトアクション",
+    "CombatTwoHandPumpAction": "戦闘：ポンプアクション"
+  }
+}

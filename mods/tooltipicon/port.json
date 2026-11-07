@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "tooltipicon",
+    "uid": "5f0b0d15-6ee8-4e03-aafb-825d9ba5ca19",
+    "version": "1.0.1",
+    "sha256": "97b6e48773c5d1dadb0c8f4607f22bcc624385ddf2fa6424e98b5955d9315a35"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with every icon of the original. Mod.Call now takes C# delegates (Func<Item, DrawableTooltipLine, bool> and Action<Item, DrawableTooltipLine, SpriteBatch, Vector2, Color>), and a texture given as a string must be \"ModName/path\", because ModContent.Request needs the mod's name."
+}

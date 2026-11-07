@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "improvedmovement",
+    "uid": "47f60fb6-0b46-453e-b19e-389867412da8",
+    "version": "1.2.0",
+    "sha256": "b62a317f89da3a30da35536c8dd690ad0b6150ac240b8905172947444d1f97a2"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

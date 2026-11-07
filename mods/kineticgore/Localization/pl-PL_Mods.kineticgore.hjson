@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Strzały wbijają się we wrogów"
+      },
+      "EnableHeadBanging": {
+        "Label": "Headbanging (muzyka)"
+      },
+      "CorpseDuration": {
+        "Label": "Czas trwania zwłok"
+      },
+      "DismembermentChance": {
+        "Label": "Szansa na rozczłonkowanie"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Stara fizyka ragdolli"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Kolizja ragdolli"
+      },
+      "MaxCorpses": {
+        "Label": "Maksimum zwłok"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Ilość krwi"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Ilość kawałków"
+      },
+      "BloodScale": {
+        "Label": "Rozmiar krwi"
+      },
+      "BloodVelocity": {
+        "Label": "Prędkość krwi"
+      },
+      "EnableStickyBlood": {
+        "Label": "Lepka krew"
+      },
+      "StickyBloodDuration": {
+        "Label": "Krew na ziemi"
+      },
+      "BleedDuration": {
+        "Label": "Krwawiąca szyja"
+      },
+      "Gravity": {
+        "Label": "Grawitacja"
+      },
+      "Bounciness": {
+        "Label": "Sprężystość"
+      },
+      "Friction": {
+        "Label": "Tarcie"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Siła odrzutu"
+      },
+      "HeadBobIntensity": {
+        "Label": "Kiwanie głową"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Odrzut głowy"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Odwrócony odrzut"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Sztywność szyi"
+      },
+      "HeadSpringDamping": {
+        "Label": "Tłumienie szyi"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Trzęsienie"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Sztywność szlamów"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Tłumienie szlamów"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Wysokość NPC z miasta"
+      },
+      "Headers": {
+        "QualityOfLife": "Wygoda",
+        "GeneralSettings": "Ogólne",
+        "BloodSettings": "Krew",
+        "PhysicsSettings": "Fizyka",
+        "HeadPhysics": "Głowy humanoidów",
+        "SlimePhysics": "Galaretowate szlamy",
+        "VisualAdjustments": "Ustawienia wyglądu"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Fizyczne zwłoki"
+    },
+    "StuckArrow": {
+      "DisplayName": "Wbita strzała"
+    }
+  }
+}

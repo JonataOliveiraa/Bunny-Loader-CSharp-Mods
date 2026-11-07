@@ -1,0 +1,455 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "Aktivieren"
+      },
+      "ShowHeldItem": {
+        "Label": "Item zeigen"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "Kampfdauer"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "Immer Kampf"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "Kampf bei Schaden"
+      },
+      "SmallItemPose": {
+        "Label": "Items"
+      },
+      "LargeItemPose": {
+        "Label": "Große Items"
+      },
+      "VanityItemPose": {
+        "Label": "Ausrüstbares"
+      },
+      "PotionPose": {
+        "Label": "Tränke"
+      },
+      "SmallToolPose": {
+        "Label": "Werkzeuge"
+      },
+      "LargeToolPose": {
+        "Label": "Große Werkzeuge"
+      },
+      "SmallMeleePose": {
+        "Label": "Nahkampf"
+      },
+      "LargeMeleePose": {
+        "Label": "Großer Nahkampf"
+      },
+      "RapierPose": {
+        "Label": "Rapiere"
+      },
+      "SpearPose": {
+        "Label": "Speere"
+      },
+      "YoyoPose": {
+        "Label": "Jo-Jos"
+      },
+      "YoyoHalfScale": {
+        "Label": "Kleinere Jo-Jos"
+      },
+      "FlailPose": {
+        "Label": "Flegel"
+      },
+      "PowerToolPose": {
+        "Label": "Elektrowerkzeuge"
+      },
+      "WhipPose": {
+        "Label": "Peitschen"
+      },
+      "ThrownPose": {
+        "Label": "Wurfwaffen"
+      },
+      "ThrownThinPose": {
+        "Label": "Messer"
+      },
+      "BowPose": {
+        "Label": "Bögen"
+      },
+      "RepeaterPose": {
+        "Label": "Armbrüste"
+      },
+      "BowDrawAmmo": {
+        "Label": "Pfeil am Bogen"
+      },
+      "PistolPose": {
+        "Label": "Pistolen"
+      },
+      "GunPose": {
+        "Label": "Automatik"
+      },
+      "GunManualPose": {
+        "Label": "Halbautomatik"
+      },
+      "ShotgunPose": {
+        "Label": "Schrotflinten"
+      },
+      "LauncherPose": {
+        "Label": "Werfer"
+      },
+      "StaffPose": {
+        "Label": "Stäbe"
+      },
+      "MagicBookPose": {
+        "Label": "Bücher"
+      },
+      "MagicItemPose": {
+        "Label": "Foki"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "Physik"
+      },
+      "EnableSheathingAnim": {
+        "Label": "Wegstecken"
+      },
+      "EnableItemScaling": {
+        "Label": "Präfixgröße"
+      },
+      "SmallSwordThreshold": {
+        "Label": "Einhandschwert"
+      },
+      "SmallGunThreshold": {
+        "Label": "Einhandwaffe"
+      },
+      "GiantItemThreshold": {
+        "Label": "Riesengröße"
+      },
+      "GiantItemScalePercent": {
+        "Label": "Riesenskala"
+      },
+      "GiantItemPose": {
+        "Label": "Riesige Items"
+      },
+      "GiantWeaponPose": {
+        "Label": "Riesiger Nahkampf"
+      },
+      "GiantBowPose": {
+        "Label": "Riesige Bögen"
+      },
+      "GiantGunPose": {
+        "Label": "Riesiger Fernkampf"
+      },
+      "GiantMagicPose": {
+        "Label": "Riesige Magie"
+      },
+      "GiantDamagingPose": {
+        "Label": "Andere riesige"
+      },
+      "EnableMenuDisplay": {
+        "Label": "Im Menü"
+      },
+      "EnableProjSpears": {
+        "Label": "Speer-Sprite"
+      },
+      "EnableProjYoyos": {
+        "Label": "Jo-Jo-Sprite"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "Schnellgruppe"
+      },
+      "Headers": {
+        "PlayerHeader": "Anzeige & Posen",
+        "ItemPoseHeader": "Items & Werkzeuge",
+        "MeleePoseHeader": "Nahkampf",
+        "RangedPoseHeader": "Fernkampf",
+        "MagicPoseHeader": "Magie",
+        "LocalGraphics": "Grafik",
+        "Experimental": "Experimentell",
+        "HoldOverride": "Ausnahmen"
+      }
+    },
+    "LabelledItemPose": {
+      "None": {
+        "Label": "Keine"
+      },
+      "Back": {
+        "Label": "Rücken"
+      },
+      "BackUpright": {
+        "Label": "Rücken, aufrecht"
+      },
+      "BackDownward": {
+        "Label": "Rücken, nach unten"
+      },
+      "BackBow": {
+        "Label": "Rücken (Bogen)"
+      },
+      "Waist": {
+        "Label": "Hüfte"
+      },
+      "WaistHolster": {
+        "Label": "Holster"
+      },
+      "Hold": {
+        "Label": "In der Hand"
+      },
+      "HoldForward": {
+        "Label": "Hand, nach vorn"
+      },
+      "HoldReverse": {
+        "Label": "Hand, umgedreht"
+      },
+      "HoldTome": {
+        "Label": "Buch in der Hand"
+      },
+      "OffHand": {
+        "Label": "Zweithand"
+      },
+      "OffHandFlailShoulder": {
+        "Label": "Zweithand, Flegel auf Schulter"
+      },
+      "OffHandPole": {
+        "Label": "Zweithand, Stange"
+      },
+      "OffHandShoulder": {
+        "Label": "Zweithand, auf Schulter"
+      },
+      "OffHandUpright": {
+        "Label": "Zweithand, aufrecht"
+      },
+      "TwoHandCarry": {
+        "Label": "Beidhändig tragen"
+      },
+      "TwoHandJoustingLance": {
+        "Label": "Turnierlanze"
+      },
+      "FloatingBack": {
+        "Label": "Schwebend hinten"
+      },
+      "FloatingBackUpright": {
+        "Label": "Schwebend hinten, aufrecht"
+      },
+      "FloatingBackAimed": {
+        "Label": "Schwebend hinten, zielend"
+      },
+      "FloatingFront": {
+        "Label": "Schwebend vorn"
+      },
+      "FloatingOffHand": {
+        "Label": "Schwebend an Zweithand"
+      },
+      "FloatingAimed": {
+        "Label": "Schwebend, zielend"
+      },
+      "OrbitClockwiseFast": {
+        "Label": "Kreisen, rechts, schnell"
+      },
+      "OrbitAntiClockFast": {
+        "Label": "Kreisen, links, schnell"
+      },
+      "OrbitClockwiseSlow": {
+        "Label": "Kreisen, rechts, langsam"
+      },
+      "OrbitAntiClockSlow": {
+        "Label": "Kreisen, links, langsam"
+      },
+      "CombatHold": {
+        "Label": "Kampf: in der Hand"
+      },
+      "CombatReady": {
+        "Label": "Kampf: bereit"
+      },
+      "CombatUpright": {
+        "Label": "Kampf: aufrecht"
+      },
+      "CombatRaised": {
+        "Label": "Kampf: erhoben"
+      },
+      "CombatTrail": {
+        "Label": "Kampf: nachziehend"
+      },
+      "CombatRapier": {
+        "Label": "Kampf: Rapier"
+      },
+      "CombatRapierHold": {
+        "Label": "Kampf: Rapier in Hand"
+      },
+      "CombatPoleUpright": {
+        "Label": "Kampf: Stange aufrecht"
+      },
+      "CombatPoleReady": {
+        "Label": "Kampf: Stange bereit"
+      },
+      "CombatFlailReady": {
+        "Label": "Kampf: Flegel bereit"
+      },
+      "CombatBowHold": {
+        "Label": "Kampf: Bogen in Hand"
+      },
+      "CombatPistol": {
+        "Label": "Kampf: Pistole"
+      },
+      "CombatOffHandPoleShoulder": {
+        "Label": "Kampf: Stange auf Schulter"
+      },
+      "CombatOffHandPistol": {
+        "Label": "Kampf: Pistole in Zweithand"
+      },
+      "CombatOffHandShoulder": {
+        "Label": "Kampf: auf Schulter"
+      },
+      "CombatTwoHand": {
+        "Label": "Kampf: beidhändig"
+      },
+      "CombatTwoHandBrave": {
+        "Label": "Kampf: beidhändig, mutig"
+      },
+      "CombatTwoHandTail": {
+        "Label": "Kampf: beidhändig, nach hinten"
+      },
+      "CombatTwoHandHighlander": {
+        "Label": "Kampf: beidhändig, Highlander"
+      },
+      "CombatTwoHandBerserk": {
+        "Label": "Kampf: beidhändig, Berserker"
+      },
+      "CombatTwoHandGuard": {
+        "Label": "Kampf: beidhändig, Deckung"
+      },
+      "CombatTwoHandPoleTwoHand": {
+        "Label": "Kampf: Stange beidhändig"
+      },
+      "CombatTwoHandPowerTool": {
+        "Label": "Kampf: Elektrowerkzeug"
+      },
+      "CombatTwoHandBow": {
+        "Label": "Kampf: Bogen beidhändig"
+      },
+      "CombatTwoHandRifleHip": {
+        "Label": "Kampf: Gewehr an Hüfte"
+      },
+      "CombatTwoHandRifleUp": {
+        "Label": "Kampf: Gewehr nach oben"
+      },
+      "CombatTwoHandRifleDown": {
+        "Label": "Kampf: Gewehr nach unten"
+      },
+      "CombatTwoHandRifleDown2": {
+        "Label": "Kampf: Gewehr nach unten 2"
+      },
+      "CombatTwoHandBoltAction": {
+        "Label": "Kampf: Repetiergewehr"
+      },
+      "CombatTwoHandPumpAction": {
+        "Label": "Kampf: Pumpgun"
+      }
+    }
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <Name> | turn | clear | reset | info | poses]",
+      "Description": "Zeigt oder versteckt dein gehaltenes Item; next/pose/clear ändern, wie es angezeigt wird."
+    }
+  },
+  "Common": {
+    "NoItem": "Du hältst kein Item.",
+    "Shown": "gehaltenes Item sichtbar",
+    "Hidden": "gehaltenes Item versteckt",
+    "QuickDisabled": "Schnelle Gruppenwahl ist aus (Mod-Konfiguration > Weapon Out Lite).",
+    "Override": "(Ausnahme)",
+    "ResetDone": "Item-Ausnahmen auf Standard zurückgesetzt.",
+    "UnknownPose": "Unbekannte Pose. Siehe /wo poses.",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "Sprite des gehaltenen Items: {0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "Ohne Gruppe",
+    "Ignore": "Ignorieren",
+    "Item": "Normales Item",
+    "LargeItem": "Großes Item",
+    "VanityItem": "Ausrüstbares Item",
+    "Potion": "Trank",
+    "SmallMelee": "Nahkampfwaffe",
+    "SmallTool": "Werkzeug",
+    "LargeMelee": "Große Nahkampfwaffe",
+    "LargeTool": "Großes Werkzeug",
+    "Rapier": "Kurzschwert/Rapier",
+    "Spear": "Speer",
+    "Yoyo": "Jo-Jo",
+    "Flail": "Flegel",
+    "Whips": "Peitsche",
+    "Thrown": "Wurfwaffe",
+    "ThrownThin": "Wurfmesser",
+    "PowerTool": "Elektrowerkzeug",
+    "Bow": "Bogen",
+    "Repeater": "Armbrust/Repetierer",
+    "Pistol": "Pistole",
+    "Gun": "Automatikwaffe",
+    "GunManual": "Halbautomatikwaffe",
+    "Shotgun": "Schrotflinte",
+    "Launcher": "Werfer",
+    "Staff": "Magischer Stab",
+    "MagicBook": "Zauberbuch",
+    "MagicItem": "Magischer Fokus",
+    "GiantItem": "Riesiges Item",
+    "GiantWeapon": "Riesige Nahkampfwaffe",
+    "GiantBow": "Riesiger Bogen",
+    "GiantGun": "Riesige Fernkampfwaffe",
+    "GiantMagic": "Riesige Magiewaffe",
+    "GiantDamaging": "Andere riesige Waffe"
+  },
+  "Poses": {
+    "None": "Keine",
+    "Back": "Rücken",
+    "BackUpright": "Rücken, aufrecht",
+    "BackDownward": "Rücken, nach unten",
+    "BackBow": "Rücken (Bogen)",
+    "Waist": "Hüfte",
+    "WaistHolster": "Holster",
+    "Hold": "In der Hand",
+    "HoldForward": "Hand, nach vorn",
+    "HoldReverse": "Hand, umgedreht",
+    "HoldTome": "Buch in der Hand",
+    "OffHand": "Zweithand",
+    "OffHandFlailShoulder": "Zweithand, Flegel auf Schulter",
+    "OffHandPole": "Zweithand, Stange",
+    "OffHandShoulder": "Zweithand, auf Schulter",
+    "OffHandUpright": "Zweithand, aufrecht",
+    "TwoHandCarry": "Beidhändig tragen",
+    "TwoHandJoustingLance": "Turnierlanze",
+    "FloatingBack": "Schwebend hinten",
+    "FloatingBackUpright": "Schwebend hinten, aufrecht",
+    "FloatingBackAimed": "Schwebend hinten, zielend",
+    "FloatingFront": "Schwebend vorn",
+    "FloatingOffHand": "Schwebend an Zweithand",
+    "FloatingAimed": "Schwebend, zielend",
+    "OrbitClockwiseFast": "Kreisen, rechts, schnell",
+    "OrbitAntiClockFast": "Kreisen, links, schnell",
+    "OrbitClockwiseSlow": "Kreisen, rechts, langsam",
+    "OrbitAntiClockSlow": "Kreisen, links, langsam",
+    "CombatHold": "Kampf: in der Hand",
+    "CombatReady": "Kampf: bereit",
+    "CombatUpright": "Kampf: aufrecht",
+    "CombatRaised": "Kampf: erhoben",
+    "CombatTrail": "Kampf: nachziehend",
+    "CombatRapier": "Kampf: Rapier",
+    "CombatRapierHold": "Kampf: Rapier in Hand",
+    "CombatPoleUpright": "Kampf: Stange aufrecht",
+    "CombatPoleReady": "Kampf: Stange bereit",
+    "CombatFlailReady": "Kampf: Flegel bereit",
+    "CombatBowHold": "Kampf: Bogen in Hand",
+    "CombatPistol": "Kampf: Pistole",
+    "CombatOffHandPoleShoulder": "Kampf: Stange auf Schulter",
+    "CombatOffHandPistol": "Kampf: Pistole in Zweithand",
+    "CombatOffHandShoulder": "Kampf: auf Schulter",
+    "CombatTwoHand": "Kampf: beidhändig",
+    "CombatTwoHandBrave": "Kampf: beidhändig, mutig",
+    "CombatTwoHandTail": "Kampf: beidhändig, nach hinten",
+    "CombatTwoHandHighlander": "Kampf: beidhändig, Highlander",
+    "CombatTwoHandBerserk": "Kampf: beidhändig, Berserker",
+    "CombatTwoHandGuard": "Kampf: beidhändig, Deckung",
+    "CombatTwoHandPoleTwoHand": "Kampf: Stange beidhändig",
+    "CombatTwoHandPowerTool": "Kampf: Elektrowerkzeug",
+    "CombatTwoHandBow": "Kampf: Bogen beidhändig",
+    "CombatTwoHandRifleHip": "Kampf: Gewehr an Hüfte",
+    "CombatTwoHandRifleUp": "Kampf: Gewehr nach oben",
+    "CombatTwoHandRifleDown": "Kampf: Gewehr nach unten",
+    "CombatTwoHandRifleDown2": "Kampf: Gewehr nach unten 2",
+    "CombatTwoHandBoltAction": "Kampf: Repetiergewehr",
+    "CombatTwoHandPumpAction": "Kampf: Pumpgun"
+  }
+}

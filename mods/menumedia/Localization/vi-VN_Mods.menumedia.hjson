@@ -1,0 +1,24 @@
+{
+  "Configs": {
+    "MenuMediaConfig": {
+      "Size": {
+        "Label": "Kích thước"
+      },
+      "OffsetX": {
+        "Label": "Vị trí X"
+      },
+      "OffsetY": {
+        "Label": "Vị trí Y"
+      },
+      "IconSize": {
+        "Label": "Kích thước icon"
+      },
+      "Fps": {
+        "Label": "Tốc độ GIF (0 = gốc)"
+      },
+      "Headers": {
+        "PictureHeader": "Nền menu"
+      }
+    }
+  }
+}

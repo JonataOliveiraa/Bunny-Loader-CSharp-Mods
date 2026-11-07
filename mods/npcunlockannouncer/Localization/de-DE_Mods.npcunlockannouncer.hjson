@@ -1,0 +1,208 @@
+{
+  "NPCTitles": {
+    "Guide": {
+      "Title": "DER GUIDE",
+      "Subtitle": "Weiß alles… außer wie man überlebt.|Gratis Tipps, Tode inklusive.|Dein erster Freund. Dein erster Verlust.|Ein laufendes Handbuch mit kurzer Lebenserwartung.|Immer hilfsbereit. Nie fluchtbereit."
+    },
+    "Merchant": {
+      "Title": "DER HÄNDLER",
+      "Subtitle": "Geld kauft Glück. Punkt.|Wenn er es nicht verkauft, existiert es nicht.|Geschäfte zuerst, Moral später.|Akzeptiert Münzen. Keine Ausreden.|Dein Geldbeutel zittert."
+    },
+    "Nurse": {
+      "Title": "DIE KRANKENSCHWESTER",
+      "Subtitle": "Heilen ist einfach. Abkassieren auch.|Sofortige Heilung, sofortige Rechnung.|Leben ist nicht kostenlos, Schatz.|Weniger Schmerz, mehr Schulden.|Erst rettet sie dich. Dann ruiniert sie dich."
+    },
+    "Demolitionist": {
+      "Title": "DER SPRENGMEISTER",
+      "Subtitle": "Löst alles… mit Explosionen.|Mehr Bomben, weniger Fragen.|Lächeln vor der Detonation.|Experte für Kollateralschäden.|Wenn es knallt, funktioniert es."
+    },
+    "DyeTrader": {
+      "Title": "DER FÄRBER",
+      "Subtitle": "Stil muss gefarmt werden.|Heute Farbe, morgen fragwürdige Kombos.|Mode ist Leiden.|Färben ist Kunst. Manchmal.|Passt nie zusammen, verkauft immer."
+    },
+    "Dryad": {
+      "Title": "DIE DRYADE",
+      "Subtitle": "Die Natur verurteilt dich.|Weniger Verderbnis, mehr Gemecker.|Spricht mit Pflanzen. Ignoriert dich.|Öko und passiv-aggressiv.|Liebt den Dschungel. Duldet den Spieler."
+    },
+    "ArmsDealer": {
+      "Title": "DER WAFFENHÄNDLER",
+      "Subtitle": "Frieden war nie eine Option.|Rechtlich… fragwürdige Waffen.|Erst schießen, dann fragen.|Munition für jedes Problem.|Lächelt wie ein Filmschurke."
+    },
+    "Stylist": {
+      "Title": "DIE STYLISTIN",
+      "Subtitle": "Dramatische Schnitte für gefährliche Leben.|Diese Frisur überlebt den Mond nicht.|Schönheit vor Apokalypse.|Mut beginnt mit Pony.|Verwandlung nicht garantiert."
+    },
+    "Painter": {
+      "Title": "DER MALER",
+      "Subtitle": "Sieht die Welt in seltsamen Farben.|Missverstandene Kunst, überteuerte Preise.|Malt Träume… und Wände.|Inspiriert, aber verloren.|Kreatives Genie, null Kontext."
+    },
+    "Angler": {
+      "Title": "DER ANGLER",
+      "Subtitle": "Wunderkind der Nervigkeit.|Mehr Quests, weniger Dank.|Nie zufrieden.|Seltene Fische, schlechte Laune.|Der wahre Endboss."
+    },
+    "GoblinTinkerer": {
+      "Title": "DER GOBLIN-TÜFTLER",
+      "Subtitle": "Heute reforgen, morgen weinen.|Zufall gehört dazu.|Kaputtmachen zählt als Verbesserung.|Vertrau mir. Solltest du nicht.|Dein Accessoire ist jetzt… anders."
+    },
+    "WitchDoctor": {
+      "Title": "DER HEXENDOKTOR",
+      "Subtitle": "Alternative Medizin, fragwürdige Ergebnisse.|Der Dschungel nickt.|Gift, Voodoo und Stil.|Frag nicht, was es ist.|Nicht heilen—verstärken."
+    },
+    "Clothier": {
+      "Title": "DER SCHNEIDER",
+      "Subtitle": "Elegant, verflucht und gut gekleidet.|Mode stirbt nie. Du schon.|Kleidung mit dunkler Vergangenheit.|Schneiderei mit Trauma.|Von der Vergangenheit verfolgt."
+    },
+    "Mechanic": {
+      "Title": "DIE MECHANIKERIN",
+      "Subtitle": "Kabel > Menschen.|Wenn es nicht klappt, mehr Hebel.|Liebt Maschinen. Hasst Erklärungen.|Fallen, die wirklich funktionieren.|Ingenieurskunst mit Attitüde."
+    },
+    "PartyGirl": {
+      "Title": "DAS PARTY-GIRL",
+      "Subtitle": "Konfetti vor Logik.|Alles ist besser mit Ballons.|Party selbst in der Apokalypse.|Wird nie müde. Niemals.|Gefahrenstufe: Spaß."
+    },
+    "DD2Bartender": {
+      "Title": "DER TAVERNENWIRT",
+      "Subtitle": "Lange Geschichten, kurze Biere.|Bedient Etheria seit Ewigkeiten.|Ein Drink vor dem Tod.|Quests mit Kater.|Der Spieler ist der einzig Nüchterne."
+    },
+    "Golfer": {
+      "Title": "DER GOLFSPIELER",
+      "Subtitle": "Floh aus der Wüste fürs Golf.|Alles ist ein potenzielles Loch.|Erst schlagen, dann zielen.|Geduld optional.|Das Grün ist heilig."
+    },
+    "BestiaryGirl": {
+      "Title": "DIE ZOOLOGIN",
+      "Subtitle": "Übermäßige Tierliebe.|Will alles streicheln.|Sehr praktische Forschung.|Viel zu begeistert.|Wissenschaft mit Umarmungen."
+    },
+    "Wizard": {
+      "Title": "DER ZAUBERER",
+      "Subtitle": "Weise, mächtig und leicht verrückt.|Magie zuerst, Verstand später.|Arkane Weisheit ohne Filter.|Die Kristallkugel lügt nicht.|Zauber und Ego."
+    },
+    "TaxCollector": {
+      "Title": "DER STEUEREINTREIBER",
+      "Subtitle": "Die Hölle verlangt Zinsen.|Der Tod hielt ihn nicht auf.|Steuern sind ewig.|Keine Verhandlungen.|Der meistgefürchtete NPC."
+    },
+    "Truffle": {
+      "Title": "DER TRÜFFEL",
+      "Subtitle": "Ein Pilz mit Persönlichkeit.|Zu entspannt für diese Welt.|Lebe, lache, Sporen.|Nicht essbar.|Reine Pilz-Vibes."
+    },
+    "Pirate": {
+      "Title": "DER PIRAT",
+      "Subtitle": "Rum, Kanonen und Gebrüll.|Arrr mit Stolz.|Schatz oder nichts.|Zahlt nie Steuern.|Das Meer ruft."
+    },
+    "Steampunker": {
+      "Title": "DIE STEAMPUNKERIN",
+      "Subtitle": "Wissenschaft mit Stil.|Hasst alte Technik.|Zahnräder statt Magie.|Die Zukunft ist jetzt.|Dampf und Attitüde."
+    },
+    "Cyborg": {
+      "Title": "DER CYBORG",
+      "Subtitle": "Optimiert für Zerstörung.|Weniger Mensch, mehr Waffen.|Ständige ballistische Berechnung.|Fühlt nichts… schießt aber.|Feindliche Technologie."
+    },
+    "SantaClaus": {
+      "Title": "SANTA CLAUS",
+      "Subtitle": "Geschenke mit Bedingungen.|Beobachtet alles.|Die Liste lügt nicht.|Bewaffnete Weihnachten.|Ho ho… Vorsicht."
+    },
+    "Princess": {
+      "Title": "DIE PRINZESSIN",
+      "Subtitle": "Unerklärliche Eleganz.|Tut nichts. Perfekt.|Die Glücklichste hier.|Lebt ihr bestes Leben.|Royale Vibes."
+    },
+    "TravellingMerchant": {
+      "Title": "WANDERHÄNDLER",
+      "Subtitle": "Heute hier, morgen weg.|Unberechenbares Inventar.|Schnell kaufen.|Erklärt nie etwas.|Verschwindet ohne Warnung."
+    },
+    "SkeletonMerchant": {
+      "Title": "SKELETT-HÄNDLER",
+      "Subtitle": "Geschäfte bei Nacht.|Knochen und Zufall.|Tödliche Preise.|Kein Fell im Spiel.|Wörtlich schamlos."
+    },
+    "Default": {
+      "Subtitle": "Ein neuer Verbündeter schließt sich an."
+    }
+  },
+  "Configs": {
+    "AnnouncerConfig": {
+      "DisplayName": "NPC-Ankündigung",
+      "Style": {
+        "Label": "Stil"
+      },
+      "Sound": {
+        "Label": "Sound"
+      },
+      "SoundVolume": {
+        "Label": "Lautstärke"
+      },
+      "DurationSeconds": {
+        "Label": "Dauer"
+      },
+      "Frequency": {
+        "Label": "Häufigkeit"
+      },
+      "MaxAnnouncementsPerNPC": {
+        "Label": "Max. pro NPC"
+      },
+      "Headers": {
+        "General": "Allgemein"
+      }
+    },
+    "BannerStyle": {
+      "Classic": {
+        "Label": "Klassisch"
+      },
+      "Modern": {
+        "Label": "Modern"
+      },
+      "Corruption": {
+        "Label": "Verderben"
+      },
+      "Crimson": {
+        "Label": "Purpur"
+      },
+      "Wood": {
+        "Label": "Holz"
+      },
+      "Jungle": {
+        "Label": "Dschungel"
+      }
+    },
+    "BannerSound": {
+      "None": {
+        "Label": "Keiner"
+      },
+      "MagicDing": {
+        "Label": "Magischer Klang"
+      },
+      "Coins": {
+        "Label": "Münzen"
+      },
+      "MaxMana": {
+        "Label": "Max. Mana"
+      },
+      "ResearchComplete": {
+        "Label": "Forschung"
+      },
+      "ChestUnlock": {
+        "Label": "Truhe offen"
+      },
+      "Crimson": {
+        "Label": "Purpur"
+      },
+      "Knock": {
+        "Label": "Klopfen"
+      },
+      "Jungle": {
+        "Label": "Dschungel"
+      },
+      "Corruption": {
+        "Label": "Verderben"
+      }
+    },
+    "AnnounceFrequency": {
+      "FirstTimeOnly": {
+        "Label": "Nur erstes Mal"
+      },
+      "EveryTime": {
+        "Label": "Jedes Mal"
+      },
+      "SetAmount": {
+        "Label": "Feste Anzahl"
+      }
+    }
+  }
+}

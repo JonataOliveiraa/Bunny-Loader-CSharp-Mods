@@ -1,0 +1,400 @@
+{
+  "Items": {
+    "CirnoIceShard": {
+      "DisplayName": "Fragmento de Gelo Cheio de Sabedoria",
+      "Tooltip": "'Parece cheio de sabedoria!'"
+    },
+    "UtsuhoEye": {
+      "DisplayName": "Olho Carmesim",
+      "Tooltip": "'Quente ao toque'"
+    },
+    "HinaDoll": {
+      "DisplayName": "Boneca da Hina",
+      "Tooltip": "'Dizem que ela leva o azar embora... ou será que traz?'"
+    },
+    "DaiyouseiBomb": {
+      "DisplayName": "BOMBA",
+      "Tooltip": "'É uma BOMBA'"
+    },
+    "PatchouliMoon": {
+      "DisplayName": "Lua Dourada",
+      "Tooltip": "'Reflete o brilho do conhecimento'"
+    },
+    "SekibankiBow": {
+      "DisplayName": "Laço Azul",
+      "Tooltip": "'Este é o nono'"
+    },
+    "MarisaHakkero": {
+      "DisplayName": "Mini-Hakkero",
+      "Tooltip": "'Queimando de leve'"
+    },
+    "ReimuYinyangOrb": {
+      "DisplayName": "Orbe Yin-Yang",
+      "Tooltip": "'Cheio de aura... e bem pesado'"
+    },
+    "RemiliaRedTea": {
+      "DisplayName": "Uma Xícara de Chá Vermelho",
+      "Tooltip": "'Melhor apreciado à tarde'"
+    },
+    "FlandrePudding": {
+      "DisplayName": "Pudim de Cereja",
+      "Tooltip": "'Parece delicioso!'"
+    },
+    "CakeOfScarlet": {
+      "DisplayName": "Bolo Escarlate",
+      "Tooltip": "'Um chá da tarde só da família Scarlet'"
+    },
+    "JunkoMooncake": {
+      "DisplayName": "Bolo Lunar Puro",
+      "Tooltip": "'Recheio puro de cinco castanhas'"
+    },
+    "HecatiaPlanet": {
+      "DisplayName": "Planeta Vermelho Estranho",
+      "Tooltip": "'Algo de outro mundo'"
+    },
+    "IkuOarfish": {
+      "DisplayName": "O Peixe-Remo Lendário",
+      "Tooltip": "'Raro e bonito'"
+    },
+    "TenshiKeyStone": {
+      "DisplayName": "Pedra-Chave",
+      "Tooltip": "'Segura os terremotos e protege a terra'"
+    },
+    "SatoriSlippers": {
+      "DisplayName": "Pantufas Rosa",
+      "Tooltip": "'Devem ser bem quentinhas'"
+    },
+    "KoishiTelephone": {
+      "DisplayName": "Telefone Roxo",
+      "Tooltip": "'Moshi moshi?'\nPODE SER FATAL PARA O DONO NUM APERTO!"
+    },
+    "TheThirdEye": {
+      "DisplayName": "O Terceiro Olho",
+      "Tooltip": "'Espiando o seu coração...'"
+    },
+    "SanaeCoin": {
+      "DisplayName": "Moeda de Prata do Sapo",
+      "Tooltip": "'Talvez algo interessante aconteça se você juntar bastante?'"
+    },
+    "KogasaUmbrella": {
+      "DisplayName": "Guarda-chuva Esquisito",
+      "Tooltip": "'Tem um OLHO nele?!'"
+    }
+  },
+  "Buffs": {
+    "CirnoBuff": {
+      "DisplayName": "Baka",
+      "Description": "(9)"
+    },
+    "UtsuhoBuff": {
+      "DisplayName": "Corvo do Inferno",
+      "Description": "'Eu sou o sol do inferno!'"
+    },
+    "HinaBuff": {
+      "DisplayName": "Deusa do Azar",
+      "Description": "'Gira e gira...'"
+    },
+    "DaiyouseiBuff": {
+      "DisplayName": "Daiyousei",
+      "Description": "'Quem é a Daiyousei?'"
+    },
+    "PatchouliBuff": {
+      "DisplayName": "A Maga",
+      "Description": "'A pequena biblioteca imóvel...?'"
+    },
+    "SekibankiBuff": {
+      "DisplayName": "Rokurokubi",
+      "Description": "'Por favor, não brinque com a minha cabeça'"
+    },
+    "MarisaBuff": {
+      "DisplayName": "Maga Humana",
+      "Description": "'Chega de furtinhos'"
+    },
+    "ReimuBuff": {
+      "DisplayName": "Sacerdotisa Hakurei",
+      "Description": "'...'"
+    },
+    "RemiliaBuff": {
+      "DisplayName": "Irmã Vampira Mais Velha",
+      "Description": "'Ofereça seu sangue, humano!'"
+    },
+    "FlandreBuff": {
+      "DisplayName": "Irmã Vampira Mais Nova",
+      "Description": "'Brinca comigo, por favor!'"
+    },
+    "ScarletBuff": {
+      "DisplayName": "As Irmãs Scarlet",
+      "Description": "'Quer tomar chá da tarde com a gente?'"
+    },
+    "JunkoBuff": {
+      "DisplayName": "A Deusa Pura",
+      "Description": "'Onde mora o coração'"
+    },
+    "HecatiaBuff": {
+      "DisplayName": "Deusa do Inferno",
+      "Description": "'Bem-vindo ao Inferno!'"
+    },
+    "IkuBuff": {
+      "DisplayName": "Mensageira do Palácio do Dragão",
+      "Description": "'Broca de Peixe-Remo!!!'"
+    },
+    "TenshiBuff": {
+      "DisplayName": "A Celestial",
+      "Description": "'Uma garota levada que veio do céu'"
+    },
+    "SatoriBuff": {
+      "DisplayName": "A Leitora de Mentes",
+      "Description": "'Eu sei bem o que tem no seu coração...'"
+    },
+    "KoishiBuff": {
+      "DisplayName": "A Garota Inconsciente",
+      "Description": "'Cadê ela?'"
+    },
+    "KomeijiBuff": {
+      "DisplayName": "As Irmãs Komeiji",
+      "Description": "O v U"
+    },
+    "SanaeBuff": {
+      "DisplayName": "Sacerdotisa do Vento",
+      "Description": "'Contemple um milagre!'"
+    },
+    "KogasaBuff": {
+      "DisplayName": "Youkai do Guarda-chuva",
+      "Description": "'Surpresa!'"
+    }
+  },
+  "Projectiles": {
+    "Cirno": {
+      "DisplayName": "Cirno"
+    },
+    "Daiyousei": {
+      "DisplayName": "Daiyousei"
+    },
+    "Flandre": {
+      "DisplayName": "Flandre Scarlet"
+    },
+    "Hecatia": {
+      "DisplayName": "Hecatia Lapislazuli"
+    },
+    "Hina": {
+      "DisplayName": "Hina Kagiyama"
+    },
+    "Iku": {
+      "DisplayName": "Iku Nagae"
+    },
+    "Junko": {
+      "DisplayName": "Junko"
+    },
+    "Marisa": {
+      "DisplayName": "Marisa Kirisame"
+    },
+    "Patchouli": {
+      "DisplayName": "Patchouli Knowledge"
+    },
+    "Piece": {
+      "DisplayName": "Clownpiece"
+    },
+    "Reimu": {
+      "DisplayName": "Reimu Hakurei"
+    },
+    "Remilia": {
+      "DisplayName": "Remilia Scarlet"
+    },
+    "Sekibanki": {
+      "DisplayName": "Sekibanki"
+    },
+    "Tenshi": {
+      "DisplayName": "Tenshi Hinanawi"
+    },
+    "Utsuho": {
+      "DisplayName": "Utsuho Reiuji"
+    },
+    "Koishi": {
+      "DisplayName": "Koishi Komeiji"
+    },
+    "Satori": {
+      "DisplayName": "Satori Komeiji"
+    },
+    "Sanae": {
+      "DisplayName": "Sanae Kochiya"
+    },
+    "Kogasa": {
+      "DisplayName": "Kogasa Tatara"
+    }
+  },
+  "Chat": {
+    "Cirno": {
+      "1": "O que será que eu congelo hoje...",
+      "2": "A Cirno é invencível!",
+      "3": "Eu sou a mais forte!",
+      "4": "Eu adoro a Dai-chan!",
+      "6": "1+1=... quanto era mesmo, 9?",
+      "7": "Que calor... tô derretendo...",
+      "8": "Quanto sapo!",
+      "ToDaiyousei1": "Aonde a Dai-chan for, eu vou!",
+      "ToDaiyousei2": "Não tenha medo, Dai-chan, eu tô aqui!",
+      "ToDaiyousei3": "Tô bem... acho..."
+    },
+    "Daiyousei": {
+      "1": "O-oi!",
+      "2": "...Eu adoro a Cirno-chan!",
+      "3": "Cirno-chan, onde a gente vai brincar hoje?",
+      "5": "Q-que lugar assustador!",
+      "ToCirno1": "Eu também adoro a Cirno-chan!",
+      "ToCirno2": "Cirno-chan, você tá bem...",
+      "ToCirno3": "Hum... e-eu não tô com medo!"
+    },
+    "Flandre": {
+      "1": "Você brinca com a Flan?",
+      "2": "A Flan quer brincar com você!",
+      "3": "A Flan ama a irmã, mas a irmã sempre ignora a Flan...",
+      "4": "Que gostoso!",
+      "5": "A coisa favorita da Flan...",
+      "ToRemilia1": "Irmã? Chamou a Flan pra quê?",
+      "ToRemilia2": "...Quando a irmã vai brincar com a Flan...",
+      "ToRemilia3": "A irmã sempre diz isso..."
+    },
+    "Remilia": {
+      "3": "Humano, curve-se diante de mim!",
+      "4": "Um dia o mundo inteiro vai pertencer à Scarlet Devil!",
+      "8": "Hum... ainda não está quente o bastante...",
+      "9": "Podia ser um pouco mais forte...",
+      "10": "Que noite maravilhosa!",
+      "11": "Minha querida Flan...",
+      "ToFlandre1": "Nada... só queria te chamar.",
+      "ToFlandre2": "Quando eu tiver tempo, eu brinco com você.",
+      "ToFlandre3": "A Flan não pode depender da irmã pra sempre.",
+      "ToPatchouli1": "Hum? Patchy? O que foi?",
+      "ToPatchouli2": "Haha, isso é bobagem. Vampiro com medo de cruz é só um consolo que os humanos inventaram porque não conseguem nos vencer.",
+      "ToPatchouli3": "Claro. E você devia sair mais, Patchy."
+    },
+    "Patchouli": {
+      "1": "Não quero me mexer...",
+      "2": "Isso eu ainda não tinha lido...",
+      "3": "Esta parte... é diferente do que eu sabia?",
+      "4": "Algo interessante...",
+      "5": "...Será mesmo?",
+      "6": "*cof*... *cof cof*...",
+      "7": "Onde foi que eu parei da última vez...?",
+      "16": "Hum... Remi?",
+      "ToRemilia1": "Você é uma vampira. Por que não tem medo de cruz, como dizem os livros?",
+      "ToRemilia2": "Entendi... então nem tudo nos livros é verdade.",
+      "ToRemilia3": "Não, obrigada..."
+    },
+    "Hecatia": {
+      "1": "Governar o inferno dos três mundos às vezes dá um trabalho...",
+      "2": "Meu visual é impecável... alguém conseguiria não gostar?"
+    },
+    "Piece": {
+      "1": "Lá lá lá~ lá~ Onde vou aprontar hoje...",
+      "2": "Ali parece um bom lugar pra pôr fogo.",
+      "ToHecatia": "Claro que o visual da minha mestra é o mais estiloso!"
+    },
+    "Hina": {
+      "1": "Como foi o seu dia?",
+      "2": "Que o azar não se espalhe mais...",
+      "Spin": "Gira, gira, gira..."
+    },
+    "Iku": {
+      "Sandstorm": "A tempestade de areia está furiosa...",
+      "SlimeRain": "Criaturas grudentas estão caindo do céu.",
+      "BloodMoon": "Uma maldição toma a lua, e o sangue tinge a terra de vermelho...",
+      "Eclipse": "A lua esconde o sol, e os monstros andam por toda parte...",
+      "Calm": "Nada de especial no tempo hoje.",
+      "Breeze": "Uma brisa suave sopra sobre a terra.",
+      "Fresh": "O vento está bem refrescante hoje.",
+      "Gale": "O vento está forte.",
+      "StormComing": "Uma tempestade se aproxima...",
+      "Storm": "Uma tempestade violenta está varrendo a terra.",
+      "DragonGod": "O Deus Dragão deve estar furioso...",
+      "Peaceful": "Espero que hoje também seja um dia tranquilo.",
+      "Party": "O mundo está cheio de alegria.",
+      "Lanterns": "Um ar de paz se espalha ao redor.",
+      "ToTenshi": "Senhorita Tenshi, por favor, comporte-se..."
+    },
+    "Tenshi": {
+      "1": "Vou provar pra vocês que eu sou forte!",
+      "2": "Hoje também vou aprontar das grandes!",
+      "3": "O Céu é chato demais... então esta celestial desceu só pra cuidar de vocês, terráqueos!"
+    },
+    "Junko": {
+      "1": "Chang'e, você está vendo..."
+    },
+    "Kogasa": {
+      "1": "Blé blé blé~",
+      "2": "Surpresa!"
+    },
+    "Koishi": {
+      "1": "A Koishi pode brincar com você?",
+      "2": "Vou te pendurar no portão do Palácio dos Espíritos da Terra como um... como um o quê, hein...",
+      "3": "Quer brincar de uma aventura de tirar o fôlego?",
+      "4": "Você está prestando atenção na Koishi?",
+      "5": "Nem a irmã sabe o que a Koishi está pensando.",
+      "Call1": "Alô? Alô?",
+      "Call2": "Sou eu, a Koishi......",
+      "Call3": "Agora eu estou bem atrás de você..."
+    },
+    "Satori": {
+      "1": "Deixa eu ver o que você está pensando...",
+      "2": "Lembrei de uma coisa interessante...",
+      "3": "Sua mente é tão simples... só pensa em lutar e saquear...",
+      "ToKoishi": "A irmã está de olho em você agora mesmo...",
+      "ToUtsuho": "A Okuu também é o meu corvo favorito."
+    },
+    "Utsuho": {
+      "1": "Eu sou o sol!",
+      "2": "Brilhar e esquentar!",
+      "3": "...O que eu ia dizer mesmo?",
+      "4": "Parece que voltei pra casa!",
+      "5": "A Senhora Satori é a melhor!"
+    },
+    "Sekibanki": {
+      "1": "Uma andarilha solitária...",
+      "2": "Por favor, não fale comigo assim do nada...",
+      "3": "Eu sempre usei uma capa,",
+      "Story2": "porque não gosto que os humanos me reconheçam como youkai.",
+      "Story3": "Os humanos não gostam de youkai, e eu também não quero muito chegar perto deles...",
+      "Story4": "...Bom, menos você.",
+      "Henshin1": "...destinada a superar todos!",
+      "Henshin2": "SUPER... TRANS... FORMAÇÃO...!!!",
+      "Henshin3": "......",
+      "Henshin4": "...Hã, você não ouviu nada."
+    },
+    "Marisa": {
+      "1": "Que magia será que eu testo hoje...",
+      "2": "Ei, aquilo parece valer a pena guardar...",
+      "3": "Você gosta de estrelas?",
+      "4": "Que tempo bom hoje, da ze!",
+      "5": "Quanta estrela no céu!",
+      "6": "Ei, ei, Reimu.",
+      "10": "O céu está estranho hoje...",
+      "ToReimu1": "Hoje eu achei uma coisa muito interessante!",
+      "ToReimu2": "Não... é uma Estrela Cadente! Uma estrela de verdade!",
+      "ToReimu3": "Mas essa brilha mais, não acha?",
+      "ToReimu4": "Hehehe..."
+    },
+    "Reimu": {
+      "1": "Hoje também não tem nada pra fazer...",
+      "2": "Alguém bem que podia deixar uma moedinha na minha caixa de doações...",
+      "3": "Tsc, parece que começou um incidente...",
+      "8": "Falou em problema, o problema aparece...",
+      "Sleepy": "Que sono...",
+      "ToMarisa0": "Isso é um incidente...",
+      "ToMarisa1": "...O que foi?",
+      "ToMarisa2": "O que é? Não vai me dizer que é outro livro roubado da biblioteca...",
+      "ToMarisa3": "...Isso não fica espalhado pelo chão toda noite?",
+      "ToMarisa4": "Não acho. Você deve estar entediada de novo...",
+      "ToSanae": "Ei, já chega!"
+    },
+    "Sanae": {
+      "1": "Vou seguir minhas duas deusas para sempre...",
+      "2": "Aqui, não dá pra se prender ao senso comum!",
+      "3": "Às vezes sinto falta dos velhos tempos... ah, não, o que importa é o agora!",
+      "4": "Junte-se ao Santuário Moriya e venere os grandes deuses do Céu e da Terra!",
+      "5": "Sinta o vento!"
+    }
+  },
+  "DeathReason": {
+    "KilledByKoishi": "{0} foi assassinado pelo inconsciente."
+  }
+}

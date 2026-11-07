@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Test Globe",
+      "Tooltip": "Allows you to build a test!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\n[c/FF1919:THIS ITEM IS MENT FOR TESTING AND NOT MENT TO BE OBTAINABLE NORMALLY]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Small Forest House Globe",
+      "Tooltip": "Allows you to build a small forest house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Forest Lamp Post Globe",
+      "Tooltip": "Allows you to build a forest lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Medium Forest House Globe",
+      "Tooltip": "Allows you to build a medium forest house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Large Forest House Globe",
+      "Tooltip": "Allows you to build a large forest house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Basement Entrance Globe",
+      "Tooltip": "Allows you to build a basement entrance!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPerfect for starting your basement"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Basement Hallway Globe",
+      "Tooltip": "Allows you to build a basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Long Basement Hallway Globe",
+      "Tooltip": "Allows you to build a long basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Short Basement Hallway Globe",
+      "Tooltip": "Allows you to build a short basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Basement T Down Globe",
+      "Tooltip": "Allows you to build a T down shape basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Basement T Up Globe",
+      "Tooltip": "Allows you to build a T up shape basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Basement Plus Globe",
+      "Tooltip": "Allows you to build a plus shape basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Basement T Right Globe",
+      "Tooltip": "Allows you to build a T right shape basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Basement T Left Globe",
+      "Tooltip": "Allows you to build a T left shape basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Basement Left Up Corner Globe",
+      "Tooltip": "Allows you to build a left upper corner hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Basement Left Down Corner Globe",
+      "Tooltip": "Allows you to build a left down corner hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Basement Right Down Corner Globe",
+      "Tooltip": "Allows you to build a right down corner hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Basement Right Up Corner Globe",
+      "Tooltip": "Allows you to build a right upper corner hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Short Basement Down Hallway Globe",
+      "Tooltip": "Allows you to build a short down basement hallway!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Basement Music Room Globe",
+      "Tooltip": "Allows you to build a basement music room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nHas a lot of different music boxes"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Basement NPC Prison Globe",
+      "Tooltip": "Allows you to build a basement NPC prison!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nCheap, but not ethical"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Basement NPC Room Globe",
+      "Tooltip": "Allows you to build a basement NPC room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nYour average room for an NPC"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Basement Armory Room Globe",
+      "Tooltip": "Allows you to build a basement armory room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Basement Garden Room Globe",
+      "Tooltip": "Allows you to build a basement garden room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nHow do the grow in a basement? Using star power!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Basement Torture Room Globe",
+      "Tooltip": "Allows you to build a basement torture room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nUsed for the NPCs you despise"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Basement Down Entrance Globe",
+      "Tooltip": "Allows you to build a basement down entrance!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Large Basement Down Entrance Globe",
+      "Tooltip": "Allows you to build a large basement down entrance!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Basement Throne Room Globe",
+      "Tooltip": "Allows you to build a basement throne room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nExpensive, but made out of marble and gold, very fancy!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Large Desert House Globe",
+      "Tooltip": "Allows you to build a large desert house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Medium Desert House Globe",
+      "Tooltip": "Allows you to build a medium desert house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Desert Lamp Post Globe",
+      "Tooltip": "Allows you to build a desert lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Small Desert House Globe",
+      "Tooltip": "Allows you to build a small desert house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Small Ocean House Globe",
+      "Tooltip": "Allows you to build a small ocean house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Ocean Lamp Post Globe",
+      "Tooltip": "Allows you to build a ocean lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Medium Ocean House Globe",
+      "Tooltip": "Allows you to build a medium ocean house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Large Ocean House Globe",
+      "Tooltip": "Allows you to build a large ocean house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Small Jungle House Globe",
+      "Tooltip": "Allows you to build a small jungle house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPCe"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Medium Jungle House Globe",
+      "Tooltip": "Allows you to build a medium jungle house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Large Jungle House Globe",
+      "Tooltip": "Allows you to build a large jungle house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Jungle Lamp Post Globe",
+      "Tooltip": "Allows you to build a jungle lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Small Mushroom House Globe",
+      "Tooltip": "Allows you to build a small surface mushroom house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Mushroom Lamp Post Globe",
+      "Tooltip": "Allows you to build a surface mushroom lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Medium Mushroom House Globe",
+      "Tooltip": "Allows you to build a medium surface mushroom house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Large Mushroom House Globe",
+      "Tooltip": "Allows you to build a large surface mushroom house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Tundra Lamp Post Globe",
+      "Tooltip": "Allows you to build a tundra lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Small Tundra House Globe",
+      "Tooltip": "Allows you to build a small tundra house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Medium Tundra House Globe",
+      "Tooltip": "Allows you to build a medium tundra house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Large Tundra House Globe",
+      "Tooltip": "Allows you to build a large tundra house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Small Hallow House Globe",
+      "Tooltip": "Allows you to build a small hallow house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Medium Hallow House Globe",
+      "Tooltip": "Allows you to build a medium hallow house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Large Hallow House Globe",
+      "Tooltip": "Allows you to build a large hallow house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Hallow Lamp Post Globe",
+      "Tooltip": "Allows you to build a hallow lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Small Biome House Globe",
+      "Tooltip": "Allows you to build a small biome specific house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC\nNormally uses small forest house, supported biomes. Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Medium Biome House Globe",
+      "Tooltip": "Allows you to build a medium biome specific house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs\nNormally uses medium forest house, supported biomes. Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Large Biome House Globe",
+      "Tooltip": "Allows you to build a large biome specific house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs\nNormally uses large forest house, supported biomes. Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Biome Lamp Post Globe",
+      "Tooltip": "Allows you to build a biome specific lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nNormally uses forest lamp post, supported biomes. Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Small Simple Arena Globe",
+      "Tooltip": "Allows you to build a small simple arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 3 platforms that is 105 blocks long and 34 blocks tall"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Medium Simple Arena Globe",
+      "Tooltip": "Allows you to build a medium simple arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 5 platforms that is 180 blocks long and 54 blocks tall"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Large Simple Arena Globe",
+      "Tooltip": "Allows you to build a large simple arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 7 platforms that is 255 blocks long and 74 blocks tall"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Small Advanced Arena Globe",
+      "Tooltip": "Allows you to build a small advanced arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 3 platforms that is 105 blocks long and 34 blocks tall\nHas a Campfire, Heart Lantern, Star in a Bottle, Bast Statue, Garden Gnome and Honey placed in Bubble"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Medium Advanced Arena Globe",
+      "Tooltip": "Allows you to build a medium advanced arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 5 platforms that is 180 blocks long and 54 blocks tall\nHas Campfires, Heart Lanterns, Stars in a Bottle, Bast Statues, Garden Gnomes and Honey placed in Bubbles"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Large Advanced Arena Globe",
+      "Tooltip": "Allows you to build a large advanced arena!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nArena has 7 platforms that is 255 blocks long and 74 blocks tall\nHas Campfires, Heart Lanterns, Stars in a Bottle, Bast Statues, Garden Gnomes and Honey placed in Bubbles"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Forest Elevator Globe",
+      "Tooltip": "Allows you to build a forest elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Tundra Elevator Globe",
+      "Tooltip": "Allows you to build a tundra elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Desert Elevator Globe",
+      "Tooltip": "Allows you to build a desert elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Hallow Elevator Globe",
+      "Tooltip": "Allows you to build hallow elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Jungle Elevator Globe",
+      "Tooltip": "Allows you to build jungle elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Mushroom Elevator Globe",
+      "Tooltip": "Allows you to build a surface mushroom elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Ocean Elevator Globe",
+      "Tooltip": "Allows you to build a ocean elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Biome Elevator Globe",
+      "Tooltip": "Allows you to build a biome specific elevator!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis elevator goes to the underworld and creates clouds that negate fall damage\nNormally uses forest elevator, supported biomes. Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Short Elevator Minecart Track Globe",
+      "Tooltip": "Allows you to build a short elevator minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Elevator Plus Minecart Track Globe",
+      "Tooltip": "Allows you to build a elevator plus minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nGood for starting your elevator minecart tracks!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Elevator Minecart Track Globe",
+      "Tooltip": "Allows you to build a elevator minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\n5 times longer then short version"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Elevator Right Ramp Minecart Track Globe",
+      "Tooltip": "Allows you to build a elevator right ramp minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Elevator Minecart Track Stop Globe",
+      "Tooltip": "Allows you to build a elevator minecart track stop!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Elevator Left Ramp Minecart Track Globe",
+      "Tooltip": "Allows you to build a elevator left ramp minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Full Elevator Minecart Track Globe",
+      "Tooltip": "Allows you to build a full elevator minecart track!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nWill create minecart tracks from the left and right, great to combine with your elevator!\n[c/E11919:WARNING THIS BUILD IS VERY LARGE! IT MAY DESTROY IMPORTANT STRUCTURES, USE WITH CAUTION!!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Large Valentine House Globe",
+      "Tooltip": "Allows you to build a large valentine house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs\n[c/FFC0CB:Made with love!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Medium Valentine House Globe",
+      "Tooltip": "Allows you to build a medium valentine house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 2 NPCs\n[c/FFC0CB:Made with love!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Small Valentine House Globe",
+      "Tooltip": "Allows you to build a small valentine house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 1 NPC\n[c/FFC0CB:Made with love!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Valentine Lamp Post Globe",
+      "Tooltip": "Allows you to build a valentine lamp post!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\n[c/FFC0CB:Made with love!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Heart House Globe",
+      "Tooltip": "Allows you to build a heart house?\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis house supports 3 NPCs\n[c/FF7F7F:Made from love!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Cavern Pylon Globe",
+      "Tooltip": "Allows you to build a cavern pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Desert Pylon Globe",
+      "Tooltip": "Allows you to build a desert pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Forest Pylon Globe",
+      "Tooltip": "Allows you to build a forest pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Hallow Pylon Globe",
+      "Tooltip": "Allows you to build a hallow pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Jungle Pylon Globe",
+      "Tooltip": "Allows you to build a jungle pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Mushroom Pylon Globe",
+      "Tooltip": "Allows you to build a surface mushroom pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Ocean Pylon Globe",
+      "Tooltip": "Allows you to build a ocean pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Tundra Pylon Globe",
+      "Tooltip": "Allows you to build a tundra pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Biome Pylon Globe",
+      "Tooltip": "Allows you to build a biome specific pylon!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nNormally uses forest pylon, supported biomes. Cavern, Tundra, Desert, Jungle, Ocean, Surface Mushroom and Hallow"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Gnorpy Remote",
+      "Tooltip": "Gnorp's Remote!\nSummons Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Basement T Down Staircase Globe",
+      "Tooltip": "Allows you to build a T down shape staircase!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Basement T Up Staircase Globe",
+      "Tooltip": "Allows you to build a T up shape staircase!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Basement Right Staircase Globe",
+      "Tooltip": "Allows you to build a right staircase!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Basement Plus Staircase Globe",
+      "Tooltip": "Allows you to build a plus shape staircase!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Basement Library Room Globe",
+      "Tooltip": "Allows you to build a library room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Basement Left Staircase Globe",
+      "Tooltip": "Allows you to build a left staircase!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Basement Hallway NPC Room Globe",
+      "Tooltip": "Allows you to build a hallway NPC room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPretty much a NPC room combined with a hallway"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Basement Bar Room Globe",
+      "Tooltip": "Allows you to build a bar room!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nGet something to drink"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Small Castle Globe",
+      "Tooltip": "Allows you to build a small castle!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Medium Castle Globe",
+      "Tooltip": "Allows you to build a medium castle!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Large Castle Globe",
+      "Tooltip": "Allows you to build a large castle!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Huge Castle Globe",
+      "Tooltip": "Allows you to build a huge castle!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nFairly huge, should have enough space for all of your needs!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Small Tree Base Globe",
+      "Tooltip": "Allows you to build a small tree base!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Medium Tree Base Globe",
+      "Tooltip": "Allows you to build a medium tree base!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Large Tree Base Globe",
+      "Tooltip": "Allows you to build a large tree base!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Huge Tree Base Globe",
+      "Tooltip": "Allows you to build a huge tree base!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Simple Water Lake Globe",
+      "Tooltip": "Allows you to build a simple water lake!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPerfect for fishing"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Simple Shimmer Lake Globe",
+      "Tooltip": "Allows you to build a simple shimmer lake!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPerfect for fis... wait you can't fish in shimmer right?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Simple Lava Lake Globe",
+      "Tooltip": "Allows you to build a simple lava lake!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPerfect for fishing"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Simple Honey Lake Globe",
+      "Tooltip": "Allows you to build a simple honey lake!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nPerfect for fishing"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Prison Cell Globe",
+      "Tooltip": "Allows you to build a prison cell\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nDon't you have a human heart?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Invisble Castle Globe",
+      "Tooltip": "Allows you to build a Invisble NPC Castle!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis castle supports 3 NPCs\nSuper epic cool castle, Too bad you can't see it"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Small Poo House Globe",
+      "Tooltip": "Allows you to build a small poo house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis castle supports 1 NPC\nStinky"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Large Poo House Globe",
+      "Tooltip": "Allows you to build a large poo house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis castle supports 3 NPCs\nStinky"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Medium Poo House Globe",
+      "Tooltip": "Allows you to build a medium poo house!\nUse the Anchor touch button (add it in Controls) or Mod Configuration to change the anchor point\nThis castle supports 2 NPCs\nStinky"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp is a very friendly alien. Gnorps only goal is to help others by building, Gnorp sees beauty in every biome."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Main",
+        "Bases": "Bases",
+        "Module": "Module",
+        "Utility": "Utility",
+        "Holiday": "Holiday"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Change ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Spawning Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Anchor (Gnorp globes)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:ON]",
+    "ValueOff": "[c/E11919:OFF]",
+    "ImagePreviewInfo": "Image Preview: {0}",
+    "DustPreviewInfo": "Dust Preview: {0}",
+    "ImageOpacityInfo": "Image Opacity: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Double Tap Placement: {0}",
+    "SettingsHint": "[c/828282:Can be changed in Mod Configuration]",
+    "AnchorInfo": "Anchor point: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "Bottom center",
+      "TopLeft": "Top left",
+      "TopRight": "Top right",
+      "BottomLeft": "Bottom left",
+      "BottomRight": "Bottom right"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Image preview"
+      },
+      "EnablePreviews": {
+        "Label": "Dust preview"
+      },
+      "PreviewOpacity": {
+        "Label": "Image opacity"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Double tap placement"
+      },
+      "Anchor": {
+        "Label": "Anchor point"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "Bottom center"
+      },
+      "TopLeft": {
+        "Label": "Top left"
+      },
+      "TopRight": {
+        "Label": "Top right"
+      },
+      "BottomLeft": {
+        "Label": "Bottom left"
+      },
+      "BottomRight": {
+        "Label": "Bottom right"
+      }
+    }
+  }
+}

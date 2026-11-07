@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Подставка для Витрины",
+      "Tooltip": "Коснитесь, чтобы поставить предмет из руки на подставку"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Подставка для Витрины",
+      "Tooltip": "Коснитесь, чтобы поставить предмет из руки на подставку"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Подставка для Витрины"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Витрина",
+      "UseBrightness": {
+        "Label": "Ярче"
+      },
+      "UseOutline": {
+        "Label": "Контур"
+      },
+      "UseGlitter": {
+        "Label": "Блеск"
+      },
+      "LightIntensity": {
+        "Label": "Свет"
+      },
+      "Headers": {
+        "Effects": "Эффекты"
+      }
+    }
+  }
+}

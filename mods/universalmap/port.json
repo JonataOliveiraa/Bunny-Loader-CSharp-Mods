@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "universalmap",
+    "uid": "35117929-e61f-42bc-97c5-773228761b99",
+    "version": "1.1.2",
+    "sha256": "b83ec21c7a5b2e7609a99ee153c06d546491d47dc67e1c3412393535a70fea3a"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. All timers use real time instead of frame counts. The config has no buttons in C#, so Share Now became the /sharemap chat command, and the Interval option has no minutes suffix. Map data goes as raw bytes instead of base64 text, in the same 20000 byte pieces. Received packets wait in a queue for the next game tick. A shared tile is written as a plain MapTile value, because MapTile.Create does not exist in this version of the game."
+}

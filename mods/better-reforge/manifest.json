@@ -1,0 +1,26 @@
+{
+  "uid": "9c6ebfc9-4520-490d-942a-348c41648a4d",
+  "id": "better-reforge",
+  "name": "Better Reforge",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "GST378",
+      "role": "Original Creator",
+      "avatar": "lemon.webp",
+      "color": "#FEFE00",
+      "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Utilities",
+  "summary": "Replaces the traditional Goblin Tinkerer interface with a new system that allows you to browse and select item prefixes directly.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

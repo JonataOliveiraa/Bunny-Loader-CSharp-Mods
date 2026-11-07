@@ -1,0 +1,96 @@
+{
+  "Messages": {
+    "WrongTpNumber": "Die Teleportnummer ist ungültig!",
+    "WrongUsage": "Info: /deltp + (Nummer des Teleports in der Liste)",
+    "NewTpAdded": "Ein neuer Teleporter wurde hinzugefügt!",
+    "RemovedTp": "Teleporter entfernt!",
+    "RemoveAllTps": "Alle Teleporter wurden entfernt!",
+    "DontHaveTps": "Es sind derzeit keine Teleporter gespeichert...",
+    "NameTp": "Teleporter",
+    "DeathTpAdded": "Todes-Teleporterpunkt erstellt!",
+    "DeathTpRemoved": "Todes-Teleporterpunkt entfernt!",
+    "DeathTp": "Todes-Teleporter",
+    "TpUpdated": "Teleport aktualisiert!",
+    "DeathTpOf": "Todesteleport von {0}"
+  },
+  "UI": {
+    "CreateTitle": "Neuer Teleport",
+    "EditTitle": "Teleport bearbeiten",
+    "ListTitle": "Teleports",
+    "Name": "Name (tippen zum Schreiben)",
+    "Icon": "Symbol",
+    "Color": "Farbe",
+    "DeleteOnUse": "Teleport nach Benutzung löschen",
+    "DeleteOnUseShort": "wird nach Benutzung gelöscht",
+    "Save": "Speichern",
+    "Cancel": "Abbrechen",
+    "Delete": "Löschen",
+    "Confirm": "Bestätigen?",
+    "Edit": "Bearbeiten",
+    "Go": "Los",
+    "New": "Neu",
+    "Search": "Suchen...",
+    "All": "Alle",
+    "Empty": "Keine Teleports gespeichert.",
+    "NoResults": "Nichts gefunden.",
+    "DeathOf": "Tod von {0}",
+    "DeathHint": "Weg, wenn der Besitzer ihn nutzt oder geht"
+  },
+  "Icons": {
+    "Default": "Teleport",
+    "Forest": "Wald",
+    "Snow": "Schnee",
+    "Desert": "Wüste",
+    "Jungle": "Dschungel",
+    "Corruption": "Verderben",
+    "Crimson": "Purpur",
+    "Hallow": "Heiligtum",
+    "Mushroom": "Pilze",
+    "Ocean": "Ozean",
+    "Underground": "Untergrund",
+    "Cavern": "Höhle",
+    "Underworld": "Unterwelt",
+    "Dungeon": "Verlies",
+    "Temple": "Tempel",
+    "Shimmer": "Schimmer",
+    "Sky": "Himmel",
+    "Space": "Weltraum",
+    "Graveyard": "Friedhof",
+    "Home": "Zuhause",
+    "Arena": "Arena"
+  },
+  "TouchButtons": {
+    "CreateTeleport": {
+      "DisplayName": "Teleport erstellen"
+    },
+    "TeleportList": {
+      "DisplayName": "Teleport-Liste"
+    }
+  },
+  "Commands": {
+    "TpCommand": {
+      "Usage": "/tp [Name]",
+      "Description": "Speichert einen Teleportpunkt an deiner Position (mit Namen, falls angegeben)."
+    },
+    "DelTpCommand": {
+      "Usage": "/deltp <Nummer>",
+      "Description": "Löscht einen Teleportpunkt."
+    },
+    "ClearAllCommand": {
+      "Usage": "/clearall",
+      "Description": "Löscht alle Teleportpunkte."
+    }
+  },
+  "Colors": {
+    "White": "Weiß",
+    "Yellow": "Gelb",
+    "Orange": "Orange",
+    "Red": "Rot",
+    "Pink": "Rosa",
+    "Purple": "Lila",
+    "Blue": "Blau",
+    "Cyan": "Cyan",
+    "Green": "Grün",
+    "Gray": "Grau"
+  }
+}

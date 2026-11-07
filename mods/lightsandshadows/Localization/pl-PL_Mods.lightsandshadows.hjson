@@ -1,0 +1,57 @@
+{
+  "Configs": {
+    "LightsConfig": {
+      "UseLight": {
+        "Label": "Użyj oświetlenia"
+      },
+      "LightIntensity": {
+        "Label": "Światło"
+      },
+      "MoonLightIntensity": {
+        "Label": "Księżyc"
+      },
+      "ShadowIntensity": {
+        "Label": "Cienie"
+      },
+      "DayColor": {
+        "Label": "Barwa dnia"
+      },
+      "UseBloom": {
+        "Label": "Użyj poświaty"
+      },
+      "BloomIntensity": {
+        "Label": "Poświata"
+      },
+      "BloomCounts": {
+        "Label": "Przebiegi"
+      },
+      "Quality": {
+        "Label": "Jakość cieni"
+      },
+      "Headers": {
+        "Lighting": "Światło i cienie",
+        "Bloom": "Poświata",
+        "Performance": "Wydajność"
+      }
+    },
+    "DayColorMode": {
+      "Classic": {
+        "Label": "Żółta"
+      },
+      "Alternate": {
+        "Label": "Biała"
+      }
+    },
+    "ShadowQuality": {
+      "High": {
+        "Label": "Wysoka"
+      },
+      "Medium": {
+        "Label": "Średnia"
+      },
+      "Low": {
+        "Label": "Niska"
+      }
+    }
+  }
+}

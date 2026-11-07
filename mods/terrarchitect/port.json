@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "terrarchitect",
+    "uid": "30f21a81-4240-420b-a9ba-924e917fc571",
+    "version": "1.0.3",
+    "sha256": "864a18c6c300c014712378caa8859167186011ac8f6d2fa6bd8bf14b625e407b"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. Item, tile and wall classes, numbers, recipes, shops, sprites and sounds are unchanged. Shop additions go through GlobalNPC.ModifyShop, because C# has no SetupShop; as NpcType is the Painter for both of his shops, the Painter's items appear in both his main and decoration shops. The Chain Link Fence wall still has no item, as in the original, which names an item that does not exist. The description images moved from assets/ to Assets/, because the sounds' folder has that name once the package files sit at the mod's root."
+}

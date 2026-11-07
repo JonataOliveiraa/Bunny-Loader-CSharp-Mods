@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] 停用火把閃爍"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] 亮度比例"
+      }
+    }
+  }
+}

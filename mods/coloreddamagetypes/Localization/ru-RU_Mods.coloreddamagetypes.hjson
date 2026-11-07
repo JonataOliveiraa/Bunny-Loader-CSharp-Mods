@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Цвет Подсказки"
+      },
+      "ChangeDamageColor": {
+        "Label": "Цвет Урона"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Мои Числа"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Чужие Числа"
+      },
+      "CondenseDamageHits": {
+        "Label": "Сводка Ударов"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "При Убийстве"
+      },
+      "DebugMode": {
+        "Label": "Отладка"
+      },
+      "DebugModeTooltips": {
+        "Label": "Подсказки"
+      },
+      "DebugModeFields": {
+        "Label": "Поля"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Мультиплеер"
+      },
+      "MeleeDamage": {
+        "Label": "Ближний бой"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Ближний бой (крит)"
+      },
+      "TooltipMelee": {
+        "Label": "Ближний бой"
+      },
+      "RangedDamage": {
+        "Label": "Дальний бой"
+      },
+      "RangedDamageCrit": {
+        "Label": "Дальний бой (крит)"
+      },
+      "TooltipRanged": {
+        "Label": "Дальний бой"
+      },
+      "MagicDamage": {
+        "Label": "Магия"
+      },
+      "MagicDamageCrit": {
+        "Label": "Магия (крит)"
+      },
+      "TooltipMagic": {
+        "Label": "Магия"
+      },
+      "ThrowingDamage": {
+        "Label": "Метание"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Метание (крит)"
+      },
+      "TooltipThrowing": {
+        "Label": "Метание"
+      },
+      "SummonDamage": {
+        "Label": "Призыв"
+      },
+      "SummonDamageCrit": {
+        "Label": "Призыв (крит)"
+      },
+      "TooltipSummon": {
+        "Label": "Призыв"
+      },
+      "SentryDamage": {
+        "Label": "Турель"
+      },
+      "SentryDamageCrit": {
+        "Label": "Турель (крит)"
+      },
+      "TooltipSentry": {
+        "Label": "Турель"
+      },
+      "TooltipDefense": {
+        "Label": "Защита"
+      },
+      "ModdedTooltip": {
+        "Label": "Подсказка"
+      },
+      "HeldTooltip": {
+        "Label": "Подсказка"
+      },
+      "ModdedDamage": {
+        "Label": "Урон"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Урон (крит)"
+      },
+      "HeldDamage": {
+        "Label": "Урон"
+      },
+      "HeldDamageCrit": {
+        "Label": "Урон (крит)"
+      },
+      "Headers": {
+        "Toggles": "Переключатели",
+        "Condense": "Сводка",
+        "DamageColors": "Цвета Урона",
+        "TooltipColors": "Цвета Подсказки",
+        "ModCompat": "Стандарт Модов",
+        "HeldClass": "Класс Предмета в Руке",
+        "Debug": "Отладка"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "урон турелей"
+    }
+  }
+}

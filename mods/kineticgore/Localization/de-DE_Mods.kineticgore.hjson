@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Pfeile bleiben in Gegnern stecken"
+      },
+      "EnableHeadBanging": {
+        "Label": "Headbanging (Musik)"
+      },
+      "CorpseDuration": {
+        "Label": "Dauer der Leichen"
+      },
+      "DismembermentChance": {
+        "Label": "Chance auf Zerstückelung"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Alte Ragdoll-Physik"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Ragdoll-Kollision"
+      },
+      "MaxCorpses": {
+        "Label": "Maximale Leichen"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Blutmenge"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Menge der Fleischstücke"
+      },
+      "BloodScale": {
+        "Label": "Blutgröße"
+      },
+      "BloodVelocity": {
+        "Label": "Blutgeschwindigkeit"
+      },
+      "EnableStickyBlood": {
+        "Label": "Klebriges Blut"
+      },
+      "StickyBloodDuration": {
+        "Label": "Blut auf dem Boden"
+      },
+      "BleedDuration": {
+        "Label": "Blutender Hals"
+      },
+      "Gravity": {
+        "Label": "Schwerkraft"
+      },
+      "Bounciness": {
+        "Label": "Sprungkraft"
+      },
+      "Friction": {
+        "Label": "Reibung"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Rückstoßkraft"
+      },
+      "HeadBobIntensity": {
+        "Label": "Kopfwackeln"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Kopf zuckt zurück"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Zucken umkehren"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Halssteifigkeit"
+      },
+      "HeadSpringDamping": {
+        "Label": "Halsdämpfung"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Wabbeln"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Schleimsteifigkeit"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Schleimdämpfung"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Höhe der Stadt-NPCs"
+      },
+      "Headers": {
+        "QualityOfLife": "Komfort",
+        "GeneralSettings": "Allgemein",
+        "BloodSettings": "Blut",
+        "PhysicsSettings": "Physik",
+        "HeadPhysics": "Humanoide Köpfe",
+        "SlimePhysics": "Schleim-Wabbeln",
+        "VisualAdjustments": "Optische Anpassungen"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Physik-Leiche"
+    },
+    "StuckArrow": {
+      "DisplayName": "Steckender Pfeil"
+    }
+  }
+}

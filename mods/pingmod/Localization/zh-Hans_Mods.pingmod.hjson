@@ -1,0 +1,45 @@
+{
+  "Configs": {
+    "PingConfig": {
+      "IconStyle": {
+        "Label": "图标样式"
+      },
+      "PingSyncTimer": {
+        "Label": "延迟刷新"
+      },
+      "ShowIndicator": {
+        "Label": "显示指示器"
+      },
+      "AttachToHealthBar": {
+        "Label": "显示在生命条旁边"
+      }
+    },
+    "PingIconStyle": {
+      "BasicPurple": {
+        "Label": "紫色"
+      },
+      "Basic": {
+        "Label": "基础"
+      },
+      "DSi": {
+        "Label": "Nintendo DSi"
+      },
+      "Gold": {
+        "Label": "金色"
+      },
+      "BasicLight": {
+        "Label": "浅色基础"
+      },
+      "Fancy": {
+        "Label": "华丽金色"
+      },
+      "Minecraft": {
+        "Label": "Minecraft"
+      }
+    }
+  },
+  "Text": {
+    "IconConfigText": "设置延迟系统",
+    "PingText": "刷新秒数"
+  }
+}

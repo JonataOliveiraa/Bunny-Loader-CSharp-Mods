@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "Head Look"
+      },
+      "FaceCursor": {
+        "Label": "Face Cursor"
+      },
+      "LeaningType": {
+        "Label": "Leaning"
+      },
+      "LeanStrength": {
+        "Label": "Lean Strength"
+      },
+      "EnableMountLeaning": {
+        "Label": "Mount Leaning"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "Hide Neck Acc."
+      },
+      "DisableRopeTurning": {
+        "Label": "No Rope Turning"
+      },
+      "EnableFlickeringFix": {
+        "Label": "Flicker Fix"
+      },
+      "NPCLeaningType": {
+        "Label": "NPC Leaning"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "Slime Leaning"
+      },
+      "EnableZombieLeaning": {
+        "Label": "Zombie Leaning"
+      },
+      "EnableCritterLeaning": {
+        "Label": "Critter Leaning"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "Town NPC Leaning"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "All NPCs"
+      },
+      "Headers": {
+        "Player": "Player",
+        "Creatures": "Creatures"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "Off"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Clamped": {
+        "Label": "Clamped"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "Never"
+      },
+      "Always": {
+        "Label": "Always"
+      },
+      "UsingItem": {
+        "Label": "Using Item"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "Off"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Alternate": {
+        "Label": "Alternate"
+      },
+      "Spin": {
+        "Label": "Spin"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Spin": {
+        "Label": "Spin"
+      }
+    }
+  }
+}

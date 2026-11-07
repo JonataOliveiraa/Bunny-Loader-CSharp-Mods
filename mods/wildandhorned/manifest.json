@@ -1,0 +1,47 @@
+{
+  "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
+  "id": "wildandhorned",
+  "name": "Wild and Horned",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "FuzzyGolf291773",
+      "role": "Original mod and pet animations",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810452158",
+      "avatar": "steam.png"
+    },
+    {
+      "name": "MineGame223 and Group For One",
+      "role": "Touhou Little Friend framework and sprite foundations",
+      "link": "https://github.com/MineGame223/TouhouLittleFriend"
+    },
+    {
+      "name": "Potato",
+      "role": "Port to Bunny Loader and Brazilian Portuguese localization",
+      "avatar": "potato.png",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Pets",
+  "summary": "Sixteen animated Touhou companions with conversations, seven light pets, crafting recipes and Kasen's oni transformations. GPL-3.0; source code in this repository.",
+  "links": [
+    {
+      "title": "Original Steam Workshop mod",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810452158"
+    },
+    {
+      "title": "Touhou Little Friend",
+      "url": "https://github.com/MineGame223/TouhouLittleFriend"
+    }
+  ],
+  "license": "GPL-3.0",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

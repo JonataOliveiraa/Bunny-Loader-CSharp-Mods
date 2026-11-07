@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "bestiarydisplays",
+    "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
+    "version": "1.1.0",
+    "sha256": "f0fdf6141a9360a34830c88e323d9d7bbd571cb291f061732c2cd99629d46a30"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. Settings travel as binary instead of JSON text. Holograms are found through a list the entity class keeps, because the loader's table of entities is not public. The creature list reads the bestiary's table by id instead of each entry's info elements. The list's glide after a drag follows real time instead of counting frames. The loader keeps C# tile entities apart from JavaScript ones, so a projector placed with the JavaScript version loses its settings and does not open its menu: break it and place it again."
+}

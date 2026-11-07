@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Hold an item to use this command.",
+    "Always": "{0} now always has a beam.",
+    "Never": "{0} now never has a beam.",
+    "MiniOn": "{0} now has a small beam.",
+    "MiniOff": "{0} is back to a normal beam.",
+    "BadColor": "Invalid color. Use /beams color #RRGGBB (e.g. #FF8800).",
+    "Colored": "Beam color of {0}: {1}.",
+    "Reset": "{0} was removed from your lists.",
+    "NotListed": "{0} is not in your lists.",
+    "List": "Always: {0} | Never: {1} | Small: {2} | Colors: {3}",
+    "Cleared": "Your lists were cleared.",
+    "Enabled": "Beams on.",
+    "Disabled": "Beams off."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Enabled"
+      },
+      "MinRarity": {
+        "Label": "Min Rarity"
+      },
+      "MinValue": {
+        "Label": "Min Value"
+      },
+      "HighlightQuest": {
+        "Label": "Quest Items"
+      },
+      "HighlightExpert": {
+        "Label": "Expert Items"
+      },
+      "HighlightMaster": {
+        "Label": "Master Items"
+      },
+      "UseDefaultLists": {
+        "Label": "Default Lists"
+      },
+      "BeamStyle": {
+        "Label": "Beam Style"
+      },
+      "GlowStyle": {
+        "Label": "Glow Style"
+      },
+      "BeamScale": {
+        "Label": "Beam Size"
+      },
+      "BeamOpacity": {
+        "Label": "Beam Opacity"
+      },
+      "GlowScale": {
+        "Label": "Glow Size"
+      },
+      "GlowOpacity": {
+        "Label": "Glow Opacity"
+      },
+      "FlashScale": {
+        "Label": "Drop Flash"
+      },
+      "DrawAdditive": {
+        "Label": "Brighter"
+      },
+      "Pulse": {
+        "Label": "Pulse"
+      },
+      "EmitLight": {
+        "Label": "Light"
+      },
+      "FadeOnPickup": {
+        "Label": "Fade on Pickup"
+      },
+      "Headers": {
+        "Filters": "Which Items",
+        "Visuals": "Visuals",
+        "Extras": "Extras"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "None"
+      },
+      "Simple": {
+        "Label": "Simple"
+      },
+      "Arrow": {
+        "Label": "Arrow"
+      },
+      "AnimatedArrow": {
+        "Label": "Animated Arrow"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "None"
+      },
+      "Simple": {
+        "Label": "Soft"
+      },
+      "Pixel": {
+        "Label": "Pixel"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Changes the beam of the item you are holding."
+    }
+  }
+}

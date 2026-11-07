@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Color en Descripción"
+      },
+      "ChangeDamageColor": {
+        "Label": "Color del Daño"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Mis Números"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Números Ajenos"
+      },
+      "CondenseDamageHits": {
+        "Label": "Agrupar Golpes"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Mostrar al Matar"
+      },
+      "DebugMode": {
+        "Label": "Depuración"
+      },
+      "DebugModeTooltips": {
+        "Label": "Descripciones"
+      },
+      "DebugModeFields": {
+        "Label": "Campos"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Multijugador"
+      },
+      "MeleeDamage": {
+        "Label": "Cuerpo a Cuerpo"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Cuerpo a Cuerpo Crít."
+      },
+      "TooltipMelee": {
+        "Label": "Cuerpo a Cuerpo"
+      },
+      "RangedDamage": {
+        "Label": "Distancia"
+      },
+      "RangedDamageCrit": {
+        "Label": "Distancia Crít."
+      },
+      "TooltipRanged": {
+        "Label": "Distancia"
+      },
+      "MagicDamage": {
+        "Label": "Magia"
+      },
+      "MagicDamageCrit": {
+        "Label": "Magia Crít."
+      },
+      "TooltipMagic": {
+        "Label": "Magia"
+      },
+      "ThrowingDamage": {
+        "Label": "Arrojadizo"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Arrojadizo Crít."
+      },
+      "TooltipThrowing": {
+        "Label": "Arrojadizo"
+      },
+      "SummonDamage": {
+        "Label": "Invocación"
+      },
+      "SummonDamageCrit": {
+        "Label": "Invocación Crít."
+      },
+      "TooltipSummon": {
+        "Label": "Invocación"
+      },
+      "SentryDamage": {
+        "Label": "Centinela"
+      },
+      "SentryDamageCrit": {
+        "Label": "Centinela Crít."
+      },
+      "TooltipSentry": {
+        "Label": "Centinela"
+      },
+      "TooltipDefense": {
+        "Label": "Defensa"
+      },
+      "ModdedTooltip": {
+        "Label": "Descripción"
+      },
+      "HeldTooltip": {
+        "Label": "Descripción"
+      },
+      "ModdedDamage": {
+        "Label": "Daño"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Daño Crít."
+      },
+      "HeldDamage": {
+        "Label": "Daño"
+      },
+      "HeldDamageCrit": {
+        "Label": "Daño Crít."
+      },
+      "Headers": {
+        "Toggles": "Opciones",
+        "Condense": "Agrupar",
+        "DamageColors": "Colores de Daño",
+        "TooltipColors": "Colores de Descripción",
+        "ModCompat": "Predeterminado de Mods",
+        "HeldClass": "Clase del Objeto en Mano",
+        "Debug": "Depuración"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "daño de centinela"
+    }
+  }
+}

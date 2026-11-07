@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "Halte einen Block (ein Item, das einen Block platziert), um diesen Befehl zu benutzen.",
+    "Added": "{0} wurde zur Vein-Miner-Liste hinzugefügt.",
+    "AlreadyAdded": "{0} ist bereits in deiner Liste.",
+    "AlreadyDefault": "{0} wird bereits in Ketten abgebaut (Erz oder Standardliste).",
+    "Removed": "{0} wurde aus der Liste entfernt.",
+    "NotInList": "{0} ist nicht in deiner Liste.",
+    "List": "Deine Liste: {0}",
+    "ListEmpty": "Deine Liste ist leer. Halte einen Block und benutze /vein add.",
+    "Cleared": "Hinzugefügte Blöcke gelöscht ({0} Blöcke).",
+    "Enabled": "Vein Miner aktiviert.",
+    "Disabled": "Vein Miner deaktiviert."
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "Erze"
+      },
+      "UseDefaultList": {
+        "Label": "Standardliste"
+      },
+      "UsePlayerList": {
+        "Label": "Hinzugefügte Blöcke"
+      },
+      "MaxTiles": {
+        "Label": "Maximale Blöcke"
+      },
+      "Headers": {
+        "General": "Allgemein"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "Fügt den Block in deiner Hand zur Vein-Miner-Liste hinzu, und mehr."
+    }
+  }
+}

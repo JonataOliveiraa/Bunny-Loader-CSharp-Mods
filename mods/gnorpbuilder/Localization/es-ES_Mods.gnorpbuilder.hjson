@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Globo: Prueba",
+      "Tooltip": "¡Construye: prueba!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n[c/FF1919:ESTE OBJETO ES PARA PRUEBAS Y NO DEBERÍA OBTENERSE NORMALMENTE]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Globo: Casa pequeña del bosque",
+      "Tooltip": "¡Construye: casa pequeña del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Globo: Farola del bosque",
+      "Tooltip": "¡Construye: farola del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Globo: Casa mediana del bosque",
+      "Tooltip": "¡Construye: casa mediana del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Globo: Casa grande del bosque",
+      "Tooltip": "¡Construye: casa grande del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Globo: Entrada del sótano",
+      "Tooltip": "¡Construye: entrada del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPerfecto para empezar tu sótano"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Globo: Pasillo del sótano",
+      "Tooltip": "¡Construye: pasillo del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Globo: Pasillo largo del sótano",
+      "Tooltip": "¡Construye: pasillo largo del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Globo: Pasillo corto del sótano",
+      "Tooltip": "¡Construye: pasillo corto del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Globo: Pasillo del sótano en T hacia abajo",
+      "Tooltip": "¡Construye: pasillo del sótano en T hacia abajo!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Globo: Pasillo del sótano en T hacia arriba",
+      "Tooltip": "¡Construye: pasillo del sótano en T hacia arriba!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Globo: Cruce del sótano",
+      "Tooltip": "¡Construye: cruce del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Globo: Pasillo del sótano en T a la derecha",
+      "Tooltip": "¡Construye: pasillo del sótano en T a la derecha!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Globo: Pasillo del sótano en T a la izquierda",
+      "Tooltip": "¡Construye: pasillo del sótano en T a la izquierda!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Globo: Esquina superior izquierda del sótano",
+      "Tooltip": "¡Construye: esquina superior izquierda del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Globo: Esquina inferior izquierda del sótano",
+      "Tooltip": "¡Construye: esquina inferior izquierda del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Globo: Esquina inferior derecha del sótano",
+      "Tooltip": "¡Construye: esquina inferior derecha del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Globo: Esquina superior derecha del sótano",
+      "Tooltip": "¡Construye: esquina superior derecha del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Globo: Pasillo corto del sótano hacia abajo",
+      "Tooltip": "¡Construye: pasillo corto del sótano hacia abajo!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Globo: Sala de música del sótano",
+      "Tooltip": "¡Construye: sala de música del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nTiene muchas cajas de música distintas"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Globo: Prisión de PNJ del sótano",
+      "Tooltip": "¡Construye: prisión de PNJ del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nBarato, pero poco ético"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Globo: Habitación de PNJ del sótano",
+      "Tooltip": "¡Construye: habitación de PNJ del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa típica habitación para un PNJ"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Globo: Armería del sótano",
+      "Tooltip": "¡Construye: armería del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Globo: Jardín del sótano",
+      "Tooltip": "¡Construye: jardín del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n¿Cómo crece esto en un sótano? ¡Con el poder de las estrellas!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Globo: Sala de tortura del sótano",
+      "Tooltip": "¡Construye: sala de tortura del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPara los PNJ que detestas"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Globo: Entrada del sótano hacia abajo",
+      "Tooltip": "¡Construye: entrada del sótano hacia abajo!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Globo: Entrada grande del sótano hacia abajo",
+      "Tooltip": "¡Construye: entrada grande del sótano hacia abajo!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Globo: Sala del trono del sótano",
+      "Tooltip": "¡Construye: sala del trono del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nCaro, pero hecho de mármol y oro, ¡muy elegante!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa grande del desierto",
+      "Tooltip": "¡Construye: casa grande del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana del desierto",
+      "Tooltip": "¡Construye: casa mediana del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Globo: Farola del desierto",
+      "Tooltip": "¡Construye: farola del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña del desierto",
+      "Tooltip": "¡Construye: casa pequeña del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña del océano",
+      "Tooltip": "¡Construye: casa pequeña del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Globo: Farola del océano",
+      "Tooltip": "¡Construye: farola del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana del océano",
+      "Tooltip": "¡Construye: casa mediana del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Globo: Casa grande del océano",
+      "Tooltip": "¡Construye: casa grande del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña de la jungla",
+      "Tooltip": "¡Construye: casa pequeña de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana de la jungla",
+      "Tooltip": "¡Construye: casa mediana de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Globo: Casa grande de la jungla",
+      "Tooltip": "¡Construye: casa grande de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Globo: Farola de la jungla",
+      "Tooltip": "¡Construye: farola de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña champiñón",
+      "Tooltip": "¡Construye: casa pequeña champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Globo: Farola champiñón",
+      "Tooltip": "¡Construye: farola champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana champiñón",
+      "Tooltip": "¡Construye: casa mediana champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Globo: Casa grande champiñón",
+      "Tooltip": "¡Construye: casa grande champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Globo: Farola de la tundra",
+      "Tooltip": "¡Construye: farola de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña de la tundra",
+      "Tooltip": "¡Construye: casa pequeña de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana de la tundra",
+      "Tooltip": "¡Construye: casa mediana de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Globo: Casa grande de la tundra",
+      "Tooltip": "¡Construye: casa grande de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña sagrada",
+      "Tooltip": "¡Construye: casa pequeña sagrada!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana sagrada",
+      "Tooltip": "¡Construye: casa mediana sagrada!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Globo: Casa grande sagrada",
+      "Tooltip": "¡Construye: casa grande sagrada!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Globo: Farola sagrada",
+      "Tooltip": "¡Construye: farola sagrada!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña del bioma",
+      "Tooltip": "¡Construye: casa pequeña del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ\nNormalmente usa la casa pequeña del bosque. Biomas compatibles: tundra, desierto, jungla, océano, champiñón de superficie y sagrado"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana del bioma",
+      "Tooltip": "¡Construye: casa mediana del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ\nNormalmente usa la casa mediana del bosque. Biomas compatibles: tundra, desierto, jungla, océano, champiñón de superficie y sagrado"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Globo: Casa grande del bioma",
+      "Tooltip": "¡Construye: casa grande del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ\nNormalmente usa la casa grande del bosque. Biomas compatibles: tundra, desierto, jungla, océano, champiñón de superficie y sagrado"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Globo: Farola del bioma",
+      "Tooltip": "¡Construye: farola del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nNormalmente usa la farola del bosque. Biomas compatibles: tundra, desierto, jungla, océano, champiñón de superficie y sagrado"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena simple pequeña",
+      "Tooltip": "¡Construye: arena simple pequeña!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 3 plataformas, 105 bloques de largo y 34 de alto"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena simple mediana",
+      "Tooltip": "¡Construye: arena simple mediana!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 5 plataformas, 180 bloques de largo y 54 de alto"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Globo: Arena simple grande",
+      "Tooltip": "¡Construye: arena simple grande!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 7 plataformas, 255 bloques de largo y 74 de alto"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzada pequeña",
+      "Tooltip": "¡Construye: arena avanzada pequeña!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 3 plataformas, 105 bloques de largo y 34 de alto\nCon fogata, farol de corazón, estrella en una botella, estatua de Bastet, gnomo de jardín y miel en una burbuja"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzada mediana",
+      "Tooltip": "¡Construye: arena avanzada mediana!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 5 plataformas, 180 bloques de largo y 54 de alto\nCon fogatas, faroles de corazón, estrellas en una botella, estatuas de Bastet, gnomos de jardín y miel en burbujas"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Globo: Arena avanzada grande",
+      "Tooltip": "¡Construye: arena avanzada grande!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nLa arena tiene 7 plataformas, 255 bloques de largo y 74 de alto\nCon fogatas, faroles de corazón, estrellas en una botella, estatuas de Bastet, gnomos de jardín y miel en burbujas"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor del bosque",
+      "Tooltip": "¡Construye: ascensor del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor de la tundra",
+      "Tooltip": "¡Construye: ascensor de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor del desierto",
+      "Tooltip": "¡Construye: ascensor del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor sagrado",
+      "Tooltip": "¡Construye: ascensor sagrado!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor de la jungla",
+      "Tooltip": "¡Construye: ascensor de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor champiñón",
+      "Tooltip": "¡Construye: ascensor champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor del océano",
+      "Tooltip": "¡Construye: ascensor del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Globo: Ascensor del bioma",
+      "Tooltip": "¡Construye: ascensor del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste ascensor baja hasta el Inframundo y crea nubes que anulan el daño por caída\nNormalmente usa el ascensor del bosque. Biomas compatibles: tundra, desierto, jungla, océano, champiñón de superficie y sagrado\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo: Raíl de vagoneta corto para el ascensor",
+      "Tooltip": "¡Construye: raíl de vagoneta corto para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Globo: Cruce de raíles para el ascensor",
+      "Tooltip": "¡Construye: cruce de raíles para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n¡Ideal para empezar los raíles de vagoneta de tu ascensor!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globo: Raíl de vagoneta para el ascensor",
+      "Tooltip": "¡Construye: raíl de vagoneta para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n5 veces más largo que la versión corta"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Globo: Rampa de raíl derecha para el ascensor",
+      "Tooltip": "¡Construye: rampa de raíl derecha para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Globo: Parada de raíl para el ascensor",
+      "Tooltip": "¡Construye: parada de raíl para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Globo: Rampa de raíl izquierda para el ascensor",
+      "Tooltip": "¡Construye: rampa de raíl izquierda para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Globo: Raíl de vagoneta completo para el ascensor",
+      "Tooltip": "¡Construye: raíl de vagoneta completo para el ascensor!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nCrea raíles de vagoneta hacia la izquierda y la derecha, ¡ideal con tu ascensor!\n[c/E11919:¡CUIDADO, ESTA CONSTRUCCIÓN ES MUY GRANDE! PUEDE DESTRUIR ESTRUCTURAS IMPORTANTES, ¡ÚSALA CON PRECAUCIÓN!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa grande de San Valentín",
+      "Tooltip": "¡Construye: casa grande de San Valentín!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ\n[c/FFC0CB:¡Hecho con amor!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana de San Valentín",
+      "Tooltip": "¡Construye: casa mediana de San Valentín!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 2 PNJ\n[c/FFC0CB:¡Hecho con amor!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña de San Valentín",
+      "Tooltip": "¡Construye: casa pequeña de San Valentín!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 1 PNJ\n[c/FFC0CB:¡Hecho con amor!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Globo: Farola de San Valentín",
+      "Tooltip": "¡Construye: farola de San Valentín!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n[c/FFC0CB:¡Hecho con amor!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Globo: Casa corazón",
+      "Tooltip": "¡Construye: casa corazón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEsta casa tiene sitio para 3 PNJ\n[c/FF7F7F:¡Hecho de amor!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Globo: Pilón de la caverna",
+      "Tooltip": "¡Construye: pilón de la caverna!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Globo: Pilón del desierto",
+      "Tooltip": "¡Construye: pilón del desierto!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Globo: Pilón del bosque",
+      "Tooltip": "¡Construye: pilón del bosque!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Globo: Pilón sagrado",
+      "Tooltip": "¡Construye: pilón sagrado!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Globo: Pilón de la jungla",
+      "Tooltip": "¡Construye: pilón de la jungla!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Globo: Pilón champiñón",
+      "Tooltip": "¡Construye: pilón champiñón!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Globo: Pilón del océano",
+      "Tooltip": "¡Construye: pilón del océano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Globo: Pilón de la tundra",
+      "Tooltip": "¡Construye: pilón de la tundra!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Globo: Pilón del bioma",
+      "Tooltip": "¡Construye: pilón del bioma!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nNormalmente usa el pilón del bosque. Biomas compatibles: caverna, tundra, desierto, jungla, océano, champiñón de superficie y sagrado"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Mando Gnorpy",
+      "Tooltip": "¡El mando de Gnorp!\nInvoca a Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Globo: Escalera del sótano en T hacia abajo",
+      "Tooltip": "¡Construye: escalera del sótano en T hacia abajo!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Globo: Escalera del sótano en T hacia arriba",
+      "Tooltip": "¡Construye: escalera del sótano en T hacia arriba!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Globo: Escalera derecha del sótano",
+      "Tooltip": "¡Construye: escalera derecha del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Globo: Cruce de escaleras del sótano",
+      "Tooltip": "¡Construye: cruce de escaleras del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Globo: Biblioteca del sótano",
+      "Tooltip": "¡Construye: biblioteca del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Globo: Escalera izquierda del sótano",
+      "Tooltip": "¡Construye: escalera izquierda del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Globo: Pasillo con habitación de PNJ",
+      "Tooltip": "¡Construye: pasillo con habitación de PNJ!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nBásicamente una habitación de PNJ unida a un pasillo"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Globo: Bar del sótano",
+      "Tooltip": "¡Construye: bar del sótano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nTómate algo"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Globo: Castillo pequeño",
+      "Tooltip": "¡Construye: castillo pequeño!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Globo: Castillo mediano",
+      "Tooltip": "¡Construye: castillo mediano!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Globo: Castillo grande",
+      "Tooltip": "¡Construye: castillo grande!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Globo: Castillo enorme",
+      "Tooltip": "¡Construye: castillo enorme!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nBastante enorme, ¡debería tener sitio para todo lo que necesites!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Globo: Base en el árbol pequeña",
+      "Tooltip": "¡Construye: base en el árbol pequeña!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Globo: Base en el árbol mediana",
+      "Tooltip": "¡Construye: base en el árbol mediana!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Globo: Base en el árbol grande",
+      "Tooltip": "¡Construye: base en el árbol grande!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Globo: Base en el árbol enorme",
+      "Tooltip": "¡Construye: base en el árbol enorme!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Globo: Lago de agua simple",
+      "Tooltip": "¡Construye: lago de agua simple!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPerfecto para pescar"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Globo: Lago de tenue simple",
+      "Tooltip": "¡Construye: lago de tenue simple!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPerfecto para pes... espera, en el tenue no se puede pescar, ¿verdad?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Globo: Lago de lava simple",
+      "Tooltip": "¡Construye: lago de lava simple!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPerfecto para pescar"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Globo: Lago de miel simple",
+      "Tooltip": "¡Construye: lago de miel simple!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nPerfecto para pescar"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Globo: Celda de prisión",
+      "Tooltip": "¡Construye: celda de prisión!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\n¿No tienes corazón?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Globo: Castillo de PNJ invisible",
+      "Tooltip": "¡Construye: castillo de PNJ invisible!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste castillo tiene sitio para 3 PNJ\nCastillo súper épico y genial, lástima que no se pueda ver"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Globo: Casa pequeña de caca",
+      "Tooltip": "¡Construye: casa pequeña de caca!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste castillo tiene sitio para 1 PNJ\nApesta"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Globo: Casa grande de caca",
+      "Tooltip": "¡Construye: casa grande de caca!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste castillo tiene sitio para 3 PNJ\nApesta"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Globo: Casa mediana de caca",
+      "Tooltip": "¡Construye: casa mediana de caca!\nUsa el botón táctil Punto de anclaje (añádelo en Controles) o la Configuración de Mods para cambiar el punto de anclaje\nEste castillo tiene sitio para 2 PNJ\nApesta"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp es un extraterrestre muy amistoso. El único objetivo de Gnorp es ayudar a los demás construyendo. Gnorp ve belleza en todos los biomas."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Principal",
+        "Bases": "Bases",
+        "Module": "Módulos",
+        "Utility": "Utilidad",
+        "Holiday": "Festivos"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Cambiar ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Trayendo a Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Punto de anclaje (globos de Gnorp)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:ACTIVADA]",
+    "ValueOff": "[c/E11919:DESACTIVADA]",
+    "ImagePreviewInfo": "Vista previa con imagen: {0}",
+    "DustPreviewInfo": "Vista previa con polvo: {0}",
+    "ImageOpacityInfo": "Opacidad de la imagen: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Colocar con doble toque: {0}",
+    "SettingsHint": "[c/828282:Se puede cambiar en la Configuración de Mods]",
+    "AnchorInfo": "Punto de anclaje: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "Abajo en el centro",
+      "TopLeft": "Arriba a la izquierda",
+      "TopRight": "Arriba a la derecha",
+      "BottomLeft": "Abajo a la izquierda",
+      "BottomRight": "Abajo a la derecha"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Vista previa con imagen"
+      },
+      "EnablePreviews": {
+        "Label": "Vista previa con polvo"
+      },
+      "PreviewOpacity": {
+        "Label": "Opacidad de la imagen"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Colocar con doble toque"
+      },
+      "Anchor": {
+        "Label": "Punto de anclaje"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "Abajo en el centro"
+      },
+      "TopLeft": {
+        "Label": "Arriba a la izquierda"
+      },
+      "TopRight": {
+        "Label": "Arriba a la derecha"
+      },
+      "BottomLeft": {
+        "Label": "Abajo a la izquierda"
+      },
+      "BottomRight": {
+        "Label": "Abajo a la derecha"
+      }
+    }
+  }
+}

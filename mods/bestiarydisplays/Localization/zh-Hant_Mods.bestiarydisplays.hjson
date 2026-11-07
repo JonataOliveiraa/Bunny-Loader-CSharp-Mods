@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "生物",
+    "None": "（無）",
+    "Animate": "動畫",
+    "Hologram": "全像特效",
+    "AltRender": "替代繪製",
+    "Scale": "縮放",
+    "OffsetX": "X 偏移",
+    "OffsetY": "Y 偏移",
+    "Rotation": "旋轉",
+    "AnimSpeed": "動畫延遲",
+    "InvisibleTile": "隱形方塊",
+    "InvisibleWarning": "注意：隱形的投影儀可能很難再找到。",
+    "PickerTitle": "選擇生物",
+    "SearchHint": "依名稱搜尋...",
+    "Close": "關閉",
+    "Back": "返回",
+    "Empty": "還沒有解鎖任何生物。"
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "全像投影儀",
+      "Tooltip": "將已解鎖的圖鑑生物投影為全像影像。放置後點擊即可設定。"
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "精金全像投影儀",
+      "Tooltip": "進階投影儀。不受圖鑑進度限制，並允許更大的全像影像。"
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "鈦金全像投影儀",
+      "Tooltip": "進階投影儀。不受圖鑑進度限制，並允許更大的全像影像。"
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "全像投影儀"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "精金全像投影儀"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "鈦金全像投影儀"
+    }
+  }
+}

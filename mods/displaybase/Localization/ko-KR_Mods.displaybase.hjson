@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "전시대",
+      "Tooltip": "탭하여 든 아이템을 전시대에 올립니다"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "전시대",
+      "Tooltip": "탭하여 든 아이템을 전시대에 올립니다"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "전시대"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "전시 설정",
+      "UseBrightness": {
+        "Label": "밝게 표시"
+      },
+      "UseOutline": {
+        "Label": "윤곽선"
+      },
+      "UseGlitter": {
+        "Label": "반짝임"
+      },
+      "LightIntensity": {
+        "Label": "빛"
+      },
+      "Headers": {
+        "Effects": "효과"
+      }
+    }
+  }
+}

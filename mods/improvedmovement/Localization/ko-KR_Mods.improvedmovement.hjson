@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "시선"
+      },
+      "FaceCursor": {
+        "Label": "커서 보기"
+      },
+      "LeaningType": {
+        "Label": "기울기"
+      },
+      "LeanStrength": {
+        "Label": "강도"
+      },
+      "EnableMountLeaning": {
+        "Label": "탈것"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "목 숨기기"
+      },
+      "DisableRopeTurning": {
+        "Label": "밧줄 회전 끔"
+      },
+      "EnableFlickeringFix": {
+        "Label": "깜빡임 수정"
+      },
+      "NPCLeaningType": {
+        "Label": "NPC 기울기"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "슬라임"
+      },
+      "EnableZombieLeaning": {
+        "Label": "좀비"
+      },
+      "EnableCritterLeaning": {
+        "Label": "작은 동물"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "마을 NPC"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "모두"
+      },
+      "Headers": {
+        "Player": "플레이어",
+        "Creatures": "생물"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "끔"
+      },
+      "Standard": {
+        "Label": "기본"
+      },
+      "Clamped": {
+        "Label": "제한"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "안 함"
+      },
+      "Always": {
+        "Label": "항상"
+      },
+      "UsingItem": {
+        "Label": "사용 중"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "끔"
+      },
+      "Standard": {
+        "Label": "기본"
+      },
+      "Alternate": {
+        "Label": "대체"
+      },
+      "Spin": {
+        "Label": "회전"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "기본"
+      },
+      "Spin": {
+        "Label": "회전"
+      }
+    }
+  }
+}

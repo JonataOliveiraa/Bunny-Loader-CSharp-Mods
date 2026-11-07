@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "展示基座",
+      "Tooltip": "點擊以將手持物品放置於展示基座上"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "展示基座",
+      "Tooltip": "點擊以將手持物品放置於展示基座上"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "展示基座"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "展示設定",
+      "UseBrightness": {
+        "Label": "高亮展示"
+      },
+      "UseOutline": {
+        "Label": "物品描邊"
+      },
+      "UseGlitter": {
+        "Label": "閃爍效果"
+      },
+      "LightIntensity": {
+        "Label": "光線"
+      },
+      "Headers": {
+        "Effects": "效果"
+      }
+    }
+  }
+}

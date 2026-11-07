@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Общая карта",
+      "Interval": {
+        "Label": "Интервал"
+      },
+      "Notifications": {
+        "Label": "Уведомления"
+      },
+      "Headers": {
+        "Sync": "Синхронизация"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Карта обновлена: {0} новых клеток от других игроков.",
+    "Sharing": "Ваша карта отправляется другим игрокам...",
+    "MultiplayerOnly": "Общая карта работает только в мультиплеере."
+  }
+}

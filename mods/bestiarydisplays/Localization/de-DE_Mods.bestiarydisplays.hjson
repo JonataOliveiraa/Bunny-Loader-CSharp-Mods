@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "Kreatur",
+    "None": "(keine)",
+    "Animate": "Animieren",
+    "Hologram": "Hologramm-Effekt",
+    "AltRender": "Alternatives Zeichnen",
+    "Scale": "Größe",
+    "OffsetX": "Versatz X",
+    "OffsetY": "Versatz Y",
+    "Rotation": "Drehung",
+    "AnimSpeed": "Animationsverzögerung",
+    "InvisibleTile": "Unsichtbarer Block",
+    "InvisibleWarning": "Vorsicht: Ein unsichtbarer Projektor ist schwer wiederzufinden.",
+    "PickerTitle": "Wähle eine Kreatur",
+    "SearchHint": "Nach Namen suchen...",
+    "Close": "Schließen",
+    "Back": "Zurück",
+    "Empty": "Noch keine Kreaturen freigeschaltet."
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "Hologrammprojektor",
+      "Tooltip": "Projiziert eine freigeschaltete Bestiarium-Kreatur als Hologramm. Nach dem Platzieren antippen, um es einzustellen."
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "Adamantit-Hologrammprojektor",
+      "Tooltip": "Ein fortschrittlicher Projektor. Ignoriert den Bestiarium-Fortschritt und erlaubt größere Hologramme."
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "Titan-Hologrammprojektor",
+      "Tooltip": "Ein fortschrittlicher Projektor. Ignoriert den Bestiarium-Fortschritt und erlaubt größere Hologramme."
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "Hologrammprojektor"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "Adamantit-Hologrammprojektor"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "Titan-Hologrammprojektor"
+    }
+  }
+}

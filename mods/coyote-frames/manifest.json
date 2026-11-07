@@ -1,0 +1,26 @@
+{
+  "uid": "a4f0d04b-f2f0-499b-b4b8-6d89e4bcbd6a",
+  "id": "coyote-frames",
+  "name": "Coyote Frames",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Gorffy, Ink of the Eternity, Litos the Litium",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "color": "#FFFFFF",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3331547573"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Gameplay",
+  "summary": "Mod that allows player to use Coyote frames that are presented in many other games.",
+  "license": "MIT",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

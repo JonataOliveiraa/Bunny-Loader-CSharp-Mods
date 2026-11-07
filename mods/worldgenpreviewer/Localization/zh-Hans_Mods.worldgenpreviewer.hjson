@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "开始时暂停"
+      },
+      "LivePreview": {
+        "Label": "地图预览"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "显示步骤列表",
+    "Previous": "重复上一步",
+    "Resume": "继续",
+    "Pause": "暂停",
+    "Next": "前进到下一步",
+    "Structures": "显示受保护的结构",
+    "Cancel": "取消",
+    "ZoomIn": "放大",
+    "ZoomOut": "缩小",
+    "ExitZoom": "退出缩放",
+    "NoPause": "此设备无法使用暂停",
+    "StatusNormal": "状态：正常",
+    "StatusPausing": "状态：正在暂停...",
+    "StatusPaused": "状态：已暂停",
+    "StatusRepeating": "状态：正在重做上一步",
+    "StatusWaitingRepeat": "状态：等待重做此步骤...",
+    "StatusCanceling": "状态：正在取消...",
+    "StatusStructuresOn": "状态：显示结构",
+    "StatusStructuresOff": "状态：隐藏结构",
+    "StatusPausingAfter": "状态：将在 {0} 后暂停",
+    "Skipped": "已跳过",
+    "Complete": "已完成",
+    "AdvanceTo": "点击以前进到 {0}",
+    "Tile": "物块：{0}",
+    "PausedAfter": "世界生成已在 {0} 后暂停",
+    "Waiting": "正在生成预览...",
+    "PreviewOff": "地图预览已关闭",
+    "Steps": "步骤",
+    "SkipStep": "点击跳过此步骤",
+    "KeepStep": "点击保留此步骤",
+    "StatusFinishingMap": "状态：正在完成地图..."
+  }
+}

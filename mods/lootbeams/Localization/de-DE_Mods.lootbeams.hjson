@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Halte ein Item, um diesen Befehl zu nutzen.",
+    "Always": "{0} hat jetzt immer einen Strahl.",
+    "Never": "{0} hat jetzt nie einen Strahl.",
+    "MiniOn": "{0} hat jetzt einen kleinen Strahl.",
+    "MiniOff": "{0} hat wieder einen normalen Strahl.",
+    "BadColor": "Ungültige Farbe. Nutze /beams color #RRGGBB (z. B. #FF8800).",
+    "Colored": "Strahlfarbe von {0}: {1}.",
+    "Reset": "{0} wurde aus deinen Listen entfernt.",
+    "NotListed": "{0} ist nicht in deinen Listen.",
+    "List": "Immer: {0} | Nie: {1} | Klein: {2} | Farben: {3}",
+    "Cleared": "Deine Listen wurden geleert.",
+    "Enabled": "Strahlen an.",
+    "Disabled": "Strahlen aus."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Aktiv"
+      },
+      "MinRarity": {
+        "Label": "Min. Seltenheit"
+      },
+      "MinValue": {
+        "Label": "Min. Wert"
+      },
+      "HighlightQuest": {
+        "Label": "Quest-Items"
+      },
+      "HighlightExpert": {
+        "Label": "Experten-Items"
+      },
+      "HighlightMaster": {
+        "Label": "Meister-Items"
+      },
+      "UseDefaultLists": {
+        "Label": "Standardlisten"
+      },
+      "BeamStyle": {
+        "Label": "Strahlstil"
+      },
+      "GlowStyle": {
+        "Label": "Glühstil"
+      },
+      "BeamScale": {
+        "Label": "Strahlgröße"
+      },
+      "BeamOpacity": {
+        "Label": "Strahldeckkraft"
+      },
+      "GlowScale": {
+        "Label": "Glühgröße"
+      },
+      "GlowOpacity": {
+        "Label": "Glühdeckkraft"
+      },
+      "FlashScale": {
+        "Label": "Fallblitz"
+      },
+      "DrawAdditive": {
+        "Label": "Heller"
+      },
+      "Pulse": {
+        "Label": "Pulsieren"
+      },
+      "EmitLight": {
+        "Label": "Licht"
+      },
+      "FadeOnPickup": {
+        "Label": "Beim Aufheben Ausblenden"
+      },
+      "Headers": {
+        "Filters": "Welche Items",
+        "Visuals": "Aussehen",
+        "Extras": "Extras"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Keiner"
+      },
+      "Simple": {
+        "Label": "Einfach"
+      },
+      "Arrow": {
+        "Label": "Pfeil"
+      },
+      "AnimatedArrow": {
+        "Label": "Animierter Pfeil"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Keiner"
+      },
+      "Simple": {
+        "Label": "Weich"
+      },
+      "Pixel": {
+        "Label": "Pixel"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Ändert den Strahl des gehaltenen Items."
+    }
+  }
+}

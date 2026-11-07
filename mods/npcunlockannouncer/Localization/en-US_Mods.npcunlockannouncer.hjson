@@ -1,0 +1,208 @@
+{
+  "NPCTitles": {
+    "Guide": {
+      "Title": "THE GUIDE",
+      "Subtitle": "Knows everything… except how to survive.|Free advice, deaths included.|Your first friend. Your first loss.|A walking manual with limited lifespan.|Always ready to help. Never to escape."
+    },
+    "Merchant": {
+      "Title": "THE MERCHANT",
+      "Subtitle": "Money *does* buy happiness.|If he doesn’t sell it, it doesn’t exist.|Business first, morals later.|Accepts coins. No excuses.|Your wallet trembles."
+    },
+    "Nurse": {
+      "Title": "THE NURSE",
+      "Subtitle": "Healing is easy. Charging is easier.|Instant healing, instant bill.|Life isn’t free, sweetie.|Less pain, more debt.|Saves you first. Ruins you after."
+    },
+    "Demolitionist": {
+      "Title": "THE DEMOLITIONIST",
+      "Subtitle": "Solves everything… with explosions.|More bombs, fewer questions.|Smile before detonation.|Collateral damage specialist.|If it goes boom, it works."
+    },
+    "DyeTrader": {
+      "Title": "THE DYE TRADER",
+      "Subtitle": "Style is also farmed.|Color today, questionable combo tomorrow.|Fashion is suffering.|Dyeing is an art. Sometimes.|Never matches, always sells."
+    },
+    "Dryad": {
+      "Title": "THE DRYAD",
+      "Subtitle": "Nature is judging you.|Less corruption, more scolding.|Talks to plants. Ignores you.|Eco-friendly and very passive-aggressive.|Loves the jungle. Tolerates the player."
+    },
+    "ArmsDealer": {
+      "Title": "THE ARMS DEALER",
+      "Subtitle": "Peace was never an option.|Legally questionable firearms.|Shoot first, ask later.|Ammo for every problem.|Smiles like a movie villain."
+    },
+    "Stylist": {
+      "Title": "THE STYLIST",
+      "Subtitle": "Dramatic cuts for dangerous lives.|Your haircut won’t survive the moon.|Beauty before apocalypse.|Bravery starts with bangs.|No transformation guaranteed."
+    },
+    "Painter": {
+      "Title": "THE PAINTER",
+      "Subtitle": "Sees the world in strange colors.|Misunderstood art, inflated prices.|Painting dreams… and walls.|Inspired, but lost.|Creative genius, zero context."
+    },
+    "Angler": {
+      "Title": "THE ANGLER",
+      "Subtitle": "Prodigy of annoyance.|More quests, less gratitude.|Never satisfied.|Rare fish, worse attitude.|The real final boss."
+    },
+    "GoblinTinkerer": {
+      "Title": "THE GOBLIN TINKERER",
+      "Subtitle": "Reforge today, cry tomorrow.|RNG is part of the charm.|Breaking counts as improving.|Trust me. You shouldn’t.|Your accessory is… different now."
+    },
+    "WitchDoctor": {
+      "Title": "THE WITCH DOCTOR",
+      "Subtitle": "Alternative medicine, questionable results.|The jungle approves.|Poison, voodoo, and style.|Don’t ask what it is.|Not healing—enhancing."
+    },
+    "Clothier": {
+      "Title": "THE CLOTHIER",
+      "Subtitle": "Elegant, cursed, and well-dressed.|Fashion never dies. You do.|Outfits with dark history.|Tailoring with trauma.|Haunted by the past."
+    },
+    "Mechanic": {
+      "Title": "THE MECHANIC",
+      "Subtitle": "Wires > people.|If it fails, add more levers.|Loves machines. Hates explaining.|Traps that actually work.|Engineering with attitude."
+    },
+    "PartyGirl": {
+      "Title": "THE PARTY GIRL",
+      "Subtitle": "Confetti over logic.|Everything is better with balloons.|Party even during the apocalypse.|Never gets tired. Ever.|Danger level: fun."
+    },
+    "DD2Bartender": {
+      "Title": "THE TAVERNKEEP",
+      "Subtitle": "Long stories, short beers.|Serving Etheria forever.|One drink before dying.|Quests with hangovers.|The only sober one is the player."
+    },
+    "Golfer": {
+      "Title": "THE GOLFER",
+      "Subtitle": "Escaped the desert for golf.|Everything is a potential hole.|Swing first, aim later.|Patience optional.|The green is sacred."
+    },
+    "BestiaryGirl": {
+      "Title": "THE ZOOLOGIST",
+      "Subtitle": "Excessive love for animals.|Wants to pet everything.|Very hands-on research.|Way too enthusiastic.|Science with hugs."
+    },
+    "Wizard": {
+      "Title": "THE WIZARD",
+      "Subtitle": "Wise, powerful, and slightly unhinged.|Magic first, common sense later.|Unfiltered arcane knowledge.|The crystal ball doesn’t lie.|Spells and ego."
+    },
+    "TaxCollector": {
+      "Title": "THE TAX COLLECTOR",
+      "Subtitle": "Hell charges interest.|Death didn’t stop him.|Taxes are eternal.|No negotiations.|The most feared NPC."
+    },
+    "Truffle": {
+      "Title": "THE TRUFFLE",
+      "Subtitle": "A mushroom with personality.|Too chill for this world.|Live, laugh, spores.|Not edible.|Pure fungi vibes."
+    },
+    "Pirate": {
+      "Title": "THE PIRATE",
+      "Subtitle": "Rum, cannons, and shouting.|Arrr with pride.|Treasure or nothing.|Never pays taxes.|The sea is calling."
+    },
+    "Steampunker": {
+      "Title": "THE STEAMPUNKER",
+      "Subtitle": "Science with style.|Hates old tech.|Gears over magic.|The future is now.|Steam and attitude."
+    },
+    "Cyborg": {
+      "Title": "THE CYBORG",
+      "Subtitle": "Optimized for destruction.|Less human, more guns.|Constant ballistic calculations.|Doesn’t feel… but shoots.|Hostile technology."
+    },
+    "SantaClaus": {
+      "Title": "SANTA CLAUS",
+      "Subtitle": "Gifts with conditions.|Always watching.|The list never lies.|Armed Christmas.|Ho ho… careful."
+    },
+    "Princess": {
+      "Title": "THE PRINCESS",
+      "Subtitle": "Unexplainable elegance.|Does nothing. Perfectly.|The happiest one here.|Living her best life.|Royal vibes."
+    },
+    "TravellingMerchant": {
+      "Title": "TRAVELLING MERCHANT",
+      "Subtitle": "Here today, gone tomorrow.|Unpredictable inventory.|Buy fast.|Never explains anything.|Leaves without warning."
+    },
+    "SkeletonMerchant": {
+      "Title": "SKELETON MERCHANT",
+      "Subtitle": "Night-time business.|Bones and RNG.|Deadly prices.|No skin in the game.|Literally shameless."
+    },
+    "Default": {
+      "Subtitle": "A new ally joins the cause."
+    }
+  },
+  "Configs": {
+    "AnnouncerConfig": {
+      "DisplayName": "NPC Unlock Announcer",
+      "Style": {
+        "Label": "Style"
+      },
+      "Sound": {
+        "Label": "Sound"
+      },
+      "SoundVolume": {
+        "Label": "Volume"
+      },
+      "DurationSeconds": {
+        "Label": "Duration"
+      },
+      "Frequency": {
+        "Label": "Frequency"
+      },
+      "MaxAnnouncementsPerNPC": {
+        "Label": "Max Per NPC"
+      },
+      "Headers": {
+        "General": "General"
+      }
+    },
+    "BannerStyle": {
+      "Classic": {
+        "Label": "Classic"
+      },
+      "Modern": {
+        "Label": "Modern"
+      },
+      "Corruption": {
+        "Label": "Corruption"
+      },
+      "Crimson": {
+        "Label": "Crimson"
+      },
+      "Wood": {
+        "Label": "Wood"
+      },
+      "Jungle": {
+        "Label": "Jungle"
+      }
+    },
+    "BannerSound": {
+      "None": {
+        "Label": "None"
+      },
+      "MagicDing": {
+        "Label": "Magic Ding"
+      },
+      "Coins": {
+        "Label": "Coins"
+      },
+      "MaxMana": {
+        "Label": "Max Mana"
+      },
+      "ResearchComplete": {
+        "Label": "Research"
+      },
+      "ChestUnlock": {
+        "Label": "Chest Unlock"
+      },
+      "Crimson": {
+        "Label": "Crimson"
+      },
+      "Knock": {
+        "Label": "Knock"
+      },
+      "Jungle": {
+        "Label": "Jungle"
+      },
+      "Corruption": {
+        "Label": "Corruption"
+      }
+    },
+    "AnnounceFrequency": {
+      "FirstTimeOnly": {
+        "Label": "First Time"
+      },
+      "EveryTime": {
+        "Label": "Every Time"
+      },
+      "SetAmount": {
+        "Label": "Set Amount"
+      }
+    }
+  }
+}

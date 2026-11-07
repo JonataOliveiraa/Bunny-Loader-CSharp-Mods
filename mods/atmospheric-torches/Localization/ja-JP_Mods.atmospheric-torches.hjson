@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] 松明のちらつきを無効にする"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] 明るさスケール"
+      }
+    }
+  }
+}

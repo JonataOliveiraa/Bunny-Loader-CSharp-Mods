@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "Select Creature",
+    "None": "(none)",
+    "Animate": "Animate",
+    "Hologram": "Hologram FX",
+    "AltRender": "Alternate Render",
+    "Scale": "Scale",
+    "OffsetX": "Offset X",
+    "OffsetY": "Offset Y",
+    "Rotation": "Rotation",
+    "AnimSpeed": "Anim Delay",
+    "InvisibleTile": "Invisible Block",
+    "InvisibleWarning": "Be careful as an invisible projector may be hard to find again.",
+    "PickerTitle": "Choose a creature",
+    "SearchHint": "Search by name...",
+    "Close": "Close",
+    "Back": "Back",
+    "Empty": "No creatures unlocked yet."
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "Hologram Projector",
+      "Tooltip": "Projects an unlocked Bestiary creature as a hologram. Tap it when placed to configure."
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "Adamantite Hologram Projector",
+      "Tooltip": "An advanced projector. Ignores Bestiary progression and allows larger holograms."
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "Titanium Hologram Projector",
+      "Tooltip": "An advanced projector. Ignores Bestiary progression and allows larger holograms."
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "Hologram Projector"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "Adamantite Hologram Projector"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "Titanium Hologram Projector"
+    }
+  }
+}

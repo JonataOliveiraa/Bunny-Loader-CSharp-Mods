@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Universalkarte",
+      "Interval": {
+        "Label": "Intervall"
+      },
+      "Notifications": {
+        "Label": "Benachrichtigungen"
+      },
+      "Headers": {
+        "Sync": "Synchronisierung"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Karte aktualisiert: {0} neue Felder von anderen Spielern.",
+    "Sharing": "Deine Karte wird mit den anderen Spielern geteilt...",
+    "MultiplayerOnly": "Die Universalkarte funktioniert nur im Mehrspielermodus."
+  }
+}

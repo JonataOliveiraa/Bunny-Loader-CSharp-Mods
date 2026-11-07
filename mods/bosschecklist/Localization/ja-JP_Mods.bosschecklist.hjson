@@ -1,0 +1,438 @@
+{
+  "Log": {
+    "Common": {
+      "BossLog": "ボスログ",
+      "Entry": "エントリー",
+      "Boss": "ボス",
+      "BossPlural": "ボス",
+      "MiniBoss": "ミニボス",
+      "MiniBossPlural": "ミニボス",
+      "Event": "イベント",
+      "EventPlural": "イベント",
+      "Enabled": "有効",
+      "Disabled": "無効"
+    },
+    "Tabs": {
+      "ToggleFilters": "フィルター切替",
+      "TableOfContents": "目次",
+      "Credits": "クレジット",
+      "NextEntry": "次の{0}:\n{1}",
+      "Records": "記録",
+      "SpawnInfo": "召喚情報",
+      "LootAndCollectibles": "戦利品&コレクション"
+    },
+    "Indicator": {
+      "ProgressionMode": "進行モード: {0}",
+      "ManualChecklist": "エントリーは手動でチェックする必要があります",
+      "AutomaticChecklist": "チェックリストが自動でエントリーをチェックします",
+      "OnlyBossContentEnabled": "ボスのコンテンツのみ表示できます",
+      "OnlyBossContentDisabled": "すべてのコンテンツを表示できます"
+    },
+    "TableOfContents": {
+      "PreHardmode": "プレハードモード",
+      "Hardmode": "ハードモード",
+      "AllLoot": "ボスの戦利品をすべて入手しました！",
+      "AllCollectibles": "ボスのコレクションアイテムをすべて入手しました！",
+      "Filter": {
+        "ToggleHiddenOpen": "非表示リストを開く",
+        "ToggleHiddenClose": "確定して非表示リストを閉じる",
+        "Disabled": "「ボスのみ」設定のためフィルターは無効です"
+      }
+    },
+    "Credits": {
+      "Devs": "貢献者",
+      "Mods": "登録済みMod",
+      "Notice": "[読み込み済みのModのみ表示]",
+      "NoIcon": "Modのアイコンが見つかりません！",
+      "ModsEmpty": "読み込み済みのModはどれも登録されていません！",
+      "Register": "あなたのModも登録しよう！",
+      "Learn": "方法はModの説明をご覧ください。",
+      "Titles": {
+        "Owner": "制作者&オーナー",
+        "CoOwner": "共同オーナー&メンテナー",
+        "Contributor": "コード貢献者",
+        "Sprites": "ボスログのスプライト",
+        "EarlyTesting": "初期テスト"
+      }
+    },
+    "EntryPage": {
+      "Defeated": "{0}{1}で撃破済み",
+      "Undefeated": "{0}で未撃破",
+      "CopyKey": "タップすると内部の「エントリーキー」をチャットに表示します\n{0}",
+      "ViewPage": "タップしてページを表示",
+      "LogFeaturesNotAvailable": "このページでは記録、召喚アイテム、戦利品テーブルが無効になっています。Modがページに必要な情報を提供していないか、正しく設定されていません。"
+    },
+    "Records": {
+      "NewRecord": "自己ベスト更新！",
+      "NewWorldRecord": "ワールド記録更新！",
+      "NoRecord": "記録なし",
+      "Unchallenged": "未挑戦",
+      "KDR": "{0}キル / {1}デス",
+      "TotalKills": "総キル数",
+      "NoHit": "ノーダメージ！",
+      "Hit": "{0}ヒット{^0:;}",
+      "PreviousBest": "前回の自己ベスト",
+      "ClaimRecord": "最初にワールド記録を打ち立てよう！",
+      "RecordHolder": "記録保持者",
+      "Category": {
+        "PreviousAttempt": "前回の挑戦",
+        "FirstVictory": "初勝利",
+        "PersonalBest": "自己ベスト",
+        "WorldRecord": "ワールド記録"
+      },
+      "Title": {
+        "PreviousAttempt": "挑戦回数",
+        "FirstVictory": "プレイ時間",
+        "PersonalBest": "キル/デス比",
+        "WorldRecord": "全体のK/D",
+        "Duration": "戦闘時間",
+        "DurationWorld": "最速の戦闘",
+        "HitsTaken": "被弾数",
+        "HitsTakenWorld": "最少被弾数"
+      },
+      "Tooltip": {
+        "Duration": "このボスを倒した最速タイムです！",
+        "HitsTaken": "できるだけ攻撃を避けよう！ノーダメージでこのボスを倒してみよう！",
+        "PreviousAttempt": "このボスと遭遇した合計回数です！",
+        "PersonalBest": "このボスを倒した合計回数と、このボスに倒された合計回数です！",
+        "FirstVictory": "初めてボスを倒すまでのキャラクターの総プレイ時間です！",
+        "WorldRecord": "このボスに対する全プレイヤーのキル数とデス数の合計です！"
+      },
+      "Time": {
+        "Days": "{0}日",
+        "Hours": "{0}時間",
+        "Minutes": "{0}分",
+        "Seconds": "{0}秒"
+      }
+    },
+    "SpawnInfo": {
+      "RecipeFrom": "レシピの出典: {0}",
+      "CycleRecipe": "別のレシピに切り替え",
+      "Noncraftable": "このアイテムはクラフトできません",
+      "NoSpawnItem": "この{0}には召喚アイテムがありません",
+      "ByHand": "手作業"
+    },
+    "LootAndCollection": {
+      "ItemIsExpertOnly": "このアイテムはエキスパートモードでのみ入手できます",
+      "ItemIsMasterOnly": "このアイテムはマスターモードでのみ入手できます",
+      "ItemIsLocked": "このアイテムの入手には特別な条件があります",
+      "Obtained": "このアイテムは入手済みです！",
+      "Researched": "このアイテムは研究済みです！"
+    },
+    "ProgressionMode": {
+      "BeforeYouBegin": "始める前に…",
+      "AskEnable": "進行チェックリストを有効にしますか？",
+      "SelectAnOption": "以下から選択してください…",
+      "SelectDisable": "進行チェックリストを無効にして続ける…\n* すべてのページ情報が最初から解放されます\n* 隠し要素なし。制限なし。",
+      "SelectEnable": "進行チェックリストを完全に有効にして続ける…\n* 未撃破エントリーのページ情報はロックされます\n* 肖像と名前は伏せられます\n* ボスの戦利品は撃破するまでロックされます\n* 「次」のマークが有効になり、情報制限が緩和されます (推奨)",
+      "DisablePrompt": "今後この確認を表示しない",
+      "Description": "進行チェックリストは、エントリーを撃破するか完了済みにするまで、その内容を制限・非表示にします。初見プレイをしたい場合は、この機能を有効にすることをおすすめします。選択するか、確認の設定を無効にして開き直すまで、ボスログは使用できません"
+    },
+    "HintTexts": {
+      "MarkEntry": "エントリーを長押しすると撃破済みにします",
+      "HideEntry": "エントリーをタップするとチェックリストから非表示にします",
+      "ClearMarked": "このボタンを長押しすると、すべてのマークを解除します",
+      "ClearHidden": "このボタンを長押しすると、すべての非表示エントリーを元に戻します",
+      "ClearItems": "このボタンを長押しすると、表示中のアイテムを未入手にします",
+      "RemoveItem": "アイテムを長押しすると未入手にします",
+      "ClearAllRecords": "このボタンを長押しすると、表示中の記録をリセットします",
+      "ClearRecord": "記録のアイコンを長押しすると、その値をリセットします",
+      "Compare": "記録カテゴリーを長押しすると比較します"
+    }
+  },
+  "Checklist": {
+    "CelestialPillars": "天界の柱",
+    "ToggleCompletedTooltip": "完了済みを切替",
+    "ToggleMiniBossesTooltip": "ミニボスを切替",
+    "ToggleEventsTooltip": "イベントを切替",
+    "ToggleShowHiddenBossesTooltip": "非表示のボスの表示を切替\n(長押しで非表示のボスをリセット)\n(ボスを長押しで非表示)",
+    "MoreInfo": "詳細"
+  },
+  "ChatMessages": {
+    "Despawn": {
+      "Generic": "{0}はもう追ってこない…",
+      "Day": "{0}は日の出とともに逃げ去った…"
+    },
+    "Defeated": {
+      "Generic": "{0}を倒した！",
+      "GenericSkeletronHand": "スケルトロンの手を倒した！",
+      "GenericMoonLordHead": "ムーンロードの頭を倒した！",
+      "SkeletronHand": "{0}の手が砕けた！",
+      "PrimeCannon": "{0}が爆発した！",
+      "PrimeSaw": "{0}が故障した！",
+      "PrimeVice": "{0}が崩壊した！",
+      "PrimeLaser": "{0}がオーバーヒートした！",
+      "GolemFistLeft": "{0}を破壊した！",
+      "GolemFistRight": "{0}を破壊した！",
+      "GolemHead": "{0}が胴体から外れた！",
+      "MoonLordHead": "{0}の頭から真・クトゥルフの目が飛び出した！",
+      "MoonLordHand": "{0}から真・クトゥルフの目が飛び出した！",
+      "Retinazer": "{0}を倒した！",
+      "Spazmatism": "{0}を倒した！",
+      "LunarTowerVortex": "{0}が崩れ落ちた！",
+      "LunarTowerStardust": "{0}が崩れ落ちた！",
+      "LunarTowerNebula": "{0}が崩れ落ちた！",
+      "LunarTowerSolar": "{0}が崩れ落ちた！"
+    },
+    "Loss": {
+      "Generic": "{0}がすべてのプレイヤーを倒した！",
+      "KingSlime": "{0}は勝ち誇って去っていった…",
+      "EyeofCthulhu": "{0}は夜空へと消えていった…",
+      "EaterofWorlds": "{0}は地中へと潜っていった…",
+      "BrainofCthulhu": "{0}はクリムゾンの深淵へと消えていった…",
+      "QueenBee": "{0}はコロニーの巣へと帰っていった…",
+      "Skeletron": "{0}は老人を苦しめ続ける…",
+      "WallofFlesh": "{0}はアンダーワールドを渡りきった…",
+      "QueenSlimeBoss": "{0}は得意げに跳ねていった…",
+      "TheTwins": "{0}は観察を続ける…",
+      "TheDestroyer": "{0}は喰らうべき次の世界を探しに行った…",
+      "SkeletronPrime": "{0}は新たな獲物を探し始めた…",
+      "Plantera": "{0}はジャングルで再び眠りについた…",
+      "Golem": "{0}は寺院の奥深くで停止した…",
+      "HallowBoss": "{0}は聖なる光の中へと消えていった…",
+      "DukeFishron": "{0}は海の深みへと帰っていった…",
+      "CultistBoss": "{0}は再び熱心な崇拝へと戻っていった…",
+      "MoonLord": "{0}はこの世界を去った…"
+    },
+    "EventEnd": {
+      "Generic": "{0}が終わった…",
+      "BloodMoon": "ブラッドムーンが地平線の彼方へ沈んでいく…",
+      "FrostMoon": "フロストムーンは日の出とともに溶けていった…",
+      "PumpkinMoon": "パンプキンムーンの収穫が終わった…",
+      "Eclipse": "日食が終わった…また次の機会まで…"
+    }
+  },
+  "BossSpawnInfo": {
+    "Unknown": "召喚条件は不明です",
+    "KingSlime": "[i:560]を使用する。またはマップの外側3分の1でランダムに出現するか、スライムの雨の間にスライムを150体倒す。",
+    "EyeofCthulhu": "夜に[i:43]を使用する。または最大HPが200を超えていれば毎晩1/3の確率で出現する。",
+    "EaterofWorlds": "[i:70]を使用するか、コラプションの裂け目にあるシャドーオーブを3個壊す。",
+    "BrainofCthulhu": "[i:1331]を使用するか、クリムゾンの裂け目にあるクリムゾンハートを3個壊す。",
+    "QueenBee": "[i:1133]を使用するか、ジャングルにあるハチの巣の中の幼虫を壊す。",
+    "Skeletron": "夜にダンジョンを訪れて老人に話しかけるか、[i:1307]を装備して夜に服屋を倒す。",
+    "Deerclops": "雪バイオームで[i:5120]を使用する。吹雪の間は深夜に自然に出現する。",
+    "WallofFlesh": "アンダーワールドの溶岩に[i:267]かガイドを投げ込んで召喚する。[c/FF0000:ハードモードが始まる！]",
+    "QueenSlimeBoss": "ハロウバイオームで[i:4988]を使用する。このアイテムは地下ハロウで、パールストーンやピンクアイスブロックに生えるクリスタルの欠片に混じって見つかる。",
+    "TheTwins": "最初の祭壇を破壊した後、メカボスを1体倒すまで毎晩10%の確率でランダムに出現する。または夜に[i:544]を使用して召喚する。",
+    "TheDestroyer": "最初の祭壇を破壊した後、メカボスを1体倒すまで毎晩10%の確率でランダムに出現する。夜に[i:556]を使用して召喚する。",
+    "SkeletronPrime": "最初の祭壇を破壊した後、メカボスを1体倒すまで毎晩10%の確率でランダムに出現する。夜に[i:557]を使用して召喚する。",
+    "Plantera": "メカボスを3体すべて倒した後、ジャングルにあるプランテラの球根を壊す。",
+    "Golem": "ジャングルの寺院の奥にあるリザードの祭壇で[i:1293]を使用する。",
+    "HallowBoss": "ハロウバイオームで[i:4961]を倒す。プランテラ撃破後、午後7時30分から午前0時の間にハロウの地上で見つかる。",
+    "DD2Betsy": "オールドワンズアーミー (ティア3) の最終ウェーブであるウェーブ7で出現する。",
+    "DukeFishron": "[i:2673]をエサにして海で釣りをする。このエサはハードモード中に地下の光るキノコバイオームで捕まえられる。",
+    "CultistBoss": "ゴーレム撃破後、ダンジョンの外にいる4人のカルト信者を倒す。",
+    "MoonLord": "[i:3601]を使用するか、4本の柱をすべて倒す。",
+    "BloodMoon": "夜の始まりにランダムで発生する。またはブラッドムーンの敵がドロップする[i:4271]で召喚できる。ワールド内のいずれかのプレイヤーの最大HPが100を超えていて、月齢が新月でない場合に発生しうる。日の出まで続く。",
+    "GoblinArmy": "シャドーオーブかクリムゾンハートを1つ以上破壊していて、最大HPが200以上のプレイヤーが1人以上おり、ゴブリン軍が進行中でなければ、毎朝1/3の確率で発生する。[i:361]を使って手動で召喚することもできる。十分な数の敵を倒すまで続く。",
+    "OldOnesArmy": "酒場の主人を見つけた後、[i:3816]を購入し、[i:3828]で起動する。すべてのウェーブをクリアするまで続く。",
+    "FrostLegion": "クリスマスシーズン中に[i:1869]を開けると見つかる[i:602]を使用する。十分な数の敵を倒すまで続く。",
+    "Eclipse": "いずれかのメカボスを倒した後、毎日夜明けに1/20の確率で発生する。または[i:2767]で召喚する。日が暮れるまで続く。",
+    "PirateInvasion": "祭壇を1つ以上破壊するとランダムで発生する。ハードモード中に海バイオームの敵を倒すと入手できる[i:1315]で召喚できる。十分な数の敵を倒すまで続く。",
+    "PumpkinMoon": "夜に[i:1844]で召喚する。日の出まで続く。",
+    "FrostMoon": "夜に[i:1958]で召喚する。日の出まで続く。",
+    "MartianMadness": "ゴーレム撃破後、地上でマーシャンプローブを見つけ、自分を発見させてから逃がす。十分な数の敵を倒すまで続く。",
+    "LunarEvent": "ダンジョンの外にいるルナティック・カルティストを倒す。柱はそれぞれワールド内の別々の場所に出現する。4本の柱をすべて破壊するまで続く。",
+    "Pumpking": "パンプキンムーンのウェーブ7で出現する。[i:1844]でパンプキンムーンを開始する",
+    "MourningWood": "パンプキンムーンのウェーブ4で出現する。[i:1844]でパンプキンムーンを開始する",
+    "IceQueen": "フロストムーンのウェーブ11で出現する。[i:1958]でフロストムーンを開始する",
+    "SantaNK1": "フロストムーンのウェーブ7で出現する。[i:1958]でフロストムーンを開始する",
+    "Everscream": "フロストムーンのウェーブ4で出現する。[i:1958]でフロストムーンを開始する",
+    "PirateShip": "海賊の襲来中にときどき出現する！[i:1315]で海賊の襲来を開始する",
+    "DD2OgreT3": "オールドワンズアーミーのウェーブ7 (ティア2) とウェーブ4・6 (ティア3) で出現する！[i:3816]と[i:3828]でオールドワンズアーミーを開始する",
+    "DD2DarkMageT3": "オールドワンズアーミーのウェーブ5 (ティア1) とウェーブ5・6 (ティア3) で出現する！[i:3816]と[i:3828]でオールドワンズアーミーを開始する",
+    "MartianSaucer": "マーシャンマッドネス中にときどき出現する！エイリアンのプローブに見つかるとマーシャンマッドネスが始まる。",
+    "TorchGod": "地下で松明を101本設置する。最後の松明を設置するとイベントが始まる。"
+  },
+  "Configs": {
+    "Common": {
+      "InvalidChange": "{1}が有効な間は「{0}」の設定を変更できません！"
+    },
+    "BossLogConfiguration": {
+      "DisplayName": "ボスログ",
+      "BossLogColor": {
+        "Label": "ログの色"
+      },
+      "ShowInteractionTooltips": {
+        "Label": "操作ヒント"
+      },
+      "BookScale": {
+        "Label": "本のサイズ"
+      },
+      "ChecklistScale": {
+        "Label": "リストのサイズ"
+      },
+      "AutomaticChecklist": {
+        "Label": "自動チェック"
+      },
+      "ProgressiveChecklist": {
+        "Label": "進行モード"
+      },
+      "PromptDisabled": {
+        "Label": "確認を隠す"
+      },
+      "HideUnavailable": {
+        "Label": "利用不可を隠す"
+      },
+      "HideUnsupported": {
+        "Label": "非対応を隠す"
+      },
+      "OnlyShowBossContent": {
+        "Label": "ボスのみ"
+      },
+      "FilterBosses": {
+        "Label": "ボス"
+      },
+      "FilterMiniBosses": {
+        "Label": "ミニボス"
+      },
+      "FilterEvents": {
+        "Label": "イベント"
+      },
+      "ColoredBossText": {
+        "Label": "名前の色付け"
+      },
+      "SelectedCheckmarkType": {
+        "Label": "チェック形式"
+      },
+      "DrawNextMark": {
+        "Label": "「次」マーク"
+      },
+      "ShowProgressBars": {
+        "Label": "進行バー"
+      },
+      "SpawnItemCraftingChecklist": {
+        "Label": "レシピチェック"
+      },
+      "LootCheckVisibility": {
+        "Label": "戦利品チェック"
+      },
+      "OnlyCheckDroppedLoot": {
+        "Label": "ドロップのみ"
+      },
+      "ModCallLogVerbose": {
+        "Label": "詳細ログ"
+      },
+      "AccessInternalNames": {
+        "Label": "エントリーキー"
+      },
+      "ShowProgressionValue": {
+        "Label": "進行値"
+      },
+      "ShowCollectionType": {
+        "Label": "コレクション種別"
+      },
+      "EnabledResetOptions": {
+        "Label": "リセット機能"
+      },
+      "Headers": {
+        "BossLogUI": "ボスログUI",
+        "BossLogChecklist": "チェックリスト",
+        "Debug": "デバッグ"
+      }
+    },
+    "FeatureConfiguration": {
+      "DisplayName": "ボスチェックリスト機能",
+      "RecordTrackingEnabled": {
+        "Label": "記録の追跡"
+      },
+      "AllowNewRecords": {
+        "Label": "新記録"
+      },
+      "NewRecordLogGlow": {
+        "Label": "新記録の発光"
+      },
+      "DisplayRecordTracking": {
+        "Label": "記録表示"
+      },
+      "DespawnMessageType": {
+        "Label": "退散メッセージ"
+      },
+      "LimbMessages": {
+        "Label": "部位メッセージ"
+      },
+      "MoonMessages": {
+        "Label": "月メッセージ"
+      },
+      "TimerSounds": {
+        "Label": "復活サウンド"
+      },
+      "TreasureBagsOnMap": {
+        "Label": "トレジャーバッグ"
+      },
+      "FragmentsOnMap": {
+        "Label": "フラグメント"
+      },
+      "ScalesOnMap": {
+        "Label": "スケイル&サンプル"
+      },
+      "EnableBossRadar": {
+        "Label": "レーダー"
+      },
+      "RadarMiniBosses": {
+        "Label": "ミニボス"
+      },
+      "RadarOpacity": {
+        "Label": "不透明度"
+      },
+      "Headers": {
+        "BossRecords": "ボス記録",
+        "ChatMessages": "チャット通知",
+        "ItemMapDetection": "マップのアイテム",
+        "BossRadar": "ボスレーダー"
+      }
+    },
+    "BossFilterMode": {
+      "Show": {
+        "Label": "表示"
+      },
+      "HideWhenCompleted": {
+        "Label": "完了で非表示"
+      }
+    },
+    "EntryFilterMode": {
+      "Show": {
+        "Label": "表示"
+      },
+      "HideWhenCompleted": {
+        "Label": "完了で非表示"
+      },
+      "Hide": {
+        "Label": "非表示"
+      }
+    },
+    "CheckmarkType": {
+      "Check_Empty": {
+        "Label": "✓ / 空欄"
+      },
+      "Check_X": {
+        "Label": "✓ / ×"
+      },
+      "X_Empty": {
+        "Label": "× / 空欄"
+      },
+      "StrikeThrough": {
+        "Label": "取り消し線"
+      }
+    },
+    "MessageMode": {
+      "Disabled": {
+        "Label": "オフ"
+      },
+      "Generic": {
+        "Label": "汎用"
+      },
+      "Unique": {
+        "Label": "固有"
+      }
+    }
+  },
+  "TouchButtons": {
+    "BossLog": {
+      "DisplayName": "ボスログ"
+    },
+    "BossChecklist": {
+      "DisplayName": "ボスチェックリスト"
+    }
+  }
+}

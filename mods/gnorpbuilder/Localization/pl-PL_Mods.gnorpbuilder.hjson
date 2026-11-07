@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Kula: test",
+      "Tooltip": "Buduje: test!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\n[c/FF1919:TEN PRZEDMIOT SŁUŻY DO TESTÓW I NIE POWINIEN BYĆ NORMALNIE DOSTĘPNY]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Kula: mały leśny dom",
+      "Tooltip": "Buduje: mały leśny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Kula: leśna latarnia",
+      "Tooltip": "Buduje: leśna latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Kula: średni leśny dom",
+      "Tooltip": "Buduje: średni leśny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Kula: duży leśny dom",
+      "Tooltip": "Buduje: duży leśny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Kula: wejście do piwnicy",
+      "Tooltip": "Buduje: wejście do piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nIdealne na początek twojej piwnicy"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Kula: korytarz piwnicy",
+      "Tooltip": "Buduje: korytarz piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Kula: długi korytarz piwnicy",
+      "Tooltip": "Buduje: długi korytarz piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Kula: krótki korytarz piwnicy",
+      "Tooltip": "Buduje: krótki korytarz piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Kula: korytarz piwnicy w kształcie T w dół",
+      "Tooltip": "Buduje: korytarz piwnicy w kształcie T w dół!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Kula: korytarz piwnicy w kształcie T w górę",
+      "Tooltip": "Buduje: korytarz piwnicy w kształcie T w górę!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Kula: skrzyżowanie piwnicy",
+      "Tooltip": "Buduje: skrzyżowanie piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Kula: korytarz piwnicy w kształcie T w prawo",
+      "Tooltip": "Buduje: korytarz piwnicy w kształcie T w prawo!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Kula: korytarz piwnicy w kształcie T w lewo",
+      "Tooltip": "Buduje: korytarz piwnicy w kształcie T w lewo!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Kula: lewy górny róg piwnicy",
+      "Tooltip": "Buduje: lewy górny róg piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Kula: lewy dolny róg piwnicy",
+      "Tooltip": "Buduje: lewy dolny róg piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Kula: prawy dolny róg piwnicy",
+      "Tooltip": "Buduje: prawy dolny róg piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Kula: prawy górny róg piwnicy",
+      "Tooltip": "Buduje: prawy górny róg piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Kula: krótki korytarz piwnicy w dół",
+      "Tooltip": "Buduje: krótki korytarz piwnicy w dół!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Kula: pokój muzyczny w piwnicy",
+      "Tooltip": "Buduje: pokój muzyczny w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nMa wiele różnych pozytywek"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Kula: więzienie dla NPC w piwnicy",
+      "Tooltip": "Buduje: więzienie dla NPC w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTanie, ale nieetyczne"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Kula: pokój NPC w piwnicy",
+      "Tooltip": "Buduje: pokój NPC w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nZwykły pokój dla NPC"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Kula: zbrojownia w piwnicy",
+      "Tooltip": "Buduje: zbrojownia w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Kula: ogród w piwnicy",
+      "Tooltip": "Buduje: ogród w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nJak to rośnie w piwnicy? Dzięki mocy gwiazd!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Kula: sala tortur w piwnicy",
+      "Tooltip": "Buduje: sala tortur w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nDla NPC, którymi gardzisz"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Kula: wejście do piwnicy w dół",
+      "Tooltip": "Buduje: wejście do piwnicy w dół!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Kula: duże wejście do piwnicy w dół",
+      "Tooltip": "Buduje: duże wejście do piwnicy w dół!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Kula: sala tronowa w piwnicy",
+      "Tooltip": "Buduje: sala tronowa w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nDrogie, ale z marmuru i złota, bardzo eleganckie!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Kula: duży pustynny dom",
+      "Tooltip": "Buduje: duży pustynny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Kula: średni pustynny dom",
+      "Tooltip": "Buduje: średni pustynny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Kula: pustynna latarnia",
+      "Tooltip": "Buduje: pustynna latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Kula: mały pustynny dom",
+      "Tooltip": "Buduje: mały pustynny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Kula: mały oceaniczny dom",
+      "Tooltip": "Buduje: mały oceaniczny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Kula: oceaniczna latarnia",
+      "Tooltip": "Buduje: oceaniczna latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Kula: średni oceaniczny dom",
+      "Tooltip": "Buduje: średni oceaniczny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Kula: duży oceaniczny dom",
+      "Tooltip": "Buduje: duży oceaniczny dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Kula: mały dom z dżungli",
+      "Tooltip": "Buduje: mały dom z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Kula: średni dom z dżungli",
+      "Tooltip": "Buduje: średni dom z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Kula: duży dom z dżungli",
+      "Tooltip": "Buduje: duży dom z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Kula: latarnia z dżungli",
+      "Tooltip": "Buduje: latarnia z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Kula: mały grzybowy dom",
+      "Tooltip": "Buduje: mały grzybowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Kula: grzybowa latarnia",
+      "Tooltip": "Buduje: grzybowa latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Kula: średni grzybowy dom",
+      "Tooltip": "Buduje: średni grzybowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Kula: duży grzybowy dom",
+      "Tooltip": "Buduje: duży grzybowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Kula: latarnia z tundry",
+      "Tooltip": "Buduje: latarnia z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Kula: mały dom z tundry",
+      "Tooltip": "Buduje: mały dom z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Kula: średni dom z tundry",
+      "Tooltip": "Buduje: średni dom z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Kula: duży dom z tundry",
+      "Tooltip": "Buduje: duży dom z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Kula: mały bajkowy dom",
+      "Tooltip": "Buduje: mały bajkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Kula: średni bajkowy dom",
+      "Tooltip": "Buduje: średni bajkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Kula: duży bajkowy dom",
+      "Tooltip": "Buduje: duży bajkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Kula: bajkowa latarnia",
+      "Tooltip": "Buduje: bajkowa latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Kula: mały dom biomu",
+      "Tooltip": "Buduje: mały dom biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC\nZwykle mały leśny dom. Obsługiwane biomy: tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Kula: średni dom biomu",
+      "Tooltip": "Buduje: średni dom biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC\nZwykle średni leśny dom. Obsługiwane biomy: tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Kula: duży dom biomu",
+      "Tooltip": "Buduje: duży dom biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC\nZwykle duży leśny dom. Obsługiwane biomy: tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Kula: latarnia biomu",
+      "Tooltip": "Buduje: latarnia biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nZwykle leśna latarnia. Obsługiwane biomy: tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Kula: mała prosta arena",
+      "Tooltip": "Buduje: mała prosta arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 3 platformy, 105 bloków długości i 34 bloki wysokości"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Kula: średnia prosta arena",
+      "Tooltip": "Buduje: średnia prosta arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 5 platform, 180 bloków długości i 54 bloki wysokości"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Kula: duża prosta arena",
+      "Tooltip": "Buduje: duża prosta arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 7 platform, 255 bloków długości i 74 bloki wysokości"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Kula: mała zaawansowana arena",
+      "Tooltip": "Buduje: mała zaawansowana arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 3 platformy, 105 bloków długości i 34 bloki wysokości\nZ ogniskiem, sercową latarnią, gwiazdą w butelce, posągiem Bastet, krasnalem ogrodowym i miodem w bańce"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Kula: średnia zaawansowana arena",
+      "Tooltip": "Buduje: średnia zaawansowana arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 5 platform, 180 bloków długości i 54 bloki wysokości\nZ ogniskami, sercowymi latarniami, gwiazdami w butelce, posągami Bastet, krasnalami ogrodowymi i miodem w bańkach"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Kula: duża zaawansowana arena",
+      "Tooltip": "Buduje: duża zaawansowana arena!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nArena ma 7 platform, 255 bloków długości i 74 bloki wysokości\nZ ogniskami, sercowymi latarniami, gwiazdami w butelce, posągami Bastet, krasnalami ogrodowymi i miodem w bańkach"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Kula: leśna winda",
+      "Tooltip": "Buduje: leśna winda!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Kula: winda z tundry",
+      "Tooltip": "Buduje: winda z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Kula: pustynna winda",
+      "Tooltip": "Buduje: pustynna winda!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Kula: bajkowa winda",
+      "Tooltip": "Buduje: bajkowa winda!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Kula: winda z dżungli",
+      "Tooltip": "Buduje: winda z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Kula: grzybowa winda",
+      "Tooltip": "Buduje: grzybowa winda!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Kula: oceaniczna winda",
+      "Tooltip": "Buduje: oceaniczna winda!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Kula: winda biomu",
+      "Tooltip": "Buduje: winda biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTa winda prowadzi aż do Piekła i tworzy chmury, które niwelują obrażenia od upadku\nZwykle leśna winda. Obsługiwane biomy: tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Kula: krótkie tory wagonika dla windy",
+      "Tooltip": "Buduje: krótkie tory wagonika dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Kula: skrzyżowanie torów dla windy",
+      "Tooltip": "Buduje: skrzyżowanie torów dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nDobre na początek torów twojej windy!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Kula: tory wagonika dla windy",
+      "Tooltip": "Buduje: tory wagonika dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\n5 razy dłuższe niż krótka wersja"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Kula: prawa rampa torów dla windy",
+      "Tooltip": "Buduje: prawa rampa torów dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Kula: przystanek torów dla windy",
+      "Tooltip": "Buduje: przystanek torów dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Kula: lewa rampa torów dla windy",
+      "Tooltip": "Buduje: lewa rampa torów dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Kula: pełne tory wagonika dla windy",
+      "Tooltip": "Buduje: pełne tory wagonika dla windy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTworzy tory wagonika w lewo i w prawo, świetne razem z windą!\n[c/E11919:UWAGA, TA BUDOWLA JEST BARDZO DUŻA! MOŻE ZNISZCZYĆ WAŻNE STRUKTURY, UŻYWAJ OSTROŻNIE!!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Kula: duży walentynkowy dom",
+      "Tooltip": "Buduje: duży walentynkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC\n[c/FFC0CB:Zrobione z miłością!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Kula: średni walentynkowy dom",
+      "Tooltip": "Buduje: średni walentynkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 2 NPC\n[c/FFC0CB:Zrobione z miłością!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Kula: mały walentynkowy dom",
+      "Tooltip": "Buduje: mały walentynkowy dom!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 1 NPC\n[c/FFC0CB:Zrobione z miłością!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Kula: walentynkowa latarnia",
+      "Tooltip": "Buduje: walentynkowa latarnia!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\n[c/FFC0CB:Zrobione z miłością!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Kula: dom w kształcie serca",
+      "Tooltip": "Buduje: dom w kształcie serca!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen dom mieści 3 NPC\n[c/FF7F7F:Zrobione z miłości!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Kula: jaskiniowy pylon",
+      "Tooltip": "Buduje: jaskiniowy pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Kula: pustynny pylon",
+      "Tooltip": "Buduje: pustynny pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Kula: leśny pylon",
+      "Tooltip": "Buduje: leśny pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Kula: bajkowy pylon",
+      "Tooltip": "Buduje: bajkowy pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Kula: pylon z dżungli",
+      "Tooltip": "Buduje: pylon z dżungli!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Kula: grzybowy pylon",
+      "Tooltip": "Buduje: grzybowy pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Kula: oceaniczny pylon",
+      "Tooltip": "Buduje: oceaniczny pylon!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Kula: pylon z tundry",
+      "Tooltip": "Buduje: pylon z tundry!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Kula: pylon biomu",
+      "Tooltip": "Buduje: pylon biomu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nZwykle leśny pylon. Obsługiwane biomy: jaskinie, tundra, pustynia, dżungla, ocean, grzybowisko na powierzchni i Bajkowa Kraina"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Pilot Gnorpy",
+      "Tooltip": "Pilot Gnorpa!\nPrzywołuje Gnorpa"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Kula: schody piwnicy w kształcie T w dół",
+      "Tooltip": "Buduje: schody piwnicy w kształcie T w dół!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Kula: schody piwnicy w kształcie T w górę",
+      "Tooltip": "Buduje: schody piwnicy w kształcie T w górę!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Kula: prawe schody piwnicy",
+      "Tooltip": "Buduje: prawe schody piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Kula: skrzyżowanie schodów piwnicy",
+      "Tooltip": "Buduje: skrzyżowanie schodów piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Kula: biblioteka w piwnicy",
+      "Tooltip": "Buduje: biblioteka w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Kula: lewe schody piwnicy",
+      "Tooltip": "Buduje: lewe schody piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Kula: korytarz z pokojem NPC",
+      "Tooltip": "Buduje: korytarz z pokojem NPC!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nW zasadzie pokój NPC połączony z korytarzem"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Kula: bar w piwnicy",
+      "Tooltip": "Buduje: bar w piwnicy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nNapij się czegoś"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Kula: mały zamek",
+      "Tooltip": "Buduje: mały zamek!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Kula: średni zamek",
+      "Tooltip": "Buduje: średni zamek!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Kula: duży zamek",
+      "Tooltip": "Buduje: duży zamek!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Kula: ogromny zamek",
+      "Tooltip": "Buduje: ogromny zamek!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nDość ogromny, powinien pomieścić wszystko, czego potrzebujesz!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Kula: mała baza na drzewie",
+      "Tooltip": "Buduje: mała baza na drzewie!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Kula: średnia baza na drzewie",
+      "Tooltip": "Buduje: średnia baza na drzewie!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Kula: duża baza na drzewie",
+      "Tooltip": "Buduje: duża baza na drzewie!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Kula: ogromna baza na drzewie",
+      "Tooltip": "Buduje: ogromna baza na drzewie!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Kula: proste jezioro wody",
+      "Tooltip": "Buduje: proste jezioro wody!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nIdealne do łowienia ryb"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Kula: proste jezioro migotu",
+      "Tooltip": "Buduje: proste jezioro migotu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nIdealne do łowie... chwila, w migocie nie da się łowić, prawda?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Kula: proste jezioro lawy",
+      "Tooltip": "Buduje: proste jezioro lawy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nIdealne do łowienia ryb"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Kula: proste jezioro miodu",
+      "Tooltip": "Buduje: proste jezioro miodu!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nIdealne do łowienia ryb"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Kula: cela więzienna",
+      "Tooltip": "Buduje: cela więzienna!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nNie masz ludzkiego serca?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Kula: niewidzialny zamek dla NPC",
+      "Tooltip": "Buduje: niewidzialny zamek dla NPC!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen zamek mieści 3 NPC\nSuper epicki, fajny zamek, szkoda, że go nie widać"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Kula: mały dom z kupy",
+      "Tooltip": "Buduje: mały dom z kupy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen zamek mieści 1 NPC\nŚmierdzi"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Kula: duży dom z kupy",
+      "Tooltip": "Buduje: duży dom z kupy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen zamek mieści 3 NPC\nŚmierdzi"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Kula: średni dom z kupy",
+      "Tooltip": "Buduje: średni dom z kupy!\nUżyj przycisku dotykowego Punkt zaczepienia (dodaj go w Sterowaniu) lub konfiguracji modów, aby zmienić punkt zaczepienia\nTen zamek mieści 2 NPC\nŚmierdzi"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp to bardzo przyjazny kosmita. Jedynym celem Gnorpa jest pomaganie innym przez budowanie. Gnorp widzi piękno w każdym biomie."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Główne",
+        "Bases": "Bazy",
+        "Module": "Moduły",
+        "Utility": "Użytkowe",
+        "Holiday": "Święta"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Zmień ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Przybywa Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Punkt zaczepienia (kule Gnorpa)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:WŁĄCZONE]",
+    "ValueOff": "[c/E11919:WYŁĄCZONE]",
+    "ImagePreviewInfo": "Podgląd obrazem: {0}",
+    "DustPreviewInfo": "Podgląd pyłem: {0}",
+    "ImageOpacityInfo": "Krycie obrazu: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Stawianie podwójnym dotknięciem: {0}",
+    "SettingsHint": "[c/828282:Można zmienić w konfiguracji modów]",
+    "AnchorInfo": "Punkt zaczepienia: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "Na dole pośrodku",
+      "TopLeft": "U góry po lewej",
+      "TopRight": "U góry po prawej",
+      "BottomLeft": "Na dole po lewej",
+      "BottomRight": "Na dole po prawej"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Podgląd obrazem"
+      },
+      "EnablePreviews": {
+        "Label": "Podgląd pyłem"
+      },
+      "PreviewOpacity": {
+        "Label": "Krycie obrazu"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Stawianie podwójnym dotknięciem"
+      },
+      "Anchor": {
+        "Label": "Punkt zaczepienia"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "Na dole pośrodku"
+      },
+      "TopLeft": {
+        "Label": "U góry po lewej"
+      },
+      "TopRight": {
+        "Label": "U góry po prawej"
+      },
+      "BottomLeft": {
+        "Label": "Na dole po lewej"
+      },
+      "BottomRight": {
+        "Label": "Na dole po prawej"
+      }
+    }
+  }
+}

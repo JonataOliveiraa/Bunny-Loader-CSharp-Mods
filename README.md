@@ -18,6 +18,7 @@ API while preserving the rights and credits of the people who made them.
 |---|---|
 | `mods/<Id>/` | A port: C# sources, `manifest.json`, `license.md` and `port.json` |
 | `PORT_PLAN.md` | [Which mods to port, and in what order](PORT_PLAN.md) |
+| `MISSING_API.md` | [What the C# API lacks](MISSING_API.md), and how the ports work around it |
 | `licensing/` | [License audit of the catalog](licensing/CATALOG_AUDIT.md), mod by mod |
 | `templates/ModPort/` | Starting point for a port |
 | `tools/` | License audit, license check and API extraction |

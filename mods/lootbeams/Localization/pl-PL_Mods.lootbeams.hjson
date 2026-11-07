@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Trzymaj przedmiot, aby użyć tej komendy.",
+    "Always": "{0} ma teraz zawsze promień.",
+    "Never": "{0} nie ma teraz nigdy promienia.",
+    "MiniOn": "{0} ma teraz mały promień.",
+    "MiniOff": "{0} ma znów zwykły promień.",
+    "BadColor": "Nieprawidłowy kolor. Użyj /beams color #RRGGBB (np. #FF8800).",
+    "Colored": "Kolor promienia {0}: {1}.",
+    "Reset": "{0} usunięto z twoich list.",
+    "NotListed": "{0} nie ma na twoich listach.",
+    "List": "Zawsze: {0} | Nigdy: {1} | Mały: {2} | Kolory: {3}",
+    "Cleared": "Twoje listy wyczyszczono.",
+    "Enabled": "Promienie włączone.",
+    "Disabled": "Promienie wyłączone."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Włączone"
+      },
+      "MinRarity": {
+        "Label": "Min. Rzadkość"
+      },
+      "MinValue": {
+        "Label": "Min. Wartość"
+      },
+      "HighlightQuest": {
+        "Label": "Przedmioty Misji"
+      },
+      "HighlightExpert": {
+        "Label": "Przedmioty Eksperta"
+      },
+      "HighlightMaster": {
+        "Label": "Przedmioty Mistrza"
+      },
+      "UseDefaultLists": {
+        "Label": "Domyślne Listy"
+      },
+      "BeamStyle": {
+        "Label": "Styl Promienia"
+      },
+      "GlowStyle": {
+        "Label": "Styl Blasku"
+      },
+      "BeamScale": {
+        "Label": "Rozmiar Promienia"
+      },
+      "BeamOpacity": {
+        "Label": "Krycie Promienia"
+      },
+      "GlowScale": {
+        "Label": "Rozmiar Blasku"
+      },
+      "GlowOpacity": {
+        "Label": "Krycie Blasku"
+      },
+      "FlashScale": {
+        "Label": "Błysk po Upadku"
+      },
+      "DrawAdditive": {
+        "Label": "Jaśniej"
+      },
+      "Pulse": {
+        "Label": "Pulsowanie"
+      },
+      "EmitLight": {
+        "Label": "Światło"
+      },
+      "FadeOnPickup": {
+        "Label": "Zanikanie przy Podniesieniu"
+      },
+      "Headers": {
+        "Filters": "Które Przedmioty",
+        "Visuals": "Wygląd",
+        "Extras": "Dodatki"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Brak"
+      },
+      "Simple": {
+        "Label": "Prosty"
+      },
+      "Arrow": {
+        "Label": "Strzałka"
+      },
+      "AnimatedArrow": {
+        "Label": "Animowana Strzałka"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Brak"
+      },
+      "Simple": {
+        "Label": "Miękki"
+      },
+      "Pixel": {
+        "Label": "Pikselowy"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Zmienia promień trzymanego przedmiotu."
+    }
+  }
+}

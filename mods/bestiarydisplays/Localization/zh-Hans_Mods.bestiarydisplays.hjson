@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "生物",
+    "None": "（无）",
+    "Animate": "动画",
+    "Hologram": "全息特效",
+    "AltRender": "替代渲染",
+    "Scale": "缩放",
+    "OffsetX": "X 偏移",
+    "OffsetY": "Y 偏移",
+    "Rotation": "旋转",
+    "AnimSpeed": "动画延迟",
+    "InvisibleTile": "隐形方块",
+    "InvisibleWarning": "注意：隐形的投影仪可能很难再找到。",
+    "PickerTitle": "选择生物",
+    "SearchHint": "按名称搜索...",
+    "Close": "关闭",
+    "Back": "返回",
+    "Empty": "还没有解锁任何生物。"
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "全息投影仪",
+      "Tooltip": "将已解锁的图鉴生物投影为全息影像。放置后点击即可配置。"
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "精金全息投影仪",
+      "Tooltip": "进阶投影仪。不受图鉴进度限制，并允许更大的全息影像。"
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "钛金全息投影仪",
+      "Tooltip": "进阶投影仪。不受图鉴进度限制，并允许更大的全息影像。"
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "全息投影仪"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "精金全息投影仪"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "钛金全息投影仪"
+    }
+  }
+}

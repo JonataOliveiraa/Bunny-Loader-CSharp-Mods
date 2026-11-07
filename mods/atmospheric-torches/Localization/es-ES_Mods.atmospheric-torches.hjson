@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Desactivar parpadeo de las antorchas"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Escala de brillo"
+      }
+    }
+  }
+}

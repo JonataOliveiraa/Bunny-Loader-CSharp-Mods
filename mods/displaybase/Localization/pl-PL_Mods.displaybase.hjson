@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Podstawa Ekspozycyjna",
+      "Tooltip": "Dotknij, aby położyć trzymany przedmiot na podstawie"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Podstawa Ekspozycyjna",
+      "Tooltip": "Dotknij, aby położyć trzymany przedmiot na podstawie"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Podstawa Ekspozycyjna"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Ekspozycja",
+      "UseBrightness": {
+        "Label": "Jaśniej"
+      },
+      "UseOutline": {
+        "Label": "Obrys"
+      },
+      "UseGlitter": {
+        "Label": "Błysk"
+      },
+      "LightIntensity": {
+        "Label": "Światło"
+      },
+      "Headers": {
+        "Effects": "Efekty"
+      }
+    }
+  }
+}

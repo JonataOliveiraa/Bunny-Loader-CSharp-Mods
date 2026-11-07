@@ -1,0 +1,672 @@
+{
+  "Items": {
+    "AirBlowerItem": {
+      "DisplayName": "Воздуходув"
+    },
+    "AirDuctItem": {
+      "DisplayName": "Воздуховод"
+    },
+    "AnchorWallMountItem": {
+      "DisplayName": "Настенный якорь"
+    },
+    "AncientPotItem": {
+      "DisplayName": "Древний горшок"
+    },
+    "AncientVaseItem": {
+      "DisplayName": "Древняя ваза"
+    },
+    "AntelopeHuntingTrophyItem": {
+      "DisplayName": "Охотничий трофей: антилопа"
+    },
+    "AshtrayItem": {
+      "DisplayName": "Пепельница"
+    },
+    "AxeWallMountItem": {
+      "DisplayName": "Настенный топор"
+    },
+    "BackpackItem": {
+      "DisplayName": "Рюкзак"
+    },
+    "BallOfYarnItem": {
+      "DisplayName": "Клубок пряжи"
+    },
+    "BalloonBottleItem": {
+      "DisplayName": "Бутылка с шариком"
+    },
+    "BarbedWireFenceItem": {
+      "DisplayName": "Забор из колючей проволоки"
+    },
+    "BasketItem": {
+      "DisplayName": "Корзина"
+    },
+    "BeeNestItem": {
+      "DisplayName": "Пчелиное гнездо",
+      "Tooltip": "'Не злите их!'"
+    },
+    "BeerMugItem": {
+      "DisplayName": "Пивная кружка"
+    },
+    "BigBarrelItem": {
+      "DisplayName": "Большая бочка"
+    },
+    "BigCauldronItem": {
+      "DisplayName": "Большой котёл"
+    },
+    "BigChestItem": {
+      "DisplayName": "Большой сундук"
+    },
+    "BigTentItem": {
+      "DisplayName": "Большая палатка"
+    },
+    "BigWagonItem": {
+      "DisplayName": "Большая телега"
+    },
+    "BirdHouseItem": {
+      "DisplayName": "Скворечник"
+    },
+    "BirdNestItem": {
+      "DisplayName": "Птичье гнездо"
+    },
+    "BlueRoofTileItem": {
+      "DisplayName": "Синяя черепица"
+    },
+    "BonsaiTreeItem": {
+      "DisplayName": "Бонсай"
+    },
+    "BoomboxItem": {
+      "DisplayName": "Бумбокс"
+    },
+    "BroomItem": {
+      "DisplayName": "Метла"
+    },
+    "BucketItem": {
+      "DisplayName": "Ведро",
+      "Tooltip": "'Боже мой...'"
+    },
+    "BustItem": {
+      "DisplayName": "Бюст"
+    },
+    "ButcherTableItem": {
+      "DisplayName": "Мясницкий стол"
+    },
+    "CashRegisterItem": {
+      "DisplayName": "Кассовый аппарат"
+    },
+    "ChampagneGlassItem": {
+      "DisplayName": "Бокал для шампанского"
+    },
+    "CheckerboardGlassItem": {
+      "DisplayName": "Стекло в клетку"
+    },
+    "CheckerboardGlassWallItem": {
+      "DisplayName": "Стена из стекла в клетку"
+    },
+    "ChessboardItem": {
+      "DisplayName": "Шахматная доска"
+    },
+    "ClockItem": {
+      "DisplayName": "Часы"
+    },
+    "CoatRackItem": {
+      "DisplayName": "Вешалка для одежды"
+    },
+    "CoffeeCupItem": {
+      "DisplayName": "Чашка кофе"
+    },
+    "CoffinItem": {
+      "DisplayName": "Гроб"
+    },
+    "CookieJarItem": {
+      "DisplayName": "Банка с печеньем",
+      "Tooltip": "'Не трогать!'"
+    },
+    "CribItem": {
+      "DisplayName": "Детская кроватка"
+    },
+    "DecoDynamiteItem": {
+      "DisplayName": "Декоративный динамит"
+    },
+    "DecoFlaskOfVenomItem": {
+      "DisplayName": "Декоративный флакон яда"
+    },
+    "DecoHealingPotionItem": {
+      "DisplayName": "Декоративное лечебное зелье"
+    },
+    "DecoHellstoneBrickItem": {
+      "DisplayName": "Декоративные кирпичи из адского камня"
+    },
+    "DecoHellstoneItem": {
+      "DisplayName": "Декоративный адский камень"
+    },
+    "DecoHunterPotionItem": {
+      "DisplayName": "Декоративное зелье охотника"
+    },
+    "DecoIronskinPotionItem": {
+      "DisplayName": "Декоративное зелье железной кожи"
+    },
+    "DecoMagicPowerPotionItem": {
+      "DisplayName": "Декоративный магический порошок"
+    },
+    "DecoManaPotionItem": {
+      "DisplayName": "Декоративное зелье маны"
+    },
+    "DecoMiningPotionItem": {
+      "DisplayName": "Декоративное зелье шахтёра"
+    },
+    "DecoSmallBombItem": {
+      "DisplayName": "Декоративная бомба"
+    },
+    "DecoSonarPotionItem": {
+      "DisplayName": "Декоративное зелье сонара"
+    },
+    "DeerHuntingTrophyItem": {
+      "DisplayName": "Охотничий трофей: олень"
+    },
+    "DeerSkullTrophyItem": {
+      "DisplayName": "Трофей: череп оленя"
+    },
+    "DesertPotItem": {
+      "DisplayName": "Горшок пустыни"
+    },
+    "DesktopComputerItem": {
+      "DisplayName": "Компьютер"
+    },
+    "DirectionalSignItem": {
+      "DisplayName": "Указатель направления"
+    },
+    "DivingBoardItem": {
+      "DisplayName": "Трамплин для прыжков",
+      "Tooltip": "Может выступать над пустотами"
+    },
+    "DogHouseItem": {
+      "DisplayName": "Собачья будка"
+    },
+    "DoorbellItem": {
+      "DisplayName": "Дверной звонок"
+    },
+    "DressingScreenItem": {
+      "DisplayName": "Ширма для переодевания"
+    },
+    "DrinkingGlassItem": {
+      "DisplayName": "Стакан"
+    },
+    "DumpsterItem": {
+      "DisplayName": "Мусорный контейнер"
+    },
+    "DustpanAndBrushItem": {
+      "DisplayName": "Совок и щётка"
+    },
+    "EaselItem": {
+      "DisplayName": "Мольберт"
+    },
+    "ElectronicComponent": {
+      "DisplayName": "Электронный компонент"
+    },
+    "EyeInAJarItem": {
+      "DisplayName": "Глаз в банке"
+    },
+    "FireExtinguisherItem": {
+      "DisplayName": "Огнетушитель"
+    },
+    "FireHydrantItem": {
+      "DisplayName": "Пожарный гидрант"
+    },
+    "FlatPotItem": {
+      "DisplayName": "Плоский горшок"
+    },
+    "FoodBowlItem": {
+      "DisplayName": "Миска для еды"
+    },
+    "ForestPotItem": {
+      "DisplayName": "Горшок леса"
+    },
+    "ForestVaseItem": {
+      "DisplayName": "Ваза леса"
+    },
+    "FruitBowlItem": {
+      "DisplayName": "Фруктовая ваза"
+    },
+    "GallowsItem": {
+      "DisplayName": "Виселица"
+    },
+    "GardenHoseItem": {
+      "DisplayName": "Садовый шланг"
+    },
+    "GlobeItem": {
+      "DisplayName": "Глобус"
+    },
+    "GoldenBellItem": {
+      "DisplayName": "Золотой колокол"
+    },
+    "GongItem": {
+      "DisplayName": "Гонг",
+      "Tooltip": "'Ударь посильнее!'"
+    },
+    "GreenLawnmowerItem": {
+      "DisplayName": "Зелёная газонокосилка"
+    },
+    "GrillItem": {
+      "DisplayName": "Гриль"
+    },
+    "GuillotineItem": {
+      "DisplayName": "Гильотина"
+    },
+    "HallstandItem": {
+      "DisplayName": "Прихожая"
+    },
+    "HandwagonItem": {
+      "DisplayName": "Ручная тележка"
+    },
+    "HangingHerbsItem": {
+      "DisplayName": "Подвесные травы"
+    },
+    "HayBaleItem": {
+      "DisplayName": "Тюк сена"
+    },
+    "HazardWarningBlockItem": {
+      "DisplayName": "Блок с предупреждением об опасности"
+    },
+    "HazardWarningWallItem": {
+      "DisplayName": "Стена с предупреждением об опасности"
+    },
+    "HeaterItem": {
+      "DisplayName": "Обогреватель"
+    },
+    "HoeItem": {
+      "DisplayName": "Мотыга"
+    },
+    "HorizontalStripesWallpaperItem": {
+      "DisplayName": "Обои в горизонтальную полоску"
+    },
+    "HourglassItem": {
+      "DisplayName": "Песочные часы"
+    },
+    "InkwellItem": {
+      "DisplayName": "Чернильница"
+    },
+    "InterlockingRoofTileItem": {
+      "DisplayName": "Соединяющаяся черепица"
+    },
+    "IroningBoardItem": {
+      "DisplayName": "Гладильная доска"
+    },
+    "JugItem": {
+      "DisplayName": "Кувшин"
+    },
+    "JunglePotItem": {
+      "DisplayName": "Горшок джунглей"
+    },
+    "KitchenToolRackItem": {
+      "DisplayName": "Подставка для кухонных принадлежностей"
+    },
+    "KnifeRackItem": {
+      "DisplayName": "Подставка для ножей"
+    },
+    "LaptopItem": {
+      "DisplayName": "Ноутбук"
+    },
+    "LargeBasketItem": {
+      "DisplayName": "Большая корзина"
+    },
+    "LargeGardenToolRackItem": {
+      "DisplayName": "Большая стойка для садовых инструментов"
+    },
+    "LargeGlobeItem": {
+      "DisplayName": "Большой глобус"
+    },
+    "LargeHammerItem": {
+      "DisplayName": "Большой молот"
+    },
+    "LargeMetalCageItem": {
+      "DisplayName": "Большая металлическая клетка"
+    },
+    "LeadlightItem": {
+      "DisplayName": "Витраж"
+    },
+    "LeadlightWallItem": {
+      "DisplayName": "Стена из витража"
+    },
+    "LecternItem": {
+      "DisplayName": "Кафедра"
+    },
+    "LibraryWallItem": {
+      "DisplayName": "Стена библиотеки"
+    },
+    "LihzahrdPotItem": {
+      "DisplayName": "Горшок ящеров"
+    },
+    "LogPileItem": {
+      "DisplayName": "Куча брёвен"
+    },
+    "LongTikiMaskItem": {
+      "DisplayName": "Длинная маска тики"
+    },
+    "LoudspeakerItem": {
+      "DisplayName": "Громкоговоритель"
+    },
+    "MailboxItem": {
+      "DisplayName": "Почтовый ящик"
+    },
+    "MedicineCabinetItem": {
+      "DisplayName": "Аптечка"
+    },
+    "MetalCookingPotItem": {
+      "DisplayName": "Металлическая кастрюля"
+    },
+    "MetalPanItem": {
+      "DisplayName": "Металлическая сковорода"
+    },
+    "MonsterballItem": {
+      "DisplayName": "Шар монстров"
+    },
+    "MortarAndPestleItem": {
+      "DisplayName": "Ступка и пестик"
+    },
+    "OldMinecartItem": {
+      "DisplayName": "Старая вагонетка"
+    },
+    "OpenBookItem": {
+      "DisplayName": "Открытая книга"
+    },
+    "OuthouseItem": {
+      "DisplayName": "Уличный туалет",
+      "Tooltip": "'Мне однажды рассказали...'"
+    },
+    "PackageItem": {
+      "DisplayName": "Посылка"
+    },
+    "Paper": {
+      "DisplayName": "Бумага"
+    },
+    "ParasolItem": {
+      "DisplayName": "Зонтик от солнца"
+    },
+    "ParchmentItem": {
+      "DisplayName": "Пергамент"
+    },
+    "PatchworkFabricItem": {
+      "DisplayName": "Лоскутная ткань"
+    },
+    "PhotoCameraItem": {
+      "DisplayName": "Фотоаппарат"
+    },
+    "PickaxeRackItem": {
+      "DisplayName": "Стойка для кирок"
+    },
+    "PileOfBooksItem": {
+      "DisplayName": "Стопка книг"
+    },
+    "PileOfDishesItem": {
+      "DisplayName": "Стопка посуды"
+    },
+    "PileOfSacksItem": {
+      "DisplayName": "Куча мешков"
+    },
+    "PileOfScrollsItem": {
+      "DisplayName": "Стопка свитков"
+    },
+    "PinballMachineItem": {
+      "DisplayName": "Пинбол"
+    },
+    "PinnedNoteItem": {
+      "DisplayName": "Прикреплённая записка"
+    },
+    "PipeItem": {
+      "DisplayName": "Труба"
+    },
+    "PitchforkItem": {
+      "DisplayName": "Вилы"
+    },
+    "PlasticBar": {
+      "DisplayName": "Пластиковый слиток"
+    },
+    "PolkaDotsWallpaperItem": {
+      "DisplayName": "Обои в горошек"
+    },
+    "PottedAloeVeraItem": {
+      "DisplayName": "Алоэ вера в горшке"
+    },
+    "PottedCactusItem": {
+      "DisplayName": "Кактус в горшке"
+    },
+    "PottedSeedlingItem": {
+      "DisplayName": "Саженец в горшке"
+    },
+    "PracticeTargetItem": {
+      "DisplayName": "Мишень для тренировок"
+    },
+    "PyramidPotItem": {
+      "DisplayName": "Горшок пирамиды"
+    },
+    "RCMonsterTruckItem": {
+      "DisplayName": "Радиоуправляемый монстр-трак",
+      "Tooltip": "\"Мы не можем найти пульт управления\""
+    },
+    "RakeItem": {
+      "DisplayName": "Грабли"
+    },
+    "RhinoHuntingTrophyItem": {
+      "DisplayName": "Охотничий трофей: носорог"
+    },
+    "RockingChairItem": {
+      "DisplayName": "Кресло-качалка"
+    },
+    "RoundPaneGlassItem": {
+      "DisplayName": "Круглое стекло"
+    },
+    "RoundPaneGlassWallItem": {
+      "DisplayName": "Стена из круглого стекла"
+    },
+    "RoyalWallpaperItem": {
+      "DisplayName": "Королевские обои"
+    },
+    "SackItem": {
+      "DisplayName": "Мешок"
+    },
+    "ScalesItem": {
+      "DisplayName": "Весы"
+    },
+    "ScratchTreeItem": {
+      "DisplayName": "Когтеточка"
+    },
+    "ScrubbingBrushItem": {
+      "DisplayName": "Щётка для чистки"
+    },
+    "ScytheItem": {
+      "DisplayName": "Коса"
+    },
+    "SecurityCameraItem": {
+      "DisplayName": "Камера безопасности"
+    },
+    "ServiceBellItem": {
+      "DisplayName": "Сервисный звонок"
+    },
+    "SewingMachineItem": {
+      "DisplayName": "Швейная машина"
+    },
+    "ShipCannonItem": {
+      "DisplayName": "Корабельная пушка"
+    },
+    "ShovelItem": {
+      "DisplayName": "Лопата"
+    },
+    "SidewalkSignItem": {
+      "DisplayName": "Тротуарная вывеска"
+    },
+    "SledItem": {
+      "DisplayName": "Сани"
+    },
+    "SmallBagItem": {
+      "DisplayName": "Маленькая сумка"
+    },
+    "SmallChestItem": {
+      "DisplayName": "Маленький сундук"
+    },
+    "SmallCrystalBallItem": {
+      "DisplayName": "Маленький хрустальный шар"
+    },
+    "SmallFramedPictureItem": {
+      "DisplayName": "Маленькая картина в рамке"
+    },
+    "SmallGardenToolRackItem": {
+      "DisplayName": "Маленькая стойка для садовых инструментов"
+    },
+    "SmallGlassItem": {
+      "DisplayName": "Маленькое стекло"
+    },
+    "SmallNoteItem": {
+      "DisplayName": "Маленькая записка"
+    },
+    "SmallSnowGlobeItem": {
+      "DisplayName": "Маленький снежный шар"
+    },
+    "SmallTeapotItem": {
+      "DisplayName": "Маленький чайник"
+    },
+    "SnowmanItem": {
+      "DisplayName": "Снеговик"
+    },
+    "SoapDispenserItem": {
+      "DisplayName": "Дозатор мыла",
+      "Tooltip": "'Не забывай мыть руки!'"
+    },
+    "SocketItem": {
+      "DisplayName": "Розетка"
+    },
+    "SoupBowlItem": {
+      "DisplayName": "Тарелка супа"
+    },
+    "SpiceRackItem": {
+      "DisplayName": "Полка для специй"
+    },
+    "SpoolOfThreadItem": {
+      "DisplayName": "Катушка ниток"
+    },
+    "StackOfFabricItem": {
+      "DisplayName": "Стопка ткани"
+    },
+    "StampItem": {
+      "DisplayName": "Печать"
+    },
+    "SteelGirderItem": {
+      "DisplayName": "Стальная балка"
+    },
+    "StripedVaseItem": {
+      "DisplayName": "Полосатая ваза"
+    },
+    "SuitOfArmorItem": {
+      "DisplayName": "Доспехи"
+    },
+    "SwordWallMountItem": {
+      "DisplayName": "Настенный меч"
+    },
+    "TankardItem": {
+      "DisplayName": "Пивная кружка с крышкой"
+    },
+    "TanningRackItem": {
+      "DisplayName": "Стойка для дубления"
+    },
+    "TelephoneItem": {
+      "DisplayName": "Телефон"
+    },
+    "TelescopeItem": {
+      "DisplayName": "Телескоп"
+    },
+    "TentItem": {
+      "DisplayName": "Палатка"
+    },
+    "TerrarchitectCatalogueItem": {
+      "DisplayName": "Каталог Терраархитектора"
+    },
+    "ThatchRoofItem": {
+      "DisplayName": "Соломенная крыша"
+    },
+    "ThinCorkedJarItem": {
+      "DisplayName": "Узкая банка с пробкой"
+    },
+    "ThinPipeItem": {
+      "DisplayName": "Тонкая труба"
+    },
+    "ThinVaseItem": {
+      "DisplayName": "Узкая ваза"
+    },
+    "TikiMaskItem": {
+      "DisplayName": "Маска тики"
+    },
+    "ToasterItem": {
+      "DisplayName": "Тостер"
+    },
+    "ToiletPaperItem": {
+      "DisplayName": "Туалетная бумага"
+    },
+    "ToolboxItem": {
+      "DisplayName": "Ящик для инструментов"
+    },
+    "ToothbrushItem": {
+      "DisplayName": "Зубная щётка"
+    },
+    "TowerClockItem": {
+      "DisplayName": "Башенные часы"
+    },
+    "TrussItem": {
+      "DisplayName": "Ферма"
+    },
+    "TubeTVItem": {
+      "DisplayName": "Ламповый телевизор"
+    },
+    "UrnItem": {
+      "DisplayName": "Урна"
+    },
+    "VacuumCleanerItem": {
+      "DisplayName": "Пылесос"
+    },
+    "VerticalStripesWallpaperItem": {
+      "DisplayName": "Обои в вертикальную полоску"
+    },
+    "VintageFlowerWallpaperItem": {
+      "DisplayName": "Винтажные обои с цветами"
+    },
+    "VintageVineWallpaperItem": {
+      "DisplayName": "Винтажные обои с узором из лозы"
+    },
+    "WagonWheelsItem": {
+      "DisplayName": "Колёса телеги"
+    },
+    "WallMountedPhoneItem": {
+      "DisplayName": "Настенный телефон"
+    },
+    "WaterBowlItem": {
+      "DisplayName": "Миска для воды"
+    },
+    "WaterPumpItem": {
+      "DisplayName": "Водяной насос"
+    },
+    "WaterTapItem": {
+      "DisplayName": "Водопроводный кран"
+    },
+    "WateringCanItem": {
+      "DisplayName": "Лейка"
+    },
+    "WavyLinesWallpaperItem": {
+      "DisplayName": "Обои с волнистыми линиями"
+    },
+    "WellItem": {
+      "DisplayName": "Колодец"
+    },
+    "WheelbarrowItem": {
+      "DisplayName": "Тачка"
+    },
+    "WideCorkedJarItem": {
+      "DisplayName": "Широкая банка с пробкой"
+    },
+    "WirelessPhoneItem": {
+      "DisplayName": "Беспроводной телефон"
+    },
+    "WoodcuttingStumpItem": {
+      "DisplayName": "Колода для рубки дров"
+    },
+    "WoodenTroughItem": {
+      "DisplayName": "Деревянная кормушка"
+    }
+  }
+}

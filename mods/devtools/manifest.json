@@ -1,0 +1,29 @@
+{
+  "uid": "22b95101-7032-49ab-92a8-468f3030aa41",
+  "id": "devtools",
+  "name": "Dev Tools",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "GST378",
+      "role": "author",
+      "avatar": "0.png",
+      "color": "#ffffff",
+      "link": "https://youtube.com/@gst_378"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Utilidade",
+  "summary": "An intuitive tool interface: difficulty switch, entity clearing, hitboxes, weather and time, camera and photo mode, debug info.",
+  "localizedSummaries": {
+    "zh-Hans": "一个直观的工具界面：难度切换、实体清除、碰撞箱、天气与时间、相机与拍照模式、调试信息。"
+  },
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

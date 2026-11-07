@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "instantplatformfallthrough",
+    "uid": "469b0c4b-acfa-463b-90df-5db222a81351",
+    "version": "1.0.0",
+    "sha256": "a4d576ea89b2d132ac19efc452736fd30d507505ebf8fc94429c7f4beeb87db6"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

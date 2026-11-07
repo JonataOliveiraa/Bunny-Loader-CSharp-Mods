@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] 횃불 깜빡임 비활성화"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] 밝기 배율"
+      }
+    }
+  }
+}

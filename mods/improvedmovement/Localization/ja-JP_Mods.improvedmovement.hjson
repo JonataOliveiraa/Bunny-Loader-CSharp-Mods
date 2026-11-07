@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "視線"
+      },
+      "FaceCursor": {
+        "Label": "カーソルを向く"
+      },
+      "LeaningType": {
+        "Label": "傾き"
+      },
+      "LeanStrength": {
+        "Label": "強さ"
+      },
+      "EnableMountLeaning": {
+        "Label": "マウント"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "首を隠す"
+      },
+      "DisableRopeTurning": {
+        "Label": "ロープで向かない"
+      },
+      "EnableFlickeringFix": {
+        "Label": "ちらつき修正"
+      },
+      "NPCLeaningType": {
+        "Label": "NPCの傾き"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "スライム"
+      },
+      "EnableZombieLeaning": {
+        "Label": "ゾンビ"
+      },
+      "EnableCritterLeaning": {
+        "Label": "小動物"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "町のNPC"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "すべて"
+      },
+      "Headers": {
+        "Player": "プレイヤー",
+        "Creatures": "クリーチャー"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "オフ"
+      },
+      "Standard": {
+        "Label": "標準"
+      },
+      "Clamped": {
+        "Label": "制限"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "しない"
+      },
+      "Always": {
+        "Label": "常に"
+      },
+      "UsingItem": {
+        "Label": "使用中"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "オフ"
+      },
+      "Standard": {
+        "Label": "標準"
+      },
+      "Alternate": {
+        "Label": "代替"
+      },
+      "Spin": {
+        "Label": "回転"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "標準"
+      },
+      "Spin": {
+        "Label": "回転"
+      }
+    }
+  }
+}

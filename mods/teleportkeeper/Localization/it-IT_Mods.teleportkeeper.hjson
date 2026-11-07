@@ -1,0 +1,96 @@
+{
+  "Messages": {
+    "WrongTpNumber": "Il numero del teletrasporto non è valido!",
+    "WrongUsage": "Info: /deltp + (numero del teletrasporto nella lista)",
+    "NewTpAdded": "È stato aggiunto un nuovo teletrasporto!",
+    "RemovedTp": "Teletrasporto rimosso!",
+    "RemoveAllTps": "Tutti i teletrasporti sono stati rimossi!",
+    "DontHaveTps": "Non ci sono teletrasporti salvati al momento...",
+    "NameTp": "Teletrasporto",
+    "DeathTpAdded": "Punto di Teletrasporto di Morte creato!",
+    "DeathTpRemoved": "Punto di Teletrasporto di Morte rimosso!",
+    "DeathTp": "Teletrasporto di Morte",
+    "TpUpdated": "Teletrasporto aggiornato!",
+    "DeathTpOf": "Teletrasporto della morte di {0}"
+  },
+  "UI": {
+    "CreateTitle": "Nuovo Teletrasporto",
+    "EditTitle": "Modifica Teletrasporto",
+    "ListTitle": "Teletrasporti",
+    "Name": "Nome (tocca per scrivere)",
+    "Icon": "Icona",
+    "Color": "Colore",
+    "DeleteOnUse": "Elimina il teletrasporto dopo l'uso",
+    "DeleteOnUseShort": "si elimina all'uso",
+    "Save": "Salva",
+    "Cancel": "Annulla",
+    "Delete": "Elimina",
+    "Confirm": "Confermi?",
+    "Edit": "Modifica",
+    "Go": "Vai",
+    "New": "Nuovo",
+    "Search": "Cerca...",
+    "All": "Tutti",
+    "Empty": "Nessun teletrasporto salvato.",
+    "NoResults": "Nessun risultato.",
+    "DeathOf": "Morte di {0}",
+    "DeathHint": "Sparisce se il proprietario lo usa o esce"
+  },
+  "Icons": {
+    "Default": "Teletrasporto",
+    "Forest": "Foresta",
+    "Snow": "Neve",
+    "Desert": "Deserto",
+    "Jungle": "Giungla",
+    "Corruption": "Corruzione",
+    "Crimson": "Cremisi",
+    "Hallow": "Consacrato",
+    "Mushroom": "Funghi",
+    "Ocean": "Oceano",
+    "Underground": "Sottosuolo",
+    "Cavern": "Caverna",
+    "Underworld": "Inferi",
+    "Dungeon": "Dungeon",
+    "Temple": "Tempio",
+    "Shimmer": "Shimmer",
+    "Sky": "Cielo",
+    "Space": "Spazio",
+    "Graveyard": "Cimitero",
+    "Home": "Casa",
+    "Arena": "Arena"
+  },
+  "TouchButtons": {
+    "CreateTeleport": {
+      "DisplayName": "Crea Teletrasporto"
+    },
+    "TeleportList": {
+      "DisplayName": "Lista Teletrasporti"
+    }
+  },
+  "Commands": {
+    "TpCommand": {
+      "Usage": "/tp [nome]",
+      "Description": "Salva un punto di teletrasporto dove ti trovi (con il nome, se indicato)."
+    },
+    "DelTpCommand": {
+      "Usage": "/deltp <numero>",
+      "Description": "Elimina un punto di teletrasporto."
+    },
+    "ClearAllCommand": {
+      "Usage": "/clearall",
+      "Description": "Elimina tutti i punti di teletrasporto."
+    }
+  },
+  "Colors": {
+    "White": "Bianco",
+    "Yellow": "Giallo",
+    "Orange": "Arancione",
+    "Red": "Rosso",
+    "Pink": "Rosa",
+    "Purple": "Viola",
+    "Blue": "Blu",
+    "Cyan": "Ciano",
+    "Green": "Verde",
+    "Gray": "Grigio"
+  }
+}

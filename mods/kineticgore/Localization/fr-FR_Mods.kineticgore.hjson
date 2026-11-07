@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Les flèches restent plantées"
+      },
+      "EnableHeadBanging": {
+        "Label": "Headbang (musique)"
+      },
+      "CorpseDuration": {
+        "Label": "Durée des cadavres"
+      },
+      "DismembermentChance": {
+        "Label": "Chance de démembrement"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Ancienne physique ragdoll"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Collision des ragdolls"
+      },
+      "MaxCorpses": {
+        "Label": "Cadavres maximum"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Quantité de sang"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Quantité de morceaux"
+      },
+      "BloodScale": {
+        "Label": "Taille du sang"
+      },
+      "BloodVelocity": {
+        "Label": "Vitesse du sang"
+      },
+      "EnableStickyBlood": {
+        "Label": "Sang collant"
+      },
+      "StickyBloodDuration": {
+        "Label": "Sang au sol"
+      },
+      "BleedDuration": {
+        "Label": "Cou qui saigne"
+      },
+      "Gravity": {
+        "Label": "Gravité"
+      },
+      "Bounciness": {
+        "Label": "Rebond"
+      },
+      "Friction": {
+        "Label": "Friction"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Force du recul"
+      },
+      "HeadBobIntensity": {
+        "Label": "Balancement de la tête"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Tête qui recule"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Recul inversé"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Rigidité du cou"
+      },
+      "HeadSpringDamping": {
+        "Label": "Amortissement du cou"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Tremblement"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Rigidité des slimes"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Amortissement des slimes"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Hauteur des PNJ de la ville"
+      },
+      "Headers": {
+        "QualityOfLife": "Confort",
+        "GeneralSettings": "Général",
+        "BloodSettings": "Sang",
+        "PhysicsSettings": "Physique",
+        "HeadPhysics": "Têtes humanoïdes",
+        "SlimePhysics": "Gelée des slimes",
+        "VisualAdjustments": "Ajustements visuels"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Cadavre physique"
+    },
+    "StuckArrow": {
+      "DisplayName": "Flèche plantée"
+    }
+  }
+}

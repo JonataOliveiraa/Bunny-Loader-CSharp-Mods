@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "ChestPeekConfig": {
+      "Enabled": {
+        "Label": "Show chest contents when pointing at a chest"
+      },
+      "Scale": {
+        "Label": "Panel size"
+      }
+    }
+  }
+}

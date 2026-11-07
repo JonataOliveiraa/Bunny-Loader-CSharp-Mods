@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "手持物品才能使用此指令。",
+    "Always": "{0} 現在總是有光柱。",
+    "Never": "{0} 現在永不顯示光柱。",
+    "MiniOn": "{0} 現在顯示小光柱。",
+    "MiniOff": "{0} 恢復為普通光柱。",
+    "BadColor": "顏色無效。請使用 /beams color #RRGGBB（如 #FF8800）。",
+    "Colored": "{0} 的光柱顏色：{1}。",
+    "Reset": "{0} 已從你的清單中移除。",
+    "NotListed": "{0} 不在你的清單中。",
+    "List": "總是：{0} | 從不：{1} | 小：{2} | 顏色：{3}",
+    "Cleared": "你的清單已清空。",
+    "Enabled": "光柱已開啟。",
+    "Disabled": "光柱已關閉。"
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "啟用"
+      },
+      "MinRarity": {
+        "Label": "最低稀有度"
+      },
+      "MinValue": {
+        "Label": "最低價值"
+      },
+      "HighlightQuest": {
+        "Label": "任務物品"
+      },
+      "HighlightExpert": {
+        "Label": "專家物品"
+      },
+      "HighlightMaster": {
+        "Label": "大師物品"
+      },
+      "UseDefaultLists": {
+        "Label": "預設清單"
+      },
+      "BeamStyle": {
+        "Label": "光柱樣式"
+      },
+      "GlowStyle": {
+        "Label": "光暈樣式"
+      },
+      "BeamScale": {
+        "Label": "光柱大小"
+      },
+      "BeamOpacity": {
+        "Label": "光柱不透明度"
+      },
+      "GlowScale": {
+        "Label": "光暈大小"
+      },
+      "GlowOpacity": {
+        "Label": "光暈不透明度"
+      },
+      "FlashScale": {
+        "Label": "掉落閃光"
+      },
+      "DrawAdditive": {
+        "Label": "更亮"
+      },
+      "Pulse": {
+        "Label": "脈動"
+      },
+      "EmitLight": {
+        "Label": "光照"
+      },
+      "FadeOnPickup": {
+        "Label": "拾取時淡出"
+      },
+      "Headers": {
+        "Filters": "哪些物品",
+        "Visuals": "外觀",
+        "Extras": "其他"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "無"
+      },
+      "Simple": {
+        "Label": "簡單"
+      },
+      "Arrow": {
+        "Label": "箭頭"
+      },
+      "AnimatedArrow": {
+        "Label": "動態箭頭"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "無"
+      },
+      "Simple": {
+        "Label": "柔和"
+      },
+      "Pixel": {
+        "Label": "像素"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "變更手持物品的光柱。"
+    }
+  }
+}

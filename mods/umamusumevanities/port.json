@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "umamusumevanities",
+    "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
+    "version": "1.0",
+    "sha256": "fbf28cb93f12069397e47eff06000f0c6ba520a7667085dcd015d1b93454d342"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The config header has no custom color and the quantity has no % suffix, because C# configs have neither. The permission Nyacro gave the JavaScript porter does not extend to this port, and none is claimed."
+}

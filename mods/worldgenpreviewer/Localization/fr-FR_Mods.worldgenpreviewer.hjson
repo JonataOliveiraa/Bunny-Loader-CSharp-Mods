@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Démarrer en pause"
+      },
+      "LivePreview": {
+        "Label": "Aperçu de la carte"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Afficher la liste des étapes",
+    "Previous": "Répéter l'étape précédente",
+    "Resume": "Reprendre",
+    "Pause": "Pause",
+    "Next": "Passer à l'étape suivante",
+    "Structures": "Afficher les structures protégées",
+    "Cancel": "Annuler",
+    "ZoomIn": "Zoom avant",
+    "ZoomOut": "Zoom arrière",
+    "ExitZoom": "Quitter le zoom",
+    "NoPause": "La pause n'est pas disponible sur cet appareil",
+    "StatusNormal": "Statut : Normal",
+    "StatusPausing": "Statut : Mise en pause...",
+    "StatusPaused": "Statut : En pause",
+    "StatusRepeating": "Statut : Répétition de l'étape précédente",
+    "StatusWaitingRepeat": "Statut : En attente pour refaire cette étape...",
+    "StatusCanceling": "Statut : Annulation...",
+    "StatusStructuresOn": "Statut : Structures affichées",
+    "StatusStructuresOff": "Statut : Structures masquées",
+    "StatusPausingAfter": "Statut : Pause après {0}",
+    "Skipped": "Ignorée",
+    "Complete": "Terminée",
+    "AdvanceTo": "Touchez pour avancer jusqu'à {0}",
+    "Tile": "Bloc : {0}",
+    "PausedAfter": "Génération en pause après {0}",
+    "Waiting": "Création de l'aperçu...",
+    "PreviewOff": "Aperçu de la carte désactivé",
+    "Steps": "Étapes",
+    "SkipStep": "Touchez pour ignorer cette étape",
+    "KeepStep": "Touchez pour garder cette étape",
+    "StatusFinishingMap": "État : Finalisation de la carte..."
+  }
+}

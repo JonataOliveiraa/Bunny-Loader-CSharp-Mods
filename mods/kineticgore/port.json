@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "kineticgore",
+    "uid": "3cfaa0a0-6ddf-4484-900e-6c482ef4e1c7",
+    "version": "2.8.2",
+    "sha256": "ed5b8bd576825ae076f8cf668877a2fb9e91bf9e9b34dbdbbaa246b581c786ce"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same physics, numbers and defaults. C# configs have no colored or aligned headers and no slider suffixes. The JavaScript wrapped most game calls in a catch that ignored failures, which the bridge needed: here only the texture reads keep it, so any other failure now goes to the log and the error panel instead of being silent. Corpses are kept in a Dictionary instead of an insertion-ordered Map, so when a ragdoll overlaps several others the one pushing it first may differ."
+}

@@ -1,0 +1,57 @@
+{
+  "Configs": {
+    "LightsConfig": {
+      "UseLight": {
+        "Label": "Usar iluminação"
+      },
+      "LightIntensity": {
+        "Label": "Luz"
+      },
+      "MoonLightIntensity": {
+        "Label": "Luar"
+      },
+      "ShadowIntensity": {
+        "Label": "Sombras"
+      },
+      "DayColor": {
+        "Label": "Cor do dia"
+      },
+      "UseBloom": {
+        "Label": "Usar brilho"
+      },
+      "BloomIntensity": {
+        "Label": "Brilho"
+      },
+      "BloomCounts": {
+        "Label": "Passadas"
+      },
+      "Quality": {
+        "Label": "Qualidade da sombra"
+      },
+      "Headers": {
+        "Lighting": "Luz e Sombras",
+        "Bloom": "Brilho",
+        "Performance": "Desempenho"
+      }
+    },
+    "DayColorMode": {
+      "Classic": {
+        "Label": "Amarela"
+      },
+      "Alternate": {
+        "Label": "Branca"
+      }
+    },
+    "ShadowQuality": {
+      "High": {
+        "Label": "Alta"
+      },
+      "Medium": {
+        "Label": "Média"
+      },
+      "Low": {
+        "Label": "Baixa"
+      }
+    }
+  }
+}

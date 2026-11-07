@@ -1,0 +1,45 @@
+{
+  "Configs": {
+    "PingConfig": {
+      "IconStyle": {
+        "Label": "Стиль значка"
+      },
+      "PingSyncTimer": {
+        "Label": "Обновление пинга"
+      },
+      "ShowIndicator": {
+        "Label": "Показывать индикатор"
+      },
+      "AttachToHealthBar": {
+        "Label": "Рядом с полоской здоровья"
+      }
+    },
+    "PingIconStyle": {
+      "BasicPurple": {
+        "Label": "Фиолетовый"
+      },
+      "Basic": {
+        "Label": "Простой"
+      },
+      "DSi": {
+        "Label": "Nintendo DSi"
+      },
+      "Gold": {
+        "Label": "Золотой"
+      },
+      "BasicLight": {
+        "Label": "Простой светлый"
+      },
+      "Fancy": {
+        "Label": "Золотой изящный"
+      },
+      "Minecraft": {
+        "Label": "Minecraft"
+      }
+    }
+  },
+  "Text": {
+    "IconConfigText": "Настройка пинга",
+    "PingText": "Секунд до обновления"
+  }
+}

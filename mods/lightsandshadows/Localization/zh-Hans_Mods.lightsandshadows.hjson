@@ -1,0 +1,57 @@
+{
+  "Configs": {
+    "LightsConfig": {
+      "UseLight": {
+        "Label": "开启光照"
+      },
+      "LightIntensity": {
+        "Label": "光照强度"
+      },
+      "MoonLightIntensity": {
+        "Label": "月光强度"
+      },
+      "ShadowIntensity": {
+        "Label": "阴影强度"
+      },
+      "DayColor": {
+        "Label": "日光色"
+      },
+      "UseBloom": {
+        "Label": "开启外发光"
+      },
+      "BloomIntensity": {
+        "Label": "外发光强度"
+      },
+      "BloomCounts": {
+        "Label": "迭代次数"
+      },
+      "Quality": {
+        "Label": "阴影质量"
+      },
+      "Headers": {
+        "Lighting": "灯光与阴影",
+        "Bloom": "外发光",
+        "Performance": "性能"
+      }
+    },
+    "DayColorMode": {
+      "Classic": {
+        "Label": "黄色"
+      },
+      "Alternate": {
+        "Label": "白色"
+      }
+    },
+    "ShadowQuality": {
+      "High": {
+        "Label": "高"
+      },
+      "Medium": {
+        "Label": "中"
+      },
+      "Low": {
+        "Label": "低"
+      }
+    }
+  }
+}

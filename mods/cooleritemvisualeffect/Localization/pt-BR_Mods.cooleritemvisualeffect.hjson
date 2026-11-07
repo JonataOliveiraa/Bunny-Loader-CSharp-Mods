@@ -1,0 +1,164 @@
+{
+  "Configs": {
+    "CoolerItemConfig": {
+      "Enabled": {
+        "Label": "Ativar mod"
+      },
+      "EnableTrail": {
+        "Label": "Rastro do sprite"
+      },
+      "EnableGlow": {
+        "Label": "Brilho aditivo"
+      },
+      "EnableSparkle": {
+        "Label": "Faísca na ponta"
+      },
+      "EnableHitDust": {
+        "Label": "Partículas no golpe"
+      },
+      "Sequence": {
+        "Label": "Estilo do golpe"
+      },
+      "TrailLength": {
+        "Label": "Duração do rastro"
+      },
+      "TrailQuality": {
+        "Label": "Suavidade do rastro"
+      },
+      "TrailIntensity": {
+        "Label": "Intensidade do rastro"
+      },
+      "AlphaFactor": {
+        "Label": "Brilho do alfa"
+      },
+      "SpriteColor": {
+        "Label": "Cor via sprite"
+      },
+      "UseWeaponColor": {
+        "Label": "Cores da arma"
+      },
+      "TrailColor": {
+        "Label": "Cor manual"
+      },
+      "WeaponExtraLight": {
+        "Label": "Luz extra da arma"
+      },
+      "DustQuantity": {
+        "Label": "Qtd. de partículas"
+      },
+      "EnableShader": {
+        "Label": "Swoosh em shader"
+      },
+      "ShaderStrength": {
+        "Label": "Força do shader"
+      },
+      "ShaderDistortion": {
+        "Label": "Distorção do ar"
+      },
+      "Palette": {
+        "Label": "Mapa de calor"
+      },
+      "EnableCustomAttackAnimation": {
+        "Label": "Animação custom"
+      },
+      "EnableMouseAim": {
+        "Label": "Mirar no cursor"
+      },
+      "EnableArmAnimation": {
+        "Label": "Animar braço"
+      },
+      "SwooshReach": {
+        "Label": "Alcance do corte"
+      },
+      "SwooshFadeTime": {
+        "Label": "Tempo de fade"
+      },
+      "SwooshShiftY": {
+        "Label": "Deslocamento Y"
+      },
+      "SwooshHeightScale": {
+        "Label": "Altura do arco"
+      },
+      "ShaderChromatic": {
+        "Label": "Aberração cromática"
+      },
+      "SwooshWidthScale": {
+        "Label": "Largura do arco"
+      },
+      "SwooshTailBackDegrees": {
+        "Label": "Ângulo inicial"
+      },
+      "EnableEffectHitbox": {
+        "Label": "Hitbox do efeito"
+      },
+      "ReplaceVanillaHit": {
+        "Label": "Desativar hit vanilla"
+      },
+      "HitboxDamageScale": {
+        "Label": "Escala de dano"
+      },
+      "ShowHitbox": {
+        "Label": "Exibir hitboxes"
+      },
+      "Headers": {
+        "SectionGeneral": "Geral",
+        "SectionHitbox": "Dano do Efeito",
+        "SectionSequence": "Animação e Rastro",
+        "SectionColor": "Cores",
+        "SectionDetail": "Ajustes Finos"
+      }
+    },
+    "AttackSequence": {
+      "PureSlash": {
+        "Label": "Corte contínuo"
+      },
+      "HeavyChop": {
+        "Label": "Corte pesado"
+      },
+      "StormySlash": {
+        "Label": "Tempestade"
+      },
+      "TripleSlash": {
+        "Label": "Corte triplo"
+      },
+      "PureStab": {
+        "Label": "Estocada"
+      },
+      "CIVESword": {
+        "Label": "CIVE Sword"
+      },
+      "ComplexExample": {
+        "Label": "Complexo"
+      }
+    },
+    "SwooshPalette": {
+      "Auto": {
+        "Label": "Auto (raridade)"
+      },
+      "Fire": {
+        "Label": "Fogo"
+      },
+      "Ice": {
+        "Label": "Gelo"
+      },
+      "Holy": {
+        "Label": "Sagrado"
+      },
+      "Violet": {
+        "Label": "Violeta"
+      },
+      "Nature": {
+        "Label": "Natureza"
+      },
+      "Blood": {
+        "Label": "Sangue"
+      },
+      "Silver": {
+        "Label": "Prata"
+      },
+      "Prismatic": {
+        "Label": "Arco-íris"
+      }
+    }
+  }
+}

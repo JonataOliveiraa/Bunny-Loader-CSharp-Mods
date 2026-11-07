@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "Un mondo così piatto che puoi correre senza paura di inciampare in una buca! Le grotte sono ancora lì sotto, ad aspettarti."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Appiattimento del mondo..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Altezza della superficie"
+      },
+      "FillChasms": {
+        "Label": "Riempi le fenditure"
+      },
+      "SmoothBeaches": {
+        "Label": "Rampe sulla spiaggia"
+      }
+    }
+  }
+}

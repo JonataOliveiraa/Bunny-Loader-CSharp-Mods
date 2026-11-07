@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Начать на паузе"
+      },
+      "LivePreview": {
+        "Label": "Превью карты"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Показать список этапов",
+    "Previous": "Повторить предыдущий этап",
+    "Resume": "Продолжить",
+    "Pause": "Пауза",
+    "Next": "Перейти к следующему этапу",
+    "Structures": "Показать защищённые структуры",
+    "Cancel": "Отмена",
+    "ZoomIn": "Приблизить",
+    "ZoomOut": "Отдалить",
+    "ExitZoom": "Выйти из зума",
+    "NoPause": "Пауза недоступна на этом устройстве",
+    "StatusNormal": "Статус: Обычный",
+    "StatusPausing": "Статус: Ставится на паузу...",
+    "StatusPaused": "Статус: Пауза",
+    "StatusRepeating": "Статус: Повтор предыдущего этапа",
+    "StatusWaitingRepeat": "Статус: Ожидание повтора этого этапа...",
+    "StatusCanceling": "Статус: Отмена...",
+    "StatusStructuresOn": "Статус: Структуры показаны",
+    "StatusStructuresOff": "Статус: Структуры скрыты",
+    "StatusPausingAfter": "Статус: Пауза после {0}",
+    "Skipped": "Пропущено",
+    "Complete": "Готово",
+    "AdvanceTo": "Нажмите, чтобы дойти до {0}",
+    "Tile": "Блок: {0}",
+    "PausedAfter": "Генерация на паузе после {0}",
+    "Waiting": "Создание превью...",
+    "PreviewOff": "Превью карты выключено",
+    "Steps": "Этапы",
+    "SkipStep": "Коснитесь, чтобы пропустить этот этап",
+    "KeepStep": "Коснитесь, чтобы оставить этот этап",
+    "StatusFinishingMap": "Статус: Завершение карты..."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "提示顏色"
+      },
+      "ChangeDamageColor": {
+        "Label": "傷害顏色"
+      },
+      "ShowDamageNumbers": {
+        "Label": "我的數字"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "他人數字"
+      },
+      "CondenseDamageHits": {
+        "Label": "合併攻擊"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "擊殺時顯示"
+      },
+      "DebugMode": {
+        "Label": "除錯模式"
+      },
+      "DebugModeTooltips": {
+        "Label": "提示"
+      },
+      "DebugModeFields": {
+        "Label": "欄位"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "多人"
+      },
+      "MeleeDamage": {
+        "Label": "近戰"
+      },
+      "MeleeDamageCrit": {
+        "Label": "近戰暴擊"
+      },
+      "TooltipMelee": {
+        "Label": "近戰"
+      },
+      "RangedDamage": {
+        "Label": "遠程"
+      },
+      "RangedDamageCrit": {
+        "Label": "遠程暴擊"
+      },
+      "TooltipRanged": {
+        "Label": "遠程"
+      },
+      "MagicDamage": {
+        "Label": "魔法"
+      },
+      "MagicDamageCrit": {
+        "Label": "魔法暴擊"
+      },
+      "TooltipMagic": {
+        "Label": "魔法"
+      },
+      "ThrowingDamage": {
+        "Label": "投擲"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "投擲暴擊"
+      },
+      "TooltipThrowing": {
+        "Label": "投擲"
+      },
+      "SummonDamage": {
+        "Label": "召喚"
+      },
+      "SummonDamageCrit": {
+        "Label": "召喚暴擊"
+      },
+      "TooltipSummon": {
+        "Label": "召喚"
+      },
+      "SentryDamage": {
+        "Label": "哨兵"
+      },
+      "SentryDamageCrit": {
+        "Label": "哨兵暴擊"
+      },
+      "TooltipSentry": {
+        "Label": "哨兵"
+      },
+      "TooltipDefense": {
+        "Label": "防禦"
+      },
+      "ModdedTooltip": {
+        "Label": "提示"
+      },
+      "HeldTooltip": {
+        "Label": "提示"
+      },
+      "ModdedDamage": {
+        "Label": "傷害"
+      },
+      "ModdedDamageCrit": {
+        "Label": "傷害暴擊"
+      },
+      "HeldDamage": {
+        "Label": "傷害"
+      },
+      "HeldDamageCrit": {
+        "Label": "傷害暴擊"
+      },
+      "Headers": {
+        "Toggles": "開關",
+        "Condense": "合併",
+        "DamageColors": "傷害顏色",
+        "TooltipColors": "提示顏色",
+        "ModCompat": "模組預設",
+        "HeldClass": "手持物品職業",
+        "Debug": "除錯"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "哨兵傷害"
+    }
+  }
+}

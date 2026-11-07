@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "IbarakiBox": {
+      "DisplayName": "Caixa Ibaraki das Cem Medicinas",
+      "Tooltip": "Invoca Kasen Ibaraki\nUma caixa de madeira de eremita que transforma saquê em remédio"
+    },
+    "StarBearSakeDish": {
+      "DisplayName": "Taça de Saquê Ursa-Estrela",
+      "Tooltip": "Invoca Yuugi Hoshiguma\nNunca derramou uma gota, nem mesmo no meio de uma briga"
+    },
+    "SanzuFerryCoin": {
+      "DisplayName": "Moeda da Travessia do Sanzu",
+      "Tooltip": "Invoca Komachi Onozuka\nA passagem para cruzar o rio. A barqueira não tem pressa"
+    },
+    "WallPassingHairpin": {
+      "DisplayName": "Grampo Atravessa-Paredes",
+      "Tooltip": "Invoca Seiga Kaku\nAbre caminho por qualquer parede. Bata antes de entrar"
+    },
+    "GuardianShrineBell": {
+      "DisplayName": "Sino da Guardiã do Santuário",
+      "Tooltip": "Invoca Aunn Komano para iluminar seu caminho\nToque o sino e a guardiã do santuário virá correndo"
+    },
+    "SecretBackDoor": {
+      "DisplayName": "Porta dos Fundos da Deusa Oculta",
+      "Tooltip": "Invoca Okina Matara para iluminar seu caminho\nSete estrelas marcam uma porta para um lugar completamente diferente"
+    },
+    "SorcerersSutraScroll": {
+      "DisplayName": "Pergaminho de Sutra da Feiticeira",
+      "Tooltip": "Invoca Byakuren Hijiri\nUm pergaminho mágico cujo texto brilha ao ser desenrolado"
+    },
+    "SuzunaanDemonBook": {
+      "DisplayName": "Livro Demoníaco de Suzunaan",
+      "Tooltip": "Invoca Kosuzu Motoori para iluminar seu caminho\nEmprestado de Suzunaan. Devolva dentro do prazo"
+    },
+    "TanukiLeaf": {
+      "DisplayName": "Folha de Tanuki",
+      "Tooltip": "Invoca Mamizou Futatsuiwa\nColoque na cabeça e você poderá ser qualquer pessoa. Ou qualquer coisa"
+    },
+    "NazrinPendulum": {
+      "DisplayName": "Pêndulo de Nazrin",
+      "Tooltip": "Invoca Nazrin para iluminar seu caminho\nSeu cristal aponta para aquilo que você procura"
+    },
+    "MoriyaIronRing": {
+      "DisplayName": "Anel de Ferro Moriya",
+      "Tooltip": "Invoca Suwako Moriya para iluminar seu caminho\nMais afiado do que parece. Cuidado com os dedos"
+    },
+    "MiniatureOnbashira": {
+      "DisplayName": "Onbashira em Miniatura",
+      "Tooltip": "Invoca Kanako Yasaka\nUm pequeno pilar sagrado. Não o jogue de um penhasco"
+    },
+    "MaidsBellCollar": {
+      "DisplayName": "Coleira com Sino da Empregada",
+      "Tooltip": "Invoca Inu Sakuya para iluminar seu caminho\nTilinta quando ela abana a cauda"
+    },
+    "OverdueNotice": {
+      "DisplayName": "Aviso de Cobrança",
+      "Tooltip": "Invoca Shion Yorigami\nÚltimo aviso. De novo"
+    },
+    "DesignerHandbag": {
+      "DisplayName": "Bolsa de Grife",
+      "Tooltip": "Invoca Jo'on Yorigami para iluminar seu caminho\nPeça única. Ela tem doze"
+    },
+    "DaiShogiPiece": {
+      "DisplayName": "Peça de Dai Shogi",
+      "Tooltip": "Invoca Momiji Inubashiri\nDe um conjunto com mais peças do que você imagina"
+    }
+  },
+  "Buffs": {
+    "KasenBuff": {
+      "DisplayName": "Kasen Ibaraki",
+      "Description": "Uma eremita rigorosa fica de olho em você... e nos seus lanches."
+    },
+    "YuugiBuff": {
+      "DisplayName": "Yuugi Hoshiguma",
+      "Description": "A oni mais forte do Antigo Inferno quer companhia para beber."
+    },
+    "KomachiBuff": {
+      "DisplayName": "Komachi Onozuka",
+      "Description": "Uma barqueira do rio Sanzu está \"trabalhando\" ao seu lado."
+    },
+    "SeigaBuff": {
+      "DisplayName": "Seiga Kaku",
+      "Description": "Uma eremita maligna se interessou por você. Isso não pode ser bom."
+    },
+    "AunnBuff": {
+      "DisplayName": "Aunn Komano",
+      "Description": "Uma guardiã de santuário ilumina seu caminho e late para quem quiser lhe fazer mal."
+    },
+    "OkinaBuff": {
+      "DisplayName": "Okina Matara",
+      "Description": "A deusa oculta compartilha um pouco da luz das estrelas da Ursa Maior."
+    },
+    "ByakurenBuff": {
+      "DisplayName": "Byakuren Hijiri",
+      "Description": "A líder do templo Myouren caminha ao seu lado sob sua sombrinha."
+    },
+    "KosuzuBuff": {
+      "DisplayName": "Kosuzu Motoori",
+      "Description": "A leitora de Suzunaan lê ao seu lado à luz de uma lamparina."
+    },
+    "MamizouBuff": {
+      "DisplayName": "Mamizou Futatsuiwa",
+      "Description": "Uma bake-danuki está seguindo você. Fique de olho na sua carteira."
+    },
+    "NazrinBuff": {
+      "DisplayName": "Nazrin",
+      "Description": "Uma ratinha radiestesista ilumina seu caminho e procura tesouros."
+    },
+    "SuwakoBuff": {
+      "DisplayName": "Suwako Moriya",
+      "Description": "A deusa nativa do santuário Moriya salta ao seu lado."
+    },
+    "KanakoBuff": {
+      "DisplayName": "Kanako Yasaka",
+      "Description": "A deusa do santuário Moriya se interessou pela sua fé."
+    },
+    "InuSakuyaBuff": {
+      "DisplayName": "Inu Sakuya",
+      "Description": "Uma ótima empregada. Uma ótima cachorrinha."
+    },
+    "ShionBuff": {
+      "DisplayName": "Shion Yorigami",
+      "Description": "A deusa da pobreza está seguindo você. Esconda seus lanches."
+    },
+    "JoonBuff": {
+      "DisplayName": "Jo'on Yorigami",
+      "Description": "Uma deusa da pestilência ilumina seu caminho. Sua carteira já parece mais leve."
+    },
+    "MomijiBuff": {
+      "DisplayName": "Momiji Inubashiri",
+      "Description": "Uma tengu loba branca está vigiando você."
+    }
+  },
+  "Projectiles": {
+    "Kasen": {
+      "DisplayName": "Kasen Ibaraki"
+    },
+    "Yuugi": {
+      "DisplayName": "Yuugi Hoshiguma"
+    },
+    "Komachi": {
+      "DisplayName": "Komachi Onozuka"
+    },
+    "Seiga": {
+      "DisplayName": "Seiga Kaku"
+    },
+    "Aunn": {
+      "DisplayName": "Aunn Komano"
+    },
+    "Okina": {
+      "DisplayName": "Okina Matara"
+    },
+    "Byakuren": {
+      "DisplayName": "Byakuren Hijiri"
+    },
+    "Kosuzu": {
+      "DisplayName": "Kosuzu Motoori"
+    },
+    "Mamizou": {
+      "DisplayName": "Mamizou Futatsuiwa"
+    },
+    "Nazrin": {
+      "DisplayName": "Nazrin"
+    },
+    "Suwako": {
+      "DisplayName": "Suwako Moriya"
+    },
+    "Kanako": {
+      "DisplayName": "Kanako Yasaka"
+    },
+    "InuSakuya": {
+      "DisplayName": "Inu Sakuya"
+    },
+    "Shion": {
+      "DisplayName": "Shion Yorigami"
+    },
+    "Joon": {
+      "DisplayName": "Jo'on Yorigami"
+    },
+    "Momiji": {
+      "DisplayName": "Momiji Inubashiri"
+    }
+  },
+  "Configs": {
+    "KasenConfig": {
+      "DisplayName": "Kasen",
+      "BloodMoonOniForm": {
+        "Label": "Forma oni na Lua de Sangue",
+        "Tooltip": "Kasen permanece na forma oni durante toda a Lua de Sangue."
+      },
+      "SpontaneousShifts": {
+        "Label": "Transformações espontâneas",
+        "Tooltip": "Às vezes o selo de Kasen se solta e ela volta brevemente à forma oni."
+      },
+      "MinutesBetweenShifts": {
+        "Label": "Intervalo médio (min)",
+        "Tooltip": "Intervalo médio, em minutos, entre transformações espontâneas."
+      },
+      "ShiftDurationSeconds": {
+        "Label": "Duração da transformação (s)",
+        "Tooltip": "Duração de uma transformação espontânea, em segundos, antes de ela se selar novamente."
+      }
+    }
+  },
+  "Chat_Kasen": {
+    "Chat1": "Uma eremita treina o corpo e a mente. Você anda faltando ao treinamento?",
+    "Chat2": "Não relaxe. A disciplina é o caminho para a iluminação.",
+    "Chat3": "Estas bandagens? Não são nada. Não se preocupe.",
+    "Chat4": "Esses pãezinhos no vapor parecem bons... um só não faria mal.",
+    "Chat5": "Os animais entendem muito mais do que as pessoas pensam. Trate-os bem.",
+    "Chat6": "Moderação é remédio. Excesso é veneno.",
+    "Chat7": "Deixe-me dar um conselho. Bem, vários conselhos.",
+    "Chat8": "A corrente? Só um lembrete para manter os pés no chão.",
+    "Chat9": "Você não é do tipo que mexe em caixas dos outros, é?",
+    "Chat10": "Hum, este doce é muito bom. Para fins de pesquisa, é claro.",
+    "Chat11": "Reimu, quando foi a última vez que você treinou de verdade?",
+    "Chat12": "Suika... você não anda contando histórias sobre mim, anda?",
+    "Chat13": "Marisa, devolva o que \"pegou emprestado\" antes que eu vá buscar.",
+    "Chat14": "Heh... faz muito tempo que não me sinto tão livre.",
+    "Chat15": "O que está olhando? Oni não gostam de olhares mal-educados.",
+    "Chat16": "Saquê! Alguém me traga saquê!",
+    "Chat17": "Uma lua vermelho-sangue... que nostalgia.",
+    "Chat18": "Não conte isso à Reimu. Estou falando sério.",
+    "Chat19": "Kh... o selo está se soltando!",
+    "Chat20": "Ahem. Você não viu nada. Entendido?",
+    "Chat21": "A lua está vermelha esta noite. Não vou me conter.",
+    "Chat22": "Yuugi, fale mais baixo, por favor. Algumas de nós tentam passar despercebidas.",
+    "Chat23": "Komachi, você não deveria estar trabalhando?",
+    "Chat24": "Seiga. Seja o que for que esteja planejando, a resposta é não.",
+    "Chat25": "Mamizou. Se eu encontrar mais uma armadilha para oni no santuário...",
+    "Chat26": "Kanako. Seu teleférico é engenhoso. Só não cobre das fadas.",
+    "Chat27": "Shion, se Tenshi se oferecer para cozinhar de novo, diga não."
+  },
+  "Chat_Yuugi": {
+    "Chat1": "Hah! Você parece precisar de uma bebida. Tome uma taça!",
+    "Chat2": "Uma oni nunca mente. Lembre-se disso.",
+    "Chat3": "Força é simples. É a coisa mais fácil do mundo de entender.",
+    "Chat4": "Nem uma gota caiu desta taça em mil anos. Quer ver?",
+    "Chat5": "A superfície é tão clara... eu poderia me acostumar.",
+    "Chat6": "Quer disputar uma queda de braço? Não? Você que perde!",
+    "Chat7": "O Antigo Inferno anda quieto. Quieto demais.",
+    "Chat8": "Uma boa briga e uma boa bebida. Quem precisa de mais alguma coisa?",
+    "Chat9": "Suika! Traga essa cabaça aqui!",
+    "Chat10": "Kasen! Ainda esconde esses chifres sob dois coques?",
+    "Chat11": "Satori, pare de ler minha mente e pergunte logo.",
+    "Chat12": "Agora SIM, essa é a Kasen de que me lembro!",
+    "Chat13": "Kanpai!",
+    "Chat14": "Hahaha!"
+  },
+  "Chat_Komachi": {
+    "Chat1": "Trabalho? Ah, os mortos não vão a lugar nenhum.",
+    "Chat2": "O rio está largo hoje. Muitas almas não foram generosas em vida.",
+    "Chat3": "Só uma sonequinha. A chefe não vai perceber...",
+    "Chat4": "Distância é algo curioso. Posso alongá-la ou encurtá-la como quiser.",
+    "Chat5": "Tem moedas aí? A passagem da barca não é barata, sabia?",
+    "Chat6": "Shinigami não perseguem ninguém. Nós só... esperamos.",
+    "Chat7": "Eremitas enganam a morte. Adivinhe quem precisa buscá-las?",
+    "Chat8": "Ahh, um tempo perfeito para enrolar no trabalho.",
+    "Chat9": "Ora, ora, uma eremita. Vou ficar de olho em você.",
+    "Chat10": "Senhora Yuyuko! Quer que eu transporte alguém?",
+    "Chat11": "Relaxe, jardineira. Nem tudo precisa ser cortado.",
+    "Chat12": "Zzz...",
+    "Chat13": "*bocejo*... Já acabou o expediente?"
+  },
+  "Chat_Seiga": {
+    "Chat1": "Paredes são apenas sugestões, querida.",
+    "Chat2": "Uma eremita que segue as regras? Que tédio terrível.",
+    "Chat3": "Meu grampo abre caminho por qualquer coisa. Quer ver?",
+    "Chat4": "A imortalidade é um passatempo. É preciso se divertir.",
+    "Chat5": "Yoshika? Está por aí. Provavelmente presa numa porta.",
+    "Chat6": "Que pessoa interessante você é. Talvez eu fique com você.",
+    "Chat7": "Taoismo é simplesmente a arte de conseguir o que se quer.",
+    "Chat8": "Kasen, querida! Ainda finge ser uma eremita respeitável?",
+    "Chat9": "A sacerdotisa! Mande lembranças à sua caixa de doações.",
+    "Chat10": "Só um buraquinho. Ninguém vai perceber.",
+    "Chat11": "Ohohoho!"
+  },
+  "Chat_Aunn": {
+    "Chat1": "Ninguém passa por mim! ...Ah, é só você.",
+    "Chat2": "Protegi o santuário por eras antes de alguém notar minha presença!",
+    "Chat3": "Aquilo é um youkai? Não? Certo, alarme falso.",
+    "Chat4": "O trabalho de uma guardiã nunca acaba. Exceto nas sonecas.",
+    "Chat5": "Pode fazer carinho na minha cabeça. Eu não me importo!",
+    "Chat6": "O santuário anda animado. Isso é bom, né?",
+    "Chat7": "Que cheiro bom... hoje é dia de oferendas?",
+    "Chat8": "Eu fico de vigia. Você segue em frente!",
+    "Chat9": "Reimu! Varri o caminho hoje... mais ou menos.",
+    "Chat10": "Senhora Okina! Estou me esforçando muito para proteger, viu?",
+    "Chat11": "Hehe~",
+    "Chat12": "Au!",
+    "Chat13": "Para trás! Esta pessoa está sob minha proteção!",
+    "Chat14": "Uma cachorrinha empregada! Você protege uma mansão?",
+    "Chat15": "Uma tengu loba! Você também guarda um portão?"
+  },
+  "Chat_Okina": {
+    "Chat1": "Sou Okina Matara, a deusa oculta. Pode se curvar agora.",
+    "Chat2": "Toda costa tem uma porta. A sua é até bem bonita.",
+    "Chat3": "A Ursa Maior protege quem sabe para onde olhar.",
+    "Chat4": "Segredos são o melhor tipo de poder. Principalmente os meus.",
+    "Chat5": "Posso mandar você a qualquer lugar por uma porta dos fundos. Qualquer lugar.",
+    "Chat6": "Ser uma sábia de Gensokyo é cansativo. Principalmente para os outros.",
+    "Chat7": "Hum... você daria uma ótima dançarina de apoio.",
+    "Chat8": "Estrelas, portas, estações... são meus brinquedos.",
+    "Chat9": "Yukari. Ainda espia pelas fendas? Que falta de classe.",
+    "Chat10": "Minha pequena guardiã! Você está indo muito bem.",
+    "Chat11": "Por aqui. Cuidado com o degrau.",
+    "Chat12": "Ahahaha!"
+  },
+  "Chat_Byakuren": {
+    "Chat1": "Todos os seres são iguais, humanos e youkai.",
+    "Chat2": "Namusan... O mundo está cheio de coisas que vale a pena proteger.",
+    "Chat3": "Venha visitar o templo qualquer dia.",
+    "Chat4": "Até uma monja pode aproveitar o sol sob sua sombrinha.",
+    "Chat5": "A força do corpo e a força da mente caminham juntas.",
+    "Chat6": "Fiquei selada por muito tempo. Cada dia desde então é precioso.",
+    "Chat7": "Você tem se alimentado bem? Cuide de si.",
+    "Chat8": "Capitã Murasa, obrigada por sempre nos reunir.",
+    "Chat9": "Kogasa, quer dividir a sombra?",
+    "Chat10": "Uma eremita que segue o caminho da disciplina... respeito isso, Kasen.",
+    "Chat11": "Namusan...",
+    "Chat12": "Que tempo agradável!",
+    "Chat13": "Nazrin, Shou perdeu a pagoda de novo?",
+    "Chat14": "Mamizou, obrigada por cuidar do templo.",
+    "Chat15": "Jo'on, você anda roubando pessoas de novo?"
+  },
+  "Chat_Kosuzu": {
+    "Chat1": "Bem-vindo a Suzunaan! Vai pegar emprestado ou só olhar?",
+    "Chat2": "Posso ler qualquer livro só de tocá-lo. Até os que ninguém mais consegue.",
+    "Chat3": "Livros demoníacos não são perigosos. Provavelmente. Em geral.",
+    "Chat4": "Cuidado com essa página! É mais velha que a vila.",
+    "Chat5": "Akyuu diz que leio livros demoníacos demais. É só inveja.",
+    "Chat6": "Se eu desmaiar, não me coloque na seção de \"devoluções\".",
+    "Chat7": "Um dia também vou jogar danmaku, você vai ver!",
+    "Chat8": "Não se preocupe, trouxe uma lamparina. Ler no escuro faz mal aos olhos.",
+    "Chat9": "Senhorita Reimu! Não tenho lido nada estranho. Juro!",
+    "Chat10": "Senhorita Marisa, os livros que pegou emprestado estão muito atrasados.",
+    "Chat11": "Senhorita Mamizou! Tem alguma história nova para mim?",
+    "Chat12": "Você é aquela repórter... Não escreva sobre minha loja!",
+    "Chat13": "Vamos ver... \"Sobre a Invocação de Youkai de Fumaça\"...",
+    "Chat14": "Olá!",
+    "Chat15": "Ehehe~"
+  },
+  "Chat_Mamizou": {
+    "Chat1": "Não ligue para a cauda. Uma tanuki de respeito usa a sua com orgulho.",
+    "Chat2": "Precisa de um empréstimo? Assine aqui e aqui. Não se preocupe com as letras miúdas.",
+    "Chat3": "Enganar humanos é uma arte. Eu só faço isso com gentileza.",
+    "Chat4": "Velha? Quem você chamou de velha? Estou no auge, fique sabendo.",
+    "Chat5": "Sob a lua cheia, meus disfarces são perfeitos.",
+    "Chat6": "Uma bebida, uma boa história e uma boa pegadinha. Uma bela noite.",
+    "Chat7": "Sado é uma ilha de tanuki. Nenhuma raposa. Um lugar adorável.",
+    "Chat8": "Sentiu um cheiro? Deve ser o incenso. Com certeza é o incenso.",
+    "Chat9": "Kosuzu, menina. Mantenha esses livros quietos ou a sacerdotisa vai levá-los.",
+    "Chat10": "Hmpf. Sinto cheiro de raposa.",
+    "Chat11": "Kasen! Que tal uma revanche? Tenho treinado minha bebedeira.",
+    "Chat12": "Kokoro, a cada dia você parece mais você mesma.",
+    "Chat13": "Encontrou algo que valha um empréstimo, ratinha?",
+    "Chat14": "Hum? Deixe-me olhar mais de perto...",
+    "Chat15": "Fuu... nada como fumar em paz.",
+    "Chat16": "Agora você me vê..."
+  },
+  "Chat_Nazrin": {
+    "Chat1": "Perdeu alguma coisa? Eu encontro. Por uma taxa.",
+    "Chat2": "Minha mestra perderia a cabeça se não estivesse presa ao corpo.",
+    "Chat3": "O próprio Bishamonten me apoia, sabia? Demonstre respeito.",
+    "Chat4": "Estas varinhas nunca mentem. Eu, por outro lado...",
+    "Chat5": "Muenzuka está cheia de tesouros do mundo exterior. E sucata. Principalmente sucata.",
+    "Chat6": "Estou trabalhando. É assim que trabalhar se parece.",
+    "Chat7": "Tem queijo? É para meus ratos. E para mim.",
+    "Chat8": "Chiado? ...Não fui eu. Foi um dos meus ratos.",
+    "Chat9": "Senhora Hijiri. Minha mestra diz que não perdeu nada esta semana. Minha mestra está mentindo.",
+    "Chat10": "Capitã, se sua âncora sumir de novo, minhas tarifas aumentaram.",
+    "Chat11": "Perdida de novo, sombrinha? Posso encontrar alguém para você assustar.",
+    "Chat12": "Nem pense em penhorar minhas varinhas, tanuki.",
+    "Chat13": "A ladra da vassoura! Tire as mãos do meu tesouro.",
+    "Chat14": "Minhas varinhas estão tremendo... há um tesouro por perto!",
+    "Chat15": "Hum... por aqui.",
+    "Chat16": "Balance, pequeno cristal. Mostre-me.",
+    "Chat17": "Heh. Fácil demais."
+  },
+  "Chat_Suwako": {
+    "Chat1": "Kero kero~ Quer ver um truque de sapo?",
+    "Chat2": "Não se deixe enganar pelo rosto. Sou deusa há mais de dois mil anos.",
+    "Chat3": "Montanhas, rios, terra firme... me dê um minuto e movo um deles para você.",
+    "Chat4": "Não sou uma deusa dos sapos. Só gosto muito, muito de sapos.",
+    "Chat5": "O santuário Moriya? Kanako administra. Eu sou a dona.",
+    "Chat6": "Perdi uma guerra uma vez. Foi a melhor coisa que aconteceu à minha fé.",
+    "Chat7": "Um jogo? Claro! Quem perder paga o saquê.",
+    "Chat8": "Olhos no meu chapéu? Que olhos no meu chapéu?",
+    "Chat9": "Kanako, você não deveria estar reunindo fiéis? Estou cochilando.",
+    "Chat10": "Sanae! Lembrou de alimentar os sapos?",
+    "Chat11": "Você aí, fada do gelo. Descongele meus sapos.",
+    "Chat12": "Reimu, seu santuário precisa de mais sapos. E mais visitantes.",
+    "Chat13": "Pula, pula, pula!",
+    "Chat14": "Cuidado com o anel de ferro! É mais afiado do que parece.",
+    "Chat15": "Ahaha! Você precisava ver sua cara."
+  },
+  "Chat_Kanako": {
+    "Chat1": "Fé é como qualquer negócio. Você precisa de um bom produto e uma oferta melhor.",
+    "Chat2": "Já visitou o santuário Moriya? Agora o teleférico funciona todo dia.",
+    "Chat3": "Uma deusa deve acompanhar os tempos. Até com fusão nuclear, se atrair fiéis.",
+    "Chat4": "Um presente? Para mim? ...Bem, talvez eu possa lhe dar uma bênção.",
+    "Chat5": "Não ligue para o aro de corda. É um lembrete de quem venceu.",
+    "Chat6": "Vento e chuva obedecem a mim. Avise se sua plantação precisar.",
+    "Chat7": "Tradição é boa. Progresso é melhor.",
+    "Chat8": "Hmpf. Demonstre um pouco de reverência, sim?",
+    "Chat9": "Suwako, o santuário não vai se administrar sozinho.",
+    "Chat10": "Sanae, quantos novos fiéis esta semana?",
+    "Chat11": "Utsuho, como está o reator? Espero que nada esteja derretendo.",
+    "Chat12": "Kappa, sobre a manutenção do teleférico...",
+    "Chat13": "Reimu, posso lhe emprestar alguns fiéis. Por uma pequena taxa.",
+    "Chat14": "Contemple! O santuário Moriya lhe dá as boas-vindas.",
+    "Chat15": "Onbashira! Cuidado com os dedos dos pés.",
+    "Chat16": "Hahaha! Esplêndido."
+  },
+  "Chat_InuSakuya": {
+    "Chat1": "...Au.",
+    "Chat2": "O chá está pronto. Posso ganhar um petisco agora?",
+    "Chat3": "Sou a empregada-chefe. Também sou uma cachorra. As duas coisas são verdade.",
+    "Chat4": "...Aquilo é um graveto? Não. Sou uma profissional.",
+    "Chat5": "Posso parar o tempo se precisar. É só dizer \"senta\".",
+    "Chat6": "Minha cauda faz isso sozinha. Ignore, por favor.",
+    "Chat7": "Ojou-sama diz que sou uma boa menina. Eu concordo.",
+    "Chat8": "...Fumo.",
+    "Chat9": "Ojou-sama. ...Passeio?",
+    "Chat10": "...Quem é aquela? Ela parece muito familiar.",
+    "Chat11": "Guardiã do portão. Você estava dormindo de novo. Vou contar.",
+    "Chat12": "Jovem senhorita. Não puxe minhas orelhas, por favor.",
+    "Chat13": "Outra cachorra. ...Snif snif.",
+    "Chat14": "...Petisco?",
+    "Chat15": "Seu chá. Lembrei de como você gosta.",
+    "Chat16": "*sacode sacode*"
+  },
+  "Chat_Shion": {
+    "Chat1": "...Estou com fome.",
+    "Chat2": "Não fique tão perto. Minha má sorte pega.",
+    "Chat3": "Comida fica mais gostosa quando outra pessoa paga.",
+    "Chat4": "Estes avisos? Não são meus. ...Bem. São, sim.",
+    "Chat5": "Meu gato não tem nome. Nomes custam dinheiro.",
+    "Chat6": "Sou a deusa da pobreza. Deu para perceber, né?",
+    "Chat7": "Se eu cair, todo mundo cai comigo. É assim que funciona.",
+    "Chat8": "Você vai comer tudo isso?",
+    "Chat9": "Jo'on... pode me emprestar algum dinheiro?",
+    "Chat10": "Tenshi! ...Trouxe lanches?",
+    "Chat11": "Sacerdotisa. Sua caixa de doações está tão vazia quanto minha tigela.",
+    "Chat12": "Eremita. A comida daquele banquete não estava tão ruim.",
+    "Chat13": "...Você vai comer tudo isso? Sozinha?",
+    "Chat14": "Tem algo para comer?",
+    "Chat15": "Desculpe... está vazando de novo.",
+    "Chat16": "Haaah..."
+  },
+  "Chat_Joon": {
+    "Chat1": "Dinheiro foi feito para gastar. De preferência o dos outros.",
+    "Chat2": "Esta bolsa? Edição limitada. A única de Gensokyo. Bem, uma de três.",
+    "Chat3": "Não se preocupe com a conta, querida. Você vai pagar.",
+    "Chat4": "Ouro combina comigo, não combina?",
+    "Chat5": "Economizar dinheiro? Que tédio terrível.",
+    "Chat6": "Só de olhar sua carteira já me sinto mais rica.",
+    "Chat7": "Sou uma deusa da pestilência. A pestilência é para suas economias.",
+    "Chat8": "Minha irmã diz que gasto demais. Minha irmã não tem nada para gastar.",
+    "Chat9": "Irmã, pare de emburrar. Você está espantando os clientes.",
+    "Chat10": "Aff, a monja. Não vou voltar àquele templo.",
+    "Chat11": "Uma agiota, hein? Vamos falar de negócios, guaxinim.",
+    "Chat12": "Seu santuário parece... acessível.",
+    "Chat13": "Então você também é ladra? Cortesia profissional, nesse caso.",
+    "Chat14": "Ohohoho! Não é divertido?",
+    "Chat15": "Não encare. Custaram mais que sua casa.",
+    "Chat16": "Cara, eu ganho. Coroa, você paga."
+  },
+  "Chat_Momiji": {
+    "Chat1": "Relatório de patrulha: nada incomum. ...Exceto você. Você pode passar.",
+    "Chat2": "Meus olhos enxergam a mil ri. Meu nariz também não é ruim.",
+    "Chat3": "A maior parte do serviço de guarda é esperar. Sou muito boa nisso.",
+    "Chat4": "De folga? Uma tengu loba branca nunca está de folga.",
+    "Chat5": "A Grande Tengu vai querer um relatório sobre você. Serei breve.",
+    "Chat6": "Dai shogi tem mais peças do que a montanha tem tengu. Quase.",
+    "Chat7": "Escudo erguido, espada pronta. Agora esperamos.",
+    "Chat8": "Não vá longe. Vou encontrar você, mas haverá papelada.",
+    "Chat9": "Kappa. Sua camuflagem óptica está piscando de novo.",
+    "Chat10": "Seu jornal errou meu nome de novo.",
+    "Chat11": "Deusa. Minhas ordens ainda são ficar de olho em você.",
+    "Chat12": "Sacerdotisa do vento, avise antes de voar sobre terras tengu.",
+    "Chat13": "Outra guardiã. ...Turno longo?",
+    "Chat14": "Vejo tudo daqui.",
+    "Chat15": "Hum... não. Sim. Essa.",
+    "Chat16": "Quem vem lá?!"
+  },
+  "Replies": {
+    "Kasen11": "Treino? Eu bato em youkai toda semana. Isso conta.",
+    "Kasen12": "Quem, eu? Nunca! ...Não sóbria, pelo menos.",
+    "Kasen13": "Só estou pegando emprestado até morrer, ze!",
+    "Kasen22": "Hah! Esconder-se nunca combinou com você.",
+    "Kasen23": "Estou trabalhando. Estou de olho numa certa eremita.",
+    "Kasen24": "Mas eu nem perguntei ainda, querida.",
+    "Yuugi9": "Só se você trouxer a taça de saquê!",
+    "Yuugi10": "Não fale tão alto! ...E são capas de coque.",
+    "Yuugi11": "Não precisa. Você estava pensando em saquê de novo.",
+    "Yuugi12": "Não se acostume.",
+    "Komachi9": "Cuide da sua barca, shinigami.",
+    "Komachi10": "Hoje não. A menos que tenha trazido lanches para a viagem?",
+    "Komachi11": "Então pare de enrolar onde estou podando!",
+    "Seiga8": "Pelo menos não sou uma eremita maligna.",
+    "Seiga9": "Deixe alguma coisa nela e eu penso no assunto.",
+    "Aunn9": "Mais ou menos? ...Bem, já é mais do que eu fiz.",
+    "Aunn10": "Esplêndido. Agora proteja um pouco mais em silêncio.",
+    "Okina9": "Diz aquela que se esconde atrás das costas dos outros.",
+    "Okina10": "Hehe! Vou continuar!",
+    "Byakuren8": "Tudo por você, Hijiri! Todos a bordo!",
+    "Byakuren9": "Ei, sombra é meu trabalho! ...Surpresa?",
+    "Byakuren10": "Vindo de você, isso significa muito.",
+    "Byakuren13": "...Não pergunte. E não diga que eu contei.",
+    "Byakuren14": "Bah. Só venho pelo chá.",
+    "Kasen25": "Fwahaha! Então me vença na bebida de novo e eu paro.",
+    "Kosuzu9": "Então por que esse livro está brilhando?",
+    "Kosuzu10": "Atrasados? Ainda estou lendo! ...Devagar.",
+    "Kosuzu11": "Muitas, menina. Sirva um chá para esta tanuki e conto uma.",
+    "Kosuzu12": "Tarde demais! Vai para a primeira página.",
+    "Mamizou9": "Vou escondê-los sob o balcão. Obrigada, senhorita Mamizou!",
+    "Mamizou10": "E eu sinto cheiro de tanuki molhada. Encantador.",
+    "Mamizou11": "Perder uma vez não foi suficiente?",
+    "Mamizou12": "...Obrigada. Esta é minha máscara feliz.",
+    "Mamizou13": "Mesmo que tivesse, não contaria a uma agiota.",
+    "Nazrin9": "Então ajude-a a encontrar antes que precise pedir.",
+    "Nazrin10": "É uma âncora, Nazrin. É para afundar!",
+    "Nazrin11": "Sério? Aponte alguém fácil de assustar!",
+    "Nazrin12": "Fwahaha! Eu só empresto, querida. Nunca penhoro.",
+    "Nazrin13": "Tesouro? Onde? Só estou pegando emprestado!",
+    "Kasen26": "Fé não é de graça, eremita. Manutenção também não.",
+    "Aunn14": "...Eu protejo o chá.",
+    "Suwako9": "Algumas de nós administram um santuário, Suwako.",
+    "Suwako10": "Sim, senhora Suwako. Os quarenta sapos.",
+    "Suwako11": "Me obrigue! ...Espere, você é um sapo?",
+    "Suwako12": "Aceito os visitantes. Fique com os sapos.",
+    "Kanako9": "Claro que vai. É para isso que você serve!",
+    "Kanako10": "Três! ...Bem, dois e um kappa.",
+    "Kanako11": "Só um pouquinho! Está tudo bem!",
+    "Kanako12": "Pagamento adiantado, deusa. Aceito pepinos.",
+    "Kanako13": "...Qual é a taxa?",
+    "InuSakuya9": "Depois. Senta. ...Boa menina.",
+    "InuSakuya10": "Eu poderia perguntar o mesmo.",
+    "InuSakuya11": "Não, não, eu estava meditando! Não conte!",
+    "InuSakuya12": "Mas são tão molinhas!",
+    "InuSakuya13": "Oi! Você também é uma cachorra guardiã?",
+    "Shion9": "De jeito nenhum. Você perderia até o pôr do sol.",
+    "Shion10": "Pêssegos do Paraíso! ...Mais para mim, mas tudo bem.",
+    "Shion11": "Ei! A minha recebe uma moeda de vez em quando!",
+    "Shion12": "Estava horrível, Shion. Você só estava com fome suficiente para elogiar.",
+    "Shion13": "Claro~ Pode ficar com o que sobrar. Não vai sobrar nada.",
+    "Joon9": "Não estou emburrada. ...Estou com fome.",
+    "Joon10": "A porta está sempre aberta, Jo'on. Mesmo depois de você fugir por ela.",
+    "Joon11": "Tanuki, querida. E meus juros arruinariam você.",
+    "Joon12": "Nem pense nisso. A caixa está vazia!",
+    "Joon13": "Só estou pegando emprestado, ze! ...Ei, essa bolsa é de ouro de verdade?",
+    "Momiji9": "O-o quê? É um protótipo! Pare de olhar tanto!",
+    "Momiji10": "Errou? Ayaya, os leitores nem perceberam.",
+    "Momiji11": "Então diga a seus superiores que estou me comportando. Em geral.",
+    "Momiji12": "Desculpe! Vou apresentar um plano de voo da próxima vez!",
+    "Momiji13": "O mais longo! Quer fazer guarda comigo?",
+    "Kasen27": "...Mas era de graça.",
+    "Aunn15": "A montanha inteira. Você só tem um santuário?",
+    "Byakuren15": "Só quem pode pagar. Você me ensinou isso."
+  }
+}

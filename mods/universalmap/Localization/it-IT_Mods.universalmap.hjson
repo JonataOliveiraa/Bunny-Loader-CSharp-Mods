@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Mappa Universale",
+      "Interval": {
+        "Label": "Intervallo"
+      },
+      "Notifications": {
+        "Label": "Notifiche"
+      },
+      "Headers": {
+        "Sync": "Sincronizzazione"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Mappa aggiornata: {0} nuove caselle da altri giocatori.",
+    "Sharing": "Condivisione della mappa con gli altri giocatori...",
+    "MultiplayerOnly": "La Mappa Universale funziona solo in multigiocatore."
+  }
+}

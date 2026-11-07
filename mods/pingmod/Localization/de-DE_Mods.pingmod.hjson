@@ -1,0 +1,45 @@
+{
+  "Configs": {
+    "PingConfig": {
+      "IconStyle": {
+        "Label": "Symbolstil"
+      },
+      "PingSyncTimer": {
+        "Label": "Ping-Aktualisierung"
+      },
+      "ShowIndicator": {
+        "Label": "Anzeige einblenden"
+      },
+      "AttachToHealthBar": {
+        "Label": "Neben der Lebensleiste"
+      }
+    },
+    "PingIconStyle": {
+      "BasicPurple": {
+        "Label": "Lila"
+      },
+      "Basic": {
+        "Label": "Einfach"
+      },
+      "DSi": {
+        "Label": "Nintendo DSi"
+      },
+      "Gold": {
+        "Label": "Gold"
+      },
+      "BasicLight": {
+        "Label": "Einfach Hell"
+      },
+      "Fancy": {
+        "Label": "Gold Edel"
+      },
+      "Minecraft": {
+        "Label": "Minecraft"
+      }
+    }
+  },
+  "Text": {
+    "IconConfigText": "Ping-System einstellen",
+    "PingText": "Sekunden bis Aktualisierung"
+  }
+}

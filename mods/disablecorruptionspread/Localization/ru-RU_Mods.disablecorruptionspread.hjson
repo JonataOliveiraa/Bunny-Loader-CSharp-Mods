@@ -1,0 +1,8 @@
+{
+  "EnableCorruptionSpread": "Включить распространение порчи",
+  "DisableCorruptionSpread": "Отключить распространение порчи",
+  "CorruptionSpreadDisabledMessage": "Распространение порчи теперь отключено. Порча не будет распространяться.",
+  "CorruptionSpreadEnabledMessage": "Распространение порчи теперь включено. Порча будет распространяться как обычно.",
+  "OnEnterWorldWarnCorruptionSpreadEnabled": "Предупреждение: распространение порчи включено. Порча будет распространяться как обычно. Используйте /spread в чате, чтобы снова отключить распространение.",
+  "UseHerosButtonInstead": "Использовать кнопку HERO's Mod'а."
+}

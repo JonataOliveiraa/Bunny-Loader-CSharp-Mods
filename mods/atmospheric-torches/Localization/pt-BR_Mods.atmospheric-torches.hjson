@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Desativar oscilação das tochas"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Escala de brilho"
+      }
+    }
+  }
+}

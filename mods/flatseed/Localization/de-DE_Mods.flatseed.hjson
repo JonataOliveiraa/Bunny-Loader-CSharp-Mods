@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "Eine Welt so flach, dass du ohne Angst rennen kannst, in ein Loch zu stolpern! Die Höhlen warten trotzdem da unten."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Die Welt wird eingeebnet..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Höhe der Oberfläche"
+      },
+      "FillChasms": {
+        "Label": "Spalten füllen"
+      },
+      "SmoothBeaches": {
+        "Label": "Strandrampen"
+      }
+    }
+  }
+}

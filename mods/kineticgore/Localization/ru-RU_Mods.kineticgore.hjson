@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Стрелы застревают во врагах"
+      },
+      "EnableHeadBanging": {
+        "Label": "Хедбэнгинг (музыка)"
+      },
+      "CorpseDuration": {
+        "Label": "Время жизни трупов"
+      },
+      "DismembermentChance": {
+        "Label": "Шанс расчленения"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Старая физика рэгдоллов"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Столкновение рэгдоллов"
+      },
+      "MaxCorpses": {
+        "Label": "Максимум трупов"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Количество крови"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Количество ошмётков"
+      },
+      "BloodScale": {
+        "Label": "Размер крови"
+      },
+      "BloodVelocity": {
+        "Label": "Скорость крови"
+      },
+      "EnableStickyBlood": {
+        "Label": "Липкая кровь"
+      },
+      "StickyBloodDuration": {
+        "Label": "Кровь на земле"
+      },
+      "BleedDuration": {
+        "Label": "Кровотечение из шеи"
+      },
+      "Gravity": {
+        "Label": "Гравитация"
+      },
+      "Bounciness": {
+        "Label": "Упругость"
+      },
+      "Friction": {
+        "Label": "Трение"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Сила отбрасывания"
+      },
+      "HeadBobIntensity": {
+        "Label": "Покачивание головы"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Отдёргивание головы"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Обратное отдёргивание"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Жёсткость шеи"
+      },
+      "HeadSpringDamping": {
+        "Label": "Затухание шеи"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Колыхание"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Жёсткость слизней"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Затухание слизней"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Высота жителей"
+      },
+      "Headers": {
+        "QualityOfLife": "Удобство",
+        "GeneralSettings": "Общие",
+        "BloodSettings": "Кровь",
+        "PhysicsSettings": "Физика",
+        "HeadPhysics": "Головы гуманоидов",
+        "SlimePhysics": "Желе слизней",
+        "VisualAdjustments": "Визуальные настройки"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Физический труп"
+    },
+    "StuckArrow": {
+      "DisplayName": "Застрявшая стрела"
+    }
+  }
+}

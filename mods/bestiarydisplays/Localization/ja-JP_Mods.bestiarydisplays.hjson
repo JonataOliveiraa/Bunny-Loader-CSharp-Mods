@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "生き物",
+    "None": "（なし）",
+    "Animate": "アニメーション",
+    "Hologram": "ホログラム効果",
+    "AltRender": "別の描画",
+    "Scale": "拡大率",
+    "OffsetX": "Xオフセット",
+    "OffsetY": "Yオフセット",
+    "Rotation": "回転",
+    "AnimSpeed": "アニメ遅延",
+    "InvisibleTile": "透明ブロック",
+    "InvisibleWarning": "注意：透明なプロジェクターは見つけにくくなります。",
+    "PickerTitle": "生き物を選択",
+    "SearchHint": "名前で検索...",
+    "Close": "閉じる",
+    "Back": "戻る",
+    "Empty": "まだ解放された生き物がいない。"
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "ホログラムプロジェクター",
+      "Tooltip": "解放済みの図鑑の生き物をホログラムとして映し出す。設置後にタップして設定できる。"
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "アダマンタイトのホログラムプロジェクター",
+      "Tooltip": "高性能なプロジェクター。図鑑の進行状況を無視し、より大きなホログラムを映せる。"
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "チタンのホログラムプロジェクター",
+      "Tooltip": "高性能なプロジェクター。図鑑の進行状況を無視し、より大きなホログラムを映せる。"
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "ホログラムプロジェクター"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "アダマンタイトのホログラムプロジェクター"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "チタンのホログラムプロジェクター"
+    }
+  }
+}

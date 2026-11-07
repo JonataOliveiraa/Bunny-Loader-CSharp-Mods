@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Fackelflackern deaktivieren"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Helligkeitsskala"
+      }
+    }
+  }
+}

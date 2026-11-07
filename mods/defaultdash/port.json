@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "defaultdash",
+    "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
+    "version": "1.0.0",
+    "sha256": "9bf10fc73fc74578a4b64641fd7956709ecb34d962471a315fcc5a56bd140256"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Updated from the old C# mod API to the current one, with the same behavior."
+}

@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "展示台",
+      "Tooltip": "タップで手に持ったアイテムを展示台に置きます"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "展示台",
+      "Tooltip": "タップで手に持ったアイテムを展示台に置きます"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "展示台"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "展示設定",
+      "UseBrightness": {
+        "Label": "明るく表示"
+      },
+      "UseOutline": {
+        "Label": "輪郭"
+      },
+      "UseGlitter": {
+        "Label": "キラキラ"
+      },
+      "LightIntensity": {
+        "Label": "光"
+      },
+      "Headers": {
+        "Effects": "効果"
+      }
+    }
+  }
+}

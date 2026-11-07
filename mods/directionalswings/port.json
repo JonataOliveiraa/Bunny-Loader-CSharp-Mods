@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "directionalswings",
+    "uid": "cece9409-844d-476a-8953-1a59de78db92",
+    "version": "1.1.1",
+    "sha256": "c38525616daab42fe75799ec0d9428da7a5fb25e87d5a8570fc01b4e3569e87a"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior. Added the standard MIT text, because the original only declared MIT in its manifest."
+}

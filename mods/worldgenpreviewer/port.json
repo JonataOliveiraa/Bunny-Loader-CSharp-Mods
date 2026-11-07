@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "worldgenpreviewer",
+    "uid": "55e1d4c5-3dc5-4c73-acaa-52a5bf0750f5",
+    "version": "1.2.0",
+    "sha256": "fdf9f657990f697a7d2cf0e7a1a435bc6beda6fcdc29627cffedb7374e139a96"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. Pausing is always available, because the worker thread can simply sleep in C#. The flags shared with the worker thread are volatile, because both threads really run at once. Show in World for the config does not exist in C#, so its two options also show in the pause menu. Repeating a step restarts Main.rand from the seed but not WorldGen.genRand, as the original did on this version of the game: there is no field behind it to replace. After a cancel the world list reloads with Main.LoadWorlds(), whose parameterless form named by the original does not exist in this version of the game."
+}

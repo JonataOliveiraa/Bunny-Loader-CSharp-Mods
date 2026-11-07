@@ -1,0 +1,45 @@
+{
+  "Configs": {
+    "PingConfig": {
+      "IconStyle": {
+        "Label": "Style d'icône"
+      },
+      "PingSyncTimer": {
+        "Label": "Actualisation du ping"
+      },
+      "ShowIndicator": {
+        "Label": "Afficher l'indicateur"
+      },
+      "AttachToHealthBar": {
+        "Label": "À côté de la barre de vie"
+      }
+    },
+    "PingIconStyle": {
+      "BasicPurple": {
+        "Label": "Violet"
+      },
+      "Basic": {
+        "Label": "Basique"
+      },
+      "DSi": {
+        "Label": "Nintendo DSi"
+      },
+      "Gold": {
+        "Label": "Or"
+      },
+      "BasicLight": {
+        "Label": "Basique Clair"
+      },
+      "Fancy": {
+        "Label": "Or Élégant"
+      },
+      "Minecraft": {
+        "Label": "Minecraft"
+      }
+    }
+  },
+  "Text": {
+    "IconConfigText": "Configurer le ping",
+    "PingText": "Secondes entre mesures"
+  }
+}

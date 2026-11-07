@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "Regard"
+      },
+      "FaceCursor": {
+        "Label": "Face au Curseur"
+      },
+      "LeaningType": {
+        "Label": "Inclinaison"
+      },
+      "LeanStrength": {
+        "Label": "Force"
+      },
+      "EnableMountLeaning": {
+        "Label": "Montures"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "Cacher Cou"
+      },
+      "DisableRopeTurning": {
+        "Label": "Pas sur Corde"
+      },
+      "EnableFlickeringFix": {
+        "Label": "Anti-Scintil."
+      },
+      "NPCLeaningType": {
+        "Label": "Inclinaison PNJ"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "Slimes"
+      },
+      "EnableZombieLeaning": {
+        "Label": "Zombies"
+      },
+      "EnableCritterLeaning": {
+        "Label": "Bestioles"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "PNJ du Village"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "Tous"
+      },
+      "Headers": {
+        "Player": "Joueur",
+        "Creatures": "Créatures"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "Non"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Clamped": {
+        "Label": "Limité"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "Jamais"
+      },
+      "Always": {
+        "Label": "Toujours"
+      },
+      "UsingItem": {
+        "Label": "Avec Objet"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "Non"
+      },
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Alternate": {
+        "Label": "Alterné"
+      },
+      "Spin": {
+        "Label": "Rotation"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "Standard"
+      },
+      "Spin": {
+        "Label": "Rotation"
+      }
+    }
+  }
+}

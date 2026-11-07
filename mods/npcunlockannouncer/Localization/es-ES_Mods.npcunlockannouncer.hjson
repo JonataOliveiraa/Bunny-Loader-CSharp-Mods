@@ -1,0 +1,208 @@
+{
+  "NPCTitles": {
+    "Guide": {
+      "Title": "EL GUÍA",
+      "Subtitle": "Sabe todo… excepto cómo sobrevivir.|Consejos gratis, muertes incluidas.|Tu primer amigo. Tu primera pérdida.|Manual viviente con esperanza limitada.|Siempre listo para ayudar. Nunca para huir."
+    },
+    "Merchant": {
+      "Title": "EL MERCADER",
+      "Subtitle": "El dinero sí compra la felicidad.|Si no lo vende él, no existe.|Negocios primero, moral después.|Acepta monedas. No acepta excusas.|Tu billetera tiembla al verlo."
+    },
+    "Nurse": {
+      "Title": "LA ENFERMERA",
+      "Subtitle": "Curarte es fácil. Cobrarte también.|Sanación exprés, factura inmediata.|La vida no es gratis, cariño.|Menos dolor, más deudas.|Primero te salva. Luego te arruina."
+    },
+    "Demolitionist": {
+      "Title": "EL DEMOLEDOR",
+      "Subtitle": "Soluciona todo… con explosiones.|Más bombas, menos preguntas.|Sonríe antes de detonar.|Especialista en daños colaterales.|Si hace boom, funciona."
+    },
+    "DyeTrader": {
+      "Title": "EL VENDEDOR DE TINTES",
+      "Subtitle": "El estilo también se farmea.|Color hoy, combinación dudosa mañana.|La moda es sufrimiento.|Teñir es un arte. A veces.|Nunca combina, pero siempre vende."
+    },
+    "Dryad": {
+      "Title": "LA DRÍADA",
+      "Subtitle": "La naturaleza te está juzgando.|Menos corrupción, más regaños.|Habla con plantas. Te ignora a ti.|Eco-friendly y muy pasivo-agresiva.|Ama la selva. Tolera al jugador."
+    },
+    "ArmsDealer": {
+      "Title": "EL VENDEDOR DE ARMAS",
+      "Subtitle": "La paz nunca fue una opción.|Armas legales… probablemente.|Dispara primero, pregunta después.|Munición para todo problema.|Sonríe como villano de película."
+    },
+    "Stylist": {
+      "Title": "LA ESTILISTA",
+      "Subtitle": "Cortes dramáticos para vidas peligrosas.|Tu look no sobrevivirá a la luna.|Belleza antes del apocalipsis.|Peinarse también es valentía.|Transformaciones sin garantía."
+    },
+    "Painter": {
+      "Title": "EL PINTOR",
+      "Subtitle": "Ve el mundo en colores raros.|Arte incomprendido, precios inflados.|Pinta sueños… y paredes.|Inspirado, pero perdido.|Genio creativo, cero contexto."
+    },
+    "Angler": {
+      "Title": "EL PESCADOR",
+      "Subtitle": "Niño prodigio del fastidio.|Más misiones, menos gratitud.|Nunca está satisfecho.|Pesca rara, actitud peor.|El verdadero jefe final."
+    },
+    "GoblinTinkerer": {
+      "Title": "EL DUENDE CHAPUCERO",
+      "Subtitle": "Reforja hoy, llora mañana.|El azar es parte del encanto.|Romper también cuenta como mejorar.|Confía en mí. No deberías.|Tu accesorio ya no es el mismo."
+    },
+    "WitchDoctor": {
+      "Title": "EL MÉDICO BRUJO",
+      "Subtitle": "Medicina alternativa, resultados dudosos.|La selva aprueba esto.|Veneno, vudú y estilo.|No preguntes qué es.|Curar no, potenciar."
+    },
+    "Clothier": {
+      "Title": "EL SASTRE",
+      "Subtitle": "Elegante, maldito y bien vestido.|La moda nunca muere. Tú sí.|Trajes con historia oscura.|Costura con trauma incluido.|El pasado lo sigue."
+    },
+    "Mechanic": {
+      "Title": "LA MECÁNICA",
+      "Subtitle": "Cables > personas.|Si falla, agrega más palancas.|Ama los mecanismos. Odia explicarlos.|Trampas que sí funcionan.|Ingeniería con actitud."
+    },
+    "PartyGirl": {
+      "Title": "LA CHICA FIESTERA",
+      "Subtitle": "Confeti antes que lógica.|Todo es mejor con globos.|Fiesta incluso en el apocalipsis.|Nunca se cansa. Nunca.|Peligro nivel: divertido."
+    },
+    "DD2Bartender": {
+      "Title": "EL TABERNERO",
+      "Subtitle": "Historias largas, cerveza corta.|Sirviendo Etheria desde siempre.|Un trago antes de morir.|Misiones con resaca.|El único sobrio es el jugador."
+    },
+    "Golfer": {
+      "Title": "EL GOLFISTA",
+      "Subtitle": "Huyó del desierto por el golf.|Todo es un hoyo potencial.|Golpea primero, apunta después.|La paciencia es opcional.|El green es sagrado."
+    },
+    "BestiaryGirl": {
+      "Title": "LA ZOÓLOGA",
+      "Subtitle": "Amor animal en exceso.|Quiere tocarlos todos.|Investigación muy de cerca.|Demasiado entusiasmo.|Ciencia con abrazos."
+    },
+    "Wizard": {
+      "Title": "EL MAGO",
+      "Subtitle": "Sabio, poderoso y algo loco.|Magia primero, sentido común después.|Conocimiento arcano sin filtro.|La bola no miente.|Hechizos y egos."
+    },
+    "TaxCollector": {
+      "Title": "EL RECAUDADOR DE IMPUESTOS",
+      "Subtitle": "El infierno cobra intereses.|La muerte no lo detuvo.|Impuestos eternos.|No negocia.|El más temido."
+    },
+    "Truffle": {
+      "Title": "TRUFA",
+      "Subtitle": "Hongo con personalidad.|Demasiado chill para este mundo.|Vive, ríe, esporas.|No es comida.|Vibra fungi."
+    },
+    "Pirate": {
+      "Title": "EL PIRATA",
+      "Subtitle": "Ron, cañones y gritos.|Arrr con orgullo.|Tesoro o nada.|Nunca paga impuestos.|El mar lo llama."
+    },
+    "Steampunker": {
+      "Title": "LA STEAMPUNKER",
+      "Subtitle": "Ciencia con estilo.|Odia lo antiguo.|Engranajes sobre magia.|El futuro es ahora.|Vapor y actitud."
+    },
+    "Cyborg": {
+      "Title": "EL CYBORG",
+      "Subtitle": "Optimizado para destruir.|Menos humano, más armas.|Cálculo balístico constante.|No siente… pero dispara.|Tecnología hostil."
+    },
+    "SantaClaus": {
+      "Title": "SANTA CLAUS",
+      "Subtitle": "Regalos con condiciones.|Observando todo.|La lista no miente.|Navidad armada.|Ho ho… cuidado."
+    },
+    "Princess": {
+      "Title": "LA PRINCESA",
+      "Subtitle": "Elegancia inexplicable.|No hace nada. Perfectamente.|La más feliz aquí.|Vive su mejor vida.|Royal vibes."
+    },
+    "TravellingMerchant": {
+      "Title": "MERCADER AMBULANTE",
+      "Subtitle": "Hoy sí, mañana quién sabe.|Inventario impredecible.|Compra rápido.|Nunca explica nada.|Se va sin avisar."
+    },
+    "SkeletonMerchant": {
+      "Title": "MERCADER ESQUELETO",
+      "Subtitle": "Negocios nocturnos.|Huesos y azar.|Precios mortales.|No tiene piel en el juego.|Literalmente sin escrúpulos."
+    },
+    "Default": {
+      "Subtitle": "Un nuevo aliado se une a la causa."
+    }
+  },
+  "Configs": {
+    "AnnouncerConfig": {
+      "DisplayName": "Anuncio de PNJ",
+      "Style": {
+        "Label": "Estilo"
+      },
+      "Sound": {
+        "Label": "Sonido"
+      },
+      "SoundVolume": {
+        "Label": "Volumen"
+      },
+      "DurationSeconds": {
+        "Label": "Duración"
+      },
+      "Frequency": {
+        "Label": "Frecuencia"
+      },
+      "MaxAnnouncementsPerNPC": {
+        "Label": "Máx. por PNJ"
+      },
+      "Headers": {
+        "General": "General"
+      }
+    },
+    "BannerStyle": {
+      "Classic": {
+        "Label": "Clásico"
+      },
+      "Modern": {
+        "Label": "Moderno"
+      },
+      "Corruption": {
+        "Label": "Corrupción"
+      },
+      "Crimson": {
+        "Label": "Carmesí"
+      },
+      "Wood": {
+        "Label": "Madera"
+      },
+      "Jungle": {
+        "Label": "Selva"
+      }
+    },
+    "BannerSound": {
+      "None": {
+        "Label": "Ninguno"
+      },
+      "MagicDing": {
+        "Label": "Tintineo Mágico"
+      },
+      "Coins": {
+        "Label": "Monedas"
+      },
+      "MaxMana": {
+        "Label": "Maná Máx."
+      },
+      "ResearchComplete": {
+        "Label": "Investigación"
+      },
+      "ChestUnlock": {
+        "Label": "Cofre Abierto"
+      },
+      "Crimson": {
+        "Label": "Carmesí"
+      },
+      "Knock": {
+        "Label": "Golpe"
+      },
+      "Jungle": {
+        "Label": "Selva"
+      },
+      "Corruption": {
+        "Label": "Corrupción"
+      }
+    },
+    "AnnounceFrequency": {
+      "FirstTimeOnly": {
+        "Label": "Primera Vez"
+      },
+      "EveryTime": {
+        "Label": "Cada Vez"
+      },
+      "SetAmount": {
+        "Label": "Cantidad Fija"
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "NPCs": {
+    "Mita": {
+      "DisplayName": "Mita",
+      "StandartMitaDialogue": {
+        "Greeting1": "¡Encantada de conocerte, {0}!",
+        "Greeting2": "¡Hola! ¡Soy Mita!",
+        "NightPhrase1": "¿Quiééén eres?",
+        "NightPhrase2": "Déjame dormir...",
+        "NightPhrase3": "¿Eh?",
+        "NightPhrase4": "¿Estás en las nubes?",
+        "NightPhrase5": "Ajá.",
+        "NightPhrase6": "¿Qué?",
+        "NightPhrase7": "Estoy perfectamente...",
+        "YouUsingDigitsInName": "Ah, ¿vas a usar números? ¿Dónde está la creatividad?"
+      },
+      "MitaCappieDialogue": {
+        "Greeting1": "¡Buenas!",
+        "Greeting2": "¡Soy Mita!",
+        "Phrase1": "¡Ups!",
+        "Phrase2": "¡Ah, tú!",
+        "Phrase3": "¡Yuju!",
+        "Phrase4": "¡Tsk, tsk, tsk!",
+        "Phrase5": "¡Vaya manera de sacudirte!"
+      },
+      "MilaDialogue": {
+        "Greeting1": "Soy Mila.",
+        "Greeting2": "¿Qué quieres?",
+        "Greeting3": "¡Soy Mila, entendido! No como las demás.",
+        "Greeting4": "¡Soy Mila y punto!",
+        "Phrase1": "Si mi casa explota, ¡tú también mueres, que lo sepas!",
+        "Phrase2": "¡No me hagas enfadar!",
+        "Phrase3": "Sí...",
+        "Phrase4": "¡Témeme!",
+        "Phrase5": "¡Ay!",
+        "Phrase6": "¡Aah!",
+        "Phrase7": "¡Oh!",
+        "Phrase8": "Perdón, no era mi intención.",
+        "Phrase9": "¿Por qué me miras fijamente?",
+        "Phrase10": "¡No me mires durante tanto tiempo!",
+        "Phrase11": "Tonto...",
+        "Phrase12": "¡Es de mala educación quedarse mirando a una chica!",
+        "Phrase13": "¡Fuera!",
+        "Phrase14": "¿Por qué no hablamos?",
+        "Phrase15": "¿Te ha comido la lengua el gato?",
+        "Phrase16": "¡No quiero saber nada más de las zanahorias!",
+        "Phrase17": "¡No me gustan los fetichistas! Los que adoran las zanahorias, las cosas obscenas...",
+        "Phrase18": "Pon una cara normal.",
+        "Phrase19": "¡Uf, estoy harta de esa zanahoria!",
+        "Phrase20": "¡Ah, has vuelto otra vez!"
+      }
+    },
+    "MiSidePlayer": {
+      "DisplayName": "Jugador (MiSide)",
+      "Phrase1": "Hmmm...",
+      "Phrase2": "¿Dónde estoy?",
+      "Phrase3": "Me late muy fuerte el corazón y veo borroso.",
+      "Phrase4": "Paso mucho tiempo frente al ordenador... Trabajando.",
+      "Phrase5": "He aparecido aquí de repente... No estoy preparado para esto.",
+      "Phrase6": "Me estoy acostumbrando.",
+      "Phrase7": "¿Eh?",
+      "Phrase8": "¿Qué lugar es este?",
+      "Phrase9": "He visto muchas... cosas extrañas.",
+      "Phrase10": "Eh...",
+      "Phrase11": "Hmm... ¿Qué lugar es este?",
+      "Phrase12": "Creo que me gusta este juego.",
+      "Phrase13": "Me gustan los gatitos.",
+      "Phrase14": "Ajá."
+    },
+    "Mila": {
+      "DisplayName": "Mila"
+    },
+    "Cappie": {
+      "DisplayName": "Cappie"
+    }
+  },
+  "Items": {
+    "MitasCap": {
+      "DisplayName": "Gorra de Mita",
+      "Tooltip": "¡Es la misma de siempre!\nObjeto de apariencia."
+    },
+    "TravelRing": {
+      "DisplayName": "Anillo de viaje",
+      "Tooltip": "Aumenta la velocidad de movimiento un 10%\nUsa el botón táctil Anillo de viaje para teletransportarte al cursor.\nRecarga de 20 segundos (Estado de caos). Equípalo como accesorio.\nAñade el botón en Ajustes > Controles > Editar."
+    },
+    "Carrot": {
+      "DisplayName": "Zanahoria",
+      "Tooltip": "Mejora moderadamente todos los atributos durante 3 minutos\n'Y luego cortar zanahorias, y luego...'"
+    },
+    "MartialArtsManual": {
+      "DisplayName": "Manual de artes marciales",
+      "Tooltip": "Aumenta permanentemente el daño cuerpo a cuerpo un 10%\nSolo se puede usar una vez por personaje."
+    },
+    "ShootersManual": {
+      "DisplayName": "Manual del tirador",
+      "Tooltip": "Aumenta permanentemente el daño a distancia un 10%\nSolo se puede usar una vez por personaje."
+    },
+    "MagiciansManual": {
+      "DisplayName": "Manual del mago",
+      "Tooltip": "Aumenta permanentemente el daño mágico un 10%\nSolo se puede usar una vez por personaje."
+    },
+    "PokemonManual": {
+      "DisplayName": "Manual Pokémon",
+      "Tooltip": "Aumenta permanentemente el daño de invocación un 10%\nSolo se puede usar una vez por personaje."
+    },
+    "GameConsole": {
+      "DisplayName": "Consola de videojuegos",
+      "Tooltip": "Invoca a la Mosca, una mascota que te sigue e ilumina el camino."
+    },
+    "Ramen": {
+      "DisplayName": "Ramen",
+      "Tooltip": "Mejora mucho todos los atributos durante 8 minutos."
+    },
+    "AlarmClock": {
+      "DisplayName": "Despertador",
+      "Tooltip": "Invoca a Mita rota, una mascota que te sigue."
+    },
+    "GameCartridge": {
+      "DisplayName": "Cartucho de videojuego",
+      "Tooltip": "Lanza un cartucho de videojuego contra los enemigos\nRegresa tras golpear a un enemigo o una pared."
+    },
+    "MilasBook": {
+      "DisplayName": "Libro de Mila",
+      "Tooltip": "Dispara números y letras\n'¡El poder del conocimiento!'"
+    }
+  },
+  "Keybinds.TravelRingHotKey.DisplayName": "Anillo de viaje",
+  "Buffs": {
+    "GameConsoleBuff": {
+      "DisplayName": "Mosca",
+      "Description": "La Mosca te sigue"
+    },
+    "AlarmClockBuff": {
+      "DisplayName": "Mita rota",
+      "Description": "Mita rota te sigue"
+    }
+  },
+  "Projectiles": {
+    "FlyPetProjectile.DisplayName": "Mosca",
+    "BrokenMitaPetProjectile.DisplayName": "Mita rota",
+    "GameCartridgeProjectile.DisplayName": "Cartucho de videojuego",
+    "MilasBookProjectile.DisplayName": "Libro de Mila",
+    "TownMeleeStrike.DisplayName": "Ataque de habitante"
+  },
+  "NPCName": {
+    "Mita": "Mita",
+    "MiSidePlayer": "Jugador (MiSide)",
+    "Mila": "Mila",
+    "Cappie": "Cappie"
+  },
+  "Bestiary": {
+    "Mita": "Mita es la protagonista de MiSide y se presenta como una chica encantadora e inocente.\nSin embargo, bajo su aspecto dulce y amable esconde un oscuro secreto.\nLo oculta para conservar su amistad con el jugador y mantener su apariencia de inocencia.",
+    "MiSidePlayer": "Agotado emocionalmente, reservado e introspectivo, le cuesta mostrar alegría abiertamente.\nSuele dudar de sus propias palabras y decisiones, pero compensa esa inseguridad con una determinación silenciosa.",
+    "Mila": "Mila es excéntrica y desafiante, y se esfuerza por distinguirse de las demás Mitas.\nSus actos sugieren que el jugador es su primera visita en años. A pesar de su sarcasmo,\nintenta discretamente mantenerlo cerca, dejando ver su deseo de tener compañía.",
+    "Cappie": "Cappie es alegre, enérgica y adora la música, el baile y la interpretación.\nSiempre está tomando el pelo al jugador y mostrando su lado competitivo.\nAunque le gusta bromear, conoce los límites y mantiene un ambiente amistoso.\nY no te dejes engañar: Cappie no es débil."
+  },
+  "TouchButtons": {
+    "TravelRingHotKey": {
+      "DisplayName": "Anillo de viaje"
+    }
+  }
+}

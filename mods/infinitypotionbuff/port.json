@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "infinitypotionbuff",
+    "uid": "8a8e7a80-b608-4280-a137-57469459f0b4",
+    "version": "1.0.0",
+    "sha256": "d201ac6d737081b613b44ee0ca2f1624b93e83b3250e1305aa6276c82a884a43"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior. Added the standard MIT text, because the original only declared MIT in its manifest."
+}

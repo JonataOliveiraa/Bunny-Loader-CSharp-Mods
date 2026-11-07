@@ -1,0 +1,29 @@
+{
+  "uid": "adbf3a32-2952-41cc-8d97-7c3b1575785d",
+  "id": "moddifficulty",
+  "name": "Legendary Difficulty",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "GST378",
+      "role": "author",
+      "avatar": "0.jpg",
+      "color": "#ffffff",
+      "link": "https://youtube.com/@gst_378"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Gameplay",
+  "summary": "Adds custom world difficulties to the game (which only has Normal, Expert, Master and Journey), including the Legendary difficulty.",
+  "localizedSummaries": {
+    "zh-Hans": "为游戏添加自定义世界难度（原版只有普通/专家/大师/旅行难度），并加入传奇难度。."
+  },
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

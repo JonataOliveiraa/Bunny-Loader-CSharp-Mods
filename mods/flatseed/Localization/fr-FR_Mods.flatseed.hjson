@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "Un monde si plat que vous pouvez courir sans peur de trébucher dans un trou ! Les grottes sont toujours là-dessous, à attendre."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Aplanissement du monde..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Hauteur de la surface"
+      },
+      "FillChasms": {
+        "Label": "Combler les crevasses"
+      },
+      "SmoothBeaches": {
+        "Label": "Rampes de plage"
+      }
+    }
+  }
+}

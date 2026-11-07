@@ -1,0 +1,226 @@
+{
+  "Mita": [
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.Greeting1",
+      "sound": "Location1/12"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.Greeting2",
+      "sound": "Location1/10"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.YouUsingDigitsInName",
+      "sound": "Location1/117"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase1",
+      "sound": "Location17/18"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase2",
+      "sound": "Location17/23"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase3",
+      "sound": "Location17/74"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase4",
+      "sound": "Location17/109"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase5",
+      "sound": "Location17/127"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase6",
+      "sound": "Location17/154"
+    },
+    {
+      "key": "NPCs.Mita.StandartMitaDialogue.NightPhrase7",
+      "sound": "Location17/157"
+    }
+  ],
+  "Cappie": [
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Greeting1",
+      "sound": "Location7/140"
+    },
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Greeting2",
+      "sound": "Location7/317"
+    },
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Phrase1",
+      "sound": "Location7/368"
+    },
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Phrase2",
+      "sound": "Location7/427"
+    },
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Phrase3",
+      "sound": "Location7/459"
+    },
+    {
+      "key": "NPCs.Mita.MitaCappieDialogue.Phrase4",
+      "sound": "Location7/482"
+    }
+  ],
+  "Mila": [
+    {
+      "key": "NPCs.Mita.MilaDialogue.Greeting1",
+      "sound": "Location19/43"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Greeting2",
+      "sound": "Location19/139"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Greeting3",
+      "sound": "Location19/318"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Greeting4",
+      "sound": "Location19/592"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase1",
+      "sound": "Location19/92"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase2",
+      "sound": "Location19/102"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase3",
+      "sound": "Location19/122"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase4",
+      "sound": "Location19/174"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase5",
+      "sound": "Location19/233"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase6",
+      "sound": "Location19/234"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase7",
+      "sound": "Location19/252"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase8",
+      "sound": "Location19/253"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase9",
+      "sound": "Location19/352"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase10",
+      "sound": "Location19/357"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase11",
+      "sound": "Location19/358"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase12",
+      "sound": "Location19/363"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase13",
+      "sound": "Location19/366"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase14",
+      "sound": "Location19/404"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase15",
+      "sound": "Location19/405"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase16",
+      "sound": "Location19/410"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase17",
+      "sound": "Location19/423_424"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase18",
+      "sound": "Location19/493"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase19",
+      "sound": "Location19/534"
+    },
+    {
+      "key": "NPCs.Mita.MilaDialogue.Phrase20",
+      "sound": "Location19/576"
+    }
+  ],
+  "MiSidePlayer": [
+    {
+      "key": "NPCs.MiSidePlayer.Phrase1",
+      "sound": "Location1/84"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase2",
+      "sound": "Location2/2"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase3",
+      "sound": "Location3/70_71"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase4",
+      "sound": "Location3/191_192"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase5",
+      "sound": "Location3/364_365_366"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase6",
+      "sound": "Location4/18"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase7",
+      "sound": "Location6/26"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase8",
+      "sound": "Location7/4"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase9",
+      "sound": "Location7/70"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase10",
+      "sound": "Location7/90"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase11",
+      "sound": "Location7/296"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase12",
+      "sound": "Location7/438"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase13",
+      "sound": "Location7/616"
+    },
+    {
+      "key": "NPCs.MiSidePlayer.Phrase14",
+      "sound": "Location7/773"
+    }
+  ]
+}

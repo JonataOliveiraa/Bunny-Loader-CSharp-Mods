@@ -1,0 +1,33 @@
+{
+  "uid": "12754257-00fe-4c58-b21b-7af0c5faf7b3",
+  "id": "gravity-dont-flip-screen",
+  "name": "Gravitation Don't Flip the Screen",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Cyrillya",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "color": "#F0F0F0",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2793971101"
+    },
+    {
+      "name": "GST378",
+      "role": "Bunny Loader Port",
+      "avatar": "lemon.webp",
+      "color": "#FEFE00",
+      "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "QoL",
+  "summary": "This mod makes the gravity inversion effect not flip your screen, only the player flips.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

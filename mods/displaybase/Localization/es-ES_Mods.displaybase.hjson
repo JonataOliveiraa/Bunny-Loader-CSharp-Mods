@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Base de Exhibición",
+      "Tooltip": "Toca para poner el objeto de la mano en la base"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Base de Exhibición",
+      "Tooltip": "Toca para poner el objeto de la mano en la base"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Base de Exhibición"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Exhibición",
+      "UseBrightness": {
+        "Label": "Más Brillo"
+      },
+      "UseOutline": {
+        "Label": "Contorno"
+      },
+      "UseGlitter": {
+        "Label": "Destellos"
+      },
+      "LightIntensity": {
+        "Label": "Luz"
+      },
+      "Headers": {
+        "Effects": "Efectos"
+      }
+    }
+  }
+}

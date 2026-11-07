@@ -1,0 +1,97 @@
+{
+  "Configs": {
+    "MovementConfig": {
+      "DisplayName": "Improved Movement",
+      "LookingType": {
+        "Label": "視線"
+      },
+      "FaceCursor": {
+        "Label": "面向游標"
+      },
+      "LeaningType": {
+        "Label": "傾斜"
+      },
+      "LeanStrength": {
+        "Label": "強度"
+      },
+      "EnableMountLeaning": {
+        "Label": "坐騎"
+      },
+      "HideNeckWhenLooking": {
+        "Label": "隱藏頸部"
+      },
+      "DisableRopeTurning": {
+        "Label": "繩上不轉"
+      },
+      "EnableFlickeringFix": {
+        "Label": "防閃爍"
+      },
+      "NPCLeaningType": {
+        "Label": "NPC傾斜"
+      },
+      "EnableSlimeLeaning": {
+        "Label": "史萊姆"
+      },
+      "EnableZombieLeaning": {
+        "Label": "殭屍"
+      },
+      "EnableCritterLeaning": {
+        "Label": "小動物"
+      },
+      "EnableTownNPCLeaning": {
+        "Label": "城鎮NPC"
+      },
+      "EnableAllNPCLeaning": {
+        "Label": "全部"
+      },
+      "Headers": {
+        "Player": "玩家",
+        "Creatures": "生物"
+      }
+    },
+    "LookingMode": {
+      "Off": {
+        "Label": "關閉"
+      },
+      "Standard": {
+        "Label": "標準"
+      },
+      "Clamped": {
+        "Label": "受限"
+      }
+    },
+    "FaceCursorMode": {
+      "Off": {
+        "Label": "從不"
+      },
+      "Always": {
+        "Label": "總是"
+      },
+      "UsingItem": {
+        "Label": "使用物品時"
+      }
+    },
+    "LeaningMode": {
+      "Off": {
+        "Label": "關閉"
+      },
+      "Standard": {
+        "Label": "標準"
+      },
+      "Alternate": {
+        "Label": "備選"
+      },
+      "Spin": {
+        "Label": "旋轉"
+      }
+    },
+    "NPCLeaningMode": {
+      "Standard": {
+        "Label": "標準"
+      },
+      "Spin": {
+        "Label": "旋轉"
+      }
+    }
+  }
+}

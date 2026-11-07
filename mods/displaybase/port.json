@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "displaybase",
+    "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
+    "version": "1.0.2",
+    "sha256": "a5acb72327b2e4cdac8fff4541706bfe8002eff4201890da0764f28ac11e9299"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, keeping the saved item format of the base. The tool's hold time and the double-tap guard are measured in real time instead of counted frames. The item on display is kept as its type, prefix and stack, and the game item used to draw it is made when it is first drawn."
+}

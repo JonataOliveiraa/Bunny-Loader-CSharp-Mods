@@ -1,0 +1,280 @@
+{
+  "Configs": {
+    "WeaponOutConfig": {
+      "EnableWeaponOutVisuals": {
+        "Label": "Enable"
+      },
+      "ShowHeldItem": {
+        "Label": "Show Item"
+      },
+      "CombatDelayTimerMax": {
+        "Label": "Combat Time"
+      },
+      "CombatStanceAlwaysOn": {
+        "Label": "Always Combat"
+      },
+      "CombatStanceWhenHurt": {
+        "Label": "Combat When Hurt"
+      },
+      "SmallItemPose": {
+        "Label": "Items"
+      },
+      "LargeItemPose": {
+        "Label": "Large Items"
+      },
+      "VanityItemPose": {
+        "Label": "Equipables"
+      },
+      "PotionPose": {
+        "Label": "Potions"
+      },
+      "SmallToolPose": {
+        "Label": "Tools"
+      },
+      "LargeToolPose": {
+        "Label": "Large Tools"
+      },
+      "SmallMeleePose": {
+        "Label": "Melee"
+      },
+      "LargeMeleePose": {
+        "Label": "Large Melee"
+      },
+      "RapierPose": {
+        "Label": "Rapiers"
+      },
+      "SpearPose": {
+        "Label": "Spears"
+      },
+      "YoyoPose": {
+        "Label": "Yoyos"
+      },
+      "YoyoHalfScale": {
+        "Label": "Smaller Yoyos"
+      },
+      "FlailPose": {
+        "Label": "Flails"
+      },
+      "PowerToolPose": {
+        "Label": "Power Tools"
+      },
+      "WhipPose": {
+        "Label": "Whips"
+      },
+      "ThrownPose": {
+        "Label": "Throwing"
+      },
+      "ThrownThinPose": {
+        "Label": "Knives"
+      },
+      "BowPose": {
+        "Label": "Bows"
+      },
+      "RepeaterPose": {
+        "Label": "Repeaters"
+      },
+      "BowDrawAmmo": {
+        "Label": "Arrow on Bow"
+      },
+      "PistolPose": {
+        "Label": "Handguns"
+      },
+      "GunPose": {
+        "Label": "Automatic"
+      },
+      "GunManualPose": {
+        "Label": "Semi-auto"
+      },
+      "ShotgunPose": {
+        "Label": "Shotguns"
+      },
+      "LauncherPose": {
+        "Label": "Launchers"
+      },
+      "StaffPose": {
+        "Label": "Staves"
+      },
+      "MagicBookPose": {
+        "Label": "Tomes"
+      },
+      "MagicItemPose": {
+        "Label": "Foci"
+      },
+      "EnableWeaponPhysics": {
+        "Label": "Physics"
+      },
+      "EnableSheathingAnim": {
+        "Label": "Sheathing"
+      },
+      "EnableItemScaling": {
+        "Label": "Prefix Size"
+      },
+      "SmallSwordThreshold": {
+        "Label": "1-Hand Sword"
+      },
+      "SmallGunThreshold": {
+        "Label": "1-Hand Gun"
+      },
+      "GiantItemThreshold": {
+        "Label": "Giant Size"
+      },
+      "GiantItemScalePercent": {
+        "Label": "Giant Scale"
+      },
+      "GiantItemPose": {
+        "Label": "Giant Items"
+      },
+      "GiantWeaponPose": {
+        "Label": "Giant Melee"
+      },
+      "GiantBowPose": {
+        "Label": "Giant Bows"
+      },
+      "GiantGunPose": {
+        "Label": "Giant Ranged"
+      },
+      "GiantMagicPose": {
+        "Label": "Giant Magic"
+      },
+      "GiantDamagingPose": {
+        "Label": "Giant Misc"
+      },
+      "EnableMenuDisplay": {
+        "Label": "In Menu"
+      },
+      "EnableProjSpears": {
+        "Label": "Spear Sprite"
+      },
+      "EnableProjYoyos": {
+        "Label": "Yoyo Sprite"
+      },
+      "EnableWeaponQuickWeaponCategorisation": {
+        "Label": "Quick Group"
+      },
+      "Headers": {
+        "PlayerHeader": "Display & Poses",
+        "ItemPoseHeader": "Items & Tools",
+        "MeleePoseHeader": "Melee",
+        "RangedPoseHeader": "Ranged",
+        "MagicPoseHeader": "Magic",
+        "LocalGraphics": "Graphics",
+        "Experimental": "Experimental",
+        "HoldOverride": "Overrides"
+      }
+    },
+    "LabelledItemPose": {}
+  },
+  "Commands": {
+    "WeaponOutCommand": {
+      "Usage": "/wo [next | pose <name> | turn | clear | reset | info | poses]",
+      "Description": "Shows or hides your held item; next/pose/clear change how the held item is shown."
+    }
+  },
+  "Common": {
+    "NoItem": "You are not holding an item.",
+    "Shown": "held item shown",
+    "Hidden": "held item hidden",
+    "QuickDisabled": "Quick weapon categorisation is off (Mod Config > Weapon Out Lite).",
+    "Override": "(override)",
+    "ResetDone": "Item overrides reset to the defaults.",
+    "UnknownPose": "Unknown pose. See /wo poses.",
+    "Info": "{0}: {1} > {2}{3} ({4})",
+    "Turned": "Held item sprite: {0}°"
+  },
+  "PoseGroups": {
+    "Unassigned": "Unassigned",
+    "Ignore": "Ignore",
+    "Item": "Normal Item",
+    "LargeItem": "Large Item",
+    "VanityItem": "Equippable Item",
+    "Potion": "Potion",
+    "SmallMelee": "Melee Weapon",
+    "SmallTool": "Tool",
+    "LargeMelee": "Large Melee Weapon",
+    "LargeTool": "Large Tool",
+    "Rapier": "Shortsword/Rapier",
+    "Spear": "Spear",
+    "Yoyo": "Yoyo",
+    "Flail": "Flail",
+    "Whips": "Whip",
+    "Thrown": "Throwing Weapon",
+    "ThrownThin": "Throwing Knife",
+    "PowerTool": "Power Tool",
+    "Bow": "Bow",
+    "Repeater": "Crossbow/Repeater",
+    "Pistol": "Handgun",
+    "Gun": "Automatic Gun",
+    "GunManual": "Semi-automatic Gun",
+    "Shotgun": "Shotgun",
+    "Launcher": "Launcher",
+    "Staff": "Magical Staff",
+    "MagicBook": "Spell Tome",
+    "MagicItem": "Magical Focus",
+    "GiantItem": "Giant Item",
+    "GiantWeapon": "Giant Melee Weapon",
+    "GiantBow": "Giant Bow",
+    "GiantGun": "Giant Ranged Weapon",
+    "GiantMagic": "Giant Magic Weapon",
+    "GiantDamaging": "Giant Misc Weapon"
+  },
+  "Poses": {
+    "None": "None",
+    "Back": "Back",
+    "BackUpright": "Back Upright",
+    "BackDownward": "Back Downward",
+    "BackBow": "Back Bow",
+    "Waist": "Waist",
+    "WaistHolster": "Waist Holster",
+    "Hold": "Hold",
+    "HoldForward": "Hold Forward",
+    "HoldReverse": "Hold Reverse",
+    "HoldTome": "Hold Tome",
+    "OffHand": "Off Hand",
+    "OffHandFlailShoulder": "Off Hand Flail Shoulder",
+    "OffHandPole": "Off Hand Pole",
+    "OffHandShoulder": "Off Hand Shoulder",
+    "OffHandUpright": "Off Hand Upright",
+    "TwoHandCarry": "Two Hand Carry",
+    "TwoHandJoustingLance": "Two Hand Jousting Lance",
+    "FloatingBack": "Floating Back",
+    "FloatingBackUpright": "Floating Back Upright",
+    "FloatingBackAimed": "Floating Back Aimed",
+    "FloatingFront": "Floating Front",
+    "FloatingOffHand": "Floating Off Hand",
+    "FloatingAimed": "Floating Aimed",
+    "OrbitClockwiseFast": "Orbit Clockwise Fast",
+    "OrbitAntiClockFast": "Orbit Anti Clock Fast",
+    "OrbitClockwiseSlow": "Orbit Clockwise Slow",
+    "OrbitAntiClockSlow": "Orbit Anti Clock Slow",
+    "CombatHold": "Combat Hold",
+    "CombatReady": "Combat Ready",
+    "CombatUpright": "Combat Upright",
+    "CombatRaised": "Combat Raised",
+    "CombatTrail": "Combat Trail",
+    "CombatRapier": "Combat Rapier",
+    "CombatRapierHold": "Combat Rapier Hold",
+    "CombatPoleUpright": "Combat Pole Upright",
+    "CombatPoleReady": "Combat Pole Ready",
+    "CombatFlailReady": "Combat Flail Ready",
+    "CombatBowHold": "Combat Bow Hold",
+    "CombatPistol": "Combat Pistol",
+    "CombatOffHandPoleShoulder": "Combat Off Hand Pole Shoulder",
+    "CombatOffHandPistol": "Combat Off Hand Pistol",
+    "CombatOffHandShoulder": "Combat Off Hand Shoulder",
+    "CombatTwoHand": "Combat Two Hand",
+    "CombatTwoHandBrave": "Combat Two Hand Brave",
+    "CombatTwoHandTail": "Combat Two Hand Tail",
+    "CombatTwoHandHighlander": "Combat Two Hand Highlander",
+    "CombatTwoHandBerserk": "Combat Two Hand Berserk",
+    "CombatTwoHandGuard": "Combat Two Hand Guard",
+    "CombatTwoHandPoleTwoHand": "Combat Two Hand Pole Two Hand",
+    "CombatTwoHandPowerTool": "Combat Two Hand Power Tool",
+    "CombatTwoHandBow": "Combat Two Hand Bow",
+    "CombatTwoHandRifleHip": "Combat Two Hand Rifle Hip",
+    "CombatTwoHandRifleUp": "Combat Two Hand Rifle Up",
+    "CombatTwoHandRifleDown": "Combat Two Hand Rifle Down",
+    "CombatTwoHandRifleDown2": "Combat Two Hand Rifle Down2",
+    "CombatTwoHandBoltAction": "Combat Two Hand Bolt Action",
+    "CombatTwoHandPumpAction": "Combat Two Hand Pump Action"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "Hold a block (an item that places a tile) to use this command.",
+    "Added": "{0} was added to the Vein Miner list.",
+    "AlreadyAdded": "{0} is already in your list.",
+    "AlreadyDefault": "{0} is already vein mined (ore or default list).",
+    "Removed": "{0} was removed from the list.",
+    "NotInList": "{0} is not in your list.",
+    "List": "Your list: {0}",
+    "ListEmpty": "Your list is empty. Hold a block and use /vein add.",
+    "Cleared": "Added blocks cleared ({0} blocks).",
+    "Enabled": "Vein Miner enabled.",
+    "Disabled": "Vein Miner disabled."
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "Ores"
+      },
+      "UseDefaultList": {
+        "Label": "Default List"
+      },
+      "UsePlayerList": {
+        "Label": "Added Blocks"
+      },
+      "MaxTiles": {
+        "Label": "Max Blocks"
+      },
+      "Headers": {
+        "General": "General"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "Adds the block you are holding to the Vein Miner list, and more."
+    }
+  }
+}

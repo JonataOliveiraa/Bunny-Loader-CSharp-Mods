@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "箭矢插在敌人身上"
+      },
+      "EnableHeadBanging": {
+        "Label": "摇头（音乐）"
+      },
+      "CorpseDuration": {
+        "Label": "尸体持续时间"
+      },
+      "DismembermentChance": {
+        "Label": "肢解几率"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "旧版布娃娃物理"
+      },
+      "EnableRagdollCollision": {
+        "Label": "布娃娃碰撞"
+      },
+      "MaxCorpses": {
+        "Label": "最大尸体数量"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "血量"
+      },
+      "GibAmountMultiplier": {
+        "Label": "碎块数量"
+      },
+      "BloodScale": {
+        "Label": "血液大小"
+      },
+      "BloodVelocity": {
+        "Label": "血液速度"
+      },
+      "EnableStickyBlood": {
+        "Label": "粘性血液"
+      },
+      "StickyBloodDuration": {
+        "Label": "地上的血"
+      },
+      "BleedDuration": {
+        "Label": "颈部流血"
+      },
+      "Gravity": {
+        "Label": "重力"
+      },
+      "Bounciness": {
+        "Label": "弹性"
+      },
+      "Friction": {
+        "Label": "摩擦力"
+      },
+      "KnockbackMultiplier": {
+        "Label": "击退力度"
+      },
+      "HeadBobIntensity": {
+        "Label": "头部摇晃"
+      },
+      "EnableHeadFlinching": {
+        "Label": "头部后仰"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "反向后仰"
+      },
+      "HeadSpringStiffness": {
+        "Label": "颈部刚度"
+      },
+      "HeadSpringDamping": {
+        "Label": "颈部阻尼"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "晃动"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "史莱姆刚度"
+      },
+      "SlimeSpringDamping": {
+        "Label": "史莱姆阻尼"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "城镇NPC高度"
+      },
+      "Headers": {
+        "QualityOfLife": "便利性",
+        "GeneralSettings": "常规",
+        "BloodSettings": "血液",
+        "PhysicsSettings": "物理",
+        "HeadPhysics": "人形头部",
+        "SlimePhysics": "史莱姆果冻",
+        "VisualAdjustments": "视觉调整"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "物理尸体"
+    },
+    "StuckArrow": {
+      "DisplayName": "插着的箭"
+    }
+  }
+}

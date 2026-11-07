@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "このコマンドを使うには、ブロック（ブロックを設置するアイテム）を手に持ってください。",
+    "Added": "{0} を一括採掘リストに追加しました。",
+    "AlreadyAdded": "{0} はすでにリストにあります。",
+    "AlreadyDefault": "{0} はすでに一括採掘されます（鉱石または標準リスト）。",
+    "Removed": "{0} をリストから外しました。",
+    "NotInList": "{0} はリストにありません。",
+    "List": "あなたのリスト：{0}",
+    "ListEmpty": "リストは空です。ブロックを持って /vein add を使ってください。",
+    "Cleared": "追加したブロックを消去しました（{0} 個）。",
+    "Enabled": "Vein Miner を有効にしました。",
+    "Disabled": "Vein Miner を無効にしました。"
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "鉱石"
+      },
+      "UseDefaultList": {
+        "Label": "標準リスト"
+      },
+      "UsePlayerList": {
+        "Label": "追加したブロック"
+      },
+      "MaxTiles": {
+        "Label": "最大ブロック数"
+      },
+      "Headers": {
+        "General": "全般"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "手に持っているブロックを一括採掘リストに追加します。ほかの操作も可能です。"
+    }
+  }
+}

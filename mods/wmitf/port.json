@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "wmitf",
+    "uid": "be81ae6a-ac8a-4d23-bcd1-2bb8d056d37d",
+    "version": "1.0.0",
+    "sha256": "ddd402b970bdae51ebc25dc3632c6778e6ec089b09151e4dc42a9e452589cd69"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. No behavior changes: as in the JavaScript version, only items show the mod name, although the description also mentions blocks and NPCs."
+}

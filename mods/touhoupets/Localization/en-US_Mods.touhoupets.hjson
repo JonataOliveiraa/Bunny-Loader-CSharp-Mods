@@ -1,0 +1,400 @@
+{
+  "Items": {
+    "CirnoIceShard": {
+      "DisplayName": "Ice Shard Full of Knowledge",
+      "Tooltip": "'Looks like it's full of knowledge!'"
+    },
+    "UtsuhoEye": {
+      "DisplayName": "Crimson Eye",
+      "Tooltip": "'Hot to the touch'"
+    },
+    "HinaDoll": {
+      "DisplayName": "Hina Doll",
+      "Tooltip": "'They say it takes misfortune away... or does it bring it?'"
+    },
+    "DaiyouseiBomb": {
+      "DisplayName": "BOMB",
+      "Tooltip": "'It's a BOMB'"
+    },
+    "PatchouliMoon": {
+      "DisplayName": "Gold Moon",
+      "Tooltip": "'Mirrors the shine of knowledge'"
+    },
+    "SekibankiBow": {
+      "DisplayName": "Blue Bow",
+      "Tooltip": "'This is the ninth'"
+    },
+    "MarisaHakkero": {
+      "DisplayName": "Mini-Hakkero",
+      "Tooltip": "'Burning gently'"
+    },
+    "ReimuYinyangOrb": {
+      "DisplayName": "Yin-Yang Orb",
+      "Tooltip": "'Full of aura... and pretty heavy'"
+    },
+    "RemiliaRedTea": {
+      "DisplayName": "A Cup of Red Tea",
+      "Tooltip": "'Best enjoyed in the afternoon'"
+    },
+    "FlandrePudding": {
+      "DisplayName": "Cherry Pudding",
+      "Tooltip": "'Looks delicious!'"
+    },
+    "CakeOfScarlet": {
+      "DisplayName": "Cake of Scarlet",
+      "Tooltip": "'An afternoon tea only for the Scarlet family'"
+    },
+    "JunkoMooncake": {
+      "DisplayName": "Pure Mooncake",
+      "Tooltip": "'Pure five-nut filling'"
+    },
+    "HecatiaPlanet": {
+      "DisplayName": "Strange Red Planet",
+      "Tooltip": "'Something from another world'"
+    },
+    "IkuOarfish": {
+      "DisplayName": "The Legendary Oarfish",
+      "Tooltip": "'Rare and beautiful'"
+    },
+    "TenshiKeyStone": {
+      "DisplayName": "Keystone",
+      "Tooltip": "'Holds down earthquakes and guards the land'"
+    },
+    "SatoriSlippers": {
+      "DisplayName": "Pink Slippers",
+      "Tooltip": "'Must be very warm'"
+    },
+    "KoishiTelephone": {
+      "DisplayName": "Purple Telephone",
+      "Tooltip": "'Moshi moshi?'\nMAY BE FATAL TO HER MASTER IN A PINCH!"
+    },
+    "TheThirdEye": {
+      "DisplayName": "The Third Eye",
+      "Tooltip": "'Peering into your heart...'"
+    },
+    "SanaeCoin": {
+      "DisplayName": "Silver Frog Coin",
+      "Tooltip": "'Maybe something interesting happens if you save enough?'"
+    },
+    "KogasaUmbrella": {
+      "DisplayName": "Odd Umbrella",
+      "Tooltip": "'Is there an EYE on it?!'"
+    }
+  },
+  "Buffs": {
+    "CirnoBuff": {
+      "DisplayName": "Baka",
+      "Description": "(9)"
+    },
+    "UtsuhoBuff": {
+      "DisplayName": "Hell Raven",
+      "Description": "'I'm the sun of hell!'"
+    },
+    "HinaBuff": {
+      "DisplayName": "Goddess of Misfortune",
+      "Description": "'Round and round...'"
+    },
+    "DaiyouseiBuff": {
+      "DisplayName": "Daiyousei",
+      "Description": "'Who is Daiyousei?'"
+    },
+    "PatchouliBuff": {
+      "DisplayName": "The Magician",
+      "Description": "'The unmoving little library...?'"
+    },
+    "SekibankiBuff": {
+      "DisplayName": "Rokurokubi",
+      "Description": "'Please don't play with my head'"
+    },
+    "MarisaBuff": {
+      "DisplayName": "Human Magician",
+      "Description": "'No more petty theft'"
+    },
+    "ReimuBuff": {
+      "DisplayName": "Hakurei Shrine Maiden",
+      "Description": "'...'"
+    },
+    "RemiliaBuff": {
+      "DisplayName": "Elder Vampire Sister",
+      "Description": "'Offer me your blood, human!'"
+    },
+    "FlandreBuff": {
+      "DisplayName": "Younger Vampire Sister",
+      "Description": "'Please play with me!'"
+    },
+    "ScarletBuff": {
+      "DisplayName": "The Scarlet Sisters",
+      "Description": "'Want to join our afternoon tea?'"
+    },
+    "JunkoBuff": {
+      "DisplayName": "The Pure God",
+      "Description": "'Where the heart lies'"
+    },
+    "HecatiaBuff": {
+      "DisplayName": "Goddess of Hell",
+      "Description": "'Welcome to Hell!'"
+    },
+    "IkuBuff": {
+      "DisplayName": "Messenger of the Dragon Palace",
+      "Description": "'Oarfish Drill!!!'"
+    },
+    "TenshiBuff": {
+      "DisplayName": "The Celestial",
+      "Description": "'A bad girl from heaven'"
+    },
+    "SatoriBuff": {
+      "DisplayName": "The Mind Reader",
+      "Description": "'I know exactly what is in your heart...'"
+    },
+    "KoishiBuff": {
+      "DisplayName": "The Unconscious Girl",
+      "Description": "'Where is she?'"
+    },
+    "KomeijiBuff": {
+      "DisplayName": "The Komeiji Sisters",
+      "Description": "O v U"
+    },
+    "SanaeBuff": {
+      "DisplayName": "Wind Priestess",
+      "Description": "'Behold a miracle!'"
+    },
+    "KogasaBuff": {
+      "DisplayName": "Umbrella Youkai",
+      "Description": "'Surprise!'"
+    }
+  },
+  "Projectiles": {
+    "Cirno": {
+      "DisplayName": "Cirno"
+    },
+    "Daiyousei": {
+      "DisplayName": "Daiyousei"
+    },
+    "Flandre": {
+      "DisplayName": "Flandre Scarlet"
+    },
+    "Hecatia": {
+      "DisplayName": "Hecatia Lapislazuli"
+    },
+    "Hina": {
+      "DisplayName": "Hina Kagiyama"
+    },
+    "Iku": {
+      "DisplayName": "Iku Nagae"
+    },
+    "Junko": {
+      "DisplayName": "Junko"
+    },
+    "Marisa": {
+      "DisplayName": "Marisa Kirisame"
+    },
+    "Patchouli": {
+      "DisplayName": "Patchouli Knowledge"
+    },
+    "Piece": {
+      "DisplayName": "Clownpiece"
+    },
+    "Reimu": {
+      "DisplayName": "Reimu Hakurei"
+    },
+    "Remilia": {
+      "DisplayName": "Remilia Scarlet"
+    },
+    "Sekibanki": {
+      "DisplayName": "Sekibanki"
+    },
+    "Tenshi": {
+      "DisplayName": "Tenshi Hinanawi"
+    },
+    "Utsuho": {
+      "DisplayName": "Utsuho Reiuji"
+    },
+    "Koishi": {
+      "DisplayName": "Koishi Komeiji"
+    },
+    "Satori": {
+      "DisplayName": "Satori Komeiji"
+    },
+    "Sanae": {
+      "DisplayName": "Sanae Kochiya"
+    },
+    "Kogasa": {
+      "DisplayName": "Kogasa Tatara"
+    }
+  },
+  "Chat": {
+    "Cirno": {
+      "1": "What should I freeze today...",
+      "2": "Cirno is invincible!",
+      "3": "I'm the strongest!",
+      "4": "I love Dai-chan the most!",
+      "6": "1+1=... what was it again, 9?",
+      "7": "So hot... I'm melting...",
+      "8": "So many frogs!",
+      "ToDaiyousei1": "Wherever Dai-chan goes, I go!",
+      "ToDaiyousei2": "Don't be scared, Dai-chan, I'm here!",
+      "ToDaiyousei3": "I'm fine... probably..."
+    },
+    "Daiyousei": {
+      "1": "H-hello!",
+      "2": "...I love Cirno-chan the most!",
+      "3": "Cirno-chan, where are we going to play today?",
+      "5": "W-what a scary place!",
+      "ToCirno1": "I love Cirno-chan the most too!",
+      "ToCirno2": "Cirno-chan, are you okay...",
+      "ToCirno3": "Mm... I-I'm not scared!"
+    },
+    "Flandre": {
+      "1": "Will you play with Flan?",
+      "2": "Flan wants to play with you!",
+      "3": "Flan loves big sis, but big sis always ignores Flan...",
+      "4": "Yummy!",
+      "5": "Flan's favorite thing...",
+      "ToRemilia1": "Big sis? Did you call Flan for something?",
+      "ToRemilia2": "...When will big sis play with Flan...",
+      "ToRemilia3": "Big sis always says that..."
+    },
+    "Remilia": {
+      "3": "Human, kneel before me!",
+      "4": "One day the whole world will belong to the Scarlet Devil!",
+      "8": "Hmm... it's not quite hot enough...",
+      "9": "It could be a little stronger...",
+      "10": "What a wonderful night!",
+      "11": "My dear Flan...",
+      "ToFlandre1": "Nothing... I just wanted to call you.",
+      "ToFlandre2": "I'll play with you when I have time.",
+      "ToFlandre3": "Flan can't depend on her big sister forever.",
+      "ToPatchouli1": "Hm? Patchy? What is it?",
+      "ToPatchouli2": "Haha, that's nonsense. Vampires fearing crosses is just a comfort humans made up because they can't beat us.",
+      "ToPatchouli3": "Of course. And you should get out more too, Patchy."
+    },
+    "Patchouli": {
+      "1": "I don't want to move...",
+      "2": "This is something I haven't read before...",
+      "3": "This part... is different from what I knew?",
+      "4": "Something interesting...",
+      "5": "...Is that really so?",
+      "6": "*cough*... *cough cough*...",
+      "7": "Where did I stop last time...?",
+      "16": "Hmm... Remi?",
+      "ToRemilia1": "You're a vampire. Why aren't you afraid of crosses, like the books say?",
+      "ToRemilia2": "I see... so not everything in books is true.",
+      "ToRemilia3": "No thanks..."
+    },
+    "Hecatia": {
+      "1": "Ruling the hells of three worlds is a tough job sometimes...",
+      "2": "My outfit is flawless... could anyone really not like it?"
+    },
+    "Piece": {
+      "1": "La la la~ la~ Where should I pull a prank today...",
+      "2": "That looks like a good place to start a fire.",
+      "ToHecatia": "Of course my master's outfit is the most fashionable!"
+    },
+    "Hina": {
+      "1": "How was your day?",
+      "2": "May misfortune spread no further...",
+      "Spin": "Round and round and round..."
+    },
+    "Iku": {
+      "Sandstorm": "The sandstorm rages...",
+      "SlimeRain": "Sticky creatures are falling from the sky.",
+      "BloodMoon": "A curse eats the moon, and blood stains the land red...",
+      "Eclipse": "The moon hides the sun, and monsters roam everywhere...",
+      "Calm": "Nothing special about the weather.",
+      "Breeze": "A gentle breeze blows across the land.",
+      "Fresh": "The wind is very refreshing today.",
+      "Gale": "The wind is surging.",
+      "StormComing": "A storm is coming...",
+      "Storm": "A fierce storm is sweeping the land.",
+      "DragonGod": "The Dragon God must be furious...",
+      "Peaceful": "I hope today is a peaceful day too.",
+      "Party": "The world is full of joy.",
+      "Lanterns": "An air of peace rises all around.",
+      "ToTenshi": "Lady Tenshi, please behave yourself..."
+    },
+    "Tenshi": {
+      "1": "I'll prove to you all that I'm strong!",
+      "2": "Time to stir up some trouble today too!",
+      "3": "Heaven is so boring... so this celestial came down just to look after you earthlings!"
+    },
+    "Junko": {
+      "1": "Chang'e, are you watching..."
+    },
+    "Kogasa": {
+      "1": "Bleh bleh bleh~",
+      "2": "Surprise!"
+    },
+    "Koishi": {
+      "1": "Can Koishi play with you?",
+      "2": "I'll hang you at the gate of the Palace of Earth Spirits as a... as a what, I wonder...",
+      "3": "Want to play a heart-pounding adventure?",
+      "4": "Are you paying attention to Koishi?",
+      "5": "Not even big sis knows what Koishi is thinking.",
+      "Call1": "Hello? Hello?",
+      "Call2": "It's me, Koishi......",
+      "Call3": "I'm right behind you now..."
+    },
+    "Satori": {
+      "1": "Let me see what you're thinking...",
+      "2": "That reminds me of something interesting...",
+      "3": "Your mind is so simple... nothing but fighting and looting...",
+      "ToKoishi": "Big sis is watching you right now...",
+      "ToUtsuho": "Okuu is my favorite crow too."
+    },
+    "Utsuho": {
+      "1": "I am the sun!",
+      "2": "Shine bright and burn hot!",
+      "3": "...What was I about to say?",
+      "4": "It feels just like home!",
+      "5": "Lady Satori is the best!"
+    },
+    "Sekibanki": {
+      "1": "A lone wanderer...",
+      "2": "Please don't just talk to me out of nowhere...",
+      "3": "I've always worn a cloak,",
+      "Story2": "because I don't like humans recognizing me as a youkai.",
+      "Story3": "Humans don't like youkai, and I don't really want to get close to humans...",
+      "Story4": "...Well, except you.",
+      "Henshin1": "...destined to surpass them all!",
+      "Henshin2": "SUPER... TRANS... FORM...!!!",
+      "Henshin3": "......",
+      "Henshin4": "...Uh, you didn't hear anything."
+    },
+    "Marisa": {
+      "1": "Which magic should I try today...",
+      "2": "Hey, that thing looks worth collecting...",
+      "3": "Do you like stars?",
+      "4": "Nice weather today, da ze!",
+      "5": "So many stars in the sky!",
+      "6": "Hey, hey, Reimu.",
+      "10": "The sky is acting strange today...",
+      "ToReimu1": "I found something really interesting today!",
+      "ToReimu2": "Nope... it's a Fallen Star! A real, honest-to-goodness star!",
+      "ToReimu3": "But this one shines brighter, don't you think?",
+      "ToReimu4": "Ehehehe..."
+    },
+    "Reimu": {
+      "1": "Nothing to do today either...",
+      "2": "Will someone toss a coin in my donation box...",
+      "3": "Tch, looks like an incident has started...",
+      "8": "Speak of trouble and trouble shows up...",
+      "Sleepy": "So sleepy...",
+      "ToMarisa0": "This is an incident...",
+      "ToMarisa1": "...What is it?",
+      "ToMarisa2": "What is it? Not another book stolen from the library, I hope...",
+      "ToMarisa3": "...Aren't those all over the ground every night?",
+      "ToMarisa4": "Nope. You must just be bored again...",
+      "ToSanae": "Hey, know when to stop!"
+    },
+    "Sanae": {
+      "1": "I will follow my two goddesses forever...",
+      "2": "Here, you can't let common sense hold you back!",
+      "3": "Sometimes I miss the old days... ah, no, the present is what matters!",
+      "4": "Join the Moriya Shrine and worship the great gods of Heaven and Earth!",
+      "5": "Feel the wind!"
+    }
+  },
+  "DeathReason": {
+    "KilledByKoishi": "{0} was murdered by the unconscious."
+  }
+}

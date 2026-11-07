@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "dobrodedano",
+    "uid": "95728a1c-1fb7-4ed7-af5b-d12bdec38e46",
+    "version": "1.0.0",
+    "sha256": "1ce2d058efe8ca4b021baa5f5abc6f895d47c18d425eb764822024b05ef7b47c"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

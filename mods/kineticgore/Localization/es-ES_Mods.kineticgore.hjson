@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Las flechas se clavan en los enemigos"
+      },
+      "EnableHeadBanging": {
+        "Label": "Cabeceo (música)"
+      },
+      "CorpseDuration": {
+        "Label": "Duración de los cadáveres"
+      },
+      "DismembermentChance": {
+        "Label": "Probabilidad de desmembramiento"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Física de ragdoll antigua"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Colisión de ragdolls"
+      },
+      "MaxCorpses": {
+        "Label": "Máximo de cadáveres"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Cantidad de sangre"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Cantidad de trozos"
+      },
+      "BloodScale": {
+        "Label": "Tamaño de la sangre"
+      },
+      "BloodVelocity": {
+        "Label": "Velocidad de la sangre"
+      },
+      "EnableStickyBlood": {
+        "Label": "Sangre pegajosa"
+      },
+      "StickyBloodDuration": {
+        "Label": "Sangre en el suelo"
+      },
+      "BleedDuration": {
+        "Label": "Sangrado del cuello"
+      },
+      "Gravity": {
+        "Label": "Gravedad"
+      },
+      "Bounciness": {
+        "Label": "Rebote"
+      },
+      "Friction": {
+        "Label": "Fricción"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Fuerza del retroceso"
+      },
+      "HeadBobIntensity": {
+        "Label": "Bamboleo de la cabeza"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Retroceso de la cabeza"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Retroceso invertido"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Rigidez del cuello"
+      },
+      "HeadSpringDamping": {
+        "Label": "Amortiguación del cuello"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Bamboleo"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Rigidez de los slimes"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Amortiguación de los slimes"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Altura de los PNJ del pueblo"
+      },
+      "Headers": {
+        "QualityOfLife": "Comodidad",
+        "GeneralSettings": "General",
+        "BloodSettings": "Sangre",
+        "PhysicsSettings": "Física",
+        "HeadPhysics": "Cabezas humanoides",
+        "SlimePhysics": "Gelatina de los slimes",
+        "VisualAdjustments": "Ajustes visuales"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Cadáver físico"
+    },
+    "StuckArrow": {
+      "DisplayName": "Flecha clavada"
+    }
+  }
+}

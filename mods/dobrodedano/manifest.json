@@ -1,0 +1,28 @@
+{
+  "uid": "95728a1c-1fb7-4ed7-af5b-d12bdec38e46",
+  "id": "dobrodedano",
+  "name": "Dobro de Dano",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Bunny Loader",
+      "role": "Code and art",
+      "avatar": "bunny-loader.png",
+      "color": "#F9E141"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Armas",
+  "summary": "Every weapon deals double damage.",
+  "localizedSummaries": {
+    "pt-BR": "Toda arma nasce com o dobro do dano."
+  },
+  "license": "MIT",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

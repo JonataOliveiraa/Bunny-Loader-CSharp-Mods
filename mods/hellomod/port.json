@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "hellomod",
+    "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
+    "version": "1.1.1",
+    "sha256": "362908d5d9d9823ba957e5fed1cfa7a7a6114ba5392a6378cf5c1fd9a06f3885"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

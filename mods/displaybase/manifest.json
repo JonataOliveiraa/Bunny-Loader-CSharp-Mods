@@ -1,0 +1,43 @@
+{
+  "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
+  "id": "displaybase",
+  "name": "Item Display Base",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Cleyera",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2922358421"
+    },
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532",
+      "role": "Port"
+    },
+    {
+      "name": "Cavalier",
+      "role": "Chinese localization (original)",
+      "avatar": "steam.png"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Decoration",
+  "summary": "A Display Base to show off any item, with glitter, outline and light effects. Made from marble or granite.",
+  "pages": [
+    {
+      "title": "Crafting",
+      "file": "docs/crafting.md"
+    }
+  ],
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

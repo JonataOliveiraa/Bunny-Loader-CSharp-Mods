@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Tieni un oggetto in mano per usare questo comando.",
+    "Always": "{0} ora ha sempre un raggio.",
+    "Never": "{0} ora non ha mai un raggio.",
+    "MiniOn": "{0} ora ha un raggio piccolo.",
+    "MiniOff": "{0} è tornato al raggio normale.",
+    "BadColor": "Colore non valido. Usa /beams color #RRGGBB (es. #FF8800).",
+    "Colored": "Colore del raggio di {0}: {1}.",
+    "Reset": "{0} è stato rimosso dalle tue liste.",
+    "NotListed": "{0} non è nelle tue liste.",
+    "List": "Sempre: {0} | Mai: {1} | Piccolo: {2} | Colori: {3}",
+    "Cleared": "Le tue liste sono state svuotate.",
+    "Enabled": "Raggi attivi.",
+    "Disabled": "Raggi disattivati."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Attivo"
+      },
+      "MinRarity": {
+        "Label": "Rarità Min."
+      },
+      "MinValue": {
+        "Label": "Valore Min."
+      },
+      "HighlightQuest": {
+        "Label": "Oggetti Missione"
+      },
+      "HighlightExpert": {
+        "Label": "Oggetti Esperto"
+      },
+      "HighlightMaster": {
+        "Label": "Oggetti Maestro"
+      },
+      "UseDefaultLists": {
+        "Label": "Liste Predefinite"
+      },
+      "BeamStyle": {
+        "Label": "Stile Raggio"
+      },
+      "GlowStyle": {
+        "Label": "Stile Bagliore"
+      },
+      "BeamScale": {
+        "Label": "Dimensione Raggio"
+      },
+      "BeamOpacity": {
+        "Label": "Opacità Raggio"
+      },
+      "GlowScale": {
+        "Label": "Dimensione Bagliore"
+      },
+      "GlowOpacity": {
+        "Label": "Opacità Bagliore"
+      },
+      "FlashScale": {
+        "Label": "Lampo a Terra"
+      },
+      "DrawAdditive": {
+        "Label": "Più Intenso"
+      },
+      "Pulse": {
+        "Label": "Pulsazione"
+      },
+      "EmitLight": {
+        "Label": "Luce"
+      },
+      "FadeOnPickup": {
+        "Label": "Svanisci Raccogliendo"
+      },
+      "Headers": {
+        "Filters": "Quali Oggetti",
+        "Visuals": "Aspetto",
+        "Extras": "Extra"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Nessuno"
+      },
+      "Simple": {
+        "Label": "Semplice"
+      },
+      "Arrow": {
+        "Label": "Freccia"
+      },
+      "AnimatedArrow": {
+        "Label": "Freccia Animata"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Nessuno"
+      },
+      "Simple": {
+        "Label": "Morbido"
+      },
+      "Pixel": {
+        "Label": "Pixel"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Cambia il raggio dell'oggetto che tieni in mano."
+    }
+  }
+}

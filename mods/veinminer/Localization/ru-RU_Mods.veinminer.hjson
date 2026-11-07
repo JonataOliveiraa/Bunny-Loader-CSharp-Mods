@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "Возьмите в руку блок, чтобы использовать эту команду.",
+    "Added": "{0} добавлен в список Vein Miner.",
+    "AlreadyAdded": "{0} уже в вашем списке.",
+    "AlreadyDefault": "{0} уже добывается цепочкой (руда или стандартный список).",
+    "Removed": "{0} удалён из списка.",
+    "NotInList": "{0} нет в вашем списке.",
+    "List": "Ваш список: {0}",
+    "ListEmpty": "Ваш список пуст. Возьмите блок и введите /vein add.",
+    "Cleared": "Добавленные блоки очищены ({0} блоков).",
+    "Enabled": "Vein Miner включён.",
+    "Disabled": "Vein Miner выключен."
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "Руды"
+      },
+      "UseDefaultList": {
+        "Label": "Стандартный список"
+      },
+      "UsePlayerList": {
+        "Label": "Добавленные блоки"
+      },
+      "MaxTiles": {
+        "Label": "Максимум блоков"
+      },
+      "Headers": {
+        "General": "Общее"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "Добавляет блок в руке в список Vein Miner и другое."
+    }
+  }
+}

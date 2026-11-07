@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "이 명령어는 아이템을 들고 사용하세요.",
+    "Always": "{0}에 이제 항상 광선이 있습니다.",
+    "Never": "{0}에 이제 광선이 없습니다.",
+    "MiniOn": "{0}에 이제 작은 광선이 있습니다.",
+    "MiniOff": "{0}이(가) 일반 광선으로 돌아왔습니다.",
+    "BadColor": "잘못된 색입니다. /beams color #RRGGBB (예: #FF8800)를 사용하세요.",
+    "Colored": "{0}의 광선 색: {1}.",
+    "Reset": "{0}을(를) 목록에서 뺐습니다.",
+    "NotListed": "{0}은(는) 목록에 없습니다.",
+    "List": "항상: {0} | 없음: {1} | 작게: {2} | 색: {3}",
+    "Cleared": "목록을 지웠습니다.",
+    "Enabled": "광선 켜짐.",
+    "Disabled": "광선 꺼짐."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "사용"
+      },
+      "MinRarity": {
+        "Label": "최소 희귀도"
+      },
+      "MinValue": {
+        "Label": "최소 가치"
+      },
+      "HighlightQuest": {
+        "Label": "퀘스트 아이템"
+      },
+      "HighlightExpert": {
+        "Label": "전문가 아이템"
+      },
+      "HighlightMaster": {
+        "Label": "마스터 아이템"
+      },
+      "UseDefaultLists": {
+        "Label": "기본 목록"
+      },
+      "BeamStyle": {
+        "Label": "광선 스타일"
+      },
+      "GlowStyle": {
+        "Label": "빛 스타일"
+      },
+      "BeamScale": {
+        "Label": "광선 크기"
+      },
+      "BeamOpacity": {
+        "Label": "광선 불투명도"
+      },
+      "GlowScale": {
+        "Label": "빛 크기"
+      },
+      "GlowOpacity": {
+        "Label": "빛 불투명도"
+      },
+      "FlashScale": {
+        "Label": "떨어질 때 섬광"
+      },
+      "DrawAdditive": {
+        "Label": "더 밝게"
+      },
+      "Pulse": {
+        "Label": "깜빡임"
+      },
+      "EmitLight": {
+        "Label": "조명"
+      },
+      "FadeOnPickup": {
+        "Label": "주울 때 사라짐"
+      },
+      "Headers": {
+        "Filters": "대상 아이템",
+        "Visuals": "외형",
+        "Extras": "기타"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "없음"
+      },
+      "Simple": {
+        "Label": "단순"
+      },
+      "Arrow": {
+        "Label": "화살표"
+      },
+      "AnimatedArrow": {
+        "Label": "움직이는 화살표"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "없음"
+      },
+      "Simple": {
+        "Label": "부드럽게"
+      },
+      "Pixel": {
+        "Label": "픽셀"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "들고 있는 아이템의 광선을 바꿉니다."
+    }
+  }
+}

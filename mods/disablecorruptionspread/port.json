@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "disablecorruptionspread",
+    "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
+    "version": "1.0",
+    "sha256": "5b323972951d9d7b19666f5558f5e88342d3aac043bfbbec0b53615ea90e86e1"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. No behavior changes. The description and changelog are now in English; the Portuguese originals are kept as translations."
+}

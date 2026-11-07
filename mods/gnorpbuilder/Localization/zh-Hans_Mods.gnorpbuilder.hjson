@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "测试建筑球",
+      "Tooltip": "建造测试！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n[c/FF1919:此物品仅用于测试，正常情况下不应获得]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "小型森林房屋建筑球",
+      "Tooltip": "建造小型森林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "森林路灯建筑球",
+      "Tooltip": "建造森林路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "中型森林房屋建筑球",
+      "Tooltip": "建造中型森林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "大型森林房屋建筑球",
+      "Tooltip": "建造大型森林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "地下室入口建筑球",
+      "Tooltip": "建造地下室入口！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n非常适合开始建造你的地下室"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "地下室走廊建筑球",
+      "Tooltip": "建造地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "地下室长走廊建筑球",
+      "Tooltip": "建造地下室长走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "地下室短走廊建筑球",
+      "Tooltip": "建造地下室短走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "向下T形地下室走廊建筑球",
+      "Tooltip": "建造向下T形地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "向上T形地下室走廊建筑球",
+      "Tooltip": "建造向上T形地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "十字形地下室走廊建筑球",
+      "Tooltip": "建造十字形地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "向右T形地下室走廊建筑球",
+      "Tooltip": "建造向右T形地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "向左T形地下室走廊建筑球",
+      "Tooltip": "建造向左T形地下室走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "地下室左上拐角建筑球",
+      "Tooltip": "建造地下室左上拐角！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "地下室左下拐角建筑球",
+      "Tooltip": "建造地下室左下拐角！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "地下室右下拐角建筑球",
+      "Tooltip": "建造地下室右下拐角！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "地下室右上拐角建筑球",
+      "Tooltip": "建造地下室右上拐角！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "向下的地下室短走廊建筑球",
+      "Tooltip": "建造向下的地下室短走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "地下室音乐室建筑球",
+      "Tooltip": "建造地下室音乐室！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n有许多不同的八音盒"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "地下室NPC监狱建筑球",
+      "Tooltip": "建造地下室NPC监狱！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n便宜，但不道德"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "地下室NPC房间建筑球",
+      "Tooltip": "建造地下室NPC房间！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n普通的NPC房间"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "地下室军械库建筑球",
+      "Tooltip": "建造地下室军械库！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "地下室花园建筑球",
+      "Tooltip": "建造地下室花园！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n地下室里怎么长东西？靠星星的力量！"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "地下室刑房建筑球",
+      "Tooltip": "建造地下室刑房！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n给你讨厌的NPC用的"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "向下的地下室入口建筑球",
+      "Tooltip": "建造向下的地下室入口！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "向下的大型地下室入口建筑球",
+      "Tooltip": "建造向下的大型地下室入口！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "地下室王座厅建筑球",
+      "Tooltip": "建造地下室王座厅！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n很贵，但由大理石和黄金制成，非常华丽！"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "大型沙漠房屋建筑球",
+      "Tooltip": "建造大型沙漠房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "中型沙漠房屋建筑球",
+      "Tooltip": "建造中型沙漠房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "沙漠路灯建筑球",
+      "Tooltip": "建造沙漠路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "小型沙漠房屋建筑球",
+      "Tooltip": "建造小型沙漠房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "小型海洋房屋建筑球",
+      "Tooltip": "建造小型海洋房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "海洋路灯建筑球",
+      "Tooltip": "建造海洋路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "中型海洋房屋建筑球",
+      "Tooltip": "建造中型海洋房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "大型海洋房屋建筑球",
+      "Tooltip": "建造大型海洋房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "小型丛林房屋建筑球",
+      "Tooltip": "建造小型丛林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "中型丛林房屋建筑球",
+      "Tooltip": "建造中型丛林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "大型丛林房屋建筑球",
+      "Tooltip": "建造大型丛林房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "丛林路灯建筑球",
+      "Tooltip": "建造丛林路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "小型蘑菇房屋建筑球",
+      "Tooltip": "建造小型蘑菇房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "蘑菇路灯建筑球",
+      "Tooltip": "建造蘑菇路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "中型蘑菇房屋建筑球",
+      "Tooltip": "建造中型蘑菇房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "大型蘑菇房屋建筑球",
+      "Tooltip": "建造大型蘑菇房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "苔原路灯建筑球",
+      "Tooltip": "建造苔原路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "小型苔原房屋建筑球",
+      "Tooltip": "建造小型苔原房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "中型苔原房屋建筑球",
+      "Tooltip": "建造中型苔原房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "大型苔原房屋建筑球",
+      "Tooltip": "建造大型苔原房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "小型神圣房屋建筑球",
+      "Tooltip": "建造小型神圣房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "中型神圣房屋建筑球",
+      "Tooltip": "建造中型神圣房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "大型神圣房屋建筑球",
+      "Tooltip": "建造大型神圣房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "神圣路灯建筑球",
+      "Tooltip": "建造神圣路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "小型当前生物群系房屋建筑球",
+      "Tooltip": "建造小型当前生物群系房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC\n默认使用小型森林房屋。支持的生物群系：苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "中型当前生物群系房屋建筑球",
+      "Tooltip": "建造中型当前生物群系房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC\n默认使用中型森林房屋。支持的生物群系：苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "大型当前生物群系房屋建筑球",
+      "Tooltip": "建造大型当前生物群系房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC\n默认使用大型森林房屋。支持的生物群系：苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "当前生物群系路灯建筑球",
+      "Tooltip": "建造当前生物群系路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n默认使用森林路灯。支持的生物群系：苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "小型简易竞技场建筑球",
+      "Tooltip": "建造小型简易竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有3层平台，长105格，高34格"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "中型简易竞技场建筑球",
+      "Tooltip": "建造中型简易竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有5层平台，长180格，高54格"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "大型简易竞技场建筑球",
+      "Tooltip": "建造大型简易竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有7层平台，长255格，高74格"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "小型高级竞技场建筑球",
+      "Tooltip": "建造小型高级竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有3层平台，长105格，高34格\n配有篝火、红心灯笼、星星瓶、巴斯特雕像、花园侏儒和气泡中的蜂蜜"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "中型高级竞技场建筑球",
+      "Tooltip": "建造中型高级竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有5层平台，长180格，高54格\n配有多个篝火、红心灯笼、星星瓶、巴斯特雕像、花园侏儒和气泡中的蜂蜜"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "大型高级竞技场建筑球",
+      "Tooltip": "建造大型高级竞技场！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n竞技场有7层平台，长255格，高74格\n配有多个篝火、红心灯笼、星星瓶、巴斯特雕像、花园侏儒和气泡中的蜂蜜"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "森林电梯建筑球",
+      "Tooltip": "建造森林电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "苔原电梯建筑球",
+      "Tooltip": "建造苔原电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "沙漠电梯建筑球",
+      "Tooltip": "建造沙漠电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "神圣电梯建筑球",
+      "Tooltip": "建造神圣电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "丛林电梯建筑球",
+      "Tooltip": "建造丛林电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "蘑菇电梯建筑球",
+      "Tooltip": "建造蘑菇电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "海洋电梯建筑球",
+      "Tooltip": "建造海洋电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "当前生物群系电梯建筑球",
+      "Tooltip": "建造当前生物群系电梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n此电梯直通地狱，并会生成抵消摔落伤害的云\n默认使用森林电梯。支持的生物群系：苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "电梯短矿车轨道建筑球",
+      "Tooltip": "建造电梯短矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "电梯十字矿车轨道建筑球",
+      "Tooltip": "建造电梯十字矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n很适合开始铺设你的电梯矿车轨道！"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "电梯矿车轨道建筑球",
+      "Tooltip": "建造电梯矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n比短版长5倍"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "电梯右坡矿车轨道建筑球",
+      "Tooltip": "建造电梯右坡矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "电梯矿车轨道终点建筑球",
+      "Tooltip": "建造电梯矿车轨道终点！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "电梯左坡矿车轨道建筑球",
+      "Tooltip": "建造电梯左坡矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "电梯完整矿车轨道建筑球",
+      "Tooltip": "建造电梯完整矿车轨道！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n向左右两侧铺设矿车轨道，与电梯搭配效果极佳！\n[c/E11919:警告：此建筑非常巨大！可能会摧毁重要结构，请谨慎使用！！！]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "大型情人节房屋建筑球",
+      "Tooltip": "建造大型情人节房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC\n[c/FFC0CB:用爱制作！]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "中型情人节房屋建筑球",
+      "Tooltip": "建造中型情人节房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳2名NPC\n[c/FFC0CB:用爱制作！]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "小型情人节房屋建筑球",
+      "Tooltip": "建造小型情人节房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳1名NPC\n[c/FFC0CB:用爱制作！]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "情人节路灯建筑球",
+      "Tooltip": "建造情人节路灯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n[c/FFC0CB:用爱制作！]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "爱心房屋建筑球",
+      "Tooltip": "建造爱心房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座房屋可容纳3名NPC\n[c/FF7F7F:由爱制成！]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "洞穴晶塔建筑球",
+      "Tooltip": "建造洞穴晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "沙漠晶塔建筑球",
+      "Tooltip": "建造沙漠晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "森林晶塔建筑球",
+      "Tooltip": "建造森林晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "神圣晶塔建筑球",
+      "Tooltip": "建造神圣晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "丛林晶塔建筑球",
+      "Tooltip": "建造丛林晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "蘑菇晶塔建筑球",
+      "Tooltip": "建造蘑菇晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "海洋晶塔建筑球",
+      "Tooltip": "建造海洋晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "苔原晶塔建筑球",
+      "Tooltip": "建造苔原晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "当前生物群系晶塔建筑球",
+      "Tooltip": "建造当前生物群系晶塔！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n默认使用森林晶塔。支持的生物群系：洞穴、苔原、沙漠、丛林、海洋、地表蘑菇和神圣之地"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Gnorpy遥控器",
+      "Tooltip": "Gnorp的遥控器！\n召唤Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "向下T形地下室楼梯建筑球",
+      "Tooltip": "建造向下T形地下室楼梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "向上T形地下室楼梯建筑球",
+      "Tooltip": "建造向上T形地下室楼梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "地下室右楼梯建筑球",
+      "Tooltip": "建造地下室右楼梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "十字形地下室楼梯建筑球",
+      "Tooltip": "建造十字形地下室楼梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "地下室图书馆建筑球",
+      "Tooltip": "建造地下室图书馆！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "地下室左楼梯建筑球",
+      "Tooltip": "建造地下室左楼梯！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "带NPC房间的走廊建筑球",
+      "Tooltip": "建造带NPC房间的走廊！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n基本上是NPC房间和走廊的结合"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "地下室酒吧建筑球",
+      "Tooltip": "建造地下室酒吧！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n来点喝的吧"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "小型城堡建筑球",
+      "Tooltip": "建造小型城堡！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "中型城堡建筑球",
+      "Tooltip": "建造中型城堡！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "大型城堡建筑球",
+      "Tooltip": "建造大型城堡！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "巨型城堡建筑球",
+      "Tooltip": "建造巨型城堡！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n相当巨大，应该有足够的空间满足你的所有需求！"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "小型树屋基地建筑球",
+      "Tooltip": "建造小型树屋基地！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "中型树屋基地建筑球",
+      "Tooltip": "建造中型树屋基地！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "大型树屋基地建筑球",
+      "Tooltip": "建造大型树屋基地！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "巨型树屋基地建筑球",
+      "Tooltip": "建造巨型树屋基地！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "简易水湖建筑球",
+      "Tooltip": "建造简易水湖！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n非常适合钓鱼"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "简易微光湖建筑球",
+      "Tooltip": "建造简易微光湖！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n非常适合钓……等等，微光里不能钓鱼吧？"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "简易熔岩湖建筑球",
+      "Tooltip": "建造简易熔岩湖！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n非常适合钓鱼"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "简易蜂蜜湖建筑球",
+      "Tooltip": "建造简易蜂蜜湖！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n非常适合钓鱼"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "牢房建筑球",
+      "Tooltip": "建造牢房！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n你没有人类的心吗？"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "隐形NPC城堡建筑球",
+      "Tooltip": "建造隐形NPC城堡！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座城堡可容纳3名NPC\n超级史诗般的酷炫城堡，可惜你看不见它"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "小型便便房屋建筑球",
+      "Tooltip": "建造小型便便房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座城堡可容纳1名NPC\n臭臭的"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "大型便便房屋建筑球",
+      "Tooltip": "建造大型便便房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座城堡可容纳3名NPC\n臭臭的"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "中型便便房屋建筑球",
+      "Tooltip": "建造中型便便房屋！\n使用\"锚点\"触控按钮（在操控中添加）或模组配置来更改锚点\n这座城堡可容纳2名NPC\n臭臭的"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp是一个非常友好的外星人。Gnorp唯一的目标就是通过建造来帮助他人，Gnorp在每个生物群系中都能看到美。"
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "主要",
+        "Bases": "基地",
+        "Module": "模块",
+        "Utility": "实用",
+        "Holiday": "节日"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "切换（{0}）"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "正在召唤Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "锚点（Gnorp建筑球）"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:开启]",
+    "ValueOff": "[c/E11919:关闭]",
+    "ImagePreviewInfo": "图片预览：{0}",
+    "DustPreviewInfo": "粒子预览：{0}",
+    "ImageOpacityInfo": "图片不透明度：[c/327DFF:{0}%]",
+    "DoubleClickInfo": "双击放置：{0}",
+    "SettingsHint": "[c/828282:可在模组配置中更改]",
+    "AnchorInfo": "锚点：[c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "底部中间",
+      "TopLeft": "左上",
+      "TopRight": "右上",
+      "BottomLeft": "左下",
+      "BottomRight": "右下"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "图片预览"
+      },
+      "EnablePreviews": {
+        "Label": "粒子预览"
+      },
+      "PreviewOpacity": {
+        "Label": "图片不透明度"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "双击放置"
+      },
+      "Anchor": {
+        "Label": "锚点"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "底部中间"
+      },
+      "TopLeft": {
+        "Label": "左上"
+      },
+      "TopRight": {
+        "Label": "右上"
+      },
+      "BottomLeft": {
+        "Label": "左下"
+      },
+      "BottomRight": {
+        "Label": "右下"
+      }
+    }
+  }
+}

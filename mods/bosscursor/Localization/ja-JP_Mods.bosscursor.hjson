@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "カーソルモード"
+      },
+      "Headers": {
+        "DisplayHeader": "ボスカーソルの表示"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "画面外"
+      },
+      "Always": {
+        "Label": "常に表示"
+      },
+      "Never": {
+        "Label": "表示しない"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "resized-frames",
+    "uid": "0dc6638d-65f8-415b-8b1f-818e818b3f6d",
+    "version": "1.0.0",
+    "sha256": "5a88a35d992e35ac1d5fe863b5d0a2afaeef628471678a226ea7710a0a3fbd7f"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. No behavior changes."
+}

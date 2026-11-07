@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "Stworzenie",
+    "None": "(brak)",
+    "Animate": "Animacja",
+    "Hologram": "Efekt Hologramu",
+    "AltRender": "Inne Rysowanie",
+    "Scale": "Skala",
+    "OffsetX": "Przesunięcie X",
+    "OffsetY": "Przesunięcie Y",
+    "Rotation": "Obrót",
+    "AnimSpeed": "Opóźnienie Animacji",
+    "InvisibleTile": "Niewidzialny Blok",
+    "InvisibleWarning": "Uwaga: niewidzialny projektor może być trudno znaleźć.",
+    "PickerTitle": "Wybierz stworzenie",
+    "SearchHint": "Szukaj po nazwie...",
+    "Close": "Zamknij",
+    "Back": "Wróć",
+    "Empty": "Brak odblokowanych stworzeń."
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "Projektor holograficzny",
+      "Tooltip": "Wyświetla odblokowane stworzenie z Bestiariusza jako hologram. Dotknij go po postawieniu, aby skonfigurować."
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "Adamantytowy projektor holograficzny",
+      "Tooltip": "Zaawansowany projektor. Ignoruje postęp Bestiariusza i pozwala na większe hologramy."
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "Tytanowy projektor holograficzny",
+      "Tooltip": "Zaawansowany projektor. Ignoruje postęp Bestiariusza i pozwala na większe hologramy."
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "Projektor holograficzny"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "Adamantytowy projektor holograficzny"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "Tytanowy projektor holograficzny"
+    }
+  }
+}

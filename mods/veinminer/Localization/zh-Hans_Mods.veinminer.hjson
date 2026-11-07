@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "手持一个方块（可放置物块的物品）才能使用此命令。",
+    "Added": "{0} 已加入连锁挖矿列表。",
+    "AlreadyAdded": "{0} 已在你的列表中。",
+    "AlreadyDefault": "{0} 本来就会被连锁挖掘（矿石或默认列表）。",
+    "Removed": "{0} 已从列表中移除。",
+    "NotInList": "{0} 不在你的列表中。",
+    "List": "你的列表：{0}",
+    "ListEmpty": "你的列表是空的。手持方块并使用 /vein add。",
+    "Cleared": "已清除添加的方块（{0} 个）。",
+    "Enabled": "连锁挖矿已开启。",
+    "Disabled": "连锁挖矿已关闭。"
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "矿石"
+      },
+      "UseDefaultList": {
+        "Label": "默认列表"
+      },
+      "UsePlayerList": {
+        "Label": "添加的方块"
+      },
+      "MaxTiles": {
+        "Label": "最大方块数"
+      },
+      "Headers": {
+        "General": "常规"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "将手持的方块加入连锁挖矿列表，以及其他功能。"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Mapa Uniwersalna",
+      "Interval": {
+        "Label": "Odstęp"
+      },
+      "Notifications": {
+        "Label": "Powiadomienia"
+      },
+      "Headers": {
+        "Sync": "Synchronizacja"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Mapa zaktualizowana: {0} nowych pól od innych graczy.",
+    "Sharing": "Udostępnianie twojej mapy innym graczom...",
+    "MultiplayerOnly": "Mapa Uniwersalna działa tylko w trybie wieloosobowym."
+  }
+}

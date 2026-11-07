@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Wyłącz migotanie pochodni"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Skala jasności"
+      }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "Configs": {
+    "UmamusumeEffectsConfig": {
+      "Quality": {
+        "Label": "Qualidade"
+      },
+      "Amount": {
+        "Label": "Quantidade"
+      },
+      "ExtraGlow": {
+        "Label": "Brilho extra"
+      },
+      "Headers": {
+        "EffectsHeader": "Efeitos visuais"
+      }
+    },
+    "EffectQuality": {
+      "Economy": {
+        "Label": "Leve"
+      },
+      "Balanced": {
+        "Label": "Equilibrado"
+      },
+      "High": {
+        "Label": "Alto"
+      },
+      "Cinematic": {
+        "Label": "Cinemático"
+      }
+    }
+  },
+  "Items": {
+    "BlackEar": {
+      "DisplayName": "Orelhas de Cavalo pretas",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "BlackTail": {
+      "DisplayName": "Cauda de Cavalo preta",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "WhiteEar": {
+      "DisplayName": "Orelhas de Cavalo brancas",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "WhiteTail": {
+      "DisplayName": "Cauda de Cavalo branca",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "DeepBrownEar": {
+      "DisplayName": "Orelhas de Cavalo marrom-escuras",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "DeepBrownTail": {
+      "DisplayName": "Cauda de Cavalo marrom-escura",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "OrangeBrownEar": {
+      "DisplayName": "Orelhas de Cavalo marrom-alaranjadas",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "OrangeBrownTail": {
+      "DisplayName": "Cauda de Cavalo marrom-alaranjada",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "PinkBrownEar": {
+      "DisplayName": "Orelhas de Cavalo marrom-rosadas",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "PinkBrownTail": {
+      "DisplayName": "Cauda de Cavalo marrom-rosada",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "RoseBrownEar": {
+      "DisplayName": "Orelhas de Cavalo marrom-rosadas claras",
+      "Tooltip": "Para ouvir cada aplauso. E cada pacote de cenouras abrindo."
+    },
+    "RoseBrownTail": {
+      "DisplayName": "Cauda de Cavalo marrom-rosada clara",
+      "Tooltip": "Abana sozinha? Não. Mas o estilo é de primeira!"
+    },
+    "AgnesTachornHair": {
+      "DisplayName": "Cabelo da Agnes Tachyon",
+      "Tooltip": "A cientista garantiu que o brilho estranho é normal."
+    },
+    "GoldShipHair": {
+      "DisplayName": "Cabelo da Gold Ship",
+      "Tooltip": "Cabelo de Gold Ship. O caos é um acessório opcional."
+    },
+    "ManhattanCafeHair": {
+      "DisplayName": "Cabelo da Manhattan Cafe",
+      "Tooltip": "Perfeito para tomar café com seu amigo invisível."
+    },
+    "MatikanetannhauserHair": {
+      "DisplayName": "Cabelo da Matikanetannhauser",
+      "Tooltip": "Chapéu no lugar, animação no máximo. Mambo!"
+    },
+    "OguriCapHair": {
+      "DisplayName": "Cabelo da Oguri Cap",
+      "Tooltip": "Arrume o cabelo antes que chegue a hora do lanche."
+    },
+    "RiceShowerHair": {
+      "DisplayName": "Cabelo da Rice Shower",
+      "Tooltip": "Um lacinho delicado para uma corredora muito corajosa."
+    },
+    "SymboliRudolfHair": {
+      "DisplayName": "Cabelo da Symboli Rudolf",
+      "Tooltip": "Um penteado imperial. Cuidado com as piadas presidenciais."
+    },
+    "TokaiTeioHair": {
+      "DisplayName": "Cabelo da Tokai Teio",
+      "Tooltip": "Pronto para o Teio Step? Ela já está dançando."
+    },
+    "TachNologyLower": {
+      "DisplayName": "Tach•nology (Parte de Baixo)",
+      "Tooltip": "Resultado do experimento: velocidade máxima, sanidade mínima."
+    },
+    "TachNologyUpper": {
+      "DisplayName": "Tach•nology (Parte de Cima)",
+      "Tooltip": "Aviso: este uniforme ainda não foi testado em humanos."
+    },
+    "SchoolUniformLower": {
+      "DisplayName": "Uniforme Escolar Tracen (Parte de Baixo)",
+      "Tooltip": "Da sala de aula para a pista em dois segundos!"
+    },
+    "SchoolUniformUpper": {
+      "DisplayName": "Uniforme Escolar Tracen (Parte de Cima)",
+      "Tooltip": "Uniforme impecável. A lição de casa ainda é sua responsabilidade."
+    },
+    "StageLower": {
+      "DisplayName": "Roupa de Palco (Parte de Baixo)",
+      "Tooltip": "Só não tropece na coreografia da vitória."
+    },
+    "StageUpper": {
+      "DisplayName": "Roupa de Palco (Parte de Cima)",
+      "Tooltip": "A corrida acabou. Agora vem o show da vitória!"
+    },
+    "TrackSuitLower": {
+      "DisplayName": "Uniforme de Treino Tracen (Parte de Baixo)",
+      "Tooltip": "Treino de resistência ou corrida até a cantina?"
+    },
+    "TrackSuitUpper": {
+      "DisplayName": "Uniforme de Treino Tracen (Parte de Cima)",
+      "Tooltip": "Aquecimento obrigatório. Desculpas opcionais."
+    },
+    "RedStrifeLower": {
+      "DisplayName": "Conflito Vermelho (Parte de Baixo)",
+      "Tooltip": "Feito para correr... ou pregar uma peça no meio da prova."
+    },
+    "RedStrifeUpper": {
+      "DisplayName": "Conflito Vermelho (Parte de Cima)",
+      "Tooltip": "O plano da Gold Ship é simples: não existe plano."
+    },
+    "CreepingShadowLower": {
+      "DisplayName": "Sombra Silenciosa (Parte de Baixo)",
+      "Tooltip": "Se ouvir passos extras, não se preocupe. Provavelmente."
+    },
+    "CreepingShadowUpper": {
+      "DisplayName": "Sombra Silenciosa (Parte de Cima)",
+      "Tooltip": "Um traje discreto. O vulto atrás de você também gostou."
+    },
+    "ClippetyTippetyClopLower": {
+      "DisplayName": "Clippety Tippety Clop (Parte de Baixo)",
+      "Tooltip": "Hora de treinar!... Ué, hoje era dia de folga?"
+    },
+    "ClippetyTippetyClopUpper": {
+      "DisplayName": "Clippety Tippety Clop (Parte de Cima)",
+      "Tooltip": "É um uniforme ou um convite para gritar Mambo!?"
+    },
+    "StarlightBeatLower": {
+      "DisplayName": "Batida Estelar (Parte de Baixo)",
+      "Tooltip": "Sai da frente! Disseram que o buffet está liberado!"
+    },
+    "StarlightBeatUpper": {
+      "DisplayName": "Batida Estelar (Parte de Cima)",
+      "Tooltip": "Oguri Cap está pronta para correr. E para o almoço."
+    },
+    "RosyDreamsLower": {
+      "DisplayName": "Sonhos Rosados (Parte de Baixo)",
+      "Tooltip": "Passinhos tímidos. Determinação de uma campeã."
+    },
+    "RosyDreamsUpper": {
+      "DisplayName": "Sonhos Rosados (Parte de Cima)",
+      "Tooltip": "Rice Shower só queria trazer sorte para todo mundo."
+    },
+    "EmperorsPathLower": {
+      "DisplayName": "Caminho da Imperatriz (Parte de Baixo)",
+      "Tooltip": "Presidir a Tracen é fácil. Difícil é fazer a Air Groove rir."
+    },
+    "EmperorsPathUpper": {
+      "DisplayName": "Caminho da Imperatriz (Parte de Cima)",
+      "Tooltip": "Roupa digna da Imperatriz. As piadas ruins vêm de brinde."
+    },
+    "PeakJoyLower": {
+      "DisplayName": "Alegria no Auge (Parte de Baixo)",
+      "Tooltip": "Teio Step não incluso. Você vai ter que ensaiar."
+    },
+    "PeakJoyUpper": {
+      "DisplayName": "Alegria no Auge (Parte de Cima)",
+      "Tooltip": "A Teio se declarou invencível. De novo!"
+    },
+    "Mambo": {
+      "DisplayName": "Mambo",
+      "Tooltip": "Invoca o pet Mambo. Pequeno no tamanho, gigante no Mambo!"
+    }
+  },
+  "Buffs": {
+    "MamboBuff": {
+      "DisplayName": "Mambo",
+      "Description": "Mambo está trotando ao seu lado. Mambo, mambo!"
+    }
+  },
+  "Projectiles": {
+    "MamboProjectile": {
+      "DisplayName": "Mambo"
+    }
+  }
+}

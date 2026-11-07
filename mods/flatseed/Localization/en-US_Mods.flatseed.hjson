@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "A world so flat you can run without fear of tripping into a hole! The caves are still down there, waiting."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Flattening the world..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Surface height"
+      },
+      "FillChasms": {
+        "Label": "Fill chasms"
+      },
+      "SmoothBeaches": {
+        "Label": "Beach ramps"
+      }
+    }
+  }
+}

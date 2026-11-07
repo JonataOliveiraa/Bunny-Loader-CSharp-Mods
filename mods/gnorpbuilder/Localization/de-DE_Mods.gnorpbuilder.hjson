@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Globus: Test",
+      "Tooltip": "Baut: Test!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\n[c/FF1919:DIESER GEGENSTAND IST ZUM TESTEN GEDACHT UND NORMALERWEISE NICHT ERHÄLTLICH]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Globus: Kleines Waldhaus",
+      "Tooltip": "Baut: Kleines Waldhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Globus: Waldlaterne",
+      "Tooltip": "Baut: Waldlaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Globus: Mittleres Waldhaus",
+      "Tooltip": "Baut: Mittleres Waldhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Globus: Großes Waldhaus",
+      "Tooltip": "Baut: Großes Waldhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Globus: Kellereingang",
+      "Tooltip": "Baut: Kellereingang!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nPerfekt als Anfang deines Kellers"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Globus: Kellerflur",
+      "Tooltip": "Baut: Kellerflur!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Globus: Langer Kellerflur",
+      "Tooltip": "Baut: Langer Kellerflur!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Globus: Kurzer Kellerflur",
+      "Tooltip": "Baut: Kurzer Kellerflur!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Globus: Kellerflur, T nach unten",
+      "Tooltip": "Baut: Kellerflur, T nach unten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Globus: Kellerflur, T nach oben",
+      "Tooltip": "Baut: Kellerflur, T nach oben!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Globus: Kellerkreuzung",
+      "Tooltip": "Baut: Kellerkreuzung!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Globus: Kellerflur, T nach rechts",
+      "Tooltip": "Baut: Kellerflur, T nach rechts!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Globus: Kellerflur, T nach links",
+      "Tooltip": "Baut: Kellerflur, T nach links!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Globus: Kellerecke oben links",
+      "Tooltip": "Baut: Kellerecke oben links!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Globus: Kellerecke unten links",
+      "Tooltip": "Baut: Kellerecke unten links!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Globus: Kellerecke unten rechts",
+      "Tooltip": "Baut: Kellerecke unten rechts!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Globus: Kellerecke oben rechts",
+      "Tooltip": "Baut: Kellerecke oben rechts!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Globus: Kurzer Kellerflur nach unten",
+      "Tooltip": "Baut: Kurzer Kellerflur nach unten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Globus: Kellermusikzimmer",
+      "Tooltip": "Baut: Kellermusikzimmer!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nMit vielen verschiedenen Spieluhren"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Globus: NPC-Kellergefängnis",
+      "Tooltip": "Baut: NPC-Kellergefängnis!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nBillig, aber nicht ethisch"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Globus: NPC-Kellerzimmer",
+      "Tooltip": "Baut: NPC-Kellerzimmer!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nEin ganz normales Zimmer für einen NPC"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Globus: Kellerwaffenkammer",
+      "Tooltip": "Baut: Kellerwaffenkammer!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Globus: Kellergarten",
+      "Tooltip": "Baut: Kellergarten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nWie wächst das in einem Keller? Mit Sternenkraft!"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Globus: Kellerfolterkammer",
+      "Tooltip": "Baut: Kellerfolterkammer!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nFür die NPCs, die du verabscheust"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Globus: Kellereingang nach unten",
+      "Tooltip": "Baut: Kellereingang nach unten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Globus: Großer Kellereingang nach unten",
+      "Tooltip": "Baut: Großer Kellereingang nach unten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Globus: Kellerthronsaal",
+      "Tooltip": "Baut: Kellerthronsaal!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nTeuer, aber aus Marmor und Gold, sehr edel!"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Globus: Großes Wüstenhaus",
+      "Tooltip": "Baut: Großes Wüstenhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Wüstenhaus",
+      "Tooltip": "Baut: Mittleres Wüstenhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Globus: Wüstenlaterne",
+      "Tooltip": "Baut: Wüstenlaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Globus: Kleines Wüstenhaus",
+      "Tooltip": "Baut: Kleines Wüstenhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Globus: Kleines Ozeanhaus",
+      "Tooltip": "Baut: Kleines Ozeanhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Globus: Ozeanlaterne",
+      "Tooltip": "Baut: Ozeanlaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Ozeanhaus",
+      "Tooltip": "Baut: Mittleres Ozeanhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Globus: Großes Ozeanhaus",
+      "Tooltip": "Baut: Großes Ozeanhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Globus: Kleines Dschungelhaus",
+      "Tooltip": "Baut: Kleines Dschungelhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Dschungelhaus",
+      "Tooltip": "Baut: Mittleres Dschungelhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Globus: Großes Dschungelhaus",
+      "Tooltip": "Baut: Großes Dschungelhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Globus: Dschungellaterne",
+      "Tooltip": "Baut: Dschungellaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Globus: Kleines Pilzhaus",
+      "Tooltip": "Baut: Kleines Pilzhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Globus: Pilzlaterne",
+      "Tooltip": "Baut: Pilzlaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Pilzhaus",
+      "Tooltip": "Baut: Mittleres Pilzhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Globus: Großes Pilzhaus",
+      "Tooltip": "Baut: Großes Pilzhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Globus: Tundralaterne",
+      "Tooltip": "Baut: Tundralaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Globus: Kleines Tundrahaus",
+      "Tooltip": "Baut: Kleines Tundrahaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Tundrahaus",
+      "Tooltip": "Baut: Mittleres Tundrahaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Globus: Großes Tundrahaus",
+      "Tooltip": "Baut: Großes Tundrahaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Globus: Kleines heiliges Haus",
+      "Tooltip": "Baut: Kleines heiliges Haus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Globus: Mittleres heiliges Haus",
+      "Tooltip": "Baut: Mittleres heiliges Haus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Globus: Großes heiliges Haus",
+      "Tooltip": "Baut: Großes heiliges Haus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Globus: Heilige Laterne",
+      "Tooltip": "Baut: Heilige Laterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Globus: Kleines Biomhaus",
+      "Tooltip": "Baut: Kleines Biomhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC\nNormalerweise das kleine Waldhaus. Unterstützte Biome: Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Biomhaus",
+      "Tooltip": "Baut: Mittleres Biomhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs\nNormalerweise das mittlere Waldhaus. Unterstützte Biome: Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Globus: Großes Biomhaus",
+      "Tooltip": "Baut: Großes Biomhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs\nNormalerweise das große Waldhaus. Unterstützte Biome: Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Globus: Biomlaterne",
+      "Tooltip": "Baut: Biomlaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nNormalerweise die Waldlaterne. Unterstützte Biome: Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Globus: Kleine einfache Arena",
+      "Tooltip": "Baut: Kleine einfache Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 3 Plattformen, ist 105 Blöcke lang und 34 Blöcke hoch"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Globus: Mittlere einfache Arena",
+      "Tooltip": "Baut: Mittlere einfache Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 5 Plattformen, ist 180 Blöcke lang und 54 Blöcke hoch"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Globus: Große einfache Arena",
+      "Tooltip": "Baut: Große einfache Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 7 Plattformen, ist 255 Blöcke lang und 74 Blöcke hoch"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Globus: Kleine fortgeschrittene Arena",
+      "Tooltip": "Baut: Kleine fortgeschrittene Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 3 Plattformen, ist 105 Blöcke lang und 34 Blöcke hoch\nMit Lagerfeuer, Herzlaterne, Stern in einer Flasche, Bast-Statue, Gartenzwerg und Honig in einer Blase"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Globus: Mittlere fortgeschrittene Arena",
+      "Tooltip": "Baut: Mittlere fortgeschrittene Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 5 Plattformen, ist 180 Blöcke lang und 54 Blöcke hoch\nMit Lagerfeuern, Herzlaternen, Sternen in einer Flasche, Bast-Statuen, Gartenzwergen und Honig in Blasen"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Globus: Große fortgeschrittene Arena",
+      "Tooltip": "Baut: Große fortgeschrittene Arena!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDie Arena hat 7 Plattformen, ist 255 Blöcke lang und 74 Blöcke hoch\nMit Lagerfeuern, Herzlaternen, Sternen in einer Flasche, Bast-Statuen, Gartenzwergen und Honig in Blasen"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Globus: Waldaufzug",
+      "Tooltip": "Baut: Waldaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Globus: Tundraaufzug",
+      "Tooltip": "Baut: Tundraaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Globus: Wüstenaufzug",
+      "Tooltip": "Baut: Wüstenaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Globus: Heiliger Aufzug",
+      "Tooltip": "Baut: Heiliger Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Globus: Dschungelaufzug",
+      "Tooltip": "Baut: Dschungelaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Globus: Pilzaufzug",
+      "Tooltip": "Baut: Pilzaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Globus: Ozeanaufzug",
+      "Tooltip": "Baut: Ozeanaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Globus: Biomaufzug",
+      "Tooltip": "Baut: Biomaufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieser Aufzug führt bis in die Unterwelt und erzeugt Wolken, die Fallschaden verhindern\nNormalerweise der Waldaufzug. Unterstützte Biome: Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globus: Kurze Lorenschiene für den Aufzug",
+      "Tooltip": "Baut: Kurze Lorenschiene für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Globus: Lorenschienenkreuz für den Aufzug",
+      "Tooltip": "Baut: Lorenschienenkreuz für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nGut als Anfang deiner Aufzug-Lorenschienen!"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globus: Lorenschiene für den Aufzug",
+      "Tooltip": "Baut: Lorenschiene für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\n5-mal länger als die kurze Version"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Globus: Rechte Lorenrampe für den Aufzug",
+      "Tooltip": "Baut: Rechte Lorenrampe für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Globus: Lorenhaltestelle für den Aufzug",
+      "Tooltip": "Baut: Lorenhaltestelle für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Globus: Linke Lorenrampe für den Aufzug",
+      "Tooltip": "Baut: Linke Lorenrampe für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Globus: Komplette Lorenschiene für den Aufzug",
+      "Tooltip": "Baut: Komplette Lorenschiene für den Aufzug!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nLegt Lorenschienen nach links und rechts, ideal mit deinem Aufzug!\n[c/E11919:ACHTUNG, DIESES BAUWERK IST SEHR GROSS! ES KANN WICHTIGE STRUKTUREN ZERSTÖREN, VORSICHTIG BENUTZEN!!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Globus: Großes Valentinshaus",
+      "Tooltip": "Baut: Großes Valentinshaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs\n[c/FFC0CB:Mit Liebe gemacht!]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Valentinshaus",
+      "Tooltip": "Baut: Mittleres Valentinshaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 2 NPCs\n[c/FFC0CB:Mit Liebe gemacht!]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Globus: Kleines Valentinshaus",
+      "Tooltip": "Baut: Kleines Valentinshaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 1 NPC\n[c/FFC0CB:Mit Liebe gemacht!]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Globus: Valentinslaterne",
+      "Tooltip": "Baut: Valentinslaterne!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\n[c/FFC0CB:Mit Liebe gemacht!]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Globus: Herzhaus",
+      "Tooltip": "Baut: Herzhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDieses Haus bietet Platz für 3 NPCs\n[c/FF7F7F:Aus Liebe gemacht!]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Globus: Höhlenpylon",
+      "Tooltip": "Baut: Höhlenpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Globus: Wüstenpylon",
+      "Tooltip": "Baut: Wüstenpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Globus: Waldpylon",
+      "Tooltip": "Baut: Waldpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Globus: Heiliger Pylon",
+      "Tooltip": "Baut: Heiliger Pylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Globus: Dschungelpylon",
+      "Tooltip": "Baut: Dschungelpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Globus: Pilzpylon",
+      "Tooltip": "Baut: Pilzpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Globus: Ozeanpylon",
+      "Tooltip": "Baut: Ozeanpylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Globus: Tundrapylon",
+      "Tooltip": "Baut: Tundrapylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Globus: Biompylon",
+      "Tooltip": "Baut: Biompylon!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nNormalerweise der Waldpylon. Unterstützte Biome: Höhle, Tundra, Wüste, Dschungel, Ozean, Oberflächenpilz und Heiliges"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Gnorpy-Fernbedienung",
+      "Tooltip": "Gnorps Fernbedienung!\nRuft Gnorp herbei"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Globus: Kellertreppe, T nach unten",
+      "Tooltip": "Baut: Kellertreppe, T nach unten!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Globus: Kellertreppe, T nach oben",
+      "Tooltip": "Baut: Kellertreppe, T nach oben!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Globus: Rechte Kellertreppe",
+      "Tooltip": "Baut: Rechte Kellertreppe!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Globus: Kellertreppenkreuz",
+      "Tooltip": "Baut: Kellertreppenkreuz!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Globus: Kellerbibliothek",
+      "Tooltip": "Baut: Kellerbibliothek!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Globus: Linke Kellertreppe",
+      "Tooltip": "Baut: Linke Kellertreppe!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Globus: Kellerflur mit NPC-Zimmer",
+      "Tooltip": "Baut: Kellerflur mit NPC-Zimmer!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nIm Grunde ein NPC-Zimmer mit Flur"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Globus: Kellerbar",
+      "Tooltip": "Baut: Kellerbar!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nHol dir was zu trinken"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Globus: Kleine Burg",
+      "Tooltip": "Baut: Kleine Burg!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Globus: Mittlere Burg",
+      "Tooltip": "Baut: Mittlere Burg!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Globus: Große Burg",
+      "Tooltip": "Baut: Große Burg!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Globus: Riesige Burg",
+      "Tooltip": "Baut: Riesige Burg!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nZiemlich riesig, sollte genug Platz für alles bieten!"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Globus: Kleine Baumbasis",
+      "Tooltip": "Baut: Kleine Baumbasis!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Globus: Mittlere Baumbasis",
+      "Tooltip": "Baut: Mittlere Baumbasis!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Globus: Große Baumbasis",
+      "Tooltip": "Baut: Große Baumbasis!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Globus: Riesige Baumbasis",
+      "Tooltip": "Baut: Riesige Baumbasis!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Globus: Einfacher Wassersee",
+      "Tooltip": "Baut: Einfacher Wassersee!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nPerfekt zum Angeln"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Globus: Einfacher Schimmersee",
+      "Tooltip": "Baut: Einfacher Schimmersee!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nPerfekt zum Ang... Moment, im Schimmer kann man doch nicht angeln, oder?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Globus: Einfacher Lavasee",
+      "Tooltip": "Baut: Einfacher Lavasee!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nPerfekt zum Angeln"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Globus: Einfacher Honigsee",
+      "Tooltip": "Baut: Einfacher Honigsee!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nPerfekt zum Angeln"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Globus: Gefängniszelle",
+      "Tooltip": "Baut: Gefängniszelle!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nHast du kein menschliches Herz?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Globus: Unsichtbare NPC-Burg",
+      "Tooltip": "Baut: Unsichtbare NPC-Burg!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDiese Burg bietet Platz für 3 NPCs\nSuper epische, coole Burg. Schade, dass man sie nicht sieht"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Globus: Kleines Kackhaus",
+      "Tooltip": "Baut: Kleines Kackhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDiese Burg bietet Platz für 1 NPC\nStinkt"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Globus: Großes Kackhaus",
+      "Tooltip": "Baut: Großes Kackhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDiese Burg bietet Platz für 3 NPCs\nStinkt"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Globus: Mittleres Kackhaus",
+      "Tooltip": "Baut: Mittleres Kackhaus!\nNutze die Touch-Taste Ankerpunkt (in der Steuerung hinzufügen) oder die Mod-Konfiguration, um den Ankerpunkt zu ändern\nDiese Burg bietet Platz für 2 NPCs\nStinkt"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp ist ein sehr freundlicher Außerirdischer. Gnorps einziges Ziel ist es, anderen beim Bauen zu helfen. Gnorp sieht Schönheit in jedem Biom."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Haupt",
+        "Bases": "Basen",
+        "Module": "Module",
+        "Utility": "Nützliches",
+        "Holiday": "Feiertage"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Wechseln ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Gnorp wird gerufen"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Ankerpunkt (Gnorp-Globen)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:AN]",
+    "ValueOff": "[c/E11919:AUS]",
+    "ImagePreviewInfo": "Bildvorschau: {0}",
+    "DustPreviewInfo": "Staubvorschau: {0}",
+    "ImageOpacityInfo": "Bilddeckkraft: [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Platzieren mit Doppeltippen: {0}",
+    "SettingsHint": "[c/828282:Kann in der Mod-Konfiguration geändert werden]",
+    "AnchorInfo": "Ankerpunkt: [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "Unten Mitte",
+      "TopLeft": "Oben links",
+      "TopRight": "Oben rechts",
+      "BottomLeft": "Unten links",
+      "BottomRight": "Unten rechts"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Bildvorschau"
+      },
+      "EnablePreviews": {
+        "Label": "Staubvorschau"
+      },
+      "PreviewOpacity": {
+        "Label": "Bilddeckkraft"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Platzieren mit Doppeltippen"
+      },
+      "Anchor": {
+        "Label": "Ankerpunkt"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "Unten Mitte"
+      },
+      "TopLeft": {
+        "Label": "Oben links"
+      },
+      "TopRight": {
+        "Label": "Oben rechts"
+      },
+      "BottomLeft": {
+        "Label": "Unten links"
+      },
+      "BottomRight": {
+        "Label": "Unten rechts"
+      }
+    }
+  }
+}

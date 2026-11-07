@@ -1,0 +1,672 @@
+{
+  "Items": {
+    "AirBlowerItem": {
+      "DisplayName": "Air Blower"
+    },
+    "AirDuctItem": {
+      "DisplayName": "Air Duct"
+    },
+    "AnchorWallMountItem": {
+      "DisplayName": "Anchor Wall Mount"
+    },
+    "AncientPotItem": {
+      "DisplayName": "Ancient Pot"
+    },
+    "AncientVaseItem": {
+      "DisplayName": "Ancient Vase"
+    },
+    "AntelopeHuntingTrophyItem": {
+      "DisplayName": "Antelope Hunting Trophy"
+    },
+    "AshtrayItem": {
+      "DisplayName": "Ashtray"
+    },
+    "AxeWallMountItem": {
+      "DisplayName": "Axe Wall Mount"
+    },
+    "BackpackItem": {
+      "DisplayName": "Backpack"
+    },
+    "BallOfYarnItem": {
+      "DisplayName": "Ball Of Yarn"
+    },
+    "BalloonBottleItem": {
+      "DisplayName": "Balloon Bottle"
+    },
+    "BarbedWireFenceItem": {
+      "DisplayName": "Barbed Wire Fence"
+    },
+    "BasketItem": {
+      "DisplayName": "Basket"
+    },
+    "BeeNestItem": {
+      "DisplayName": "Bee Nest",
+      "Tooltip": "'Don't anger them!'"
+    },
+    "BeerMugItem": {
+      "DisplayName": "Beer Mug"
+    },
+    "BigBarrelItem": {
+      "DisplayName": "Big Barrel"
+    },
+    "BigCauldronItem": {
+      "DisplayName": "Big Cauldron"
+    },
+    "BigChestItem": {
+      "DisplayName": "Big Chest"
+    },
+    "BigTentItem": {
+      "DisplayName": "Big Tent"
+    },
+    "BigWagonItem": {
+      "DisplayName": "Big Wagon"
+    },
+    "BirdHouseItem": {
+      "DisplayName": "Bird House"
+    },
+    "BirdNestItem": {
+      "DisplayName": "Bird Nest"
+    },
+    "BlueRoofTileItem": {
+      "DisplayName": "Blue Roof Tile"
+    },
+    "BonsaiTreeItem": {
+      "DisplayName": "Bonsai Tree"
+    },
+    "BoomboxItem": {
+      "DisplayName": "Boombox"
+    },
+    "BroomItem": {
+      "DisplayName": "Broom"
+    },
+    "BucketItem": {
+      "DisplayName": "Bucket",
+      "Tooltip": "'Dear god...'"
+    },
+    "BustItem": {
+      "DisplayName": "Bust"
+    },
+    "ButcherTableItem": {
+      "DisplayName": "Butcher Table"
+    },
+    "CashRegisterItem": {
+      "DisplayName": "Cash Register"
+    },
+    "ChampagneGlassItem": {
+      "DisplayName": "Champagne Glass"
+    },
+    "CheckerboardGlassItem": {
+      "DisplayName": "Checkerboard Glass"
+    },
+    "CheckerboardGlassWallItem": {
+      "DisplayName": "Checkerboard Glass Wall"
+    },
+    "ChessboardItem": {
+      "DisplayName": "Chessboard"
+    },
+    "ClockItem": {
+      "DisplayName": "Clock"
+    },
+    "CoatRackItem": {
+      "DisplayName": "Coat Rack"
+    },
+    "CoffeeCupItem": {
+      "DisplayName": "Coffee Cup"
+    },
+    "CoffinItem": {
+      "DisplayName": "Coffin"
+    },
+    "CookieJarItem": {
+      "DisplayName": "Cookie Jar",
+      "Tooltip": "'Don't touch!'"
+    },
+    "CribItem": {
+      "DisplayName": "Crib"
+    },
+    "DecoDynamiteItem": {
+      "DisplayName": "Dynamite Decorative"
+    },
+    "DecoFlaskOfVenomItem": {
+      "DisplayName": "Flask Of Venom Decorative"
+    },
+    "DecoHealingPotionItem": {
+      "DisplayName": "Healing Potion Decorative"
+    },
+    "DecoHellstoneBrickItem": {
+      "DisplayName": "Hellstone Brick Decorative"
+    },
+    "DecoHellstoneItem": {
+      "DisplayName": "Hellstone Decorative"
+    },
+    "DecoHunterPotionItem": {
+      "DisplayName": "Hunter Potion Decorative"
+    },
+    "DecoIronskinPotionItem": {
+      "DisplayName": "Ironskin Potion Decorative"
+    },
+    "DecoMagicPowerPotionItem": {
+      "DisplayName": "Magic Power Potion Decorative"
+    },
+    "DecoManaPotionItem": {
+      "DisplayName": "Mana Potion Decorative"
+    },
+    "DecoMiningPotionItem": {
+      "DisplayName": "Mining Potion Decorative"
+    },
+    "DecoSmallBombItem": {
+      "DisplayName": "Small Bomb Decorative"
+    },
+    "DecoSonarPotionItem": {
+      "DisplayName": "Sonar Potion Decorative"
+    },
+    "DeerHuntingTrophyItem": {
+      "DisplayName": "Deer Hunting Trophy"
+    },
+    "DeerSkullTrophyItem": {
+      "DisplayName": "Deer Skull Trophy"
+    },
+    "DesertPotItem": {
+      "DisplayName": "Desert Pot"
+    },
+    "DesktopComputerItem": {
+      "DisplayName": "Desktop Computer"
+    },
+    "DirectionalSignItem": {
+      "DisplayName": "Directional Sign"
+    },
+    "DivingBoardItem": {
+      "DisplayName": "Diving Board",
+      "Tooltip": "Can protrude over holes"
+    },
+    "DogHouseItem": {
+      "DisplayName": "Dog House"
+    },
+    "DoorbellItem": {
+      "DisplayName": "Doorbell"
+    },
+    "DressingScreenItem": {
+      "DisplayName": "Dressing Screen"
+    },
+    "DrinkingGlassItem": {
+      "DisplayName": "Drinking Glass"
+    },
+    "DumpsterItem": {
+      "DisplayName": "Dumpster"
+    },
+    "DustpanAndBrushItem": {
+      "DisplayName": "Dustpan And Brush"
+    },
+    "EaselItem": {
+      "DisplayName": "Easel"
+    },
+    "ElectronicComponent": {
+      "DisplayName": "Electronic Component"
+    },
+    "EyeInAJarItem": {
+      "DisplayName": "Eye In a Jar"
+    },
+    "FireExtinguisherItem": {
+      "DisplayName": "Fire Extinguisher"
+    },
+    "FireHydrantItem": {
+      "DisplayName": "Fire Hydrant"
+    },
+    "FlatPotItem": {
+      "DisplayName": "Flat Pot"
+    },
+    "FoodBowlItem": {
+      "DisplayName": "Food Bowl"
+    },
+    "ForestPotItem": {
+      "DisplayName": "Forest Pot"
+    },
+    "ForestVaseItem": {
+      "DisplayName": "Forest Vase"
+    },
+    "FruitBowlItem": {
+      "DisplayName": "Fruit Bowl"
+    },
+    "GallowsItem": {
+      "DisplayName": "Gallows"
+    },
+    "GardenHoseItem": {
+      "DisplayName": "Garden Hose"
+    },
+    "GlobeItem": {
+      "DisplayName": "Globe"
+    },
+    "GoldenBellItem": {
+      "DisplayName": "Golden Bell"
+    },
+    "GongItem": {
+      "DisplayName": "Gong",
+      "Tooltip": "'Give it a whack!'"
+    },
+    "GreenLawnmowerItem": {
+      "DisplayName": "Green Lawnmower"
+    },
+    "GrillItem": {
+      "DisplayName": "Grill"
+    },
+    "GuillotineItem": {
+      "DisplayName": "Guillotine"
+    },
+    "HallstandItem": {
+      "DisplayName": "Hallstand"
+    },
+    "HandwagonItem": {
+      "DisplayName": "Handwagon"
+    },
+    "HangingHerbsItem": {
+      "DisplayName": "Hanging Herbs"
+    },
+    "HayBaleItem": {
+      "DisplayName": "Hay Bale"
+    },
+    "HazardWarningBlockItem": {
+      "DisplayName": "Hazard Warning Block"
+    },
+    "HazardWarningWallItem": {
+      "DisplayName": "Hazard Warning Wall"
+    },
+    "HeaterItem": {
+      "DisplayName": "Heater"
+    },
+    "HoeItem": {
+      "DisplayName": "Hoe"
+    },
+    "HorizontalStripesWallpaperItem": {
+      "DisplayName": "Horizontal Stripes Wallpaper"
+    },
+    "HourglassItem": {
+      "DisplayName": "Hourglass"
+    },
+    "InkwellItem": {
+      "DisplayName": "Inkwell"
+    },
+    "InterlockingRoofTileItem": {
+      "DisplayName": "Interlocking Roof Tile"
+    },
+    "IroningBoardItem": {
+      "DisplayName": "Ironing Board"
+    },
+    "JugItem": {
+      "DisplayName": "Jug"
+    },
+    "JunglePotItem": {
+      "DisplayName": "Jungle Pot"
+    },
+    "KitchenToolRackItem": {
+      "DisplayName": "Kitchen Tool Rack"
+    },
+    "KnifeRackItem": {
+      "DisplayName": "Knife Rack"
+    },
+    "LaptopItem": {
+      "DisplayName": "Laptop"
+    },
+    "LargeBasketItem": {
+      "DisplayName": "Large Basket"
+    },
+    "LargeGardenToolRackItem": {
+      "DisplayName": "Large Garden Tool Rack"
+    },
+    "LargeGlobeItem": {
+      "DisplayName": "Large Globe"
+    },
+    "LargeHammerItem": {
+      "DisplayName": "Large Hammer"
+    },
+    "LargeMetalCageItem": {
+      "DisplayName": "Large Metal Cage"
+    },
+    "LeadlightItem": {
+      "DisplayName": "Leadlight"
+    },
+    "LeadlightWallItem": {
+      "DisplayName": "Leadlight Wall"
+    },
+    "LecternItem": {
+      "DisplayName": "Lectern"
+    },
+    "LibraryWallItem": {
+      "DisplayName": "Library Wall"
+    },
+    "LihzahrdPotItem": {
+      "DisplayName": "Lihzahrd Pot"
+    },
+    "LogPileItem": {
+      "DisplayName": "Log Pile"
+    },
+    "LongTikiMaskItem": {
+      "DisplayName": "Long Tiki Mask"
+    },
+    "LoudspeakerItem": {
+      "DisplayName": "Loudspeaker"
+    },
+    "MailboxItem": {
+      "DisplayName": "Mailbox"
+    },
+    "MedicineCabinetItem": {
+      "DisplayName": "Medicine Cabinet"
+    },
+    "MetalCookingPotItem": {
+      "DisplayName": "Metal Cooking Pot"
+    },
+    "MetalPanItem": {
+      "DisplayName": "Metal Pan"
+    },
+    "MonsterballItem": {
+      "DisplayName": "Monsterball"
+    },
+    "MortarAndPestleItem": {
+      "DisplayName": "Mortar And Pestle"
+    },
+    "OldMinecartItem": {
+      "DisplayName": "Old Minecart"
+    },
+    "OpenBookItem": {
+      "DisplayName": "Open Book"
+    },
+    "OuthouseItem": {
+      "DisplayName": "Outhouse",
+      "Tooltip": "'someBODY ONCE TOLD ME'"
+    },
+    "PackageItem": {
+      "DisplayName": "Package"
+    },
+    "Paper": {
+      "DisplayName": "Paper"
+    },
+    "ParasolItem": {
+      "DisplayName": "Parasol"
+    },
+    "ParchmentItem": {
+      "DisplayName": "Parchment"
+    },
+    "PatchworkFabricItem": {
+      "DisplayName": "Patchwork Fabric"
+    },
+    "PhotoCameraItem": {
+      "DisplayName": "Photo Camera"
+    },
+    "PickaxeRackItem": {
+      "DisplayName": "Pickaxe Rack"
+    },
+    "PileOfBooksItem": {
+      "DisplayName": "Pile Of Books"
+    },
+    "PileOfDishesItem": {
+      "DisplayName": "Pile Of Dishes"
+    },
+    "PileOfSacksItem": {
+      "DisplayName": "Pile Of Sacks"
+    },
+    "PileOfScrollsItem": {
+      "DisplayName": "Pile Of Scrolls"
+    },
+    "PinballMachineItem": {
+      "DisplayName": "Pinball Machine"
+    },
+    "PinnedNoteItem": {
+      "DisplayName": "Pinned Note"
+    },
+    "PipeItem": {
+      "DisplayName": "Pipe"
+    },
+    "PitchforkItem": {
+      "DisplayName": "Pitchfork"
+    },
+    "PlasticBar": {
+      "DisplayName": "Plastic Bar"
+    },
+    "PolkaDotsWallpaperItem": {
+      "DisplayName": "Polka Dots Wallpaper"
+    },
+    "PottedAloeVeraItem": {
+      "DisplayName": "Potted Aloe Vera"
+    },
+    "PottedCactusItem": {
+      "DisplayName": "Potted Cactus"
+    },
+    "PottedSeedlingItem": {
+      "DisplayName": "Potted Seedling"
+    },
+    "PracticeTargetItem": {
+      "DisplayName": "Practice Target"
+    },
+    "PyramidPotItem": {
+      "DisplayName": "Pyramid Pot"
+    },
+    "RCMonsterTruckItem": {
+      "DisplayName": "RCMonster Truck",
+      "Tooltip": "\"We can't find the remote\""
+    },
+    "RakeItem": {
+      "DisplayName": "Rake"
+    },
+    "RhinoHuntingTrophyItem": {
+      "DisplayName": "Rhino Hunting Trophy"
+    },
+    "RockingChairItem": {
+      "DisplayName": "Rocking Chair"
+    },
+    "RoundPaneGlassItem": {
+      "DisplayName": "Round Pane Glass"
+    },
+    "RoundPaneGlassWallItem": {
+      "DisplayName": "Round Pane Glass Wall"
+    },
+    "RoyalWallpaperItem": {
+      "DisplayName": "Royal Wallpaper"
+    },
+    "SackItem": {
+      "DisplayName": "Sack"
+    },
+    "ScalesItem": {
+      "DisplayName": "Scales"
+    },
+    "ScratchTreeItem": {
+      "DisplayName": "Scratch Tree"
+    },
+    "ScrubbingBrushItem": {
+      "DisplayName": "Scrubbing Brush"
+    },
+    "ScytheItem": {
+      "DisplayName": "Scythe"
+    },
+    "SecurityCameraItem": {
+      "DisplayName": "Security Camera"
+    },
+    "ServiceBellItem": {
+      "DisplayName": "Service Bell"
+    },
+    "SewingMachineItem": {
+      "DisplayName": "Sewing Machine"
+    },
+    "ShipCannonItem": {
+      "DisplayName": "Ship Cannon"
+    },
+    "ShovelItem": {
+      "DisplayName": "Shovel"
+    },
+    "SidewalkSignItem": {
+      "DisplayName": "Sidewalk Sign"
+    },
+    "SledItem": {
+      "DisplayName": "Sled"
+    },
+    "SmallBagItem": {
+      "DisplayName": "Small Bag"
+    },
+    "SmallChestItem": {
+      "DisplayName": "Small Chest"
+    },
+    "SmallCrystalBallItem": {
+      "DisplayName": "Small Crystal Ball"
+    },
+    "SmallFramedPictureItem": {
+      "DisplayName": "Small Framed Picture"
+    },
+    "SmallGardenToolRackItem": {
+      "DisplayName": "Small Garden Tool Rack"
+    },
+    "SmallGlassItem": {
+      "DisplayName": "Small Glass"
+    },
+    "SmallNoteItem": {
+      "DisplayName": "Small Note"
+    },
+    "SmallSnowGlobeItem": {
+      "DisplayName": "Small Snow Globe"
+    },
+    "SmallTeapotItem": {
+      "DisplayName": "Small Teapot"
+    },
+    "SnowmanItem": {
+      "DisplayName": "Snowman"
+    },
+    "SoapDispenserItem": {
+      "DisplayName": "Soap Dispenser",
+      "Tooltip": "'Remember to wash your hands!'"
+    },
+    "SocketItem": {
+      "DisplayName": "Socket"
+    },
+    "SoupBowlItem": {
+      "DisplayName": "Soup Bowl"
+    },
+    "SpiceRackItem": {
+      "DisplayName": "Spice Rack"
+    },
+    "SpoolOfThreadItem": {
+      "DisplayName": "Spool Of Thread"
+    },
+    "StackOfFabricItem": {
+      "DisplayName": "Stack Of Fabric"
+    },
+    "StampItem": {
+      "DisplayName": "Stamp"
+    },
+    "SteelGirderItem": {
+      "DisplayName": "Steel Girder"
+    },
+    "StripedVaseItem": {
+      "DisplayName": "Striped Vase"
+    },
+    "SuitOfArmorItem": {
+      "DisplayName": "Suit Of Armor"
+    },
+    "SwordWallMountItem": {
+      "DisplayName": "Sword Wall Mount"
+    },
+    "TankardItem": {
+      "DisplayName": "Tankard"
+    },
+    "TanningRackItem": {
+      "DisplayName": "Tanning Rack"
+    },
+    "TelephoneItem": {
+      "DisplayName": "Telephone"
+    },
+    "TelescopeItem": {
+      "DisplayName": "Telescope"
+    },
+    "TentItem": {
+      "DisplayName": "Tent"
+    },
+    "TerrarchitectCatalogueItem": {
+      "DisplayName": "Terrarchitect Catalogue"
+    },
+    "ThatchRoofItem": {
+      "DisplayName": "Thatch Roof"
+    },
+    "ThinCorkedJarItem": {
+      "DisplayName": "Thin Corked Jar"
+    },
+    "ThinPipeItem": {
+      "DisplayName": "Thin Pipe"
+    },
+    "ThinVaseItem": {
+      "DisplayName": "Thin Vase"
+    },
+    "TikiMaskItem": {
+      "DisplayName": "Tiki Mask"
+    },
+    "ToasterItem": {
+      "DisplayName": "Toaster"
+    },
+    "ToiletPaperItem": {
+      "DisplayName": "Toilet Paper"
+    },
+    "ToolboxItem": {
+      "DisplayName": "Toolbox"
+    },
+    "ToothbrushItem": {
+      "DisplayName": "Toothbrush"
+    },
+    "TowerClockItem": {
+      "DisplayName": "Tower Clock"
+    },
+    "TrussItem": {
+      "DisplayName": "Truss"
+    },
+    "TubeTVItem": {
+      "DisplayName": "Tube TV"
+    },
+    "UrnItem": {
+      "DisplayName": "Urn"
+    },
+    "VacuumCleanerItem": {
+      "DisplayName": "Vacuum Cleaner"
+    },
+    "VerticalStripesWallpaperItem": {
+      "DisplayName": "Vertical Stripes Wallpaper"
+    },
+    "VintageFlowerWallpaperItem": {
+      "DisplayName": "Vintage Flower Wallpaper"
+    },
+    "VintageVineWallpaperItem": {
+      "DisplayName": "Vintage Vine Wallpaper"
+    },
+    "WagonWheelsItem": {
+      "DisplayName": "Wagon Wheels"
+    },
+    "WallMountedPhoneItem": {
+      "DisplayName": "Wall Mounted Phone"
+    },
+    "WaterBowlItem": {
+      "DisplayName": "Water Bowl"
+    },
+    "WaterPumpItem": {
+      "DisplayName": "Water Pump"
+    },
+    "WaterTapItem": {
+      "DisplayName": "Water Tap"
+    },
+    "WateringCanItem": {
+      "DisplayName": "Watering Can"
+    },
+    "WavyLinesWallpaperItem": {
+      "DisplayName": "Wavy Lines Wallpaper"
+    },
+    "WellItem": {
+      "DisplayName": "Well"
+    },
+    "WheelbarrowItem": {
+      "DisplayName": "Wheelbarrow"
+    },
+    "WideCorkedJarItem": {
+      "DisplayName": "Wide Corked Jar"
+    },
+    "WirelessPhoneItem": {
+      "DisplayName": "Wireless Phone"
+    },
+    "WoodcuttingStumpItem": {
+      "DisplayName": "Woodcutting Stump"
+    },
+    "WoodenTroughItem": {
+      "DisplayName": "Wooden Trough"
+    }
+  }
+}

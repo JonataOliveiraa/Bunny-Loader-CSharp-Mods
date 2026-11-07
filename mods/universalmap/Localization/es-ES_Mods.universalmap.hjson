@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Mapa Universal",
+      "Interval": {
+        "Label": "Intervalo"
+      },
+      "Notifications": {
+        "Label": "Notificaciones"
+      },
+      "Headers": {
+        "Sync": "Sincronización"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Mapa actualizado: {0} bloques nuevos de otros jugadores.",
+    "Sharing": "Compartiendo tu mapa con los demás jugadores...",
+    "MultiplayerOnly": "El Mapa Universal solo funciona en multijugador."
+  }
+}

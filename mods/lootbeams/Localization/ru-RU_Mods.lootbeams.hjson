@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Возьмите предмет в руку, чтобы использовать команду.",
+    "Always": "У {0} теперь всегда есть луч.",
+    "Never": "У {0} теперь никогда нет луча.",
+    "MiniOn": "У {0} теперь маленький луч.",
+    "MiniOff": "У {0} снова обычный луч.",
+    "BadColor": "Неверный цвет. Используйте /beams color #RRGGBB (например, #FF8800).",
+    "Colored": "Цвет луча {0}: {1}.",
+    "Reset": "{0} убран из ваших списков.",
+    "NotListed": "{0} нет в ваших списках.",
+    "List": "Всегда: {0} | Никогда: {1} | Маленький: {2} | Цвета: {3}",
+    "Cleared": "Ваши списки очищены.",
+    "Enabled": "Лучи включены.",
+    "Disabled": "Лучи выключены."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Включено"
+      },
+      "MinRarity": {
+        "Label": "Мин. Редкость"
+      },
+      "MinValue": {
+        "Label": "Мин. Цена"
+      },
+      "HighlightQuest": {
+        "Label": "Предметы Заданий"
+      },
+      "HighlightExpert": {
+        "Label": "Предметы Эксперта"
+      },
+      "HighlightMaster": {
+        "Label": "Предметы Мастера"
+      },
+      "UseDefaultLists": {
+        "Label": "Стандартные Списки"
+      },
+      "BeamStyle": {
+        "Label": "Стиль Луча"
+      },
+      "GlowStyle": {
+        "Label": "Стиль Свечения"
+      },
+      "BeamScale": {
+        "Label": "Размер Луча"
+      },
+      "BeamOpacity": {
+        "Label": "Прозрачность Луча"
+      },
+      "GlowScale": {
+        "Label": "Размер Свечения"
+      },
+      "GlowOpacity": {
+        "Label": "Прозрачность Свечения"
+      },
+      "FlashScale": {
+        "Label": "Вспышка при Падении"
+      },
+      "DrawAdditive": {
+        "Label": "Ярче"
+      },
+      "Pulse": {
+        "Label": "Пульсация"
+      },
+      "EmitLight": {
+        "Label": "Свет"
+      },
+      "FadeOnPickup": {
+        "Label": "Гасить при Подборе"
+      },
+      "Headers": {
+        "Filters": "Какие Предметы",
+        "Visuals": "Внешний Вид",
+        "Extras": "Дополнительно"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Нет"
+      },
+      "Simple": {
+        "Label": "Простой"
+      },
+      "Arrow": {
+        "Label": "Стрелка"
+      },
+      "AnimatedArrow": {
+        "Label": "Анимированная Стрелка"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Нет"
+      },
+      "Simple": {
+        "Label": "Мягкое"
+      },
+      "Pixel": {
+        "Label": "Пиксельное"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Меняет луч предмета в руке."
+    }
+  }
+}

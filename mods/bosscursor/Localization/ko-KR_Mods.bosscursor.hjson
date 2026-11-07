@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "커서 모드"
+      },
+      "Headers": {
+        "DisplayHeader": "보스 커서 표시"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "화면 밖"
+      },
+      "Always": {
+        "Label": "항상"
+      },
+      "Never": {
+        "Label": "표시 안 함"
+      }
+    }
+  }
+}

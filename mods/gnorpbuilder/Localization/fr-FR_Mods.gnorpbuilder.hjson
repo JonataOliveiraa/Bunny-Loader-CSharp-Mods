@@ -1,0 +1,562 @@
+{
+  "Items": {
+    "BuilderWand": {
+      "DisplayName": "Globe : Test",
+      "Tooltip": "Construit : test !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\n[c/FF1919:CET OBJET SERT AUX TESTS ET N'EST PAS CENSÉ ÊTRE OBTENU NORMALEMENT]"
+    },
+    "OldCabinGlobe": {
+      "DisplayName": "Globe : Petite maison de forêt",
+      "Tooltip": "Construit : petite maison de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "WoodenLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire de forêt",
+      "Tooltip": "Construit : lampadaire de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "OldMediumCabinGlobe": {
+      "DisplayName": "Globe : Moyenne maison de forêt",
+      "Tooltip": "Construit : moyenne maison de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "OldLargeCabinGlobe": {
+      "DisplayName": "Globe : Grande maison de forêt",
+      "Tooltip": "Construit : grande maison de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "BasementEnterGlobe": {
+      "DisplayName": "Globe : Entrée de sous-sol",
+      "Tooltip": "Construit : entrée de sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nParfait pour commencer ton sous-sol"
+    },
+    "BasementHallwayGlobe": {
+      "DisplayName": "Globe : Couloir de sous-sol",
+      "Tooltip": "Construit : couloir de sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementLongHallwayGlobe": {
+      "DisplayName": "Globe : Long couloir de sous-sol",
+      "Tooltip": "Construit : long couloir de sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementShortHallwayGlobe": {
+      "DisplayName": "Globe : Couloir court de sous-sol",
+      "Tooltip": "Construit : couloir court de sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementTUpGlobe": {
+      "DisplayName": "Globe : Couloir de sous-sol en T vers le bas",
+      "Tooltip": "Construit : couloir de sous-sol en T vers le bas !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementTDownGlobe": {
+      "DisplayName": "Globe : Couloir de sous-sol en T vers le haut",
+      "Tooltip": "Construit : couloir de sous-sol en T vers le haut !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementPlusGlobe": {
+      "DisplayName": "Globe : Croisement de sous-sol",
+      "Tooltip": "Construit : croisement de sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementTRightGlobe": {
+      "DisplayName": "Globe : Couloir de sous-sol en T vers la droite",
+      "Tooltip": "Construit : couloir de sous-sol en T vers la droite !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementTLeftGlobe": {
+      "DisplayName": "Globe : Couloir de sous-sol en T vers la gauche",
+      "Tooltip": "Construit : couloir de sous-sol en T vers la gauche !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementLeftUpCornerGlobe": {
+      "DisplayName": "Globe : Coin de sous-sol en haut à gauche",
+      "Tooltip": "Construit : coin de sous-sol en haut à gauche !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementLeftDownCornerGlobe": {
+      "DisplayName": "Globe : Coin de sous-sol en bas à gauche",
+      "Tooltip": "Construit : coin de sous-sol en bas à gauche !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementRightDownCornerGlobe": {
+      "DisplayName": "Globe : Coin de sous-sol en bas à droite",
+      "Tooltip": "Construit : coin de sous-sol en bas à droite !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementRightUpCornerGlobe": {
+      "DisplayName": "Globe : Coin de sous-sol en haut à droite",
+      "Tooltip": "Construit : coin de sous-sol en haut à droite !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementShortDownHallwayGlobe": {
+      "DisplayName": "Globe : Couloir court de sous-sol vers le bas",
+      "Tooltip": "Construit : couloir court de sous-sol vers le bas !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementMusicRoomGlobe": {
+      "DisplayName": "Globe : Salle de musique du sous-sol",
+      "Tooltip": "Construit : salle de musique du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nPlein de boîtes à musique différentes"
+    },
+    "BasementNPCPrisonGlobe": {
+      "DisplayName": "Globe : Prison à PNJ du sous-sol",
+      "Tooltip": "Construit : prison à PNJ du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nPas cher, mais pas éthique"
+    },
+    "BasementNPCRoomGlobe": {
+      "DisplayName": "Globe : Chambre de PNJ du sous-sol",
+      "Tooltip": "Construit : chambre de PNJ du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nTa chambre de PNJ ordinaire"
+    },
+    "BasementArmoryGlobe": {
+      "DisplayName": "Globe : Armurerie du sous-sol",
+      "Tooltip": "Construit : armurerie du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementGardenGlobe": {
+      "DisplayName": "Globe : Jardin du sous-sol",
+      "Tooltip": "Construit : jardin du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nComment ça pousse dans un sous-sol ? Grâce au pouvoir des étoiles !"
+    },
+    "BasementTortureRoomGlobe": {
+      "DisplayName": "Globe : Salle de torture du sous-sol",
+      "Tooltip": "Construit : salle de torture du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nPour les PNJ que tu détestes"
+    },
+    "BasementEnterDownFGlobe": {
+      "DisplayName": "Globe : Entrée de sous-sol vers le bas",
+      "Tooltip": "Construit : entrée de sous-sol vers le bas !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementEnterBigDownFFFGlobe": {
+      "DisplayName": "Globe : Grande entrée de sous-sol vers le bas",
+      "Tooltip": "Construit : grande entrée de sous-sol vers le bas !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementThroneRoomFFGlobe": {
+      "DisplayName": "Globe : Salle du trône du sous-sol",
+      "Tooltip": "Construit : salle du trône du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCher, mais fait de marbre et d'or, très chic !"
+    },
+    "LargeSandstoneHouseGlobe": {
+      "DisplayName": "Globe : Grande maison du désert",
+      "Tooltip": "Construit : grande maison du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "MediumSandstoneHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison du désert",
+      "Tooltip": "Construit : moyenne maison du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "SandstoneLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire du désert",
+      "Tooltip": "Construit : lampadaire du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "SmallSandstoneHouseGlobe": {
+      "DisplayName": "Globe : Petite maison du désert",
+      "Tooltip": "Construit : petite maison du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "SmallOceanHouseGlobe": {
+      "DisplayName": "Globe : Petite maison de l'océan",
+      "Tooltip": "Construit : petite maison de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "OceanLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire de l'océan",
+      "Tooltip": "Construit : lampadaire de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "MediumOceanHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison de l'océan",
+      "Tooltip": "Construit : moyenne maison de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "LargeOceanHouseGlobe": {
+      "DisplayName": "Globe : Grande maison de l'océan",
+      "Tooltip": "Construit : grande maison de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "SmallJungleHouseGlobe": {
+      "DisplayName": "Globe : Petite maison de jungle",
+      "Tooltip": "Construit : petite maison de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "MediumJungleHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison de jungle",
+      "Tooltip": "Construit : moyenne maison de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "LargeJungleHouseGlobe": {
+      "DisplayName": "Globe : Grande maison de jungle",
+      "Tooltip": "Construit : grande maison de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "JungleLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire de jungle",
+      "Tooltip": "Construit : lampadaire de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "SmallMushroomHouseGlobe": {
+      "DisplayName": "Globe : Petite maison champignon",
+      "Tooltip": "Construit : petite maison champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "MushroomLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire champignon",
+      "Tooltip": "Construit : lampadaire champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "MediumMushroomHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison champignon",
+      "Tooltip": "Construit : moyenne maison champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "LargeMushroomHouseGlobe": {
+      "DisplayName": "Globe : Grande maison champignon",
+      "Tooltip": "Construit : grande maison champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "TundraLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire de toundra",
+      "Tooltip": "Construit : lampadaire de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "SmallTundraHouseGlobe": {
+      "DisplayName": "Globe : Petite maison de toundra",
+      "Tooltip": "Construit : petite maison de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "MediumTundraHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison de toundra",
+      "Tooltip": "Construit : moyenne maison de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "LargeTundraHouseGlobe": {
+      "DisplayName": "Globe : Grande maison de toundra",
+      "Tooltip": "Construit : grande maison de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "SmallHallowHouseGlobe": {
+      "DisplayName": "Globe : Petite maison sacrée",
+      "Tooltip": "Construit : petite maison sacrée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ"
+    },
+    "MediumHallowHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison sacrée",
+      "Tooltip": "Construit : moyenne maison sacrée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ"
+    },
+    "LargeHallowHouseGlobe": {
+      "DisplayName": "Globe : Grande maison sacrée",
+      "Tooltip": "Construit : grande maison sacrée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ"
+    },
+    "HallowLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire sacré",
+      "Tooltip": "Construit : lampadaire sacré !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "SmallBiomeHouseGlobe": {
+      "DisplayName": "Globe : Petite maison du biome",
+      "Tooltip": "Construit : petite maison du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ\nUtilise normalement la petite maison de forêt. Biomes pris en charge : toundra, désert, jungle, océan, champignon de surface et sacré"
+    },
+    "MediumBiomeHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison du biome",
+      "Tooltip": "Construit : moyenne maison du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ\nUtilise normalement la maison moyenne de forêt. Biomes pris en charge : toundra, désert, jungle, océan, champignon de surface et sacré"
+    },
+    "LargeBiomeHouseGlobe": {
+      "DisplayName": "Globe : Grande maison du biome",
+      "Tooltip": "Construit : grande maison du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ\nUtilise normalement la grande maison de forêt. Biomes pris en charge : toundra, désert, jungle, océan, champignon de surface et sacré"
+    },
+    "BiomeLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire du biome",
+      "Tooltip": "Construit : lampadaire du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nUtilise normalement le lampadaire de forêt. Biomes pris en charge : toundra, désert, jungle, océan, champignon de surface et sacré"
+    },
+    "SmallSimpleArenaGlobe": {
+      "DisplayName": "Globe : Petite arène simple",
+      "Tooltip": "Construit : petite arène simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 3 plateformes, 105 blocs de long et 34 blocs de haut"
+    },
+    "MediumSimpleArenaGlobe": {
+      "DisplayName": "Globe : Moyenne arène simple",
+      "Tooltip": "Construit : moyenne arène simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 5 plateformes, 180 blocs de long et 54 blocs de haut"
+    },
+    "LargeSimpleArenaGlobe": {
+      "DisplayName": "Globe : Grande arène simple",
+      "Tooltip": "Construit : grande arène simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 7 plateformes, 255 blocs de long et 74 blocs de haut"
+    },
+    "SmallAdvancedArenaGlobe": {
+      "DisplayName": "Globe : Petite arène avancée",
+      "Tooltip": "Construit : petite arène avancée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 3 plateformes, 105 blocs de long et 34 blocs de haut\nAvec un feu de camp, une lanterne cœur, une étoile en bouteille, une statue de Bastet, un nain de jardin et du miel dans une bulle"
+    },
+    "MediumAdvancedArenaGlobe": {
+      "DisplayName": "Globe : Moyenne arène avancée",
+      "Tooltip": "Construit : moyenne arène avancée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 5 plateformes, 180 blocs de long et 54 blocs de haut\nAvec des feux de camp, des lanternes cœur, des étoiles en bouteille, des statues de Bastet, des nains de jardin et du miel dans des bulles"
+    },
+    "LargeAdvancedArenaGlobe": {
+      "DisplayName": "Globe : Grande arène avancée",
+      "Tooltip": "Construit : grande arène avancée !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nL'arène a 7 plateformes, 255 blocs de long et 74 blocs de haut\nAvec des feux de camp, des lanternes cœur, des étoiles en bouteille, des statues de Bastet, des nains de jardin et du miel dans des bulles"
+    },
+    "ForestElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur de forêt",
+      "Tooltip": "Construit : ascenseur de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "TundraElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur de toundra",
+      "Tooltip": "Construit : ascenseur de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "DesertElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur du désert",
+      "Tooltip": "Construit : ascenseur du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "HallowElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur sacré",
+      "Tooltip": "Construit : ascenseur sacré !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "JungleElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur de jungle",
+      "Tooltip": "Construit : ascenseur de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "MushroomElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur champignon",
+      "Tooltip": "Construit : ascenseur champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "OceanElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur de l'océan",
+      "Tooltip": "Construit : ascenseur de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "BiomeElevatorGlobe": {
+      "DisplayName": "Globe : Ascenseur du biome",
+      "Tooltip": "Construit : ascenseur du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCet ascenseur descend jusqu'aux Enfers et crée des nuages qui annulent les dégâts de chute\nUtilise normalement l'ascenseur de forêt. Biomes pris en charge : toundra, désert, jungle, océan, champignon de surface et sacré\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "ShortElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globe : Rail de wagonnet court pour l'ascenseur",
+      "Tooltip": "Construit : rail de wagonnet court pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "ElevatorMinecartTrackPlusGlobe": {
+      "DisplayName": "Globe : Croisement de rails pour l'ascenseur",
+      "Tooltip": "Construit : croisement de rails pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nIdéal pour commencer les rails de wagonnet de ton ascenseur !"
+    },
+    "ElevatorMinecartTrackGlobe": {
+      "DisplayName": "Globe : Rail de wagonnet pour l'ascenseur",
+      "Tooltip": "Construit : rail de wagonnet pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\n5 fois plus long que la version courte"
+    },
+    "ElevatorRightRampMinecartTrackGlobe": {
+      "DisplayName": "Globe : Rampe de rail droite pour l'ascenseur",
+      "Tooltip": "Construit : rampe de rail droite pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "ElevatorMinecartTrackStopGlobe": {
+      "DisplayName": "Globe : Arrêt de rail pour l'ascenseur",
+      "Tooltip": "Construit : arrêt de rail pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "ElevatorLeftRampMinecartTrackGlobe": {
+      "DisplayName": "Globe : Rampe de rail gauche pour l'ascenseur",
+      "Tooltip": "Construit : rampe de rail gauche pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "ElevatorFullMinecartTrackGlobe": {
+      "DisplayName": "Globe : Rail de wagonnet complet pour l'ascenseur",
+      "Tooltip": "Construit : rail de wagonnet complet pour l'ascenseur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nPose des rails de wagonnet vers la gauche et la droite, idéal avec ton ascenseur !\n[c/E11919:ATTENTION, CETTE CONSTRUCTION EST TRÈS GRANDE ! ELLE PEUT DÉTRUIRE DES STRUCTURES IMPORTANTES, À UTILISER AVEC PRUDENCE !!!]"
+    },
+    "LargeValentineHouseGlobe": {
+      "DisplayName": "Globe : Grande maison de la Saint-Valentin",
+      "Tooltip": "Construit : grande maison de la Saint-Valentin !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ\n[c/FFC0CB:Fait avec amour !]"
+    },
+    "MediumValentineHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison de la Saint-Valentin",
+      "Tooltip": "Construit : moyenne maison de la Saint-Valentin !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 2 PNJ\n[c/FFC0CB:Fait avec amour !]"
+    },
+    "SmallValentineHouseGlobe": {
+      "DisplayName": "Globe : Petite maison de la Saint-Valentin",
+      "Tooltip": "Construit : petite maison de la Saint-Valentin !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 1 PNJ\n[c/FFC0CB:Fait avec amour !]"
+    },
+    "ValentineLampPostGlobe": {
+      "DisplayName": "Globe : Lampadaire de la Saint-Valentin",
+      "Tooltip": "Construit : lampadaire de la Saint-Valentin !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\n[c/FFC0CB:Fait avec amour !]"
+    },
+    "HeartHouseGlobe": {
+      "DisplayName": "Globe : Maison cœur",
+      "Tooltip": "Construit : maison cœur !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCette maison peut accueillir 3 PNJ\n[c/FF7F7F:Fait d'amour !]"
+    },
+    "CavernPylonGlobe": {
+      "DisplayName": "Globe : Pylône de caverne",
+      "Tooltip": "Construit : pylône de caverne !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "DesertPylonGlobe": {
+      "DisplayName": "Globe : Pylône du désert",
+      "Tooltip": "Construit : pylône du désert !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "ForestPylonGlobe": {
+      "DisplayName": "Globe : Pylône de forêt",
+      "Tooltip": "Construit : pylône de forêt !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "HallowPylonGlobe": {
+      "DisplayName": "Globe : Pylône sacré",
+      "Tooltip": "Construit : pylône sacré !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "JunglePylonGlobe": {
+      "DisplayName": "Globe : Pylône de jungle",
+      "Tooltip": "Construit : pylône de jungle !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "MushroomPylonGlobe": {
+      "DisplayName": "Globe : Pylône champignon",
+      "Tooltip": "Construit : pylône champignon !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "OceanPylonGlobe": {
+      "DisplayName": "Globe : Pylône de l'océan",
+      "Tooltip": "Construit : pylône de l'océan !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "TundraPylonGlobe": {
+      "DisplayName": "Globe : Pylône de toundra",
+      "Tooltip": "Construit : pylône de toundra !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BiomePylonGlobe": {
+      "DisplayName": "Globe : Pylône du biome",
+      "Tooltip": "Construit : pylône du biome !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nUtilise normalement le pylône de forêt. Biomes pris en charge : caverne, toundra, désert, jungle, océan, champignon de surface et sacré"
+    },
+    "GnorpsPilot": {
+      "DisplayName": "Télécommande Gnorpy",
+      "Tooltip": "La télécommande de Gnorp !\nInvoque Gnorp"
+    },
+    "BasementTUpStaircaseGlobe": {
+      "DisplayName": "Globe : Escalier de sous-sol en T vers le bas",
+      "Tooltip": "Construit : escalier de sous-sol en T vers le bas !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementTDownStaircaseGlobe": {
+      "DisplayName": "Globe : Escalier de sous-sol en T vers le haut",
+      "Tooltip": "Construit : escalier de sous-sol en T vers le haut !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementRightStaircaseGlobe": {
+      "DisplayName": "Globe : Escalier de sous-sol droit",
+      "Tooltip": "Construit : escalier de sous-sol droit !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementPlusStaircaseGlobe": {
+      "DisplayName": "Globe : Croisement d'escaliers du sous-sol",
+      "Tooltip": "Construit : croisement d'escaliers du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementLibraryRoomGlobe": {
+      "DisplayName": "Globe : Bibliothèque du sous-sol",
+      "Tooltip": "Construit : bibliothèque du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementLeftStaircaseGlobe": {
+      "DisplayName": "Globe : Escalier de sous-sol gauche",
+      "Tooltip": "Construit : escalier de sous-sol gauche !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "BasementHallwayNPCRoomGlobe": {
+      "DisplayName": "Globe : Couloir avec chambre de PNJ",
+      "Tooltip": "Construit : couloir avec chambre de PNJ !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nEn gros, une chambre de PNJ combinée à un couloir"
+    },
+    "BasementBarRoomGlobe": {
+      "DisplayName": "Globe : Bar du sous-sol",
+      "Tooltip": "Construit : bar du sous-sol !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nPrends un verre"
+    },
+    "SmallCastleGlobe": {
+      "DisplayName": "Globe : Petit château",
+      "Tooltip": "Construit : petit château !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "MediumCastleGlobe": {
+      "DisplayName": "Globe : Moyen château",
+      "Tooltip": "Construit : moyen château !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "LargeCastleGlobe": {
+      "DisplayName": "Globe : Grand château",
+      "Tooltip": "Construit : grand château !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "HugeCastleGlobe": {
+      "DisplayName": "Globe : Immense château",
+      "Tooltip": "Construit : immense château !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nAssez immense, il devrait y avoir assez de place pour tout !"
+    },
+    "SmallTreeBaseGlobe": {
+      "DisplayName": "Globe : Petite base dans un arbre",
+      "Tooltip": "Construit : petite base dans un arbre !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "MediumTreeBaseGlobe": {
+      "DisplayName": "Globe : Moyenne base dans un arbre",
+      "Tooltip": "Construit : moyenne base dans un arbre !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "LargeTreeBaseGlobe": {
+      "DisplayName": "Globe : Grande base dans un arbre",
+      "Tooltip": "Construit : grande base dans un arbre !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "HugeTreeBaseGlobe": {
+      "DisplayName": "Globe : Immense base dans un arbre",
+      "Tooltip": "Construit : immense base dans un arbre !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage"
+    },
+    "SimpleWaterLakeGlobe": {
+      "DisplayName": "Globe : Lac d'eau simple",
+      "Tooltip": "Construit : lac d'eau simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nParfait pour pêcher"
+    },
+    "SimpleShimmerLakeGlobe": {
+      "DisplayName": "Globe : Lac d'Ondoiement simple",
+      "Tooltip": "Construit : lac d'Ondoiement simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nParfait pour pêc... attends, on ne peut pas pêcher dans l'Ondoiement, si ?"
+    },
+    "SimpleLavaLakeGlobe": {
+      "DisplayName": "Globe : Lac de lave simple",
+      "Tooltip": "Construit : lac de lave simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nParfait pour pêcher"
+    },
+    "SimpleHoneyLakeGlobe": {
+      "DisplayName": "Globe : Lac de miel simple",
+      "Tooltip": "Construit : lac de miel simple !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nParfait pour pêcher"
+    },
+    "PrisonCellGlobe": {
+      "DisplayName": "Globe : Cellule de prison",
+      "Tooltip": "Construit : cellule de prison !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nTu n'as pas un cœur humain ?"
+    },
+    "EchoNPCHouseGlobe": {
+      "DisplayName": "Globe : Château de PNJ invisible",
+      "Tooltip": "Construit : château de PNJ invisible !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCe château peut accueillir 3 PNJ\nChâteau super épique et cool, dommage qu'on ne puisse pas le voir"
+    },
+    "SmallPooHouseGlobe": {
+      "DisplayName": "Globe : Petite maison en caca",
+      "Tooltip": "Construit : petite maison en caca !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCe château peut accueillir 1 PNJ\nÇa pue"
+    },
+    "LargePooHouseGlobe": {
+      "DisplayName": "Globe : Grande maison en caca",
+      "Tooltip": "Construit : grande maison en caca !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCe château peut accueillir 3 PNJ\nÇa pue"
+    },
+    "MediumPooHouseGlobe": {
+      "DisplayName": "Globe : Moyenne maison en caca",
+      "Tooltip": "Construit : moyenne maison en caca !\nUtilise le bouton tactile Point d'ancrage (à ajouter dans Commandes) ou la configuration des mods pour changer le point d'ancrage\nCe château peut accueillir 2 PNJ\nÇa pue"
+    }
+  },
+  "Bestiary": {
+    "Gnorp": "Gnorp est un extraterrestre très amical. Le seul but de Gnorp est d'aider les autres en construisant. Gnorp voit de la beauté dans chaque biome."
+  },
+  "NPCs": {
+    "Gnorp": {
+      "Shops": {
+        "Main": "Principal",
+        "Bases": "Bases",
+        "Module": "Modules",
+        "Utility": "Utilitaire",
+        "Holiday": "Fêtes"
+      },
+      "DisplayName": "Gnorp",
+      "TownNPCMood": {
+        "Content": "Gnorp.",
+        "NoHome": "No Fnirp :c",
+        "FarFromHome": "Fripo :<",
+        "LoveSpace": "Gorp :D",
+        "DislikeCrowded": "Dorp :c",
+        "HateCrowded": "Doooorp :C",
+        "LoveBiome": "Forp {BiomeName} :D",
+        "LikeNPC": "Gorp {NPCName}",
+        "LoveNPC": "Gop {NPCName}"
+      }
+    }
+  },
+  "ShopUI": {
+    "ChangeFormat": "Changer ({0})"
+  },
+  "WorldGen": {
+    "SpawningGnorp": "Arrivée de Gnorp"
+  },
+  "TouchButtons": {
+    "Anchor": {
+      "DisplayName": "Point d'ancrage (globes de Gnorp)"
+    }
+  },
+  "BuildConfig": {
+    "ValueOn": "[c/32FF82:ACTIVÉE]",
+    "ValueOff": "[c/E11919:DÉSACTIVÉE]",
+    "ImagePreviewInfo": "Aperçu en image : {0}",
+    "DustPreviewInfo": "Aperçu en poussière : {0}",
+    "ImageOpacityInfo": "Opacité de l'image : [c/327DFF:{0}%]",
+    "DoubleClickInfo": "Placer avec un double toucher : {0}",
+    "SettingsHint": "[c/828282:Modifiable dans la configuration des mods]",
+    "AnchorInfo": "Point d'ancrage : [c/FFD75A:{0}]",
+    "Anchors": {
+      "BottomCenter": "En bas au centre",
+      "TopLeft": "En haut à gauche",
+      "TopRight": "En haut à droite",
+      "BottomLeft": "En bas à gauche",
+      "BottomRight": "En bas à droite"
+    }
+  },
+  "Configs": {
+    "GnorpConfig": {
+      "ImagePreview": {
+        "Label": "Aperçu en image"
+      },
+      "EnablePreviews": {
+        "Label": "Aperçu en poussière"
+      },
+      "PreviewOpacity": {
+        "Label": "Opacité de l'image"
+      },
+      "RequireDoubleClickPlacement": {
+        "Label": "Placer avec un double toucher"
+      },
+      "Anchor": {
+        "Label": "Point d'ancrage"
+      }
+    },
+    "AnchorPoint": {
+      "BottomCenter": {
+        "Label": "En bas au centre"
+      },
+      "TopLeft": {
+        "Label": "En haut à gauche"
+      },
+      "TopRight": {
+        "Label": "En haut à droite"
+      },
+      "BottomLeft": {
+        "Label": "En bas à gauche"
+      },
+      "BottomRight": {
+        "Label": "En bas à droite"
+      }
+    }
+  }
+}

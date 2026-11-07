@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "menumedia",
+    "uid": "7c1e9b52-3f0a-4d8e-9a64-5b2d8c6e1f47",
+    "version": "1.6.0",
+    "sha256": "181ec54931a3ca4aeeef29401c0507cac168e66e90acebd505a918e001d11913"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The theme list, GIF reader, PNG writer, sliders and /menumedia work as before. The GIF cache moved from the mod's data folder to cache/ inside the installed mod, because C# mods can only open textures from their own folder, so importing the mod again prepares its GIFs again, and caches from the JavaScript version are not read. The loader only opens .png textures and .mp3, .ogg and .wav music by name, so .jpg images and .m4a, .aac and .flac music are copied once into cache/ under one of those names. config.json is read by a small built-in reader, because the phone has no JSON library. The % and px suffixes on the sliders are gone, because the C# config screen has no suffixes. The separate Vietnamese description and changelog pages are not carried over; the Vietnamese settings and /menumedia texts are."
+}

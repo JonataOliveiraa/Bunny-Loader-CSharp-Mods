@@ -16,12 +16,13 @@ folder: the original code never enters the repository.
 
 ## 3. Create the port
 
-Copy `templates/ModPort/` to `mods/<Id>/` and rename `ModPort.cs` and `ModPort.csproj`
-to the new `id`.
+Copy `templates/ModPort/` to `mods/<id>/` and rename `ModPort.cs` and `ModPort.csproj`
+to the original mod's `id`. Keeping it preserves the mod's saved config and lets other
+mods keep finding it by name.
 
 | File | Rule |
 |---|---|
-| `manifest.json` | Keep the original `uid`, use `"blVersion": 3` and keep every original author. Add whoever made the C# port |
+| `manifest.json` | Keep the original `uid` and `id`, use `"blVersion": 3` and keep every original author. Add whoever made the C# port |
 | `license.md` | Open license: copy the original text with its copyright notice. No license: fill in the template's notice |
 | `port.json` | Identify the original (`id`, `uid`, `version`, `sha256`), the license and what changed |
 
@@ -35,6 +36,9 @@ In `port.json`, `license` is the license identifier, such as `MIT`, or `NONE` fo
   "evidence": "https://link-to-the-written-permission"
 }
 ```
+
+If the C# API lacks a method the original used, add it to [MISSING_API.md](MISSING_API.md)
+with the workaround, instead of dropping the feature silently.
 
 ## 4. Build and check
 

@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "overhealth",
+    "uid": "a26a4992-e895-4120-a903-0e23b376c8a1",
+    "version": "1.0.2",
+    "sha256": "bd5271afcc1e0d9e959dc241a84b03e6e111c354e232d460b7a4d63fcb823614"
+  },
+  "license": "AGPL-3.0",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior, on 2026-11-06. The Debug log option was removed because nothing read it, and the full AGPL-3.0 text was added."
+}

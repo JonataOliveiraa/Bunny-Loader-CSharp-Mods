@@ -1,0 +1,46 @@
+{
+  "UI": {
+    "SelectCreature": "Creatura",
+    "None": "(nessuna)",
+    "Animate": "Anima",
+    "Hologram": "Effetto Ologramma",
+    "AltRender": "Disegno Alternativo",
+    "Scale": "Scala",
+    "OffsetX": "Spostamento X",
+    "OffsetY": "Spostamento Y",
+    "Rotation": "Rotazione",
+    "AnimSpeed": "Ritardo Animazione",
+    "InvisibleTile": "Blocco Invisibile",
+    "InvisibleWarning": "Attenzione: un proiettore invisibile può essere difficile da ritrovare.",
+    "PickerTitle": "Scegli una creatura",
+    "SearchHint": "Cerca per nome...",
+    "Close": "Chiudi",
+    "Back": "Indietro",
+    "Empty": "Nessuna creatura sbloccata."
+  },
+  "Items": {
+    "HologramProjectorItem": {
+      "DisplayName": "Proiettore olografico",
+      "Tooltip": "Proietta una creatura sbloccata del Bestiario come ologramma. Toccalo dopo averlo piazzato per configurarlo."
+    },
+    "AdamantiteHologramProjectorItem": {
+      "DisplayName": "Proiettore olografico di adamantio",
+      "Tooltip": "Un proiettore avanzato. Ignora i progressi del Bestiario e permette ologrammi più grandi."
+    },
+    "TitaniumHologramProjectorItem": {
+      "DisplayName": "Proiettore olografico di titanio",
+      "Tooltip": "Un proiettore avanzato. Ignora i progressi del Bestiario e permette ologrammi più grandi."
+    }
+  },
+  "Tiles": {
+    "HologramProjectorTile": {
+      "MapEntry": "Proiettore olografico"
+    },
+    "AdamantiteHologramProjectorTile": {
+      "MapEntry": "Proiettore olografico di adamantio"
+    },
+    "TitaniumHologramProjectorTile": {
+      "MapEntry": "Proiettore olografico di titanio"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Désactiver le scintillement des torches"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Échelle de luminosité"
+      }
+    }
+  }
+}

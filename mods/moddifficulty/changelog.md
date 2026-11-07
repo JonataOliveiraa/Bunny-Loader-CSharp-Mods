@@ -1,0 +1,3 @@
+## 2.0.0
+
+Ported from JavaScript to C#. DifficultyID.Journey was missing from the original, which left the Journey button in the list unable to select Journey, and let Journey characters pick Legendary and play Legendary worlds. It is now 3: the Journey button works, and those characters can no longer pick or play Legendary. The menu layouts and textures are set up the first time the menu needs them instead of at Main.Initialize_AlmostEverything, because C# mods can load after it. An unknown custom difficulty in a world from a removed mod falls back to the game's own behavior instead of throwing. Only the thread saving a world sees the real difficulty id. The unused helper wrappers were not carried over.

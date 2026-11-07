@@ -1,0 +1,3 @@
+**BETA VERSION:** this mod is not finished yet and may have errors, bugs and unexpected behavior. Use it at your own risk, preferably in test worlds (back up your saves).
+
+Top-Down Mode turns Terraria into a game seen from above: no gravity, eight-way movement, sword swings toward the mouse, new worlds generated as an island with Terraria's biomes (rivers, lakes, trees, cacti, rocks and grass), moving water with swimming, a day and night cycle, depth sorting (y-sort) for trees, furniture and NPCs, and caves with ores reached by a staircase. New things are still being added, and some systems may change in the next versions.

@@ -1,0 +1,1088 @@
+{
+  "ValentineRingTooltip1": "把它送给特别的人吧！",
+  "ValentineRingTooltip2": "缓慢恢复生命值\n增加跳跃高度",
+  "ValentineRingTooltip3": "拥有者：{0}",
+  "ValentineRingTooltip4": "赠送者：{0}",
+  "McMoneypantsInvitationUsage": "请柬飞向了它的收件人……",
+  "McMoneypantsButton1Text": "投资",
+  "Items": {
+    "OktoberLocks": {
+      "DisplayName": "Oktober锁"
+    },
+    "PurpleThread": {
+      "DisplayName": "紫色线"
+    },
+    "WhiteThread": {
+      "DisplayName": "白色线"
+    },
+    "SoulofBlight": {
+      "DisplayName": "枯萎之魂",
+      "Tooltip": "'被感染生物的精髓'"
+    },
+    "RainbowPiece": {
+      "DisplayName": "彩虹碎片",
+      "Tooltip": "用于制作金罐"
+    },
+    "CandiedFruit": {
+      "DisplayName": "蜜饯水果"
+    },
+    "GoldenCarrot": {
+      "DisplayName": "金胡萝卜",
+      "Tooltip": "{$BuffDescription.WellFed2}\n所有增益持续时间增加15秒\n'金胡萝卜？！什么？！'"
+    },
+    "RedEnvelope": {
+      "DisplayName": "红包",
+      "Tooltip": "{$CommonItemTooltip.RightClickToOpen}"
+    },
+    "Wiesnbrau": {
+      "DisplayName": "威斯恩啤酒",
+      "Tooltip": "使使用者对伤害麻木，但也会降低造成的伤害"
+    },
+    "Wishbone": {
+      "DisplayName": "许愿骨",
+      "Tooltip": "启用所有小型季节性事件，持续一天"
+    },
+    "HornoPlenty": {
+      "DisplayName": "丰饶之角",
+      "Tooltip": "装满了取之不尽的节日水果礼物"
+    },
+    "AlbinoMandible": {
+      "DisplayName": "Albino Mandible",
+      "Tooltip": "'出人意料地符合空气动力学...'"
+    },
+    "GreatDrumstick": {
+      "DisplayName": "大鸡腿",
+      "Tooltip": "用油覆盖敌人\n点燃被油覆盖的敌人以造成额外伤害\n'我喜欢大薯条，但不喜欢炸火鸡'"
+    },
+    "Tizona": {
+      "DisplayName": "Tizona"
+    },
+    "Tonbogiri": {
+      "DisplayName": "Tonbogiri",
+      "Tooltip": "'一把涂有毒液的传说日本长枪'"
+    },
+    "DragonBreath": {
+      "DisplayName": "龙之吐息"
+    },
+    "EggCannon": {
+      "DisplayName": "蛋炮",
+      "Tooltip": "'要杀一只哥布林，总得打破几个蛋'"
+    },
+    "Sharanga": {
+      "DisplayName": "萨兰加",
+      "Tooltip": "射出幽灵箭"
+    },
+    "SpicySauce": {
+      "DisplayName": "Spicy Sauce",
+      "Tooltip": "用油覆盖敌人\n点燃被油覆盖的敌人以造成额外伤害"
+    },
+    "HeartArrow": {
+      "DisplayName": "Heart Arrow"
+    },
+    "SpectralArrow": {
+      "DisplayName": "Spectral Arrow",
+      "Tooltip": "穿透物块和敌人，但在空气中迅速消散"
+    },
+    "VulcanBolt": {
+      "DisplayName": "Vulcan Bolt"
+    },
+    "FeatherStorm": {
+      "DisplayName": "羽毛风暴",
+      "Tooltip": "从天空召唤羽毛"
+    },
+    "RomanCandle": {
+      "DisplayName": "罗马烛光",
+      "Tooltip": "'烟花真管用！'"
+    },
+    "OcramsEye": {
+      "DisplayName": "奥库瑞姆之眼"
+    },
+    "EasterBunnyStaff": {
+      "DisplayName": "复活节兔兔法杖",
+      "Tooltip": "召唤一只复活节兔兔为你而战"
+    },
+    "EternityStaff": {
+      "DisplayName": "永恒之眼法杖",
+      "Tooltip": "召唤一只永恒之眼为你而战"
+    },
+    "TurkeyStuff": {
+      "DisplayName": "火鸡法杖",
+      "Tooltip": "召唤一只奇怪的火鸡为你而战"
+    },
+    "HolyHandgrenade": {
+      "DisplayName": "Holy Hand Grenade",
+      "Tooltip": "一场巨大的爆炸，会摧毁大多数物块\n'天选之人的武器'"
+    },
+    "Squib": {
+      "DisplayName": "Fiery Cracker"
+    },
+    "OstarasGift": {
+      "DisplayName": "奥斯塔拉之礼"
+    },
+    "ShadowboundExoskeleton": {
+      "DisplayName": "影缚外骨骼",
+      "Tooltip": "{0} 近战伤害\n允许玩家火箭跳\n双击 {1}"
+    },
+    "SparklyWings": {
+      "DisplayName": "闪光翅膀",
+      "Tooltip": "{$CommonItemTooltip.FlightAndSlowfall}"
+    },
+    "ValentineRing": {
+      "DisplayName": "情人节戒指"
+    },
+    "FruitfulPlate": {
+      "DisplayName": "丰盛之盘",
+      "Tooltip": "召唤一个丰盛之盘坐骑"
+    },
+    "Beeswax": {
+      "DisplayName": "蜂蜡",
+      "Tooltip": "召唤一只宠物 Tiphia"
+    },
+    "Brain": {
+      "DisplayName": "大脑",
+      "Tooltip": "召唤一只宠物僵尸"
+    },
+    "BrokenHeart": {
+      "DisplayName": "破碎的心",
+      "Tooltip": "召唤一只宠物丘比特提供照明"
+    },
+    "Cabbage": {
+      "DisplayName": "卷心菜",
+      "Tooltip": "召唤一只宠物豚鼠"
+    },
+    "CursedFang": {
+      "DisplayName": "诅咒尖牙",
+      "Tooltip": "召唤一只小小马可\n'你现在是我的朋友了'"
+    },
+    "GoldenLantern": {
+      "DisplayName": "金灯笼",
+      "Tooltip": "召唤一只神话幼龙提供照明"
+    },
+    "GoldenSeaweed": {
+      "DisplayName": "金海藻",
+      "Tooltip": "召唤一只宠物金龟"
+    },
+    "HolidayBauble": {
+      "DisplayName": "节日小饰品",
+      "Tooltip": "召唤一只宠物 Elfa"
+    },
+    "MysteriousPackage": {
+      "DisplayName": "神秘包裹",
+      "Tooltip": "召唤一只宠物无人机"
+    },
+    "OldWalkingStick": {
+      "DisplayName": "旧手杖",
+      "Tooltip": "召唤一只宠物老奶奶"
+    },
+    "PetriDish": {
+      "DisplayName": "培养皿",
+      "Tooltip": "召唤一只宠物史莱姆"
+    },
+    "RabbitFoot": {
+      "DisplayName": "兔脚",
+      "Tooltip": "召唤一只小 Lepus\n'好运是虚幻的，但兔兔不是'"
+    },
+    "ShinyBlackSlab": {
+      "DisplayName": "闪亮黑石板",
+      "Tooltip": "召唤一只宠物机器人"
+    },
+    "SuspiciousLookingApple": {
+      "DisplayName": "可疑的苹果",
+      "Tooltip": "召唤一只宠物蠕虫"
+    },
+    "TurkeyFeather": {
+      "DisplayName": "火鸡羽毛",
+      "Tooltip": "召唤一只宠物火鸡"
+    },
+    "WolfFang": {
+      "DisplayName": "狼牙",
+      "Tooltip": "召唤一只宠物狼人"
+    },
+    "OstaraHat": {
+      "DisplayName": "奥斯塔拉之帽",
+      "Tooltip": "增加7%移动速度",
+      "SetBonus": "免疫跌落伤害"
+    },
+    "OstaraJacket": {
+      "DisplayName": "奥斯塔拉之夹克",
+      "Tooltip": "增加7%移动速度"
+    },
+    "OstaraBoots": {
+      "DisplayName": "奥斯塔拉之靴"
+    },
+    "PhantasmalHeadgear": {
+      "DisplayName": "幻影头饰",
+      "Tooltip": "最大魔力增加50\n增加10%魔法伤害\n增加10%魔法暴击率",
+      "SetBonus": "从附近敌人身上汲取魔力"
+    },
+    "PhantasmalRobe": {
+      "DisplayName": "幻影长袍",
+      "Tooltip": "最大魔力增加70\n增加15%魔法伤害"
+    },
+    "PhantasmalSubligar": {
+      "DisplayName": "幻影护胫",
+      "Tooltip": "最大魔力增加30\n增加5%魔法伤害\n增加12%移动速度"
+    },
+    "AncientPhantasmalHeadgear": {
+      "DisplayName": "远古幻影头饰"
+    },
+    "AncientPhantasmalRobe": {
+      "DisplayName": "远古幻影长袍"
+    },
+    "AncientPhantasmalSubligar": {
+      "DisplayName": "远古幻影护胫"
+    },
+    "DragonMask": {
+      "DisplayName": "龙面具",
+      "Tooltip": "增加15%近战伤害\n增加15%近战速度",
+      "SetBonus": "受到伤害后产生火焰爆发"
+    },
+    "DragonBreastplate": {
+      "DisplayName": "龙胸甲",
+      "Tooltip": "增加10%近战伤害\n增加10%近战暴击率\n增加15%近战速度"
+    },
+    "DragonGreaves": {
+      "DisplayName": "龙护胫",
+      "Tooltip": "增加5%近战伤害\n增加5%近战暴击率\n增加20%移动速度"
+    },
+    "AncientDragonMask": {
+      "DisplayName": "远古龙面具"
+    },
+    "AncientDragonBreastplate": {
+      "DisplayName": "远古龙胸甲"
+    },
+    "AncientDragonGreaves": {
+      "DisplayName": "远古龙护胫"
+    },
+    "TitanHelmet": {
+      "DisplayName": "泰坦头盔",
+      "Tooltip": "远程伤害增加10%\n远程暴击率增加10%\n25%几率不消耗弹药"
+    },
+    "TitanMail": {
+      "DisplayName": "泰坦锁甲",
+      "Tooltip": "远程伤害增加15%\n远程暴击率增加10%\n20%几率不消耗弹药"
+    },
+    "TitanLeggings": {
+      "DisplayName": "泰坦护腿",
+      "Tooltip": "远程伤害增加10%\n移动速度增加18%\n15%几率不消耗弹药"
+    },
+    "AncientTitanHelmet": {
+      "DisplayName": "远古泰坦头盔"
+    },
+    "AncientTitanMail": {
+      "DisplayName": "远古泰坦锁甲"
+    },
+    "AncientTitanLeggings": {
+      "DisplayName": "远古泰坦护腿"
+    },
+    "WarlockHood": {
+      "DisplayName": "术士兜帽",
+      "Tooltip": "最大召唤物数量增加1\n召唤伤害增加20%"
+    },
+    "WarlockRobe": {
+      "DisplayName": "术士长袍",
+      "Tooltip": "最大召唤物数量增加1\n召唤伤害增加20%"
+    },
+    "WarlockLeggings": {
+      "DisplayName": "术士护腿",
+      "Tooltip": "最大召唤物数量增加1\n召唤伤害增加20%\n增加15%移动速度"
+    },
+    "AncientWarlockHood": {
+      "DisplayName": "远古术士兜帽"
+    },
+    "AncientWarlockRobe": {
+      "DisplayName": "远古术士长袍"
+    },
+    "AncientWarlockLeggings": {
+      "DisplayName": "远古术士护腿"
+    },
+    "McMoneypantsInvitation": {
+      "DisplayName": "镀金邀请函",
+      "Tooltip": "看起来是给某个有钱人的"
+    },
+    "CursedStuffing": {
+      "DisplayName": "诅咒填料",
+      "Tooltip": "召唤 Turkor the Ungrateful"
+    },
+    "SuspiciousLookingEgg": {
+      "DisplayName": "可疑的蛋",
+      "Tooltip": "召唤 Lepus"
+    },
+    "SuspiciousLookingSkull": {
+      "DisplayName": "可疑的头骨",
+      "Tooltip": "召唤 Ocram"
+    },
+    "LepusBag": {
+      "DisplayName": "宝藏袋（Lepus）",
+      "Tooltip": "{$CommonItemTooltip.RightClickToOpen}"
+    },
+    "LepusMask": {
+      "DisplayName": "Lepus 面具"
+    },
+    "OcramBag": {
+      "DisplayName": "宝藏袋（Ocram）",
+      "Tooltip": "{$CommonItemTooltip.RightClickToOpen}"
+    },
+    "OcramMask": {
+      "DisplayName": "Ocram 面具"
+    },
+    "TurkorBag": {
+      "DisplayName": "宝藏袋（Turkor the Ungrateful）",
+      "Tooltip": "{$CommonItemTooltip.RightClickToOpen}"
+    },
+    "TurkorMask": {
+      "DisplayName": "Turkor the Ungrateful 面具"
+    },
+    "ArchDemonMask": {
+      "DisplayName": "大恶魔面具"
+    },
+    "ArchWyvernMask": {
+      "DisplayName": "大飞龙面具"
+    },
+    "AlpineHat": {
+      "DisplayName": "阿尔卑斯帽"
+    },
+    "AncientHerosHat": {
+      "DisplayName": "远古英雄帽"
+    },
+    "AncientHerosPants": {
+      "DisplayName": "远古英雄裤"
+    },
+    "AncientHerosShirt": {
+      "DisplayName": "远古英雄衫"
+    },
+    "AncientPlumbersHat": {
+      "DisplayName": "远古水管工帽"
+    },
+    "AncientPlumbersPants": {
+      "DisplayName": "远古水管工裤"
+    },
+    "AncientPlumbersShirt": {
+      "DisplayName": "远古水管衬衫"
+    },
+    "DirndlBlouse": {
+      "DisplayName": "连衣裙上衣"
+    },
+    "DirndlSkirt": {
+      "DisplayName": "连衣裙裙"
+    },
+    "FabulousDress": {
+      "DisplayName": "华丽连衣裙"
+    },
+    "FabulousRibbon": {
+      "DisplayName": "华丽丝带",
+      "Tooltip": "'允许飞行和缓慢下落'"
+    },
+    "FabulousSlippers": {
+      "DisplayName": "华丽拖鞋"
+    },
+    "FestiveTopHat": {
+      "DisplayName": "节日礼帽",
+      "Tooltip": "'因为没有什么比节日季更棒了！'"
+    },
+    "GeorgesHat": {
+      "DisplayName": "乔治燕尾服帽",
+      "Tooltip": "'噢，天哪！'"
+    },
+    "GeorgesTuxedoPants": {
+      "DisplayName": "乔治燕尾服裤",
+      "Tooltip": "'噢，天哪！'"
+    },
+    "GeorgesTuxedoShirt": {
+      "DisplayName": "乔治燕尾服衬衫",
+      "Tooltip": "'噢，天哪！'"
+    },
+    "HornedGodBoots": {
+      "DisplayName": "角神靴",
+      "Tooltip": "'奇迹时代的遗物'"
+    },
+    "HornedGodMask": {
+      "DisplayName": "角神面具",
+      "Tooltip": "'奇迹时代的遗物'"
+    },
+    "HornedGodRobe": {
+      "DisplayName": "角神长袍",
+      "Tooltip": "'奇迹时代的遗物'"
+    },
+    "Lederhosen": {
+      "DisplayName": "皮裤"
+    },
+    "Lederweste": {
+      "DisplayName": "皮背心"
+    },
+    "MonokumaBody": {
+      "DisplayName": "黑白熊身体"
+    },
+    "MonokumaHead": {
+      "DisplayName": "黑白熊头"
+    },
+    "MonokumaLegs": {
+      "DisplayName": "黑白熊腿"
+    },
+    "MonomiBody": {
+      "DisplayName": "黑白美身体"
+    },
+    "MonomiHead": {
+      "DisplayName": "黑白美头"
+    },
+    "MonomiLegs": {
+      "DisplayName": "黑白美腿"
+    },
+    "MythicalLionMask": {
+      "DisplayName": "神话狮面具"
+    },
+    "MythicalRobe": {
+      "DisplayName": "神话长袍"
+    },
+    "PrestigiousTopHat": {
+      "DisplayName": "高贵礼帽"
+    },
+    "ShirenHat": {
+      "DisplayName": "希伦帽"
+    },
+    "ShirenPants": {
+      "DisplayName": "希伦裤"
+    },
+    "ShirenShirt": {
+      "DisplayName": "希伦衬衫"
+    },
+    "TorosBody": {
+      "DisplayName": "托罗身体"
+    },
+    "TorosHead": {
+      "DisplayName": "托罗头"
+    },
+    "TorosLegs": {
+      "DisplayName": "托罗腿"
+    },
+    "BleachCanister": {
+      "DisplayName": "漂白剂罐",
+      "Tooltip": "召唤一只白化小崽宠物"
+    },
+    "AlbinoAntlionBanner": {
+      "DisplayName": "白化蚁狮旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}白化蚁狮"
+    },
+    "AlbinoChargerBanner": {
+      "DisplayName": "白化冲锋者旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}白化冲锋者"
+    },
+    "AlbinoSwarmerBanner": {
+      "DisplayName": "白化虫群者旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}白化虫群者"
+    },
+    "ArchDemonBanner": {
+      "DisplayName": "大恶魔旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}大恶魔"
+    },
+    "ArchWyvernBanner": {
+      "DisplayName": "大飞龙旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}大飞龙"
+    },
+    "DragonHornetBanner": {
+      "DisplayName": "龙黄蜂旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}龙黄蜂"
+    },
+    "DragonSkullBanner": {
+      "DisplayName": "龙骷髅旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}龙骷髅"
+    },
+    "DragonSnatcherBanner": {
+      "DisplayName": "龙捕手旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}龙捕手"
+    },
+    "FleshAxeBanner": {
+      "DisplayName": "血肉斧旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}血肉斧"
+    },
+    "FleshMummyBanner": {
+      "DisplayName": "血肉木乃伊旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}血肉木乃伊"
+    },
+    "FleshSlimeBanner": {
+      "DisplayName": "血肉史莱姆旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}血肉史莱姆"
+    },
+    "MythicalWyvernBanner": {
+      "DisplayName": "神话飞龙旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}神话飞龙"
+    },
+    "ShadowHammerBanner": {
+      "DisplayName": "暗影锤旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}暗影锤"
+    },
+    "ShadowMummyBanner": {
+      "DisplayName": "暗影木乃伊旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}暗影木乃伊"
+    },
+    "ShadowSlimeBanner": {
+      "DisplayName": "暗影史莱姆旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}暗影史莱姆"
+    },
+    "SpectralElementalBanner": {
+      "DisplayName": "幽灵元素旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}幽灵元素"
+    },
+    "SpectralMummyBanner": {
+      "DisplayName": "幽灵木乃伊旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}幽灵木乃伊"
+    },
+    "VampireMinerBanner": {
+      "DisplayName": "吸血矿工旗帜",
+      "Tooltip": "{$CommonItemTooltip.BannerBonus}吸血矿工"
+    },
+    "MythicalWyvernKite": {
+      "DisplayName": "Mythical Wyvern Kite"
+    },
+    "LepusMusicBox": {
+      "DisplayName": "音乐盒（Lepus）"
+    },
+    "LepusRelic": {
+      "DisplayName": "Lepus遗物"
+    },
+    "LepusTrophy": {
+      "DisplayName": "Lepus纪念章"
+    },
+    "TurkorMusicBox": {
+      "DisplayName": "音乐盒（忘恩负义的Turkor）"
+    },
+    "TurkorRelic": {
+      "DisplayName": "忘恩负义的Turkor遗物"
+    },
+    "TurkorTrophy": {
+      "DisplayName": "忘恩负义的Turkor纪念章"
+    },
+    "OcramMusicBox": {
+      "DisplayName": "音乐盒（Ocram）"
+    },
+    "OcramRelic": {
+      "DisplayName": "Ocram遗物"
+    },
+    "OcramTrophy": {
+      "DisplayName": "Ocram纪念章"
+    },
+    "EerieOcramMusicBox": {
+      "DisplayName": "音乐盒（诡异的Ocram）"
+    },
+    "OtherworldlyMusicBox1": {
+      "DisplayName": "异界音乐盒（Lepus）"
+    },
+    "OtherworldlyMusicBox3": {
+      "DisplayName": "异界音乐盒（Ocram）"
+    },
+    "VolcanicRepeater": {
+      "Tooltip": "将箭矢转化为火神弩箭"
+    },
+    "PotOfGold": {
+      "Tooltip": "召唤一只宠物 O'Fyffe 小矮妖"
+    },
+    "VialOfBlood": {
+      "Tooltip": "召唤一只宠物蝙蝠"
+    },
+    "HolyHandgrenade2": {
+      "DisplayName": "Holy Hand Grenade II"
+    },
+    "WormTombstoneItem": {
+      "DisplayName": "Strange Looking Tombstone"
+    }
+  },
+  "Configs": {
+    "ConsolariaConfig": {
+      "tizonaZenithIntegrationEnabled": {
+        "Label": "Tizona融入天顶剑"
+      }
+    }
+  },
+  "Projectiles": {
+    "AlbinoMandible": {
+      "DisplayName": "Albino Mandible"
+    },
+    "TizonaProjectile": {
+      "DisplayName": "Tizona"
+    },
+    "TizonaShoot": {
+      "DisplayName": "Tizona"
+    },
+    "TonbogiriSpear": {
+      "DisplayName": "Tonbogiri"
+    },
+    "SpicySauce": {
+      "DisplayName": "Spicy Sauce"
+    },
+    "HeartArrow": {
+      "DisplayName": "Heart Arrow"
+    },
+    "SpectralArrow": {
+      "DisplayName": "Spectral Arrow"
+    },
+    "VulcanBolt": {
+      "DisplayName": "Vulcan Bolt"
+    },
+    "HolyHandgrenade": {
+      "DisplayName": "Holy Hand Grenade"
+    },
+    "Squib": {
+      "DisplayName": "Fiery Cracker"
+    },
+    "MythicalWyvernKiteProjectile": {
+      "DisplayName": "Mythical Wyvern Kite"
+    },
+    "Stomp": {
+      "DisplayName": "Lepus Stomp"
+    },
+    "ArchFlames": {
+      "DisplayName": "Arch Flames"
+    },
+    "ArchScythe": {
+      "DisplayName": "Arch Scythe"
+    },
+    "FireTrail": {
+      "DisplayName": "Fire Trail"
+    },
+    "OcramLaser1": {
+      "DisplayName": "Ocram Laser"
+    },
+    "OcramLaser2": {
+      "DisplayName": "Ocram Laser"
+    },
+    "OcramScythe": {
+      "DisplayName": "Supreme Demon Scythe"
+    },
+    "OcramSkull": {
+      "DisplayName": "Dread Skull"
+    },
+    "DreadSkull": {
+      "DisplayName": "Dread Skull"
+    },
+    "SpectralBomb": {
+      "DisplayName": "Spectral Bomb"
+    },
+    "SpectrallBall": {
+      "DisplayName": "Spectrall Ball"
+    },
+    "TurkorFeather": {
+      "DisplayName": "Turkor's Feather"
+    },
+    "TurkorKnife": {
+      "DisplayName": "Turkor's Knife"
+    },
+    "EasterBunny": {
+      "DisplayName": "复活节兔兔"
+    },
+    "EasterEgg": {
+      "DisplayName": "Easter Egg"
+    },
+    "EternalLaser": {
+      "DisplayName": "Eternal Laser"
+    },
+    "EternalScythe": {
+      "DisplayName": "Eternal Scythe"
+    },
+    "EyeOfEternity": {
+      "DisplayName": "永恒之眼"
+    },
+    "HolyHandgrenade2": {
+      "DisplayName": "Holy Hand Grenade II"
+    },
+    "ManaDrain": {
+      "DisplayName": "Mana Drain"
+    },
+    "OcramEyeGlow": {
+      "DisplayName": "Ocram Eye Glow"
+    },
+    "OcramEyeLaser": {
+      "DisplayName": "Ocram Eye Laser"
+    },
+    "AndroidGuy": {
+      "DisplayName": "Android Guy"
+    },
+    "Bat": {
+      "DisplayName": "Bat"
+    },
+    "Cupid": {
+      "DisplayName": "Cupid"
+    },
+    "Drone": {
+      "DisplayName": "无人机"
+    },
+    "Elfa": {
+      "DisplayName": "Elfa"
+    },
+    "GoldenTurtle": {
+      "DisplayName": "Golden Turtle"
+    },
+    "GuineaPig": {
+      "DisplayName": "Guinea Pig"
+    },
+    "Leprechaun": {
+      "DisplayName": "Leprechaun"
+    },
+    "LilMarco": {
+      "DisplayName": "Lil Marco"
+    },
+    "MythicalWyvernling": {
+      "DisplayName": "神话幼龙"
+    },
+    "PetTurkey": {
+      "DisplayName": "Turkey"
+    },
+    "Slime": {
+      "DisplayName": "Slime"
+    },
+    "SmallLepus": {
+      "DisplayName": "小 Lepus"
+    },
+    "Tiphia": {
+      "DisplayName": "Tiphia"
+    },
+    "Werewolf": {
+      "DisplayName": "Werewolf"
+    },
+    "Zombie": {
+      "DisplayName": "Zombie"
+    },
+    "RomanFlame": {
+      "DisplayName": "Roman Flame"
+    },
+    "RomanFlameFinal": {
+      "DisplayName": "Roman Flame Final"
+    },
+    "RomanFlameMid": {
+      "DisplayName": "Roman Flame Mid"
+    },
+    "ShadowflameBreath": {
+      "DisplayName": "Shadowflame Breath"
+    },
+    "ShadowflameBurst": {
+      "DisplayName": "Shadowflame Burst"
+    },
+    "SharpFeather": {
+      "DisplayName": "Sharp Feather"
+    },
+    "SpectralSpirit": {
+      "DisplayName": "Spectral Spirit"
+    },
+    "SpicyExplosion": {
+      "DisplayName": "Spicy Explosion"
+    },
+    "TitanBlast": {
+      "DisplayName": "Titan Blast"
+    },
+    "TurkeyHead": {
+      "DisplayName": "奇怪的火鸡"
+    },
+    "VulcanBlast": {
+      "DisplayName": "Vulcan Blast"
+    },
+    "Worm": {
+      "DisplayName": "Worm"
+    },
+    "OldLady": {
+      "DisplayName": "Old Lady"
+    },
+    "WormTombstone": {
+      "DisplayName": "Strange Looking Tombstone"
+    },
+    "McMoneypantsAttackProjectile": {
+      "DisplayName": "Gold Coin"
+    },
+    "Explosion": {
+      "DisplayName": "Explosion"
+    },
+    "MythicalWyvernProjectile": {
+      "DisplayName": "大飞龙"
+    },
+    "AlbinoRunt": {
+      "DisplayName": "Albino Runt"
+    }
+  },
+  "Buffs": {
+    "FruitfulPlate": {
+      "DisplayName": "丰盛之盘",
+      "Description": "你就是主菜"
+    },
+    "EasterBunny": {
+      "DisplayName": "复活节兔兔",
+      "Description": "复活节兔兔将为你而战"
+    },
+    "EyeOfEternity": {
+      "DisplayName": "永恒之眼",
+      "Description": "永恒之眼将为你而战"
+    },
+    "MythicalWyvernling": {
+      "DisplayName": "神话幼龙",
+      "Description": "一只神话幼龙跟着你"
+    },
+    "SmallLepus": {
+      "DisplayName": "小 Lepus",
+      "Description": "他还不能下蛋……不过快了！"
+    },
+    "WeirdTurkey": {
+      "DisplayName": "奇怪的火鸡",
+      "Description": "奇怪的火鸡将为你而战"
+    },
+    "Fortuned": {
+      "DisplayName": "幸运",
+      "Description": "你感觉自己非常幸运"
+    },
+    "Android": {
+      "DisplayName": "宠物机器人",
+      "Description": "哔-嘟"
+    },
+    "Bat": {
+      "DisplayName": "宠物蝙蝠",
+      "Description": "嗜血"
+    },
+    "Cupid": {
+      "DisplayName": "宠物丘比特",
+      "Description": "热爱爱"
+    },
+    "Elfa": {
+      "DisplayName": "宠物 Elfa",
+      "Description": "特别的精灵"
+    },
+    "GoldenTurtle": {
+      "DisplayName": "宠物金龟",
+      "Description": "稀有的龟"
+    },
+    "GuineaPig": {
+      "DisplayName": "宠物豚鼠",
+      "Description": "简直可爱"
+    },
+    "Leprechaun": {
+      "DisplayName": "宠物 O'Fyffe 小矮妖",
+      "Description": "装满硬币"
+    },
+    "LilMarco": {
+      "DisplayName": "小小马可",
+      "Description": "邪恶本身正在跟着你"
+    },
+    "PetTurkey": {
+      "DisplayName": "宠物火鸡",
+      "Description": "又大又肉多的火鸡"
+    },
+    "Slime": {
+      "DisplayName": "宠物史莱姆",
+      "Description": "真正的史莱姆球"
+    },
+    "Tiphia": {
+      "DisplayName": "宠物 Tiphia",
+      "Description": "别让它蜇到你"
+    },
+    "Werewolf": {
+      "DisplayName": "宠物狼人",
+      "Description": "人类最好的朋友"
+    },
+    "Zombie": {
+      "DisplayName": "宠物僵尸",
+      "Description": "吃大脑"
+    },
+    "OldLady": {
+      "DisplayName": "宠物老奶奶",
+      "Description": "不要以貌取人"
+    },
+    "Worm": {
+      "DisplayName": "宠物蠕虫",
+      "Description": "不是给鱼吃的"
+    },
+    "AlbinoRuntBuff": {
+      "DisplayName": "白化小崽宠物",
+      "Description": "在野外可活不下去"
+    },
+    "Drone": {
+      "Description": "一台无人机跟着你"
+    }
+  },
+  "NPCs": {
+    "MythicalWyvernHead": {
+      "DisplayName": "大飞龙",
+      "Bestiary": "传说中的存在，这些隐居的飞龙只在一年中的特定时间出现。"
+    },
+    "MythicalWyvernBody": {
+      "DisplayName": "大飞龙"
+    },
+    "MythicalWyvernBody2": {
+      "DisplayName": "大飞龙"
+    },
+    "MythicalWyvernBody3": {
+      "DisplayName": "大飞龙"
+    },
+    "MythicalWyvernLegs": {
+      "DisplayName": "大飞龙"
+    },
+    "MythicalWyvernTail": {
+      "DisplayName": "大飞龙"
+    },
+    "AlbinoAntlion": {
+      "DisplayName": "白化蚁狮",
+      "Bestiary": "拥有罕见突变的蚁狮品种，表现出更强的攻击性，也许是为了弥补其外壳易受阳光照射的弱点。"
+    },
+    "AlbinoCharger": {
+      "DisplayName": "白化冲锋兽",
+      "Bestiary": "少数蚁狮士兵会发生突变，失去体色，变得比它们的虫群兄弟们更加凶猛。"
+    },
+    "AlbinoSwarmer": {
+      "DisplayName": "白化虫群者",
+      "Bestiary": "白化蚁狮或许不擅长隐匿于沙丘之间，但据说它们苍白的身影会让猎物心生原始的恐惧。"
+    },
+    "GiantAlbinoSwarmer": {
+      "DisplayName": "巨型白化虫群者",
+      "Bestiary": "白化蚁狮或许不擅长隐匿于沙丘之间，但据说它们苍白的身影会让猎物心生原始的恐惧。"
+    },
+    "ArchDemon": {
+      "DisplayName": "大恶魔",
+      "Bestiary": "特别强大的恶魔活得够久，身体会变成枯萎的空壳。"
+    },
+    "ArchWyvernHead": {
+      "DisplayName": "大飞龙",
+      "Bestiary": "传说飞龙能够喷吐火焰。但没说的是，很少有飞龙能活到获得这种力量。"
+    },
+    "ArchWyvernBody1": {
+      "DisplayName": "大飞龙"
+    },
+    "ArchWyvernBody2": {
+      "DisplayName": "大飞龙"
+    },
+    "ArchWyvernBody3": {
+      "DisplayName": "大飞龙"
+    },
+    "ArchWyvernLegs": {
+      "DisplayName": "大飞龙"
+    },
+    "ArchWyvernTail": {
+      "DisplayName": "大飞龙"
+    },
+    "DragonHornet": {
+      "DisplayName": "龙黄蜂",
+      "Bestiary": "普通黄蜂的近亲，这些昆虫进化出奇特的外表来吓退敌人。如果这还不够，毒刺应该能完成任务。"
+    },
+    "DragonSkull": {
+      "DisplayName": "龙头骨",
+      "Bestiary": "受到死灵法术的影响，古代爬行动物的头颅现在猎杀活物，并将诅咒传给它们的受害者。"
+    },
+    "DragonSnatcher": {
+      "DisplayName": "龙抢夺者",
+      "Bestiary": "这种抢夺者学会了利用捕获的黄蜂的毒刺来猎杀更大的目标。"
+    },
+    "FleshAxe": {
+      "DisplayName": "血肉斧",
+      "Bestiary": "被猩红集体施法，这把武器自行移动并砍杀敌人。"
+    },
+    "FleshMummy": {
+      "DisplayName": "血肉木乃伊",
+      "Bestiary": "由于外力改变了沙漠中的沙土，那些被安葬在沙漠中的人，无论善恶，现在都站起来伤人杀人。"
+    },
+    "FleshSlime": {
+      "DisplayName": "血肉史莱姆",
+      "Bestiary": "浸润在猩红之力中，这些史莱姆能够传播它们的排泄物。"
+    },
+    "GiantAlbinoCharger": {
+      "DisplayName": "巨型白化冲锋兽",
+      "Bestiary": "少数蚁狮士兵会发生突变，失去体色，变得比它们的虫群兄弟们更加凶猛。"
+    },
+    "ShadowHammer": {
+      "DisplayName": "暗影锤",
+      "Bestiary": "被腐化之地的纯粹仇恨施加了魔法，这把武器四处挥舞，试图粉碎任何会呼吸的东西。"
+    },
+    "ShadowMummy": {
+      "DisplayName": "暗影木乃伊",
+      "Bestiary": "由于外力改变了沙漠中的沙土，那些被安葬在沙漠中的人，无论善恶，现在都站起来伤人杀人。"
+    },
+    "ShadowSlime": {
+      "DisplayName": "暗影史莱姆",
+      "Bestiary": "浸润在腐化之力中，这些史莱姆能够传播它们的排泄物。"
+    },
+    "SpectralElemental": {
+      "DisplayName": "幽灵元素",
+      "Bestiary": "有时被释放的光之灵会将混沌元素转化为更强大的存在，使它们能够随意进出物质位面，同时放置爆炸性的幽灵符文。"
+    },
+    "SpectralMummy": {
+      "DisplayName": "幽灵木乃伊",
+      "Bestiary": "这些木乃伊身上溢出的光能使它们破烂不堪的身体变得极度不稳定。"
+    },
+    "VampireMiner": {
+      "DisplayName": "吸血鬼矿工",
+      "Bestiary": "有证据表明，一些洞穴探险者在去世前被吸血蝙蝠咬过……现在他们腐烂的遗骸出来寻找鲜血。"
+    },
+    "BigEgg": {
+      "DisplayName": "天兔 蛋"
+    },
+    "SmallEgg": {
+      "DisplayName": "天兔 蛋"
+    },
+    "ChocolateEgg": {
+      "DisplayName": "巧克力蛋"
+    },
+    "DisasterBunny": {
+      "DisplayName": "灾难兔兔",
+      "Bestiary": "狂暴巨兔的灾难性后代，这些大眼睛生物会咬任何它们遇到的东西。"
+    },
+    "Lepus": {
+      "DisplayName": "天兔",
+      "Bestiary": "仿佛它的体型还不够麻烦，这只兔子可以通过彩色蛋繁殖，在春天散布在世界各地，供傻瓜们捡拾。"
+    },
+    "Ocram": {
+      "DisplayName": "奥库瑞姆",
+      "Bestiary": "这个被遗忘的堕落恶魔，曾经的暗黑帝王，现在寻求对所有地表居民的复仇。"
+    },
+    "ServantofOcram": {
+      "DisplayName": "奥库瑞姆仆从",
+      "Bestiary": "由奥库瑞姆具现化出的邪恶生物，被召唤出来以不惜一切代价保护它们的主人。"
+    },
+    "TurkorNeck": {
+      "DisplayName": "不感恩的火鸡"
+    },
+    "TurkortheUngrateful": {
+      "DisplayName": "不感恩的火鸡"
+    },
+    "TurkortheUngratefulHead": {
+      "DisplayName": "不感恩的火鸡"
+    },
+    "McMoneypants": {
+      "AlreadyInvested1": "没有足够的金子这回事，但我今天已经受够你了。",
+      "AlreadyInvested2": "抱歉，但我口袋已经满了。",
+      "AlreadyInvested3": "你今天运气已经用完了。",
+      "PlayerHasNoMoney1": "抱歉，我不能赊账！等你再——嗯——富有一点的时候再来吧。",
+      "PlayerHasNoMoney2": "我可不是开慈善机构的，你知道吧...",
+      "PlayerHasNoMoney3": "让我看看钱，我们再谈。",
+      "PlayerHasNoMoney4": "不，你不能用代金券付。",
+      "FirstTimeInvested1": "Ferragamo 黄金！",
+      "FirstTimeInvested2": "交易达成，运气上升。",
+      "FirstTimeInvested3": "今天是你幸运日。",
+      "FirstTimeInvested4": "一笔好投资！你真走运！",
+      "WhenInvested1": "时间就是金钱。所以明天再来花点吧！",
+      "WhenInvested2": "相信我，这不是庞氏骗局。",
+      "WhenInvested3": "正在让钱生钱...",
+      "WhenInvested4": "我要说多少遍？概不退款！",
+      "WhenInvested5": "我的笔呢？别告诉我签完合同你把它拿走了！",
+      "WhenInvested6": "合作愉快！我一天后会回来续约。",
+      "WhenInvested7": "最后说一次，别再问我通货膨胀的事了！",
+      "WhenInvested8": "拉高！不，抛售！哦，又是你啊。",
+      "Quote1": "老实说，用一分钱换我的想法真的不贵。",
+      "Quote2": "如果我昨晚看到的每只怪物都给我五分钱，那我更富有，也不会那么害怕了。",
+      "Quote3": "那些该死的史莱姆一直想吞我的硬币！",
+      "Quote5": "我感觉好干净，就像一台印钞机！",
+      "Quote6": "你知道我喜欢黄金的哪一点吗？我有很多！",
+      "Quote7": "嘿，我可以向你保证一件事，我从不要求客户根据我的赢家来评判我。我让他们根据我的输家来评判我，因为我的输家太少了。",
+      "Quote8": "当那些稀有土块涨价的时候，我要赚几百万！",
+      "Quote9": "我的理财建议？别用那破枪把你的硬币射出去。",
+      "Quote10": "比特币？我为什么要打一个硬币呢？",
+      "Bestiary": "浮夸而有魅力，Mc Moneypants 是一位乐于让任何人的生活变得更轻松的富绅……当然，得付出代价！"
+    },
+    "SpectralGastropod": {
+      "Bestiary": "曾经是普通的腹足兽，这些被光之灵附身的史莱姆能够喷出浓缩的光能球。"
+    }
+  },
+  "Achievements": {
+    "KillLepus": {
+      "FriendlyName": "兔子绝望",
+      "Description": "击败复活节最大的捣蛋鬼 天兔。"
+    },
+    "KillTurkor": {
+      "FriendlyName": "肯德基烤火鸡"
+    },
+    "KillOcram": {
+      "Description": "击败奥库瑞姆，诅咒的恶魔，徘徊在无星之天空下。"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Kolor Opisu"
+      },
+      "ChangeDamageColor": {
+        "Label": "Kolor Obrażeń"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Moje Liczby"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Liczby Innych"
+      },
+      "CondenseDamageHits": {
+        "Label": "Grupuj Trafienia"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Pokaż przy Zabiciu"
+      },
+      "DebugMode": {
+        "Label": "Tryb Debug"
+      },
+      "DebugModeTooltips": {
+        "Label": "Opisy"
+      },
+      "DebugModeFields": {
+        "Label": "Pola"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Wieloosobowa"
+      },
+      "MeleeDamage": {
+        "Label": "Wręcz"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Wręcz (kryt.)"
+      },
+      "TooltipMelee": {
+        "Label": "Wręcz"
+      },
+      "RangedDamage": {
+        "Label": "Dystans"
+      },
+      "RangedDamageCrit": {
+        "Label": "Dystans (kryt.)"
+      },
+      "TooltipRanged": {
+        "Label": "Dystans"
+      },
+      "MagicDamage": {
+        "Label": "Magia"
+      },
+      "MagicDamageCrit": {
+        "Label": "Magia (kryt.)"
+      },
+      "TooltipMagic": {
+        "Label": "Magia"
+      },
+      "ThrowingDamage": {
+        "Label": "Rzucanie"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Rzucanie (kryt.)"
+      },
+      "TooltipThrowing": {
+        "Label": "Rzucanie"
+      },
+      "SummonDamage": {
+        "Label": "Przywołanie"
+      },
+      "SummonDamageCrit": {
+        "Label": "Przywołanie (kryt.)"
+      },
+      "TooltipSummon": {
+        "Label": "Przywołanie"
+      },
+      "SentryDamage": {
+        "Label": "Wartownik"
+      },
+      "SentryDamageCrit": {
+        "Label": "Wartownik (kryt.)"
+      },
+      "TooltipSentry": {
+        "Label": "Wartownik"
+      },
+      "TooltipDefense": {
+        "Label": "Obrona"
+      },
+      "ModdedTooltip": {
+        "Label": "Opis"
+      },
+      "HeldTooltip": {
+        "Label": "Opis"
+      },
+      "ModdedDamage": {
+        "Label": "Obrażenia"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Obrażenia (kryt.)"
+      },
+      "HeldDamage": {
+        "Label": "Obrażenia"
+      },
+      "HeldDamageCrit": {
+        "Label": "Obrażenia (kryt.)"
+      },
+      "Headers": {
+        "Toggles": "Przełączniki",
+        "Condense": "Grupowanie",
+        "DamageColors": "Kolory Obrażeń",
+        "TooltipColors": "Kolory Opisu",
+        "ModCompat": "Domyślne Modów",
+        "HeldClass": "Klasa Trzymanego Przedmiotu",
+        "Debug": "Debug"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "obrażenia wartowników"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Disattiva lo sfarfallio delle torce"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Scala di luminosità"
+      }
+    }
+  }
+}

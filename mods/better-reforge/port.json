@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "better-reforge",
+    "uid": "9c6ebfc9-4520-490d-942a-348c41648a4d",
+    "version": "1.0.1",
+    "sha256": "b1cee9b0b23e60c5a26abe12ed115733b4bbe16171bfb9c455052803cec927a4"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The C# API does not expose Reforge_Layout, so the panel's side is read from it by name at run time; if that read fails, the panel stays on the left page. The setup moved from Load to PostSetupContent, because the game has no items yet in a C# mod's Load. The preview image moved to Assets/preview.png, next to the textures. Helpers the JavaScript version never used (ModSlider, ModInterfaceLayer, ReforgeUI.ChangeTextures) were not ported."
+}

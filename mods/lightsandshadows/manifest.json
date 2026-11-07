@@ -1,0 +1,28 @@
+{
+  "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
+  "id": "lightsandshadows",
+  "name": "Lights And Shadows",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "yiyang233",
+      "role": "Original mod and visual assets"
+    },
+    {
+      "name": "Potato",
+      "avatar": "potato.png",
+      "role": "Bunny Loader port"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "Sunlight, moonlight, shadow rays and bloom over the world, ported from the tModLoader mod and rebuilt to run on phones.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

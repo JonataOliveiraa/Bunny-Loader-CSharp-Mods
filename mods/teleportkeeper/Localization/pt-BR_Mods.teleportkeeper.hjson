@@ -1,0 +1,96 @@
+{
+  "Messages": {
+    "WrongTpNumber": "O Número do Teleporte é Inválido!",
+    "WrongUsage": "Info: /deltp + (número do teleporte na lista)",
+    "NewTpAdded": "Um novo Teleporte foi adicionado!",
+    "RemovedTp": "Teleporte removido!",
+    "RemoveAllTps": "Todos os Teleportes foram removidos!",
+    "DontHaveTps": "Não existem Teleportes salvos no momento...",
+    "NameTp": "Teleporte",
+    "DeathTpAdded": "Ponto de Teleporte da Morte criado!",
+    "DeathTpRemoved": "Ponto de Teleporte da Morte removido!",
+    "DeathTp": "Teleporte da Morte",
+    "TpUpdated": "Teleporte atualizado!",
+    "DeathTpOf": "Teleporte da Morte de {0}"
+  },
+  "Commands": {
+    "TpCommand": {
+      "Usage": "/tp [nome]",
+      "Description": "Salva um Ponto de Teleporte onde você está (com o nome, se der um)."
+    },
+    "DelTpCommand": {
+      "Usage": "/deltp <número do TP>",
+      "Description": "Apaga um Ponto de Teleporte."
+    },
+    "ClearAllCommand": {
+      "Usage": "/clearall",
+      "Description": "Apaga todos os Pontos de Teleporte salvos."
+    }
+  },
+  "UI": {
+    "CreateTitle": "Novo Teleporte",
+    "EditTitle": "Editar Teleporte",
+    "ListTitle": "Teleportes",
+    "Name": "Nome (toque para digitar)",
+    "Icon": "Ícone",
+    "Color": "Cor",
+    "DeleteOnUse": "Apagar o teleporte ao usar",
+    "DeleteOnUseShort": "apaga ao usar",
+    "Save": "Salvar",
+    "Cancel": "Cancelar",
+    "Delete": "Apagar",
+    "Confirm": "Confirmar?",
+    "Edit": "Editar",
+    "Go": "Ir",
+    "New": "Novo",
+    "Search": "Pesquisar...",
+    "All": "Todos",
+    "Empty": "Nenhum teleporte salvo.",
+    "NoResults": "Nada encontrado.",
+    "DeathOf": "Morte de {0}",
+    "DeathHint": "Some se o dono usar ou sair"
+  },
+  "Icons": {
+    "Default": "Teleporte",
+    "Forest": "Floresta",
+    "Snow": "Neve",
+    "Desert": "Deserto",
+    "Jungle": "Selva",
+    "Corruption": "Corrupção",
+    "Crimson": "Carmesim",
+    "Hallow": "Sagrado",
+    "Mushroom": "Cogumelos",
+    "Ocean": "Oceano",
+    "Underground": "Subsolo",
+    "Cavern": "Caverna",
+    "Underworld": "Submundo",
+    "Dungeon": "Masmorra",
+    "Temple": "Templo",
+    "Shimmer": "Shimmer",
+    "Sky": "Céu",
+    "Space": "Espaço",
+    "Graveyard": "Cemitério",
+    "Home": "Casa",
+    "Arena": "Arena"
+  },
+  "TouchButtons": {
+    "CreateTeleport": {
+      "DisplayName": "Criar Teleporte"
+    },
+    "TeleportList": {
+      "DisplayName": "Lista de Teleportes"
+    }
+  },
+  "Colors": {
+    "White": "Branco",
+    "Yellow": "Amarelo",
+    "Orange": "Laranja",
+    "Red": "Vermelho",
+    "Pink": "Rosa",
+    "Purple": "Roxo",
+    "Blue": "Azul",
+    "Cyan": "Ciano",
+    "Green": "Verde",
+    "Gray": "Cinza"
+  }
+}

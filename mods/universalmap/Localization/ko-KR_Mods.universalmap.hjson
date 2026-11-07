@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "유니버설 맵",
+      "Interval": {
+        "Label": "간격"
+      },
+      "Notifications": {
+        "Label": "알림"
+      },
+      "Headers": {
+        "Sync": "동기화"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "지도 갱신: 다른 플레이어에게서 새 칸 {0}개를 받았습니다.",
+    "Sharing": "다른 플레이어와 지도를 공유하는 중...",
+    "MultiplayerOnly": "유니버설 맵은 멀티플레이에서만 작동합니다."
+  }
+}

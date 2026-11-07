@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "光标模式"
+      },
+      "Headers": {
+        "DisplayHeader": "Boss 光标显示"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "屏幕外"
+      },
+      "Always": {
+        "Label": "始终"
+      },
+      "Never": {
+        "Label": "从不"
+      }
+    }
+  }
+}

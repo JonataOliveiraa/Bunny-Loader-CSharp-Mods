@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "一時停止で開始"
+      },
+      "LivePreview": {
+        "Label": "マッププレビュー"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "ステップ一覧を表示",
+    "Previous": "前のステップをやり直す",
+    "Resume": "再開",
+    "Pause": "一時停止",
+    "Next": "次のステップへ進む",
+    "Structures": "保護された構造物を表示",
+    "Cancel": "キャンセル",
+    "ZoomIn": "拡大",
+    "ZoomOut": "縮小",
+    "ExitZoom": "ズーム終了",
+    "NoPause": "この端末では一時停止を使えません",
+    "StatusNormal": "状態：通常",
+    "StatusPausing": "状態：一時停止しています...",
+    "StatusPaused": "状態：一時停止",
+    "StatusRepeating": "状態：前のステップをやり直し中",
+    "StatusWaitingRepeat": "状態：このステップのやり直しを待っています...",
+    "StatusCanceling": "状態：キャンセル中...",
+    "StatusStructuresOn": "状態：構造物を表示",
+    "StatusStructuresOff": "状態：構造物を非表示",
+    "StatusPausingAfter": "状態：{0} の後で一時停止",
+    "Skipped": "スキップ済み",
+    "Complete": "完了",
+    "AdvanceTo": "タップして {0} まで進む",
+    "Tile": "ブロック：{0}",
+    "PausedAfter": "{0} の後でワールド生成を一時停止",
+    "Waiting": "プレビューを作成中...",
+    "PreviewOff": "マッププレビューはオフです",
+    "Steps": "ステップ",
+    "SkipStep": "タップしてこのステップをスキップ",
+    "KeepStep": "タップしてこのステップを残す",
+    "StatusFinishingMap": "状態：マップを仕上げています..."
+  }
+}

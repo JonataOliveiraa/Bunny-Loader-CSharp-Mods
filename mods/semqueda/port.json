@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "semqueda",
+    "uid": "15b99fa4-580f-40c6-9a26-78e3928876d7",
+    "version": "1.0.0",
+    "sha256": "393e8bad02b17c7266a8f21f4c11086764150af554fbd1dcf15445239ab39fee"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

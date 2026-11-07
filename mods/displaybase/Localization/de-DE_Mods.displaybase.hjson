@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Ausstellungssockel",
+      "Tooltip": "Tippe, um das gehaltene Item auf den Sockel zu stellen"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Ausstellungssockel",
+      "Tooltip": "Tippe, um das gehaltene Item auf den Sockel zu stellen"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Ausstellungssockel"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Ausstellung",
+      "UseBrightness": {
+        "Label": "Hell Zeichnen"
+      },
+      "UseOutline": {
+        "Label": "Umriss"
+      },
+      "UseGlitter": {
+        "Label": "Glitzern"
+      },
+      "LightIntensity": {
+        "Label": "Licht"
+      },
+      "Headers": {
+        "Effects": "Effekte"
+      }
+    }
+  }
+}

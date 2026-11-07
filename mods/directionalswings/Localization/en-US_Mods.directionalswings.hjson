@@ -1,0 +1,18 @@
+{
+  "Configs": {
+    "DirectionalSwingsConfig": {
+      "Enabled": {
+        "Label": "Directional swings"
+      },
+      "Tools": {
+        "Label": "Directionally Swing Tools"
+      },
+      "LockAim": {
+        "Label": "Lock aim when swing starts"
+      },
+      "Arc": {
+        "Label": "Swing arc width"
+      }
+    }
+  }
+}

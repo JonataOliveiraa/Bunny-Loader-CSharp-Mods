@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Display Base",
+      "Tooltip": "Tap to place the held item on the base"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Display Base",
+      "Tooltip": "Tap to place the held item on the base"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Display Base"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Display Settings",
+      "UseBrightness": {
+        "Label": "Draw Brightly"
+      },
+      "UseOutline": {
+        "Label": "Item Outline"
+      },
+      "UseGlitter": {
+        "Label": "Glitter"
+      },
+      "LightIntensity": {
+        "Label": "Light"
+      },
+      "Headers": {
+        "Effects": "Effects"
+      }
+    }
+  }
+}

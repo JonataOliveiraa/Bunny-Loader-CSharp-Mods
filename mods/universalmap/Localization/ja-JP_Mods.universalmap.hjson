@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "ユニバーサルマップ",
+      "Interval": {
+        "Label": "間隔"
+      },
+      "Notifications": {
+        "Label": "通知"
+      },
+      "Headers": {
+        "Sync": "同期"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "マップを更新：他のプレイヤーから {0} マスを受け取った。",
+    "Sharing": "マップを他のプレイヤーと共有中...",
+    "MultiplayerOnly": "ユニバーサルマップはマルチプレイ専用です。"
+  }
+}

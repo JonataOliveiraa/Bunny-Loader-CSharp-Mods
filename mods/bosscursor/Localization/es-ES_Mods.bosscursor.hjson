@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "Modo del Cursor"
+      },
+      "Headers": {
+        "DisplayHeader": "Visualización del Cursor de Jefes"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "Fuera de la pantalla"
+      },
+      "Always": {
+        "Label": "Siempre"
+      },
+      "Never": {
+        "Label": "Nunca"
+      }
+    }
+  }
+}

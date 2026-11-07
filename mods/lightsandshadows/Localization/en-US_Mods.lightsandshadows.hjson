@@ -1,0 +1,57 @@
+{
+  "Configs": {
+    "LightsConfig": {
+      "UseLight": {
+        "Label": "Use lighting"
+      },
+      "LightIntensity": {
+        "Label": "Light"
+      },
+      "MoonLightIntensity": {
+        "Label": "Moonlight"
+      },
+      "ShadowIntensity": {
+        "Label": "Shadows"
+      },
+      "DayColor": {
+        "Label": "Daylight color"
+      },
+      "UseBloom": {
+        "Label": "Use bloom"
+      },
+      "BloomIntensity": {
+        "Label": "Bloom"
+      },
+      "BloomCounts": {
+        "Label": "Bloom passes"
+      },
+      "Quality": {
+        "Label": "Shadow quality"
+      },
+      "Headers": {
+        "Lighting": "Lighting & Shadows",
+        "Bloom": "Bloom",
+        "Performance": "Performance"
+      }
+    },
+    "DayColorMode": {
+      "Classic": {
+        "Label": "Yellow"
+      },
+      "Alternate": {
+        "Label": "White"
+      }
+    },
+    "ShadowQuality": {
+      "High": {
+        "Label": "High"
+      },
+      "Medium": {
+        "Label": "Medium"
+      },
+      "Low": {
+        "Label": "Low"
+      }
+    }
+  }
+}

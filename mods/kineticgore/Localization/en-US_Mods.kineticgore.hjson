@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Arrows stick to enemies"
+      },
+      "EnableHeadBanging": {
+        "Label": "Head banging (music)"
+      },
+      "CorpseDuration": {
+        "Label": "Corpse duration"
+      },
+      "DismembermentChance": {
+        "Label": "Dismemberment chance"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Legacy ragdoll physics"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Ragdoll collision"
+      },
+      "MaxCorpses": {
+        "Label": "Max corpses"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Blood amount"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Gib amount"
+      },
+      "BloodScale": {
+        "Label": "Blood size"
+      },
+      "BloodVelocity": {
+        "Label": "Blood speed"
+      },
+      "EnableStickyBlood": {
+        "Label": "Sticky blood"
+      },
+      "StickyBloodDuration": {
+        "Label": "Blood on the ground"
+      },
+      "BleedDuration": {
+        "Label": "Neck bleeding"
+      },
+      "Gravity": {
+        "Label": "Gravity"
+      },
+      "Bounciness": {
+        "Label": "Bounciness"
+      },
+      "Friction": {
+        "Label": "Friction"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Knockback force"
+      },
+      "HeadBobIntensity": {
+        "Label": "Head bob"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Head flinching"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Reverse flinch"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Neck stiffness"
+      },
+      "HeadSpringDamping": {
+        "Label": "Neck damping"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Jiggle"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Slime stiffness"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Slime damping"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Town NPC height"
+      },
+      "Headers": {
+        "QualityOfLife": "Quality of Life",
+        "GeneralSettings": "General",
+        "BloodSettings": "Blood",
+        "PhysicsSettings": "Physics",
+        "HeadPhysics": "Humanoid heads",
+        "SlimePhysics": "Slime jiggle",
+        "VisualAdjustments": "Visual adjustments"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Physics Corpse"
+    },
+    "StuckArrow": {
+      "DisplayName": "Stuck Arrow"
+    }
+  }
+}

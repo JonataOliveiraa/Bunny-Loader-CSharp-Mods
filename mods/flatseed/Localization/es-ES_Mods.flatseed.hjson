@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "¡Un mundo tan plano que puedes correr sin miedo a tropezar o caer en un agujero! Las cuevas siguen ahí abajo, esperando."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Aplanando el mundo..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Altura de la superficie"
+      },
+      "FillChasms": {
+        "Label": "Rellenar grietas"
+      },
+      "SmoothBeaches": {
+        "Label": "Rampas en la playa"
+      }
+    }
+  }
+}

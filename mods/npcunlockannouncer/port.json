@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "npcunlockannouncer",
+    "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
+    "version": "1.0.0",
+    "sha256": "e998181204d3318d26001e28924fc051fffe54584e7c084124aeb0beddd02292"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The Preview config button is gone because C# configs have no buttons: use /npcannounce preview. The s and % suffixes on sliders and the greyed-out Max Per NPC row are gone too, because the C# config screen has no such options. The banner's enter, show and exit times and the client's start-up wait are measured in real time instead of counted frames, so they keep their length at any frame rate."
+}

@@ -1,0 +1,208 @@
+{
+  "NPCTitles": {
+    "Guide": {
+      "Title": "嚮導",
+      "Subtitle": "什麼都懂……除了怎麼活下來。|免費建議，附贈死亡。|你的第一個朋友。你的第一次損失。|壽命有限的行走說明書。|永遠樂於助人，從不逃跑。"
+    },
+    "Merchant": {
+      "Title": "商人",
+      "Subtitle": "錢真的能買到快樂。|他不賣的東西就不存在。|生意第一，道德第二。|只收硬幣，不收藉口。|你的錢包在發抖。"
+    },
+    "Nurse": {
+      "Title": "護士",
+      "Subtitle": "治療很簡單，收費更簡單。|瞬間治療，立刻結帳。|生命不是免費的，親愛的。|疼痛減少，債務增加。|先救你，再掏空你。"
+    },
+    "Demolitionist": {
+      "Title": "爆破專家",
+      "Subtitle": "所有問題都能……用爆炸解決。|炸彈越多，問題越少。|引爆前記得微笑。|附帶傷害專家。|能炸就說明有效。"
+    },
+    "DyeTrader": {
+      "Title": "染料商",
+      "Subtitle": "風格也是要刷的。|今天好看，明天災難。|時尚就是折磨。|染色是藝術，有時候。|從不搭配，但很好賣。"
+    },
+    "Dryad": {
+      "Title": "樹妖",
+      "Subtitle": "大自然正在審判你。|腐化少一點，嘮叨多一點。|和植物說話，無視你。|環保又被動攻擊。|熱愛叢林，容忍玩家。"
+    },
+    "ArmsDealer": {
+      "Title": "軍火商",
+      "Subtitle": "和平從來不是選項。|法律上……有點問題的武器。|先開槍，再提問。|任何問題都有子彈解決方案。|反派電影式微笑。"
+    },
+    "Stylist": {
+      "Title": "髮型師",
+      "Subtitle": "為危險人生準備的戲劇性髮型。|這髮型活不過月亮。|末日之前也要好看。|勇氣從瀏海開始。|效果不保證。"
+    },
+    "Painter": {
+      "Title": "畫家",
+      "Subtitle": "用奇怪的顏色看世界。|被誤解的藝術，高昂的價格。|畫夢想……也刷牆。|靈感滿滿，方向全無。|創意天才，毫無背景。"
+    },
+    "Angler": {
+      "Title": "釣魚小子",
+      "Subtitle": "煩人界的天才。|任務很多，感謝沒有。|永遠不滿足。|稀有魚類，糟糕態度。|真正的最終Boss。"
+    },
+    "GoblinTinkerer": {
+      "Title": "哥布林工匠",
+      "Subtitle": "今天重鑄，明天流淚。|隨機也是樂趣的一部分。|弄壞也算升級。|相信我。你不該。|你的飾品……變了。"
+    },
+    "WitchDoctor": {
+      "Title": "巫醫",
+      "Subtitle": "另類醫療，效果存疑。|叢林表示認可。|毒藥、巫術與時尚。|別問那是什麼。|不是治療，是強化。"
+    },
+    "Clothier": {
+      "Title": "裁縫",
+      "Subtitle": "優雅、詛咒又合身。|時尚不死，你會。|有黑歷史的服裝。|附贈心理陰影的裁縫。|被過去糾纏。"
+    },
+    "Mechanic": {
+      "Title": "機械師",
+      "Subtitle": "電線 > 人類。|不行就再加拉桿。|熱愛機器，討厭解釋。|真正能用的陷阱。|有態度的工程學。"
+    },
+    "PartyGirl": {
+      "Title": "派對女孩",
+      "Subtitle": "邏輯靠邊，彩紙優先。|有氣球一切都更好。|末日也要開趴。|永遠不累。真的。|危險等級：快樂。"
+    },
+    "DD2Bartender": {
+      "Title": "酒館老闆",
+      "Subtitle": "故事很長，酒很快沒。|來自以太世界的老員工。|死前先喝一杯。|帶宿醉的任務。|唯一清醒的是玩家。"
+    },
+    "Golfer": {
+      "Title": "高爾夫球手",
+      "Subtitle": "為了高爾夫逃離沙漠。|哪裡都是潛在球洞。|先揮桿，再瞄準。|耐心是可選項。|草坪是神聖的。"
+    },
+    "BestiaryGirl": {
+      "Title": "動物學家",
+      "Subtitle": "對動物的愛有點過頭。|什麼都想摸。|非常貼身的研究。|熱情過剩。|擁抱型科學。"
+    },
+    "Wizard": {
+      "Title": "巫師",
+      "Subtitle": "睿智、強大，還有點瘋。|魔法優先，理智靠後。|無過濾的奧術知識。|水晶球不會說謊。|法術與自我。"
+    },
+    "TaxCollector": {
+      "Title": "稅收官",
+      "Subtitle": "地獄也要收利息。|死亡沒能阻止他。|稅收是永恆的。|不接受談判。|最可怕的NPC。"
+    },
+    "Truffle": {
+      "Title": "松露人",
+      "Subtitle": "有個性的蘑菇。|對這個世界太佛系。|生活、歡笑、孢子。|不能吃。|純蘑菇氛圍。"
+    },
+    "Pirate": {
+      "Title": "海盜",
+      "Subtitle": "蘭姆酒、大砲和吼叫。|驕傲地Arrr。|要麼寶藏，要麼沒有。|從不繳稅。|大海在呼喚。"
+    },
+    "Steampunker": {
+      "Title": "蒸汽龐克",
+      "Subtitle": "有風格的科學。|討厭老科技。|齒輪勝過魔法。|未來就是現在。|蒸汽與態度。"
+    },
+    "Cyborg": {
+      "Title": "機械人",
+      "Subtitle": "為毀滅而優化。|更少人性，更多武器。|持續的彈道計算。|沒感覺……但會開火。|敵對科技。"
+    },
+    "SantaClaus": {
+      "Title": "聖誕老人",
+      "Subtitle": "有條件的禮物。|他在看著你。|名單不會騙人。|武裝的聖誕節。|呵呵……小心。"
+    },
+    "Princess": {
+      "Title": "公主",
+      "Subtitle": "無法解釋的優雅。|什麼都不做。完美。|這裡最開心的人。|活在自己的最佳人生。|皇家氣場。"
+    },
+    "TravellingMerchant": {
+      "Title": "流動商人",
+      "Subtitle": "今天在，明天沒。|庫存全看運氣。|快買。|從不解釋。|說走就走。"
+    },
+    "SkeletonMerchant": {
+      "Title": "骷髏商人",
+      "Subtitle": "夜間生意。|骨頭與隨機。|要命的價格。|毫無皮膚投入。|字面意義上的沒羞恥。"
+    },
+    "Default": {
+      "Subtitle": "一位新的盟友加入了。"
+    }
+  },
+  "Configs": {
+    "AnnouncerConfig": {
+      "DisplayName": "NPC 入住公告",
+      "Style": {
+        "Label": "樣式"
+      },
+      "Sound": {
+        "Label": "音效"
+      },
+      "SoundVolume": {
+        "Label": "音量"
+      },
+      "DurationSeconds": {
+        "Label": "持續時間"
+      },
+      "Frequency": {
+        "Label": "頻率"
+      },
+      "MaxAnnouncementsPerNPC": {
+        "Label": "每個 NPC 上限"
+      },
+      "Headers": {
+        "General": "一般"
+      }
+    },
+    "BannerStyle": {
+      "Classic": {
+        "Label": "經典"
+      },
+      "Modern": {
+        "Label": "現代"
+      },
+      "Corruption": {
+        "Label": "腐化"
+      },
+      "Crimson": {
+        "Label": "猩紅"
+      },
+      "Wood": {
+        "Label": "木製"
+      },
+      "Jungle": {
+        "Label": "叢林"
+      }
+    },
+    "BannerSound": {
+      "None": {
+        "Label": "無"
+      },
+      "MagicDing": {
+        "Label": "魔法叮咚"
+      },
+      "Coins": {
+        "Label": "錢幣"
+      },
+      "MaxMana": {
+        "Label": "魔力上限"
+      },
+      "ResearchComplete": {
+        "Label": "研究"
+      },
+      "ChestUnlock": {
+        "Label": "寶箱解鎖"
+      },
+      "Crimson": {
+        "Label": "猩紅"
+      },
+      "Knock": {
+        "Label": "敲門"
+      },
+      "Jungle": {
+        "Label": "叢林"
+      },
+      "Corruption": {
+        "Label": "腐化"
+      }
+    },
+    "AnnounceFrequency": {
+      "FirstTimeOnly": {
+        "Label": "僅首次"
+      },
+      "EveryTime": {
+        "Label": "每次"
+      },
+      "SetAmount": {
+        "Label": "限定次數"
+      }
+    }
+  }
+}

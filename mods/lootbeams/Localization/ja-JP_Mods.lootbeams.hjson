@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "このコマンドはアイテムを持って使ってください。",
+    "Always": "{0} は常にビームが出ます。",
+    "Never": "{0} はビームが出なくなりました。",
+    "MiniOn": "{0} は小さいビームになりました。",
+    "MiniOff": "{0} は通常のビームに戻りました。",
+    "BadColor": "色が正しくありません。/beams color #RRGGBB（例：#FF8800）を使ってください。",
+    "Colored": "{0} のビームの色：{1}。",
+    "Reset": "{0} をリストから外しました。",
+    "NotListed": "{0} はリストにありません。",
+    "List": "常に：{0} | なし：{1} | 小：{2} | 色：{3}",
+    "Cleared": "リストを消去しました。",
+    "Enabled": "ビームをオンにしました。",
+    "Disabled": "ビームをオフにしました。"
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "有効"
+      },
+      "MinRarity": {
+        "Label": "最低レア度"
+      },
+      "MinValue": {
+        "Label": "最低価値"
+      },
+      "HighlightQuest": {
+        "Label": "クエストアイテム"
+      },
+      "HighlightExpert": {
+        "Label": "エキスパートアイテム"
+      },
+      "HighlightMaster": {
+        "Label": "マスターアイテム"
+      },
+      "UseDefaultLists": {
+        "Label": "標準リスト"
+      },
+      "BeamStyle": {
+        "Label": "ビームの種類"
+      },
+      "GlowStyle": {
+        "Label": "光の種類"
+      },
+      "BeamScale": {
+        "Label": "ビームの大きさ"
+      },
+      "BeamOpacity": {
+        "Label": "ビームの不透明度"
+      },
+      "GlowScale": {
+        "Label": "光の大きさ"
+      },
+      "GlowOpacity": {
+        "Label": "光の不透明度"
+      },
+      "FlashScale": {
+        "Label": "落下時の閃光"
+      },
+      "DrawAdditive": {
+        "Label": "明るく"
+      },
+      "Pulse": {
+        "Label": "点滅"
+      },
+      "EmitLight": {
+        "Label": "光"
+      },
+      "FadeOnPickup": {
+        "Label": "拾うと消える"
+      },
+      "Headers": {
+        "Filters": "対象アイテム",
+        "Visuals": "見た目",
+        "Extras": "その他"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "なし"
+      },
+      "Simple": {
+        "Label": "シンプル"
+      },
+      "Arrow": {
+        "Label": "矢印"
+      },
+      "AnimatedArrow": {
+        "Label": "動く矢印"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "なし"
+      },
+      "Simple": {
+        "Label": "ソフト"
+      },
+      "Pixel": {
+        "Label": "ドット"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "手に持っているアイテムのビームを変更します。"
+    }
+  }
+}

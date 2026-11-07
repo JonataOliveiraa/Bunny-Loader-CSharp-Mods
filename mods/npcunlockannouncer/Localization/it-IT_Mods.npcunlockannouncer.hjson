@@ -1,0 +1,208 @@
+{
+  "NPCTitles": {
+    "Guide": {
+      "Title": "LA GUIDA",
+      "Subtitle": "Sa tutto… tranne come sopravvivere.|Consigli gratis, morti incluse.|Il tuo primo amico. La tua prima perdita.|Un manuale vivente con aspettativa di vita limitata.|Sempre pronto ad aiutare. Mai a scappare."
+    },
+    "Merchant": {
+      "Title": "IL MERCANTE",
+      "Subtitle": "Il denaro compra la felicità.|Se non lo vende lui, non esiste.|Affari prima, morale dopo.|Accetta monete. Niente scuse.|Il tuo portafoglio trema."
+    },
+    "Nurse": {
+      "Title": "L’INFERMIERA",
+      "Subtitle": "Curare è facile. Far pagare di più.|Cura istantanea, conto immediato.|La vita non è gratis, tesoro.|Meno dolore, più debiti.|Ti salva prima. Ti rovina dopo."
+    },
+    "Demolitionist": {
+      "Title": "IL DEMOLITORE",
+      "Subtitle": "Risolve tutto… con esplosioni.|Più bombe, meno domande.|Sorridi prima della detonazione.|Specialista in danni collaterali.|Se fa boom, funziona."
+    },
+    "DyeTrader": {
+      "Title": "IL TINTORE",
+      "Subtitle": "Lo stile si farma.|Colore oggi, abbinamenti discutibili domani.|La moda è sofferenza.|Tingere è un’arte. A volte.|Non abbina mai, vende sempre."
+    },
+    "Dryad": {
+      "Title": "LA DRIADE",
+      "Subtitle": "La natura ti sta giudicando.|Meno corruzione, più ramanzine.|Parla con le piante. Ignora te.|Eco-friendly e passivo-aggressiva.|Ama la giungla. Tollera il giocatore."
+    },
+    "ArmsDealer": {
+      "Title": "IL MERCANTE D’ARMI",
+      "Subtitle": "La pace non è mai stata un’opzione.|Armi legalmente… discutibili.|Spara prima, chiedi dopo.|Munizioni per ogni problema.|Sorriso da cattivo cinematografico."
+    },
+    "Stylist": {
+      "Title": "LA STILISTA",
+      "Subtitle": "Tagli drammatici per vite pericolose.|Quel taglio non sopravviverà alla luna.|Bellezza prima dell’apocalisse.|Il coraggio inizia dai capelli.|Trasformazioni non garantite."
+    },
+    "Painter": {
+      "Title": "IL PITTORE",
+      "Subtitle": "Vede il mondo a colori strani.|Arte incompresa, prezzi gonfiati.|Dipinge sogni… e muri.|Ispirato, ma perso.|Genio creativo, zero contesto."
+    },
+    "Angler": {
+      "Title": "IL PESCATORE",
+      "Subtitle": "Prodigio del fastidio.|Più missioni, meno gratitudine.|Mai soddisfatto.|Pesci rari, atteggiamento pessimo.|Il vero boss finale."
+    },
+    "GoblinTinkerer": {
+      "Title": "IL GOBLIN TUTTOFARE",
+      "Subtitle": "Riforgia oggi, piangi domani.|L’RNG fa parte del divertimento.|Romperlo conta come migliorarlo.|Fidati di me. Non dovresti.|Il tuo accessorio è… diverso ora."
+    },
+    "WitchDoctor": {
+      "Title": "IL DOTTORE STREGONE",
+      "Subtitle": "Medicina alternativa, risultati discutibili.|La giungla approva.|Veleno, voodoo e stile.|Non chiedere cos’è.|Non cura—potenzia."
+    },
+    "Clothier": {
+      "Title": "IL SARTO",
+      "Subtitle": "Elegante, maledetto e ben vestito.|La moda non muore mai. Tu sì.|Abiti con un passato oscuro.|Cucito con trauma incluso.|Perseguitato dal passato."
+    },
+    "Mechanic": {
+      "Title": "LA MECCANICA",
+      "Subtitle": "Cavi > persone.|Se non funziona, aggiungi leve.|Ama le macchine. Odia spiegare.|Trappole che funzionano davvero.|Ingegneria con carattere."
+    },
+    "PartyGirl": {
+      "Title": "LA RAGAZZA DELLE FESTE",
+      "Subtitle": "Coriandoli prima della logica.|Tutto è meglio con i palloncini.|Festa anche durante l’apocalisse.|Non si stanca mai. Mai.|Livello di pericolo: divertimento."
+    },
+    "DD2Bartender": {
+      "Title": "IL TAVERNiere",
+      "Subtitle": "Storie lunghe, birre corte.|Serve Etheria da sempre.|Un drink prima di morire.|Missioni con post-sbornia.|L’unico sobrio è il giocatore."
+    },
+    "Golfer": {
+      "Title": "IL GOLFISTA",
+      "Subtitle": "Scappato dal deserto per il golf.|Tutto è una buca potenziale.|Colpisci prima, mira dopo.|Pazienza opzionale.|Il green è sacro."
+    },
+    "BestiaryGirl": {
+      "Title": "LA ZOOLOGA",
+      "Subtitle": "Amore eccessivo per gli animali.|Vuole accarezzare tutto.|Ricerca molto ravvicinata.|Troppo entusiasta.|Scienza con abbracci."
+    },
+    "Wizard": {
+      "Title": "IL MAGO",
+      "Subtitle": "Saggio, potente e un po’ squilibrato.|Magia prima, buon senso dopo.|Conoscenza arcana senza filtri.|La sfera non mente.|Incantesimi ed ego."
+    },
+    "TaxCollector": {
+      "Title": "L’ESATTORE",
+      "Subtitle": "L’inferno fa pagare interessi.|La morte non l’ha fermato.|Le tasse sono eterne.|Nessuna trattativa.|L’NPC più temuto."
+    },
+    "Truffle": {
+      "Title": "IL TARTUFO",
+      "Subtitle": "Un fungo con personalità.|Troppo chill per questo mondo.|Vivi, ridi, spore.|Non è cibo.|Pure vibrazioni fungine."
+    },
+    "Pirate": {
+      "Title": "IL PIRATA",
+      "Subtitle": "Rum, cannoni e urla.|Arrr con orgoglio.|Tesoro o niente.|Non paga mai le tasse.|Il mare chiama."
+    },
+    "Steampunker": {
+      "Title": "LA STEAMPUNKER",
+      "Subtitle": "Scienza con stile.|Odia la tecnologia vecchia.|Ingranaggi sopra la magia.|Il futuro è adesso.|Vapore e atteggiamento."
+    },
+    "Cyborg": {
+      "Title": "IL CYBORG",
+      "Subtitle": "Ottimizzato per la distruzione.|Meno umano, più armi.|Calcoli balistici costanti.|Non prova nulla… ma spara.|Tecnologia ostile."
+    },
+    "SantaClaus": {
+      "Title": "BABBO NATALE",
+      "Subtitle": "Regali con condizioni.|Ti sta osservando.|La lista non mente.|Natale armato.|Ho ho… attenzione."
+    },
+    "Princess": {
+      "Title": "LA PRINCIPESSA",
+      "Subtitle": "Eleganza inspiegabile.|Non fa nulla. Perfettamente.|La più felice qui.|Vive la sua vita migliore.|Vibes reali."
+    },
+    "TravellingMerchant": {
+      "Title": "MERCANTE AMBULANTE",
+      "Subtitle": "Qui oggi, via domani.|Inventario imprevedibile.|Compra in fretta.|Non spiega mai nulla.|Se ne va senza avviso."
+    },
+    "SkeletonMerchant": {
+      "Title": "MERCANTE SCHELETRO",
+      "Subtitle": "Affari notturni.|Ossa e RNG.|Prezzi mortali.|Niente pelle in gioco.|Letteralmente senza vergogna."
+    },
+    "Default": {
+      "Subtitle": "Un nuovo alleato si unisce alla causa."
+    }
+  },
+  "Configs": {
+    "AnnouncerConfig": {
+      "DisplayName": "Annuncio PNG",
+      "Style": {
+        "Label": "Stile"
+      },
+      "Sound": {
+        "Label": "Suono"
+      },
+      "SoundVolume": {
+        "Label": "Volume"
+      },
+      "DurationSeconds": {
+        "Label": "Durata"
+      },
+      "Frequency": {
+        "Label": "Frequenza"
+      },
+      "MaxAnnouncementsPerNPC": {
+        "Label": "Max per PNG"
+      },
+      "Headers": {
+        "General": "Generale"
+      }
+    },
+    "BannerStyle": {
+      "Classic": {
+        "Label": "Classico"
+      },
+      "Modern": {
+        "Label": "Moderno"
+      },
+      "Corruption": {
+        "Label": "Corruzione"
+      },
+      "Crimson": {
+        "Label": "Cremisi"
+      },
+      "Wood": {
+        "Label": "Legno"
+      },
+      "Jungle": {
+        "Label": "Giungla"
+      }
+    },
+    "BannerSound": {
+      "None": {
+        "Label": "Nessuno"
+      },
+      "MagicDing": {
+        "Label": "Tocco Magico"
+      },
+      "Coins": {
+        "Label": "Monete"
+      },
+      "MaxMana": {
+        "Label": "Mana Max"
+      },
+      "ResearchComplete": {
+        "Label": "Ricerca"
+      },
+      "ChestUnlock": {
+        "Label": "Forziere Aperto"
+      },
+      "Crimson": {
+        "Label": "Cremisi"
+      },
+      "Knock": {
+        "Label": "Bussata"
+      },
+      "Jungle": {
+        "Label": "Giungla"
+      },
+      "Corruption": {
+        "Label": "Corruzione"
+      }
+    },
+    "AnnounceFrequency": {
+      "FirstTimeOnly": {
+        "Label": "Prima Volta"
+      },
+      "EveryTime": {
+        "Label": "Ogni Volta"
+      },
+      "SetAmount": {
+        "Label": "Numero Fisso"
+      }
+    }
+  }
+}

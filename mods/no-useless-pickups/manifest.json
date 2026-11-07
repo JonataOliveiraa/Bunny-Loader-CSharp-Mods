@@ -1,0 +1,26 @@
+{
+  "uid": "005ff90e-02cd-4caa-ba96-953378fca597",
+  "id": "no-useless-pickups",
+  "name": "No Useless Pickups",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Lunaros",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "color": "#FFFFFF",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3288950444"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "QoL",
+  "summary": "Consumable pickups (life hearts, mana stars, and Nebula boosters) can no longer be picked up if they are not needed.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

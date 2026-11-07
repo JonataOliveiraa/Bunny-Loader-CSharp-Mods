@@ -1,0 +1,438 @@
+{
+  "Log": {
+    "Common": {
+      "BossLog": "Boss Log",
+      "Entry": "Eintrag",
+      "Boss": "Boss",
+      "BossPlural": "Bosse",
+      "MiniBoss": "Mini-Boss",
+      "MiniBossPlural": "Mini-Bosse",
+      "Event": "Event",
+      "EventPlural": "Events",
+      "Enabled": "aktiviert",
+      "Disabled": "deaktiviert"
+    },
+    "Tabs": {
+      "ToggleFilters": "Filter anzeigen/verbergen",
+      "TableOfContents": "Inhaltsübersicht",
+      "Credits": "Credits",
+      "NextEntry": "Nächster {0}:\n{1}",
+      "Records": "Rekorde",
+      "SpawnInfo": "Spawn-Infos",
+      "LootAndCollectibles": "Beute & Sammelobjekte"
+    },
+    "Indicator": {
+      "ProgressionMode": "Fortschrittsmodus ist {0}",
+      "ManualChecklist": "Einträge müssen manuell vom Benutzer abgehakt werden",
+      "AutomaticChecklist": "Die Checkliste hakt Einträge automatisch ab",
+      "OnlyBossContentEnabled": "Nur der Inhalt vom Boss wird angezeigt",
+      "OnlyBossContentDisabled": "Alle Inhalte werden angezeigt"
+    },
+    "TableOfContents": {
+      "PreHardmode": "Vor Hardmode",
+      "Hardmode": "Hardmode",
+      "AllLoot": "Jede Bossbeute erhalten!",
+      "AllCollectibles": "Alle Boss-Sammelobjekte erhalten!",
+      "Filter": {
+        "ToggleHiddenOpen": "Versteckte Liste öffnen",
+        "ToggleHiddenClose": "Bestätigen & versteckte Liste schließen",
+        "Disabled": "Filter deaktiviert wegen 'Nur der Inhalt vom Boss' Konfig"
+      }
+    },
+    "Credits": {
+      "Devs": "Mitwirkende",
+      "Mods": "Registrierte Mods",
+      "Notice": "[Liste enthält nur geladene Mods]",
+      "NoIcon": "Mod-Icon nicht gefunden!",
+      "ModsEmpty": "Keiner deiner geladenen Mods ist registriert!",
+      "Register": "Registriere deine eigene Mod!",
+      "Learn": "Lies die Mod-Beschreibung, um zu erfahren, wie es geht.",
+      "Titles": {
+        "Owner": "Ersteller & Besitzer",
+        "CoOwner": "Mitbesitzer & Betreuer",
+        "Contributor": "Code-Mitwirkender",
+        "Sprites": "Boss-Log-Sprites",
+        "EarlyTesting": "Frühe Tests"
+      }
+    },
+    "EntryPage": {
+      "Defeated": "Besiegt in {0}{1}",
+      "Undefeated": "Unbesiegt in {0}",
+      "CopyKey": "Tippe, um den internen 'Eintragsschlüssel' im Chat anzuzeigen\n{0}",
+      "ViewPage": "Tippe, um die Seite anzuzeigen",
+      "LogFeaturesNotAvailable": "Rekorde, Spawngegenstände und die Beutetabelle sind für diese Seite deaktiviert. Die Mod hat entweder nicht genug Informationen für eine Seite eingereicht oder sie nicht richtig eingerichtet."
+    },
+    "Records": {
+      "NewRecord": "Neue persönliche Bestleistung!",
+      "NewWorldRecord": "Neuer Weltrekord!",
+      "NoRecord": "Kein Rekord",
+      "Unchallenged": "Nicht herausgefordert",
+      "KDR": "{0} Kills / {1} Tode",
+      "TotalKills": "Kills insgesamt",
+      "NoHit": "Kein einziger Treffer!",
+      "Hit": "{0} {^0:Treffer;Treffer}",
+      "PreviousBest": "Dein bisheriger bester Versuch",
+      "ClaimRecord": "Sei der Erste, der den Weltrekord aufstellt!",
+      "RecordHolder": "Rekordhalter",
+      "Category": {
+        "PreviousAttempt": "Vorheriger Versuch",
+        "FirstVictory": "Erster Sieg",
+        "PersonalBest": "Persönliche Bestzeit",
+        "WorldRecord": "Weltrekorde"
+      },
+      "Title": {
+        "PreviousAttempt": "Versuch",
+        "FirstVictory": "Spielzeit",
+        "PersonalBest": "Kill-Tod-Verhältnis",
+        "WorldRecord": "Globale KDR",
+        "Duration": "Kampfdauer",
+        "DurationWorld": "Schnellster Kampf",
+        "HitsTaken": "Eingesteckte Treffer",
+        "HitsTakenWorld": "Wenigste eingesteckte Treffer"
+      },
+      "Tooltip": {
+        "Duration": "Die schnellste Zeit, in der dieser Boss besiegt wurde!",
+        "HitsTaken": "Weiche so vielen Angriffen aus, wie du kannst! Versuche, diesen Boss unberührt zu besiegen!",
+        "PreviousAttempt": "Gesamtzahl der Begegnungen mit diesem Boss!",
+        "PersonalBest": "Wie oft du diesen Boss getötet hast und wie oft dieser Boss dich getötet hat!",
+        "FirstVictory": "Gesamte Spielzeit, in der dein Charakter aktiv war, bis zum ersten Boss-Kill!",
+        "WorldRecord": "Globale Kills und Todesfälle von allen Spielern für diesen Boss!"
+      },
+      "Time": {
+        "Days": "{0} T",
+        "Hours": "{0} Std.",
+        "Minutes": "{0} Min.",
+        "Seconds": "{0} Sek."
+      }
+    },
+    "SpawnInfo": {
+      "RecipeFrom": "Rezept von: {0}",
+      "CycleRecipe": "Alternative Rezepte durchgehen",
+      "Noncraftable": "Dieser Gegenstand kann nicht hergestellt werden",
+      "NoSpawnItem": "Dieser {0} hat keinen Beschwörungsgegenstand",
+      "ByHand": "Von Hand"
+    },
+    "LootAndCollection": {
+      "ItemIsExpertOnly": "Dieser Gegenstand ist nur im Expertenmodus erhältlich",
+      "ItemIsMasterOnly": "Dieser Gegenstand ist nur im Meistermodus erhältlich",
+      "ItemIsLocked": "Für das Freischalten dieses Gegenstands gelten besondere Anforderungen",
+      "Obtained": "Dieser Gegenstand wurde erhalten!",
+      "Researched": "Dieser Gegenstand wurde erforscht!"
+    },
+    "ProgressionMode": {
+      "BeforeYouBegin": "Bevor du anfängst...",
+      "AskEnable": "Willst du den Fortschrittsmodus aktivieren?",
+      "SelectAnOption": "Bitte wähle unten eine Option aus...",
+      "SelectDisable": "Fortfahren mit deaktivierter Fortschrittscheckliste...\n* Alle Seiteninhalte sind von Anfang an freigeschaltet\n* Nichts versteckt. Keine Einschränkungen.",
+      "SelectEnable": "Fortfahren mit vollständig aktivierter Fortschrittscheckliste...\n* Seiteninhalte sind für unbesiegte Einträge gesperrt\n* Portraits und Namen sind verborgen\n* Boss-Beute bleibt gesperrt, bis der Eintrag besiegt wurde\n* Nächste Überprüfung aktiviert, wodurch Informationsbeschränkungen reduziert werden (empfohlen)",
+      "DisablePrompt": "Diese Aufforderung nicht mehr anzeigen",
+      "Description": "Die Fortschrittscheckliste beschränkt und verbirgt Eintragsinhalt, bis der Eintrag besiegt oder als abgeschlossen markiert wurde. Wenn du einen blinden Durchlauf machen möchtest, solltest du in Betracht ziehen, diese Funktion zu aktivieren. Das Boss Log ist deaktiviert, bis du eine Auswahl triffst oder es mit deaktivierter Aufforderungskonfiguration wieder öffnest."
+    },
+    "HintTexts": {
+      "MarkEntry": "Halte einen Eintrag gedrückt, um ihn als besiegt zu markieren",
+      "HideEntry": "Tippe auf einen Eintrag, um ihn in der Checkliste zu verbergen",
+      "ClearMarked": "Halte diese Schaltfläche gedrückt, um alle markierten Einträge zurückzusetzen",
+      "ClearHidden": "Halte diese Schaltfläche gedrückt, um alle verborgenen Einträge zurückzusetzen",
+      "ClearItems": "Halte diese Schaltfläche gedrückt, um die aufgelisteten Gegenstände als nicht erhalten zu markieren",
+      "RemoveItem": "Halte einen Gegenstand gedrückt, um ihn als nicht erhalten zu markieren",
+      "ClearAllRecords": "Halte diese Schaltfläche gedrückt, um die aufgelisteten Rekordwerte zurückzusetzen",
+      "ClearRecord": "Halte das Symbol eines Rekords gedrückt, um seinen Wert zurückzusetzen",
+      "Compare": "Halte eine Rekordkategorie gedrückt, um sie zu vergleichen"
+    }
+  },
+  "Checklist": {
+    "CelestialPillars": "Himmelssäulen",
+    "ToggleCompletedTooltip": "Abgeschlossene anzeigen/verbergen",
+    "ToggleMiniBossesTooltip": "Mini-Bosse anzeigen/verbergen",
+    "ToggleEventsTooltip": "Events anzeigen/verbergen",
+    "ToggleShowHiddenBossesTooltip": "Versteckte Bosse anzeigen/verbergen\n(Gedrückt halten, um versteckte Bosse zurückzusetzen)\n(Einen Boss gedrückt halten, um ihn zu verstecken)",
+    "MoreInfo": "Mehr Infos"
+  },
+  "ChatMessages": {
+    "Despawn": {
+      "Generic": "{0} ist nicht mehr hinter dir her...",
+      "Day": "{0} flieht, während die Sonne aufgeht..."
+    },
+    "Defeated": {
+      "Generic": "{0} ist besiegt!",
+      "GenericSkeletronHand": "Skeletrons Hand ist besiegt!",
+      "GenericMoonLordHead": "Der Kopf des Mondherrn ist besiegt!",
+      "SkeletronHand": "Eine Hand von {0} ist zerbrochen!",
+      "PrimeCannon": "Die {0} ist explodiert!",
+      "PrimeSaw": "Die {0} hat eine Fehlfunktion!",
+      "PrimeVice": "Die {0} ist zusammengebrochen!",
+      "PrimeLaser": "Die {0} hat überhitzt!",
+      "GolemFistLeft": "{0} ist zerstört!",
+      "GolemFistRight": "{0} ist zerstört!",
+      "GolemHead": "{0} hat sich vom Körper gelöst!",
+      "MoonLordHead": "Ein Wahres Auge von Cthulhu verlässt den Kopf des {0}!",
+      "MoonLordHand": "Ein Wahres Auge von Cthulhu verlässt die {0}!",
+      "Retinazer": "{0} ist besiegt!",
+      "Spazmatism": "{0} ist besiegt!",
+      "LunarTowerVortex": "Der {0} ist gefallen!",
+      "LunarTowerStardust": "Der {0} ist gefallen!",
+      "LunarTowerNebula": "Der {0} ist gefallen!",
+      "LunarTowerSolar": "Der {0} ist gefallen!"
+    },
+    "Loss": {
+      "Generic": "{0} hat alle Spieler getötet!",
+      "KingSlime": "{0} verlässt triumphierend...",
+      "EyeofCthulhu": "{0} ist in den nächtlichen Himmel verschwunden...",
+      "EaterofWorlds": "{0} gräbt sich wieder unter die Erde...",
+      "BrainofCthulhu": "{0} verschwindet in den Abgründen des Purpurnen...",
+      "QueenBee": "{0} kehrt zum Nest ihrer Kolonie zurück...",
+      "Skeletron": "{0} foltert den Greis weiterhin...",
+      "WallofFlesh": "{0} ist es gelungen, die Unterwelt zu überqueren...",
+      "QueenSlimeBoss": "{0} hüpft prahlerisch davon...",
+      "TheTwins": "{0} setzt seine Beobachtungen fort...",
+      "TheDestroyer": "{0} sucht nach einer anderen Welt, die er verschlingen kann...",
+      "SkeletronPrime": "{0} beginnt nach einem neuen Opfer zu suchen...",
+      "Plantera": "{0} ruht weiterhin im Dschungel...",
+      "Golem": "{0} deaktiviert sich in den Tiefen des Tempels...",
+      "HallowBoss": "{0} löst sich im heiligen Licht auf...",
+      "DukeFishron": "{0} kehrt in die Tiefen des Ozeans zurück...",
+      "CultistBoss": "{0} kehrt zu seiner hingebungsvollen Anbetung zurück...",
+      "MoonLord": "{0} hat diese Welt verlassen..."
+    },
+    "EventEnd": {
+      "Generic": "{0} ist vorbei...",
+      "BloodMoon": "Der Blutmond sinkt unter den Horizont...",
+      "FrostMoon": "Der Frostmond schmilzt, wenn die Sonne aufgeht...",
+      "PumpkinMoon": "Der Kürbismond beendet seine Ernte...",
+      "Eclipse": "Die Sonnenfinsternis ist vorbei... bis zum nächsten Mal..."
+    }
+  },
+  "BossSpawnInfo": {
+    "Unknown": "Spawn-Bedingungen unbekannt",
+    "KingSlime": "Verwende [i:560], zufällig in den äußeren Dritteln der Welt, oder töte 150 Schleime während eines Schleimregens.",
+    "EyeofCthulhu": "Verwende [i:43] nachts oder mit einer 1/3-Chance jede Nacht, wenn ein Spieler über 200 HP hat.",
+    "EaterofWorlds": "Verwende [i:70] oder zerstöre 3 Schattenkugeln in einem Verderben-Abgrund.",
+    "BrainofCthulhu": "Verwende [i:1331] oder zerstöre 3 Purpurherzen in einem Purpur-Abgrund.",
+    "QueenBee": "Verwende [i:1133] oder zerstöre die Larve eines Bienenstocks im Dschungel.",
+    "Skeletron": "Besuche das Verlies und sprich nachts mit dem Greis oder töte den Schneider mit [i:1307] nachts.",
+    "Deerclops": "Verwende [i:5120] in einem Schneebiom. Erscheint natürlich um Mitternacht während eines Schneesturms.",
+    "WallofFlesh": "Erscheint, indem [i:267] oder der Fremdenführer in die Lava in der Hölle geworfen wird. [c/FF0000:Startet Hardmode!]",
+    "QueenSlimeBoss": "Verwende [i:4988] im Heiligen-Biom, das im Untergrund-Heiligen unter Kristallscherben auf Perlenstein- und Pink-Eis-Blöcken zu finden ist.",
+    "TheTwins": "10% Chance, jede Nacht zufällig zu erscheinen, nachdem der erste Altar zerstört wurde, bis ein Mech-Boss besiegt ist. Alternativ, verwende ein [i:544] nachts, um sie zu beschwören.",
+    "TheDestroyer": "10% Chance, jede Nacht zufällig zu erscheinen, nachdem der erste Altar zerstört wurde, bis ein Mech-Boss besiegt ist. Verwende [i:556] nachts, um ihn zu beschwören.",
+    "SkeletronPrime": "10% Chance, jede Nacht zufällig zu erscheinen, nachdem der erste Altar zerstört wurde, bis ein Mech-Boss besiegt ist. Verwende [i:557] nachts, um ihn zu beschwören.",
+    "Plantera": "Zerstöre eine Planteras Knospe im Dschungel, nachdem 3 Mechanische Bosse besiegt wurden.",
+    "Golem": "Verwende [i:1293] auf dem Lihzahrd-Altar, der tief im Dschungeltempel zu finden ist.",
+    "HallowBoss": "Töte [i:4961] im Heiligen, das zwischen 19:30 und 0:00 Uhr auf der Heiligen-Oberfläche zu finden ist, nachdem Plantera besiegt wurde.",
+    "DD2Betsy": "Erscheint in Welle 7, der letzten Welle, der Armee des Alten (Stufe 3).",
+    "DukeFishron": "Angle im Ozean mit einem [i:2673] als Köder, den man im Hardmode in einem unterirdischen Leuchtpilz-Biom fangen kann.",
+    "CultistBoss": "Töte die 4 Kultisten vor dem Verlies nach dem Besiegen von Golem.",
+    "MoonLord": "Verwende [i:3601] oder besiege alle 4 Säulen.",
+    "BloodMoon": "Tritt zufällig zu Beginn der Nacht auf oder kann mit einer [i:4271] beschworen werden, die von jedem Blutmond-Gegner fallen gelassen werden kann. Kann beginnen, wenn ein Spieler in der Welt mehr als 100 Lebenspunkte hat und die aktuelle Mondphase NICHT Neumond ist. Dauert bis zum Sonnenaufgang.",
+    "GoblinArmy": "Hat eine 1 von 3 Chance, jeden Morgen zu erfolgen, wenn mindestens eine Schattenkugel/Purpurherz zerstört wurde, mindestens ein Spieler 200 oder mehr Gesundheit hat und keine Goblin-Armee läuft. Kann auch manuell mit einem [i:361] beschworen werden. Dauert, bis genug Feinde besiegt sind.",
+    "OldOnesArmy": "Nachdem der Tavernenwirt gefunden wurde, kaufe und aktiviere [i:3816] mit [i:3828]. Dauert, bis alle Wellen beseitigt sind.",
+    "FrostLegion": "Verwende eine [i:602], die man während der Weihnachtszeit in [i:1869] finden kann. Dauert, bis genug Feinde besiegt sind.",
+    "Eclipse": "Hat eine 1/20 Chance, jeden Tag beim Morgengrauen aufzutreten, sobald ein Mechanischer Boss besiegt wurde. Alternativ beschwören mit einer [i:2767]. Dauert bis zur Abenddämmerung.",
+    "PirateInvasion": "Tritt zufällig auf, sobald mindestens ein Altar zerstört wurde. Kann mit einer [i:1315] beschworen werden, die man im Hardmode von jedem Feind im Ozean-Biom erhalten kann. Dauert, bis genug Feinde besiegt sind.",
+    "PumpkinMoon": "Wird nachts mit einer [i:1844] beschworen. Dauert bis zum Sonnenaufgang.",
+    "FrostMoon": "Wird nachts mit einer [i:1958] beschworen. Dauert bis zum Sonnenaufgang.",
+    "MartianMadness": "Finde nach dem Besiegen von Golem eine Marssonde an der Oberfläche, lass dich von ihr entdecken und lass sie entkommen. Dauert, bis genug Feinde besiegt sind.",
+    "LunarEvent": "Besiege den Irren Kultisten vor dem Verlies. Jede Säule erscheint in ihrem eigenen Bereich der Welt. Dauert, bis alle 4 Säulen zerstört sind.",
+    "Pumpking": "Erscheint während Welle 7 des Kürbismonds. Starte den Kürbismond mit [i:1844].",
+    "MourningWood": "Erscheint während Welle 4 des Kürbismonds. Starte den Kürbismond mit [i:1844].",
+    "IceQueen": "Erscheint während Welle 11 des Frostmonds. Starte den Frostmond mit [i:1958].",
+    "SantaNK1": "Erscheint während Welle 7 des Frostmonds. Starte den Frostmond mit [i:1958].",
+    "Everscream": "Erscheint während Welle 4 des Frostmonds. Starte den Frostmond mit [i:1958].",
+    "PirateShip": "Erscheint gelegentlich während einer Pirateninvasion! Starte die Pirateninvasion mit einer [i:1315].",
+    "DD2OgreT3": "Erscheint in Welle 7 (Stufe 2) und den Wellen 4 & 6 (Stufe 3) während des Events Armee des Alten! Starte die Armee des Alten mit [i:3816] und [i:3828].",
+    "DD2DarkMageT3": "Erscheint in Welle 5 (Stufe 1) und den Wellen 5 & 6 (Stufe 3) während des Events Armee des Alten! Starte die Armee des Alten mit [i:3816] und [i:3828].",
+    "MartianSaucer": "Erscheint gelegentlich während des Marsianer-Wahnsinns! Starte den Marsianer-Wahnsinn, indem du von einer Marssonde entdeckt wirst.",
+    "TorchGod": "Platziere 101 Fackeln im Untergrund. Das Event beginnt, sobald die letzte Fackel platziert ist."
+  },
+  "Configs": {
+    "Common": {
+      "InvalidChange": "Du kannst die Einstellung '{0}' nicht ändern, während {1} aktiv ist!"
+    },
+    "BossLogConfiguration": {
+      "DisplayName": "Boss Log",
+      "BossLogColor": {
+        "Label": "Log-Farbe"
+      },
+      "ShowInteractionTooltips": {
+        "Label": "Bedienhinweise"
+      },
+      "BookScale": {
+        "Label": "Buchgröße"
+      },
+      "ChecklistScale": {
+        "Label": "Listengröße"
+      },
+      "AutomaticChecklist": {
+        "Label": "Auto-Checkliste"
+      },
+      "ProgressiveChecklist": {
+        "Label": "Progressiv"
+      },
+      "PromptDisabled": {
+        "Label": "Abfrage ausblenden"
+      },
+      "HideUnavailable": {
+        "Label": "Unverfügbare ausblenden"
+      },
+      "HideUnsupported": {
+        "Label": "Nicht Unterstützte ausblenden"
+      },
+      "OnlyShowBossContent": {
+        "Label": "Nur Bosse"
+      },
+      "FilterBosses": {
+        "Label": "Bosse"
+      },
+      "FilterMiniBosses": {
+        "Label": "Mini-Bosse"
+      },
+      "FilterEvents": {
+        "Label": "Events"
+      },
+      "ColoredBossText": {
+        "Label": "Farbige Namen"
+      },
+      "SelectedCheckmarkType": {
+        "Label": "Häkchen-Stil"
+      },
+      "DrawNextMark": {
+        "Label": "Nächstes markieren"
+      },
+      "ShowProgressBars": {
+        "Label": "Fortschrittsbalken"
+      },
+      "SpawnItemCraftingChecklist": {
+        "Label": "Rezept-Häkchen"
+      },
+      "LootCheckVisibility": {
+        "Label": "Beute-Häkchen"
+      },
+      "OnlyCheckDroppedLoot": {
+        "Label": "Nur gedroppte Beute"
+      },
+      "ModCallLogVerbose": {
+        "Label": "Ausführliches Log"
+      },
+      "AccessInternalNames": {
+        "Label": "Eintragsschlüssel"
+      },
+      "ShowProgressionValue": {
+        "Label": "Fortschrittswerte"
+      },
+      "ShowCollectionType": {
+        "Label": "Sammelobjekt-Typen"
+      },
+      "EnabledResetOptions": {
+        "Label": "Reset-Optionen"
+      },
+      "Headers": {
+        "BossLogUI": "Boss-Log-UI",
+        "BossLogChecklist": "Checkliste",
+        "Debug": "Debug"
+      }
+    },
+    "FeatureConfiguration": {
+      "DisplayName": "Boss-Checklist-Funktionen",
+      "RecordTrackingEnabled": {
+        "Label": "Rekord-Tracking"
+      },
+      "AllowNewRecords": {
+        "Label": "Neue Rekorde"
+      },
+      "NewRecordLogGlow": {
+        "Label": "Rekord-Leuchten"
+      },
+      "DisplayRecordTracking": {
+        "Label": "Tracker-Overlay"
+      },
+      "DespawnMessageType": {
+        "Label": "Despawn-Nachrichten"
+      },
+      "LimbMessages": {
+        "Label": "Körperteil-Nachrichten"
+      },
+      "MoonMessages": {
+        "Label": "Mond-Nachrichten"
+      },
+      "TimerSounds": {
+        "Label": "Respawn-Sounds"
+      },
+      "TreasureBagsOnMap": {
+        "Label": "Schatzbeutel"
+      },
+      "FragmentsOnMap": {
+        "Label": "Fragmente"
+      },
+      "ScalesOnMap": {
+        "Label": "Schuppen & Proben"
+      },
+      "EnableBossRadar": {
+        "Label": "Radar"
+      },
+      "RadarMiniBosses": {
+        "Label": "Mini-Bosse"
+      },
+      "RadarOpacity": {
+        "Label": "Deckkraft"
+      },
+      "Headers": {
+        "BossRecords": "Boss-Rekorde",
+        "ChatMessages": "Chat-Nachrichten",
+        "ItemMapDetection": "Karten-Gegenstände",
+        "BossRadar": "Boss-Radar"
+      }
+    },
+    "BossFilterMode": {
+      "Show": {
+        "Label": "Anzeigen"
+      },
+      "HideWhenCompleted": {
+        "Label": "Erledigte ausblenden"
+      }
+    },
+    "EntryFilterMode": {
+      "Show": {
+        "Label": "Anzeigen"
+      },
+      "HideWhenCompleted": {
+        "Label": "Erledigte ausblenden"
+      },
+      "Hide": {
+        "Label": "Ausblenden"
+      }
+    },
+    "CheckmarkType": {
+      "Check_Empty": {
+        "Label": "Haken / Kästchen"
+      },
+      "Check_X": {
+        "Label": "Haken / X"
+      },
+      "X_Empty": {
+        "Label": "X / Kästchen"
+      },
+      "StrikeThrough": {
+        "Label": "Durchgestrichen"
+      }
+    },
+    "MessageMode": {
+      "Disabled": {
+        "Label": "Aus"
+      },
+      "Generic": {
+        "Label": "Allgemein"
+      },
+      "Unique": {
+        "Label": "Einzigartig"
+      }
+    }
+  },
+  "TouchButtons": {
+    "BossLog": {
+      "DisplayName": "Boss Log"
+    },
+    "BossChecklist": {
+      "DisplayName": "Boss-Checkliste"
+    }
+  }
+}

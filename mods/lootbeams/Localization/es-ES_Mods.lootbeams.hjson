@@ -1,0 +1,112 @@
+{
+  "Messages": {
+    "HoldItem": "Sostén un objeto para usar este comando.",
+    "Always": "{0} ahora siempre tiene rayo.",
+    "Never": "{0} ahora nunca tiene rayo.",
+    "MiniOn": "{0} ahora tiene un rayo pequeño.",
+    "MiniOff": "{0} volvió al rayo normal.",
+    "BadColor": "Color no válido. Usa /beams color #RRGGBB (p. ej. #FF8800).",
+    "Colored": "Color del rayo de {0}: {1}.",
+    "Reset": "{0} se quitó de tus listas.",
+    "NotListed": "{0} no está en tus listas.",
+    "List": "Siempre: {0} | Nunca: {1} | Pequeño: {2} | Colores: {3}",
+    "Cleared": "Tus listas se borraron.",
+    "Enabled": "Rayos activados.",
+    "Disabled": "Rayos desactivados."
+  },
+  "Configs": {
+    "LootBeamConfig": {
+      "DisplayName": "Loot Beams",
+      "Enabled": {
+        "Label": "Activado"
+      },
+      "MinRarity": {
+        "Label": "Rareza Mín."
+      },
+      "MinValue": {
+        "Label": "Valor Mín."
+      },
+      "HighlightQuest": {
+        "Label": "Objetos de Misión"
+      },
+      "HighlightExpert": {
+        "Label": "Objetos Experto"
+      },
+      "HighlightMaster": {
+        "Label": "Objetos Maestro"
+      },
+      "UseDefaultLists": {
+        "Label": "Listas Predeterminadas"
+      },
+      "BeamStyle": {
+        "Label": "Estilo del Rayo"
+      },
+      "GlowStyle": {
+        "Label": "Estilo del Brillo"
+      },
+      "BeamScale": {
+        "Label": "Tamaño del Rayo"
+      },
+      "BeamOpacity": {
+        "Label": "Opacidad del Rayo"
+      },
+      "GlowScale": {
+        "Label": "Tamaño del Brillo"
+      },
+      "GlowOpacity": {
+        "Label": "Opacidad del Brillo"
+      },
+      "FlashScale": {
+        "Label": "Destello al Caer"
+      },
+      "DrawAdditive": {
+        "Label": "Más Intenso"
+      },
+      "Pulse": {
+        "Label": "Pulsar"
+      },
+      "EmitLight": {
+        "Label": "Luz"
+      },
+      "FadeOnPickup": {
+        "Label": "Desvanecer al Recoger"
+      },
+      "Headers": {
+        "Filters": "Qué Objetos",
+        "Visuals": "Apariencia",
+        "Extras": "Extras"
+      }
+    },
+    "BeamStyleMode": {
+      "Off": {
+        "Label": "Ninguno"
+      },
+      "Simple": {
+        "Label": "Simple"
+      },
+      "Arrow": {
+        "Label": "Flecha"
+      },
+      "AnimatedArrow": {
+        "Label": "Flecha Animada"
+      }
+    },
+    "GlowStyleMode": {
+      "Off": {
+        "Label": "Ninguno"
+      },
+      "Simple": {
+        "Label": "Suave"
+      },
+      "Pixel": {
+        "Label": "Pixelado"
+      }
+    }
+  },
+  "Commands": {
+    "BeamsCommand": {
+      "Usage": "/beams <always|never|mini|color #RRGGBB|reset|list|clear|on|off>",
+      "Description": "Cambia el rayo del objeto que sostienes."
+    }
+  }
+}

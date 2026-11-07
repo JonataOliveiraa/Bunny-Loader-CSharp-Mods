@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Flechas ficam presas"
+      },
+      "EnableHeadBanging": {
+        "Label": "Cabeças no ritmo (música)"
+      },
+      "CorpseDuration": {
+        "Label": "Duração dos corpos"
+      },
+      "DismembermentChance": {
+        "Label": "Chance de desmembrar"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Física antiga (mais giro)"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Corpos se empilham"
+      },
+      "MaxCorpses": {
+        "Label": "Máximo de corpos"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Quantidade de sangue"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Pedaços de carne"
+      },
+      "BloodScale": {
+        "Label": "Tamanho do sangue"
+      },
+      "BloodVelocity": {
+        "Label": "Velocidade do sangue"
+      },
+      "EnableStickyBlood": {
+        "Label": "Sangue gruda no chão"
+      },
+      "StickyBloodDuration": {
+        "Label": "Sangue no chão"
+      },
+      "BleedDuration": {
+        "Label": "Sangramento do pescoço"
+      },
+      "Gravity": {
+        "Label": "Gravidade"
+      },
+      "Bounciness": {
+        "Label": "Quique"
+      },
+      "Friction": {
+        "Label": "Atrito"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Força do impacto"
+      },
+      "HeadBobIntensity": {
+        "Label": "Balanço da cabeça"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Cabeça reage ao golpe"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Inverter a reação"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Firmeza do pescoço"
+      },
+      "HeadSpringDamping": {
+        "Label": "Amortecimento do pescoço"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Balanço"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Firmeza do slime"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Amortecimento do slime"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Altura dos moradores"
+      },
+      "Headers": {
+        "QualityOfLife": "Qualidade de vida",
+        "GeneralSettings": "Geral",
+        "BloodSettings": "Sangue",
+        "PhysicsSettings": "Física",
+        "HeadPhysics": "Cabeças humanoides",
+        "SlimePhysics": "Slimes gelatinosos",
+        "VisualAdjustments": "Ajustes visuais"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Corpo"
+    },
+    "StuckArrow": {
+      "DisplayName": "Flecha Presa"
+    }
+  }
+}

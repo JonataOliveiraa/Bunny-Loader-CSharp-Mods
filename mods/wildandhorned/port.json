@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "wildandhorned",
+    "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
+    "version": "1.5.2",
+    "sha256": "740b9fd54fef87ca5f583aeed6a0639d861442d5798dc919629a753681bbb065"
+  },
+  "license": "GPL-3.0",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same pets, numbers, dialogue, recipes and Mod.Call commands. Differences: the config screen has no slider suffix, so the two interval and duration labels now carry the unit; a chat line is wrapped once and kept until the next line, so changing the language mid-line changes it only on the next line. Touhou Little Friend's shop integration stays optional and by name, and has no effect while no mod provides touhoupets/YukariPortal."
+}

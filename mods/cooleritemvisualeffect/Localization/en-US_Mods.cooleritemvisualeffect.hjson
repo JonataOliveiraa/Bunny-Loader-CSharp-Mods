@@ -1,0 +1,164 @@
+{
+  "Configs": {
+    "CoolerItemConfig": {
+      "Enabled": {
+        "Label": "Enable mod"
+      },
+      "EnableTrail": {
+        "Label": "Sprite trail"
+      },
+      "EnableGlow": {
+        "Label": "Additive glow"
+      },
+      "EnableSparkle": {
+        "Label": "Tip sparkle"
+      },
+      "EnableHitDust": {
+        "Label": "Swing particles"
+      },
+      "Sequence": {
+        "Label": "Attack style"
+      },
+      "TrailLength": {
+        "Label": "Trail duration"
+      },
+      "TrailQuality": {
+        "Label": "Trail smoothness"
+      },
+      "TrailIntensity": {
+        "Label": "Trail intensity"
+      },
+      "AlphaFactor": {
+        "Label": "Alpha brightness"
+      },
+      "SpriteColor": {
+        "Label": "Sprite-sampled color"
+      },
+      "UseWeaponColor": {
+        "Label": "Weapon colors"
+      },
+      "TrailColor": {
+        "Label": "Manual color"
+      },
+      "WeaponExtraLight": {
+        "Label": "Extra glow"
+      },
+      "DustQuantity": {
+        "Label": "Particle amount"
+      },
+      "EnableShader": {
+        "Label": "Shader swoosh"
+      },
+      "ShaderStrength": {
+        "Label": "Shader intensity"
+      },
+      "ShaderDistortion": {
+        "Label": "Air distortion"
+      },
+      "Palette": {
+        "Label": "Heat map"
+      },
+      "EnableCustomAttackAnimation": {
+        "Label": "Custom animation"
+      },
+      "EnableMouseAim": {
+        "Label": "Aim at cursor"
+      },
+      "EnableArmAnimation": {
+        "Label": "Animate arm"
+      },
+      "SwooshReach": {
+        "Label": "Swing reach"
+      },
+      "SwooshFadeTime": {
+        "Label": "Fade duration"
+      },
+      "SwooshShiftY": {
+        "Label": "Vertical offset"
+      },
+      "SwooshHeightScale": {
+        "Label": "Arc height"
+      },
+      "ShaderChromatic": {
+        "Label": "Chromatic aberration"
+      },
+      "SwooshWidthScale": {
+        "Label": "Arc width"
+      },
+      "SwooshTailBackDegrees": {
+        "Label": "Start angle"
+      },
+      "EnableEffectHitbox": {
+        "Label": "Effect hitboxes"
+      },
+      "ReplaceVanillaHit": {
+        "Label": "Disable vanilla hit"
+      },
+      "HitboxDamageScale": {
+        "Label": "Damage scale"
+      },
+      "ShowHitbox": {
+        "Label": "Show hitboxes"
+      },
+      "Headers": {
+        "SectionGeneral": "General",
+        "SectionHitbox": "Effect Damage",
+        "SectionSequence": "Animation & Trail",
+        "SectionColor": "Colors",
+        "SectionDetail": "Fine Tuning"
+      }
+    },
+    "AttackSequence": {
+      "PureSlash": {
+        "Label": "Pure Slash"
+      },
+      "HeavyChop": {
+        "Label": "Heavy Chop"
+      },
+      "StormySlash": {
+        "Label": "Stormy Slash"
+      },
+      "TripleSlash": {
+        "Label": "Triple Slash"
+      },
+      "PureStab": {
+        "Label": "Pure Stab"
+      },
+      "CIVESword": {
+        "Label": "CIVE Sword"
+      },
+      "ComplexExample": {
+        "Label": "Complex"
+      }
+    },
+    "SwooshPalette": {
+      "Auto": {
+        "Label": "Auto (rarity)"
+      },
+      "Fire": {
+        "Label": "Fire"
+      },
+      "Ice": {
+        "Label": "Ice"
+      },
+      "Holy": {
+        "Label": "Holy"
+      },
+      "Violet": {
+        "Label": "Violet"
+      },
+      "Nature": {
+        "Label": "Nature"
+      },
+      "Blood": {
+        "Label": "Blood"
+      },
+      "Silver": {
+        "Label": "Silver"
+      },
+      "Prismatic": {
+        "Label": "Rainbow"
+      }
+    }
+  }
+}

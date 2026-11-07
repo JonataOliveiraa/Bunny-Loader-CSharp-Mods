@@ -1,0 +1,438 @@
+{
+  "Log": {
+    "Common": {
+      "BossLog": "보스 일지",
+      "Entry": "항목",
+      "Boss": "보스",
+      "BossPlural": "보스",
+      "MiniBoss": "미니 보스",
+      "MiniBossPlural": "미니 보스",
+      "Event": "이벤트",
+      "EventPlural": "이벤트",
+      "Enabled": "활성화됨",
+      "Disabled": "비활성화됨"
+    },
+    "Tabs": {
+      "ToggleFilters": "필터 전환",
+      "TableOfContents": "목차",
+      "Credits": "제작진",
+      "NextEntry": "다음 {0}:\n{1}",
+      "Records": "기록",
+      "SpawnInfo": "소환 정보",
+      "LootAndCollectibles": "전리품 및 수집품"
+    },
+    "Indicator": {
+      "ProgressionMode": "진행 모드: {0}",
+      "ManualChecklist": "항목을 직접 체크해야 합니다",
+      "AutomaticChecklist": "체크리스트가 항목을 자동으로 체크합니다",
+      "OnlyBossContentEnabled": "보스 콘텐츠만 표시할 수 있습니다",
+      "OnlyBossContentDisabled": "모든 콘텐츠를 표시할 수 있습니다"
+    },
+    "TableOfContents": {
+      "PreHardmode": "하드모드 이전",
+      "Hardmode": "하드모드",
+      "AllLoot": "모든 보스 전리품을 획득했습니다!",
+      "AllCollectibles": "모든 보스 수집품을 획득했습니다!",
+      "Filter": {
+        "ToggleHiddenOpen": "숨김 목록 열기",
+        "ToggleHiddenClose": "확인 후 숨김 목록 닫기",
+        "Disabled": "'보스만' 설정으로 인해 필터가 비활성화되었습니다"
+      }
+    },
+    "Credits": {
+      "Devs": "기여자",
+      "Mods": "등록된 모드",
+      "Notice": "[불러온 모드만 표시됩니다]",
+      "NoIcon": "모드 아이콘을 찾을 수 없습니다!",
+      "ModsEmpty": "불러온 모드 중 등록된 모드가 없습니다!",
+      "Register": "직접 만든 모드를 등록해 보세요!",
+      "Learn": "방법은 모드 설명을 확인하세요.",
+      "Titles": {
+        "Owner": "제작자 및 소유자",
+        "CoOwner": "공동 소유자 및 관리자",
+        "Contributor": "코드 기여자",
+        "Sprites": "보스 일지 스프라이트",
+        "EarlyTesting": "초기 테스트"
+      }
+    },
+    "EntryPage": {
+      "Defeated": "{0}{1}에서 처치함",
+      "Undefeated": "{0}에서 아직 처치하지 못함",
+      "CopyKey": "탭하여 내부 '항목 키'를 채팅에 표시\n{0}",
+      "ViewPage": "탭하여 페이지 보기",
+      "LogFeaturesNotAvailable": "이 페이지에서는 기록, 소환 아이템, 전리품 표가 비활성화되어 있습니다. 모드가 페이지에 필요한 정보를 충분히 제공하지 않았거나 잘못 설정했습니다."
+    },
+    "Records": {
+      "NewRecord": "개인 최고 기록 경신!",
+      "NewWorldRecord": "월드 기록 경신!",
+      "NoRecord": "기록 없음",
+      "Unchallenged": "도전하지 않음",
+      "KDR": "{0}킬 / {1}데스",
+      "TotalKills": "총 처치 수",
+      "NoHit": "노히트!",
+      "Hit": "{0}회 피격{^0:;}",
+      "PreviousBest": "이전 최고 기록",
+      "ClaimRecord": "처음으로 월드 기록을 세워 보세요!",
+      "RecordHolder": "기록 보유자",
+      "Category": {
+        "PreviousAttempt": "이전 시도",
+        "FirstVictory": "첫 승리",
+        "PersonalBest": "개인 최고 기록",
+        "WorldRecord": "월드 기록"
+      },
+      "Title": {
+        "PreviousAttempt": "시도",
+        "FirstVictory": "플레이 시간",
+        "PersonalBest": "킬/데스 비율",
+        "WorldRecord": "전체 K/D",
+        "Duration": "전투 시간",
+        "DurationWorld": "최단 전투",
+        "HitsTaken": "피격 횟수",
+        "HitsTakenWorld": "최소 피격 횟수"
+      },
+      "Tooltip": {
+        "Duration": "이 보스를 처치한 가장 빠른 시간입니다!",
+        "HitsTaken": "최대한 많은 공격을 피하세요! 피격 없이 이 보스를 처치해 보세요!",
+        "PreviousAttempt": "이 보스와 조우한 총 횟수입니다!",
+        "PersonalBest": "이 보스를 처치한 총 횟수와 이 보스에게 죽은 총 횟수입니다!",
+        "FirstVictory": "첫 보스 처치까지 캐릭터가 플레이한 총 시간입니다!",
+        "WorldRecord": "이 보스에 대한 모든 플레이어의 처치 및 사망 합계입니다!"
+      },
+      "Time": {
+        "Days": "{0}일",
+        "Hours": "{0}시간",
+        "Minutes": "{0}분",
+        "Seconds": "{0}초"
+      }
+    },
+    "SpawnInfo": {
+      "RecipeFrom": "제작법 출처: {0}",
+      "CycleRecipe": "다른 제작법 보기",
+      "Noncraftable": "이 아이템은 제작할 수 없습니다",
+      "NoSpawnItem": "이 {0}은(는) 소환 아이템이 없습니다",
+      "ByHand": "맨손으로"
+    },
+    "LootAndCollection": {
+      "ItemIsExpertOnly": "이 아이템은 전문가 모드에서만 얻을 수 있습니다",
+      "ItemIsMasterOnly": "이 아이템은 마스터 모드에서만 얻을 수 있습니다",
+      "ItemIsLocked": "이 아이템은 잠금 해제에 특별한 조건이 필요합니다",
+      "Obtained": "이 아이템을 획득했습니다!",
+      "Researched": "이 아이템을 연구했습니다!"
+    },
+    "ProgressionMode": {
+      "BeforeYouBegin": "시작하기 전에...",
+      "AskEnable": "진행 체크리스트를 활성화하시겠습니까?",
+      "SelectAnOption": "아래에서 옵션을 선택하세요...",
+      "SelectDisable": "진행 체크리스트를 비활성화한 채로 계속...\n* 모든 페이지 정보가 처음부터 해제됩니다\n* 숨김 없음. 제한 없음.",
+      "SelectEnable": "진행 체크리스트를 완전히 활성화한 채로 계속...\n* 처치하지 않은 항목의 페이지 정보가 잠깁니다\n* 초상화와 이름이 가려집니다\n* 항목을 처치할 때까지 보스 전리품이 잠깁니다\n* '다음' 표시가 활성화되어 정보 제한이 완화됩니다 (권장)",
+      "DisablePrompt": "이 안내를 다시 표시하지 않기",
+      "Description": "진행 체크리스트는 항목을 처치하거나 완료로 표시할 때까지 해당 항목의 내용을 제한하고 숨깁니다. 사전 정보 없이 플레이하려면 이 기능을 활성화하는 것을 고려해 보세요. 옵션을 선택하거나 안내 설정을 비활성화한 상태로 다시 열기 전까지 보스 일지는 비활성화됩니다"
+    },
+    "HintTexts": {
+      "MarkEntry": "항목을 길게 눌러 처치한 것으로 표시",
+      "HideEntry": "항목을 탭하여 체크리스트에서 숨기기",
+      "ClearMarked": "이 버튼을 길게 눌러 표시한 항목을 모두 해제",
+      "ClearHidden": "이 버튼을 길게 눌러 숨긴 항목을 모두 해제",
+      "ClearItems": "이 버튼을 길게 눌러 목록의 아이템을 미획득으로 표시",
+      "RemoveItem": "아이템을 길게 눌러 미획득으로 표시",
+      "ClearAllRecords": "이 버튼을 길게 눌러 목록의 기록 값을 초기화",
+      "ClearRecord": "기록 아이콘을 길게 눌러 값을 초기화",
+      "Compare": "기록 카테고리를 길게 눌러 비교"
+    }
+  },
+  "Checklist": {
+    "CelestialPillars": "천상의 기둥",
+    "ToggleCompletedTooltip": "완료 항목 전환",
+    "ToggleMiniBossesTooltip": "미니 보스 전환",
+    "ToggleEventsTooltip": "이벤트 전환",
+    "ToggleShowHiddenBossesTooltip": "숨긴 보스 표시 전환\n(길게 눌러 숨긴 보스 초기화)\n(보스를 길게 눌러 숨기기)",
+    "MoreInfo": "자세히"
+  },
+  "ChatMessages": {
+    "Despawn": {
+      "Generic": "{0}이(가) 더 이상 당신을 쫓지 않습니다...",
+      "Day": "해가 뜨자 {0}이(가) 달아납니다..."
+    },
+    "Defeated": {
+      "Generic": "{0}이(가) 쓰러졌습니다!",
+      "GenericSkeletronHand": "스켈레트론의 손이 쓰러졌습니다!",
+      "GenericMoonLordHead": "문 로드의 머리가 쓰러졌습니다!",
+      "SkeletronHand": "{0}의 손이 부서졌습니다!",
+      "PrimeCannon": "{0}이(가) 폭발했습니다!",
+      "PrimeSaw": "{0}이(가) 고장 났습니다!",
+      "PrimeVice": "{0}이(가) 무너졌습니다!",
+      "PrimeLaser": "{0}이(가) 과열되었습니다!",
+      "GolemFistLeft": "{0}이(가) 파괴되었습니다!",
+      "GolemFistRight": "{0}이(가) 파괴되었습니다!",
+      "GolemHead": "{0}이(가) 몸에서 분리되었습니다!",
+      "MoonLordHead": "{0}의 머리에서 진정한 크툴루의 눈이 빠져나옵니다!",
+      "MoonLordHand": "{0}에서 진정한 크툴루의 눈이 빠져나옵니다!",
+      "Retinazer": "{0}을(를) 처치했습니다!",
+      "Spazmatism": "{0}을(를) 처치했습니다!",
+      "LunarTowerVortex": "{0}이(가) 무너졌습니다!",
+      "LunarTowerStardust": "{0}이(가) 무너졌습니다!",
+      "LunarTowerNebula": "{0}이(가) 무너졌습니다!",
+      "LunarTowerSolar": "{0}이(가) 무너졌습니다!"
+    },
+    "Loss": {
+      "Generic": "{0}이(가) 모든 플레이어를 죽였습니다!",
+      "KingSlime": "{0}이(가) 의기양양하게 떠납니다...",
+      "EyeofCthulhu": "{0}이(가) 밤하늘 속으로 사라졌습니다...",
+      "EaterofWorlds": "{0}이(가) 다시 땅속으로 파고듭니다...",
+      "BrainofCthulhu": "{0}이(가) 크림슨의 구덩이 속으로 사라집니다...",
+      "QueenBee": "{0}이(가) 군락의 둥지로 돌아갑니다...",
+      "Skeletron": "{0}이(가) 계속해서 노인을 괴롭힙니다...",
+      "WallofFlesh": "{0}이(가) 지하 세계를 건너는 데 성공했습니다...",
+      "QueenSlimeBoss": "{0}이(가) 거만하게 통통 튀며 떠납니다...",
+      "TheTwins": "{0}이(가) 관찰을 계속합니다...",
+      "TheDestroyer": "{0}이(가) 집어삼킬 다른 세계를 찾아 떠납니다...",
+      "SkeletronPrime": "{0}이(가) 새로운 희생자를 찾기 시작합니다...",
+      "Plantera": "{0}이(가) 정글 속에서 다시 휴식을 취합니다...",
+      "Golem": "{0}이(가) 사원 깊숙한 곳에서 작동을 멈춥니다...",
+      "HallowBoss": "{0}이(가) 신성한 빛 속으로 흩어집니다...",
+      "DukeFishron": "{0}이(가) 바다 깊은 곳으로 돌아갑니다...",
+      "CultistBoss": "{0}이(가) 헌신적인 숭배로 돌아갑니다...",
+      "MoonLord": "{0}이(가) 이 세계를 떠났습니다..."
+    },
+    "EventEnd": {
+      "Generic": "{0}이(가) 끝났습니다...",
+      "BloodMoon": "블러드 문이 지평선 너머로 저뭅니다...",
+      "FrostMoon": "해가 뜨자 서리 달이 녹아내립니다...",
+      "PumpkinMoon": "호박 달의 수확이 끝났습니다...",
+      "Eclipse": "일식이 끝났습니다... 다음 기회까지..."
+    }
+  },
+  "BossSpawnInfo": {
+    "Unknown": "소환 조건 알 수 없음",
+    "KingSlime": "[i:560]을(를) 사용하거나, 맵 바깥쪽 3분의 1 지역에서 무작위로 등장하거나, 슬라임 비가 내리는 동안 슬라임 150마리를 처치하세요.",
+    "EyeofCthulhu": "밤에 [i:43]을(를) 사용하세요. 최대 체력이 200을 넘으면 매일 밤 1/3 확률로 등장합니다.",
+    "EaterofWorlds": "[i:70]을(를) 사용하거나 타락 구덩이에 있는 그림자 구슬 3개를 부수세요.",
+    "BrainofCthulhu": "[i:1331]을(를) 사용하거나 크림슨 구덩이에 있는 크림슨 심장 3개를 부수세요.",
+    "QueenBee": "[i:1133]을(를) 사용하거나 정글의 벌집 속에 있는 애벌레를 부수세요.",
+    "Skeletron": "밤에 던전을 방문하여 노인에게 말을 걸거나, 밤에 [i:1307]을(를) 착용하고 재단사를 처치하세요.",
+    "Deerclops": "눈 바이옴에서 [i:5120]을(를) 사용하세요. 눈보라가 치는 동안 자정에 자연적으로 등장합니다.",
+    "WallofFlesh": "지하 세계에서 [i:267] 또는 가이드를 용암에 던져 소환하세요. [c/FF0000:하드모드가 시작됩니다!]",
+    "QueenSlimeBoss": "신성 바이옴에서 [i:4988]을(를) 사용하세요. 이 아이템은 지하 신성에서 진주석과 분홍 얼음 블록 위에 자라는 수정 조각 사이에서 찾을 수 있습니다.",
+    "TheTwins": "첫 제단을 파괴한 후, 기계 보스 하나를 처치할 때까지 매일 밤 10% 확률로 무작위 등장합니다. 또는 밤에 [i:544]을(를) 사용하여 소환하세요.",
+    "TheDestroyer": "첫 제단을 파괴한 후, 기계 보스 하나를 처치할 때까지 매일 밤 10% 확률로 무작위 등장합니다. 밤에 [i:556]을(를) 사용하여 소환하세요.",
+    "SkeletronPrime": "첫 제단을 파괴한 후, 기계 보스 하나를 처치할 때까지 매일 밤 10% 확률로 무작위 등장합니다. 밤에 [i:557]을(를) 사용하여 소환하세요.",
+    "Plantera": "기계 보스 3마리를 처치한 후 정글에 있는 플랜테라의 구근을 부수세요.",
+    "Golem": "정글 사원 깊은 곳에 있는 리자드 제단에서 [i:1293]을(를) 사용하세요.",
+    "HallowBoss": "신성 바이옴에서 [i:4961]을(를) 처치하세요. 플랜테라를 처치한 후 오후 7시 30분부터 자정 사이에 신성 지상에서 찾을 수 있습니다.",
+    "DD2Betsy": "고대 군대(3단계)의 마지막 웨이브인 7웨이브에 등장합니다.",
+    "DukeFishron": "[i:2673]을(를) 미끼로 바다에서 낚시하세요. 이 미끼는 하드모드 중 지하 빛나는 버섯 바이옴에서 잡을 수 있습니다.",
+    "CultistBoss": "골렘을 처치한 후 던전 밖에 있는 광신도 4명을 처치하세요.",
+    "MoonLord": "[i:3601]을(를) 사용하거나 기둥 4개를 모두 처치하세요.",
+    "BloodMoon": "밤이 시작될 때 무작위로 발생하거나, 블러드 문 적이 떨어뜨리는 [i:4271](으)로 소환할 수 있습니다. 월드의 플레이어 중 누군가의 최대 체력이 100을 넘고 현재 달의 위상이 신월이 아닐 때 시작될 수 있습니다. 해가 뜰 때까지 지속됩니다.",
+    "GoblinArmy": "그림자 구슬/크림슨 심장을 하나 이상 파괴했고, 최대 체력이 200 이상인 플레이어가 한 명 이상 있으며, 고블린 군대가 진행 중이 아니라면 매일 새벽 1/3 확률로 발생합니다. [i:361]을(를) 사용해 직접 소환할 수도 있습니다. 충분한 수의 적을 처치할 때까지 지속됩니다.",
+    "OldOnesArmy": "선술집 주인을 찾은 후, [i:3816]을(를) 구매하고 [i:3828](으)로 활성화하세요. 모든 웨이브를 클리어할 때까지 지속됩니다.",
+    "FrostLegion": "크리스마스 시즌에 [i:1869]을(를) 열면 얻을 수 있는 [i:602]을(를) 사용하세요. 충분한 수의 적을 처치할 때까지 지속됩니다.",
+    "Eclipse": "기계 보스를 하나라도 처치하면 매일 새벽 1/20 확률로 발생합니다. 또는 [i:2767](으)로 소환하세요. 해가 질 때까지 지속됩니다.",
+    "PirateInvasion": "제단을 하나 이상 파괴하면 무작위로 발생합니다. 하드모드 중 바다 바이옴의 적을 처치하면 얻을 수 있는 [i:1315](으)로 소환할 수 있습니다. 충분한 수의 적을 처치할 때까지 지속됩니다.",
+    "PumpkinMoon": "밤에 [i:1844](으)로 소환합니다. 해가 뜰 때까지 지속됩니다.",
+    "FrostMoon": "밤에 [i:1958](으)로 소환합니다. 해가 뜰 때까지 지속됩니다.",
+    "MartianMadness": "골렘을 처치한 후, 지상에서 화성 탐사선을 찾아 탐사선이 당신을 발견하고 도망치게 두세요. 충분한 수의 적을 처치할 때까지 지속됩니다.",
+    "LunarEvent": "던전 밖에 있는 광신도를 처치하세요. 각 기둥은 월드 내 각자의 구역에 생성됩니다. 기둥 4개가 모두 파괴될 때까지 지속됩니다.",
+    "Pumpking": "호박 달 7웨이브에 등장합니다. [i:1844](으)로 호박 달을 시작하세요",
+    "MourningWood": "호박 달 4웨이브에 등장합니다. [i:1844](으)로 호박 달을 시작하세요",
+    "IceQueen": "서리 달 11웨이브에 등장합니다. [i:1958](으)로 서리 달을 시작하세요",
+    "SantaNK1": "서리 달 7웨이브에 등장합니다. [i:1958](으)로 서리 달을 시작하세요",
+    "Everscream": "서리 달 4웨이브에 등장합니다. [i:1958](으)로 서리 달을 시작하세요",
+    "PirateShip": "해적 침공 중 가끔 등장합니다! [i:1315](으)로 해적 침공을 시작하세요",
+    "DD2OgreT3": "고대 군대 이벤트의 7웨이브(2단계)와 4, 6웨이브(3단계)에 등장합니다! [i:3816]와(과) [i:3828](으)로 고대 군대를 시작하세요",
+    "DD2DarkMageT3": "고대 군대 이벤트의 5웨이브(1단계)와 5, 6웨이브(3단계)에 등장합니다! [i:3816]와(과) [i:3828](으)로 고대 군대를 시작하세요",
+    "MartianSaucer": "화성인의 광란 중 가끔 등장합니다! 외계 탐사선에게 발견되면 화성인의 광란이 시작됩니다.",
+    "TorchGod": "지하에 횃불 101개를 설치하세요. 마지막 횃불을 설치하면 이벤트가 시작됩니다."
+  },
+  "Configs": {
+    "Common": {
+      "InvalidChange": "{1}이(가) 활성화된 동안에는 '{0}' 설정을 변경할 수 없습니다!"
+    },
+    "BossLogConfiguration": {
+      "DisplayName": "보스 일지",
+      "BossLogColor": {
+        "Label": "일지 색상"
+      },
+      "ShowInteractionTooltips": {
+        "Label": "조작 팁"
+      },
+      "BookScale": {
+        "Label": "책 크기"
+      },
+      "ChecklistScale": {
+        "Label": "목록 크기"
+      },
+      "AutomaticChecklist": {
+        "Label": "자동 체크"
+      },
+      "ProgressiveChecklist": {
+        "Label": "진행 모드"
+      },
+      "PromptDisabled": {
+        "Label": "안내 숨기기"
+      },
+      "HideUnavailable": {
+        "Label": "이용 불가 숨김"
+      },
+      "HideUnsupported": {
+        "Label": "미지원 숨김"
+      },
+      "OnlyShowBossContent": {
+        "Label": "보스만"
+      },
+      "FilterBosses": {
+        "Label": "보스"
+      },
+      "FilterMiniBosses": {
+        "Label": "미니 보스"
+      },
+      "FilterEvents": {
+        "Label": "이벤트"
+      },
+      "ColoredBossText": {
+        "Label": "이름 색상"
+      },
+      "SelectedCheckmarkType": {
+        "Label": "체크 스타일"
+      },
+      "DrawNextMark": {
+        "Label": "다음 표시"
+      },
+      "ShowProgressBars": {
+        "Label": "진행 막대"
+      },
+      "SpawnItemCraftingChecklist": {
+        "Label": "제작법 체크"
+      },
+      "LootCheckVisibility": {
+        "Label": "전리품 체크"
+      },
+      "OnlyCheckDroppedLoot": {
+        "Label": "드롭 전리품만"
+      },
+      "ModCallLogVerbose": {
+        "Label": "상세 로그"
+      },
+      "AccessInternalNames": {
+        "Label": "항목 키"
+      },
+      "ShowProgressionValue": {
+        "Label": "진행 값"
+      },
+      "ShowCollectionType": {
+        "Label": "수집품 유형"
+      },
+      "EnabledResetOptions": {
+        "Label": "초기화 옵션"
+      },
+      "Headers": {
+        "BossLogUI": "보스 일지 UI",
+        "BossLogChecklist": "체크리스트",
+        "Debug": "디버그"
+      }
+    },
+    "FeatureConfiguration": {
+      "DisplayName": "보스 체크리스트 기능",
+      "RecordTrackingEnabled": {
+        "Label": "기록 추적"
+      },
+      "AllowNewRecords": {
+        "Label": "새 기록"
+      },
+      "NewRecordLogGlow": {
+        "Label": "기록 강조"
+      },
+      "DisplayRecordTracking": {
+        "Label": "추적 오버레이"
+      },
+      "DespawnMessageType": {
+        "Label": "퇴장 메시지"
+      },
+      "LimbMessages": {
+        "Label": "부위 메시지"
+      },
+      "MoonMessages": {
+        "Label": "달 메시지"
+      },
+      "TimerSounds": {
+        "Label": "부활 소리"
+      },
+      "TreasureBagsOnMap": {
+        "Label": "보물 가방"
+      },
+      "FragmentsOnMap": {
+        "Label": "파편"
+      },
+      "ScalesOnMap": {
+        "Label": "비늘 및 샘플"
+      },
+      "EnableBossRadar": {
+        "Label": "레이더"
+      },
+      "RadarMiniBosses": {
+        "Label": "미니 보스"
+      },
+      "RadarOpacity": {
+        "Label": "불투명도"
+      },
+      "Headers": {
+        "BossRecords": "보스 기록",
+        "ChatMessages": "채팅 메시지",
+        "ItemMapDetection": "지도 아이템",
+        "BossRadar": "보스 레이더"
+      }
+    },
+    "BossFilterMode": {
+      "Show": {
+        "Label": "표시"
+      },
+      "HideWhenCompleted": {
+        "Label": "완료 시 숨김"
+      }
+    },
+    "EntryFilterMode": {
+      "Show": {
+        "Label": "표시"
+      },
+      "HideWhenCompleted": {
+        "Label": "완료 시 숨김"
+      },
+      "Hide": {
+        "Label": "숨김"
+      }
+    },
+    "CheckmarkType": {
+      "Check_Empty": {
+        "Label": "체크 / 빈칸"
+      },
+      "Check_X": {
+        "Label": "체크 / X"
+      },
+      "X_Empty": {
+        "Label": "X / 빈칸"
+      },
+      "StrikeThrough": {
+        "Label": "취소선"
+      }
+    },
+    "MessageMode": {
+      "Disabled": {
+        "Label": "끔"
+      },
+      "Generic": {
+        "Label": "일반"
+      },
+      "Unique": {
+        "Label": "고유"
+      }
+    }
+  },
+  "TouchButtons": {
+    "BossLog": {
+      "DisplayName": "보스 일지"
+    },
+    "BossChecklist": {
+      "DisplayName": "보스 체크리스트"
+    }
+  }
+}

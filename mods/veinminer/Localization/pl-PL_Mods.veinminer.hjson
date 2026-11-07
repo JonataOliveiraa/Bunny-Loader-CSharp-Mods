@@ -1,0 +1,44 @@
+{
+  "Messages": {
+    "HoldTile": "Trzymaj blok (przedmiot, który stawia blok), aby użyć tej komendy.",
+    "Added": "{0} dodano do listy Vein Minera.",
+    "AlreadyAdded": "{0} jest już na twojej liście.",
+    "AlreadyDefault": "{0} jest już wydobywany łańcuchowo (ruda lub lista domyślna).",
+    "Removed": "{0} usunięto z listy.",
+    "NotInList": "{0} nie ma na twojej liście.",
+    "List": "Twoja lista: {0}",
+    "ListEmpty": "Twoja lista jest pusta. Trzymaj blok i użyj /vein add.",
+    "Cleared": "Wyczyszczono dodane bloki ({0} bloków).",
+    "Enabled": "Vein Miner włączony.",
+    "Disabled": "Vein Miner wyłączony."
+  },
+  "Configs": {
+    "VeinMinerConfig": {
+      "DisplayName": "Vein Miner",
+      "Enabled": {
+        "Label": "Vein Miner"
+      },
+      "AllowOres": {
+        "Label": "Rudy"
+      },
+      "UseDefaultList": {
+        "Label": "Lista domyślna"
+      },
+      "UsePlayerList": {
+        "Label": "Dodane bloki"
+      },
+      "MaxTiles": {
+        "Label": "Maksymalna liczba bloków"
+      },
+      "Headers": {
+        "General": "Ogólne"
+      }
+    }
+  },
+  "Commands": {
+    "VeinCommand": {
+      "Usage": "/vein <add|remove|list|clear|on|off>",
+      "Description": "Dodaje trzymany blok do listy Vein Minera i nie tylko."
+    }
+  }
+}

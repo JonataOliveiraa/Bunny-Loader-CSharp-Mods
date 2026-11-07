@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "설명 색"
+      },
+      "ChangeDamageColor": {
+        "Label": "피해 색"
+      },
+      "ShowDamageNumbers": {
+        "Label": "내 숫자"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "다른 사람 숫자"
+      },
+      "CondenseDamageHits": {
+        "Label": "타격 합치기"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "처치 시 표시"
+      },
+      "DebugMode": {
+        "Label": "디버그 모드"
+      },
+      "DebugModeTooltips": {
+        "Label": "설명"
+      },
+      "DebugModeFields": {
+        "Label": "필드"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "멀티플레이"
+      },
+      "MeleeDamage": {
+        "Label": "근접"
+      },
+      "MeleeDamageCrit": {
+        "Label": "근접 치명타"
+      },
+      "TooltipMelee": {
+        "Label": "근접"
+      },
+      "RangedDamage": {
+        "Label": "원거리"
+      },
+      "RangedDamageCrit": {
+        "Label": "원거리 치명타"
+      },
+      "TooltipRanged": {
+        "Label": "원거리"
+      },
+      "MagicDamage": {
+        "Label": "마법"
+      },
+      "MagicDamageCrit": {
+        "Label": "마법 치명타"
+      },
+      "TooltipMagic": {
+        "Label": "마법"
+      },
+      "ThrowingDamage": {
+        "Label": "투척"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "투척 치명타"
+      },
+      "TooltipThrowing": {
+        "Label": "투척"
+      },
+      "SummonDamage": {
+        "Label": "소환"
+      },
+      "SummonDamageCrit": {
+        "Label": "소환 치명타"
+      },
+      "TooltipSummon": {
+        "Label": "소환"
+      },
+      "SentryDamage": {
+        "Label": "센트리"
+      },
+      "SentryDamageCrit": {
+        "Label": "센트리 치명타"
+      },
+      "TooltipSentry": {
+        "Label": "센트리"
+      },
+      "TooltipDefense": {
+        "Label": "방어력"
+      },
+      "ModdedTooltip": {
+        "Label": "설명"
+      },
+      "HeldTooltip": {
+        "Label": "설명"
+      },
+      "ModdedDamage": {
+        "Label": "피해"
+      },
+      "ModdedDamageCrit": {
+        "Label": "피해 치명타"
+      },
+      "HeldDamage": {
+        "Label": "피해"
+      },
+      "HeldDamageCrit": {
+        "Label": "피해 치명타"
+      },
+      "Headers": {
+        "Toggles": "토글",
+        "Condense": "합치기",
+        "DamageColors": "피해 색",
+        "TooltipColors": "설명 색",
+        "ModCompat": "모드 기본값",
+        "HeldClass": "든 아이템의 클래스",
+        "Debug": "디버그"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "센트리 피해"
+    }
+  }
+}

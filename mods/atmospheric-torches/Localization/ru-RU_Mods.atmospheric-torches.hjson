@@ -1,0 +1,12 @@
+{
+  "Configs": {
+    "TorchConfig": {
+      "DisableTorchFlickering": {
+        "Label": "[i:966] Отключить мерцание факелов"
+      },
+      "brightnessOffset": {
+        "Label": "[i:8] Масштаб яркости"
+      }
+    }
+  }
+}

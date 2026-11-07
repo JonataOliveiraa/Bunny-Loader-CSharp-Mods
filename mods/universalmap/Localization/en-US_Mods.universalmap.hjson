@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Universal Map",
+      "Interval": {
+        "Label": "Interval"
+      },
+      "Notifications": {
+        "Label": "Notifications"
+      },
+      "Headers": {
+        "Sync": "Sync"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Map updated: {0} new tiles from other players.",
+    "Sharing": "Sharing your map with the other players...",
+    "MultiplayerOnly": "Universal Map only works in multiplayer."
+  }
+}

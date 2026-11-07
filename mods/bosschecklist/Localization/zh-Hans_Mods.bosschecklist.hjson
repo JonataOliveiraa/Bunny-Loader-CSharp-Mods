@@ -1,0 +1,438 @@
+{
+  "Log": {
+    "Common": {
+      "BossLog": "Boss日志",
+      "Entry": "条目",
+      "Boss": "Boss",
+      "BossPlural": "Boss",
+      "MiniBoss": "小Boss",
+      "MiniBossPlural": "小Boss",
+      "Event": "事件",
+      "EventPlural": "事件",
+      "Enabled": "启用",
+      "Disabled": "禁用"
+    },
+    "Tabs": {
+      "ToggleFilters": "开关过滤器",
+      "TableOfContents": "目录",
+      "Credits": "感谢页面",
+      "NextEntry": "下个{0}:\n{1}",
+      "Records": "挑战记录",
+      "SpawnInfo": "生成信息",
+      "LootAndCollectibles": "战利品 & 收藏品"
+    },
+    "Indicator": {
+      "ProgressionMode": "渐进式日志已{0}",
+      "ManualChecklist": "条目必须由用户手动勾选",
+      "AutomaticChecklist": "清单将自动检查条目",
+      "OnlyBossContentEnabled": "只能显示Boss内容",
+      "OnlyBossContentDisabled": "能显示所有内容"
+    },
+    "TableOfContents": {
+      "PreHardmode": "困难模式前",
+      "Hardmode": "困难模式",
+      "AllLoot": "已获得所有的战利品!",
+      "AllCollectibles": "已获得所有的收藏品!",
+      "Filter": {
+        "ToggleHiddenOpen": "打开隐藏列表",
+        "ToggleHiddenClose": "确认 & 关闭隐藏列表",
+        "Disabled": "由于'仅显示Boss内容'设置, 过滤器已禁用"
+      }
+    },
+    "Credits": {
+      "Devs": "贡献者",
+      "Mods": "已注册的Mod",
+      "Notice": "[列表仅包含已加载的Mod]",
+      "NoIcon": "未找到Mod图标!",
+      "ModsEmpty": "你已加载的Mod没有注册.",
+      "Register": "注册你自己的Mod!",
+      "Learn": "查看Mod描述以学习",
+      "Titles": {
+        "Owner": "创造者 & 所有者",
+        "CoOwner": "共同所有者 & 维护者",
+        "Contributor": "代码贡献者",
+        "Sprites": "Boss日志贴图",
+        "EarlyTesting": "早期测试"
+      }
+    },
+    "EntryPage": {
+      "Defeated": "在{0}{1}中已被击败",
+      "Undefeated": "在{0}中未被击败",
+      "CopyKey": "点击以在聊天中显示内部'条目键'\n{0}",
+      "ViewPage": "点击以查看页面",
+      "LogFeaturesNotAvailable": "记录、召唤物和战利品表不可用. 该Mod未提交足够的信息以供使用或引用不正确."
+    },
+    "Records": {
+      "NewRecord": "新的个人最佳!",
+      "NewWorldRecord": "新的世界纪录!",
+      "NoRecord": "没有记录",
+      "Unchallenged": "未挑战过",
+      "KDR": "{0}击杀 / {1}死亡",
+      "TotalKills": "总击杀",
+      "NoHit": "无伤!",
+      "Hit": "{0}次受击{^0:;}",
+      "PreviousBest": "你以前的最佳纪录",
+      "ClaimRecord": "成为第一个打破世界纪录的人!",
+      "RecordHolder": "记录保持者",
+      "Category": {
+        "PreviousAttempt": "上次尝试",
+        "FirstVictory": "首次胜利",
+        "PersonalBest": "个人的最佳记录",
+        "WorldRecord": "世界纪录"
+      },
+      "Title": {
+        "PreviousAttempt": "尝试",
+        "FirstVictory": "游戏时间",
+        "PersonalBest": "KD比",
+        "WorldRecord": "全球击败和死亡次数",
+        "Duration": "战斗持续时间",
+        "DurationWorld": "最短时间的战斗",
+        "HitsTaken": "受击数",
+        "HitsTakenWorld": "最低受击次数"
+      },
+      "Tooltip": {
+        "Duration": "你击败该Boss所用的最短时间!",
+        "HitsTaken": "尽可能的闪避攻击! 试着无伤击败该Boss!",
+        "PreviousAttempt": "你遭遇该Boss的总次数!",
+        "PersonalBest": "你击败该Boss和该Boss击败你的总次数!",
+        "FirstVictory": "首次击败Boss前你的角色处于活动状态的总游戏时间!",
+        "WorldRecord": "与该Boss相关的全球击杀和死亡次数!"
+      },
+      "Time": {
+        "Days": "{0}天",
+        "Hours": "{0}小时",
+        "Minutes": "{0}分",
+        "Seconds": "{0}秒"
+      }
+    },
+    "SpawnInfo": {
+      "RecipeFrom": "配方来自: {0}",
+      "CycleRecipe": "切换至其他配方",
+      "Noncraftable": "此物品无法制作",
+      "NoSpawnItem": "{0}没有召唤物",
+      "ByHand": "空手制作"
+    },
+    "LootAndCollection": {
+      "ItemIsExpertOnly": "此物品仅在专家模式下可获得",
+      "ItemIsMasterOnly": "此物品仅在大师模式下可获得",
+      "ItemIsLocked": "此物品仅在满足特殊需求后解锁",
+      "Obtained": "已获得此物品!",
+      "Researched": "已研究此物品!"
+    },
+    "ProgressionMode": {
+      "BeforeYouBegin": "在你开始之前...",
+      "AskEnable": "你想要开启渐进式日志吗?",
+      "SelectAnOption": "请在下方选择一项...",
+      "SelectDisable": "继续并禁用渐进式日志...\n* 解锁所有页面信息内容\n* 没有隐藏. 没有限制.",
+      "SelectEnable": "继续并完全启用渐进式日志...\n* 锁定未击败条目的页面信息内容\n* 材质和名称被遮掩\n* Boss战利品被锁定, 直到被击败\n* 启用提示下个挑战, 降低信息局限性 (推荐)",
+      "DisablePrompt": "不再显示此内容",
+      "Description": "渐进式日志将限制并隐藏许多Boss内容, 直至条目被击败或标记为已完成. 如果你想进行盲打通关, 可以考虑启用此功能. Boss日志将被禁用, 直至你做出选择或在设置中禁用提示后重新打开."
+    },
+    "HintTexts": {
+      "MarkEntry": "长按条目以将其标记为已击败",
+      "HideEntry": "点击条目以将其从清单中隐藏",
+      "ClearMarked": "长按此按钮以清除所有已标记的条目",
+      "ClearHidden": "长按此按钮以清除所有已隐藏的条目",
+      "ClearItems": "长按此按钮以将列出的物品标记为未获得",
+      "RemoveItem": "长按物品以将其标记为未获得",
+      "ClearAllRecords": "长按此按钮以重置列出的记录数值",
+      "ClearRecord": "长按记录的图标以重置其数值",
+      "Compare": "长按记录类别以进行比较"
+    }
+  },
+  "Checklist": {
+    "CelestialPillars": "天界柱",
+    "ToggleCompletedTooltip": "开关显示已完成的",
+    "ToggleMiniBossesTooltip": "开关显示小Boss",
+    "ToggleEventsTooltip": "开关显示事件",
+    "ToggleShowHiddenBossesTooltip": "开关显示隐藏的Boss\n(长按以清除隐藏的Boss)\n(长按某个Boss以将其隐藏)",
+    "MoreInfo": "更多信息"
+  },
+  "ChatMessages": {
+    "Despawn": {
+      "Generic": "{0}失去了对你的兴趣...",
+      "Day": "{0}在黎明时逃跑了..."
+    },
+    "Defeated": {
+      "Generic": "{0}已被击倒!",
+      "GenericSkeletronHand": "骷髅王之手已被击倒!",
+      "GenericMoonLordHead": "月亮领主的头已被击倒!",
+      "SkeletronHand": "{0}的一只手断裂了!",
+      "PrimeCannon": "{0}爆炸了!",
+      "PrimeSaw": "{0}发生故障了!",
+      "PrimeVice": "{0}坍塌了!",
+      "PrimeLaser": "{0}过热了!",
+      "GolemFistLeft": "{0}被摧毁了!",
+      "GolemFistRight": "{0}被摧毁了!",
+      "GolemHead": "{0}已脱离身体!",
+      "MoonLordHead": "一颗克苏鲁真眼已脱离了{0}的头部!",
+      "MoonLordHand": "一颗克苏鲁真眼已脱离了{0}!",
+      "Retinazer": "{0}已被击败!",
+      "Spazmatism": "{0}已被击败!",
+      "LunarTowerVortex": "{0}已倒塌!",
+      "LunarTowerStardust": "{0}已倒塌!",
+      "LunarTowerNebula": "{0}已倒塌!",
+      "LunarTowerSolar": "{0}已倒塌!"
+    },
+    "Loss": {
+      "Generic": "{0}杀死了所有玩家!",
+      "KingSlime": "{0}班师回朝...",
+      "EyeofCthulhu": "{0}隐没在暮色中...",
+      "EaterofWorlds": "{0}钻回了地下...",
+      "BrainofCthulhu": "{0}消失于赤色深渊...",
+      "QueenBee": "{0}在蜂群中回巢...",
+      "Skeletron": "{0}的诅咒仍禁锢着老人...",
+      "WallofFlesh": "{0}穿过了整个地狱...",
+      "QueenSlimeBoss": "{0}傲慢的跳走了...",
+      "TheTwins": "{0}持续观察着一切...",
+      "TheDestroyer": "{0}寻找着新的世界以吞噬之...",
+      "SkeletronPrime": "{0}开始寻找新的受害者...",
+      "Plantera": "{0}休眠于地下丛林...",
+      "Golem": "{0}停止运作...",
+      "HallowBoss": "{0}在神圣辉光中消散...",
+      "DukeFishron": "{0}潜入深海...",
+      "CultistBoss": "{0}虔诚地崇拜着...",
+      "MoonLord": "{0}从世间离去..."
+    },
+    "EventEnd": {
+      "Generic": "{0}结束了...",
+      "BloodMoon": "赤色之月落至地平线之下...",
+      "FrostMoon": "寒霜之月在日光中融化了...",
+      "PumpkinMoon": "南瓜月下的狂欢结束了...",
+      "Eclipse": "日食暂时停止了..."
+    }
+  },
+  "BossSpawnInfo": {
+    "Unknown": "生成条件未知",
+    "KingSlime": "使用 [i:560], 或在地图外侧的两个 1/6 （最左边或最右边）范围内随机生成, 或者在史莱姆雨期间杀死 150 个史莱姆.",
+    "EyeofCthulhu": "在夜晚使用 [i:43], 当至少一名玩家最大生命值大于等于 200, 防御值大于等于 10 且未曾被击败时在每个夜晚有 1/3 的几率生成.",
+    "EaterofWorlds": "在腐化之地使用 [i:70] 或在腐化之地的裂缝中破坏 3 个暗影珠.",
+    "BrainofCthulhu": "在猩红之地使用 [i:1331] 或在猩红之地的掌形洞穴中破坏 3 个猩红之心.",
+    "QueenBee": "在丛林中使用 [i:1133] 或破坏地下丛林中蜂巢中的幼虫.",
+    "Skeletron": "在夜晚造访地牢并与老人谈话或通过戴上 [i:1307] 在夜晚杀死裁缝.",
+    "Deerclops": "在雪原使用 [i:5120] 召唤. 其会自然生成在暴雪期间的午夜.",
+    "WallofFlesh": "通过将 [i:267] 或向导本人投入地狱中炙热的岩浆来召唤. [c/FF0000:击杀此Boss将开启困难模式!]",
+    "QueenSlimeBoss": "在神圣之地使用 [i:4988] 召唤, 该物品可在地下神圣之地中生长于珍珠石块和粉冰块上的水晶碎块中找到.",
+    "TheTwins": "还未击败过至少一次时, 在已敲碎至少一个祭坛的前提下每个黄昏有 10% 的几率生成. 或在夜晚使用 [i:544] 以召唤.",
+    "TheDestroyer": "还未击败过至少一次时, 在已敲碎至少一个祭坛的前提下每个黄昏有 10% 的几率生成. 或在夜晚使用 [i:556] 以召唤.",
+    "SkeletronPrime": "还未击败过至少一次时, 在已敲碎至少一个祭坛的前提下每个黄昏有 10% 的几率生成. 或在夜晚使用 [i:557] 以召唤.",
+    "Plantera": "在 3 个机械Boss全部被击败后, 在地下丛林找到并破坏世纪之花球茎以召唤.",
+    "Golem": "在神庙祭坛中使用 [i:1293] , 祭坛可在丛林神庙的最深处发现.",
+    "HallowBoss": "在神圣之地击杀 [i:4961] 以召唤. 击败世纪之花后, 它会在晚上7:30到12:00之间出现于神圣之地的地表.",
+    "DD2Betsy": "在旧日军团入侵事件 T3 的第 7 波生成.",
+    "DukeFishron": "使用 [i:2673] 作为鱼饵在海边钓出, 在困难模式下, 松露虫可以在地下发光蘑菇地找到.",
+    "CultistBoss": "杀死在击败石巨人后出现在地牢门前的 4 个信徒.",
+    "MoonLord": "使用 [i:3601] 或摧毁全部 4 个天界柱以召唤.",
+    "BloodMoon": "至少一个玩家的生命值超过 120, 且当前月相不是新月时在每天黄昏随机发生. 持续到日出. 或者使用掉落自血月期间敌人的 [i:4271] 在夜晚召唤.",
+    "GoblinArmy": "如果有至少一个暗影珠/猩红之心已被摧毁, 且至少有一名玩家有 200 或更多生命值, 并且没有正在进行中的 哥布林军队, 那么哥布林军队这个事件每逢黎明就有 1/3 几率发生. 它也可以用 [i:361] 来手动召唤. 此事件在打败了一定数量的哥布林后就会完成.",
+    "OldOnesArmy": "找到酒保之后, 用 [i:3828] 购买并激活 [i:3816] 即可召唤. 持续至所有进攻波结束或水晶被砍破后.",
+    "FrostLegion": "在困难模式(肉山后), 使用在圣诞节期间敌怪掉落的 [i:1869] 开出的 [i:602] 即可召唤. 此事件在打败了一定数量的雪人后就会完成.",
+    "Eclipse": "一旦打败任意机械 Boss, 则在每天黎明都有 1/20 几率发生. 或者, 用 [i:2767] 召唤. 持续到夜幕降临.",
+    "PirateInvasion": "在至少一个祭坛被摧毁后随机发生. 可使用 [i:1315] 召唤, 该物品可在困难模式下击杀海洋中的任意敌怪获得. 此事件在打败了一定数量的海盗后就会完成.",
+    "PumpkinMoon": "在夜晚用 [i:1844] 召唤. 在黎明时结束.",
+    "FrostMoon": "在夜晚用 [i:1958] 召唤. 在黎明时结束.",
+    "MartianMadness": "在击败石巨人后, 找到火星探测器并让它探测到玩家后不被摧毁地离开屏幕以召唤. 此事件在打败了一定数量的火星后就会完成.",
+    "LunarEvent": "通过打败地牢外的拜月教邪教徒来开启. 每个柱子均匀分布在世界各处.",
+    "Pumpking": "在南瓜月第7波及其之后生成. 通过使用 [i:1844] 以开始南瓜月.",
+    "MourningWood": "在南瓜月第4波及其之后生成. 通过使用 [i:1844] 以开始南瓜月.",
+    "IceQueen": "在寒霜之月第11波及其之后生成. 通过使用 [i:1958] 以开始寒霜之月.",
+    "SantaNK1": "在寒霜之月第7波及其之后生成. 通过使用 [i:1958] 以开始寒霜之月.",
+    "Everscream": "在寒霜之月第4波及其之后生成. 通过使用 [i:1958] 以开始寒霜之月.",
+    "PirateShip": "偶尔地出现在海盗入侵事件! 通过使用 [i:1315] 以开始海盗入侵.",
+    "DD2OgreT3": "出现在T2第7波、T3第4,6波的旧日军团事件! 通过使用 [i:3816] 和 [i:3828] 来开启事件.",
+    "DD2DarkMageT3": "出现在T1第5波、T3第5,6波的旧日军团事件! 通过使用 [i:3816] 和 [i:3828] 来开启事件.",
+    "MartianSaucer": "偶尔地出现在火星暴乱事件! 通过被火星探测器探测以开始火星暴乱.",
+    "TorchGod": "通过在地底放置101支火把来召唤. 事件开始于第101支火把被放置后."
+  },
+  "Configs": {
+    "Common": {
+      "InvalidChange": "{1}启用时无法更改'{0}'设置!"
+    },
+    "BossLogConfiguration": {
+      "DisplayName": "Boss日志",
+      "BossLogColor": {
+        "Label": "日志颜色"
+      },
+      "ShowInteractionTooltips": {
+        "Label": "操作提示"
+      },
+      "BookScale": {
+        "Label": "书本缩放"
+      },
+      "ChecklistScale": {
+        "Label": "列表缩放"
+      },
+      "AutomaticChecklist": {
+        "Label": "自动清单"
+      },
+      "ProgressiveChecklist": {
+        "Label": "渐进式日志"
+      },
+      "PromptDisabled": {
+        "Label": "隐藏提示"
+      },
+      "HideUnavailable": {
+        "Label": "隐藏不可用"
+      },
+      "HideUnsupported": {
+        "Label": "隐藏不支持"
+      },
+      "OnlyShowBossContent": {
+        "Label": "仅显示Boss"
+      },
+      "FilterBosses": {
+        "Label": "Boss"
+      },
+      "FilterMiniBosses": {
+        "Label": "小Boss"
+      },
+      "FilterEvents": {
+        "Label": "事件"
+      },
+      "ColoredBossText": {
+        "Label": "彩色名称"
+      },
+      "SelectedCheckmarkType": {
+        "Label": "勾选样式"
+      },
+      "DrawNextMark": {
+        "Label": "下个标记"
+      },
+      "ShowProgressBars": {
+        "Label": "进度条"
+      },
+      "SpawnItemCraftingChecklist": {
+        "Label": "配方勾选"
+      },
+      "LootCheckVisibility": {
+        "Label": "战利品勾选"
+      },
+      "OnlyCheckDroppedLoot": {
+        "Label": "仅掉落物"
+      },
+      "ModCallLogVerbose": {
+        "Label": "详细日志"
+      },
+      "AccessInternalNames": {
+        "Label": "条目键"
+      },
+      "ShowProgressionValue": {
+        "Label": "进度值"
+      },
+      "ShowCollectionType": {
+        "Label": "收藏品类型"
+      },
+      "EnabledResetOptions": {
+        "Label": "重置选项"
+      },
+      "Headers": {
+        "BossLogUI": "Boss日志界面",
+        "BossLogChecklist": "清单",
+        "Debug": "调试"
+      }
+    },
+    "FeatureConfiguration": {
+      "DisplayName": "Boss清单功能",
+      "RecordTrackingEnabled": {
+        "Label": "记录追踪"
+      },
+      "AllowNewRecords": {
+        "Label": "新记录"
+      },
+      "NewRecordLogGlow": {
+        "Label": "新记录发光"
+      },
+      "DisplayRecordTracking": {
+        "Label": "追踪显示"
+      },
+      "DespawnMessageType": {
+        "Label": "离场消息"
+      },
+      "LimbMessages": {
+        "Label": "肢体消息"
+      },
+      "MoonMessages": {
+        "Label": "月亮消息"
+      },
+      "TimerSounds": {
+        "Label": "复活音效"
+      },
+      "TreasureBagsOnMap": {
+        "Label": "宝藏袋"
+      },
+      "FragmentsOnMap": {
+        "Label": "碎片"
+      },
+      "ScalesOnMap": {
+        "Label": "鳞片和样本"
+      },
+      "EnableBossRadar": {
+        "Label": "雷达"
+      },
+      "RadarMiniBosses": {
+        "Label": "小Boss"
+      },
+      "RadarOpacity": {
+        "Label": "不透明度"
+      },
+      "Headers": {
+        "BossRecords": "Boss记录",
+        "ChatMessages": "聊天消息",
+        "ItemMapDetection": "地图物品",
+        "BossRadar": "Boss雷达"
+      }
+    },
+    "BossFilterMode": {
+      "Show": {
+        "Label": "显示"
+      },
+      "HideWhenCompleted": {
+        "Label": "完成后隐藏"
+      }
+    },
+    "EntryFilterMode": {
+      "Show": {
+        "Label": "显示"
+      },
+      "HideWhenCompleted": {
+        "Label": "完成后隐藏"
+      },
+      "Hide": {
+        "Label": "隐藏"
+      }
+    },
+    "CheckmarkType": {
+      "Check_Empty": {
+        "Label": "勾 / 空框"
+      },
+      "Check_X": {
+        "Label": "勾 / 叉"
+      },
+      "X_Empty": {
+        "Label": "叉 / 空框"
+      },
+      "StrikeThrough": {
+        "Label": "删除线"
+      }
+    },
+    "MessageMode": {
+      "Disabled": {
+        "Label": "关闭"
+      },
+      "Generic": {
+        "Label": "通用"
+      },
+      "Unique": {
+        "Label": "独特"
+      }
+    }
+  },
+  "TouchButtons": {
+    "BossLog": {
+      "DisplayName": "Boss日志"
+    },
+    "BossChecklist": {
+      "DisplayName": "Boss清单"
+    }
+  }
+}

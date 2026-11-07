@@ -1,0 +1,126 @@
+{
+  "Configs": {
+    "ColoredDamageTypesConfig": {
+      "DisplayName": "Colored Damage Types",
+      "ChangeTooltipColor": {
+        "Label": "Cor na Dica"
+      },
+      "ChangeDamageColor": {
+        "Label": "Cor do Dano"
+      },
+      "ShowDamageNumbers": {
+        "Label": "Meus Números"
+      },
+      "ShowMultiplayerDamageNumbers": {
+        "Label": "Números dos Outros"
+      },
+      "CondenseDamageHits": {
+        "Label": "Agrupar Golpes"
+      },
+      "ShowCondenseDamageOnKill": {
+        "Label": "Mostrar ao Matar"
+      },
+      "DebugMode": {
+        "Label": "Depuração"
+      },
+      "DebugModeTooltips": {
+        "Label": "Dicas"
+      },
+      "DebugModeFields": {
+        "Label": "Campos"
+      },
+      "DebugModeMultiplayer": {
+        "Label": "Multijogador"
+      },
+      "MeleeDamage": {
+        "Label": "Corpo a Corpo"
+      },
+      "MeleeDamageCrit": {
+        "Label": "Corpo a Corpo Crít."
+      },
+      "TooltipMelee": {
+        "Label": "Corpo a Corpo"
+      },
+      "RangedDamage": {
+        "Label": "Distância"
+      },
+      "RangedDamageCrit": {
+        "Label": "Distância Crít."
+      },
+      "TooltipRanged": {
+        "Label": "Distância"
+      },
+      "MagicDamage": {
+        "Label": "Mágico"
+      },
+      "MagicDamageCrit": {
+        "Label": "Mágico Crít."
+      },
+      "TooltipMagic": {
+        "Label": "Mágico"
+      },
+      "ThrowingDamage": {
+        "Label": "Arremesso"
+      },
+      "ThrowingDamageCrit": {
+        "Label": "Arremesso Crít."
+      },
+      "TooltipThrowing": {
+        "Label": "Arremesso"
+      },
+      "SummonDamage": {
+        "Label": "Invocação"
+      },
+      "SummonDamageCrit": {
+        "Label": "Invocação Crít."
+      },
+      "TooltipSummon": {
+        "Label": "Invocação"
+      },
+      "SentryDamage": {
+        "Label": "Sentinela"
+      },
+      "SentryDamageCrit": {
+        "Label": "Sentinela Crít."
+      },
+      "TooltipSentry": {
+        "Label": "Sentinela"
+      },
+      "TooltipDefense": {
+        "Label": "Defesa"
+      },
+      "ModdedTooltip": {
+        "Label": "Dica"
+      },
+      "HeldTooltip": {
+        "Label": "Dica"
+      },
+      "ModdedDamage": {
+        "Label": "Dano"
+      },
+      "ModdedDamageCrit": {
+        "Label": "Dano Crít."
+      },
+      "HeldDamage": {
+        "Label": "Dano"
+      },
+      "HeldDamageCrit": {
+        "Label": "Dano Crít."
+      },
+      "Headers": {
+        "Toggles": "Opções",
+        "Condense": "Agrupar",
+        "DamageColors": "Cores de Dano",
+        "TooltipColors": "Cores da Dica",
+        "ModCompat": "Padrão de Mods",
+        "HeldClass": "Classe do Item na Mão",
+        "Debug": "Depuração"
+      }
+    }
+  },
+  "DamageClasses": {
+    "SentryClass": {
+      "DisplayName": "dano de sentinela"
+    }
+  }
+}

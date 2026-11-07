@@ -1,0 +1,23 @@
+{
+  "Configs": {
+    "BossCursorConfig": {
+      "DisplayMode": {
+        "Label": "Режим курсора"
+      },
+      "Headers": {
+        "DisplayHeader": "Отображение курсора босса"
+      }
+    },
+    "CursorMode": {
+      "Outside": {
+        "Label": "За пределами экрана"
+      },
+      "Always": {
+        "Label": "Всегда"
+      },
+      "Never": {
+        "Label": "Никогда"
+      }
+    }
+  }
+}

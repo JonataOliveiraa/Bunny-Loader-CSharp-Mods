@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "pingmod",
+    "uid": "ae7c31e7-a0d5-4064-995d-acedf7fd5afc",
+    "version": "1.0.5",
+    "sha256": "0257d4a96426ad8a909fdbf3086fec2c1f65921da52056268e038624d4008404"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. Refresh intervals and the health bar measure's expiry use real time instead of frame counts. The tracker learns which bar it is measuring from PreDrawResourceDisplay, because the C# draw context does not say. Other mods' screens are noticed by watching the interface drawn just before this one, because UserInterface.SetState cannot be hooked in C#, so only the last interface drawn before this mod's layer is noticed. The Ping refresh option has no seconds suffix, because C# configs have none."
+}

@@ -1,0 +1,32 @@
+{
+  "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
+  "id": "bestiarydisplays",
+  "name": "Bestiary Displays",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "JaquavionBennet",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760868784"
+    },
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532",
+      "role": "Port"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Decoration",
+  "summary": "Hologram Projectors that show any unlocked Bestiary creature as an animated, configurable hologram.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

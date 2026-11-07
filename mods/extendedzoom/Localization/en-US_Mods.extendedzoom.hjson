@@ -1,0 +1,18 @@
+{
+  "Configs": {
+    "ZoomConfig": {
+      "FartherZoom": {
+        "Label": "Farther Zoom"
+      },
+      "SmoothZoom": {
+        "Label": "Smooth Zoom"
+      },
+      "NoPinchOpenMap": {
+        "Label": "Pinch can't open the map"
+      },
+      "SmoothMapZoom": {
+        "Label": "Smooth Map Zoom"
+      }
+    }
+  }
+}

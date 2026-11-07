@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "touhoupets",
+    "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
+    "version": "1.0.4",
+    "sha256": "bd59c93494638c74161ad48cf215932ff63cd184426a6ff1e4f4e0e715b285a4"
+  },
+  "license": "GPL-3.0",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same pets, numbers, dialogue, drops and recipes. Pets, buffs and items bind to each other at compile time instead of by name. Differences: BirthdayParty has no C# proxy, so Iku's party line reads its PartyIsUp by name (if that ever fails, she never mentions a party); Journey research counts use Item.ResearchUnlockCount instead of writing the game's table directly."
+}

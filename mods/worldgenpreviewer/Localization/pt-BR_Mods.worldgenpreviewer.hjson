@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Começar Pausado"
+      },
+      "LivePreview": {
+        "Label": "Prévia do Mapa"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Mostrar lista de etapas",
+    "Previous": "Repetir etapa anterior",
+    "Resume": "Continuar",
+    "Pause": "Pausar",
+    "Next": "Avançar para a próxima etapa",
+    "Structures": "Mostrar estruturas protegidas",
+    "Cancel": "Cancelar",
+    "ZoomIn": "Aproximar",
+    "ZoomOut": "Afastar",
+    "ExitZoom": "Sair do zoom",
+    "NoPause": "Pausar não está disponível neste dispositivo",
+    "StatusNormal": "Status: Normal",
+    "StatusPausing": "Status: Pausando...",
+    "StatusPaused": "Status: Pausado",
+    "StatusRepeating": "Status: Refazendo a etapa anterior",
+    "StatusWaitingRepeat": "Status: Esperando para refazer esta etapa...",
+    "StatusCanceling": "Status: Cancelando...",
+    "StatusStructuresOn": "Status: Estruturas visíveis",
+    "StatusStructuresOff": "Status: Estruturas ocultas",
+    "StatusPausingAfter": "Status: Pausando depois de {0}",
+    "Skipped": "Pulada",
+    "Complete": "Concluída",
+    "AdvanceTo": "Toque para avançar até {0}",
+    "Tile": "Bloco: {0}",
+    "PausedAfter": "Geração pausada depois de {0}",
+    "Waiting": "Montando a prévia...",
+    "PreviewOff": "Prévia do mapa desligada",
+    "Steps": "Etapas",
+    "SkipStep": "Toque para pular esta etapa",
+    "KeepStep": "Toque para manter esta etapa",
+    "StatusFinishingMap": "Status: Terminando o mapa..."
+  }
+}

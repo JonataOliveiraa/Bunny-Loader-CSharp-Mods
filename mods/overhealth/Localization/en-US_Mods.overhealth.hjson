@@ -1,0 +1,45 @@
+{
+  "Configs": {
+    "OverhealthConfig": {
+      "Enabled": {
+        "Label": "Overhealth"
+      },
+      "MaximumOverhealth": {
+        "Label": "Maximum overhealth"
+      },
+      "ConstantDecay": {
+        "Label": "Constant decay"
+      },
+      "ProgressiveDecay": {
+        "Label": "Progressive decay"
+      },
+      "DecayMultiplier": {
+        "Label": "Decay multiplier"
+      },
+      "ShowUI": {
+        "Label": "Show overhealth HUD"
+      },
+      "HudX": {
+        "Label": "HUD horizontal position"
+      },
+      "HudY": {
+        "Label": "HUD vertical position"
+      },
+      "HudScale": {
+        "Label": "HUD size"
+      },
+      "HudOpacity": {
+        "Label": "HUD opacity"
+      },
+      "DemoHud": {
+        "Label": "Demo HUD"
+      },
+      "Headers": {
+        "Gameplay": "Gameplay",
+        "Decay": "Decay",
+        "Visuals": "Visuals",
+        "Other": "Other"
+      }
+    }
+  }
+}

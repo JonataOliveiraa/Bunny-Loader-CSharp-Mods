@@ -1,0 +1,21 @@
+{
+  "Configs": {
+    "UniversalMapConfig": {
+      "DisplayName": "Carte Universelle",
+      "Interval": {
+        "Label": "Intervalle"
+      },
+      "Notifications": {
+        "Label": "Notifications"
+      },
+      "Headers": {
+        "Sync": "Synchronisation"
+      }
+    }
+  },
+  "Messages": {
+    "Received": "Carte mise à jour : {0} nouvelles cases des autres joueurs.",
+    "Sharing": "Partage de ta carte avec les autres joueurs...",
+    "MultiplayerOnly": "La Carte Universelle ne marche qu’en multijoueur."
+  }
+}

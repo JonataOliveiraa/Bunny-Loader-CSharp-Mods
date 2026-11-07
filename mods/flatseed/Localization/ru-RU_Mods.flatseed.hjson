@@ -1,0 +1,24 @@
+{
+  "SecretSeeds": {
+    "Flat": {
+      "Description": "Мир настолько плоский, что можно бежать, не боясь споткнуться или провалиться в яму! А пещеры всё так же ждут внизу."
+    }
+  },
+  "WorldGen": {
+    "FlatteningWorld": "Выравнивание мира..."
+  },
+  "Configs": {
+    "FlatSeedConfig": {
+      "DisplayName": "Flat Seed",
+      "SurfaceHeight": {
+        "Label": "Высота поверхности"
+      },
+      "FillChasms": {
+        "Label": "Заполнять расщелины"
+      },
+      "SmoothBeaches": {
+        "Label": "Спуски к пляжу"
+      }
+    }
+  }
+}

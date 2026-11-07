@@ -1,0 +1,46 @@
+{
+  "Configs": {
+    "WorldGenPreviewerConfig": {
+      "DisplayName": "WorldGen Previewer",
+      "StartWorldgenPaused": {
+        "Label": "Start Paused"
+      },
+      "LivePreview": {
+        "Label": "Map Preview"
+      }
+    }
+  },
+  "UI": {
+    "ShowSteps": "Show steps list",
+    "Previous": "Repeat previous step",
+    "Resume": "Resume",
+    "Pause": "Pause",
+    "Next": "Advance to next step",
+    "Structures": "Show protected structures",
+    "Cancel": "Cancel",
+    "ZoomIn": "Zoom in",
+    "ZoomOut": "Zoom out",
+    "ExitZoom": "Exit zoom",
+    "NoPause": "Pausing is not available on this device",
+    "StatusNormal": "Status: Normal",
+    "StatusPausing": "Status: Pausing...",
+    "StatusPaused": "Status: Paused",
+    "StatusRepeating": "Status: Doing previous step again",
+    "StatusWaitingRepeat": "Status: Waiting to do this step again...",
+    "StatusCanceling": "Status: Canceling...",
+    "StatusStructuresOn": "Status: Structure visualization On",
+    "StatusStructuresOff": "Status: Structure visualization Off",
+    "StatusPausingAfter": "Status: Pausing after {0}",
+    "Skipped": "Skipped",
+    "Complete": "Complete",
+    "AdvanceTo": "Tap to advance to {0}",
+    "Tile": "Tile: {0}",
+    "PausedAfter": "World Gen Paused after {0}",
+    "Waiting": "Building the preview...",
+    "PreviewOff": "Map preview is off",
+    "Steps": "Steps",
+    "SkipStep": "Tap to skip this step",
+    "KeepStep": "Tap to keep this step",
+    "StatusFinishingMap": "Status: Finishing the map..."
+  }
+}

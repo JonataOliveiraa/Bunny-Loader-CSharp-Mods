@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "chestpeek",
+    "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
+    "version": "0.1.0",
+    "sha256": "cc01b57109e0806582a907912f7472aad8b2cf2e79a15d7ed0341cc9f29c673b"
+  },
+  "license": "GPL-3.0",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. The Panel size slider shows a plain number, because C# configs have no % suffix. Piggy banks, safes, forges and void vaults keep real items, so they are now drawn directly: the JavaScript version called the chest-only ExpandItem on them. The description now says where the source code is, as GPL-3.0 requires."
+}

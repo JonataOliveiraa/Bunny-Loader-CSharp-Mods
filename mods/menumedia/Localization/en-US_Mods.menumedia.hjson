@@ -1,0 +1,24 @@
+{
+  "Configs": {
+    "MenuMediaConfig": {
+      "Size": {
+        "Label": "Size"
+      },
+      "OffsetX": {
+        "Label": "Position X"
+      },
+      "OffsetY": {
+        "Label": "Position Y"
+      },
+      "IconSize": {
+        "Label": "Icon size"
+      },
+      "Fps": {
+        "Label": "GIF speed (0 = original)"
+      },
+      "Headers": {
+        "PictureHeader": "Menu background"
+      }
+    }
+  }
+}

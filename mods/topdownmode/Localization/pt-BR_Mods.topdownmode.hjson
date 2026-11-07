@@ -1,0 +1,240 @@
+{
+  "Configs": {
+    "TopDownConfig": {
+      "Enabled": {
+        "Label": "Ativar modo top-down"
+      },
+      "Speed": {
+        "Label": "Velocidade"
+      },
+      "Smoothing": {
+        "Label": "Aceleração"
+      },
+      "JumpButton": {
+        "Label": "Botão de pulo"
+      },
+      "SprintMultiplier": {
+        "Label": "Mult. corrida"
+      },
+      "Noclip": {
+        "Label": "Noclip (atravessar)"
+      },
+      "Debug": {
+        "Label": "Log de depuração"
+      },
+      "MouseAim": {
+        "Label": "Golpe na mira"
+      },
+      "AimMode": {
+        "Label": "Modo da mira"
+      },
+      "SwingArc": {
+        "Label": "Arco do golpe"
+      },
+      "ArmPose": {
+        "Label": "Braço na mira"
+      },
+      "AttackMoveMultiplier": {
+        "Label": "Veloc. atacando"
+      },
+      "CustomHitbox": {
+        "Label": "Hitbox própria"
+      },
+      "HitboxDamageScale": {
+        "Label": "Dano da hitbox"
+      },
+      "ShowHitbox": {
+        "Label": "Mostrar hitbox"
+      },
+      "WalkAnimation": {
+        "Label": "Animação livre"
+      },
+      "NpcTopDown": {
+        "Label": "NPCs sem gravidade"
+      },
+      "DropsTopDown": {
+        "Label": "Drops sem gravidade"
+      },
+      "FurnitureTopDown": {
+        "Label": "Móveis livres"
+      },
+      "ProjectilesTopDown": {
+        "Label": "Projéteis com altura"
+      },
+      "GenerateTopDownWorld": {
+        "Label": "Gerar mundo novo"
+      },
+      "OnlyInTopDownWorlds": {
+        "Label": "Só em mundos top-down"
+      },
+      "WorldShape": {
+        "Label": "Formato do mundo"
+      },
+      "SoftEdges": {
+        "Label": "Bordas suaves"
+      },
+      "TreeDepth": {
+        "Label": "Profund. árvores"
+      },
+      "NpcDepth": {
+        "Label": "Profund. NPCs"
+      },
+      "GrassDepth": {
+        "Label": "Profund. mato"
+      },
+      "FurnitureDepth": {
+        "Label": "Profund. móveis"
+      },
+      "CactusDepth": {
+        "Label": "Profund. cactos"
+      },
+      "Swim": {
+        "Label": "Nadar e afundar"
+      },
+      "WaterShimmer": {
+        "Label": "Água em movimento"
+      },
+      "WaterShimmerStrength": {
+        "Label": "Intensidade da água"
+      },
+      "Shadows": {
+        "Label": "Sombras dinâmicas"
+      },
+      "ShadowStrength": {
+        "Label": "Intensid. sombras"
+      },
+      "Atmosphere": {
+        "Label": "Visual (atmosfera)"
+      },
+      "AtmosphereStrength": {
+        "Label": "Intensid. visual"
+      },
+      "HideHellHeat": {
+        "Label": "Ocultar calor do Inferno"
+      },
+      "AmbientLight": {
+        "Label": "Luz diurna mínima"
+      },
+      "DayNight": {
+        "Label": "Ciclo dia/noite"
+      },
+      "NightLight": {
+        "Label": "Luz noturna mínima"
+      },
+      "Brightness": {
+        "Label": "Brilho geral"
+      },
+      "Trees": {
+        "Label": "Árvores do mundo"
+      },
+      "TreeDensity": {
+        "Label": "Qtd. árvores"
+      },
+      "Decor": {
+        "Label": "Pedras e mato"
+      },
+      "DecorDensity": {
+        "Label": "Qtd. pedras/mato"
+      },
+      "SkipVanillaWorldGen": {
+        "Label": "Pular geração padrão"
+      },
+      "EvilBiome": {
+        "Label": "Bioma do mal"
+      },
+      "EvilSize": {
+        "Label": "Tamanho do mal"
+      },
+      "Rivers": {
+        "Label": "Rios"
+      },
+      "RiverDensity": {
+        "Label": "Qtd. rios"
+      },
+      "RiverWidth": {
+        "Label": "Largura rios"
+      },
+      "Lakes": {
+        "Label": "Lagos e oásis"
+      },
+      "Cactus": {
+        "Label": "Cactos"
+      },
+      "CactusDensity": {
+        "Label": "Qtd. cactos"
+      },
+      "Headers": {
+        "SectionGeneral": "Geral",
+        "SectionWorld": "Mundo",
+        "SectionDebug": "Depuração",
+        "SectionCombat": "Combate (mira)"
+      }
+    },
+    "JumpButtonMode": {
+      "Sprint": {
+        "Label": "Correr"
+      },
+      "Up": {
+        "Label": "Subir"
+      },
+      "None": {
+        "Label": "Nenhum"
+      }
+    },
+    "EvilBiomeMode": {
+      "Auto": {
+        "Label": "Automático"
+      },
+      "Corruption": {
+        "Label": "Corrupção"
+      },
+      "Crimson": {
+        "Label": "Carmesim"
+      },
+      "None": {
+        "Label": "Nenhum"
+      }
+    },
+    "WorldShapeMode": {
+      "Square": {
+        "Label": "Quadrado"
+      },
+      "Wide": {
+        "Label": "Largo (padrão)"
+      }
+    },
+    "TreesMode": {
+      "Terraria": {
+        "Label": "Terraria"
+      },
+      "Blob": {
+        "Label": "Simples"
+      },
+      "None": {
+        "Label": "Nenhuma"
+      }
+    },
+    "AimModeKind": {
+      "Lock": {
+        "Label": "Travar"
+      },
+      "Follow": {
+        "Label": "Seguir"
+      }
+    }
+  },
+  "Items": {
+    "TopDownCaveStairsItem": {
+      "DisplayName": "Escada da Caverna",
+      "Tooltip": "Coloque no chão para descer"
+    }
+  },
+  "Tiles": {
+    "TopDownCaveStairs": {
+      "MapEntry": "Escada para a Caverna"
+    },
+    "TopDownCaveExit": {
+      "MapEntry": "Escada para cima"
+    }
+  }
+}

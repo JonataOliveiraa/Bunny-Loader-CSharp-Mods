@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "gravity-dont-flip-screen",
+    "uid": "12754257-00fe-4c58-b21b-7af0c5faf7b3",
+    "version": "1.0.0",
+    "sha256": "218c21cb06cef9e82d0d09a379e889c02d230d7a56185f52e42c2a1997dbf730"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#. SmartCursorHelper has no C# API, so SmartCursorLookup uses a raw hook by name. No behavior changes."
+}

@@ -1,0 +1,37 @@
+{
+  "Items": {
+    "DisplayBaseItem": {
+      "DisplayName": "Socle d'Exposition",
+      "Tooltip": "Touchez pour poser l'objet tenu sur le socle"
+    },
+    "DisplayBaseItemGranite": {
+      "DisplayName": "Socle d'Exposition",
+      "Tooltip": "Touchez pour poser l'objet tenu sur le socle"
+    }
+  },
+  "Tiles": {
+    "DisplayBaseTile": {
+      "MapEntry": "Socle d'Exposition"
+    }
+  },
+  "Configs": {
+    "DisplayBaseConfig": {
+      "DisplayName": "Exposition",
+      "UseBrightness": {
+        "Label": "Plus Lumineux"
+      },
+      "UseOutline": {
+        "Label": "Contour"
+      },
+      "UseGlitter": {
+        "Label": "Scintillement"
+      },
+      "LightIntensity": {
+        "Label": "Lumière"
+      },
+      "Headers": {
+        "Effects": "Effets"
+      }
+    }
+  }
+}

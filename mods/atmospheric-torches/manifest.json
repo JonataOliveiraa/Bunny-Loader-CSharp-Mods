@@ -1,0 +1,26 @@
+{
+  "uid": "0c2e1d93-1149-4942-adb2-860ad8a9b965",
+  "id": "atmospheric-torches",
+  "name": "Atmospheric Torches",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Orion",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "color": "#F0F0F0",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2817496179"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "This mod simply adds an orange tint to normal torches and tiki torches, with their placed tiles and biome torches getting a slight flicker for atmosphere.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

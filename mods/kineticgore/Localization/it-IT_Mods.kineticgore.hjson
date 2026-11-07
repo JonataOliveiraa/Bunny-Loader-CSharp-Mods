@@ -1,0 +1,104 @@
+{
+  "Configs": {
+    "KineticGoreConfig": {
+      "ArrowsStickToEnemies": {
+        "Label": "Le frecce restano conficcate nei nemici"
+      },
+      "EnableHeadBanging": {
+        "Label": "Headbanging (musica)"
+      },
+      "CorpseDuration": {
+        "Label": "Durata dei cadaveri"
+      },
+      "DismembermentChance": {
+        "Label": "Probabilità di smembramento"
+      },
+      "LegacyRagdollPhysics": {
+        "Label": "Vecchia fisica ragdoll"
+      },
+      "EnableRagdollCollision": {
+        "Label": "Collisione dei ragdoll"
+      },
+      "MaxCorpses": {
+        "Label": "Cadaveri massimi"
+      },
+      "BloodAmountMultiplier": {
+        "Label": "Quantità di sangue"
+      },
+      "GibAmountMultiplier": {
+        "Label": "Quantità di pezzi"
+      },
+      "BloodScale": {
+        "Label": "Dimensione del sangue"
+      },
+      "BloodVelocity": {
+        "Label": "Velocità del sangue"
+      },
+      "EnableStickyBlood": {
+        "Label": "Sangue appiccicoso"
+      },
+      "StickyBloodDuration": {
+        "Label": "Sangue a terra"
+      },
+      "BleedDuration": {
+        "Label": "Collo sanguinante"
+      },
+      "Gravity": {
+        "Label": "Gravità"
+      },
+      "Bounciness": {
+        "Label": "Rimbalzo"
+      },
+      "Friction": {
+        "Label": "Attrito"
+      },
+      "KnockbackMultiplier": {
+        "Label": "Forza del contraccolpo"
+      },
+      "HeadBobIntensity": {
+        "Label": "Dondolio della testa"
+      },
+      "EnableHeadFlinching": {
+        "Label": "Sussulto della testa"
+      },
+      "ReverseHeadFlinch": {
+        "Label": "Sussulto invertito"
+      },
+      "HeadSpringStiffness": {
+        "Label": "Rigidità del collo"
+      },
+      "HeadSpringDamping": {
+        "Label": "Smorzamento del collo"
+      },
+      "SlimeJiggleIntensity": {
+        "Label": "Tremolio"
+      },
+      "SlimeSpringStiffness": {
+        "Label": "Rigidità degli slime"
+      },
+      "SlimeSpringDamping": {
+        "Label": "Smorzamento degli slime"
+      },
+      "HumanoidVerticalOffset": {
+        "Label": "Altezza degli NPC della città"
+      },
+      "Headers": {
+        "QualityOfLife": "Comodità",
+        "GeneralSettings": "Generale",
+        "BloodSettings": "Sangue",
+        "PhysicsSettings": "Fisica",
+        "HeadPhysics": "Teste umanoidi",
+        "SlimePhysics": "Gelatina degli slime",
+        "VisualAdjustments": "Regolazioni visive"
+      }
+    }
+  },
+  "Projectiles": {
+    "PhysicsCorpse": {
+      "DisplayName": "Cadavere fisico"
+    },
+    "StuckArrow": {
+      "DisplayName": "Freccia conficcata"
+    }
+  }
+}

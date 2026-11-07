@@ -1,0 +1,400 @@
+{
+  "Items": {
+    "CirnoIceShard": {
+      "DisplayName": "充满智慧的冰晶",
+      "Tooltip": "'看起来充满了智慧！'"
+    },
+    "UtsuhoEye": {
+      "DisplayName": "赤红之瞳",
+      "Tooltip": "'烫手'"
+    },
+    "HinaDoll": {
+      "DisplayName": "雏人偶",
+      "Tooltip": "'他们说这会带走厄运...还是恰好相反呢？'"
+    },
+    "DaiyouseiBomb": {
+      "DisplayName": "BOMB",
+      "Tooltip": "'一个BOMB'"
+    },
+    "PatchouliMoon": {
+      "DisplayName": "金月",
+      "Tooltip": "'映照着智慧的光芒'"
+    },
+    "SekibankiBow": {
+      "DisplayName": "蓝色蝴蝶结",
+      "Tooltip": "'这是第九个'"
+    },
+    "MarisaHakkero": {
+      "DisplayName": "迷你八卦炉",
+      "Tooltip": "'温和的燃烧着'"
+    },
+    "ReimuYinyangOrb": {
+      "DisplayName": "阴阳玉",
+      "Tooltip": "'富有灵气...还挺沉'"
+    },
+    "RemiliaRedTea": {
+      "DisplayName": "一杯红茶",
+      "Tooltip": "'下午时刻的享受'"
+    },
+    "FlandrePudding": {
+      "DisplayName": "樱桃布丁",
+      "Tooltip": "'看起来很美味的样子！'"
+    },
+    "CakeOfScarlet": {
+      "DisplayName": "斯卡雷特之蛋糕",
+      "Tooltip": "'只属于斯卡雷特家族的下午茶时间'"
+    },
+    "JunkoMooncake": {
+      "DisplayName": "纯粹的月饼",
+      "Tooltip": "'纯粹的五仁馅'"
+    },
+    "HecatiaPlanet": {
+      "DisplayName": "奇怪的红色星球",
+      "Tooltip": "'异界之物'"
+    },
+    "IkuOarfish": {
+      "DisplayName": "传奇带鱼",
+      "Tooltip": "'罕见且艳丽'"
+    },
+    "TenshiKeyStone": {
+      "DisplayName": "要石",
+      "Tooltip": "'镇压地动，守护疆土'"
+    },
+    "SatoriSlippers": {
+      "DisplayName": "一双粉色拖鞋",
+      "Tooltip": "'一定很暖和'"
+    },
+    "KoishiTelephone": {
+      "DisplayName": "紫色电话筒",
+      "Tooltip": "'喂喂？'\n可能会在危急时刻对主人造成致命伤害！"
+    },
+    "TheThirdEye": {
+      "DisplayName": "觉之瞳",
+      "Tooltip": "'窥探你的内心...'"
+    },
+    "SanaeCoin": {
+      "DisplayName": "银色的青蛙硬币",
+      "Tooltip": "'攒够一定数量说不定会出现有意思的事？'"
+    },
+    "KogasaUmbrella": {
+      "DisplayName": "古怪的伞",
+      "Tooltip": "'这上面是长了只眼睛吗？！'"
+    }
+  },
+  "Buffs": {
+    "CirnoBuff": {
+      "DisplayName": "小笨蛋",
+      "Description": "⑨"
+    },
+    "UtsuhoBuff": {
+      "DisplayName": "地狱鸦",
+      "Description": "'我就是地狱的太阳！'"
+    },
+    "HinaBuff": {
+      "DisplayName": "厄运神",
+      "Description": "'转啊转...'"
+    },
+    "DaiyouseiBuff": {
+      "DisplayName": "大妖精",
+      "Description": "'是谁大妖精？'"
+    },
+    "PatchouliBuff": {
+      "DisplayName": "魔法使",
+      "Description": "'不动的小图书馆...?'"
+    },
+    "SekibankiBuff": {
+      "DisplayName": "辘轱首",
+      "Description": "'请不要玩我的头'"
+    },
+    "MarisaBuff": {
+      "DisplayName": "人类魔法使",
+      "Description": "'不能再小偷小摸了'"
+    },
+    "ReimuBuff": {
+      "DisplayName": "博丽的巫女",
+      "Description": "'...'"
+    },
+    "RemiliaBuff": {
+      "DisplayName": "吸血鬼姐姐",
+      "Description": "'献上你的鲜血吧，人类！'"
+    },
+    "FlandreBuff": {
+      "DisplayName": "吸血鬼妹妹",
+      "Description": "'请和我一起玩！'"
+    },
+    "ScarletBuff": {
+      "DisplayName": "斯卡雷特姐妹",
+      "Description": "'想要与我们共进下午茶吗？'"
+    },
+    "JunkoBuff": {
+      "DisplayName": "纯粹之神",
+      "Description": "'心之所在'"
+    },
+    "HecatiaBuff": {
+      "DisplayName": "地狱女神",
+      "Description": "'Welcome ♥ Hell'"
+    },
+    "IkuBuff": {
+      "DisplayName": "龙宫使者",
+      "Description": "'龙鱼电钻！！！'"
+    },
+    "TenshiBuff": {
+      "DisplayName": "天人",
+      "Description": "'来自天界的坏女孩'"
+    },
+    "SatoriBuff": {
+      "DisplayName": "觉妖怪",
+      "Description": "'我对你的内心一清二楚...'"
+    },
+    "KoishiBuff": {
+      "DisplayName": "无意识少女",
+      "Description": "'她在哪儿？'"
+    },
+    "KomeijiBuff": {
+      "DisplayName": "古明地姐妹",
+      "Description": "O v U"
+    },
+    "SanaeBuff": {
+      "DisplayName": "风祝",
+      "Description": "'见证奇迹吧！'"
+    },
+    "KogasaBuff": {
+      "DisplayName": "伞妖怪",
+      "Description": "'吓你一跳！'"
+    }
+  },
+  "Projectiles": {
+    "Cirno": {
+      "DisplayName": "琪露诺"
+    },
+    "Daiyousei": {
+      "DisplayName": "大妖精"
+    },
+    "Flandre": {
+      "DisplayName": "芙兰朵露·斯卡雷特"
+    },
+    "Hecatia": {
+      "DisplayName": "赫卡提亚·拉碧斯拉祖利"
+    },
+    "Hina": {
+      "DisplayName": "键山 雏"
+    },
+    "Iku": {
+      "DisplayName": "永江 衣玖"
+    },
+    "Junko": {
+      "DisplayName": "纯狐"
+    },
+    "Marisa": {
+      "DisplayName": "雾雨 魔理沙"
+    },
+    "Patchouli": {
+      "DisplayName": "帕秋莉·诺蕾姬"
+    },
+    "Piece": {
+      "DisplayName": "克劳恩皮斯"
+    },
+    "Reimu": {
+      "DisplayName": "博丽 灵梦"
+    },
+    "Remilia": {
+      "DisplayName": "蕾米莉亚·斯卡雷特"
+    },
+    "Sekibanki": {
+      "DisplayName": "赤蛮奇"
+    },
+    "Tenshi": {
+      "DisplayName": "比那名居 天子"
+    },
+    "Utsuho": {
+      "DisplayName": "灵乌路 空"
+    },
+    "Koishi": {
+      "DisplayName": "古明地 恋"
+    },
+    "Satori": {
+      "DisplayName": "古明地 觉"
+    },
+    "Sanae": {
+      "DisplayName": "东风谷 早苗"
+    },
+    "Kogasa": {
+      "DisplayName": "多多良 小伞"
+    }
+  },
+  "Chat": {
+    "Cirno": {
+      "1": "今天该冻点什么呢...",
+      "2": "琪露诺天下无敌！",
+      "3": "我是最强的！",
+      "4": "最喜欢大酱了！",
+      "6": "1+1=...多少来着，⑨？",
+      "7": "热死了...要化了...",
+      "8": "好多青蛙啊！",
+      "ToDaiyousei1": "大酱去哪儿我就去哪儿！",
+      "ToDaiyousei2": "大酱别怕，有我在！",
+      "ToDaiyousei3": "我没事...大概..."
+    },
+    "Daiyousei": {
+      "1": "你..你好！",
+      "2": "...最喜欢琪露诺酱了！",
+      "3": "琪露诺酱，今天去哪里玩？",
+      "5": "好...好可怕的地方！",
+      "ToCirno1": "我也最喜欢琪露诺酱！",
+      "ToCirno2": "琪露诺酱你没事吧...",
+      "ToCirno3": "嗯...我，我不怕！"
+    },
+    "Flandre": {
+      "1": "你能陪芙兰一起玩嘛？",
+      "2": "芙兰想要和你一起玩！",
+      "3": "芙兰喜欢姐姐，但姐姐总是不理会芙兰...",
+      "4": "好吃的！",
+      "5": "芙兰喜欢的东西...",
+      "ToRemilia1": "姐姐？叫芙兰有什么事嘛？",
+      "ToRemilia2": "...姐姐什么时候能和芙兰一起玩...",
+      "ToRemilia3": "姐姐老是这么说..."
+    },
+    "Remilia": {
+      "3": "人类，臣服于我！",
+      "4": "终有一日世界将化为红魔之乡！",
+      "8": "嗯...温度还差点...",
+      "9": "感觉味道可以再浓一些...",
+      "10": "多么美妙的夜晚！",
+      "11": "我亲爱的芙兰哟...",
+      "ToFlandre1": "没什么...只是想叫你一下",
+      "ToFlandre2": "有空会陪你的啦",
+      "ToFlandre3": "芙兰不能总是依赖姐姐哦",
+      "ToPatchouli1": "嗯？帕琪？有啥事么？",
+      "ToPatchouli2": "哈哈，那都是瞎扯，吸血鬼怕十字架不过是人类打不过吸血鬼而臆想出来的心理安慰",
+      "ToPatchouli3": "当然了，帕琪你也要多出来走走嘛"
+    },
+    "Patchouli": {
+      "1": "不想动...",
+      "2": "是没读到过的内容呢...",
+      "3": "这里...似乎和我之前了解的不太一样？",
+      "4": "有意思的东西...",
+      "5": "...真的是这样吗？",
+      "6": "咳...咳咳...",
+      "7": "上次看到哪儿了来着...?",
+      "16": "唔...蕾米？",
+      "ToRemilia1": "你身为吸血鬼，为什么不像书里说的一样怕十字架？",
+      "ToRemilia2": "好吧...看来书里说的不全是正确的。",
+      "ToRemilia3": "不要..."
+    },
+    "Hecatia": {
+      "1": "司掌三界之地狱，有时候还真是个苦差事呢...",
+      "2": "我的穿搭是无可挑剔的...真的会有人不喜欢么？"
+    },
+    "Piece": {
+      "1": "啦啦啦~啦~ 今天要在哪儿恶作剧呢...",
+      "2": "那儿看起来像是个点火的好地方。",
+      "ToHecatia": "主人大人的着装当然是最时尚的啦！"
+    },
+    "Hina": {
+      "1": "今天你过得怎样？",
+      "2": "愿灾厄不再扩散...",
+      "Spin": "转啊转啊转..."
+    },
+    "Iku": {
+      "Sandstorm": "风沙肆虐...",
+      "SlimeRain": "粘稠生物从天而降",
+      "BloodMoon": "月亮被诅咒侵蚀，鲜血染红大地...",
+      "Eclipse": "太阳被月亮遮蔽，妖魔四处横行...",
+      "Calm": "气候并没有什么特别的变化",
+      "Breeze": "和煦的微风吹拂着大地",
+      "Fresh": "今天的风甚是清爽",
+      "Gale": "风在奔涌",
+      "StormComing": "风暴将至...",
+      "Storm": "猛烈的风雨正在席卷大地",
+      "DragonGod": "一定是龙神在发怒了...",
+      "Peaceful": "希望今天也是相安无事的一天",
+      "Party": "世界充满着欢快的气氛",
+      "Lanterns": "和平的气息从四周升起",
+      "ToTenshi": "天女大人您还是安分点吧..."
+    },
+    "Tenshi": {
+      "1": "我要向你们证明，我是很强的！",
+      "2": "今天也要大干一场！",
+      "3": "天界太无聊了...所以本天人特别下凡来照顾一下你们这些地上人！"
+    },
+    "Junko": {
+      "1": "嫦娥啊，你看到了吗..."
+    },
+    "Kogasa": {
+      "1": "略略略略~",
+      "2": "吓你一跳！"
+    },
+    "Koishi": {
+      "1": "恋恋可以和你一起玩吗？",
+      "2": "我要把你挂到地灵殿门口去当——当什么好呢...",
+      "3": "想要玩心跳大冒险吗？",
+      "4": "你有在注意恋恋吗？",
+      "5": "就算是姐姐，也不知道恋恋在想什么哦。",
+      "Call1": "喂喂？",
+      "Call2": "是我，恋啊......",
+      "Call3": "我现在就在你背后哦..."
+    },
+    "Satori": {
+      "1": "让我看看你在想什么...",
+      "2": "想起了有意思的事情...",
+      "3": "你的内心好单纯啊，除了打架就是搜刮...",
+      "ToKoishi": "姐姐现在就在看着你呢...",
+      "ToUtsuho": "阿空也是我最喜欢的乌鸦哦。"
+    },
+    "Utsuho": {
+      "1": "我就是太阳！",
+      "2": "发光发热！",
+      "3": "...我刚刚要说啥来着？",
+      "4": "简直就像回家了一样！",
+      "5": "觉大人最好了！"
+    },
+    "Sekibanki": {
+      "1": "独来独往...",
+      "2": "请不要随便和我说话...",
+      "3": "一直以来我都穿着斗篷，",
+      "Story2": "因为我不喜欢被人类认出是妖怪，",
+      "Story3": "人类不喜欢妖怪，我也不怎么想亲近人类...",
+      "Story4": "...好吧，除了你",
+      "Henshin1": "...由我来超越！",
+      "Henshin2": "超——变——身——！！！",
+      "Henshin3": "......",
+      "Henshin4": "...呃，你什么都没听见"
+    },
+    "Marisa": {
+      "1": "今天要试试哪种魔法呢...",
+      "2": "嘿，那个东西好像很值得收藏...",
+      "3": "你喜欢星星吗？",
+      "4": "今天天气不错啊Da⭐ze！",
+      "5": "天上好多星星啊！",
+      "6": "嘿，嘿，灵梦。",
+      "10": "今天的天象不太正常...",
+      "ToReimu1": "我今天找到了一个很有意思的东西！",
+      "ToReimu2": "不是啦...是一颗落星！货真价实的星星欸！",
+      "ToReimu3": "但这颗星星要更闪亮一些啊，你不觉得吗？",
+      "ToReimu4": "欸嘿嘿嘿..."
+    },
+    "Reimu": {
+      "1": "今天也很闲呢...",
+      "2": "谁可以给我投点赛钱啊...",
+      "3": "啧，看来有“异变”出现了...",
+      "8": "说麻烦麻烦就到...",
+      "Sleepy": "好困...",
+      "ToMarisa0": "这是“异变”啊...",
+      "ToMarisa1": "...咋了？",
+      "ToMarisa2": "是什么？不会又是从图书馆偷来的书吧...",
+      "ToMarisa3": "...那东西不是一到夜晚满地都是么？",
+      "ToMarisa4": "不觉得，一定是你又闲得慌了...",
+      "ToSanae": "给我适可而止啊喂！"
+    },
+    "Sanae": {
+      "1": "我将永远追随两位大人...",
+      "2": "在这里，可不能被常识束缚啊！",
+      "3": "偶尔也会怀念过去的日子...啊啊，当下才最重要啊！",
+      "4": "加入守矢神社，信仰伟大的乾神和坤神吧！",
+      "5": "感受风的气息！"
+    }
+  },
+  "DeathReason": {
+    "KilledByKoishi": "{0}死于无意识的谋杀。"
+  }
+}

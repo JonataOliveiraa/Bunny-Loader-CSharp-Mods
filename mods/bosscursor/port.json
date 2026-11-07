@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "bosscursor",
+    "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
+    "version": "1.1.0",
+    "sha256": "05f567352afcf759cd783dc061675d62e7cb161225144338b4b91a122f2e1f77"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C#, with the same behavior."
+}

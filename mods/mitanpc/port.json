@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "mitanpc",
+    "uid": "e651d97d-eb24-51b5-bdc2-57722a898f79",
+    "version": "1.0.2",
+    "sha256": "0dd5831fab8820fa20a05e23029678ab8f09d8c8ef97b22311fd89c3e563a3cf"
+  },
+  "license": "MIT",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same stats, shops, prices, dialogue, voices and town melee behavior. Mood lines move to the game's own TownNPCMood_mitanpc/<NPC> keys in Localization/<culture>.hjson, with the game's {BiomeName} and {NPCName} placeholders, because the C# loader has no mapping from TownNPCMood.<NPC> as the JavaScript loader had. The love for the other resident is set in SetStaticDefaults instead of a PostSetupContent step. The Fly's removal sound plays when the buff icon is tapped, just before the removal instead of just after. Dialogues.json is read with a small scanner because the phone has no System.Text.Json."
+}

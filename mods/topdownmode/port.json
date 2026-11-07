@@ -1,0 +1,11 @@
+{
+  "upstream": {
+    "id": "topdownmode",
+    "uid": "7b1e9c52-3f4a-4d6e-9a18-5c2d8e0f41a7",
+    "version": "0.31.0",
+    "sha256": "877eb21f23319616f0bb08de1e7df2537712f212ec9834670ca1c4483f0d2314"
+  },
+  "license": "NONE",
+  "permission": null,
+  "changes": "Ported from JavaScript to C# with the same numbers, data and defaults; heights, rivers, lakes, biomes and spawn compared equal to the JavaScript generator on three seeds. C# configs have no conditional greying or slider suffixes, so every option is always editable and the swing arc shows no degree sign. The JavaScript console helpers (TopDownWorld.build, TopDownCave.enter, status and cleanup functions) moved to the /topdown chat command; the probes that listed bridge methods are gone, and console-only tuning switches stay at their defaults. In-game messages that were only in Portuguese are now in English. Removed because the game does not have them, so they never had an effect: WorldItem.noGrabDelay, TileID.Sets.CanBeClimbed, WorldGen.gen, a setter for Main.UnderworldLayer, TileDrawing.Reset, WorldSections.SetAllFramedSectionsAsUnframed and Main.DrawNPC(int, bool). The native tile searches of the JavaScript bridge are plain C# loops over Main.tile."
+}
