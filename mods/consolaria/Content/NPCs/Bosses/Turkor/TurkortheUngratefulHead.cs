@@ -11,17 +11,6 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Consolaria.Content.NPCs.Bosses.Turkor {
-    internal sealed class TurkorHeadBossBar : ModBossBar {
-        public override bool? ModifyInfo(ref Terraria.GameContent.UI.BigProgressBar.BigProgressBarInfo info, ref float life, ref float lifeMax, ref float shield, ref float shieldMax) {
-            int body = NPC.FindFirstNPC(ModContent.NPCType<TurkortheUngrateful>());
-            if (body == -1) {
-                return false;
-            }
-            info.npcIndexToAimAt = body;
-            return null;
-        }
-    }
-
     [AutoloadBossHead]
     public class TurkortheUngratefulHead : ModNPC {
         private int turntimer = 0;
@@ -75,8 +64,7 @@ namespace Consolaria.Content.NPCs.Bosses.Turkor {
             NPC.lavaImmune = true;
             NPC.noGravity = true;
 
-            // Main.BigBossProgressBar.NeverValid does not exist on the phone: this bar follows the body instead.
-            NPC.BossBar = ModContent.GetInstance<TurkorHeadBossBar>();
+            NPC.BossBar = Main.BigBossProgressBar.NeverValid;
 
             if (Main.masterMode) NPC.lifeMax = (int)(NPC.lifeMax * 0.798f);
         }

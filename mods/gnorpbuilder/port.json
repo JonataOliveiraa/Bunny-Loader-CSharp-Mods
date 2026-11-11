@@ -7,5 +7,5 @@
   },
   "license": "NONE",
   "permission": null,
-  "changes": "Ported from JavaScript to C#. Structures, shops, prices and defaults are unchanged. Gnorp's mood lines go through a hook on ShopHelper.AddHappinessReportText, because the C# loader does not point the game's mood keys at a mod's texts; their {0} became {BiomeName} and {NPCName}. The party, shimmer and portrait sprites are declared in a town NPC profile instead of being found by file name. The food in the bar room's platters is written to TEFoodPlatter.item by field name, because that class has no C# proxy. The image opacity slider shows a plain number, because C# configs have no % suffix. The structure index is read by a small JSON reader in the mod, because the phone has no System.Text.Json."
+  "changes": "Ported from JavaScript to C#. Structures, shops, prices and defaults are unchanged. In Gnorp's mood lines, {0} became {BiomeName} and {NPCName}. The party, shimmer and portrait sprites are declared in a town NPC profile instead of being found by file name. The image opacity slider shows a plain number, because C# configs have no % suffix."
 }

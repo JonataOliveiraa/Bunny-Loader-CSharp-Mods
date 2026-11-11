@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Text.Json;
 using BunnyLoader.Interop;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.GameContent.Tile_Entities;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -13,7 +14,7 @@ namespace GnorpBuilderMod.Common;
 // The structures: Builds/index.json has each one's size and its chests, signs and tile entities;
 // Builds/<name>.gns has the cells: "GNS1", width and height (u16), then column by column one
 // flags byte per cell followed by the parts the flags announce.
-public static unsafe class Structures
+public static class Structures
 {
     const byte NullTile = 1, NullWall = 2, HasTile = 4, HasWall = 8, HasLiquid = 16;
     const int SyncChunk = 32;
@@ -45,10 +46,6 @@ public static unsafe class Structures
         public int W, H;
     }
 
-    // The only tile entity the data gives an item to. The class has no proxy, so its field goes by name.
-    static readonly GameClass FoodPlatter = new("Terraria.GameContent.Tile_Entities", "TEFoodPlatter");
-    static int foodPlatterItemOffset = -1;
-
     static Dictionary<string, Entry>? index;
     static readonly Dictionary<string, Cells> Cache = new();
 
@@ -58,9 +55,9 @@ public static unsafe class Structures
         var result = new Dictionary<string, Entry>(StringComparer.Ordinal);
         try
         {
-            string json = Encoding.UTF8.GetString(ModContent.GetFileBytes(Util.ModName + "/Builds/index.json"));
-            foreach ((string name, object? value) in (Dictionary<string, object?>)MiniJson.Parse(json)!)
-                result[name] = ReadEntry((Dictionary<string, object?>)value!);
+            using JsonDocument json = JsonDocument.Parse(ModContent.GetFileBytes(Util.ModName + "/Builds/index.json"));
+            foreach (JsonProperty build in json.RootElement.EnumerateObject())
+                result[build.Name] = ReadEntry(build.Value);
         }
         catch (Exception e)
         {
@@ -69,38 +66,34 @@ public static unsafe class Structures
         return index = result;
     }
 
-    static Entry ReadEntry(Dictionary<string, object?> data)
+    static Entry ReadEntry(JsonElement data)
     {
         var entry = new Entry { W = Int(data, "w"), H = Int(data, "h") };
-        if (!data.TryGetValue("nbt", out object? nbt) || nbt is not List<object?> list) return entry;
-        entry.Nbt = new List<Extra>(list.Count);
-        foreach (object? item in list)
+        if (!data.TryGetProperty("nbt", out JsonElement list) || list.ValueKind != JsonValueKind.Array) return entry;
+        entry.Nbt = new List<Extra>(list.GetArrayLength());
+        foreach (JsonElement e in list.EnumerateArray())
         {
-            var e = (Dictionary<string, object?>)item!;
             var extra = new Extra
             {
-                Kind = (string)e["kind"]!,
+                Kind = e.GetProperty("kind").GetString()!,
                 X = Int(e, "x"),
                 Y = Int(e, "y"),
                 Type = Int(e, "type"),
                 Item = Int(e, "item"),
-                Text = e.TryGetValue("text", out object? text) ? text as string ?? "" : "",
+                Text = e.TryGetProperty("text", out JsonElement text) && text.ValueKind == JsonValueKind.String ? text.GetString()! : "",
             };
-            if (e.TryGetValue("items", out object? items) && items is List<object?> slots)
+            if (e.TryGetProperty("items", out JsonElement slots) && slots.ValueKind == JsonValueKind.Array)
             {
-                foreach (object? slot in slots)
-                {
-                    var row = (List<object?>)slot!;
-                    extra.Items.Add(new ChestItem { Mod = (string)row[0]!, Type = (int)(double)row[1]!, Stack = (int)(double)row[2]! });
-                }
+                foreach (JsonElement row in slots.EnumerateArray())
+                    extra.Items.Add(new ChestItem { Mod = row[0].GetString()!, Type = (int)row[1].GetDouble(), Stack = (int)row[2].GetDouble() });
             }
             entry.Nbt.Add(extra);
         }
         return entry;
     }
 
-    static int Int(Dictionary<string, object?> data, string key) =>
-        data.TryGetValue(key, out object? value) && value is double number ? (int)number : 0;
+    static int Int(JsonElement data, string key) =>
+        data.TryGetProperty(key, out JsonElement value) && value.ValueKind == JsonValueKind.Number ? (int)value.GetDouble() : 0;
 
     static Cells? Data(string name)
     {
@@ -282,11 +275,12 @@ public static unsafe class Structures
 
         var byPosition = new GameDictionary(TileEntity.ByPosition);
         if (!byPosition.TryGetValue(TileEntity.GetKey(x, y), out IntPtr entity) || entity == IntPtr.Zero) return;
-        if (!GameInterop.IsInstance(entity, FoodPlatter)) return;
+        var platter = new GameObject(entity);
+        if (!TEFoodPlatter.Is(platter)) return;
 
         Item item = Item.New();
         item.SetDefaults(e.Item, default);
-        *(IntPtr*)(entity + GameInterop.Offset(ref foodPlatterItemOffset, FoodPlatter, "item")) = item.Pointer;
+        TEFoodPlatter.From(platter).item = item;
         if ((Main.netMode & NetmodeID.Server) != 0)
             NetMessage.SendData(NetTileEntitySync, -1, -1, default(NetworkText), new TileEntity(entity).ID, x, y, 0f, 0, 0, 0);
     }

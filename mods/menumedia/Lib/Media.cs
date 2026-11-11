@@ -215,7 +215,7 @@ public sealed class Theme
             + gif.OutWidth + "x" + gif.OutHeight + ", " + gif.Count + " frames, " + gif.Duration + " ms, min " + Math.Round(minInterval) + " ms per kept frame");
     }
 
-    // The frame list of a finished preparation: a text file, because the phone has no JSON library.
+    // The frame list of a finished preparation, in meta.txt.
     static bool ReadMeta(string absolute, out List<int> cached)
     {
         cached = new List<int>();

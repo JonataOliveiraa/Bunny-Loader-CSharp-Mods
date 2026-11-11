@@ -16,8 +16,6 @@ public class BoostSystem : ModSystem
         Profiler.Install();
         Savings.InstallCulling();
         Savings.InstallVisualSkips();
-        Savings.InstallMinimapThrottling();
-        Savings.InstallLiquidThrottling();
     }
 
     public override void OnWorldLoad() => FrameLoop.WorldLoaded();

@@ -102,7 +102,7 @@ namespace Consolaria.Content.Structures {
                 if (chestIndex != -1)
                     AddHeartShrineLoot(Main.chest[chestIndex].item);
 
-                WorldGenHelper.AddStructure(new Rectangle(heartShrinePositionX, heartShrinePositionY, width, height), 2);
+                GenVars.structures.AddStructure(new Rectangle(heartShrinePositionX, heartShrinePositionY, width, height), 2);
             } while (structureCount != WorldGenHelper.GetWorldSize());
         }
 

@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using BunnyLoader.Interop;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -265,7 +264,6 @@ public static class Sync
     static readonly double[] joinAt = new double[255];
     static double timerStart, lastSend, lastMark, lastWatch;
     static int fullScans;
-    static int connectionStateOffset = -1;
 
     static int Mode => Main.netMode;
 
@@ -276,21 +274,12 @@ public static class Sync
 
     public static bool Blocked => outbox.Count >= MAX_OUTBOX;
 
-    static unsafe bool Joined()
+    static bool Joined()
     {
         if (Mode != 1)
             return true;
-        try
-        {
-            RemoteConnection connection = Netplay.Connection;
-            return !connection.IsNull
-                && *(int*)(connection.Pointer + GameInterop.Offset(ref connectionStateOffset, RemoteConnection.Class, "State")) >= JOINED;
-        }
-        catch (Exception e)
-        {
-            Util.LogOnce("connection", "RemoteConnection.State is not readable: " + e.Message);
-            return false;
-        }
+        RemoteConnection connection = Netplay.Connection;
+        return !connection.IsNull && connection.State >= JOINED;
     }
 
     public static Area ChunkArea(int c)
@@ -454,11 +443,6 @@ public static class Sync
     {
         if (scanning)
             return false;
-        if (!MapAccess.CanRead())
-        {
-            Util.LogOnce("noread", "WorldMap.IsRevealed is unavailable: cannot read the map");
-            return false;
-        }
         if (force)
             MarkAll();
         int[] chunks = new int[dirty.Count];
@@ -569,11 +553,6 @@ public static class Sync
 
     static void Apply(byte[] payload)
     {
-        if (!MapAccess.CanWrite() || !MapAccess.CanRead())
-        {
-            Util.LogOnce("nowrite", "WorldMap.SetTile/IsRevealed is unavailable: cannot write the map");
-            return;
-        }
         applies.Add(new ApplyJob(payload));
     }
 

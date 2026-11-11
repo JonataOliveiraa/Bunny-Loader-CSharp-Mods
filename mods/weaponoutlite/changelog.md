@@ -1,3 +1,7 @@
+## 2.0.1
+
+ItemOverrides.json is read and written with System.Text.Json instead of a built-in parser, in the same place and format.
+
 ## 2.0.0
 
 Ported from JavaScript to C#, with the same poses, numbers, defaults and commands. The Next Group, Turn Sprite and Clear Override config buttons are gone because C# configs have no buttons: use /wo next, /wo turn and /wo clear. Section title colors, the s/px/% suffixes on sliders and the greyed-out Show Item row are gone too: the C# config screen has no such options. /weaponout is now a second command, listed apart in /help. In multiplayer on a phone host (netMode 3), the host now passes pose packets on to the other players and announces its own held item changes; the JavaScript version tested dedServ and netMode 1, so neither happened there. Options saved by the JavaScript version are not read and start from the defaults, because C# configs use another file. ItemOverrides.json stays in the same folder. The RegisterCustom* calls take C# delegates.

@@ -76,7 +76,8 @@ namespace Consolaria.Content.Projectiles.Friendly.Pets {
 
         public override void PostAI() {
             if (Projectile.wet && Projectile.lavaWet && Main.netMode != NetmodeID.Server && Main.GameUpdateCount % 40 == 0) {
-                SoundEngine.PlaySound(SoundID.Zombie, Projectile.Center, 104);
+                SoundStyle style = SoundID.ScaryScream;
+                SoundEngine.PlaySound(style, Projectile.Center);
             }
         }
     }

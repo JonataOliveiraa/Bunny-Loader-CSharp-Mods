@@ -130,7 +130,7 @@ namespace Consolaria.Content.Projectiles.Friendly {
                             if (Main.tileDungeon[Main.tile[i, j].TileType] || Main.tile[i, j].TileType == 88 || Main.tile[i, j].TileType == 21 || Main.tile[i, j].TileType == 26 || Main.tile[i, j].TileType == 107 || Main.tile[i, j].TileType == 108 || Main.tile[i, j].TileType == 111 || Main.tile[i, j].TileType == 226 || Main.tile[i, j].TileType == 237 || Main.tile[i, j].TileType == 221 || Main.tile[i, j].TileType == 222 || Main.tile[i, j].TileType == 223 || Main.tile[i, j].TileType == 211 || Main.tile[i, j].TileType == 404)
                                 canKillTile = false;
                             if (!Main.hardMode && Main.tile[i, j].TileType == 58) canKillTile = false;
-                            if (TileLoader.GetTile(Main.tile[i, j].TileType) is { } modTile && !modTile.CanExplode(i, j)) canKillTile = false;
+                            if (!TileLoader.CanExplode(i, j)) canKillTile = false;
                             if (canKillTile) {
                                 WorldGen.KillTile(i, j, false, false, false);
                                 if (!Main.tile[i, j].HasTile && Main.netMode != NetmodeID.SinglePlayer)
@@ -140,7 +140,7 @@ namespace Consolaria.Content.Projectiles.Friendly {
                         if (canKillTile) {
                             for (int x = i - 1; x <= i + 1; x++) {
                                 for (int y = j - 1; y <= j + 1; y++) {
-                                    if (Main.tile[x, y].WallType > 0 && canKillWalls && (WallLoader.GetWall(Main.tile[x, y].WallType) is not { } modWall || modWall.CanExplode(x, y))) {
+                                    if (Main.tile[x, y].WallType > 0 && canKillWalls && WallLoader.CanExplode(x, y, Main.tile[x, y].WallType)) {
                                         WorldGen.KillWall(x, y, false);
                                         if (Main.tile[x, y].WallType == 0 && Main.netMode != NetmodeID.SinglePlayer)
                                             NetMessage.SendData(MessageID.TileManipulation, -1, -1, default, 2, x, y, 0f, 0, 0, 0);

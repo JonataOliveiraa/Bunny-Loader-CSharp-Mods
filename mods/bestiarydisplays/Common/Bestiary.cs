@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using BunnyLoader.Interop;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -248,42 +247,11 @@ public static class Bestiary
     }
 }
 
-// The bestiary's providers share an interface whose method has no proxy, and only one of the
-// provider classes has a proxy of its own. Each object's real class is asked for the method,
-// by name, the first time it is seen. This only fails when the game runs.
-static unsafe class UnlockState
+static class UnlockState
 {
-    const string Namespace = "Terraria.GameContent.Bestiary";
-    const string Signature = "BestiaryUICollectionInfo GetEntryUICollectionInfo()";
-
-    sealed class Bound
-    {
-        public GameClass? cls;
-        public MethodRef method;
-    }
-
-    static readonly Dictionary<IntPtr, Bound> byClass = new();
-    static readonly int[] Layout = { sizeof(BestiaryUICollectionInfo) };
-
     public static int Of(BestiaryEntry entry)
     {
         IBestiaryUICollectionInfoProvider provider = entry.UIInfoProvider;
-        if (provider.IsNull)
-            return 0;
-        IntPtr self = provider.Pointer;
-        IntPtr klass = *(IntPtr*)self;
-        if (!byClass.TryGetValue(klass, out Bound? bound))
-        {
-            bound = new Bound { cls = new GameClass(Namespace, GameInterop.ClassNameOf(self)) };
-            byClass[klass] = bound;
-        }
-        ref readonly MethodRef method = ref GameInterop.Method(ref bound.method, bound.cls!, Signature, Layout);
-        CallFrame frame;
-        Unsafe.SkipInit(out frame);
-        frame.X[0] = (long)self;
-        frame.X[1] = (long)method.Info;
-        frame.Ret = RetKind.S16;
-        GameInterop.Call(method.Fn, &frame);
-        return (int)(*(BestiaryUICollectionInfo*)frame.Out).UnlockState;
+        return provider.IsNull ? 0 : (int)provider.GetEntryUICollectionInfo().UnlockState;
     }
 }

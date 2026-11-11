@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
+using System.Text.Json;
 using mitanpc.Content.NPCs.TownNPCs;
 using mitanpc.Content.Projectiles;
 using Microsoft.Xna.Framework;
@@ -105,19 +104,25 @@ public abstract class TownNPCBase : ModNPC
         bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement($"Mods.{Mod.Name}.Bestiary.{Name}"));
     }
 
-    // dialogues.json has one simple shape, and the phone has no System.Text.Json.
     Dictionary<string, List<DialogueLine>> Dialogues()
     {
         if (dialogues != null)
             return dialogues;
         var result = new Dictionary<string, List<DialogueLine>>();
-        string json = Encoding.UTF8.GetString(Mod.GetFileBytes("Assets/dialogues.json"));
-        foreach (Match section in Regex.Matches(json, "\"(\\w+)\"\\s*:\\s*\\[(.*?)\\]", RegexOptions.Singleline))
+        using JsonDocument json = JsonDocument.Parse(Mod.GetFileBytes("Assets/dialogues.json"));
+        foreach (JsonProperty section in json.RootElement.EnumerateObject())
         {
+            if (section.Value.ValueKind != JsonValueKind.Array)
+                continue;
             var lines = new List<DialogueLine>();
-            foreach (Match line in Regex.Matches(section.Groups[2].Value, "\"key\"\\s*:\\s*\"([^\"]+)\"\\s*,\\s*\"sound\"\\s*:\\s*\"([^\"]+)\""))
-                lines.Add(new DialogueLine(line.Groups[1].Value, line.Groups[2].Value));
-            result[section.Groups[1].Value] = lines;
+            foreach (JsonElement line in section.Value.EnumerateArray())
+            {
+                if (line.ValueKind == JsonValueKind.Object
+                    && line.TryGetProperty("key", out JsonElement key) && key.ValueKind == JsonValueKind.String
+                    && line.TryGetProperty("sound", out JsonElement sound) && sound.ValueKind == JsonValueKind.String)
+                    lines.Add(new DialogueLine(key.GetString()!, sound.GetString()!));
+            }
+            result[section.Name] = lines;
         }
         return dialogues = result;
     }

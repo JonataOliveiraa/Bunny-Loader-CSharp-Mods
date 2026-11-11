@@ -4,6 +4,8 @@ using System.Globalization;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -256,225 +258,60 @@ public static class Overrides
         Save();
     }
 
-    // The file is plain JSON and System.Text.Json is not on the phone. This reads the JSON grammar
-    // into strings, numbers, lists and dictionaries, and writes the entries as JSON.stringify(list, null, 2) did.
+    // Reads the entries, and writes them as JSON.stringify(list, null, 2) did.
     static class Json
     {
         public static List<Entry>? ReadEntries(string text)
         {
-            int i = 0;
-            object? root = Value(text, ref i);
-            SkipSpace(text, ref i);
-            if (i != text.Length)
-                throw new FormatException("text after the end of the JSON, at " + i);
-            if (root is not List<object?> items)
+            using JsonDocument json = JsonDocument.Parse(text);
+            if (json.RootElement.ValueKind != JsonValueKind.Array)
                 return null;
             var entries = new List<Entry>();
-            foreach (object? item in items)
+            foreach (JsonElement item in json.RootElement.EnumerateArray())
             {
-                if (item is not Dictionary<string, object?> fields)
+                if (item.ValueKind != JsonValueKind.Object)
                     continue;
-                fields.TryGetValue("Item", out object? key);
-                fields.TryGetValue("ForcePoseGroup", out object? group);
-                fields.TryGetValue("ForceDrawItemPose", out object? pose);
-                fields.TryGetValue("SpriteTurn", out object? turn);
                 entries.Add(new Entry
                 {
-                    Item = key is double number ? number.ToString(CultureInfo.InvariantCulture) : key as string ?? "",
-                    ForcePoseGroup = group as string,
-                    ForceDrawItemPose = pose as string,
-                    SpriteTurn = turn as double?,
+                    Item = Field(item, "Item") switch
+                    {
+                        { ValueKind: JsonValueKind.Number } number => number.GetDouble().ToString(CultureInfo.InvariantCulture),
+                        { ValueKind: JsonValueKind.String } key => key.GetString()!,
+                        _ => "",
+                    },
+                    ForcePoseGroup = Text(item, "ForcePoseGroup"),
+                    ForceDrawItemPose = Text(item, "ForceDrawItemPose"),
+                    SpriteTurn = Field(item, "SpriteTurn") is { ValueKind: JsonValueKind.Number } turn ? turn.GetDouble() : null,
                 });
             }
             return entries;
         }
 
-        static void SkipSpace(string s, ref int i)
-        {
-            while (i < s.Length && (s[i] == ' ' || s[i] == '\t' || s[i] == '\r' || s[i] == '\n'))
-                i++;
-        }
+        static JsonElement? Field(JsonElement item, string name) => item.TryGetProperty(name, out JsonElement value) ? value : null;
 
-        static object? Value(string s, ref int i)
-        {
-            SkipSpace(s, ref i);
-            if (i >= s.Length)
-                throw new FormatException("unexpected end of the JSON");
-            char c = s[i];
-            if (c == '{')
-                return Object(s, ref i);
-            if (c == '[')
-                return Array(s, ref i);
-            if (c == '"')
-                return String(s, ref i);
-            if (Word(s, ref i, "true"))
-                return true;
-            if (Word(s, ref i, "false"))
-                return false;
-            if (Word(s, ref i, "null"))
-                return null;
-            return Number(s, ref i);
-        }
-
-        static bool Word(string s, ref int i, string word)
-        {
-            if (string.CompareOrdinal(s, i, word, 0, word.Length) != 0)
-                return false;
-            i += word.Length;
-            return true;
-        }
-
-        static double Number(string s, ref int i)
-        {
-            int start = i;
-            while (i < s.Length && (char.IsAsciiDigit(s[i]) || s[i] == '-' || s[i] == '+' || s[i] == '.' || s[i] == 'e' || s[i] == 'E'))
-                i++;
-            return double.Parse(s.AsSpan(start, i - start), NumberStyles.Float, CultureInfo.InvariantCulture);
-        }
-
-        static string String(string s, ref int i)
-        {
-            var text = new StringBuilder();
-            i++;
-            while (true)
-            {
-                char c = s[i++];
-                if (c == '"')
-                    return text.ToString();
-                if (c != '\\')
-                {
-                    text.Append(c);
-                    continue;
-                }
-                char escape = s[i++];
-                switch (escape)
-                {
-                    case 'b': text.Append('\b'); break;
-                    case 'f': text.Append('\f'); break;
-                    case 'n': text.Append('\n'); break;
-                    case 'r': text.Append('\r'); break;
-                    case 't': text.Append('\t'); break;
-                    case 'u':
-                        text.Append((char)int.Parse(s.AsSpan(i, 4), NumberStyles.HexNumber, CultureInfo.InvariantCulture));
-                        i += 4;
-                        break;
-                    default: text.Append(escape); break;
-                }
-            }
-        }
-
-        static List<object?> Array(string s, ref int i)
-        {
-            var items = new List<object?>();
-            i++;
-            SkipSpace(s, ref i);
-            if (s[i] == ']')
-            {
-                i++;
-                return items;
-            }
-            while (true)
-            {
-                items.Add(Value(s, ref i));
-                SkipSpace(s, ref i);
-                char c = s[i++];
-                if (c == ']')
-                    return items;
-                if (c != ',')
-                    throw new FormatException("expected , or ] at " + (i - 1));
-            }
-        }
-
-        static Dictionary<string, object?> Object(string s, ref int i)
-        {
-            var fields = new Dictionary<string, object?>();
-            i++;
-            SkipSpace(s, ref i);
-            if (s[i] == '}')
-            {
-                i++;
-                return fields;
-            }
-            while (true)
-            {
-                SkipSpace(s, ref i);
-                if (s[i] != '"')
-                    throw new FormatException("expected a name at " + i);
-                string name = String(s, ref i);
-                SkipSpace(s, ref i);
-                if (s[i++] != ':')
-                    throw new FormatException("expected : at " + (i - 1));
-                fields[name] = Value(s, ref i);
-                SkipSpace(s, ref i);
-                char c = s[i++];
-                if (c == '}')
-                    return fields;
-                if (c != ',')
-                    throw new FormatException("expected , or } at " + (i - 1));
-            }
-        }
-
-        static void Quoted(StringBuilder text, string value)
-        {
-            text.Append('"');
-            foreach (char c in value)
-            {
-                switch (c)
-                {
-                    case '"': text.Append("\\\""); break;
-                    case '\\': text.Append("\\\\"); break;
-                    case '\n': text.Append("\\n"); break;
-                    case '\r': text.Append("\\r"); break;
-                    case '\t': text.Append("\\t"); break;
-                    default:
-                        if (c < ' ')
-                            text.Append("\\u").Append(((int)c).ToString("x4", CultureInfo.InvariantCulture));
-                        else
-                            text.Append(c);
-                        break;
-                }
-            }
-            text.Append('"');
-        }
-
-        static void Field(StringBuilder text, string name, string? value, ref bool first)
-        {
-            if (value == null)
-                return;
-            if (!first)
-                text.Append(",\n");
-            first = false;
-            text.Append("    ");
-            Quoted(text, name);
-            text.Append(": ");
-            Quoted(text, value);
-        }
+        static string? Text(JsonElement item, string name) => Field(item, name) is { ValueKind: JsonValueKind.String } value ? value.GetString() : null;
 
         public static string WriteEntries(List<Entry> entries)
         {
-            if (entries.Count == 0)
-                return "[]";
-            var text = new StringBuilder("[\n");
-            for (int k = 0; k < entries.Count; k++)
+            using var stream = new MemoryStream();
+            using (var writer = new Utf8JsonWriter(stream, new JsonWriterOptions { Indented = true, Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping }))
             {
-                Entry entry = entries[k];
-                bool first = true;
-                text.Append("  {\n");
-                Field(text, "Item", entry.Item, ref first);
-                Field(text, "ForcePoseGroup", entry.ForcePoseGroup, ref first);
-                Field(text, "ForceDrawItemPose", entry.ForceDrawItemPose, ref first);
-                if (entry.SpriteTurn is { } turn)
+                writer.WriteStartArray();
+                foreach (Entry entry in entries)
                 {
-                    if (!first)
-                        text.Append(",\n");
-                    first = false;
-                    text.Append("    \"SpriteTurn\": ").Append(turn.ToString(CultureInfo.InvariantCulture));
+                    writer.WriteStartObject();
+                    writer.WriteString("Item", entry.Item);
+                    if (entry.ForcePoseGroup != null)
+                        writer.WriteString("ForcePoseGroup", entry.ForcePoseGroup);
+                    if (entry.ForceDrawItemPose != null)
+                        writer.WriteString("ForceDrawItemPose", entry.ForceDrawItemPose);
+                    if (entry.SpriteTurn is { } turn)
+                        writer.WriteNumber("SpriteTurn", turn);
+                    writer.WriteEndObject();
                 }
-                text.Append("\n  }");
-                text.Append(k < entries.Count - 1 ? ",\n" : "\n");
+                writer.WriteEndArray();
             }
-            text.Append(']');
-            return text.ToString();
+            return Encoding.UTF8.GetString(stream.ToArray());
         }
     }
 }

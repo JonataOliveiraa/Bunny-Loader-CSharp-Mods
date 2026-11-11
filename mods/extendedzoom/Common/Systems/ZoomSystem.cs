@@ -1,5 +1,4 @@
 using System;
-using BunnyLoader.Interop;
 using ExtendedZoomMod.Common.Configs;
 using ExtendedZoomMod.Lib;
 using Terraria;
@@ -7,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace ExtendedZoomMod.Common.Systems;
 
-public unsafe class ZoomSystem : ModSystem
+public class ZoomSystem : ModSystem
 {
     const float Farther = 1.25f;   // zoom-out limit with "Farther Zoom" on (off = 1.0, the normal one)
     const double Speed = 12;       // the higher, the faster the zoom arrives (~90% in 0.2 s)
@@ -20,11 +19,6 @@ public unsafe class ZoomSystem : ModSystem
     // map), opened with the button = on (pinching zooms the map).
     static bool? mapOriginal;   // the game's value before we touched it
     static bool mapManaged, mapBroken;
-    static int pinchMapOffset = -1;
-
-    // GUIZoom has no proxy members, so this reads the field by name.
-    static ref bool PinchZoomMapEnabled(GUIZoom flags) =>
-        ref *(bool*)(flags.Pointer + GameInterop.Offset(ref pinchMapOffset, GUIZoom.Class, "PinchZoomMapEnabled"));
 
     static void ManagePinchMap()
     {
@@ -35,7 +29,7 @@ public unsafe class ZoomSystem : ModSystem
             GUIInstance gui = GUIInstance.Active;
             if (gui.IsNull || gui.GUIZoom.IsNull)
                 return;
-            ref bool enabled = ref PinchZoomMapEnabled(gui.GUIZoom);
+            ref bool enabled = ref gui.GUIZoom.PinchZoomMapEnabled;
             if (!ZoomState.NoPinchMap)
             {
                 if (mapManaged && mapOriginal != null)

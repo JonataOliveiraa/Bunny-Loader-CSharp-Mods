@@ -13,8 +13,8 @@ using Terraria.Utilities;
 
 namespace Consolaria {
     // The default Texture comes from the namespace, "Consolaria/Content/...", while the mod is
-    // called "consolaria". Mod.Name comparisons in the loader (ModContent.Request,
-    // EquipLoader.FileOf) are case sensitive, so the first segment has to follow the mod name.
+    // called "consolaria". Mod.AddNPCHeadTexture strips the mod name from the path case
+    // sensitively, so the first segment has to follow the mod name.
     internal static class ContentPath {
         public static string Of(string defaultPath)
             => defaultPath.StartsWith("Consolaria/", StringComparison.Ordinal) ? "consolaria/" + defaultPath["Consolaria/".Length..] : defaultPath;
@@ -52,11 +52,6 @@ namespace Consolaria {
     }
 
     internal static class PhoneExtensions {
-        // Recipe.SortAfter and friends do not exist on the phone: recipes keep the order they were added in.
-        public static Recipe SortAfter(this Recipe recipe, Recipe other) => recipe;
-        public static Recipe SortAfterFirstRecipesOf(this Recipe recipe, int itemId) => recipe;
-        public static Recipe SortBeforeFirstRecipesOf(this Recipe recipe, int itemId) => recipe;
-
         public static void SetDefaults(this Item item, int type) => item.SetDefaults(type, default);
 
         public static IEntitySource GetSource_Misc(this Player player, string context) => player.GetSource_FromThis(context);
@@ -88,14 +83,5 @@ namespace Consolaria {
             *(float*)(box + ObjectHeader) = value;
             return new GameObject(box);
         }
-    }
-
-    // Conditions tModLoader has and the phone's Condition lacks.
-    internal static class ConsolariaConditions {
-        public static readonly Condition BloodMoon = new("Conditions.BloodMoon", () => Main.bloodMoon);
-        public static readonly Condition Christmas = new("Conditions.Christmas", () => Main.xMas);
-        public static readonly Condition MoonPhaseFull = new("Conditions.MoonPhaseFull", () => Main.moonPhase == 0);
-        public static readonly Condition MoonPhaseNew = new("Conditions.MoonPhaseNew", () => Main.moonPhase == 4);
-        public static readonly Condition DownedMechBossAny = new("Conditions.DownedMechBossAny", () => NPC.downedMechBossAny);
     }
 }

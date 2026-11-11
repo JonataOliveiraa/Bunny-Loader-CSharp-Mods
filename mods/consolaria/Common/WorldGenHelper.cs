@@ -1,6 +1,4 @@
-﻿using BunnyLoader.Interop;
-
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 
 using Terraria;
 using Terraria.WorldBuilding;
@@ -25,7 +23,7 @@ namespace Consolaria.Common {
                 int x = WorldGen.genRand.Next(minValue, maxValue - width);
                 int y = WorldGen.genRand.Next((int)GenVars.rockLayerLow, (int)GenVars.rockLayer + 100);
                 Rectangle rectangle = new(x, y, width, height);
-                if (CanPlaceStructure(rectangle, 0)) {
+                if (GenVars.structures.CanPlace(rectangle, 0)) {
                     bool flag = true;
                     for (int index2 = 0; index2 < 1000; ++index2) {
                         Chest chest;
@@ -42,31 +40,6 @@ namespace Consolaria.Common {
                 }
             }
             return false;
-        }
-
-        // StructureMap has no typed members in the proxy. Raw names, checked against the game's metadata.
-        private static MethodRef canPlaceMethod, addStructureMethod;
-        private static readonly int[] StructureLayout = { 16, -1, -1 };
-
-        public static unsafe bool CanPlaceStructure(Rectangle area, int padding) {
-            ref readonly MethodRef method = ref GameInterop.Method(ref canPlaceMethod, StructureMap.Class, "bool CanPlace(Rectangle area, int padding)", StructureLayout);
-            return (CallStructureMap(method, area, padding) & 0xff) != 0;
-        }
-
-        public static unsafe void AddStructure(Rectangle area, int padding) {
-            ref readonly MethodRef method = ref GameInterop.Method(ref addStructureMethod, StructureMap.Class, "void AddStructure(Rectangle area, int padding)", StructureLayout);
-            CallStructureMap(method, area, padding);
-        }
-
-        private static unsafe long CallStructureMap(in MethodRef method, Rectangle area, int padding) {
-            CallFrame frame = default;
-            frame.Ret = RetKind.Int;
-            frame.X[0] = (long)GenVars.structures.Pointer;
-            *(Rectangle*)(frame.X + 1) = area;
-            frame.X[3] = padding;
-            frame.X[4] = (long)method.Info;
-            GameInterop.Call(method.Fn, &frame);
-            return (long)frame.Out[0];
         }
 
         public static int GetWorldSize() {

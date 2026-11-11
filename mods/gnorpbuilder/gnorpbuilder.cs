@@ -10,7 +10,6 @@ public class GnorpBuilder : Mod
     public override void Load()
     {
         Instance = this;
-        GnorpMood.Install();
     }
 
     public override void HandlePacket(BinaryReader reader, int whoAmI)

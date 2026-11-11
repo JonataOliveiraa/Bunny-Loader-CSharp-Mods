@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace OryctoMod.Common.Lib;
 
-// The Unity and XNA members this mod needs have no C# binding: BunnyLoader.dll only
+// The Unity members this mod needs have no C# binding: BunnyLoader.dll only
 // generates the types in its list. They are reached here by name, the same way the
 // generated code does it, so a member that is missing fails at run time, not at build
 // time. Those calls throw, and the callers catch and log them.
@@ -26,7 +26,6 @@ public static unsafe class Engine
     static readonly GameClass Touch = new("UnityEngine", "Touch");
 
     static MethodRef setTargetFrameRate, getTouchCount, getTouch, getMouseDown, getMouseUp;
-    static StaticRef frameTick, frameClamp, frameIgnore;
     static int phaseSlot = -1, phaseOffset;
 
     // One layout entry per parameter, plus the return value. -1 skips the size check.
@@ -49,20 +48,20 @@ public static unsafe class Engine
 
     public static long FrameTickTicks
     {
-        get => GameInterop.ReadStatic<long>(ref frameTick, Game.Class, "FrameTickTime");
-        set => GameInterop.WriteStatic(ref frameTick, Game.Class, "FrameTickTime", value, false);
+        get => Game.FrameTickTime.Ticks;
+        set => Game.FrameTickTime = new TimeSpan(value);
     }
 
     public static long FrameClampTicks
     {
-        get => GameInterop.ReadStatic<long>(ref frameClamp, Game.Class, "FrameClampTickTime");
-        set => GameInterop.WriteStatic(ref frameClamp, Game.Class, "FrameClampTickTime", value, false);
+        get => Game.FrameClampTickTime.Ticks;
+        set => Game.FrameClampTickTime = new TimeSpan(value);
     }
 
     public static long FrameIgnoreTicks
     {
-        get => GameInterop.ReadStatic<long>(ref frameIgnore, Game.Class, "FrameIgnoreTime");
-        set => GameInterop.WriteStatic(ref frameIgnore, Game.Class, "FrameIgnoreTime", value, false);
+        get => Game.FrameIgnoreTime.Ticks;
+        set => Game.FrameIgnoreTime = new TimeSpan(value);
     }
 
     // Each group binds on its own: without the touches, the mouse check still works.

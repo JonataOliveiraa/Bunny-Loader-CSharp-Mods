@@ -9,7 +9,7 @@ using Terraria.ModLoader;
 namespace VeinMinerMod.Common;
 
 // The vein-minable blocks: the defaults, plus the player's list. The list is a text
-// file with one "type<TAB>name" per line, because the phone has no System.Text.Json.
+// file in the save folder with one "type<TAB>name" per line.
 public static class TileList
 {
     static readonly HashSet<int> Defaults = new()

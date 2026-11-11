@@ -48,6 +48,23 @@
         "Phrase18": "Сделай лицо попроще.",
         "Phrase19": "Эта морковка меня задолбала!",
         "Phrase20": "О, вернулся!"
+      },
+      "TownNPCMood": {
+        "Content": "Я счастлива! Мне нравится быть здесь. Тут так уютненько)",
+        "NoHome": "Я бы хотела чтобы у меня был дом :(",
+        "FarFromHome": "Я слишком далеко от дома. Это меня расстраивает :(",
+        "LoveSpace": "Я люблю когда мало людей вокруг, не люблю лишние взгляды)",
+        "DislikeCrowded": "Мне не нравится шум вокруг!",
+        "HateCrowded": "Я ненавижу всех этих людей вокруг!!!",
+        "LikeNPC_Princess": "Мне нравится {NPCName}.",
+        "Princess_LovesNPC": "Мне нравится {NPCName}.",
+        "LoveBiome": "Я люблю {BiomeName}.",
+        "LikeBiome": "Мне нравится {BiomeName}.",
+        "DislikeBiome": "Мне не нравится {BiomeName}.",
+        "LoveNPC": "Я люблю {NPCName}.",
+        "LikeNPC": "Мне нравится {NPCName}.",
+        "DislikeNPC": "Мне не нравится {NPCName}.",
+        "HateNPC": "Я ненавижу {NPCName}."
       }
     },
     "MiSidePlayer": {
@@ -65,13 +82,64 @@
       "Phrase11": "Хм... А что это за место?",
       "Phrase12": "Кажется, эта игра мне нравится.",
       "Phrase13": "Мне нравится котики.",
-      "Phrase14": "Э-э-эх-х."
+      "Phrase14": "Э-э-эх-х.",
+      "TownNPCMood": {
+        "Content": "Я счастлив! Мне нравится быть здесь. Тут спокойно.",
+        "NoHome": "Я бы хотел чтобы у меня был дом.",
+        "FarFromHome": "Я слишком далеко от дома.",
+        "LoveSpace": "Мне нравится когда мало людей вокруг.",
+        "DislikeCrowded": "Мне не нравится шум вокруг!",
+        "HateCrowded": "Я ненавижу этих людей вокруг!!!",
+        "LikeNPC_Princess": "Мне нравится {NPCName}.",
+        "Princess_LovesNPC": "Мне нравится {NPCName}.",
+        "LoveBiome": "Я люблю {BiomeName}.",
+        "LikeBiome": "Мне нравится {BiomeName}.",
+        "DislikeBiome": "Мне не нравится {BiomeName}.",
+        "LoveNPC": "Я люблю {NPCName}.",
+        "LikeNPC": "Мне нравится {NPCName}.",
+        "DislikeNPC": "Мне не нравится {NPCName}.",
+        "HateNPC": "Я ненавижу {NPCName}."
+      }
     },
     "Mila": {
-      "DisplayName": "Мила"
+      "DisplayName": "Мила",
+      "TownNPCMood": {
+        "Content": "Я счастлива! Мне нравится быть здесь. Тут так уютненько)",
+        "NoHome": "Я бы хотела чтобы у меня был дом :(",
+        "FarFromHome": "Я слишком далеко от дома. Это меня расстраивает :(",
+        "LoveSpace": "Я люблю когда мало людей вокруг, не люблю лишние взгляды)",
+        "DislikeCrowded": "Мне не нравится шум вокруг!",
+        "HateCrowded": "Я ненавижу всех этих людей вокруг!!!",
+        "LikeNPC_Princess": "Мне нравится {NPCName}.",
+        "Princess_LovesNPC": "Мне нравится {NPCName}.",
+        "LoveBiome": "Я люблю {BiomeName}.",
+        "LikeBiome": "Мне нравится {BiomeName}.",
+        "DislikeBiome": "Мне не нравится {BiomeName}.",
+        "LoveNPC": "Я люблю {NPCName}.",
+        "LikeNPC": "Мне нравится {NPCName}.",
+        "DislikeNPC": "Мне не нравится {NPCName}.",
+        "HateNPC": "Я ненавижу {NPCName}."
+      }
     },
     "Cappie": {
-      "DisplayName": "Кепочка"
+      "DisplayName": "Кепочка",
+      "TownNPCMood": {
+        "Content": "Я счастлива! Мне нравится быть здесь. Тут так уютненько)",
+        "NoHome": "Я бы хотела чтобы у меня был дом :(",
+        "FarFromHome": "Я слишком далеко от дома. Это меня расстраивает :(",
+        "LoveSpace": "Я люблю когда мало людей вокруг, не люблю лишние взгляды)",
+        "DislikeCrowded": "Мне не нравится шум вокруг!",
+        "HateCrowded": "Я ненавижу всех этих людей вокруг!!!",
+        "LikeNPC_Princess": "Мне нравится {NPCName}.",
+        "Princess_LovesNPC": "Мне нравится {NPCName}.",
+        "LoveBiome": "Я люблю {BiomeName}.",
+        "LikeBiome": "Мне нравится {BiomeName}.",
+        "DislikeBiome": "Мне не нравится {BiomeName}.",
+        "LoveNPC": "Я люблю {NPCName}.",
+        "LikeNPC": "Мне нравится {NPCName}.",
+        "DislikeNPC": "Мне не нравится {NPCName}.",
+        "HateNPC": "Я ненавижу {NPCName}."
+      }
     }
   },
   "Items": {

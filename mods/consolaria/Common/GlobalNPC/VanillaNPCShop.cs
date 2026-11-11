@@ -24,18 +24,18 @@ namespace Consolaria.Common {
                 shop.Add(ModContent.ItemType<Content.Items.Weapons.Ranged.SpicySauce>(), turkorDownedCondition);
             }
             if (shop.NpcType == NPCID.TravellingMerchant) {
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodMask>(), ConsolariaConditions.DownedMechBossAny, ConsolariaConditions.MoonPhaseFull);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodRobe>(), ConsolariaConditions.DownedMechBossAny, ConsolariaConditions.MoonPhaseFull);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodBoots>(), ConsolariaConditions.DownedMechBossAny, ConsolariaConditions.MoonPhaseFull);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodMask>(), Condition.DownedMechBossAny, Condition.MoonPhaseFull);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodRobe>(), Condition.DownedMechBossAny, Condition.MoonPhaseFull);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.HornedGodBoots>(), Condition.DownedMechBossAny, Condition.MoonPhaseFull);
             }
             if (shop.NpcType == NPCID.Clothier) {
                 shop.Add(ModContent.ItemType<Content.Items.Pets.OldWalkingStick>());
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.FestiveTopHat>(), ConsolariaConditions.Christmas);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.ShirenShirt>(), ConsolariaConditions.MoonPhaseNew);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.ShirenPants>(), ConsolariaConditions.MoonPhaseNew);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosHead>(), ConsolariaConditions.BloodMoon);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosBody>(), ConsolariaConditions.BloodMoon);
-                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosLegs>(), ConsolariaConditions.BloodMoon);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.FestiveTopHat>(), Condition.Christmas);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.ShirenShirt>(), Condition.MoonPhaseNew);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.ShirenPants>(), Condition.MoonPhaseNew);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosHead>(), Condition.BloodMoon);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosBody>(), Condition.BloodMoon);
+                shop.Add(ModContent.ItemType<Content.Items.Vanity.TorosLegs>(), Condition.BloodMoon);
 
                 if (ModContent.GetInstance<ConsolariaConfig>().genderRestrictShopEnabled) {
                     shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesHat>(), isMaleCondition);
@@ -46,12 +46,12 @@ namespace Consolaria.Common {
                     shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousSlippers>(), womanMoment);
                 }
                 else {
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesHat>(), ConsolariaConditions.BloodMoon);
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesTuxedoShirt>(), ConsolariaConditions.BloodMoon);
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesTuxedoPants>(), ConsolariaConditions.BloodMoon);
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousRibbon>(), ConsolariaConditions.BloodMoon);
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousDress>(), ConsolariaConditions.BloodMoon);
-                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousSlippers>(), ConsolariaConditions.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesHat>(), Condition.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesTuxedoShirt>(), Condition.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.GeorgesTuxedoPants>(), Condition.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousRibbon>(), Condition.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousDress>(), Condition.BloodMoon);
+                    shop.Add(ModContent.ItemType<Content.Items.Vanity.FabulousSlippers>(), Condition.BloodMoon);
                 }
 
                 shop.Add(ModContent.ItemType<Content.Items.Vanity.AlpineHat>(), oktoberfestCondition);
@@ -68,11 +68,11 @@ namespace Consolaria.Common {
             if (shop.NpcType == NPCID.SantaClaus)
                 shop.Add(ModContent.ItemType<Content.Items.Placeable.StarTopper4>());
             if (shop.NpcType == NPCID.Demolitionist)
-                shop.Add(ModContent.ItemType<Content.Items.Weapons.Magic.RomanCandle>(), ConsolariaConditions.Christmas);
+                shop.Add(ModContent.ItemType<Content.Items.Weapons.Magic.RomanCandle>(), Condition.Christmas);
             if (shop.NpcType == NPCID.Cyborg)
                 shop.Add(ModContent.ItemType<Content.Items.Pets.ShinyBlackSlab>());
             if (shop.NpcType == NPCID.Mechanic)
-                shop.Add(ModContent.ItemType<Content.Items.Pets.MysteriousPackage>(), ConsolariaConditions.DownedMechBossAny);
+                shop.Add(ModContent.ItemType<Content.Items.Pets.MysteriousPackage>(), Condition.DownedMechBossAny);
             if (shop.NpcType == NPCID.SkeletonMerchant) {
                 int wishBone = ModContent.ItemType<Content.Items.Consumables.Wishbone>();
                 shop.Add(wishBone, wishboneCooldown);

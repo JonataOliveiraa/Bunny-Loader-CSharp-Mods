@@ -1,3 +1,7 @@
+## 2.0.1
+
+Gnorp's mood lines are read by the loader from the mod's TownNPCMood texts, without a hook. The bar room's platter food goes through the loader's typed TEFoodPlatter, and the structure index is read with System.Text.Json. The Shimmer lake globe's shop condition is the game's Condition.DownedMoonLord.
+
 ## 2.0.0
 
 Ported from JavaScript to C#. Structures, shops, prices and defaults are unchanged. Gnorp's mood lines go through a hook on ShopHelper.AddHappinessReportText, because the C# loader does not point the game's mood keys at a mod's texts; their {0} became {BiomeName} and {NPCName}. The party, shimmer and portrait sprites are declared in a town NPC profile instead of being found by file name. The food in the bar room's platters is written to TEFoodPlatter.item by field name, because that class has no C# proxy. The image opacity slider shows a plain number, because C# configs have no % suffix. The structure index is read by a small JSON reader in the mod, because the phone has no System.Text.Json.

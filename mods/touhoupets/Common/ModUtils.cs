@@ -1,28 +1,22 @@
 // Helpers shared by the pets, buffs and items (ModUtils.cs and
 // AltVanillaFunction.cs of the original).
-using System;
 using System.Collections.Generic;
 using BunnyLoader.Interop;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria;
+using Terraria.GameContent.Events;
 using Terraria.ModLoader;
 
 namespace TouhouPetsMod.Common;
 
-public static unsafe class ModUtils
+public static class ModUtils
 {
     const string Prefix = "touhoupets/";
 
     static readonly Dictionary<string, Asset<Texture2D>> textures = new();
     static readonly (uint Stamp, bool Value)[] bosses = new (uint, bool)[Main.maxPlayers + 1];
-
-    // Terraria.GameContent.Events.BirthdayParty has no C# proxy (see PartyIsUp).
-    static readonly GameClass BirthdayParty = new("Terraria.GameContent.Events", "BirthdayParty");
-    static readonly int[] NoParameters = { -1 };
-    static MethodRef getPartyIsUp;
-    static bool partyUnavailable;
 
     public static bool HasBuff<T>(Player player) where T : ModBuff =>
         player.FindBuffIndex(ModContent.BuffType<T>()) >= 0;
@@ -76,30 +70,7 @@ public static unsafe class ModUtils
             p.ZoneLihzhardTemple || p.ZoneMarble || p.ZoneMeteor || p.ZoneSnow || p.ZoneUnderworldHeight);
     }
 
-    // BirthdayParty.PartyIsUp, by name: the class exists in the game but not in the C# API.
-    // If the name ever fails, the pets just never mention a party.
-    public static bool PartyIsUp
-    {
-        get
-        {
-            if (partyUnavailable)
-                return false;
-            try
-            {
-                ref readonly MethodRef method = ref GameInterop.Method(ref getPartyIsUp, BirthdayParty, "bool get_PartyIsUp()", NoParameters);
-                CallFrame frame = default;
-                frame.X[0] = (long)method.Info;
-                frame.Ret = RetKind.Int;
-                GameInterop.Call(method.Fn, &frame);
-                return (frame.Out[0] & 0xFF) != 0;
-            }
-            catch (Exception)
-            {
-                partyUnavailable = true;
-                return false;
-            }
-        }
-    }
+    public static bool PartyIsUp => BirthdayParty.PartyIsUp;
 
     // A texture of this mod (Assets/Textures/Extra/..., Assets/Textures/Glow/...).
     public static Texture2D Texture(string path)

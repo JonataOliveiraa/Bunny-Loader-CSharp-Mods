@@ -48,6 +48,23 @@
         "Phrase18": "Faz uma cara normal.",
         "Phrase19": "Argh, não aguento mais essa cenoura!",
         "Phrase20": "Ah, você voltou de novo!"
+      },
+      "TownNPCMood": {
+        "Content": "Estou feliz! Adoro ficar aqui. É tão aconchegante.",
+        "NoHome": "Queria ter uma casa.",
+        "FarFromHome": "Estou longe demais de casa.",
+        "LoveSpace": "Gosto de ter pouca gente por perto.",
+        "DislikeCrowded": "Não gosto de todo esse barulho!",
+        "HateCrowded": "Odeio ter tanta gente ao meu redor!",
+        "LikeNPC_Princess": "Gosto de {NPCName}.",
+        "Princess_LovesNPC": "Gosto de {NPCName}.",
+        "LoveBiome": "Adoro este lugar: {BiomeName}.",
+        "LikeBiome": "Gosto deste lugar: {BiomeName}.",
+        "DislikeBiome": "Não gosto deste lugar: {BiomeName}.",
+        "LoveNPC": "Adoro {NPCName}.",
+        "LikeNPC": "Gosto de {NPCName}.",
+        "DislikeNPC": "Não gosto de {NPCName}.",
+        "HateNPC": "Odeio {NPCName}."
       }
     },
     "MiSidePlayer": {
@@ -65,13 +82,64 @@
       "Phrase11": "Hmm... Que lugar é este?",
       "Phrase12": "Acho que gosto deste jogo.",
       "Phrase13": "Gosto de gatinhos.",
-      "Phrase14": "Uhum."
+      "Phrase14": "Uhum.",
+      "TownNPCMood": {
+        "Content": "Estou feliz! Gosto daqui. É tranquilo.",
+        "NoHome": "Queria ter uma casa.",
+        "FarFromHome": "Estou longe demais de casa.",
+        "LoveSpace": "Gosto de ter pouca gente por perto.",
+        "DislikeCrowded": "Não gosto de todo esse barulho!",
+        "HateCrowded": "Odeio ter tanta gente ao meu redor!",
+        "LikeNPC_Princess": "Gosto de {NPCName}.",
+        "Princess_LovesNPC": "Gosto de {NPCName}.",
+        "LoveBiome": "Adoro este lugar: {BiomeName}.",
+        "LikeBiome": "Gosto deste lugar: {BiomeName}.",
+        "DislikeBiome": "Não gosto deste lugar: {BiomeName}.",
+        "LoveNPC": "Adoro {NPCName}.",
+        "LikeNPC": "Gosto de {NPCName}.",
+        "DislikeNPC": "Não gosto de {NPCName}.",
+        "HateNPC": "Odeio {NPCName}."
+      }
     },
     "Mila": {
-      "DisplayName": "Mila"
+      "DisplayName": "Mila",
+      "TownNPCMood": {
+        "Content": "Estou feliz! Gosto daqui. É tranquilo.",
+        "NoHome": "Queria ter uma casa.",
+        "FarFromHome": "Estou longe demais de casa.",
+        "LoveSpace": "Gosto de ter pouca gente por perto.",
+        "DislikeCrowded": "Não gosto de todo esse barulho!",
+        "HateCrowded": "Odeio ter tanta gente ao meu redor!",
+        "LikeNPC_Princess": "Gosto de {NPCName}.",
+        "Princess_LovesNPC": "Gosto de {NPCName}.",
+        "LoveBiome": "Adoro este lugar: {BiomeName}.",
+        "LikeBiome": "Gosto deste lugar: {BiomeName}.",
+        "DislikeBiome": "Não gosto deste lugar: {BiomeName}.",
+        "LoveNPC": "Adoro {NPCName}.",
+        "LikeNPC": "Gosto de {NPCName}.",
+        "DislikeNPC": "Não gosto de {NPCName}.",
+        "HateNPC": "Odeio {NPCName}."
+      }
     },
     "Cappie": {
-      "DisplayName": "Cappie"
+      "DisplayName": "Cappie",
+      "TownNPCMood": {
+        "Content": "Estou feliz! Gosto daqui. É tranquilo.",
+        "NoHome": "Queria ter uma casa.",
+        "FarFromHome": "Estou longe demais de casa.",
+        "LoveSpace": "Gosto de ter pouca gente por perto.",
+        "DislikeCrowded": "Não gosto de todo esse barulho!",
+        "HateCrowded": "Odeio ter tanta gente ao meu redor!",
+        "LikeNPC_Princess": "Gosto de {NPCName}.",
+        "Princess_LovesNPC": "Gosto de {NPCName}.",
+        "LoveBiome": "Adoro este lugar: {BiomeName}.",
+        "LikeBiome": "Gosto deste lugar: {BiomeName}.",
+        "DislikeBiome": "Não gosto deste lugar: {BiomeName}.",
+        "LoveNPC": "Adoro {NPCName}.",
+        "LikeNPC": "Gosto de {NPCName}.",
+        "DislikeNPC": "Não gosto de {NPCName}.",
+        "HateNPC": "Odeio {NPCName}."
+      }
     }
   },
   "Items": {

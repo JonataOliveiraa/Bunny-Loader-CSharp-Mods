@@ -26,8 +26,7 @@ public sealed class ListLookup
     public Dictionary<int, Rgb> Colors = new();
 }
 
-// The default lists, plus the player's. The file has one "kind<TAB>type[<TAB>value]" per
-// line, because the phone has no System.Text.Json.
+// The default lists, plus the player's. The file has one "kind<TAB>type[<TAB>value]" per line.
 public static class Lists
 {
     static Rgb C(double r, double g, double b) => new(Util.Round(r * 255), Util.Round(g * 255), Util.Round(b * 255));

@@ -7,5 +7,5 @@
   },
   "license": "MIT",
   "permission": null,
-  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same stats, shops, prices, dialogue, voices and town melee behavior. Mood lines move to the game's own TownNPCMood_mitanpc/<NPC> keys in Localization/<culture>.hjson, with the game's {BiomeName} and {NPCName} placeholders, because the C# loader has no mapping from TownNPCMood.<NPC> as the JavaScript loader had. The love for the other resident is set in SetStaticDefaults instead of a PostSetupContent step. The Fly's removal sound plays when the buff icon is tapped, just before the removal instead of just after. Dialogues.json is read with a small scanner because the phone has no System.Text.Json."
+  "changes": "Ported from JavaScript to C# on 2026-11-06, with the same stats, shops, prices, dialogue, voices and town melee behavior. Mood lines use the game's {BiomeName} and {NPCName} placeholders instead of {0}. The love for the other resident is set in SetStaticDefaults instead of a PostSetupContent step. The Fly's removal sound plays when the buff icon is tapped, just before the removal instead of just after."
 }

@@ -1,3 +1,7 @@
+## 2.0.1
+
+The map and connection state are read through the typed Bunny Loader API instead of by-name bindings. Shared tiles are built with MapTile.Create.
+
 ## 2.0.0
 
 Ported from JavaScript to C#. All timers use real time instead of frame counts. The config has no buttons in C#, so Share Now became the /sharemap chat command, and the Interval option has no minutes suffix. Map data goes as raw bytes instead of base64 text, in the same 20000 byte pieces. Received packets wait in a queue for the next game tick. A shared tile is written as a plain MapTile value, because MapTile.Create does not exist in this version of the game.

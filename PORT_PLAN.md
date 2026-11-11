@@ -27,6 +27,8 @@ The four phases cover 38,211 of the catalog's 43,651 downloads (88%).
 
 Not ported: the 4 blocked mods, the 4 packs with no code, and the 13 mods not selected.
 
+The ports now build against a newer development build of the loader (build 541). Twenty-two of them dropped workarounds for the typed API it adds; [MISSING_API.md](MISSING_API.md#resolved-by-the-newer-loader) lists what changed. On the MuMu emulator with that build, a test mod checked each new binding by code, and the checks failed in a control run without the ports. All 53 ports loaded together with no error, and the earlier phase tests gave the same results as on the phone. They have not run on a phone with this build yet.
+
 ## Before starting
 
 - [x] Get a Bunny Loader APK and run `tools/extract_api.py`. Until then, nothing builds against the real API.

@@ -1,3 +1,7 @@
+## 2.0.1
+
+The connection state is read through the typed Bunny Loader API instead of a by-name binding.
+
 ## 2.0.0
 
 Ported from JavaScript to C#. Refresh intervals and the health bar measure's expiry use real time instead of frame counts. The tracker learns which bar it is measuring from PreDrawResourceDisplay, because the C# draw context does not say. Other mods' screens are noticed by watching the interface drawn just before this one, because UserInterface.SetState cannot be hooked in C#, so only the last interface drawn before this mod's layer is noticed. The Ping refresh option has no seconds suffix, because C# configs have none.

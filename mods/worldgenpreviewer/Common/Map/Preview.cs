@@ -71,18 +71,17 @@ public static class Preview
         WorldMap map = Main.Map;
         if (!map.IsNull)
         {
-            GameBindings.GetMapSize(map, out int width, out int height);
-            if (width >= w && height >= h)
+            if (map.MaxWidth >= w && map.MaxHeight >= h)
                 return;
         }
         FullMap.WithBounds(() =>
         {
             if (map.IsNull)
             {
-                map = GameBindings.NewMap();
+                map = WorldMap.New();
                 Main.Map = map;
             }
-            GameBindings.AllocateMap(map, w, h);
+            map.Allocate(w, h);
         });
     }
 

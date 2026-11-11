@@ -1,21 +1,20 @@
 using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using BunnyLoader;
-using BunnyLoader.Interop;
 using Microsoft.Xna.Framework;
 using OryctoMod.Common.Configs;
 using Terraria;
 
 namespace OryctoMod.Common.Lib;
 
-// Two options of the JavaScript version never worked, because their hooks target methods
+// Some options of the JavaScript version never worked, because their hooks target methods
 // the game does not have, and the error was caught and only logged:
 //   ThrottleFarEntities and ThrottleCritters hooked Main.UpdateNPC(int) (the game has NPC.UpdateNPC).
 //   ThrottleWiring hooked Wiring.Update() (the game has Wiring.UpdateMech).
+//   ThrottleMinimap hooked WorldMap.Update() (the game has WorldMap.Update(int, int, byte), one tile per call).
+//   ThrottleLiquid hooked Liquid.Update() (the game has Liquid.Update(ref TileData.TileDataPointers)).
 // They are kept as options that do nothing, because turning them on for real would change
 // the game with defaults nobody has played with.
-public static unsafe class Savings
+public static class Savings
 {
     const int MaxNPCs = 200;
     const int MaxProjectiles = 1000;
@@ -26,9 +25,6 @@ public static unsafe class Savings
 
     static readonly List<int> CulledProjectiles = new();
     static readonly List<int> CulledNPCs = new();
-
-    static IntPtr* minimapOriginal;
-    static IntPtr* liquidOriginal;
 
     public static void InstallLightingSkip()
     {
@@ -130,73 +126,5 @@ public static unsafe class Savings
             if (!BoostConfig.Instance.NoParticles)
                 orig(self);
         };
-    }
-
-    static void CallOriginal(IntPtr* original, IntPtr self, IntPtr method)
-    {
-        CallFrame frame = default;
-        frame.X[0] = (long)self;
-        frame.X[1] = (long)method;
-        frame.Ret = RetKind.Int;
-        GameInterop.Call(*original, &frame);
-    }
-
-    // WorldMap and Liquid have no On_ hooks in the C# API, so these two use raw hooks with
-    // the signatures the JavaScript version used. A method the game does not have is logged
-    // and the option does nothing, as it did there.
-    public static void InstallMinimapThrottling()
-    {
-        try
-        {
-            minimapOriginal = Hook.Install(new GameClass("Terraria.Map", "WorldMap"), "void Update()",
-                (IntPtr)(delegate* unmanaged<IntPtr, IntPtr, void>)&MinimapUpdate).OriginalSlot;
-        }
-        catch (Exception e)
-        {
-            BoostLog.WarnOnce("minimap throttle", e);
-        }
-    }
-
-    [UnmanagedCallersOnly]
-    static void MinimapUpdate(IntPtr self, IntPtr method)
-    {
-        try
-        {
-            if (BoostConfig.Instance.ThrottleMinimap && Main.GameUpdateCount % MinimapPeriod != 0)
-                return;
-            CallOriginal(minimapOriginal, self, method);
-        }
-        catch (Exception e)
-        {
-            BoostLog.WarnOnce("minimap throttle", e);
-        }
-    }
-
-    public static void InstallLiquidThrottling()
-    {
-        try
-        {
-            liquidOriginal = Hook.Install(new GameClass("Terraria", "Liquid"), "void Update()",
-                (IntPtr)(delegate* unmanaged<IntPtr, IntPtr, void>)&LiquidUpdate).OriginalSlot;
-        }
-        catch (Exception e)
-        {
-            BoostLog.WarnOnce("liquid throttle", e);
-        }
-    }
-
-    [UnmanagedCallersOnly]
-    static void LiquidUpdate(IntPtr self, IntPtr method)
-    {
-        try
-        {
-            if (BoostConfig.Instance.ThrottleLiquid && Main.GameUpdateCount % LiquidPeriod != 0)
-                return;
-            CallOriginal(liquidOriginal, self, method);
-        }
-        catch (Exception e)
-        {
-            BoostLog.WarnOnce("liquid throttle", e);
-        }
     }
 }

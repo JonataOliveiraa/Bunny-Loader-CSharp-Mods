@@ -24,18 +24,19 @@ namespace Consolaria.Content.Items.Materials {
             Item.value = Item.sellPrice(silver: 5);
         }
 
-        public override void PostUpdate(WorldItem item) {
-            // ModItem.Update does not exist on the phone: what upstream did there happens here.
-            if (!Main.IsItDay()) {
-                if (Main.netMode != NetmodeID.Server) {
-                    for (int index = 0; index < 10; ++index)
-                        Dust.NewDust(item.position, item.width, item.height, ModContent.DustType<Dusts.RomanFlame>(), item.velocity.X, item.velocity.Y, 100, Main.DiscoColor, Main.rand.NextFloat(0.8f, 1.3f));
-                }
-                SoundEngine.PlaySound(SoundID.Item4, item.position);
-                item.TurnToAir();
+        public override void Update(WorldItem item, ref float gravity, ref float maxFallSpeed) {
+            if (Main.IsItDay())
                 return;
-            }
 
+            if (Main.netMode != NetmodeID.Server) {
+                for (int index = 0; index < 10; ++index)
+                    Dust.NewDust(item.position, item.width, item.height, ModContent.DustType<Dusts.RomanFlame>(), item.velocity.X, item.velocity.Y, 100, Main.DiscoColor, Main.rand.NextFloat(0.8f, 1.3f));
+            }
+            SoundEngine.PlaySound(SoundID.Item4, item.position);
+            item.TurnToAir();
+        }
+
+        public override void PostUpdate(WorldItem item) {
             Lighting.AddLight(item.Center, Main.DiscoColor.ToVector3() * 0.4f);
 
             if (item.timeSinceItemSpawned % 12 == 0) {

@@ -48,6 +48,23 @@
         "Phrase18": "Pon una cara normal.",
         "Phrase19": "¡Uf, estoy harta de esa zanahoria!",
         "Phrase20": "¡Ah, has vuelto otra vez!"
+      },
+      "TownNPCMood": {
+        "Content": "¡Estoy feliz! Me encanta estar aquí. Es muy acogedor.",
+        "NoHome": "Me gustaría tener una casa.",
+        "FarFromHome": "Estoy demasiado lejos de casa.",
+        "LoveSpace": "Me gusta tener poca gente cerca.",
+        "DislikeCrowded": "¡No me gusta tanto ruido!",
+        "HateCrowded": "¡Odio tener tanta gente a mi alrededor!",
+        "LikeNPC_Princess": "Me cae bien {NPCName}.",
+        "Princess_LovesNPC": "Me cae bien {NPCName}.",
+        "LoveBiome": "Me encanta este lugar: {BiomeName}.",
+        "LikeBiome": "Me gusta este lugar: {BiomeName}.",
+        "DislikeBiome": "No me gusta este lugar: {BiomeName}.",
+        "LoveNPC": "Adoro a {NPCName}.",
+        "LikeNPC": "Me cae bien {NPCName}.",
+        "DislikeNPC": "No me cae bien {NPCName}.",
+        "HateNPC": "Odio a {NPCName}."
       }
     },
     "MiSidePlayer": {
@@ -65,13 +82,64 @@
       "Phrase11": "Hmm... ¿Qué lugar es este?",
       "Phrase12": "Creo que me gusta este juego.",
       "Phrase13": "Me gustan los gatitos.",
-      "Phrase14": "Ajá."
+      "Phrase14": "Ajá.",
+      "TownNPCMood": {
+        "Content": "¡Estoy feliz! Me gusta estar aquí. Es tranquilo.",
+        "NoHome": "Me gustaría tener una casa.",
+        "FarFromHome": "Estoy demasiado lejos de casa.",
+        "LoveSpace": "Me gusta tener poca gente cerca.",
+        "DislikeCrowded": "¡No me gusta tanto ruido!",
+        "HateCrowded": "¡Odio tener tanta gente a mi alrededor!",
+        "LikeNPC_Princess": "Me cae bien {NPCName}.",
+        "Princess_LovesNPC": "Me cae bien {NPCName}.",
+        "LoveBiome": "Me encanta este lugar: {BiomeName}.",
+        "LikeBiome": "Me gusta este lugar: {BiomeName}.",
+        "DislikeBiome": "No me gusta este lugar: {BiomeName}.",
+        "LoveNPC": "Adoro a {NPCName}.",
+        "LikeNPC": "Me cae bien {NPCName}.",
+        "DislikeNPC": "No me cae bien {NPCName}.",
+        "HateNPC": "Odio a {NPCName}."
+      }
     },
     "Mila": {
-      "DisplayName": "Mila"
+      "DisplayName": "Mila",
+      "TownNPCMood": {
+        "Content": "¡Estoy feliz! Me gusta estar aquí. Es tranquilo.",
+        "NoHome": "Me gustaría tener una casa.",
+        "FarFromHome": "Estoy demasiado lejos de casa.",
+        "LoveSpace": "Me gusta tener poca gente cerca.",
+        "DislikeCrowded": "¡No me gusta tanto ruido!",
+        "HateCrowded": "¡Odio tener tanta gente a mi alrededor!",
+        "LikeNPC_Princess": "Me cae bien {NPCName}.",
+        "Princess_LovesNPC": "Me cae bien {NPCName}.",
+        "LoveBiome": "Me encanta este lugar: {BiomeName}.",
+        "LikeBiome": "Me gusta este lugar: {BiomeName}.",
+        "DislikeBiome": "No me gusta este lugar: {BiomeName}.",
+        "LoveNPC": "Adoro a {NPCName}.",
+        "LikeNPC": "Me cae bien {NPCName}.",
+        "DislikeNPC": "No me cae bien {NPCName}.",
+        "HateNPC": "Odio a {NPCName}."
+      }
     },
     "Cappie": {
-      "DisplayName": "Cappie"
+      "DisplayName": "Cappie",
+      "TownNPCMood": {
+        "Content": "¡Estoy feliz! Me gusta estar aquí. Es tranquilo.",
+        "NoHome": "Me gustaría tener una casa.",
+        "FarFromHome": "Estoy demasiado lejos de casa.",
+        "LoveSpace": "Me gusta tener poca gente cerca.",
+        "DislikeCrowded": "¡No me gusta tanto ruido!",
+        "HateCrowded": "¡Odio tener tanta gente a mi alrededor!",
+        "LikeNPC_Princess": "Me cae bien {NPCName}.",
+        "Princess_LovesNPC": "Me cae bien {NPCName}.",
+        "LoveBiome": "Me encanta este lugar: {BiomeName}.",
+        "LikeBiome": "Me gusta este lugar: {BiomeName}.",
+        "DislikeBiome": "No me gusta este lugar: {BiomeName}.",
+        "LoveNPC": "Adoro a {NPCName}.",
+        "LikeNPC": "Me cae bien {NPCName}.",
+        "DislikeNPC": "No me cae bien {NPCName}.",
+        "HateNPC": "Odio a {NPCName}."
+      }
     }
   },
   "Items": {

@@ -77,7 +77,7 @@ public class GameProgress : UIElement
         float fx = bar.fillingLocation.X * s, fy = bar.fillingLocation.Y * s;
         int fw = Util.Round(bar.fillingSize.X * s), fh = Util.Round(bar.fillingSize.Y * s);
         float fraction = bar.total ? total : value;
-        GameBindings.DrawFilling2(spriteBatch, new Vector2(left + fx, y + fy), fh, Util.Round(fw * fraction), fw, bar.color, Mix(bar.color, bar.empty), bar.empty);
+        GUIProgressBar.DrawFilling2(spriteBatch, new Vector2(left + fx, y + fy), fh, Util.Round(fw * fraction), fw, bar.color, Mix(bar.color, bar.empty), bar.empty);
         spriteBatch.Draw(bar.texture, new Rectangle(Util.Round(left), Util.Round(y), Util.Round(w), Util.Round(h)), Color.White);
         return y + h + 2;
     }

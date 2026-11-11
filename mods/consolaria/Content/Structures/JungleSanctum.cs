@@ -170,7 +170,7 @@ namespace Consolaria.Content.Structures {
                     }
                 }
 
-                WorldGenHelper.AddStructure(new Rectangle(JungleSanctumPositionX, JungleSanctumPositionY, width, height), 2);
+                GenVars.structures.AddStructure(new Rectangle(JungleSanctumPositionX, JungleSanctumPositionY, width, height), 2);
             } while (structureCount != WorldGenHelper.GetWorldSize());
         }
 

@@ -1,7 +1,6 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using BunnyLoader.Interop;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
@@ -15,7 +14,7 @@ public class PingModPlayer : ModPlayer
     public int currentIconStyle;
 }
 
-public static unsafe class Ping
+public static class Ping
 {
     const int MSG_REQUEST = 0;
     const int MSG_RESPONSE = 1;
@@ -29,9 +28,6 @@ public static unsafe class Ping
     static int waiting = -1;
     // The next check, in real time: the phone's frame rate says nothing about seconds.
     static long nextAt;
-
-    static int connectionStateOffset = -1;
-    static bool connectionStateBroken;
 
     public static void Install(Mod theMod) => mod = theMod;
 
@@ -72,24 +68,10 @@ public static unsafe class Ping
     // Only a real client has to wait. The host (3) sends as soon as it is playing.
     static bool Joined() => Main.netMode != 1 || ConnectionState() >= JOINED;
 
-    // Netplay.Connection.State: RemoteConnection has no members in the C# API.
     static int ConnectionState()
     {
-        if (connectionStateBroken)
-            return 0;
-        try
-        {
-            RemoteConnection connection = Netplay.Connection;
-            if (connection.IsNull)
-                return 0;
-            return *(int*)(connection.Pointer + GameInterop.Offset(ref connectionStateOffset, RemoteConnection.Class, "State"));
-        }
-        catch (Exception e)
-        {
-            connectionStateBroken = true;
-            mod?.Logger.Error("RemoteConnection.State is not readable: " + e.Message);
-            return 0;
-        }
+        RemoteConnection connection = Netplay.Connection;
+        return connection.IsNull ? 0 : connection.State;
     }
 
     static bool ClientJoined(int i)

@@ -1,23 +1,15 @@
-using System;
-using System.Runtime.InteropServices;
-using BunnyLoader;
-using BunnyLoader.Interop;
 using Terraria;
+using Terraria.GameContent;
 using Terraria.Graphics.Renderers;
 using Terraria.ModLoader;
 
-public unsafe class GravityDontFlipScreen : Mod
+public class GravityDontFlipScreen : Mod
 {
-    static GravityDontFlipScreen instance = null!;
     static float gravDir = 1;
     static float? gravDir2;
-    static IntPtr* smartCursorOriginal;
-    static bool reported;
 
     public override void Load()
     {
-        instance = this;
-
         On_Player.ChestChangeEvents += (orig, self) =>
         {
             if (self.whoAmI != Main.myPlayer || self.gravDir != -1)
@@ -60,17 +52,18 @@ public unsafe class GravityDontFlipScreen : Mod
             self.gravDir = -1;
         };
 
-        // SmartCursorHelper has no members or On_ hooks in the C# API.
-        try
+        On_SmartCursorHelper.SmartCursorLookup += (orig, player) =>
         {
-            smartCursorOriginal = Hook.Install(new GameClass("Terraria.GameContent", "SmartCursorHelper"),
-                "void SmartCursorLookup(Player player)",
-                (IntPtr)(delegate* unmanaged<IntPtr, IntPtr, void>)&SmartCursorLookup).OriginalSlot;
-        }
-        catch (Exception e)
-        {
-            Logger.Error("The SmartCursorLookup hook could not be installed: " + e.Message);
-        }
+            if (player.whoAmI != Main.myPlayer || player.gravDir != -1)
+            {
+                orig(player);
+                return;
+            }
+
+            player.gravDir = 1;
+            orig(player);
+            player.gravDir = -1;
+        };
 
         On_Player.ItemCheck += (orig, self) =>
         {
@@ -126,41 +119,5 @@ public unsafe class GravityDontFlipScreen : Mod
             orig(self, gameTime);
             player.gravDir = gravDir;
         };
-    }
-
-    static void SmartCursorOriginal(IntPtr player, IntPtr method)
-    {
-        CallFrame frame = default;
-        frame.X[0] = (long)player;
-        frame.X[1] = (long)method;
-        frame.Ret = RetKind.Int;
-        GameInterop.Call(*smartCursorOriginal, &frame);
-    }
-
-    // Exceptions must not leave this method: there is no managed caller to catch them.
-    [UnmanagedCallersOnly]
-    static void SmartCursorLookup(IntPtr pointer, IntPtr method)
-    {
-        try
-        {
-            var player = new Player(pointer);
-            if (player.whoAmI != Main.myPlayer || player.gravDir != -1)
-            {
-                SmartCursorOriginal(pointer, method);
-                return;
-            }
-
-            player.gravDir = 1;
-            SmartCursorOriginal(pointer, method);
-            player.gravDir = -1;
-        }
-        catch (Exception e)
-        {
-            if (!reported)
-            {
-                reported = true;
-                instance.Logger.Error("SmartCursorLookup: " + e.Message);
-            }
-        }
     }
 }

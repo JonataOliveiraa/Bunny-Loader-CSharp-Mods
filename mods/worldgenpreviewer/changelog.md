@@ -1,3 +1,7 @@
+## 2.0.1
+
+The menu draw hooks, the menu and progress bar layouts, the bar drawing, the world map calls and the structure lists use the typed Bunny Loader API instead of by-name bindings.
+
 ## 2.0.0
 
 Ported from JavaScript to C#. Pausing is always available, because the worker thread can simply sleep in C#. The flags shared with the worker thread are volatile, because both threads really run at once. Show in World for the config does not exist in C#, so its two options also show in the pause menu. Repeating a step restarts Main.rand from the seed but not WorldGen.genRand, as the original did on this version of the game: there is no field behind it to replace. After a cancel the world list reloads with Main.LoadWorlds(), whose parameterless form named by the original does not exist in this version of the game.

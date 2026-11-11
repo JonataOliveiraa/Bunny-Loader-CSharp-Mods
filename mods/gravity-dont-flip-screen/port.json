@@ -7,5 +7,5 @@
   },
   "license": "NONE",
   "permission": null,
-  "changes": "Ported from JavaScript to C#. SmartCursorHelper has no C# API, so SmartCursorLookup uses a raw hook by name. No behavior changes."
+  "changes": "Ported from JavaScript to C#. No behavior changes."
 }

@@ -17,6 +17,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.GameContent;
 using Terraria.GameContent.Drawing;
+using Terraria.Graphics;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -62,26 +63,8 @@ namespace Consolaria {
             }
         }
 
-        // FinalFractalHelper._fractalProfiles and its FinalFractalProfile have no proxy. The names are
-        // the ones the phone's package used.
-        private static StaticRef fractalProfilesField;
-        private static MethodRef fractalProfileConstructor;
-
-        private static unsafe void AddZenithProfile(int itemType, float fullBladeLength, Color color) {
-            GameClass helper = new("Terraria.Graphics", "FinalFractalHelper");
-            GameClass profileClass = new("Terraria.Graphics", "FinalFractalHelper", "FinalFractalProfile");
-            IntPtr profiles = GameInterop.ReadStatic<IntPtr>(ref fractalProfilesField, helper, "_fractalProfiles");
-            IntPtr profile = GameInterop.NewObject(profileClass);
-            ref readonly MethodRef constructor = ref GameInterop.Method(ref fractalProfileConstructor, profileClass, "void .ctor(float fullBladeLength, Color color)", new int[] { -1, sizeof(Color), -1 });
-            CallFrame frame = default;
-            frame.Ret = RetKind.Int;
-            frame.X[0] = (long)profile;
-            frame.D[0] = Abi.F32(fullBladeLength);
-            *(Color*)(frame.X + 1) = color;
-            frame.X[2] = (long)constructor.Info;
-            GameInterop.Call(constructor.Fn, &frame);
-            new GameDictionary(profiles).Set(itemType, profile);
-        }
+        private static void AddZenithProfile(int itemType, float fullBladeLength, Color color)
+            => new GameDictionary(FinalFractalHelper._fractalProfiles).Set(itemType, FinalFractalHelper.FinalFractalProfile.New(fullBladeLength, color));
 
         //We reflect this hook so we are able to list the length/width of our blowing wind tile, Chandiliers, haning bottles, banners and more use this (Vines, double tall grass, ect do NOT use this. Dont attempt to fit them here)
         private void On_TileDrawing_DrawMultiTileVinesInWind(On_TileDrawing.orig_DrawMultiTileVinesInWind orig, TileDrawing self, Vector2 screenPosition, Vector2 offSet, int topLeftX, int topLeftY, int sizeX, int sizeY) {

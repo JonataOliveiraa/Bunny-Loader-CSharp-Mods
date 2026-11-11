@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using BunnyLoader.Interop;
 using Terraria;
 using Terraria.ModLoader;
 using VeinMinerMod.Common.Configs;
@@ -79,19 +80,29 @@ public class VeinMinerSystem : ModSystem
         Queued.Clear();
     }
 
+    static bool LocalPickaxe()
+    {
+        Player player = Main.LocalPlayer;
+        return !player.IsNull && player.active && !player.dead && player.HeldItem.pick > 0;
+    }
+
     public override void OnModLoad()
     {
-        // The JavaScript version hooked HitTile.AddDamage, which the C# API does not
-        // expose. Comparing the tile before and after PickTile detects the same break.
-        On_Player.PickTile += (orig, self, x, y, pickPower, dealDamageAsIfBaseNumberIs) =>
+        On_HitTile.AddDamage += (orig, self, tileId, damageAmount, updateAmount) =>
         {
-            int before = TypeAt(x, y);
-            orig(self, x, y, pickPower, dealDamageAsIfBaseNumberIs);
+            int damage = orig(self, tileId, damageAmount, updateAmount);
+            if (damage < 100 || !VeinMinerConfig.Instance.Enabled || !LocalPickaxe())
+                return damage;
 
-            if (!VeinMinerConfig.Instance.Enabled || before < 0 || TypeAt(x, y) == before)
-                return;
-            if (self.whoAmI == Main.myPlayer && !self.dead && self.HeldItem.pick > 0 && CanVeinMine(before))
-                QueueVein(x, y, before);
+            GameArray<int> data = self.HitTileObjectData;
+            int slot = tileId * HitTile.HitTileObjectCount;
+            if (tileId < 0 || data.IsNull || slot + HitTile.yIndex >= data.Length)
+                return damage;
+            int x = data[slot + HitTile.xIndex], y = data[slot + HitTile.yIndex];
+            int type = TypeAt(x, y);
+            if (CanVeinMine(type))
+                QueueVein(x, y, type);
+            return damage;
         };
     }
 

@@ -188,7 +188,7 @@ public class Gnorp : ModNPC
     public override void AddShops()
     {
         Condition Hardmode = Condition.Hardmode;
-        var DownedMoonLord = new Condition(Util.KeyPrefix + "Conditions.DownedMoonLord", () => NPC.downedMoonlord);
+        Condition DownedMoonLord = Condition.DownedMoonLord;
 
         new NPCShop(Type, "Main")
             .Add<WoodenLampPostGlobe>()

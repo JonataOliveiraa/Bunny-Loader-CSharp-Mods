@@ -1,3 +1,7 @@
+## 2.0.1
+
+Which creatures are unlocked is read through the typed Bunny Loader API instead of a by-name binding per provider class.
+
 ## 2.0.0
 
 Ported from JavaScript to C#. Settings travel as binary instead of JSON text. Holograms are found through a list the entity class keeps, because the loader's table of entities is not public. The creature list reads the bestiary's table by id instead of each entry's info elements. The list's glide after a drag follows real time instead of counting frames. The loader keeps C# tile entities apart from JavaScript ones, so a projector placed with the JavaScript version loses its settings and does not open its menu: break it and place it again.

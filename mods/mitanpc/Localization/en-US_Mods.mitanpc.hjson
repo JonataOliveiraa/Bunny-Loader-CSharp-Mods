@@ -48,6 +48,23 @@
         "Phrase18": "Just keep your face simple.",
         "Phrase19": "Ugh, I am so sick of that carrot!",
         "Phrase20": "Ah, you're back again!"
+      },
+      "TownNPCMood": {
+        "Content": "I'm happy! I love being here. It's so cozy here)",
+        "NoHome": "I wish I had a home :(",
+        "FarFromHome": "I'm too far away from home. I'm sad :(",
+        "LoveSpace": "I like to have few people around, I don't like unnecessary stares)",
+        "DislikeCrowded": "I don't like the noise around me!",
+        "HateCrowded": "I hate all those people around me!!!",
+        "LikeNPC_Princess": "I like {NPCName}.",
+        "Princess_LovesNPC": "I like {NPCName}.",
+        "LoveBiome": "I like {BiomeName}.",
+        "LikeBiome": "I like {BiomeName}.",
+        "DislikeBiome": "I don't like {BiomeName}.",
+        "LoveNPC": "I like {NPCName}.",
+        "LikeNPC": "I like {NPCName}.",
+        "DislikeNPC": "I don't like {NPCName}.",
+        "HateNPC": "I hate {NPCName}."
       }
     },
     "MiSidePlayer": {
@@ -65,13 +82,64 @@
       "Phrase11": "Hmm... What is this place?",
       "Phrase12": "I think I like this game.",
       "Phrase13": "I like kitties.",
-      "Phrase14": "Uh-huh."
+      "Phrase14": "Uh-huh.",
+      "TownNPCMood": {
+        "Content": "I'm happy! I like being here. It's peaceful.",
+        "NoHome": "I wish I had a home.",
+        "FarFromHome": "I'm too far from home.",
+        "LoveSpace": "I like having few people around.",
+        "DislikeCrowded": "I don't like the noise around me!",
+        "HateCrowded": "I hate those people around me!!!",
+        "LikeNPC_Princess": "I like {NPCName}.",
+        "Princess_LovesNPC": "I like {NPCName}.",
+        "LoveBiome": "I love {BiomeName}.",
+        "LikeBiome": "I like {BiomeName}.",
+        "DislikeBiome": "I don't like {BiomeName}.",
+        "LoveNPC": "I like {NPCName}.",
+        "LikeNPC": "I like {NPCName}.",
+        "DislikeNPC": "I don't like {NPCName}.",
+        "HateNPC": "I hate {NPCName}."
+      }
     },
     "Mila": {
-      "DisplayName": "Mila"
+      "DisplayName": "Mila",
+      "TownNPCMood": {
+        "Content": "I'm happy! I like being here. It's peaceful.",
+        "NoHome": "I wish I had a home.",
+        "FarFromHome": "I'm too far from home.",
+        "LoveSpace": "I like having few people around.",
+        "DislikeCrowded": "I don't like the noise around me!",
+        "HateCrowded": "I hate those people around me!!!",
+        "LikeNPC_Princess": "I like {NPCName}.",
+        "Princess_LovesNPC": "I like {NPCName}.",
+        "LoveBiome": "I love {BiomeName}.",
+        "LikeBiome": "I like {BiomeName}.",
+        "DislikeBiome": "I don't like {BiomeName}.",
+        "LoveNPC": "I like {NPCName}.",
+        "LikeNPC": "I like {NPCName}.",
+        "DislikeNPC": "I don't like {NPCName}.",
+        "HateNPC": "I hate {NPCName}."
+      }
     },
     "Cappie": {
-      "DisplayName": "Cappie"
+      "DisplayName": "Cappie",
+      "TownNPCMood": {
+        "Content": "I'm happy! I like being here. It's peaceful.",
+        "NoHome": "I wish I had a home.",
+        "FarFromHome": "I'm too far from home.",
+        "LoveSpace": "I like having few people around.",
+        "DislikeCrowded": "I don't like the noise around me!",
+        "HateCrowded": "I hate those people around me!!!",
+        "LikeNPC_Princess": "I like {NPCName}.",
+        "Princess_LovesNPC": "I like {NPCName}.",
+        "LoveBiome": "I love {BiomeName}.",
+        "LikeBiome": "I like {BiomeName}.",
+        "DislikeBiome": "I don't like {BiomeName}.",
+        "LoveNPC": "I like {NPCName}.",
+        "LikeNPC": "I like {NPCName}.",
+        "DislikeNPC": "I don't like {NPCName}.",
+        "HateNPC": "I hate {NPCName}."
+      }
     }
   },
   "Items": {

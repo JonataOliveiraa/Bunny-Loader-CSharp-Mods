@@ -7,5 +7,5 @@
   },
   "license": "NONE",
   "permission": null,
-  "changes": "Ported from JavaScript to C#. All timers use real time instead of frame counts. The config has no buttons in C#, so Share Now became the /sharemap chat command, and the Interval option has no minutes suffix. Map data goes as raw bytes instead of base64 text, in the same 20000 byte pieces. Received packets wait in a queue for the next game tick. A shared tile is written as a plain MapTile value, because MapTile.Create does not exist in this version of the game."
+  "changes": "Ported from JavaScript to C#. All timers use real time instead of frame counts. The config has no buttons in C#, so Share Now became the /sharemap chat command, and the Interval option has no minutes suffix. Map data goes as raw bytes instead of base64 text, in the same 20000 byte pieces. Received packets wait in a queue for the next game tick."
 }

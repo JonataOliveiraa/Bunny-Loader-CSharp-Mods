@@ -45,6 +45,8 @@ public class BoostConfig : ModConfig
     [DefaultValue(true)]
     public bool ThrottleCritters;
 
+    // No effect, as in the JavaScript version: it hooked WorldMap.Update(), which the game
+    // does not have. See the note in Savings.
     [DefaultValue(true)]
     public bool ThrottleMinimap;
 
@@ -53,6 +55,8 @@ public class BoostConfig : ModConfig
     [DefaultValue(6000)]
     public int DustCap;
 
+    // No effect, as in the JavaScript version: it hooked Liquid.Update(), which the game
+    // does not have. See the note in Savings.
     [DefaultValue(false)]
     public bool ThrottleLiquid;
 
