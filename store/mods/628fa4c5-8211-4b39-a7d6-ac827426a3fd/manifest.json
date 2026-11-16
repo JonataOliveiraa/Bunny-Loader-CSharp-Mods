@@ -1,0 +1,38 @@
+{
+  "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
+  "id": "umamusumevanities",
+  "name": "Umamusume Vanities — Bunny Port",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Nyacro",
+      "role": "Original PC mod",
+      "avatar": "nyacro.jpg"
+    },
+    {
+      "name": "Mantovani",
+      "role": "JavaScript port for Bunny Loader",
+      "avatar": "mantovani.jpg"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Items",
+  "summary": "Free, non-commercial fan port. Original mod: Nyacro; characters: Cygames; JavaScript port: Mantovani; C# port: Potato.",
+  "localizedSummaries": {
+    "pt-BR": "Port gratuito e sem fins comerciais. Mod original: Nyacro; personagens: Cygames; port Android: Mantovani."
+  },
+  "links": [
+    {
+      "title": "Original mod community",
+      "url": "https://discord.gg/NfmBrA2Re"
+    }
+  ],
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

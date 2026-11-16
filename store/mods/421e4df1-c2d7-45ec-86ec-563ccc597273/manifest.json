@@ -1,0 +1,32 @@
+{
+  "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
+  "id": "npcunlockannouncer",
+  "name": "NPC Unlock Announcer",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "EurusK",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3631856806"
+    },
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532",
+      "role": "Port"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Interface",
+  "summary": "An RPG-style banner announces every Town NPC and town pet that moves into your world.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

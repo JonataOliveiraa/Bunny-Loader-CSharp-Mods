@@ -1,0 +1,28 @@
+{
+  "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
+  "id": "cooleritemvisualeffect",
+  "name": "Cooler Item Visual Effect — Bunny Port",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Log Spiral (Original Creator)",
+      "role": "Original mod and visual assets"
+    },
+    {
+      "name": "Castorzeira (port)",
+      "avatar": "Castorzeira.png",
+      "role": "Bunny Loader port"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "A cool, totally over-the-top slash effect for melee swings",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

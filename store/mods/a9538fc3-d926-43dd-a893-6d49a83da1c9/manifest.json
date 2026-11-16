@@ -1,0 +1,32 @@
+{
+  "uid": "a9538fc3-d926-43dd-a893-6d49a83da1c9",
+  "id": "lootbeams",
+  "name": "Loot Beams",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "ChemAtDark",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2847872897"
+    },
+    {
+      "name": "Animatak_",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532",
+      "role": "Port"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "Borderlands-style light beams and glows in each dropped item's rarity color, with beam styles, glow and configurable lists.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

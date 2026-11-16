@@ -1,0 +1,32 @@
+{
+  "uid": "e613a447-d93c-49ca-8c74-f88accbfa996",
+  "id": "coloreddamagetypes",
+  "name": "Colored Damage Types",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "PvtFudgepants",
+      "role": "Original Creator",
+      "avatar": "steam.png",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2793782057"
+    },
+    {
+      "name": "Animatak_",
+      "role": "Port",
+      "avatar": "animatak.png",
+      "color": "#841FFF",
+      "link": "https://discord.gg/lemon-studio-1422278971227115532"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Visual",
+  "summary": "Damage numbers and tooltips in the color of the weapon's class: melee, ranged, magic, summon, sentry, throwing and modded classes.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
+  "id": "hellomod",
+  "name": "Minishark Turbo",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Bunny Loader",
+      "role": "Code and art",
+      "avatar": "bunny-loader.png",
+      "color": "#F9E141"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Armas",
+  "summary": "The Minishark becomes a machine gun.",
+  "localizedSummaries": {
+    "pt-BR": "A Minishark vira uma metralhadora."
+  },
+  "license": "MIT",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

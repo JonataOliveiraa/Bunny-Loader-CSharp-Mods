@@ -1,4 +1,2504 @@
 {
   "format": 1,
-  "mods": []
+  "mods": [
+    {
+      "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-disablecorruptionspread-v2.0.0/disablecorruptionspread.bl",
+        "sha256": "b81883dee15c36970db397fc4b6b1226b2e7fad5c44a7d2960563d53ffd42537",
+        "size": 33411
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "changelog_pt-BR.md",
+        "description_pt-BR.md",
+        "authors/jopojelly.webp",
+        "authors/mantovani.webp"
+      ],
+      "manifest": {
+        "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
+        "id": "disablecorruptionspread",
+        "name": "Begone, Evil! (Disable Evil Biome Spread)",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Mantovani",
+            "role": "Bunny Loader port, fixes & optimization",
+            "avatar": "mantovani.webp",
+            "color": "#FFD700"
+          },
+          {
+            "name": "jopojelly",
+            "role": "Original mod creator",
+            "avatar": "jopojelly.webp",
+            "color": "#FFFFFF",
+            "link": "https://forums.terraria.org/index.php?threads/begone-evil-disable-corruption-spread.72285/"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utilidade",
+        "summary": "Disables natural Corruption, Crimson and Hallow biome spread by default, with a per-world /spread toggle.",
+        "links": [
+          {
+            "title": "Original mod",
+            "url": "https://forums.terraria.org/index.php?threads/begone-evil-disable-corruption-spread.72285/"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:56Z"
+    },
+    {
+      "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-bestiarydisplays-v2.0.1/bestiarydisplays.bl",
+        "sha256": "4c07c8df01fa8e99533c93f78f08be59aa058c6ba92fd9766577bbcb40bdee6e",
+        "size": 164250
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
+        "id": "bestiarydisplays",
+        "name": "Bestiary Displays",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "JaquavionBennet",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760868784"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Decoration",
+        "summary": "Hologram Projectors that show any unlocked Bestiary creature as an animated, configurable hologram.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:17Z"
+    },
+    {
+      "uid": "5bd9553e-8439-4ddb-a12c-805b34b855e8",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-bosschecklist-v2.0.1/bosschecklist.bl",
+        "sha256": "16f58d68529ee33d6a834cdbce9668ee0e291625f13378b971644560915bbd85",
+        "size": 960397
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "5bd9553e-8439-4ddb-a12c-805b34b855e8",
+        "id": "bosschecklist",
+        "name": "Boss Checklist",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "jopojelly",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2669644269"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Interface",
+        "summary": "A Boss Log book with every boss, mini-boss and event: progress checklist, spawn items and recipes, loot and collectibles, fight records, despawn messages and a boss radar.",
+        "localizedSummaries": {
+          "pt-BR": "Um Boss Log com todos os chefes, minichefes e eventos: lista de progresso, itens de invocação e receitas, drops e colecionáveis, recordes de luta, mensagens de fuga e um radar de chefes.",
+          "es-ES": "Un Boss Log con todos los jefes, minijefes y eventos: lista de progreso, objetos de invocación y recetas, botín y coleccionables, récords de combate, mensajes de huida y un radar de jefes.",
+          "de-DE": "Ein Boss Log mit allen Bossen, Mini-Bossen und Ereignissen: Fortschrittsliste, Beschwörungsgegenstände und Rezepte, Beute und Sammelobjekte, Kampfrekorde, Abzugsmeldungen und ein Boss-Radar.",
+          "fr-FR": "Un Boss Log avec tous les boss, mini-boss et événements : liste de progression, objets d'invocation et recettes, butin et objets de collection, records de combat, messages de départ et un radar de boss.",
+          "it-IT": "Un Boss Log con tutti i boss, i mini-boss e gli eventi: lista dei progressi, oggetti di evocazione e ricette, bottino e collezionabili, record dei combattimenti, messaggi di fuga e un radar dei boss.",
+          "ru-RU": "Boss Log со всеми боссами, мини-боссами и событиями: список прогресса, предметы призыва и рецепты, добыча и коллекция, рекорды боёв, сообщения об уходе и радар боссов.",
+          "pl-PL": "Boss Log ze wszystkimi bossami, mini-bossami i wydarzeniami: lista postępu, przedmioty przywołujące i przepisy, łupy i kolekcja, rekordy walk, komunikaty o odejściu i radar bossów.",
+          "zh-Hans": "一本包含所有Boss、小Boss和事件的 Boss Log：进度清单、召唤物品与配方、战利品与收藏品、战斗记录、Boss离开提示以及Boss雷达。"
+        },
+        "links": [
+          {
+            "title": "Original Mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2669644269"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:21Z"
+    },
+    {
+      "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-bosscursor-v2.0.0/bosscursor.bl",
+        "sha256": "d56e56398649ef5f9c4bbc244a5838324d82e364a3778c98c8ceb4b360435cbb",
+        "size": 107353
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
+        "id": "bosscursor",
+        "name": "Boss Cursor",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Author"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "Shows arrows with boss heads pointing to bosses, even off-screen.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:24Z"
+    },
+    {
+      "uid": "bcb72e90-3716-4cd1-b8a4-866a963958e5",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-bunnysocial-v2.0.0/bunnysocial.bl",
+        "sha256": "7c37834df6a8f6d013090a2f4cabff0cf087e4ee620a24a4fac64fd063d817a6",
+        "size": 1703947
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "bcb72e90-3716-4cd1-b8a4-866a963958e5",
+        "id": "bunnysocial",
+        "name": "BunnySocial",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "VowTz"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Every vanity slot works like an accessory slot.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:28Z"
+    },
+    {
+      "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-chestpeek-v2.0.0/chestpeek.bl",
+        "sha256": "5647f653d6489f41bf578a0498f070c9531bf585e54937f769ee9bde5ea5d378",
+        "size": 649198
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
+        "id": "chestpeek",
+        "name": "ChestPeek",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "VowTz",
+            "role": "Inspiration"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Itens",
+        "summary": "Point at any container (chest, piggy bank, safe, forge, void vault) to see what is inside.",
+        "license": "GPL-3.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:31Z"
+    },
+    {
+      "uid": "e613a447-d93c-49ca-8c74-f88accbfa996",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-coloreddamagetypes-v2.0.0/coloreddamagetypes.bl",
+        "sha256": "233caaf4a77af1bcc181c735f11be72f37370f5f640d4f4cecf3e7effdf1c132",
+        "size": 104283
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "e613a447-d93c-49ca-8c74-f88accbfa996",
+        "id": "coloreddamagetypes",
+        "name": "Colored Damage Types",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "PvtFudgepants",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2793782057"
+          },
+          {
+            "name": "Animatak_",
+            "role": "Port",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "Damage numbers and tooltips in the color of the weapon's class: melee, ranged, magic, summon, sentry, throwing and modded classes.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:34Z"
+    },
+    {
+      "uid": "dae471c1-1177-4640-9cb7-68e29de58f6b",
+      "version": "2.2.5",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-consolaria-v2.2.5/consolaria.bl",
+        "sha256": "e04a3fab2b5646c9de7dad75b73d2a7774ec2083aca1614b828ecb009b2459ff",
+        "size": 26427337
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/consolaria_team.png",
+        "Assets/bg.png"
+      ],
+      "manifest": {
+        "uid": "dae471c1-1177-4640-9cb7-68e29de58f6b",
+        "id": "consolaria",
+        "name": "Consolaria Mobile",
+        "version": "2.2.5",
+        "authors": [
+          {
+            "name": "Consolaria Team",
+            "role": "Original Mod",
+            "avatar": "consolaria_team.png",
+            "color": "#FFFFFF",
+            "link": "https://github.com/has2r/Consolaria-2.0"
+          },
+          {
+            "name": "RoA Gang (has2r, peege.on, Serork)",
+            "role": "Original Mod",
+            "link": "https://github.com/has2r/Consolaria-2.0"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Content",
+        "summary": "Tons of exclusive content from the legacy and old-gen versions, reworked and rebalanced for modern Terraria.",
+        "links": [
+          {
+            "title": "Official Wiki",
+            "url": "https://terrariamods.wiki.gg/wiki/Consolaria"
+          },
+          {
+            "title": "Discord Server",
+            "url": "https://discord.gg/DTABXbd"
+          },
+          {
+            "title": "Github Page",
+            "url": "https://github.com/has2r/Consolaria-2.0"
+          }
+        ],
+        "theme": {
+          "accent": "#EFD3FF",
+          "panel": "#43295B",
+          "text": "#E0AAFF",
+          "heading": "#EFD3FF",
+          "button": "#71518F",
+          "buttonText": "#EFD3FF",
+          "background": "Assets/bg.png",
+          "backgroundMode": "cover",
+          "backgroundScale": 0.25,
+          "backgroundDim": 0.3
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:39Z"
+    },
+    {
+      "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-cooleritemvisualeffect-v2.0.0/cooleritemvisualeffect.bl",
+        "sha256": "2757d15afb7c8a4fffdfc751a4a101c0fa151fcf3e897e92d5a2a8da6ee5033f",
+        "size": 37528
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "changelog.md",
+        "license.md",
+        "authors/castorzeira.png"
+      ],
+      "manifest": {
+        "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
+        "id": "cooleritemvisualeffect",
+        "name": "Cooler Item Visual Effect — Bunny Port",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Log Spiral (Original Creator)",
+            "role": "Original mod and visual assets"
+          },
+          {
+            "name": "Castorzeira (port)",
+            "avatar": "Castorzeira.png",
+            "role": "Bunny Loader port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "A cool, totally over-the-top slash effect for melee swings",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:42Z"
+    },
+    {
+      "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-defaultdash-v2.0.0/defaultdash.bl",
+        "sha256": "85270722cbf38d3376b682385809111881b5a77a81bf4352c085e6d95ff5eb68",
+        "size": 82165
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
+        "id": "defaultdash",
+        "name": "Default Dash",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "VowTz"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Gives the player a basic dash without needing any dashing accessory.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:46Z"
+    },
+    {
+      "uid": "22b95101-7032-49ab-92a8-468f3030aa41",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-devtools-v2.0.1/devtools.bl",
+        "sha256": "dc07b8ee9e68aec238da72cec5f052c7513410200f863ea1134861482ced1237",
+        "size": 215970
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.jpg",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/0.png"
+      ],
+      "manifest": {
+        "uid": "22b95101-7032-49ab-92a8-468f3030aa41",
+        "id": "devtools",
+        "name": "Dev Tools",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "GST378",
+            "role": "author",
+            "avatar": "0.png",
+            "color": "#ffffff",
+            "link": "https://youtube.com/@gst_378"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utilidade",
+        "summary": "An intuitive tool interface: difficulty switch, entity clearing, hitboxes, weather and time, camera and photo mode, debug info.",
+        "localizedSummaries": {
+          "zh-Hans": "一个直观的工具界面：难度切换、实体清除、碰撞箱、天气与时间、相机与拍照模式、调试信息。"
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:49Z"
+    },
+    {
+      "uid": "cece9409-844d-476a-8953-1a59de78db92",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-directionalswings-v2.0.0/directionalswings.bl",
+        "sha256": "b9b8e1dca43fe0547094f30233e7a91aa5b4d91fc3129e634a849664b1fb2778",
+        "size": 1389358
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "cece9409-844d-476a-8953-1a59de78db92",
+        "id": "directionalswings",
+        "name": "Directional Swings",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "VowTz",
+            "role": "Author"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Melee swords swing toward where you aim, and the hitbox follows the blade.",
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:52Z"
+    },
+    {
+      "uid": "95728a1c-1fb7-4ed7-af5b-d12bdec38e46",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-dobrodedano-v2.0.0/dobrodedano.bl",
+        "sha256": "9c895fe893f9e0b6908c826ec1794a8f19c42e3395b0015fa04157a7015b7c26",
+        "size": 15331
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/bunny-loader.png"
+      ],
+      "manifest": {
+        "uid": "95728a1c-1fb7-4ed7-af5b-d12bdec38e46",
+        "id": "dobrodedano",
+        "name": "Dobro de Dano",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Bunny Loader",
+            "role": "Code and art",
+            "avatar": "bunny-loader.png",
+            "color": "#F9E141"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Armas",
+        "summary": "Every weapon deals double damage.",
+        "localizedSummaries": {
+          "pt-BR": "Toda arma nasce com o dobro do dano."
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:03Z"
+    },
+    {
+      "uid": "18be738c-3c45-4191-b666-e0801f602b2a",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-flatseed-v2.0.0/flatseed.bl",
+        "sha256": "aed09c0eef68559bd2d26236fa57fea021c644bb1b5d35445df5b401cf2a2b7e",
+        "size": 55610
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "changelog_es-ES.md",
+        "changelog_pt-BR.md",
+        "changelog_ru-RU.md",
+        "changelog_th-TH.md",
+        "changelog_vi-VN.md",
+        "changelog_zh-Hans.md",
+        "description_es-ES.md",
+        "description_pt-BR.md",
+        "description_ru-RU.md",
+        "description_th-TH.md",
+        "description_vi-VN.md",
+        "description_zh-Hans.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "18be738c-3c45-4191-b666-e0801f602b2a",
+        "id": "flatseed",
+        "name": "Flat Seed",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "role": "Author",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "World",
+        "summary": "A secret seed for a world so flat you can run without fear of tripping into a hole: type \"flat\" when creating a world. Caves, biomes, structures and the floating islands stay as usual.",
+        "localizedSummaries": {
+          "pt-BR": "Uma seed secreta para um mundo tão plano que dá para correr sem medo de cair num buraco: digite \"plano\" ou \"flat\" ao criar um mundo. Cavernas, biomas, estruturas e as ilhas flutuantes continuam normais.",
+          "es-ES": "Una semilla secreta para un mundo tan plano que puedes correr sin miedo a caer en un agujero: escribe \"plano\" o \"flat\" al crear un mundo. Las cuevas, los biomas, las estructuras y las islas flotantes siguen como siempre.",
+          "ru-RU": "Секретный сид для мира настолько плоского, что можно бежать, не боясь провалиться в яму: введите «плоский» или «flat» при создании мира. Пещеры, биомы, постройки и парящие острова остаются как обычно.",
+          "zh-Hans": "一个平到可以放心狂奔、不怕掉进坑里的世界秘密种子：创建世界时输入「平坦」或「flat」。洞穴、生物群系、建筑和浮空岛照常保留。",
+          "vi-VN": "Một hạt giống bí mật cho thế giới phẳng đến mức bạn có thể chạy mà không sợ rơi xuống hố: gõ \"phẳng\" hoặc \"flat\" khi tạo thế giới. Hang động, quần xã, công trình và đảo bay vẫn như bình thường.",
+          "th-TH": "ซีดลับสำหรับโลกที่แบนจนวิ่งได้โดยไม่ต้องกลัวตกหลุม: พิมพ์ \"แบน\" หรือ \"flat\" ตอนสร้างโลก ถ้ำ ไบโอม สิ่งก่อสร้าง และเกาะลอยฟ้ายังคงเหมือนเดิม"
+        },
+        "links": [
+          {
+            "title": "Discord",
+            "url": "https://discord.gg/mkPMd9shZH"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:09Z"
+    },
+    {
+      "uid": "064e2318-32a8-4c41-a625-bcc8388ced91",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-gnorpbuilder-v2.0.1/gnorpbuilder.bl",
+        "sha256": "222c47f63b29d7b445f0e64b2b1ff98c3649d447309853d03ede742048bb1cca",
+        "size": 4876614
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "064e2318-32a8-4c41-a625-bcc8388ced91",
+        "id": "gnorpbuilder",
+        "name": "Gnorp's Builder",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "Korlex",
+            "role": "Original Creator",
+            "avatar": "steam.png"
+          },
+          {
+            "name": "Animatak_",
+            "role": "Port",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "World",
+        "summary": "Gnorp, an alien builder town NPC, sells globes that instantly build houses, castles, arenas, elevators, pylons, lakes and minecart tracks where you tap.",
+        "localizedSummaries": {
+          "pt-BR": "Gnorp, um NPC construtor alienígena, vende globos que constroem na hora casas, castelos, arenas, elevadores, pilares, lagos e trilhos onde você toca.",
+          "es-ES": "Gnorp, un constructor alienígena que vive en tu pueblo, vende globos que construyen al instante casas, castillos, arenas, ascensores, pilares, lagos y raíles de vagoneta donde tocas.",
+          "de-DE": "Gnorp, ein außerirdischer Baumeister-NPC, verkauft Globen, die sofort Häuser, Burgen, Arenen, Aufzüge, Pylonen, Seen und Lorenschienen dort bauen, wo du tippst.",
+          "fr-FR": "Gnorp, un PNJ bâtisseur extraterrestre, vend des globes qui construisent instantanément maisons, châteaux, arènes, ascenseurs, pylônes, lacs et rails de wagonnet là où tu touches.",
+          "it-IT": "Gnorp, un PNG costruttore alieno, vende globi che costruiscono all'istante case, castelli, arene, ascensori, piloni, laghi e binari per carrello dove tocchi.",
+          "ru-RU": "Гнорп, инопланетный житель-строитель, продаёт глобусы, которые мгновенно строят дома, замки, арены, лифты, пилоны, озёра и рельсы там, где вы коснётесь.",
+          "pl-PL": "Gnorp, kosmiczny NPC budowniczy, sprzedaje kule, które natychmiast budują domy, zamki, areny, windy, pylony, jeziora i tory wagonika tam, gdzie dotkniesz.",
+          "zh-Hans": "外星建筑师城镇NPC Gnorp 出售建筑球，可以在你点击的位置立即建造房屋、城堡、竞技场、电梯、晶塔、湖泊和矿车轨道。"
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:13Z"
+    },
+    {
+      "uid": "47f60fb6-0b46-453e-b19e-389867412da8",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-improvedmovement-v2.0.0/improvedmovement.bl",
+        "sha256": "fee920d7fa9964a9fe5ec40c13287b4ad1324ddbbf77e7e78848585d983d3cbf",
+        "size": 45707
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "47f60fb6-0b46-453e-b19e-389867412da8",
+        "id": "improvedmovement",
+        "name": "Improved Movement",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Author"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "Your head follows the cursor, your body leans as you move, and slimes, zombies and critters lean too.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:20Z"
+    },
+    {
+      "uid": "8a8e7a80-b608-4280-a137-57469459f0b4",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-infinitypotionbuff-v2.0.0/infinitypotionbuff.bl",
+        "sha256": "68c71b0bd86812e054ce781986178623cf1d9af8c556a8adb5ef022ae14e9bbb",
+        "size": 6914
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/Zayah.png"
+      ],
+      "manifest": {
+        "uid": "8a8e7a80-b608-4280-a137-57469459f0b4",
+        "id": "infinitypotionbuff",
+        "name": "Infinity Potion Buff",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Zayah",
+            "role": "Author",
+            "avatar": "Zayah.png",
+            "color": "#FFAF00"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utilities",
+        "summary": "Store items in your Piggy Bank to get permanent buffs: potions (stack of 30+), campfire, sunflower, kites and more.",
+        "localizedSummaries": {
+          "pt-BR": "Guarde itens no Cofrinho para ganhar buffs permanentes: poções (pilha de 30+), fogueira, girassol, pipas e outros."
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:23Z"
+    },
+    {
+      "uid": "469b0c4b-acfa-463b-90df-5db222a81351",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-instantplatformfallthrough-v2.0.0/instantplatformfallthrough.bl",
+        "sha256": "273871f22cf33cc58f87b0b748298951ed4aef346ca16ff7f2fd9e0284df6cf6",
+        "size": 999414
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/lemon.webp",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "469b0c4b-acfa-463b-90df-5db222a81351",
+        "id": "instantplatformfallthrough",
+        "name": "Instant Platform Fallthrough",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "diniamo",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "color": "#F0F0F0",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2992213994"
+          },
+          {
+            "name": "GST378",
+            "role": "Bunny Loader Port",
+            "avatar": "lemon.webp",
+            "color": "#FEFE00",
+            "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "QoL",
+        "summary": "Allows you to fall through platforms instantly while holding your down key instead of stopping for a moment.",
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:27Z"
+    },
+    {
+      "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-displaybase-v2.0.0/displaybase.bl",
+        "sha256": "9042d4a95b695d81dfc5bbaf253b33ae6b18849b31b0243318037af4f9a0c18e",
+        "size": 291358
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png",
+        "docs/crafting.md",
+        "Content/Items/DisplayBaseItem.png",
+        "Content/Items/DisplayBaseItemGranite.png"
+      ],
+      "manifest": {
+        "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
+        "id": "displaybase",
+        "name": "Item Display Base",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Cleyera",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2922358421"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Cavalier",
+            "role": "Chinese localization (original)",
+            "avatar": "steam.png"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Decoration",
+        "summary": "A Display Base to show off any item, with glitter, outline and light effects. Made from marble or granite.",
+        "pages": [
+          {
+            "title": "Crafting",
+            "file": "docs/crafting.md"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:58:59Z"
+    },
+    {
+      "uid": "adbf3a32-2952-41cc-8d97-7c3b1575785d",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-moddifficulty-v2.0.1/moddifficulty.bl",
+        "sha256": "2e89d680065d308996faef9e8d26c116915bbeb9c4c566bf2e391b5872d13b4d",
+        "size": 42728
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/0.jpg"
+      ],
+      "manifest": {
+        "uid": "adbf3a32-2952-41cc-8d97-7c3b1575785d",
+        "id": "moddifficulty",
+        "name": "Legendary Difficulty",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "GST378",
+            "role": "author",
+            "avatar": "0.jpg",
+            "color": "#ffffff",
+            "link": "https://youtube.com/@gst_378"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Gameplay",
+        "summary": "Adds custom world difficulties to the game (which only has Normal, Expert, Master and Journey), including the Legendary difficulty.",
+        "localizedSummaries": {
+          "zh-Hans": "为游戏添加自定义世界难度（原版只有普通/专家/大师/旅行难度），并加入传奇难度。."
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:48Z"
+    },
+    {
+      "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-lightsandshadows-v2.0.0/lightsandshadows.bl",
+        "sha256": "1a582f5815a17f46c0851cd483e9afdc7e332b397479eab6dbecf1db1cb5471a",
+        "size": 263610
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/potato.png"
+      ],
+      "manifest": {
+        "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
+        "id": "lightsandshadows",
+        "name": "Lights And Shadows",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "yiyang233",
+            "role": "Original mod and visual assets"
+          },
+          {
+            "name": "Potato",
+            "avatar": "potato.png",
+            "role": "Bunny Loader port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "Sunlight, moonlight, shadow rays and bloom over the world, ported from the tModLoader mod and rebuilt to run on phones.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:33Z"
+    },
+    {
+      "uid": "a9538fc3-d926-43dd-a893-6d49a83da1c9",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-lootbeams-v2.0.0/lootbeams.bl",
+        "sha256": "3da5b4bbe56eec2e8d6646ba7a438bec2baf03772a17953731fcdecc037be61c",
+        "size": 116893
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "a9538fc3-d926-43dd-a893-6d49a83da1c9",
+        "id": "lootbeams",
+        "name": "Loot Beams",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "ChemAtDark",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2847872897"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "Borderlands-style light beams and glows in each dropped item's rarity color, with beam styles, glow and configurable lists.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:37Z"
+    },
+    {
+      "uid": "7c1e9b52-3f0a-4d8e-9a64-5b2d8c6e1f47",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-menumedia-v2.0.1/menumedia.bl",
+        "sha256": "4ba01fc56b0dab83936dfd45e202cad469088c67208223f1a934d561eced8ff9",
+        "size": 139205
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/amogus.png"
+      ],
+      "manifest": {
+        "uid": "7c1e9b52-3f0a-4d8e-9a64-5b2d8c6e1f47",
+        "id": "menumedia",
+        "name": "Menu Media",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "amogus",
+            "role": "Dev",
+            "avatar": "amogus.png",
+            "color": "#7FC8FF"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "Every GIF/image in Assets/MenuThemes becomes a main-menu theme, with the audio file of the same name as its music.",
+        "localizedNames": {
+          "vi": "Menu Media"
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:40Z"
+    },
+    {
+      "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-hellomod-v2.0.0/hellomod.bl",
+        "sha256": "8ea3197db0206adac2af933a7d61512b9e4ca370640de14bd83452571a9691af",
+        "size": 14117
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/bunny-loader.png"
+      ],
+      "manifest": {
+        "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
+        "id": "hellomod",
+        "name": "Minishark Turbo",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Bunny Loader",
+            "role": "Code and art",
+            "avatar": "bunny-loader.png",
+            "color": "#F9E141"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Armas",
+        "summary": "The Minishark becomes a machine gun.",
+        "localizedSummaries": {
+          "pt-BR": "A Minishark vira uma metralhadora."
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:17Z"
+    },
+    {
+      "uid": "e651d97d-eb24-51b5-bdc2-57722a898f79",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-mitanpc-v2.0.1/mitanpc.bl",
+        "sha256": "eb374260f955b686668a9b0e0f8f9149ea42f830dcbb129afb92ebf39320f273",
+        "size": 3059972
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/potato.png"
+      ],
+      "manifest": {
+        "uid": "e651d97d-eb24-51b5-bdc2-57722a898f79",
+        "id": "mitanpc",
+        "name": "Mita NPC",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "rzc0d3r",
+            "role": "Original mod, code and assets",
+            "link": "https://github.com/rzc00d3r/MitaNPC"
+          },
+          {
+            "name": "Potato",
+            "role": "Bunny Loader port",
+            "avatar": "potato.png",
+            "color": "#E8C170"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "NPCs",
+        "summary": "Four MiSide town NPCs with voiced dialogue, shops, weapons, pets and permanent combat manuals.",
+        "links": [
+          {
+            "title": "Original Workshop mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3402763063"
+          },
+          {
+            "title": "Original source code",
+            "url": "https://github.com/rzc00d3r/MitaNPC"
+          }
+        ],
+        "theme": {
+          "accent": "#B971F2",
+          "panel": "#272038",
+          "heading": "#F0E2FF"
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:44Z"
+    },
+    {
+      "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-npcunlockannouncer-v2.0.0/npcunlockannouncer.bl",
+        "sha256": "86bc5128b5dd9a6f6e686b30e9f862539e0d0d5f284dc8721fb36cfa1d4cae52",
+        "size": 686078
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
+        "id": "npcunlockannouncer",
+        "name": "NPC Unlock Announcer",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "EurusK",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3631856806"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Interface",
+        "summary": "An RPG-style banner announces every Town NPC and town pet that moves into your world.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:51Z"
+    },
+    {
+      "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-orycto-v2.0.1/orycto.bl",
+        "sha256": "9c74b357f3c74872fd135a10eb381682251af07b86b067f1e4e3c1bd94d77904",
+        "size": 82414
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
+        "id": "orycto",
+        "name": "Orycto (Alpha)",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "vowtz"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Optimization",
+        "summary": "Orycto: FPS unlocker and performance optimizations.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:54Z"
+    },
+    {
+      "uid": "a26a4992-e895-4120-a903-0e23b376c8a1",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-overhealth-v2.0.0/overhealth.bl",
+        "sha256": "2f0e71009a043b7b02a4118e0509e1c1b626b32421e6f80febceaf91da0cc879",
+        "size": 21663
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "a26a4992-e895-4120-a903-0e23b376c8a1",
+        "id": "overhealth",
+        "name": "Overhealth",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "JADen",
+            "role": "Original tModLoader mod"
+          },
+          {
+            "name": "VowTz",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Healing past full health becomes temporary Overhealth that absorbs damage and slowly decays.",
+        "license": "AGPL-3.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:57Z"
+    },
+    {
+      "uid": "3cfaa0a0-6ddf-4484-900e-6c482ef4e1c7",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-kineticgore-v2.0.0/kineticgore.bl",
+        "sha256": "721745aad2cf63186502c8fbf0ea0b81de4020d087430a0067ed62c70b2cff22",
+        "size": 276267
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "3cfaa0a0-6ddf-4484-900e-6c482ef4e1c7",
+        "id": "kineticgore",
+        "name": "Physaria (Kinetic Gore)",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "LevitatingGT",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610770947"
+          },
+          {
+            "name": "Animatak_",
+            "role": "Port",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "A ragdoll and body physics engine for Terraria: enemies collapse into ragdolls, lose heads and limbs, bleed sticky blood, and humanoids and slimes wobble with physics. Purely cosmetic.",
+        "localizedSummaries": {
+          "pt-BR": "Um motor de ragdoll e física de corpos para o Terraria: inimigos caem como bonecos de pano, perdem a cabeça e as pernas, sangram sangue que gruda no chão, e humanoides e slimes balançam com física. Só visual.",
+          "es-ES": "Un motor de ragdoll y física de cuerpos para Terraria: los enemigos caen como muñecos de trapo, pierden la cabeza y las piernas, sangran sangre que se pega al suelo, y humanoides y slimes se bambolean con física. Solo visual.",
+          "de-DE": "Eine Ragdoll- und Körperphysik-Engine für Terraria: Gegner fallen als Ragdolls zusammen, verlieren Kopf und Beine, bluten klebriges Blut, und Humanoide und Schleime wackeln mit Physik. Rein kosmetisch.",
+          "fr-FR": "Un moteur de ragdoll et de physique des corps pour Terraria : les ennemis s'effondrent en ragdolls, perdent tête et jambes, saignent un sang collant, et humanoïdes et slimes ballottent avec la physique. Purement cosmétique.",
+          "it-IT": "Un motore di ragdoll e fisica dei corpi per Terraria: i nemici crollano come ragdoll, perdono testa e gambe, sanguinano sangue appiccicoso, e umanoidi e slime dondolano con la fisica. Puramente estetico.",
+          "ru-RU": "Движок рэгдоллов и физики тел для Terraria: враги падают рэгдоллами, теряют голову и ноги, истекают липкой кровью, а гуманоиды и слизни качаются по физике. Чисто косметический.",
+          "pl-PL": "Silnik ragdolli i fizyki ciał dla Terrarii: wrogowie padają jako ragdolle, tracą głowę i nogi, krwawią lepką krwią, a humanoidy i szlamy chwieją się z fizyką. Czysto kosmetyczny.",
+          "zh-Hans": "泰拉瑞亚的布娃娃与身体物理引擎：敌人倒下变成布娃娃，会掉头断腿、流出粘性血液，人形角色和史莱姆会随物理摇晃。纯外观效果。"
+        },
+        "links": [
+          {
+            "title": "Original Mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610770947"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:30Z"
+    },
+    {
+      "uid": "ae7c31e7-a0d5-4064-995d-acedf7fd5afc",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-pingmod-v2.0.1/pingmod.bl",
+        "sha256": "44c563b9693f32431a8ec435edcd66e65cc7d3f3b32b63334f9b1831cbe023ec",
+        "size": 105525
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "ae7c31e7-a0d5-4064-995d-acedf7fd5afc",
+        "id": "pingmod",
+        "name": "Player Ping UI",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "MooMoo",
+            "role": "Original Creator",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3315564370",
+            "avatar": "steam.png"
+          },
+          {
+            "name": "crumb",
+            "role": "Ping icon sprites"
+          },
+          {
+            "name": "otterly",
+            "role": "Mod icon border"
+          },
+          {
+            "name": "Animatak_",
+            "role": "Port",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "See your ping in multiplayer, pick an icon style that everyone sees, and open a panel with the ping of every connected player.",
+        "localizedSummaries": {
+          "pt-BR": "Veja seu ping no multijogador, escolha um estilo de ícone que todos veem e abra um painel com o ping de cada jogador conectado.",
+          "es-ES": "Mira tu ping en multijugador, elige un estilo de icono que todos ven y abre un panel con el ping de cada jugador conectado.",
+          "de-DE": "Sieh deinen Ping im Mehrspieler, wähle einen Symbolstil, den alle sehen, und öffne ein Fenster mit dem Ping jedes verbundenen Spielers.",
+          "fr-FR": "Vois ton ping en multijoueur, choisis un style d'icône visible par tous et ouvre un panneau avec le ping de chaque joueur connecté.",
+          "it-IT": "Guarda il tuo ping in multigiocatore, scegli uno stile d'icona che vedono tutti e apri un pannello con il ping di ogni giocatore connesso.",
+          "ru-RU": "Смотрите свой пинг в мультиплеере, выберите стиль значка, который видят все, и откройте панель с пингом каждого подключённого игрока.",
+          "pl-PL": "Zobacz swój ping w trybie wieloosobowym, wybierz styl ikony widoczny dla wszystkich i otwórz panel z pingiem każdego połączonego gracza.",
+          "zh-Hans": "在多人游戏中查看你的延迟，选择所有人都能看到的图标样式，并打开显示每位已连接玩家延迟的面板。"
+        },
+        "links": [
+          {
+            "title": "Original Mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3315564370"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:01Z"
+    },
+    {
+      "uid": "15b99fa4-580f-40c6-9a26-78e3928876d7",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-semqueda-v2.0.0/semqueda.bl",
+        "sha256": "5f37526f813cf217d96aa376eb64056252d9fd324c80235dd534ce26d1a6e8ce",
+        "size": 11053
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/bunny-loader.png"
+      ],
+      "manifest": {
+        "uid": "15b99fa4-580f-40c6-9a26-78e3928876d7",
+        "id": "semqueda",
+        "name": "Sem Dano de Queda",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Bunny Loader",
+            "role": "Code and art",
+            "avatar": "bunny-loader.png",
+            "color": "#F9E141"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Falling from any height no longer hurts.",
+        "localizedSummaries": {
+          "pt-BR": "Cair de qualquer altura deixou de doer."
+        },
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:04Z"
+    },
+    {
+      "uid": "8de902a2-3816-4a6b-91f8-ab80a0ce0f57",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-teleportkeeper-v2.0.0/teleportkeeper.bl",
+        "sha256": "6b11a5bbe8eb270b84ec0c528ac0f3ca24f3f07a77f32da64b3f74a1f15aa697",
+        "size": 81857
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "8de902a2-3816-4a6b-91f8-ab80a0ce0f57",
+        "id": "teleportkeeper",
+        "name": "Teleport Keeper",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "role": "Author",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "Create teleports with a name and a biome icon, organize them in a list with search, favorites and filters, and travel to them from the map. When you die, a way back that is only yours.",
+        "localizedSummaries": {
+          "pt-BR": "Crie teleportes com nome e ícone do bioma, organize-os numa lista com busca, favoritos e filtros, e viaje até eles pelo mapa. Ao morrer, um ponto de volta só seu.",
+          "es-ES": "Crea teletransportes con nombre e icono del bioma, organízalos en una lista con búsqueda, favoritos y filtros, y viaja hasta ellos desde el mapa. Al morir, un punto de regreso solo tuyo.",
+          "ru-RU": "Создавайте телепорты с названием и значком биома, держите их в списке с поиском, избранным и фильтрами и перемещайтесь к ним через карту. После смерти — точка возврата только для вас.",
+          "zh-Hans": "创建带名称和生物群系图标的传送点，在支持搜索、收藏和筛选的列表中管理它们，并通过地图传送过去。死亡后，还有一个只属于你的返回点。",
+          "vi-VN": "Tạo điểm dịch chuyển có tên và biểu tượng quần xã, sắp xếp trong danh sách có tìm kiếm, yêu thích và bộ lọc, rồi đi đến chúng từ bản đồ. Khi chết, có một điểm quay lại chỉ của riêng bạn.",
+          "th-TH": "สร้างจุดวาร์ปพร้อมชื่อและไอคอนไบโอม จัดเก็บในรายการที่มีการค้นหา รายการโปรด และตัวกรอง แล้วเดินทางไปจากแผนที่ เมื่อตาย จะมีจุดกลับที่เป็นของคุณคนเดียว"
+        },
+        "links": [
+          {
+            "title": "Discord",
+            "url": "https://discord.gg/mkPMd9shZH"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:07Z"
+    },
+    {
+      "uid": "30f21a81-4240-420b-a9ba-924e917fc571",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-terrarchitect-v2.0.0/terrarchitect.bl",
+        "sha256": "56913b6bd32de0b639fddb4c44d4573d57a6f893df38f94f7d9ee9227e360a04",
+        "size": 2233151
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/0.png",
+        "authors/1.jpeg",
+        "authors/2.png",
+        "authors/steam.png",
+        "Assets/logo.png",
+        "Assets/items.png"
+      ],
+      "manifest": {
+        "uid": "30f21a81-4240-420b-a9ba-924e917fc571",
+        "id": "terrarchitect",
+        "name": "Terrarchitect",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Gurgle_Nurgle",
+            "role": "Spritework",
+            "avatar": "0.png",
+            "color": "#F0F0F0",
+            "link": "https://github.com/GurgleNurgle"
+          },
+          {
+            "name": "silent_ptr",
+            "role": "Coding",
+            "avatar": "1.jpeg",
+            "color": "#F0F0F0",
+            "link": "https://github.com/silentptr"
+          },
+          {
+            "name": "Zandberg",
+            "role": "Coding",
+            "avatar": "2.png",
+            "color": "#F0F0F0",
+            "link": "https://github.com/Zandberg-x"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Building",
+        "summary": "Terrarchitect is a furniture / build mod that adds a wide variety of custom-made, high-quality decorational items and blocks to Terraria! It also aims to make some previously ubobtainable or unplacable vanilla items available.",
+        "links": [
+          {
+            "title": "Subreddit",
+            "url": "https://www.reddit.com/r/Terrarchitect/"
+          },
+          {
+            "title": "Forum",
+            "url": "https://forums.terraria.org/index.php?threads/terrarchitect.95959/"
+          },
+          {
+            "title": "Steam",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2799559538"
+          }
+        ],
+        "theme": {
+          "accent": "#DD8D57",
+          "panel": "#765F43",
+          "text": "#DD8D57",
+          "heading": "#F0F0F0",
+          "button": "#A38259",
+          "buttonText": "#E2D4C7",
+          "background": "banner.png",
+          "backgroundMode": "cover",
+          "backgroundScale": 1,
+          "backgroundDim": 0.3
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:11Z"
+    },
+    {
+      "uid": "5f0b0d15-6ee8-4e03-aafb-825d9ba5ca19",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-tooltipicon-v2.0.0/tooltipicon.bl",
+        "sha256": "7ef1dd50cc02c6e78b22e10f0fa10ac627b89593f8ed722dbaa34f541f111b4c",
+        "size": 105846
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "5f0b0d15-6ee8-4e03-aafb-825d9ba5ca19",
+        "id": "tooltipicon",
+        "name": "Tooltip Icon",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Nil256",
+            "avatar": "steam.png",
+            "role": "Original Creator",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3582340033"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Interface",
+        "summary": "Adds a small icon to the left of each item tooltip line: damage, speed, defense, tool power, potions, prefixes and more.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:14Z"
+    },
+    {
+      "uid": "7b1e9c52-3f4a-4d6e-9a18-5c2d8e0f41a7",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-topdownmode-v2.0.1/topdownmode.bl",
+        "sha256": "435e6afbea96da33b62770e7c3204144ca77ce0fe45f0ee59a7294cccb86fc1d",
+        "size": 2813695
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/castorzeira.png",
+        "docs/background.jpg"
+      ],
+      "manifest": {
+        "uid": "7b1e9c52-3f4a-4d6e-9a18-5c2d8e0f41a7",
+        "id": "topdownmode",
+        "name": "Top-Down Mode (test)",
+        "localizedNames": {
+          "pt-BR": "Top-Down Mode (teste)"
+        },
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "Castorzeira",
+            "avatar": "castorzeira.png"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Gameplay",
+        "summary": "Top-down test: no gravity, eight-way movement, swings toward the mouse and a top-down island world with Terraria's biomes.",
+        "localizedSummaries": {
+          "pt-BR": "Teste top-down: sem gravidade, 8 direções, golpe na direção do mouse e mundo top-down em ilha com os biomas do Terraria."
+        },
+        "theme": {
+          "background": "docs/background.jpg",
+          "backgroundMode": "cover",
+          "backgroundDim": 0.4
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:18Z"
+    },
+    {
+      "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-touhoupets-v2.0.1/touhoupets.bl",
+        "sha256": "4572af71fad66402411caff9ee86d248e5d534bfbefc02b2541a00151ae6f294",
+        "size": 253364
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/potato.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
+        "id": "touhoupets",
+        "name": "Touhou Pets",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "中学生",
+            "role": "Original mod (tModLoader)",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2973922820",
+            "avatar": "steam.png"
+          },
+          {
+            "name": "Potato",
+            "role": "Port to Bunny Loader",
+            "avatar": "potato.png",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Pets",
+        "summary": "Adventure with cute partners: 19 Touhou characters as pets, dropped by the bosses. They animate, react to the world and talk to you and to each other. GPL-3.0; source code in this repository.",
+        "links": [
+          {
+            "title": "Original mod on the Steam Workshop",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2973922820"
+          },
+          {
+            "title": "Source code (GitHub)",
+            "url": "https://github.com/MineGame223/TouhouLittleFriend"
+          }
+        ],
+        "license": "GPL-3.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:22Z"
+    },
+    {
+      "uid": "77b38952-98d6-4e18-a301-638d54c4bfd0",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-townnpchome-v2.0.0/townnpchome.bl",
+        "sha256": "9c5296881467b317ba3bb226558300fed1699934f18cb9c2d67dca8dc4615ed1",
+        "size": 36439
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "description_pt-BR.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "77b38952-98d6-4e18-a301-638d54c4bfd0",
+        "id": "townnpchome",
+        "name": "TownNPC Home",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.com/invite/tl-pro-402880167737032705",
+            "role": "Autor"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utilidade",
+        "summary": "Teleports town NPCs to their homes.",
+        "localizedSummaries": {
+          "pt-BR": "Teleporta NPCs de cidade para suas casas."
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:25Z"
+    },
+    {
+      "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-umamusumevanities-v2.0.0/umamusumevanities.bl",
+        "sha256": "129612de2bd211c64b2be8724e33414e3684c73b12bb00afe2306e4e61eb1ffb",
+        "size": 245449
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/mantovani.jpg",
+        "authors/nyacro.jpg"
+      ],
+      "manifest": {
+        "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
+        "id": "umamusumevanities",
+        "name": "Umamusume Vanities — Bunny Port",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "Nyacro",
+            "role": "Original PC mod",
+            "avatar": "nyacro.jpg"
+          },
+          {
+            "name": "Mantovani",
+            "role": "JavaScript port for Bunny Loader",
+            "avatar": "mantovani.jpg"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Items",
+        "summary": "Free, non-commercial fan port. Original mod: Nyacro; characters: Cygames; JavaScript port: Mantovani; C# port: Potato.",
+        "localizedSummaries": {
+          "pt-BR": "Port gratuito e sem fins comerciais. Mod original: Nyacro; personagens: Cygames; port Android: Mantovani."
+        },
+        "links": [
+          {
+            "title": "Original mod community",
+            "url": "https://discord.gg/NfmBrA2Re"
+          }
+        ],
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:28Z"
+    },
+    {
+      "uid": "35117929-e61f-42bc-97c5-773228761b99",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-universalmap-v2.0.1/universalmap.bl",
+        "sha256": "c5aa9c9dd2e7981afa5992fc2838cdef7c9d4a5e3a0a49acd056ce0fb59ce3ff",
+        "size": 54752
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "35117929-e61f-42bc-97c5-773228761b99",
+        "id": "universalmap",
+        "name": "Universal Map",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "role": "Creator",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "In multiplayer, every player's explored map is shared with everyone every minute.",
+        "localizedSummaries": {
+          "pt-BR": "No multijogador, o mapa explorado de cada jogador é compartilhado com todos a cada minuto.",
+          "es-ES": "En multijugador, el mapa explorado de cada jugador se comparte con todos cada minuto.",
+          "de-DE": "Im Mehrspieler wird die erkundete Karte jedes Spielers jede Minute mit allen geteilt.",
+          "fr-FR": "En multijoueur, la carte explorée de chaque joueur est partagée avec tout le monde chaque minute.",
+          "it-IT": "In multigiocatore, la mappa esplorata di ogni giocatore viene condivisa con tutti ogni minuto.",
+          "ru-RU": "В мультиплеере исследованная карта каждого игрока каждую минуту передаётся всем.",
+          "pl-PL": "W trybie wieloosobowym odkryta mapa każdego gracza jest co minutę udostępniana wszystkim.",
+          "zh-Hans": "在多人游戏中，每位玩家探索过的地图每分钟都会与所有人共享。"
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:32Z"
+    },
+    {
+      "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-veinminer-v2.0.1/veinminer.bl",
+        "sha256": "983c66c0c263901af844b268a0e97995a7cf53087afde06ce90ebcee8ad9759a",
+        "size": 47616
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png"
+      ],
+      "manifest": {
+        "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
+        "id": "veinminer",
+        "name": "Vein Miner",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532",
+            "role": "Author"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "Break one ore with your pickaxe and the whole vein comes with it. Add any block with /vein add.",
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:36Z"
+    },
+    {
+      "uid": "f16fc5fd-5b01-42dc-bdbc-669bfda6c090",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-weaponoutlite-v2.0.1/weaponoutlite.bl",
+        "sha256": "07420e6995346c2c1a7fbd7e3613d99b879f49be92bbeb3b66221bf5d6e8cad2",
+        "size": 157848
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "f16fc5fd-5b01-42dc-bdbc-669bfda6c090",
+        "id": "weaponoutlite",
+        "name": "Weapon Out Lite",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "Flashkirby",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3455924006"
+          },
+          {
+            "name": "Animatak_",
+            "role": "Port",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/lemon-studio-1422278971227115532"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Visual",
+        "summary": "Shows the held item on your character: swords at the waist, weapons on the back, bows, books and staves in their own poses, and combat poses after attacking.",
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:42Z"
+    },
+    {
+      "uid": "be81ae6a-ac8a-4d23-bcd1-2bb8d056d37d",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-wmitf-v2.0.0/wmitf.bl",
+        "sha256": "9150319f333a475e714d0e02fdae94d902335b9cd56e8b54955e31a1eb053af8",
+        "size": 1000942
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/lemon.webp",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "be81ae6a-ac8a-4d23-bcd1-2bb8d056d37d",
+        "id": "wmitf",
+        "name": "Which Mod Is This From?",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "HilariousWalnut34",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "color": "#F0F0F0",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563851005"
+          },
+          {
+            "name": "GST378",
+            "role": "Bunny Loader Port",
+            "avatar": "lemon.webp",
+            "color": "#FEFE00",
+            "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "When you look at a modded item, block or NPC, WMITF will show you the name of the mod which it came from.",
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:53Z"
+    },
+    {
+      "uid": "821a0c6b-ff63-437b-b3e7-da92f9eae0f8",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-wikithis-v2.0.1/wikithis.bl",
+        "sha256": "a90a4980d48d128d0e6ce7ef1c201efad3b13daab2f64348c2c5d8564aafe16a",
+        "size": 1446967
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/lemon.webp",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "821a0c6b-ff63-437b-b3e7-da92f9eae0f8",
+        "id": "wikithis",
+        "name": "Wikithis",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "BasicallyIAmFox",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "color": "#F0F0F0",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2832487441"
+          },
+          {
+            "name": "GST378",
+            "role": "Bunny Loader Port",
+            "avatar": "lemon.webp",
+            "color": "#FEFE00",
+            "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "QoL",
+        "summary": "Allows you to check the item wiki from within the game.",
+        "theme": {
+          "accent": "F0F0F0",
+          "heading": "#F0FOF0"
+        },
+        "license": "Apache-2.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:46Z"
+    },
+    {
+      "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-wildandhorned-v2.0.0/wildandhorned.bl",
+        "sha256": "f9f782c859784df52f2adecabb32538c25fde4458c426903d84c5e17a308bde2",
+        "size": 191877
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/potato.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
+        "id": "wildandhorned",
+        "name": "Wild and Horned",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "FuzzyGolf291773",
+            "role": "Original mod and pet animations",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810452158",
+            "avatar": "steam.png"
+          },
+          {
+            "name": "MineGame223 and Group For One",
+            "role": "Touhou Little Friend framework and sprite foundations",
+            "link": "https://github.com/MineGame223/TouhouLittleFriend"
+          },
+          {
+            "name": "Potato",
+            "role": "Port to Bunny Loader and Brazilian Portuguese localization",
+            "avatar": "potato.png",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Pets",
+        "summary": "Sixteen animated Touhou companions with conversations, seven light pets, crafting recipes and Kasen's oni transformations. GPL-3.0; source code in this repository.",
+        "links": [
+          {
+            "title": "Original Steam Workshop mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3810452158"
+          },
+          {
+            "title": "Touhou Little Friend",
+            "url": "https://github.com/MineGame223/TouhouLittleFriend"
+          }
+        ],
+        "license": "GPL-3.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:49Z"
+    },
+    {
+      "uid": "55e1d4c5-3dc5-4c73-acaa-52a5bf0750f5",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-worldgenpreviewer-v2.0.1/worldgenpreviewer.bl",
+        "sha256": "fbfceb5a8e1284d498bda1b588c79df1d0f8c01fc286e777080b2074f54bb7cf",
+        "size": 119085
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/animatak.png",
+        "authors/steam.png"
+      ],
+      "manifest": {
+        "uid": "55e1d4c5-3dc5-4c73-acaa-52a5bf0750f5",
+        "id": "worldgenpreviewer",
+        "name": "WorldGen Previewer",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "jopojelly",
+            "role": "Original Creator",
+            "avatar": "steam.png",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258712"
+          },
+          {
+            "name": "Animatak_",
+            "avatar": "animatak.png",
+            "color": "#841FFF",
+            "link": "https://discord.gg/mkPMd9shZH",
+            "role": "Port"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Utility",
+        "summary": "Watch your world being generated: a live map filled column by column, pause, skip or repeat steps, or cancel the generation.",
+        "localizedSummaries": {
+          "pt-BR": "Veja o seu mundo sendo gerado: um mapa ao vivo preenchido coluna por coluna, pause, pule ou repita etapas, ou cancele a geração.",
+          "es-ES": "Mira cómo se genera tu mundo: un mapa en vivo que se rellena columna a columna, pausa, salta o repite pasos, o cancela la generación.",
+          "fr-FR": "Regardez votre monde se générer : une carte en direct remplie colonne par colonne, mettez en pause, ignorez ou répétez des étapes, ou annulez la génération.",
+          "de-DE": "Sieh zu, wie deine Welt generiert wird: eine Live-Karte, die Spalte für Spalte gefüllt wird; pausiere, überspringe oder wiederhole Schritte oder brich die Generierung ab.",
+          "it-IT": "Guarda il tuo mondo mentre viene generato: una mappa dal vivo riempita colonna per colonna, metti in pausa, salta o ripeti i passaggi, o annulla la generazione.",
+          "ru-RU": "Смотрите, как генерируется ваш мир: живая карта, заполняемая столбец за столбцом; ставьте на паузу, пропускайте или повторяйте этапы, или отмените генерацию.",
+          "zh-Hans": "观看世界的生成过程：逐列填充的实时地图，可暂停、跳过或重复步骤，也可取消生成。",
+          "pl-PL": "Patrz, jak generuje się twój świat: mapa na żywo wypełniana kolumna po kolumnie; wstrzymuj, pomijaj lub powtarzaj etapy albo anuluj generowanie."
+        },
+        "license": "No license declared",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:56Z"
+    },
+    {
+      "uid": "67770d24-4d80-41b4-bde9-9a1840caf2c8",
+      "version": "2.0.1",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-extendedzoom-v2.0.1/extendedzoom.bl",
+        "sha256": "126e411039eee647a7366fa97039171981744b9987b9e9b959f377027fc1b6fe",
+        "size": 9722
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "67770d24-4d80-41b4-bde9-9a1840caf2c8",
+        "id": "extendedzoom",
+        "name": "Zoom Tweaks",
+        "version": "2.0.1",
+        "authors": [
+          {
+            "name": "VowTz",
+            "role": "Author"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Itens",
+        "summary": "Zoom enhancements",
+        "license": "MIT",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T08:59:06Z"
+    },
+    {
+      "uid": "fbb7eb80-3232-4079-998c-cb863e14f3dd",
+      "version": "2.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-voluntaryhook-v2.0.0/voluntaryhook.bl",
+        "sha256": "d4775b88f35b1ec013f948914aa97e5533bf61d8d8ff89c9d1aa61b9e79b94b0",
+        "size": 15122
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md"
+      ],
+      "manifest": {
+        "uid": "fbb7eb80-3232-4079-998c-cb863e14f3dd",
+        "id": "voluntaryhook",
+        "name": "愿者上钩 (VoluntaryHook)",
+        "version": "2.0.0",
+        "authors": [
+          {
+            "name": "lzup333"
+          },
+          {
+            "name": "Potato",
+            "role": "C# port",
+            "color": "#E8C170",
+            "link": "https://github.com/JonataOliveiraa"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Each cast throws five bobbers instead of one.",
+        "localizedSummaries": {
+          "zh-Hans": "抛出鱼钩后数量固定 5 倍，实现多倍鱼钩。"
+        },
+        "license": "AGPL-3.0",
+        "updated": "2026-11-06",
+        "blVersion": 3
+      },
+      "publishedAt": "2026-11-16T09:00:39Z"
+    }
+  ]
 }

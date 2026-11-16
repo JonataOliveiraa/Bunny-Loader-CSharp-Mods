@@ -1,0 +1,22 @@
+{
+  "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
+  "id": "orycto",
+  "name": "Orycto (Alpha)",
+  "version": "2.0.1",
+  "authors": [
+    {
+      "name": "vowtz"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Optimization",
+  "summary": "Orycto: FPS unlocker and performance optimizations.",
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

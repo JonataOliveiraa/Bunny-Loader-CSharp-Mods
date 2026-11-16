@@ -1,0 +1,57 @@
+{
+  "uid": "dae471c1-1177-4640-9cb7-68e29de58f6b",
+  "id": "consolaria",
+  "name": "Consolaria Mobile",
+  "version": "2.2.5",
+  "authors": [
+    {
+      "name": "Consolaria Team",
+      "role": "Original Mod",
+      "avatar": "consolaria_team.png",
+      "color": "#FFFFFF",
+      "link": "https://github.com/has2r/Consolaria-2.0"
+    },
+    {
+      "name": "RoA Gang (has2r, peege.on, Serork)",
+      "role": "Original Mod",
+      "link": "https://github.com/has2r/Consolaria-2.0"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Content",
+  "summary": "Tons of exclusive content from the legacy and old-gen versions, reworked and rebalanced for modern Terraria.",
+  "links": [
+    {
+      "title": "Official Wiki",
+      "url": "https://terrariamods.wiki.gg/wiki/Consolaria"
+    },
+    {
+      "title": "Discord Server",
+      "url": "https://discord.gg/DTABXbd"
+    },
+    {
+      "title": "Github Page",
+      "url": "https://github.com/has2r/Consolaria-2.0"
+    }
+  ],
+  "theme": {
+    "accent": "#EFD3FF",
+    "panel": "#43295B",
+    "text": "#E0AAFF",
+    "heading": "#EFD3FF",
+    "button": "#71518F",
+    "buttonText": "#EFD3FF",
+    "background": "Assets/bg.png",
+    "backgroundMode": "cover",
+    "backgroundScale": 0.25,
+    "backgroundDim": 0.3
+  },
+  "license": "MIT",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

@@ -1,0 +1,34 @@
+{
+  "uid": "7b1e9c52-3f4a-4d6e-9a18-5c2d8e0f41a7",
+  "id": "topdownmode",
+  "name": "Top-Down Mode (test)",
+  "localizedNames": {
+    "pt-BR": "Top-Down Mode (teste)"
+  },
+  "version": "2.0.1",
+  "authors": [
+    {
+      "name": "Castorzeira",
+      "avatar": "castorzeira.png"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Gameplay",
+  "summary": "Top-down test: no gravity, eight-way movement, swings toward the mouse and a top-down island world with Terraria's biomes.",
+  "localizedSummaries": {
+    "pt-BR": "Teste top-down: sem gravidade, 8 direções, golpe na direção do mouse e mundo top-down em ilha com os biomas do Terraria."
+  },
+  "theme": {
+    "background": "docs/background.jpg",
+    "backgroundMode": "cover",
+    "backgroundDim": 0.4
+  },
+  "license": "No license declared",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

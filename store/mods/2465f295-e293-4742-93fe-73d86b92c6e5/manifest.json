@@ -1,0 +1,42 @@
+{
+  "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
+  "id": "touhoupets",
+  "name": "Touhou Pets",
+  "version": "2.0.1",
+  "authors": [
+    {
+      "name": "中学生",
+      "role": "Original mod (tModLoader)",
+      "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2973922820",
+      "avatar": "steam.png"
+    },
+    {
+      "name": "Potato",
+      "role": "Port to Bunny Loader",
+      "avatar": "potato.png",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    },
+    {
+      "name": "Potato",
+      "role": "C# port",
+      "color": "#E8C170",
+      "link": "https://github.com/JonataOliveiraa"
+    }
+  ],
+  "category": "Pets",
+  "summary": "Adventure with cute partners: 19 Touhou characters as pets, dropped by the bosses. They animate, react to the world and talk to you and to each other. GPL-3.0; source code in this repository.",
+  "links": [
+    {
+      "title": "Original mod on the Steam Workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2973922820"
+    },
+    {
+      "title": "Source code (GitHub)",
+      "url": "https://github.com/MineGame223/TouhouLittleFriend"
+    }
+  ],
+  "license": "GPL-3.0",
+  "updated": "2026-11-06",
+  "blVersion": 3
+}

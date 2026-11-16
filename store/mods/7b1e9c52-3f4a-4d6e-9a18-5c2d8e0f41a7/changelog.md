@@ -1,0 +1,7 @@
+## 2.0.1
+
+The map is cleared and reloaded through the typed Bunny Loader API instead of by-name bindings.
+
+## 2.0.0
+
+Ported from JavaScript to C# with the same numbers, data and defaults; heights, rivers, lakes, biomes and spawn compared equal to the JavaScript generator on three seeds. C# configs have no conditional greying or slider suffixes, so every option is always editable and the swing arc shows no degree sign. The JavaScript console helpers (TopDownWorld.build, TopDownCave.enter, status and cleanup functions) moved to the /topdown chat command; the probes that listed bridge methods are gone, and console-only tuning switches stay at their defaults. In-game messages that were only in Portuguese are now in English. Removed because the game does not have them, so they never had an effect: WorldItem.noGrabDelay, TileID.Sets.CanBeClimbed, WorldGen.gen, a setter for Main.UnderworldLayer, TileDrawing.Reset, WorldSections.SetAllFramedSectionsAsUnframed and Main.DrawNPC(int, bool). The native tile searches of the JavaScript bridge are plain C# loops over Main.tile.
