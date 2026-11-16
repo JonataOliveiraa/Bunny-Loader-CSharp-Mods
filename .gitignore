@@ -25,7 +25,10 @@ _upstream/
 global-metadata.dat
 data.unity3d
 
-# Keys and tokens
+# Packages and dry runs from tools/publish.py
+build/
+
+# Keys and tokens. _token.txt holds the publish token (see tools/publish.py).
 *.keystore
 *.jks
 _token.txt

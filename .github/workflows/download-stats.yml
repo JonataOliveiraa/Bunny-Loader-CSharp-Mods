@@ -1,0 +1,45 @@
+# Adds up each mod's Release downloads (tools/download_stats.py) and writes
+# store/stats.json and store/popular.json, which the app reads for Popular.
+# Commits only when a number changes.
+name: Download stats
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: download-stats
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      # Only what the script reads: the repository also holds the ports' sources.
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            /.github/
+            /tools/download_stats.py
+            /store/
+          sparse-checkout-cone-mode: false
+      - name: Count downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 tools/download_stats.py .
+      - name: Commit the stats
+        run: |
+          if [ -z "$(git status --porcelain -- store/stats.json store/popular.json)" ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add store/stats.json store/popular.json
+          git commit -m "Update download stats"
+          # A publication may have landed in between: rebase on it and try again.
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
+          exit 1
