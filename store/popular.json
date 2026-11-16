@@ -1,5 +1,46 @@
 {
   "format": 1,
-  "updatedAt": "2026-11-15T00:00:00Z",
-  "mods": []
+  "updatedAt": "2026-11-16T22:20:51Z",
+  "mods": [
+    {
+      "uid": "f7c355cb-8b92-4b31-9a92-5e3fbb23f4db",
+      "downloads": 7
+    },
+    {
+      "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
+      "downloads": 7
+    },
+    {
+      "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
+      "downloads": 6
+    },
+    {
+      "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
+      "downloads": 6
+    },
+    {
+      "uid": "5bd9553e-8439-4ddb-a12c-805b34b855e8",
+      "downloads": 5
+    },
+    {
+      "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
+      "downloads": 5
+    },
+    {
+      "uid": "47f60fb6-0b46-453e-b19e-389867412da8",
+      "downloads": 5
+    },
+    {
+      "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
+      "downloads": 5
+    },
+    {
+      "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
+      "downloads": 5
+    },
+    {
+      "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
+      "downloads": 4
+    }
+  ]
 }
