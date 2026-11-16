@@ -41,6 +41,92 @@
       "publishedAt": "2026-11-16T09:07:35Z"
     },
     {
+      "uid": "6062287e-8090-4a62-b5b1-a825c40f41a7",
+      "version": "1.5.4.13",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-ArcheryOverhaul-v1.5.4.13/ArcheryOverhaul.bl",
+        "sha256": "69411f0353b262b52a6f96b6d8c09a83d351e98a9e4eaf59ead327b407952c84",
+        "size": 611562
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/likethescarletnight.png"
+      ],
+      "manifest": {
+        "uid": "6062287e-8090-4a62-b5b1-a825c40f41a7",
+        "id": "ArcheryOverhaul",
+        "name": "Archery Overhaul",
+        "localizedSummaries": {
+          "en-US": "Archery Overhaul for Bunny Loader: 50+ bows, 25 arrows, crossbows, quivers that show on your back, arrow bags, grenades, armor, an Archer NPC, crit shockwaves, arrow gores and a full set of config options."
+        },
+        "version": "1.5.4.13",
+        "authors": [
+          {
+            "name": "likethescarletnight",
+            "role": "Bunny Loader port",
+            "avatar": "likethescarletnight.png",
+            "color": "#E8C170"
+          },
+          {
+            "name": "Riptide",
+            "role": "Original Archery Overhaul",
+            "color": "#7FC8FF",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3008397471"
+          },
+          {
+            "name": "MAR",
+            "role": "1.4.5 port, fixes and config",
+            "color": "#7FC8FF"
+          },
+          {
+            "name": "Mutater",
+            "role": "Overhaul Team",
+            "color": "#7FC8FF"
+          },
+          {
+            "name": "PootisTweet",
+            "role": "Overhaul Team",
+            "color": "#7FC8FF"
+          },
+          {
+            "name": "Canbash",
+            "role": "Overhaul Team",
+            "color": "#7FC8FF"
+          },
+          {
+            "name": "Nebora",
+            "role": "Overhaul Team",
+            "color": "#7FC8FF"
+          }
+        ],
+        "category": "Itens",
+        "summary": "Archery Overhaul for Bunny Loader: 50+ bows, 25 arrows, crossbows, quivers that show on your back, arrow bags, grenades, armor, an Archer NPC, crit shockwaves, arrow gores and a full set of config options.",
+        "license": "All rights reserved (Riptide and team)",
+        "updated": "2026-11-06",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "links": [
+          {
+            "title": "Original Archery Overhaul (Steam Workshop)",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3008397471"
+          },
+          {
+            "title": "Riptide's Discord",
+            "url": "https://discord.gg/crwjFm7ka6"
+          }
+        ]
+      },
+      "publishedAt": "2026-11-16T09:17:32Z"
+    },
+    {
       "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
       "version": "2.0.1",
       "download": {
@@ -1183,6 +1269,50 @@
       "publishedAt": "2026-11-16T08:59:44Z"
     },
     {
+      "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
+      "version": "0.1.55",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-MountAndJourney-v0.1.55/MountAndJourney.bl",
+        "sha256": "39ccb1edc67d357fdc542970e875cb2d05f0f215acb022764fc88c0bae851421",
+        "size": 727467
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md"
+      ],
+      "manifest": {
+        "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
+        "id": "MountAndJourney",
+        "name": "Mount and Journey FM",
+        "localizedSummaries": {
+          "pt-BR": "Descrições multilinha dos buffs compactadas nos sete idiomas para a interface mobile. Mecânicas e drops preservados."
+        },
+        "version": "0.1.55",
+        "authors": [
+          {
+            "name": "REAL",
+            "role": "Adaptação para Bunny Loader"
+          }
+        ],
+        "category": "Montarias",
+        "summary": "Compact multiline buff descriptions across seven languages for mobile tooltips. Gameplay unchanged.",
+        "license": "Unknown - source attribution required",
+        "updated": "2026-11-09",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "links": [],
+        "type": "mod",
+        "author": "Real"
+      },
+      "publishedAt": "2026-11-16T09:17:35Z"
+    },
+    {
       "uid": "421e4df1-c2d7-45ec-86ec-563ccc597273",
       "version": "2.0.1",
       "download": {
@@ -1517,6 +1647,86 @@
         }
       },
       "publishedAt": "2026-11-16T09:07:41Z"
+    },
+    {
+      "uid": "f7c355cb-8b92-4b31-9a92-5e3fbb23f4db",
+      "version": "1.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-Split-v1.0.0/Split.bl",
+        "sha256": "8dc8e7719b3caec09a2f5ea9b51a10668311183e7407dce289426bdccf6430c2",
+        "size": 56046705
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "changelog_pt-BR.md",
+        "description_pt-BR.md",
+        "authors/split.png",
+        "thumbnails/split.png"
+      ],
+      "manifest": {
+        "uid": "f7c355cb-8b92-4b31-9a92-5e3fbb23f4db",
+        "id": "Split",
+        "name": "Split",
+        "version": "1.0.0",
+        "category": "Jogabilidade",
+        "summary": "espero que queimei o celular de vcs",
+        "updated": "2026-11-15",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "authors": [
+          {
+            "name": "Mantovani",
+            "role": "Port",
+            "color": "#AF66DE",
+            "link": "https://github.com/MantovaniDevTrue"
+          },
+          {
+            "name": "Split Team",
+            "role": "Split Mod",
+            "avatar": "split.png",
+            "color": "#FFD678",
+            "link": "https://discord.gg/5eutHVCYMg"
+          }
+        ],
+        "localizedSummaries": {
+          "pt-BR": "queimaqueimaqueima",
+          "en-US": "Version 1.0 test."
+        },
+        "license": "All rights reserved (Split Team)",
+        "links": [
+          {
+            "title": "Discord",
+            "url": "https://discord.gg/5eutHVCYMg"
+          },
+          {
+            "title": "YouTube",
+            "url": "https://www.youtube.com/@SplitMod"
+          },
+          {
+            "title": "Wiki",
+            "url": "https://splitmod.fandom.com/wiki/The_Split_Mod_Wiki"
+          }
+        ],
+        "theme": {
+          "accent": "#FFD678",
+          "panel": "#2A1436",
+          "text": "#EDE3FF",
+          "heading": "#FFFFFF",
+          "button": "#6B2E7A",
+          "buttonText": "#FFFFFF",
+          "background": "#160A1E"
+        }
+      },
+      "publishedAt": "2026-11-16T09:17:28Z"
     },
     {
       "uid": "8de902a2-3816-4a6b-91f8-ab80a0ce0f57",

@@ -1,0 +1,58 @@
+{
+  "uid": "f7c355cb-8b92-4b31-9a92-5e3fbb23f4db",
+  "id": "Split",
+  "name": "Split",
+  "version": "1.0.0",
+  "category": "Jogabilidade",
+  "summary": "espero que queimei o celular de vcs",
+  "updated": "2026-11-15",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "dependencies": [],
+  "authors": [
+    {
+      "name": "Mantovani",
+      "role": "Port",
+      "color": "#AF66DE",
+      "link": "https://github.com/MantovaniDevTrue"
+    },
+    {
+      "name": "Split Team",
+      "role": "Split Mod",
+      "avatar": "split.png",
+      "color": "#FFD678",
+      "link": "https://discord.gg/5eutHVCYMg"
+    }
+  ],
+  "localizedSummaries": {
+    "pt-BR": "queimaqueimaqueima",
+    "en-US": "Version 1.0 test."
+  },
+  "license": "All rights reserved (Split Team)",
+  "links": [
+    {
+      "title": "Discord",
+      "url": "https://discord.gg/5eutHVCYMg"
+    },
+    {
+      "title": "YouTube",
+      "url": "https://www.youtube.com/@SplitMod"
+    },
+    {
+      "title": "Wiki",
+      "url": "https://splitmod.fandom.com/wiki/The_Split_Mod_Wiki"
+    }
+  ],
+  "theme": {
+    "accent": "#FFD678",
+    "panel": "#2A1436",
+    "text": "#EDE3FF",
+    "heading": "#FFFFFF",
+    "button": "#6B2E7A",
+    "buttonText": "#FFFFFF",
+    "background": "#160A1E"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
+  "id": "MountAndJourney",
+  "name": "Mount and Journey FM",
+  "localizedSummaries": {
+    "pt-BR": "Descrições multilinha dos buffs compactadas nos sete idiomas para a interface mobile. Mecânicas e drops preservados."
+  },
+  "version": "0.1.55",
+  "authors": [
+    {
+      "name": "REAL",
+      "role": "Adaptação para Bunny Loader"
+    }
+  ],
+  "category": "Montarias",
+  "summary": "Compact multiline buff descriptions across seven languages for mobile tooltips. Gameplay unchanged.",
+  "license": "Unknown - source attribution required",
+  "updated": "2026-11-09",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "dependencies": [],
+  "links": [],
+  "type": "mod",
+  "author": "Real"
+}
