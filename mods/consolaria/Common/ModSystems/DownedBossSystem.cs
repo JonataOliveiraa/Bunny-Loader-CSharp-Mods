@@ -57,10 +57,6 @@ namespace Consolaria.Common.ModSystems {
             downedTurkor = flags[1];
             downedOcram = flags[2];
         }
-
-        public override void PostUpdateWorld() {
-
-        }
     }
 
     public class RabbitInvasionBiome : ModBiome {

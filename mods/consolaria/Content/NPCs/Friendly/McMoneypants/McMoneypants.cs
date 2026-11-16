@@ -164,9 +164,6 @@ public class McMoneypants : ModNPC {
 
     public override void AI()
         => NPC.homeless = true;
-
-    public override void PostAI() {
-    }
     #endregion
 
     #region Visuals

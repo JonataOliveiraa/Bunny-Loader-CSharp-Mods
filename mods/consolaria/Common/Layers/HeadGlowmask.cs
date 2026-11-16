@@ -38,7 +38,7 @@ namespace Consolaria {
             if (!HeadLayerData.TryGetValue(drawPlayer.head, out DrawLayerData data))
                 return;
             Color color = drawPlayer.GetImmuneAlphaPure(data.Color(), drawInfo.shadow);
-            if (drawPlayer.head == EquipLoader.GetEquipSlot(Mod, nameof(TitanHelmet), EquipType.Head) &&
+            if (drawPlayer.head == ModContent.GetInstance<TitanHelmet>().Item.headSlot &&
                 drawPlayer.GetModPlayer<TitanPlayer>().titanPower2) {
                 color *= 0f;
             }

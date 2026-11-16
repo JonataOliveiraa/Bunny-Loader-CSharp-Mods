@@ -21,7 +21,6 @@ namespace Consolaria.Content.Items.Armor.Ranged {
 
             if (!Main.dedServ) {
                 mailGlowmask = new(() => ModContent.Request<Texture2D>(Texture + "_Glow"));
-                BodyGlowmask.RegisterData(Item.bodySlot, () => new Color(255, 255, 255, 0) * 0.8f * 0.75f);
             }
         }
 

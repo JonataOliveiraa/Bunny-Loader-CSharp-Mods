@@ -47,14 +47,8 @@ public abstract class BaseKiteProjectile : ModProjectile {
         Projectile.extraUpdates = 60;
     }
 
-    public sealed override bool PreAI()
-        => true;
-
     public sealed override void AI()
         => UpdateKite();
-
-    public override void PostAI() {
-    }
 
     public sealed override bool PreDraw(Player drawPlayer, ref Color lightColor)
         => false;

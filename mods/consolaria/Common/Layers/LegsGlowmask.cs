@@ -38,7 +38,7 @@ namespace Consolaria {
             if (!LegsLayerData.TryGetValue(drawPlayer.legs, out DrawLayerData data))
                 return;
             Color color = drawPlayer.GetImmuneAlphaPure(data.Color(), drawInfo.shadow);
-            if (drawPlayer.legs == EquipLoader.GetEquipSlot(Mod, nameof(TitanLeggings), EquipType.Legs) &&
+            if (drawPlayer.legs == ModContent.GetInstance<TitanLeggings>().Item.legSlot &&
                 drawPlayer.GetModPlayer<TitanPlayer>().titanPower2) {
                 color *= 0f;
             }

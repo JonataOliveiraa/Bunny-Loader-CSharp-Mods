@@ -1,3 +1,7 @@
+## 2.2.5
+
+Lighter on the phone. Stunned no longer makes every NPC, vanilla ones included, enter C# three times per update: the stun is read from the NPC's buffs in its AI hook, and the buff's NPC update, the reset and the empty frame hook are gone. Removed hooks that did nothing: the body glowmask of the Titan Mail, which colored a glowmask the armor does not have, an empty world update, and empty kite and McMoneypants AI hooks. The Titan set bonus text is built once per language instead of on every update, the Titan glowmasks find their slots without a lookup by name, and Rainbow Rain picks its drop position only when a piece drops.
+
 ## 2.2.4
 
 Moved off the port's workarounds onto the typed Bunny Loader API. Recipes are sorted as upstream does it. Rainbow Piece vanishes at night from ModItem.Update, as upstream. The Holy Hand Grenades ask TileLoader.CanExplode and WallLoader.CanExplode, so other mods' GlobalTile and GlobalWall hooks too. Turkor's head uses the never valid boss bar, as upstream. The Arch Demon and the Old Lady pet play upstream's sounds. Tizona's Zenith profile and the Heart Shrine and Jungle Sanctum placement use typed calls.

@@ -20,7 +20,10 @@ namespace Consolaria.Content.Items.Armor.Ranged {
     [AutoloadEquip(EquipType.Head)]
     public class TitanHelmet : ModItem {
         public static Lazy<Asset<Texture2D>> helmetGlowmask;
-        public override void Unload() => helmetGlowmask = null;
+        public override void Unload() {
+            helmetGlowmask = null;
+            setBonus = null;
+        }
 
         public static LocalizedText SetBonusText {
             get; private set;
@@ -63,8 +66,19 @@ namespace Consolaria.Content.Items.Armor.Ranged {
         public override void ArmorSetShadows(Player player)
             => player.armorEffectDrawOutlinesForbidden = true;
 
+        // UpdateArmorSet runs on every update; the text only changes with the language or the up/down setting.
+        private static string setBonus;
+        private static GameCulture setBonusCulture;
+        private static bool setBonusReversed;
+
         public override void UpdateArmorSet(Player player) {
-            player.setBonus = Language.GetText("Mods.consolaria.Items.TitanHelmet.SetBonus").WithFormatArgs(Helper.ArmorSetBonusKey).Value;
+            bool reversed = Helper.ReversedUpDownArmorSetBonuses;
+            if (setBonus == null || setBonusCulture != Language.ActiveCulture || setBonusReversed != reversed) {
+                setBonus = Language.GetText("Mods.consolaria.Items.TitanHelmet.SetBonus").WithFormatArgs(Helper.ArmorSetBonusKey).Value;
+                setBonusCulture = Language.ActiveCulture;
+                setBonusReversed = reversed;
+            }
+            player.setBonus = setBonus;
             player.GetModPlayer<TitanPlayer>().titanPower = true;
         }
     }
