@@ -2,16 +2,10 @@
   "uid": "bcb72e90-3716-4cd1-b8a4-866a963958e5",
   "id": "bunnysocial",
   "name": "BunnySocial",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "VowTz"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Jogabilidade",

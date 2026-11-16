@@ -2,7 +2,7 @@
   "uid": "e613a447-d93c-49ca-8c74-f88accbfa996",
   "id": "coloreddamagetypes",
   "name": "Colored Damage Types",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "PvtFudgepants",
@@ -16,12 +16,6 @@
       "avatar": "animatak.png",
       "color": "#841FFF",
       "link": "https://discord.gg/lemon-studio-1422278971227115532"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Visual",

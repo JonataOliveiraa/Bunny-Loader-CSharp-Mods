@@ -2,7 +2,7 @@
   "uid": "2d01296e-d4e9-4493-a107-6ee6835f349e",
   "id": "displaybase",
   "name": "Item Display Base",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Cleyera",
@@ -21,12 +21,6 @@
       "name": "Cavalier",
       "role": "Chinese localization (original)",
       "avatar": "steam.png"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Decoration",

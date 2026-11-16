@@ -10,12 +10,6 @@
       "avatar": "steam.png",
       "color": "#FFFFFF",
       "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3288950444"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "QoL",

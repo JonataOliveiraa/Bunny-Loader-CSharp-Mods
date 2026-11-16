@@ -2,7 +2,7 @@
   "uid": "e651d97d-eb24-51b5-bdc2-57722a898f79",
   "id": "mitanpc",
   "name": "Mita NPC",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "rzc0d3r",
@@ -14,12 +14,6 @@
       "role": "Bunny Loader port",
       "avatar": "potato.png",
       "color": "#E8C170"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "NPCs",

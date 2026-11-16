@@ -2,7 +2,7 @@
   "uid": "dbe76e93-a141-4b42-9bbe-13e5b6984e19",
   "id": "bosscursor",
   "name": "Boss Cursor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Animatak_",
@@ -10,12 +10,6 @@
       "color": "#841FFF",
       "link": "https://discord.gg/lemon-studio-1422278971227115532",
       "role": "Author"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Utility",

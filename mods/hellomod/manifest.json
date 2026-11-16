@@ -2,19 +2,13 @@
   "uid": "fc731e9a-2844-433b-ade1-5a0ab23165c4",
   "id": "hellomod",
   "name": "Minishark Turbo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Bunny Loader",
       "role": "Code and art",
       "avatar": "bunny-loader.png",
       "color": "#F9E141"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Armas",

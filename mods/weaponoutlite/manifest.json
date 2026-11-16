@@ -2,7 +2,7 @@
   "uid": "f16fc5fd-5b01-42dc-bdbc-669bfda6c090",
   "id": "weaponoutlite",
   "name": "Weapon Out Lite",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "Flashkirby",
@@ -16,12 +16,6 @@
       "avatar": "animatak.png",
       "color": "#841FFF",
       "link": "https://discord.gg/lemon-studio-1422278971227115532"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Visual",

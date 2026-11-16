@@ -2,7 +2,7 @@
   "uid": "628fa4c5-8211-4b39-a7d6-ac827426a3fd",
   "id": "umamusumevanities",
   "name": "Umamusume Vanities — Bunny Port",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Nyacro",
@@ -13,12 +13,6 @@
       "name": "Mantovani",
       "role": "JavaScript port for Bunny Loader",
       "avatar": "mantovani.jpg"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Items",

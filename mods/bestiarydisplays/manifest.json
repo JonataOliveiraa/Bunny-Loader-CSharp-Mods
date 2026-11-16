@@ -2,7 +2,7 @@
   "uid": "c83a16d7-d5e8-459d-b5fa-d7ab63117102",
   "id": "bestiarydisplays",
   "name": "Bestiary Displays",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "JaquavionBennet",
@@ -16,12 +16,6 @@
       "color": "#841FFF",
       "link": "https://discord.gg/lemon-studio-1422278971227115532",
       "role": "Port"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Decoration",

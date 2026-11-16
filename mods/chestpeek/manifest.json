@@ -2,17 +2,11 @@
   "uid": "c7257a97-0552-4aa5-bc55-95f102b0e230",
   "id": "chestpeek",
   "name": "ChestPeek",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "VowTz",
       "role": "Inspiration"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Itens",

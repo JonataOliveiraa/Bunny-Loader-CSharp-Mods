@@ -2,7 +2,7 @@
   "uid": "469b0c4b-acfa-463b-90df-5db222a81351",
   "id": "instantplatformfallthrough",
   "name": "Instant Platform Fallthrough",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "diniamo",
@@ -17,12 +17,6 @@
       "avatar": "lemon.webp",
       "color": "#FEFE00",
       "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "QoL",

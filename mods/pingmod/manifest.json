@@ -2,7 +2,7 @@
   "uid": "ae7c31e7-a0d5-4064-995d-acedf7fd5afc",
   "id": "pingmod",
   "name": "Player Ping UI",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "MooMoo",
@@ -24,12 +24,6 @@
       "avatar": "animatak.png",
       "color": "#841FFF",
       "link": "https://discord.gg/mkPMd9shZH"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Utility",

@@ -2,16 +2,10 @@
   "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
   "id": "defaultdash",
   "name": "Default Dash",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "VowTz"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Jogabilidade",
