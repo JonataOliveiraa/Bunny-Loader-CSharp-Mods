@@ -8,6 +8,13 @@ They now build against a newer development build of the loader (build 541, which
 includes "fix(csharp): API gaps found by the mod ports"), and most of the rows below
 were closed by it. See [Resolved](#resolved-by-the-newer-loader).
 
+Build 576 (0.5.5-beta) only adds to the public API: nothing the ports use was removed or
+changed, and none of the rows below gained a typed member. All 53 ports compiled on the
+MuMu emulator with it and ran with no error in a world where each mod's items, NPCs,
+projectiles, tiles, walls and buffs were spawned and used. Its compiler adds the BL0001
+warning for `netMode == 2` tests; the 18 in the ports all mean "nothing to draw or play
+here", which BL0001 says is fine.
+
 When a port needs something that is not there, add a row here and mention it in the
 port's `port.json`.
 
