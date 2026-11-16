@@ -22,7 +22,7 @@ mods keep finding it by name.
 
 | File | Rule |
 |---|---|
-| `manifest.json` | Keep the original `uid` and `id`, use `"blVersion": 3` and keep every original author. Add whoever made the C# port |
+| `manifest.json` | Keep the original `uid` and `id`, use `"blVersion": 3` and keep the authors exactly as in the JavaScript package. Do not add an entry for the C# port |
 | `license.md` | Open license: copy the original text with its copyright notice. No license: fill in the template's notice |
 | `port.json` | Identify the original (`id`, `uid`, `version`, `sha256`), the license and what changed |
 

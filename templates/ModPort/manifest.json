@@ -4,8 +4,7 @@
   "name": "Mod Port",
   "version": "1.0.0",
   "authors": [
-    { "name": "Original author", "role": "Original Creator" },
-    { "name": "You", "role": "C# Port" }
+    { "name": "Original author", "role": "Original Creator" }
   ],
   "category": "Utility",
   "summary": "What the mod does.",
