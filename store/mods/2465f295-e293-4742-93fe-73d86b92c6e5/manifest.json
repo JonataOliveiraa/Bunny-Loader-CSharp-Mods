@@ -2,7 +2,7 @@
   "uid": "2465f295-e293-4742-93fe-73d86b92c6e5",
   "id": "touhoupets",
   "name": "Touhou Pets",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "中学生",
@@ -14,12 +14,6 @@
       "name": "Potato",
       "role": "Port to Bunny Loader",
       "avatar": "potato.png",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
       "color": "#E8C170",
       "link": "https://github.com/JonataOliveiraa"
     }

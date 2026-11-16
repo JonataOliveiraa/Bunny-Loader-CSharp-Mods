@@ -13,7 +13,6 @@ English.
 - **Nyacro**: original PC mod.
 - **Cygames**: Uma Musume characters and intellectual property.
 - **Mantovani**: JavaScript port for Bunny Loader.
-- **Potato**: this C# port.
 
 This is an unofficial fan work, not affiliated with or endorsed by Cygames.
 Nyacro gave the JavaScript porter permission to port the original mod. That

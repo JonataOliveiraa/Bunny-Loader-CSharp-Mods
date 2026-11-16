@@ -2,7 +2,7 @@
   "uid": "3cfaa0a0-6ddf-4484-900e-6c482ef4e1c7",
   "id": "kineticgore",
   "name": "Physaria (Kinetic Gore)",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "LevitatingGT",
@@ -16,12 +16,6 @@
       "avatar": "animatak.png",
       "color": "#841FFF",
       "link": "https://discord.gg/mkPMd9shZH"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Visual",

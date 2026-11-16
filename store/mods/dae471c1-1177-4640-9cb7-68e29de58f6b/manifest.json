@@ -2,7 +2,7 @@
   "uid": "dae471c1-1177-4640-9cb7-68e29de58f6b",
   "id": "consolaria",
   "name": "Consolaria Mobile",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "authors": [
     {
       "name": "Consolaria Team",
@@ -15,12 +15,6 @@
       "name": "RoA Gang (has2r, peege.on, Serork)",
       "role": "Original Mod",
       "link": "https://github.com/has2r/Consolaria-2.0"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Content",

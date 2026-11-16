@@ -2,7 +2,7 @@
   "uid": "a26a4992-e895-4120-a903-0e23b376c8a1",
   "id": "overhealth",
   "name": "Overhealth",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "JADen",
@@ -11,12 +11,6 @@
     {
       "name": "VowTz",
       "role": "Port"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Jogabilidade",

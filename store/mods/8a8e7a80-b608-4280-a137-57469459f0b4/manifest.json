@@ -2,19 +2,13 @@
   "uid": "8a8e7a80-b608-4280-a137-57469459f0b4",
   "id": "infinitypotionbuff",
   "name": "Infinity Potion Buff",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Zayah",
       "role": "Author",
       "avatar": "Zayah.png",
       "color": "#FFAF00"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Utilities",

@@ -2,16 +2,10 @@
   "uid": "b22b17d1-185c-481d-9033-eb1ebaf3b397",
   "id": "orycto",
   "name": "Orycto (Alpha)",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "vowtz"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Optimization",

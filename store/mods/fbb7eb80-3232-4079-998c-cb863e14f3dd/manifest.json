@@ -2,16 +2,10 @@
   "uid": "fbb7eb80-3232-4079-998c-cb863e14f3dd",
   "id": "voluntaryhook",
   "name": "愿者上钩 (VoluntaryHook)",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "lzup333"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Jogabilidade",

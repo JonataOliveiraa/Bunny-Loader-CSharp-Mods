@@ -2,7 +2,7 @@
   "uid": "adbf3a32-2952-41cc-8d97-7c3b1575785d",
   "id": "moddifficulty",
   "name": "Legendary Difficulty",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "GST378",
@@ -10,12 +10,6 @@
       "avatar": "0.jpg",
       "color": "#ffffff",
       "link": "https://youtube.com/@gst_378"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Gameplay",

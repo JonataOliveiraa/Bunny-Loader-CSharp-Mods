@@ -5,17 +5,11 @@
   "localizedNames": {
     "pt-BR": "Top-Down Mode (teste)"
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     {
       "name": "Castorzeira",
       "avatar": "castorzeira.png"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Gameplay",

@@ -2,17 +2,11 @@
   "uid": "cece9409-844d-476a-8953-1a59de78db92",
   "id": "directionalswings",
   "name": "Directional Swings",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "VowTz",
       "role": "Author"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Jogabilidade",

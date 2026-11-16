@@ -2,7 +2,7 @@
   "uid": "3183ab40-81f1-477a-aa50-0df1dde68c58",
   "id": "wildandhorned",
   "name": "Wild and Horned",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "FuzzyGolf291773",
@@ -19,12 +19,6 @@
       "name": "Potato",
       "role": "Port to Bunny Loader and Brazilian Portuguese localization",
       "avatar": "potato.png",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
       "color": "#E8C170",
       "link": "https://github.com/JonataOliveiraa"
     }

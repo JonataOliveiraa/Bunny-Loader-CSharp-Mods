@@ -2,7 +2,7 @@
   "uid": "be81ae6a-ac8a-4d23-bcd1-2bb8d056d37d",
   "id": "wmitf",
   "name": "Which Mod Is This From?",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "HilariousWalnut34",
@@ -17,12 +17,6 @@
       "avatar": "lemon.webp",
       "color": "#FEFE00",
       "link": "https://youtube.com/@gst_378?si=-18HzRizRpiFJrEP"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Utility",

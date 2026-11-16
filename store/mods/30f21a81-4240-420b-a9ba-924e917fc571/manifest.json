@@ -2,7 +2,7 @@
   "uid": "30f21a81-4240-420b-a9ba-924e917fc571",
   "id": "terrarchitect",
   "name": "Terrarchitect",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Gurgle_Nurgle",
@@ -24,12 +24,6 @@
       "avatar": "2.png",
       "color": "#F0F0F0",
       "link": "https://github.com/Zandberg-x"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Building",

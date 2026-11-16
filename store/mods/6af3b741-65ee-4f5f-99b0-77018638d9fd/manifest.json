@@ -2,7 +2,7 @@
   "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
   "id": "disablecorruptionspread",
   "name": "Begone, Evil! (Disable Evil Biome Spread)",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Mantovani",
@@ -16,12 +16,6 @@
       "avatar": "jopojelly.webp",
       "color": "#FFFFFF",
       "link": "https://forums.terraria.org/index.php?threads/begone-evil-disable-corruption-spread.72285/"
-    },
-    {
-      "name": "Potato",
-      "role": "C# port",
-      "color": "#E8C170",
-      "link": "https://github.com/JonataOliveiraa"
     }
   ],
   "category": "Utilidade",
