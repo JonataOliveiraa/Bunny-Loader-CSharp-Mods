@@ -70,6 +70,7 @@ VERSION = re.compile(r"^\d+(\.\d+)*([-+][0-9A-Za-z.]+)?$")
 # The app's RemoteCatalog.SAFE_PATH: what passes here, the showcase accepts.
 SAFE_PATH = re.compile(r"^[A-Za-z0-9._ -]+(/[A-Za-z0-9._ -]+)*$")
 PACKAGE_PATH = re.compile(r"^[A-Za-z0-9._ ()-]+(/[A-Za-z0-9._ ()-]+)*$")
+READY_PACKAGE_PATH = re.compile(r"^[\w.() -]+(/[\w.() -]+)*$")
 HEX_COLOR = re.compile(r"^#?([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$")
 MD_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
 
@@ -143,9 +144,18 @@ def committed_files(folder: str) -> dict[str, bytes]:
 def package_files(path: Path) -> dict[str, bytes]:
     try:
         with zipfile.ZipFile(path) as z:
-            return {i.filename: z.read(i) for i in z.infolist() if not i.is_dir()}
+            return {utf8_name(i): z.read(i) for i in z.infolist() if not i.is_dir()}
     except (OSError, zipfile.BadZipFile) as e:
         raise Fail(f"{path.name}: not a readable zip ({e})")
+
+
+def utf8_name(info: zipfile.ZipInfo) -> str:
+    if info.flag_bits & 0x800:
+        return info.filename
+    try:
+        return info.filename.encode("cp437").decode("utf-8")
+    except UnicodeError:
+        return info.filename
 
 
 def prepare_repo(dry: bool) -> None:
@@ -237,8 +247,9 @@ class Port:
         if not files:
             raise Fail(f"mods/{folder}: nothing committed; commit the port first")
         self.files = {rel: data for rel, data in files.items() if packaged(rel)}
+        allowed = PACKAGE_PATH if from_sources else READY_PACKAGE_PATH
         for rel in self.files:
-            if not PACKAGE_PATH.fullmatch(rel) or any(s in (".", "..") for s in rel.split("/")):
+            if not allowed.fullmatch(rel) or any(s in (".", "..") for s in rel.split("/")):
                 raise Fail(f"mods/{folder}: a path the app refuses: {rel!r}")
         if "manifest.json" not in self.files:
             raise Fail(f"mods/{folder}: no manifest.json")
