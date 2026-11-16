@@ -1,3 +1,0 @@
-## 2.0.0
-
-Ported from JavaScript to C# on 2026-11-06, with the same shader, numbers and defaults. C# configs have no conditional greying, colored headers or slider suffixes, so every option is always editable and plain. Effect hitboxes strike through NPC.StrikeNPC with the player as owner (the JavaScript passed false for the owner), with no damage variation, as before. CoolerItemExtraSlashSwords became CoolerItemCore.ExtraSlashSwords and takes item types, not names. The CoolerItemProf profiler and the fallback that disabled hitboxes when strikes failed through the JavaScript bridge were removed. The Not the Bees branch of the Complex sequence stays inactive, as in the JavaScript, which read flags the game does not have.

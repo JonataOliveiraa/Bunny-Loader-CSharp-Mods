@@ -432,51 +432,6 @@
       "publishedAt": "2026-11-16T08:58:39Z"
     },
     {
-      "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
-      "version": "2.0.0",
-      "download": {
-        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-cooleritemvisualeffect-v2.0.0/cooleritemvisualeffect.bl",
-        "sha256": "2757d15afb7c8a4fffdfc751a4a101c0fa151fcf3e897e92d5a2a8da6ee5033f",
-        "size": 37528
-      },
-      "files": [
-        "manifest.json",
-        "icon.png",
-        "changelog.md",
-        "license.md",
-        "authors/castorzeira.png"
-      ],
-      "manifest": {
-        "uid": "dc3f4de8-1c59-4d92-a986-3ea0e4b42e15",
-        "id": "cooleritemvisualeffect",
-        "name": "Cooler Item Visual Effect — Bunny Port",
-        "version": "2.0.0",
-        "authors": [
-          {
-            "name": "Log Spiral (Original Creator)",
-            "role": "Original mod and visual assets"
-          },
-          {
-            "name": "Castorzeira (port)",
-            "avatar": "Castorzeira.png",
-            "role": "Bunny Loader port"
-          },
-          {
-            "name": "Potato",
-            "role": "C# port",
-            "color": "#E8C170",
-            "link": "https://github.com/JonataOliveiraa"
-          }
-        ],
-        "category": "Visual",
-        "summary": "A cool, totally over-the-top slash effect for melee swings",
-        "license": "No license declared",
-        "updated": "2026-11-06",
-        "blVersion": 3
-      },
-      "publishedAt": "2026-11-16T08:58:42Z"
-    },
-    {
       "uid": "9b4f2a1c-3d5e-4b6a-9c8d-1e2f3a4b5c6d",
       "version": "2.0.0",
       "download": {
