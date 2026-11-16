@@ -12,6 +12,7 @@ This document records the project's policy. It is not legal advice.
 |---|---|
 | Documentation, `tools/`, `templates/` and build configuration | [MIT](LICENSE) |
 | `mods/<Id>/` | The terms of `mods/<Id>/license.md` |
+| `store/mods/<uid>/` and the Release packages | The same terms as the port they come from |
 | Original mods | Their authors' terms. They are not stored in this repository |
 | Bunny Loader and `BunnyLoader.dll` | PolyForm Noncommercial 1.0.0. Not redistributed here |
 | Terraria | Owned by Re-Logic. No game files enter this repository |

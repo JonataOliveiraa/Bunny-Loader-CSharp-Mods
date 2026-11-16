@@ -34,7 +34,7 @@ The ports now build against a newer development build of the loader (build 541).
 - [x] Get a Bunny Loader APK and run `tools/extract_api.py`. Until then, nothing builds against the real API.
 - [ ] Download the packages in the plan to `_upstream/`, count the JavaScript in each one and correct the effort below.
 - [x] Set up a test device or emulator, as described in the loader's [first mod guide](https://github.com/JonataOliveiraa/Bunny-Loader/blob/main/docs/mods-em-csharp/01-primeiro-mod.md).
-- [ ] Decide how ports reach players. The loader's migration guide still lists the catalog tools (`publish.py`, `pack.py`) and the online catalog as pending.
+- [x] Decide how ports reach players. The app's online catalog reads `store/` in this repository, and `tools/publish.py` puts each port in a Release as a format 3 `.bl`, as the [README](README.md#the-online-catalog) describes. Six ports cannot be published yet, because their `id` has a dash and the app wants a C# class name: `atmospheric-torches`, `better-reforge`, `coyote-frames`, `gravity-dont-flip-screen`, `no-useless-pickups` and `resized-frames`. Renaming the id may change where the loader keeps their saved config.
 - [ ] Refresh the audit with `tools/audit_catalog.py` and check whether an author has already released a C# version.
 
 **All 75 catalog packages are still `blVersion: 2`,** which the loader's documentation says no longer loads. Until they are replaced, these mods are unavailable to players on current versions.

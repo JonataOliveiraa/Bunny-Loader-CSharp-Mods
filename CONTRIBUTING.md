@@ -50,9 +50,34 @@ dotnet build mods/MyMod/MyMod.csproj -c Release
 python tools/check_licenses.py
 ```
 
-Publish the `.cs` sources: the catalog compiles the package, and no `.dll` enters Git.
+Publish the `.cs` sources: the player's Bunny Loader compiles the package, and no
+`.dll` enters Git.
 
-## 5. Refresh the audit when the catalog changes
+## 5. Publish
+
+Publish a port only after it loads on a device with no errors. The manifest `id`
+must be a C# class name (a letter, then letters, digits or `_`), or the app refuses
+the package.
+
+1. Commit the port and push it. The Release tag must point to its published sources.
+2. Check the package with no network:
+
+   ```bash
+   python tools/publish.py MyMod --dry-run
+   ```
+
+3. Publish:
+
+   ```bash
+   python tools/publish.py MyMod
+   ```
+
+For a new version, raise `version` in `manifest.json` first. The script refuses a
+version that is already published with another file, and a version older than the
+published one. [README.md](README.md#the-online-catalog) describes `store/` and the
+token.
+
+## 6. Refresh the audit when the catalog changes
 
 The catalog changes often, and a mod may change its license. Before porting, generate
 the audit again from a recent clone:
