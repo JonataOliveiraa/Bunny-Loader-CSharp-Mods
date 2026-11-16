@@ -1,0 +1,27 @@
+{
+  "uid": "7c1d2b4e-5a93-4f6e-9b1a-2e8d40c7a115",
+  "id": "maxluck",
+  "name": "Max Luck",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "amogus",
+      "role": "Dev",
+      "avatar": "amogus.png",
+      "color": "#E8C170"
+    }
+  ],
+  "category": "Cheat",
+  "summary": "100% drop chance trus me bro.",
+  "license": "MIT",
+  "featured": false,
+  "updated": "2026-11-03",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "dependencies": [],
+  "links": [],
+  "pages": []
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "8d0280c2-dbf5-4c66-a2fb-a1e5708dfa7d",
+  "id": "AcessoriosEmTodoLugar",
+  "name": "Acessórios em Todo Lugar",
+  "version": "1.2.0",
+  "authors": [
+    {
+      "name": "Sacola [ King of Kings ]",
+      "avatar": "sacola.png",
+      "color": "#ff6417"
+    }
+  ],
+  "category": "Jogabilidade",
+  "summary": "Acessórios e poções no inventário, Porquinho, Cofre, Forja do Defensor e Cofre do Vazio também dão o efeito, sem equipar nem beber.",
+  "updated": "2026-11-07",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "dependencies": [],
+  "type": "mod"
+}

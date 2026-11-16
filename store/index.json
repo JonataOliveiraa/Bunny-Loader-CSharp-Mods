@@ -2,6 +2,45 @@
   "format": 1,
   "mods": [
     {
+      "uid": "8d0280c2-dbf5-4c66-a2fb-a1e5708dfa7d",
+      "version": "1.2.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-AcessoriosEmTodoLugar-v1.2.0/AcessoriosEmTodoLugar.bl",
+        "sha256": "646765608c69557da4b774ce755477b616701a801e84ed3054a2c5440caf018f",
+        "size": 86913
+      },
+      "files": [
+        "manifest.json",
+        "description.md",
+        "changelog.md",
+        "authors/sacola.png"
+      ],
+      "manifest": {
+        "uid": "8d0280c2-dbf5-4c66-a2fb-a1e5708dfa7d",
+        "id": "AcessoriosEmTodoLugar",
+        "name": "Acessórios em Todo Lugar",
+        "version": "1.2.0",
+        "authors": [
+          {
+            "name": "Sacola [ King of Kings ]",
+            "avatar": "sacola.png",
+            "color": "#ff6417"
+          }
+        ],
+        "category": "Jogabilidade",
+        "summary": "Acessórios e poções no inventário, Porquinho, Cofre, Forja do Defensor e Cofre do Vazio também dão o efeito, sem equipar nem beber.",
+        "updated": "2026-11-07",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "type": "mod"
+      },
+      "publishedAt": "2026-11-16T09:07:35Z"
+    },
+    {
       "uid": "6af3b741-65ee-4f5f-99b0-77018638d9fd",
       "version": "2.0.0",
       "download": {
@@ -1088,6 +1127,49 @@
       "publishedAt": "2026-11-16T08:59:37Z"
     },
     {
+      "uid": "7c1d2b4e-5a93-4f6e-9b1a-2e8d40c7a115",
+      "version": "1.1.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-maxluck-v1.1.0/maxluck.bl",
+        "sha256": "413e7772af4afcf16d806316835e1d8d88a4c3f8d24a6bd346836a105fab2c37",
+        "size": 118143
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "description.md",
+        "authors/amogus.png"
+      ],
+      "manifest": {
+        "uid": "7c1d2b4e-5a93-4f6e-9b1a-2e8d40c7a115",
+        "id": "maxluck",
+        "name": "Max Luck",
+        "version": "1.1.0",
+        "authors": [
+          {
+            "name": "amogus",
+            "role": "Dev",
+            "avatar": "amogus.png",
+            "color": "#E8C170"
+          }
+        ],
+        "category": "Cheat",
+        "summary": "100% drop chance trus me bro.",
+        "license": "MIT",
+        "featured": false,
+        "updated": "2026-11-03",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "links": [],
+        "pages": []
+      },
+      "publishedAt": "2026-11-16T09:07:38Z"
+    },
+    {
       "uid": "7c1e9b52-3f0a-4d8e-9a64-5b2d8c6e1f47",
       "version": "2.0.1",
       "download": {
@@ -1567,6 +1649,54 @@
         "blVersion": 3
       },
       "publishedAt": "2026-11-16T09:00:04Z"
+    },
+    {
+      "uid": "7c1e5a52-3b0d-4c8e-9a41-5f2d6b8e1a93",
+      "version": "1.0.0",
+      "download": {
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-spawncharm-v1.0.0/spawncharm.bl",
+        "sha256": "749b17f77091788acc85c3c8d034b9db1116522c03ee13a421170fa02e080878",
+        "size": 126272
+      },
+      "files": [
+        "manifest.json",
+        "icon.png",
+        "banner.png",
+        "description.md",
+        "changelog.md",
+        "license.md",
+        "authors/amogus.png"
+      ],
+      "manifest": {
+        "uid": "7c1e5a52-3b0d-4c8e-9a41-5f2d6b8e1a93",
+        "id": "spawncharm",
+        "name": "SpawnCharm",
+        "version": "1.0.0",
+        "authors": [
+          {
+            "name": "amogus",
+            "role": "Dev",
+            "avatar": "amogus.png",
+            "color": "#FF7A59"
+          }
+        ],
+        "category": "Cheat",
+        "summary": "Bùa chế được ngay đầu game: tăng tốc độ spawn quái từ 1x đến 100x (chỉnh trong Mod Configuration).",
+        "license": "MIT",
+        "updated": "2026-11-02",
+        "blVersion": 3,
+        "gameVersion": [
+          301720,
+          301720
+        ],
+        "dependencies": [],
+        "theme": {
+          "accent": "#FF7A59",
+          "panel": "#3A2320",
+          "heading": "#FFE0D6"
+        }
+      },
+      "publishedAt": "2026-11-16T09:07:41Z"
     },
     {
       "uid": "8de902a2-3816-4a6b-91f8-ab80a0ce0f57",

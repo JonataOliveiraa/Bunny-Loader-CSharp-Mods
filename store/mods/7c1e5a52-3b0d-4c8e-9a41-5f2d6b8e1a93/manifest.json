@@ -1,0 +1,29 @@
+{
+  "uid": "7c1e5a52-3b0d-4c8e-9a41-5f2d6b8e1a93",
+  "id": "spawncharm",
+  "name": "SpawnCharm",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "amogus",
+      "role": "Dev",
+      "avatar": "amogus.png",
+      "color": "#FF7A59"
+    }
+  ],
+  "category": "Cheat",
+  "summary": "Bùa chế được ngay đầu game: tăng tốc độ spawn quái từ 1x đến 100x (chỉnh trong Mod Configuration).",
+  "license": "MIT",
+  "updated": "2026-11-02",
+  "blVersion": 3,
+  "gameVersion": [
+    301720,
+    301720
+  ],
+  "dependencies": [],
+  "theme": {
+    "accent": "#FF7A59",
+    "panel": "#3A2320",
+    "heading": "#FFE0D6"
+  }
+}
