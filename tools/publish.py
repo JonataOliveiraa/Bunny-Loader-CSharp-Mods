@@ -3,6 +3,7 @@
 
     python tools/publish.py hellomod [semqueda ...]   # build, check, release, index
     python tools/publish.py hellomod --dry-run        # no network and no commit
+    python tools/publish.py --package Mod.bl          # a ready package, sources not in mods/
     python tools/publish.py --remove <uid>            # out of the index and Featured
     python tools/publish.py --feature consolaria hellomod
     python tools/publish.py --feature                 # empty Featured
@@ -139,6 +140,14 @@ def committed_files(folder: str) -> dict[str, bytes]:
     return files
 
 
+def package_files(path: Path) -> dict[str, bytes]:
+    try:
+        with zipfile.ZipFile(path) as z:
+            return {i.filename: z.read(i) for i in z.infolist() if not i.is_dir()}
+    except (OSError, zipfile.BadZipFile) as e:
+        raise Fail(f"{path.name}: not a readable zip ({e})")
+
+
 def prepare_repo(dry: bool) -> None:
     """Starts from what is on origin/main, so the index is never built on an old copy."""
     problems = []
@@ -222,8 +231,9 @@ def pack(files: dict[str, bytes]) -> bytes:
 class Port:
     """mods/<folder>/ as it will reach players, checked with the app's import rules."""
 
-    def __init__(self, folder: str, files: dict[str, bytes]):
+    def __init__(self, folder: str, files: dict[str, bytes], from_sources: bool = True):
         self.folder = folder
+        self.from_sources = from_sources
         if not files:
             raise Fail(f"mods/{folder}: nothing committed; commit the port first")
         self.files = {rel: data for rel, data in files.items() if packaged(rel)}
@@ -407,7 +417,8 @@ def release(port: Port, dry: bool) -> None:
                      f"- uid: `{port.uid}`\n"
                      f"- sha256: `{port.sha256}`\n"
                      f"- license: {port.manifest.get('license') or 'see license.md'}\n"
-                     f"- sources: https://github.com/{OWNER}/{REPO}/tree/{commit}/mods/{port.folder}\n"),
+                     + (f"- sources: https://github.com/{OWNER}/{REPO}/tree/{commit}/mods/{port.folder}\n"
+                        if port.from_sources else "")),
             "make_latest": "false",
         })
     q = urllib.parse.urlencode({"name": port.asset})
@@ -503,7 +514,7 @@ def store_for(dry: bool) -> Path:
 
 # ------------------------------------------------------------------ commands
 
-def publish(folders: list[str], dry: bool) -> None:
+def publish(folders: list[str], dry: bool, packages: list[Path] = ()) -> None:
     prepare_repo(dry)
     check_licenses()
     ports = []
@@ -514,6 +525,12 @@ def publish(folders: list[str], dry: bool) -> None:
         check_port_pushed(folder, dry)
         port = Port(folder, committed_files(f"mods/{folder}"))
         build(folder)
+        print(f"  {port.name} v{port.version} ({port.uid})")
+        print(f"  {port.asset}: {port.size} bytes, sha256 {port.sha256}")
+        ports.append(port)
+    for path in packages:
+        print(path.name)
+        port = Port(path.name, package_files(path), from_sources=False)
         print(f"  {port.name} v{port.version} ({port.uid})")
         print(f"  {port.asset}: {port.size} bytes, sha256 {port.sha256}")
         ports.append(port)
@@ -573,6 +590,8 @@ def feature(keys: list[str], dry: bool) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("ports", nargs="*", metavar="Id", help="folders in mods/ to publish")
+    ap.add_argument("--package", nargs="+", default=[], metavar="FILE",
+                    help="ready .bl or .zip packages whose sources are not in mods/")
     ap.add_argument("--dry-run", action="store_true", help="check and pack, with no network and no commit")
     ap.add_argument("--remove", metavar="UID", help="take a mod out of the index and Featured")
     ap.add_argument("--feature", nargs="*", metavar="UID_OR_ID", help="rewrite Featured in this order")
@@ -582,8 +601,8 @@ def main() -> int:
             remove(args.remove, args.dry_run)
         elif args.feature is not None:
             feature(args.feature, args.dry_run)
-        elif args.ports:
-            publish(args.ports, args.dry_run)
+        elif args.ports or args.package:
+            publish(args.ports, args.dry_run, [Path(p) for p in args.package])
         else:
             ap.print_help()
             return 2
