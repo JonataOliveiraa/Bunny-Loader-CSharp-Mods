@@ -42,11 +42,11 @@
     },
     {
       "uid": "6062287e-8090-4a62-b5b1-a825c40f41a7",
-      "version": "1.5.4.13",
+      "version": "1.5.5.0",
       "download": {
-        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-ArcheryOverhaul-v1.5.4.13/ArcheryOverhaul.bl",
-        "sha256": "69411f0353b262b52a6f96b6d8c09a83d351e98a9e4eaf59ead327b407952c84",
-        "size": 611562
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-ArcheryOverhaul-v1.5.5.0/ArcheryOverhaul.bl",
+        "sha256": "c349892af241a63ae14579a1812e8603529f6617fa545de6712e4ba87f267104",
+        "size": 706921
       },
       "files": [
         "manifest.json",
@@ -63,7 +63,7 @@
         "localizedSummaries": {
           "en-US": "Archery Overhaul for Bunny Loader: 50+ bows, 25 arrows, crossbows, quivers that show on your back, arrow bags, grenades, armor, an Archer NPC, crit shockwaves, arrow gores and a full set of config options."
         },
-        "version": "1.5.4.13",
+        "version": "1.5.5.0",
         "authors": [
           {
             "name": "likethescarletnight",
