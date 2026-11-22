@@ -1270,45 +1270,85 @@
     },
     {
       "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
-      "version": "0.1.55",
+      "version": "1.0.0",
       "download": {
-        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-MountAndJourney-v0.1.55/MountAndJourney.bl",
-        "sha256": "39ccb1edc67d357fdc542970e875cb2d05f0f215acb022764fc88c0bae851421",
-        "size": 727467
+        "url": "https://github.com/JonataOliveiraa/Bunny-Loader-CSharp-Mods/releases/download/mod-MountAndJourneyFM-v1.0.0/MountAndJourneyFM.bl",
+        "sha256": "08568256c91a2c9982a5e8651f7d7c0636661d0cc0cec580b483e830b13a421b",
+        "size": 801588
       },
       "files": [
         "manifest.json",
         "icon.png",
         "banner.png",
-        "description.md"
+        "description.md",
+        "description_en-US.md",
+        "description_es-ES.md",
+        "description_ru-RU.md",
+        "description_th-TH.md",
+        "description_vi-VN.md",
+        "description_zh-Hans.md",
+        "authors/qz.png",
+        "authors/real.png"
       ],
       "manifest": {
         "uid": "ff3c9951-6fe1-4219-96bf-ddb85446a749",
-        "id": "MountAndJourney",
+        "id": "MountAndJourneyFM",
         "name": "Mount and Journey FM",
-        "localizedSummaries": {
-          "pt-BR": "Descrições multilinha dos buffs compactadas nos sete idiomas para a interface mobile. Mecânicas e drops preservados."
-        },
-        "version": "0.1.55",
-        "authors": [
-          {
-            "name": "REAL",
-            "role": "Adaptação para Bunny Loader"
-          }
-        ],
-        "category": "Montarias",
-        "summary": "Compact multiline buff descriptions across seven languages for mobile tooltips. Gameplay unchanged.",
-        "license": "Unknown - source attribution required",
-        "updated": "2026-11-09",
+        "version": "1.0.0",
+        "category": "Mounts",
+        "summary": "Explore the game with new mounts.",
+        "updated": "2026-11-20",
         "blVersion": 3,
         "gameVersion": [
           301720,
           301720
         ],
         "dependencies": [],
-        "links": [],
-        "type": "mod",
-        "author": "Real"
+        "authors": [
+          {
+            "name": "Real",
+            "role": "Port",
+            "avatar": "real.png",
+            "color": "#FF630F",
+            "link": "https://github.com/REAL-D3V"
+          },
+          {
+            "name": "Qz",
+            "role": "Mount and Journey Original Mod",
+            "avatar": "qz.png",
+            "color": "#16CC9F",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2816205775"
+          }
+        ],
+        "localizedSummaries": {
+          "pt-BR": "Explore o jogo com novas montarias.",
+          "en-US": "Explore the game with new mounts.",
+          "es-ES": "Explora el juego con nuevas monturas.",
+          "ru-RU": "Исследуйте игру с новыми скакунами.",
+          "th-TH": "สำรวจเกมด้วยพาหนะใหม่",
+          "vi-VN": "Khám phá trò chơi với những thú cưỡi mới.",
+          "zh-Hans": "骑上全新坐骑，探索游戏世界。"
+        },
+        "license": "All rights reserved (Qz)",
+        "links": [
+          {
+            "title": "Original Mod",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2816205775"
+          },
+          {
+            "title": "Wiki",
+            "url": "https://terrariamods.wiki.gg/wiki/Mount_and_Journey"
+          }
+        ],
+        "theme": {
+          "accent": "#8FE8D0",
+          "panel": "#161D52",
+          "text": "#E4ECFF",
+          "heading": "#FFFFFF",
+          "button": "#3A63E0",
+          "buttonText": "#FFFFFF",
+          "background": "#0C1033"
+        }
       },
       "publishedAt": "2026-11-16T09:17:35Z"
     },
