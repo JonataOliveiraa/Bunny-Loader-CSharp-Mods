@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updatedAt": "2026-11-25T21:51:25Z",
+  "updatedAt": "2026-11-26T08:38:20Z",
   "mods": [
     {
       "uid": "f7c355cb-8b92-4b31-9a92-5e3fbb23f4db",
@@ -8,7 +8,7 @@
     },
     {
       "uid": "cefdf353-c563-4845-b253-85a851e5d84c",
-      "downloads": 41
+      "downloads": 43
     },
     {
       "uid": "ed06a60f-5b26-47ab-b684-e801ff88f2aa",
@@ -40,7 +40,7 @@
     },
     {
       "uid": "cece9409-844d-476a-8953-1a59de78db92",
-      "downloads": 21
+      "downloads": 22
     }
   ]
 }
